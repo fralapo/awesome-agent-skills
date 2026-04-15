@@ -312,4 +312,4 @@ If the user asks you to *improve* or *humanize* an existing README (rather than 
 
 ## Related skills
 
-- [`humanizer`](../humanizer/) — full Wikipedia "Signs of AI writing" treatment; hand off long-form README prose for a deep humanization pass.
+- [`humanizer`](https://github.com/blader/humanizer) — full Wikipedia "Signs of AI writing" treatment; hand off long-form README prose for a deep humanization pass.
