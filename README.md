@@ -3,15 +3,17 @@
 <h1 align="center">awesome-agent-skills</h1>
 
 <p align="center">
-  A small, opinionated set of <a href="https://docs.claude.com/en/docs/claude-code/skills">Claude Code skills</a> I actually use.
+  A small, opinionated set of agent skills I actually use.
   Each one is mined from a corpus of 200+ real community examples, not generated from scratch.
+  <br>
+  Built on <a href="https://docs.claude.com/en/docs/claude-code/skills">Claude Code's skill format</a>, works with any agent that reads <code>SKILL.md</code> + <code>references/</code>.
 </p>
 
 <p align="center">
   <a href="https://github.com/fralapo/awesome-agent-skills/stargazers"><img src="https://img.shields.io/github/stars/fralapo/awesome-agent-skills?style=for-the-badge" alt="Stars"></a>
   <a href="https://github.com/fralapo/awesome-agent-skills/commits/main"><img src="https://img.shields.io/github/last-commit/fralapo/awesome-agent-skills?style=for-the-badge" alt="Last commit"></a>
   <img src="https://img.shields.io/badge/skills-3-2ea44f?style=for-the-badge" alt="Skills count">
-  <img src="https://img.shields.io/badge/Claude%20Code-compatible-5A67D8?style=for-the-badge" alt="Claude Code compatible">
+  <img src="https://img.shields.io/badge/agent%20skills-SKILL.md-5A67D8?style=for-the-badge" alt="Agent skills format">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/fralapo/awesome-agent-skills?style=for-the-badge" alt="License"></a>
 </p>
 
@@ -19,7 +21,7 @@
 
 ## What's in here
 
-Three skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) plus a `references/` directory for deep-dive material. Claude Code matches the `description` field against whatever you're asking, and loads the skill only when it's relevant. No eager bloat.
+Three skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) plus a `references/` directory for deep-dive material. The agent (Claude Code, or any tool that reads the same format) matches the `description` field against whatever you're asking and loads the skill only when it's relevant. No eager bloat.
 
 | Skill | What it does | Corpus mined | Typical trigger |
 |---|---|---|---|
@@ -34,6 +36,8 @@ More coming when I build one that earns its place. I'd rather ship three that wo
 ## Install
 
 Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `nano-banana-prompts`, or `awesome-readme`).
+
+Commands below target Claude Code's default skills dir (`~/.claude/skills/`). Other agents: swap the destination for whatever path your tool reads (commonly `~/.config/<agent>/skills/` or `.agent/skills/` in a project root).
 
 ### Symlink one skill (recommended — updates follow `git pull`)
 
@@ -74,7 +78,7 @@ for d in ~/src/awesome-agent-skills/skills/*/; do
 done
 ```
 
-Restart Claude Code after install. Skills load at startup.
+Restart the agent after install. Most tools load skills at startup.
 
 ---
 
@@ -89,7 +93,7 @@ skills/<skill-name>/
     └── examples.md
 ```
 
-The frontmatter `description` field is the matcher. Keep it specific and keyword-dense; Claude Code uses it to decide whether to load the skill at all.
+The frontmatter `description` field is the matcher. Keep it specific and keyword-dense; the agent uses it to decide whether to load the skill at all.
 
 ---
 
@@ -103,7 +107,7 @@ The pattern is consistent across all three skills in this repo:
 4. **Push depth into `references/`.** Topical files. Loaded on demand when the agent follows a link.
 5. **Cite sources.** When a template or pattern came from a specific public repo, it gets named in `examples.md` or the frontmatter `analyzed_repos` list.
 
-If you're writing your own Claude Code skills, those five steps are the only ones that have mattered for me. Everything else is decoration.
+If you're writing your own agent skills, those five steps are the only ones that have mattered for me. Everything else is decoration.
 
 ---
 
