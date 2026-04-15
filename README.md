@@ -9,6 +9,7 @@ Each skill is a self-contained folder with a `SKILL.md` (frontmatter-declared tr
 | Skill | What it does | Trigger keywords |
 |-------|-------------|------------------|
 | [`seedance-prompts`](./skills/seedance-prompts/) | Write production-grade prompts for ByteDance Seedance 2.0 video generation — 3-shot timecoded storyboards, multi-modal references (`@图片`/`@视频`/`@audio`), 15 category templates, full camera/lens/lighting vocab, 12 curated working examples. Built from 195+ prompts across 3 awesome-lists. | `seedance`, `seedance 2.0`, `bytedance video`, `text-to-video prompt` |
+| [`nano-banana-prompts`](./skills/nano-banana-prompts/) | Write production-grade prompts for Google Nano Banana (Gemini 2.5 Flash Image) and Nano Banana Pro image generation/editing — two-tier model guidance, 15 fill-in templates (headshot, bento infographic, 3D diorama, split-view render, etc.), identity-preservation ranking, structured JSON/YAML/XML prompt shapes, text-in-image rendering, 15 curated working examples. Built from ~600 prompts across 5 awesome-lists. | `nano banana`, `nano banana pro`, `gemini 2.5 flash image`, `gemini image gen` |
 
 More skills coming.
 
