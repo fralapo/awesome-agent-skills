@@ -1,78 +1,126 @@
-# agent-skills
+<a id="readme-top"></a>
 
-Personal collection of **Claude Code skills** — curated, production-grade, ready to drop into any `~/.claude/skills/` directory.
+<h1 align="center">awesome-agent-skills</h1>
 
-Each skill is a self-contained folder with a `SKILL.md` (frontmatter-declared trigger + workflow) and optional `references/` for deep-dive material. Claude Code auto-loads the skill when its `description` matches the task at hand.
+<p align="center">
+  A small, opinionated set of <a href="https://docs.claude.com/en/docs/claude-code/skills">Claude Code skills</a> I actually use.
+  Each one is mined from a corpus of 200+ real community examples, not generated from scratch.
+</p>
 
-## Skills in this repo
+<p align="center">
+  <a href="https://github.com/fralapo/awesome-agent-skills/stargazers"><img src="https://img.shields.io/github/stars/fralapo/awesome-agent-skills?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/fralapo/awesome-agent-skills/commits/main"><img src="https://img.shields.io/github/last-commit/fralapo/awesome-agent-skills?style=for-the-badge" alt="Last commit"></a>
+  <img src="https://img.shields.io/badge/skills-3-2ea44f?style=for-the-badge" alt="Skills count">
+  <img src="https://img.shields.io/badge/Claude%20Code-compatible-5A67D8?style=for-the-badge" alt="Claude Code compatible">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/fralapo/awesome-agent-skills?style=for-the-badge" alt="License"></a>
+</p>
 
-| Skill | What it does | Trigger keywords |
-|-------|-------------|------------------|
-| [`seedance-prompts`](./skills/seedance-prompts/) | Write production-grade prompts for **ByteDance Seedance 2.0** video generation — 3-shot timecoded storyboards, multi-modal references (`@图片`/`@视频`/`@audio`), 15 category templates, full camera/lens/lighting vocab, 12 curated working examples. Built from 195+ prompts across 3 awesome-lists. | `seedance`, `seedance 2.0`, `bytedance video`, `text-to-video prompt` |
-| [`nano-banana-prompts`](./skills/nano-banana-prompts/) | Write production-grade prompts for **Google Nano Banana** (Gemini 2.5 Flash Image) and **Nano Banana Pro** image generation/editing — two-tier model guidance, 15 fill-in templates (headshot, bento infographic, 3D diorama, split-view render, etc.), identity-preservation ranking, structured JSON/YAML/XML prompt shapes, text-in-image rendering, 15 curated working examples. Built from ~600 prompts across 5 awesome-lists. | `nano banana`, `nano banana pro`, `gemini 2.5 flash image`, `gemini image gen` |
-| [`awesome-readme`](./skills/awesome-readme/) | Write awesome-list-worthy **GitHub README.md** files with prose that reads as human-written — project READMEs (library, CLI, web/desktop app, research, template, monorepo) and profile READMEs. Covers section catalog, shields.io badge stacks, banner/logo/GIF recipes, TOC + back-to-top patterns, `<details>` collapses, contrib.rocks/github-readme-stats/typing SVG widgets, Standard-Readme spec, README-Driven-Development, structural and prose anti-patterns. Includes a dedicated anti-AI-slop audit pass (integrates the `humanizer` skill's Wikipedia "Signs of AI writing" patterns tuned for README prose) and 8 full templates ready to paste. Built from Best-README-Template, matiassingers/awesome-readme (~100 examples), abhisheknaiidu/awesome-github-profile-readme, Standard-Readme, Make-a-README, Utrecht reproducibility guide, and Tom Preston-Werner's RDD essay. | `readme`, `awesome readme`, `github readme`, `profile readme`, `humanize readme`, `shields.io`, `badges`, `best-readme-template`, `standard-readme`, `readme generator` |
+---
 
-More skills coming.
+## What's in here
+
+Three skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) plus a `references/` directory for deep-dive material. Claude Code matches the `description` field against whatever you're asking, and loads the skill only when it's relevant. No eager bloat.
+
+| Skill | What it does | Corpus mined | Typical trigger |
+|---|---|---|---|
+| [`seedance-prompts`](./skills/seedance-prompts/) | Prompt templates for **ByteDance Seedance 2.0** video generation. Timecoded 3-shot storyboards, camera-move vocab, 15 category templates, multi-modal references (`@图片`/`@视频`/`@audio`), 12 curated examples. | ~195 prompts across 3 awesome-lists | `seedance`, `bytedance video`, `text-to-video prompt` |
+| [`nano-banana-prompts`](./skills/nano-banana-prompts/) | Prompt templates for **Google Nano Banana** and **Nano Banana Pro** (Gemini 2.5 Flash Image). Two-tier model guidance, 15 fill-in templates (headshot, bento infographic, 3D diorama, split-view render), identity-preservation ranking, structured JSON/YAML/XML shapes, text-in-image rendering, 15 worked examples. | ~600 prompts across 5 awesome-lists | `nano banana`, `gemini 2.5 flash image`, `gemini image gen` |
+| [`awesome-readme`](./skills/awesome-readme/) | Write GitHub READMEs that land on awesome-lists and still sound human. 8 full templates (library/CLI/webapp/desktop/research/template-repo/monorepo/profile), shields.io badge library, banner/logo/GIF recipes, profile-README widget catalog, anti-patterns, and a dedicated anti-AI-slop audit pass integrating the `humanizer` skill's Wikipedia *Signs of AI writing* patterns. | Best-README-Template + ~100 awesome-readme entries + Standard-Readme + Make-a-README + RDD essay | `readme`, `awesome readme`, `github readme`, `humanize readme` |
+
+More coming when I build one that earns its place. I'd rather ship three that work than twenty that almost do.
+
+---
 
 ## Install
 
-Replace `<skill-name>` below with the skill you want (e.g. `seedance-prompts` or `nano-banana-prompts`).
+Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `nano-banana-prompts`, or `awesome-readme`).
 
-### Option 1 — symlink a single skill (recommended, auto-updates on `git pull`)
+### Symlink one skill (recommended — updates follow `git pull`)
 
-```bash
-# Windows (PowerShell as admin)
-New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\skills\<skill-name>" -Target "$PWD\skills\<skill-name>"
-
-# macOS / Linux
-ln -s "$PWD/skills/<skill-name>" ~/.claude/skills/<skill-name>
+**macOS / Linux:**
+```sh
+git clone https://github.com/fralapo/awesome-agent-skills.git ~/src/awesome-agent-skills
+ln -s ~/src/awesome-agent-skills/skills/<skill> ~/.claude/skills/<skill>
 ```
 
-### Option 2 — copy (static snapshot)
-
-```bash
-# Windows
-xcopy /E /I skills\<skill-name> %USERPROFILE%\.claude\skills\<skill-name>
-
-# macOS / Linux
-cp -r skills/<skill-name> ~/.claude/skills/
+**Windows (PowerShell, admin or developer mode):**
+```powershell
+git clone https://github.com/fralapo/awesome-agent-skills.git $env:USERPROFILE\src\awesome-agent-skills
+New-Item -ItemType SymbolicLink `
+  -Path "$env:USERPROFILE\.claude\skills\<skill>" `
+  -Target "$env:USERPROFILE\src\awesome-agent-skills\skills\<skill>"
 ```
 
-### Option 3 — clone the whole thing and symlink every skill
+### Copy (static snapshot, no auto-update)
 
-```bash
-git clone https://github.com/fralapo/agent-skills.git ~/src/agent-skills
+**macOS / Linux:**
+```sh
+git clone https://github.com/fralapo/awesome-agent-skills.git
+cp -r awesome-agent-skills/skills/<skill> ~/.claude/skills/
+```
 
-# macOS / Linux — symlink all skills at once
-for d in ~/src/agent-skills/skills/*/; do
+**Windows:**
+```powershell
+git clone https://github.com/fralapo/awesome-agent-skills.git
+xcopy /E /I awesome-agent-skills\skills\<skill> $env:USERPROFILE\.claude\skills\<skill>
+```
+
+### Symlink every skill at once (macOS / Linux)
+
+```sh
+git clone https://github.com/fralapo/awesome-agent-skills.git ~/src/awesome-agent-skills
+for d in ~/src/awesome-agent-skills/skills/*/; do
   ln -s "$d" ~/.claude/skills/
 done
 ```
 
-## Anatomy of a skill
+Restart Claude Code after install. Skills load at startup.
+
+---
+
+## How a skill is organized
 
 ```
 skills/<skill-name>/
 ├── SKILL.md              # required — frontmatter (name, description) + workflow
-└── references/           # optional — deep-dive material loaded on demand
+└── references/           # optional — deep-dive files loaded only when relevant
     ├── patterns.md
     ├── templates.md
     └── examples.md
 ```
 
-The `description` field in the frontmatter is what Claude Code matches against user intent — keep it specific and keyword-rich.
+The frontmatter `description` field is the matcher. Keep it specific and keyword-dense; Claude Code uses it to decide whether to load the skill at all.
 
-### Typical authoring flow
+---
 
-1. Mine a corpus (community awesome-lists, docs, internal prompts) for recurring patterns.
-2. Draft `SKILL.md` — frontmatter + short overview + quick rules. Keep it short; push detail into `references/`.
-3. Split deep material into topical reference files (`patterns.md`, `templates.md`, `examples.md`, etc.).
-4. Cite sources in `examples.md` when reproducing community prompts.
+## How I build them
+
+The pattern is consistent across all three skills in this repo:
+
+1. **Mine a real corpus.** Community awesome-lists, vendor docs, internal notes. Several hundred examples minimum. I don't write skills from imagination.
+2. **Cluster what actually recurs.** Templates, anti-patterns, category-specific moves. Things a real prompter or writer reaches for ten times a week.
+3. **Write `SKILL.md` short.** Frontmatter, when-to-use, quick rules, pointers into references. The agent reads this at load time; every extra paragraph costs context.
+4. **Push depth into `references/`.** Topical files. Loaded on demand when the agent follows a link.
+5. **Cite sources.** When a template or pattern came from a specific public repo, it gets named in `examples.md` or the frontmatter `analyzed_repos` list.
+
+If you're writing your own Claude Code skills, those five steps are the only ones that have mattered for me. Everything else is decoration.
+
+---
 
 ## Contributing
 
-Personal repo. Additions follow the structural conventions above.
+Personal repo, but useful PRs get in. The bar:
+
+- **New skill:** must match the structure above and cite its corpus
+- **Skill improvement:** cite the specific pattern that motivated the change
+- **Bug fix:** the smallest diff that fixes the thing
+
+Open an issue before a large PR so neither of us wastes time.
+
+---
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+[MIT](LICENSE).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
