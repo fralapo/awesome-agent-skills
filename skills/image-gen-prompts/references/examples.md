@@ -2,7 +2,9 @@
 
 Each example is a real prompt that produced good output in the source repo. Use as reference shapes, not verbatim — swap in your own subject/constraints.
 
-Attribution: all prompts from the 5 community repos analyzed (Super-Maker-AI, YouMind-OpenLab, PicoTrex, jimmylv, ZeroLu). Original authors noted where known.
+Attribution: prompts from the 9 community repos and 3 reference sites analyzed (Super-Maker-AI, YouMind-OpenLab nano-banana-pro, PicoTrex, jimmylv, ZeroLu/awesome-nanobanana-pro, ZeroLu/awesome-gpt-image, YouMind-OpenLab/awesome-gpt-image-2, EvoLinkAI/awesome-gpt-image-2-prompts, marc-aurele-besner/prompts, openart.ai packaging-design + mockup posts, godofprompt.ai prompt marketplace). Original authors noted where known.
+
+Each example header tags its origin model (`Best on:` line) — the prompt was confirmed to work on that model in source. Most natural-language prompts also work on the other Pro-tier natural-language models with minor adjustments.
 
 ---
 
@@ -355,6 +357,227 @@ location lookup is a strong Gemini capability.
 
 ---
 
+## 16. RAW iPhone Subway Candid (GPT Image 2)
+
+Best on: GPT Image 2.
+
+Source: @WolfRiccardo via `ZeroLu/awesome-gpt-image`.
+
+```
+Create a completely RAW quality, unprocessed, unedited image with full iPhone camera quality.
+A subway station in USA, a momentary blur. The subway is in motion. In front of the subway,
+there is an elderly woman and man.
+```
+
+---
+
+## 17. Convenience-Store Night Slice (GPT Image 2)
+
+Best on: GPT Image 2 (also runs on Nano Banana Pro with anti-glamour clause).
+
+Source: 卡尔的AI沃茨 via `ZeroLu/awesome-gpt-image`.
+
+```
+Create an ultra-realistic urban street group photo at a convenience store entrance at 10 PM
+summer night. 3-4 young people briefly chatting at the entrance, someone holding drinks,
+someone sitting on plastic outdoor chairs, someone standing looking at their phone.
+
+Bright white light streaming through the glass doors and windows, warm yellow street lights
+and distant car headlights outside. Characters wearing everyday clothes: T-shirts, shirts,
+shorts, jeans, sneakers. No internet celebrity styling. Faces and postures must look like
+real pedestrians, not overly polished.
+
+Environment must include real convenience store elements: freezer stickers, promotional posters,
+trash cans, entrance mats, glass reflections, shared bikes on roadside, water droplets from
+drink bottles on ground.
+
+The image should look like a very authentic life slice captured by a photographer in the city.
+Focus on testing natural multi-person interactions, night convenience store lighting, glass
+reflections, and ordinary people's vibe restoration.
+```
+
+---
+
+## 18. Exploded-View VR Headset Poster (GPT Image 2 / JSON)
+
+Best on: GPT Image 2.
+
+Source: featured prompt via `YouMind-OpenLab/awesome-gpt-image-2`.
+
+```json
+{
+  "type": "exploded view product diagram poster",
+  "subject": "VR headset",
+  "style": "clean high-tech 3D render, studio lighting, glowing accents",
+  "background": "{argument name=\"background color\" default=\"soft purple and blue gradient\"}",
+  "header": {
+    "logo": "∞ {argument name=\"product name\" default=\"Meta Quest 3\"}",
+    "subtitle": "{argument name=\"main catchphrase\" default=\"new reality, new structure\"}"
+  },
+  "layout": {
+    "centerpiece": "vertically stacked exploded view of a VR headset showing 9 distinct layers of internal components: outer shell, camera sensors, motherboard with chip, pancake lenses, internal frame, battery packs, side straps, top strap, and facial interface cushion.",
+    "callout_labels": {
+      "count": 8,
+      "left_side": [
+        "Snapdragon® XR2 Gen 2 — overwhelming processing power for real-time experience",
+        "Adjustable IPD mechanism — comfortable fit for a wide range of users",
+        "Precision-engineered head strap — ergonomics tuned for long sessions"
+      ],
+      "right_side": [
+        "Faceplate — refined design and balanced weight distribution",
+        "Tracking cameras — high-precision positional tracking and environment recognition",
+        "Pancake lenses — slim profile, wide field of view, sharp imagery",
+        "High-performance battery — optimized power for long runtime",
+        "Soft face interface — comfort that lasts during extended wear"
+      ]
+    },
+    "footer": {
+      "headline": "Experience evolves from structure",
+      "body": "Every component is built to support immersion. Meta Quest 3 surfaces the future from the inside out."
+    }
+  }
+}
+```
+
+---
+
+## 19. 35mm Direct-Flash Editorial Portrait (GPT Image 2)
+
+Best on: GPT Image 2 (also runs on Nano Banana Pro / FLUX Krea).
+
+Source: @BubbleBrain via `ZeroLu/awesome-gpt-image`.
+
+Excerpted prompt shape (full original is much longer):
+
+```
+35mm color film photography with harsh direct on-camera flash, specular highlights on skin
+and clothing, strong catchlights in eyes, high contrast flash illumination, authentic film
+grain and color shift, high-fashion fresh innocent [SETTING] editorial style.
+
+Intimate first-person low-angle POV shot from below.
+
+Subject: [DETAILED_SUBJECT_DESCRIPTION].
+Wardrobe: [WARDROBE].
+Pose: [POSE_DETAIL].
+Expression / gaze: [EXPRESSION].
+
+Harsh direct on-camera flash creating sharp specular highlights and strong catchlights.
+Background: [BG_DESCRIPTION] with motion blur or shallow DOF.
+
+High contrast film color grading with natural flash look. Extremely sharp yet soft skin
+rendering. Authentic 35mm direct flash aesthetic. Natural hair strands. Realistic fabric texture.
+
+NO plastic skin, NO digital over-sharpening, NO airbrushing, NO blemishes, NO moles,
+NO oily skin, NO watermark, NO text.
+
+[Aspect ratio, e.g. --ar 9:16 / "9:16 vertical"].
+```
+
+---
+
+## 20. 360 Equirectangular Panorama (Brevity Prompt)
+
+Best on: GPT Image 2 (model resolves the equirectangular projection prior).
+
+Source: @LexnLin via `ZeroLu/awesome-gpt-image`.
+
+```
+360 equirectangular image of [PLACE]
+```
+
+Like the emoji-combination prompt (#14), proof that extreme brevity works when the model has a strong prior.
+
+---
+
+## 21. Luxury Perfume on Marble Vanity (E-commerce Main Image)
+
+Best on: GPT Image 2 (high-fidelity reflective product surfaces). Also runs on Imagen 4 / FLUX Krea.
+
+Source: `EvoLinkAI/awesome-gpt-image-2-prompts` Case 118 (@MiguelMaestroIA).
+
+Prompt shape:
+
+```
+Ultra-realistic e-commerce main image. A frosted-amber [PERFUME_BOTTLE] of "[BRAND_NAME]"
+displayed on a polished marble vanity. Surrounding props: [PETAL_OR_BOTANICAL_DETAILS,
+EAU-DE-PARFUM_BOX, ATOMIZER_PUFF].
+Lighting: warm directional key from upper-right, soft fill from front, gentle rim along
+the bottle's left edge, specular highlight on the cap. Subtle reflection on the marble surface.
+Camera: 100mm f/8 macro, 3/4 frontal, slight elevation, sharp focus on the front label.
+Label reads "[BRAND_NAME]" in [FONT]. Crisp letterpress feel, no warping.
+Color palette: warm ambers, ivory, polished gold accents.
+1:1 square e-commerce hero, ample padding, premium editorial mood.
+```
+
+---
+
+## 22. 9-Panel Product TVC Storyboard
+
+Best on: GPT Image 2 (single-prompt cross-panel consistency).
+
+Source: `EvoLinkAI/awesome-gpt-image-2-prompts` Case 160 (@Magncsans).
+
+```
+Generate a 9-panel TVC storyboard for [PRODUCT_NAME], 3x3 grid, 16:9 frame.
+Same product across all panels — identical packaging design, color, and proportions.
+Same overall lighting style and color grade.
+
+Panels:
+1. Wide establishing shot — [LOCATION + TIME_OF_DAY]
+2. Push-in to product on [SURFACE]
+3. Hero close-up of front label
+4. Macro detail of [SPECIFIC_FEATURE — texture, ingredient, finish]
+5. Hand interaction — opening / pouring / pressing
+6. Lifestyle context — [USER_PERSONA] using the product
+7. Result / payoff — [BEFORE/AFTER or REACTION]
+8. Brand logo card with tagline "[TAGLINE]"
+9. Call-to-action card — "[CTA_TEXT]"
+
+Each panel labeled with shot number in safe margin. Continuity across all 9. Cinematic color grading.
+```
+
+---
+
+## 23. Vintage Photo Restoration
+
+Best on: GPT Image 2 (strong restoration prior).
+
+Source: `EvoLinkAI/awesome-gpt-image-2-prompts` Case 82 (@gdb).
+
+```
+Restore the attached vintage photograph. Preserve composition, framing, the subjects' identity
+(face structure, age, period-accurate hairstyles), wardrobe, and overall era of styling.
+Repair: scratches, creases, dust, faded color, chemical staining, low contrast.
+Do NOT modernize: clothing remains period-accurate, hair/makeup remain era-correct,
+print grain remains visible.
+Output: high-resolution, gently colorized, restored photo print look.
+```
+
+---
+
+## 24. Style-to-UI Landing Page (Reference-driven)
+
+Best on: GPT Image 2.
+
+Source: `EvoLinkAI/awesome-gpt-image-2-prompts` Case 42 (@D_studioproject).
+
+```
+Create a landing page mockup using the attached image as a reference for style and color grading.
+Match the reference's saturation, contrast, typography mood, and density without copying any
+literal element.
+
+Page content:
+- Hero: large headline reading "[HERO_HEADLINE]", subhead "[SUBHEAD]", primary CTA button "[CTA_TEXT]"
+- Below hero: [N]-card feature grid with [TOPIC_LIST]
+- Footer: [FOOTER_BRIEF]
+
+Render as a hyper-realistic UI mockup displayed on a [DEVICE — slim modern laptop / 4K monitor]
+on a [SURFACE]. Soft natural daylight, gentle screen glow, subtle device reflections.
+Crisp typography. 16:9 landscape. No moiré, no text artifacts.
+```
+
+---
+
 ## Pattern Index (which file to read for what)
 
 | Need | Read |
@@ -364,4 +587,6 @@ location lookup is a strong Gemini capability.
 | Face / identity preservation issues | `identity-preservation.md` |
 | JSON / YAML / XML prompt shapes | `structured-prompts.md` |
 | Text, quotes, CJK, infographic labels | `text-rendering.md` |
+| Editing, inpainting, multi-image fusion | `editing-workflow.md` |
+| Per-model syntax / flags / params | `models/<model>.md` |
 | Copy-paste reference prompts | this file |
