@@ -460,6 +460,66 @@ Typography: clean sans-serif, [LANGUAGE]. Card frame: [FRAME_STYLE].
 Color palette: [HEX_OR_NAMED]. [Aspect ratio, e.g. 3:4].
 ```
 
+## 22g. Sticker / Emoji-Style Asset Pack
+
+Best on: GPT Image 2, Nano Banana Pro, Ideogram 3, Recraft v3 (vector). Source: `marc-aurele-besner/prompts` Case 23 + community extensions.
+
+```
+Create a set of [N] sticker designs for a [USE_CASE — messaging app / brand merch / Telegram pack].
+Each sticker features [SUBJECT — character / emotion / object] in [STYLE — bold lines and bright
+colors / pastel chibi / flat geometric].
+Consistent color palette: [HEX_LIST].
+Cropping: every sticker isolated on a [TRANSPARENT / WHITE] background, with breathing room.
+Format: PNG at [512x512 or 1024x1024], one image per sticker.
+For ChatGPT: please include a gen_id with the set.
+```
+
+## 22h. App / Favicon / Mobile Game Icon
+
+Best on: GPT Image 2, Nano Banana Pro, Recraft v3 (icon style preset).
+
+```
+Design an app icon for [APP_NAME — describe the app's core function].
+The icon should feature [CENTRAL_SYMBOL — checkmark + clock / lightning + cloud /
+playful character face] symbolizing [WHAT_IT_REPRESENTS].
+Style: [minimalist flat / soft 3D / glassmorphism / iOS gradient].
+Color scheme: [HEX_LIST or NAMED_PAIR].
+Square format with [rounded-square / squircle / circular] corners safe area.
+PNG at 1024x1024, transparent or solid color background.
+For ChatGPT: please include a gen_id.
+```
+
+## 22i. Architectural Rendering / Real-Estate Hero Image
+
+Best on: GPT Image 2, FLUX Krea, Imagen 4, Midjourney v7.
+
+```
+Create a photorealistic architectural rendering of [BUILDING_TYPE — modern eco-house /
+townhouse / commercial pavilion / garden cottage] with [DEFINING_FEATURES — large windows /
+green roof / cantilevered balcony / glass façade].
+Surroundings: [LANDSCAPE_DESCRIPTION — manicured garden / wild meadow / urban courtyard / coastal cliff].
+Time of day: [GOLDEN_HOUR / OVERCAST_AFTERNOON / BLUE_HOUR_DUSK]. Sky: [CLEAR / SCATTERED_CLOUDS].
+Style: [CLEAN_HYPER-REAL / EDITORIAL_LIFESTYLE / DREAMY_PAINTERLY].
+Camera: [3/4 EXTERIOR / DRONE_AERIAL / EYE-LEVEL_HUMAN_SCALE], 24mm or 35mm equivalent.
+Materials accurate to [WOOD / RAW_CONCRETE / WHITE_RENDER / DARK_STEEL_FRAMING + BLACK_GLASS].
+Output at [4000x3000 / 16:9 widescreen]. Sharp detail, natural soft shadows.
+```
+
+## 22j. Scientific / Medical Diagram
+
+Best on: GPT Image 2 (best at labels + accuracy), Nano Banana Pro.
+
+```
+Illustrate the [SUBJECT — anatomy of the human heart / water cycle / cell mitosis] for an
+educational [TEXTBOOK / POSTER / SLIDE]. Include detailed labels of all major parts:
+[LIST_OF_LABELS]. Connect labels with thin leader lines, no overlap.
+
+Use [REALISTIC_COLORS_AND_SHADING / FLAT_VECTOR_DIAGRAM_STYLE / TECHNICAL_LINE-ART].
+Background: clean white. Typography: [SANS-SERIF / EDUCATIONAL_SERIF], readable at print size.
+Output at [2480x3508 (A4) / 1920x1080] in [PNG / PDF] format.
+Spelling of medical terminology must be exact. No invented organs or processes.
+```
+
 ## 22f. JSON-Recreate-From-Image (Pro tier)
 
 Best on: GPT Image 2 (strong "analyze + structured-recreate" prior).

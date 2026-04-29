@@ -2,7 +2,7 @@
 
 Each example is a real prompt that produced good output in the source repo. Use as reference shapes, not verbatim — swap in your own subject/constraints.
 
-Attribution: prompts from the 8 community repos and 2 reference blog posts analyzed (Super-Maker-AI, YouMind-OpenLab nano-banana-pro, PicoTrex, jimmylv, ZeroLu/awesome-nanobanana-pro, ZeroLu/awesome-gpt-image, YouMind-OpenLab/awesome-gpt-image-2, EvoLinkAI/awesome-gpt-image-2-prompts, openart.ai packaging-design + mockup posts). Original authors noted where known.
+Attribution: prompts from the 9 community repos and 3 reference sites analyzed (Super-Maker-AI, YouMind-OpenLab nano-banana-pro, PicoTrex, jimmylv, ZeroLu/awesome-nanobanana-pro, ZeroLu/awesome-gpt-image, YouMind-OpenLab/awesome-gpt-image-2, EvoLinkAI/awesome-gpt-image-2-prompts, marc-aurele-besner/prompts, openart.ai packaging-design + mockup posts, godofprompt.ai prompt marketplace). Original authors noted where known.
 
 Each example header tags its origin model (`Best on:` line) — the prompt was confirmed to work on that model in source. Most natural-language prompts also work on the other Pro-tier natural-language models with minor adjustments.
 

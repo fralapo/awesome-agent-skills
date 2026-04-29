@@ -12,9 +12,11 @@ analyzed_repos:
   - github.com/ZeroLu/awesome-gpt-image
   - github.com/YouMind-OpenLab/awesome-gpt-image-2
   - github.com/EvoLinkAI/awesome-gpt-image-2-prompts
+  - github.com/marc-aurele-besner/prompts
   - openart.ai/blog/post/midjourney-prompts-for-packaging-design
   - openart.ai/blog/post/midjourney-prompts-for-mockup
-analyzed_prompts: ~6000
+  - godofprompt.ai
+analyzed_prompts: ~6100
 ---
 
 # Image Generation Prompt Engineering — Universal

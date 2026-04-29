@@ -39,6 +39,36 @@ For per-model syntax surface (flags, weights, reference-image addressing) see `m
 | `mirror selfie, tight composition, phone in frame` | UGC selfie |
 | `FPV close-up bokeh background` | Shallow-DoF portrait |
 
+## Format-Spec Anatomy (deliverable format + dimensions + DPI)
+
+Specify the deliverable shape, not just aspect ratio. Strongest signal on ChatGPT (DALL·E 3 / GPT Image 1) — ChatGPT respects file-format + dimension cues. Other natural-language models (GPT Image 2, Nano Banana, FLUX, Imagen) parse the cues but ignore actual file format (the API/UI controls it). Midjourney/SDXL parse via flags / output settings.
+
+| Use case | Format spec to write into prompt |
+|---|---|
+| App icon / favicon | `PNG, 512x512` (or 1024x1024) `with white or transparent background` |
+| Flat UI icon set | `PNG, 64x64 each, consistent palette` |
+| Logo (vector-friendly) | `SVG format for scalability` (note: only ChatGPT can deliver SVG-style descriptions; raster models output raster regardless) |
+| Web hero / landing | `JPEG, 1920x1080` |
+| Social banner (X/Twitter header) | `JPEG, 1500x500` |
+| Instagram post | `PNG, 1080x1080` |
+| Instagram story / Reel | `PNG, 1080x1920` |
+| YouTube thumbnail | `JPEG, 1280x720` |
+| LinkedIn header | `PNG, 1584x396` |
+| Print poster (small) | `PDF, 18x24 inches at 300 DPI` |
+| Print poster (large) | `PDF, 24x36 inches at 300 DPI` |
+| Magazine cover | `JPEG, 8.5x11 inches at 300 DPI` |
+| Business card | `PDF, 3.5x2 inches at 300 DPI` |
+| Wedding invite | `JPEG, 5x7 inches at 300 DPI` |
+| Album art | `JPEG, 3000x3000` |
+| Book / ebook cover | `JPEG, 1600x2560` (Kindle) or `JPEG, 2560x1600` |
+| Mobile wallpaper | `JPEG, 1170x2532` (iPhone) |
+| Desktop wallpaper | `JPEG, 2560x1440` or `3840x2160` (4K) |
+| Animated GIF | `GIF, 500x500, smooth loop` |
+| Sticker pack | `PNG, 512x512, transparent background` |
+| Ebook page illustration | `PNG, 2480x3508 (A4)` |
+
+For ChatGPT specifically, end the prompt with `Please include a gen_id with the delivery.` so you can reference and iterate the image later.
+
 ## Aspect Ratio Patterns
 
 | Use case | Ratio to specify |
