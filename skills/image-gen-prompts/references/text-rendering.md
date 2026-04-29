@@ -1,21 +1,28 @@
 # Rendering Text in Images
 
-Nano Banana Pro is one of the strongest open image models at rendering readable text — including CJK, long quotes, and multi-module layouts. Non-Pro handles short Latin labels only. This file covers how to get the text you want.
+The strongest open consumer models for in-image text are **Ideogram 3** (best for posters/headlines), **GPT Image 2** (best for dense multilingual / CJK), and **Nano Banana Pro** (best when integrated with reference images). Non-Pro tiers and most SD/SDXL workflows handle short Latin labels only.
 
-## Tier Cheatsheet
+## Cross-model tier cheatsheet
 
-| Capability | Nano Banana | Nano Banana Pro |
-|---|---|---|
-| Single label (< 5 words, Latin) | ✅ | ✅ |
-| Short tagline (5–15 words, Latin) | ⚠️ spelling often drifts | ✅ |
-| Full quote (15–40 words) | ❌ | ✅ |
-| Multi-line typography (headline + subtitle) | ⚠️ one line usually OK | ✅ |
-| CJK / Arabic / Cyrillic | ❌ breaks | ✅ |
-| Mixed-script (CJK + Latin in one layout) | ❌ | ✅ |
-| Small text (fine print) | ❌ mush | ⚠️ still risky, test |
-| Data tables / infographic labels | ❌ | ✅ |
+| Capability | NB | NB Pro | GPT-I-1 | GPT-I-2 | MJ v6 | MJ v7 | SDXL | SD3.5 | FLUX dev | Imagen 4 | Ideogram 3 | Recraft v3 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Single label (< 5 words, Latin) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅✅ | ✅ |
+| Short tagline (5–15 words, Latin) | ⚠️ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ❌ | ⚠️ | ✅ | ✅ | ✅✅ | ✅ |
+| Full quote (15–40 words) | ❌ | ✅ | ❌ | ✅✅ | ❌ | ⚠️ | ❌ | ❌ | ⚠️ | ✅ | ✅✅ | ⚠️ |
+| Multi-line typography (headline + subtitle) | ⚠️ | ✅ | ⚠️ | ✅✅ | ❌ | ⚠️ | ❌ | ❌ | ⚠️ | ✅ | ✅✅ | ⚠️ |
+| CJK / Arabic / Cyrillic | ❌ | ✅ | ❌ | ✅✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | ⚠️ | ⚠️ |
+| Mixed-script (CJK + Latin in one layout) | ❌ | ✅ | ❌ | ✅✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ⚠️ | ⚠️ |
+| Small text / fine print | ❌ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ |
+| Data tables / infographic labels | ❌ | ✅ | ❌ | ✅✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ |
+| Dense Chinese (menus, almanacs, propaganda) | ❌ | ✅ | ❌ | ✅✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-Default to **Pro** for anything past a one-word label.
+✅✅ = best in class. ✅ = supported. ⚠️ = partial/risky. ❌ = breaks.
+
+**Defaults**:
+- Posters / single-line headlines / brand mockups → **Ideogram 3**
+- Dense Chinese, multi-module infographics, mixed-script → **GPT Image 2**
+- Quote cards with reference images / face-anchored typography → **Nano Banana Pro**
+- Cinematic photo + short overlay text → **Midjourney v7** or **FLUX**
 
 ## Prompt Pattern for Text
 

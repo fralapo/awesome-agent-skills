@@ -1,6 +1,23 @@
 # Structured Prompts (JSON / YAML / XML)
 
-Nano Banana Pro parses **structured formats reliably**. Non-Pro handles them partially — treat structured fields as hints it may ignore. Use structure when:
+**Per-model parsing reliability:**
+
+| Model | JSON | YAML | XML/`<tag>` |
+|---|---|---|---|
+| GPT Image 2 | ✅✅ best in class — heavy nested objects respected | ✅ | ✅ |
+| Nano Banana Pro | ✅ reliable | ✅ reliable | ✅ reliable |
+| Nano Banana (standard) | ⚠️ partial | ⚠️ partial | ⚠️ partial |
+| GPT Image 1 / DALL·E 3 | ⚠️ partial | ⚠️ partial | ⚠️ partial |
+| FLUX [dev/pro] | ⚠️ partial — prefer prose | ⚠️ partial | ⚠️ partial |
+| Imagen 3/4 | ⚠️ partial — prefer prose | ⚠️ partial | ⚠️ partial |
+| Midjourney v6/v7 | ❌ — flags only | ❌ | ❌ |
+| SDXL / SD3.5 | ❌ — tag/weight only | ❌ | ❌ |
+| Ideogram 3 | ⚠️ partial | ⚠️ partial | ⚠️ partial |
+| Recraft v3 | ⚠️ partial | ⚠️ partial | ⚠️ partial |
+
+Default rule: use structured prompts on Pro-tier natural-language models (GPT Image 2, Nano Banana Pro). Use prose on Standard tier. Use tags/flags on Midjourney/SDXL.
+
+Use structure when:
 
 - The prompt has many orthogonal attributes (subject, wardrobe, lighting, background, etc.)
 - You need to reuse the same schema across many generations (templating)
@@ -170,3 +187,26 @@ Ultra-realistic 8K, natural skin texture with visible pores. Catchlights in eyes
 - **Non-Pro Nano Banana + deep nesting.** Past 3 levels of JSON nesting, non-Pro drops fields silently.
 - **Contradictions.** `"color": "red"` in JSON + "blue" in paragraph → unpredictable. Structure doesn't resolve conflicts; it amplifies them.
 - **Made-up schemas.** Model has no prior for `"vibe_intensity": 0.7` — unknown keys are ignored. Stick to observable visual attributes.
+- **Wrong model.** Pasting JSON into Midjourney's `/imagine` prompts the model with the literal `{ }` characters and pollutes output. Use prose-only on Midjourney/SDXL.
+
+## GPT Image 2 — preferred JSON shape
+
+GPT Image 2 reliably parses heavy nested objects with these top-level keys (observed in working prompts):
+
+```json
+{
+  "type": "<image type, e.g. exploded view product diagram poster>",
+  "subject": "<subject>",
+  "style": "<style description>",
+  "background": "<background description>",
+  "header": { "logo": "<>", "subtitle": "<>" },
+  "layout": {
+    "centerpiece": "<description>",
+    "callout_labels": { "count": <N>, "left_side": [...], "right_side": [...] },
+    "footer": { "headline": "<>", "body": "<>" }
+  },
+  "aspect_ratio": "9:16"
+}
+```
+
+The model treats this as a render brief, not a literal data spec — values like `count` guide quantity but won't enforce exact integer adherence past ~10.

@@ -1,6 +1,8 @@
-# Nano Banana Prompt Patterns
+# Universal Prompt Patterns
 
-Extracted from ~600 working prompts across 5 community repos. Each pattern is a building block — combine them, don't use alone.
+Extracted from ~3500 working prompts across community repos for Nano Banana, Nano Banana Pro, GPT Image 2, GPT Image 1, plus cross-checks against Midjourney / SDXL / FLUX / Imagen / Ideogram conventions. Each pattern is a building block — combine them, don't use alone.
+
+For per-model syntax surface (flags, weights, reference-image addressing) see `models/<name>.md`. The vocabulary on this page works on any natural-language model and translates with minor adjustments to flag-based ones.
 
 ## Lighting Vocabulary
 
@@ -16,6 +18,11 @@ Extracted from ~600 working prompts across 5 community repos. Each pattern is a 
 | `neon-lit, electric {color} and deep {color} lighting, high-contrast, surreal sci-fi` | Cyberpunk portrait |
 | `cinematic warm key + sculpting rim, film grain` | Editorial grit |
 | `direct front flash, 35mm lens, nostalgic glow` | 90s film portrait |
+| `harsh on-camera flash, specular highlights, strong catchlights, high-contrast film grain` | 35mm flash editorial |
+| `RAW iPhone unprocessed, full camera quality, momentary blur` | RAW iPhone aesthetic (GPT Image 2 favored) |
+| `2003 digital camera, slight noise, shallow flash falloff` | Early-digicam family snapshot |
+| `90s point-and-shoot camera quality, slight chromatic aberration` | 90s point-and-shoot |
+| `wooden lantern lighting mixed with gentle natural window light, subtle film grain` | Vintage Japanese ryokan / onsen |
 
 ## Camera / Lens Vocabulary
 
@@ -31,6 +38,36 @@ Extracted from ~600 working prompts across 5 community repos. Each pattern is a 
 | `eye-level, full-body 3/4 studio shot, slightly elevated angle` | Fashion editorial |
 | `mirror selfie, tight composition, phone in frame` | UGC selfie |
 | `FPV close-up bokeh background` | Shallow-DoF portrait |
+
+## Format-Spec Anatomy (deliverable format + dimensions + DPI)
+
+Specify the deliverable shape, not just aspect ratio. Strongest signal on ChatGPT (DALL·E 3 / GPT Image 1) — ChatGPT respects file-format + dimension cues. Other natural-language models (GPT Image 2, Nano Banana, FLUX, Imagen) parse the cues but ignore actual file format (the API/UI controls it). Midjourney/SDXL parse via flags / output settings.
+
+| Use case | Format spec to write into prompt |
+|---|---|
+| App icon / favicon | `PNG, 512x512` (or 1024x1024) `with white or transparent background` |
+| Flat UI icon set | `PNG, 64x64 each, consistent palette` |
+| Logo (vector-friendly) | `SVG format for scalability` (note: only ChatGPT can deliver SVG-style descriptions; raster models output raster regardless) |
+| Web hero / landing | `JPEG, 1920x1080` |
+| Social banner (X/Twitter header) | `JPEG, 1500x500` |
+| Instagram post | `PNG, 1080x1080` |
+| Instagram story / Reel | `PNG, 1080x1920` |
+| YouTube thumbnail | `JPEG, 1280x720` |
+| LinkedIn header | `PNG, 1584x396` |
+| Print poster (small) | `PDF, 18x24 inches at 300 DPI` |
+| Print poster (large) | `PDF, 24x36 inches at 300 DPI` |
+| Magazine cover | `JPEG, 8.5x11 inches at 300 DPI` |
+| Business card | `PDF, 3.5x2 inches at 300 DPI` |
+| Wedding invite | `JPEG, 5x7 inches at 300 DPI` |
+| Album art | `JPEG, 3000x3000` |
+| Book / ebook cover | `JPEG, 1600x2560` (Kindle) or `JPEG, 2560x1600` |
+| Mobile wallpaper | `JPEG, 1170x2532` (iPhone) |
+| Desktop wallpaper | `JPEG, 2560x1440` or `3840x2160` (4K) |
+| Animated GIF | `GIF, 500x500, smooth loop` |
+| Sticker pack | `PNG, 512x512, transparent background` |
+| Ebook page illustration | `PNG, 2480x3508 (A4)` |
+
+For ChatGPT specifically, end the prompt with `Please include a gen_id with the delivery.` so you can reference and iterate the image later.
 
 ## Aspect Ratio Patterns
 
@@ -58,11 +95,15 @@ These actually shift the output substantially:
 
 ## Identity Anchor Phrases (ranked by strength)
 
+These work on any natural-language model (Nano Banana, GPT Image 2, FLUX, Imagen). For Midjourney, use `--cref <url> --cw 100` instead. For SDXL/SD3, use IP-Adapter / InstantID at the workflow level.
+
 1. `The face must be 100% identical to the uploaded image. Do not change the face.` (strongest)
 2. `Keep the facial features of the person in the uploaded image exactly consistent.`
 3. `Same face from the reference image. Preserve: facial features, expression, hairstyle.`
 4. `The person from the attached image (uploaded image facial details).`
 5. `Based on the provided image, same face.` (weakest — use only for stylistic remixes)
+
+For multi-panel cross-image consistency on GPT Image 2 / Nano Banana Pro, layer in: `the same character from panel 1, identical wardrobe and hair`.
 
 Repeat the anchor at the top AND near the end of long prompts.
 
@@ -130,6 +171,32 @@ Spelling must be exact. Kerning and leading consistent. No misspelling.
 
 Nano Banana non-Pro: keep strings under ~15 words, Latin script only. Pro handles CJK, multi-line quotes, and longer headlines.
 
+## Anti-AI-Glamour Clause
+
+For candid / lifestyle / "real life" photos, all natural-language models default to glossy AI rendering unless explicitly vetoed. Append:
+
+```
+Realistic skin texture with visible pores, natural flyaway hairs, slight asymmetry,
+no glamour retouching, no beauty filter, no overly polished AI aesthetic.
+Faces and postures must look like real pedestrians, not styled models.
+Phone-camera perspective, not studio perfection.
+```
+
+Effective on GPT Image 2 and Nano Banana Pro. Imagen needs only the first sentence; FLUX usually doesn't need it.
+
+## Cross-Panel Consistency Pattern (Pro tier)
+
+For multi-shot character/IP series:
+
+```
+The character is the same person across all panels — identical face, hairstyle,
+wardrobe color and silhouette, age, and skin tone. Only pose, expression, and
+camera angle change between panels. Same lighting style, same color grade,
+same time-of-day across the series.
+```
+
+Strongest on GPT Image 2 and Nano Banana Pro. Midjourney v7 with `--cref` works for the face but wardrobe drift is common.
+
 ## Bento / Infographic Module Pattern (Pro only)
 
 ```
@@ -152,7 +219,7 @@ Background: {description, blur behind cards}.
 |---|---|---|
 | `[BRACKET_CAPS]` | `[CHARACTER]`, `[COLOR_THEME]`, `[SUBJECT]` | Reusable templates for humans to fill |
 | `{argument name="x" default="y"}` | `{argument name="quote" default="Stay hungry"}` | Raycast Snippets |
-| `<tag>...</tag>` | `<role>`, `<step 1>`, `<final output format>` | Multi-step meta prompts (Pro) |
+| `<tag>...</tag>` | `<role>`, `<step 1>`, `<final output format>` | Multi-step meta prompts (Pro: GPT Image 2, Nano Banana Pro) |
 | `{{mustache}}` | `{{brand}}`, `{{product}}` | Programmatic templates |
 
 Pick one convention per prompt — mixing confuses both humans and the model.
