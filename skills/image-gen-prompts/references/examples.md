@@ -2,7 +2,7 @@
 
 Each example is a real prompt that produced good output in the source repo. Use as reference shapes, not verbatim — swap in your own subject/constraints.
 
-Attribution: prompts from the 7 community repos analyzed (Super-Maker-AI, YouMind-OpenLab nano-banana-pro, PicoTrex, jimmylv, ZeroLu/awesome-nanobanana-pro, ZeroLu/awesome-gpt-image, YouMind-OpenLab/awesome-gpt-image-2). Original authors noted where known.
+Attribution: prompts from the 8 community repos and 2 reference blog posts analyzed (Super-Maker-AI, YouMind-OpenLab nano-banana-pro, PicoTrex, jimmylv, ZeroLu/awesome-nanobanana-pro, ZeroLu/awesome-gpt-image, YouMind-OpenLab/awesome-gpt-image-2, EvoLinkAI/awesome-gpt-image-2-prompts, openart.ai packaging-design + mockup posts). Original authors noted where known.
 
 Each example header tags its origin model (`Best on:` line) — the prompt was confirmed to work on that model in source. Most natural-language prompts also work on the other Pro-tier natural-language models with minor adjustments.
 
@@ -486,6 +486,95 @@ Source: @LexnLin via `ZeroLu/awesome-gpt-image`.
 ```
 
 Like the emoji-combination prompt (#14), proof that extreme brevity works when the model has a strong prior.
+
+---
+
+## 21. Luxury Perfume on Marble Vanity (E-commerce Main Image)
+
+Best on: GPT Image 2 (high-fidelity reflective product surfaces). Also runs on Imagen 4 / FLUX Krea.
+
+Source: `EvoLinkAI/awesome-gpt-image-2-prompts` Case 118 (@MiguelMaestroIA).
+
+Prompt shape:
+
+```
+Ultra-realistic e-commerce main image. A frosted-amber [PERFUME_BOTTLE] of "[BRAND_NAME]"
+displayed on a polished marble vanity. Surrounding props: [PETAL_OR_BOTANICAL_DETAILS,
+EAU-DE-PARFUM_BOX, ATOMIZER_PUFF].
+Lighting: warm directional key from upper-right, soft fill from front, gentle rim along
+the bottle's left edge, specular highlight on the cap. Subtle reflection on the marble surface.
+Camera: 100mm f/8 macro, 3/4 frontal, slight elevation, sharp focus on the front label.
+Label reads "[BRAND_NAME]" in [FONT]. Crisp letterpress feel, no warping.
+Color palette: warm ambers, ivory, polished gold accents.
+1:1 square e-commerce hero, ample padding, premium editorial mood.
+```
+
+---
+
+## 22. 9-Panel Product TVC Storyboard
+
+Best on: GPT Image 2 (single-prompt cross-panel consistency).
+
+Source: `EvoLinkAI/awesome-gpt-image-2-prompts` Case 160 (@Magncsans).
+
+```
+Generate a 9-panel TVC storyboard for [PRODUCT_NAME], 3x3 grid, 16:9 frame.
+Same product across all panels — identical packaging design, color, and proportions.
+Same overall lighting style and color grade.
+
+Panels:
+1. Wide establishing shot — [LOCATION + TIME_OF_DAY]
+2. Push-in to product on [SURFACE]
+3. Hero close-up of front label
+4. Macro detail of [SPECIFIC_FEATURE — texture, ingredient, finish]
+5. Hand interaction — opening / pouring / pressing
+6. Lifestyle context — [USER_PERSONA] using the product
+7. Result / payoff — [BEFORE/AFTER or REACTION]
+8. Brand logo card with tagline "[TAGLINE]"
+9. Call-to-action card — "[CTA_TEXT]"
+
+Each panel labeled with shot number in safe margin. Continuity across all 9. Cinematic color grading.
+```
+
+---
+
+## 23. Vintage Photo Restoration
+
+Best on: GPT Image 2 (strong restoration prior).
+
+Source: `EvoLinkAI/awesome-gpt-image-2-prompts` Case 82 (@gdb).
+
+```
+Restore the attached vintage photograph. Preserve composition, framing, the subjects' identity
+(face structure, age, period-accurate hairstyles), wardrobe, and overall era of styling.
+Repair: scratches, creases, dust, faded color, chemical staining, low contrast.
+Do NOT modernize: clothing remains period-accurate, hair/makeup remain era-correct,
+print grain remains visible.
+Output: high-resolution, gently colorized, restored photo print look.
+```
+
+---
+
+## 24. Style-to-UI Landing Page (Reference-driven)
+
+Best on: GPT Image 2.
+
+Source: `EvoLinkAI/awesome-gpt-image-2-prompts` Case 42 (@D_studioproject).
+
+```
+Create a landing page mockup using the attached image as a reference for style and color grading.
+Match the reference's saturation, contrast, typography mood, and density without copying any
+literal element.
+
+Page content:
+- Hero: large headline reading "[HERO_HEADLINE]", subhead "[SUBHEAD]", primary CTA button "[CTA_TEXT]"
+- Below hero: [N]-card feature grid with [TOPIC_LIST]
+- Footer: [FOOTER_BRIEF]
+
+Render as a hyper-realistic UI mockup displayed on a [DEVICE — slim modern laptop / 4K monitor]
+on a [SURFACE]. Soft natural daylight, gentle screen glow, subtle device reflections.
+Crisp typography. 16:9 landscape. No moiré, no text artifacts.
+```
 
 ---
 

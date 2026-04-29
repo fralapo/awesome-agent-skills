@@ -98,7 +98,43 @@ Negatives are subtractive only — they don't add positive signal. Don't dump 30
 
 Discord (`/imagine`), Midjourney web app, Midjourney REST API (where licensed). Outputs delivered as 4-grid; click U1..U4 to upscale, V1..V4 to vary.
 
+## Packaging Design — common Midjourney style cues
+
+Source: `openart.ai/blog/post/midjourney-prompts-for-packaging-design` (25 reusable style modifiers).
+Treat each as a comma-separated qualifier appended after the subject:
+
+`minimalist`, `vintage`, `eco-friendly with natural materials and earthy tones`, `luxury with gold accents`, `futuristic neon`, `hand-drawn artistic illustrations`, `bold and colorful`, `monochrome`, `geometric`, `rustic with earthy textures`, `abstract bold shapes`, `typography-focused`, `floral botanical`, `industrial metallic`, `Art Deco`, `Pop Art`, `pastel`, `high-tech digital`, `organic`, `watercolor`, `neon`, `vintage-inspired`, `modern minimalist`, `artistic illustrations`.
+
+Anatomy for packaging:
+
+```
+[PACKAGING_TYPE — bottle / box / pouch / tube / jar] of [BRAND_OR_PRODUCT_NAME], [STYLE_QUALIFIER from list],
+[MATERIAL_AND_FINISH], studio product photography, soft shadow, [BACKGROUND_DESCRIPTION],
+ample padding, sharp front-face focus
+--ar 1:1 --stylize 250 --v 7
+```
+
+For text on the label, MJ v7 only — wrap exact text in double quotes; expect occasional spelling drift past short headlines. For typography-critical packaging, render on **Ideogram 3** instead.
+
+## Mockup Family — common Midjourney patterns
+
+Source: `openart.ai/blog/post/midjourney-prompts-for-mockup` (25 mockup categories).
+Slot list: website homepage, mobile app, product packaging, business card, T-shirt, coffee cup, laptop screen, smartphone, billboard, magazine cover, book cover, shopping bag, menu, brochure, tablet, greeting card, notebook, gift box, social media post (and more).
+
+Anatomy for mockups (with optional design ref):
+
+```
+[High-resolution / Photorealistic / Realistic] mockup of [MOCKUP_TYPE], [STYLE_DESCRIPTOR e.g.
+"clean and minimalistic", "elegant and sophisticated", "casual and contemporary"], [SETTING e.g.
+"on a clean studio surface", "framed on a textured wall", "held in hand against blurred urban backdrop"]
+--cref <design_url> --cw 100 --ar <ratio> --v 7
+```
+
+`--cref` carries the uploaded design reference onto the mockup; `--cw 100` keeps full design fidelity (face/wardrobe weight is repurposed here as design weight). For the strongest possible design preservation on a complex mockup, prefer GPT Image 2 with an uploaded reference image and explicit "preserve the design from the attached image exactly" — Midjourney's `--cref` will warp logos and detailed graphics more than GPT Image 2's natural-language pipeline.
+
 ## See also
 
 - `../patterns.md` for lens/lighting vocab (works on MJ)
 - `../examples.md` for cross-model prompt comparisons
+- `../templates.md#22a-packaging-design-box--bottle--pouch--tube--can--wrapper` for the universal packaging template
+- `../templates.md#22b-mockup-family-t-shirt--hoodie--mug--phone-case--tote--cap--sticker--poster-on-wall--billboard--business-card--magazine-spread--book-cover--screen-mockup--shopping-bag--menu--brochure--notebook--gift-box` for the universal mockup template

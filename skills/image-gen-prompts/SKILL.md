@@ -11,7 +11,10 @@ analyzed_repos:
   - github.com/ZeroLu/awesome-nanobanana-pro
   - github.com/ZeroLu/awesome-gpt-image
   - github.com/YouMind-OpenLab/awesome-gpt-image-2
-analyzed_prompts: ~3500
+  - github.com/EvoLinkAI/awesome-gpt-image-2-prompts
+  - openart.ai/blog/post/midjourney-prompts-for-packaging-design
+  - openart.ai/blog/post/midjourney-prompts-for-mockup
+analyzed_prompts: ~6000
 ---
 
 # Image Generation Prompt Engineering — Universal

@@ -2,7 +2,7 @@
 
 OpenAI's next-gen image model — significant leap over GPT Image 1 / DALL·E 3 in text rendering, cross-image consistency, commercial-grade illustration, and multilingual (CJK + Latin) typography.
 
-Source repos: `ZeroLu/awesome-gpt-image`, `YouMind-OpenLab/awesome-gpt-image-2`. ~3000 prompts analyzed.
+Source repos: `ZeroLu/awesome-gpt-image`, `YouMind-OpenLab/awesome-gpt-image-2`, `EvoLinkAI/awesome-gpt-image-2-prompts`. ~5500 prompts analyzed.
 
 ## What it's best at
 
@@ -59,6 +59,12 @@ Source repos: `ZeroLu/awesome-gpt-image`, `YouMind-OpenLab/awesome-gpt-image-2`.
 - **Infographics & education** — knowledge cards, fitness guides, gaokao exams, travel guides, exploded-view product diagrams
 - **Character & consistency** — 16-panel expression grids, reference sheets, IP character series
 - **Image editing & style transfer** — photo enhancement, colorization, comic translation, before/after restoration
+- **E-commerce main image** — luxury perfume on marble, miniature diorama skincare, sustainable T-shirt with plantable tag, premium grain powder ad board, earbuds infographic, gaming motherboard studio shot, pastel-blue Crocs fashion ad, 9-panel product TVC storyboard
+- **Livestream UI mockup** — Douyin / TikTok / Twitch screenshots with chat ribbons, gift overlays, viewer counts, brand-character livestream PK
+- **Gacha-game UI screen** — full mobile game screen with HUD, banner art, summon button, item cards, chat
+- **Character reference card** — official character sheets with stats, 16-pose dance/expression grids, anime/Persona-style hybrid layouts
+- **Style-to-UI design system** — pass a reference image, model produces a UI mockup matching its style/color grade
+- **JSON-recreate-from-image** — model analyzes a reference photo, produces a JSON spec, then renders from the JSON
 
 ## JSON template that works (exploded-view poster pattern)
 

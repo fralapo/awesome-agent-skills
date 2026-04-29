@@ -337,7 +337,145 @@ post-process color grading.
 [Aspect ratio, e.g. 16:9].
 ```
 
-## 22. Knowledge Card / Educational Infographic (Pro)
+## 22a. Packaging Design (Box / Bottle / Pouch / Tube / Can / Wrapper)
+
+Best on: Midjourney v7, GPT Image 2, Ideogram 3 (when typography is the hero), FLUX Krea (photoreal materials).
+
+```
+A photorealistic studio product shot of [PRODUCT_TYPE — bottle / box / pouch / tube / can / jar]
+of [BRAND_OR_PRODUCT_NAME], standing centered on a [SURFACE — seamless paper / marble slab /
+brushed concrete / matte ceramic] sweep.
+Material/finish: [MATERIAL_AND_FINISH — frosted glass with embossed logo / soft-touch matte
+cardboard with spot UV / glossy aluminum / kraft paper with letterpress].
+Label / front graphic: [LABEL_DESCRIPTION + EXACT_TEXT — large bold sans-serif reading "[NAME]"
+upper-third, supporting line "[TAGLINE]" smaller below, ingredient list bottom-left].
+Color palette: [HEX_LIST or NAMED_COLORS].
+Lighting: large softbox key from upper-left, fill from right, subtle rim along the back edge,
+clean specular highlight on the [TOP_EDGE / SHOULDER / CAP].
+Camera: 100mm f/8, 1/2 perspective, slight elevation, sharp focus on the front face,
+ample padding around all edges.
+Subtle natural shadow beneath. No additional props unless specified.
+[Aspect ratio, e.g. 1:1 or 4:5]. Crisp surface detail, accurate brand colors, no warping on the label.
+```
+
+For Midjourney, append: ` --ar 1:1 --stylize 250 --v 7`. For SDXL/SD3, split off the negative: `cartoon, low resolution, plastic, blurry, watermark, text artifacts, deformed bottle`.
+
+## 22b. Mockup Family (T-shirt / Hoodie / Mug / Phone Case / Tote / Cap / Sticker / Poster on Wall / Billboard / Business Card / Magazine Spread / Book Cover / Screen Mockup / Shopping Bag / Menu / Brochure / Notebook / Gift Box)
+
+Best on: GPT Image 2 (preserves uploaded design fidelity well via natural language), Midjourney v7, Ideogram 3 (text-heavy mockups).
+
+Pick the slot:
+
+| Slot | Pattern |
+|---|---|
+| Apparel (T-shirt, hoodie, cap, tote) | "garment laid flat / on a model / on a clean hanger" |
+| Drinkware (mug, water bottle) | "studio shot with handle facing 3/4 right" |
+| Accessory (phone case, sticker, AirPods cover) | "product hero on neutral surface" |
+| Wall art (poster, framed print) | "framed on a [WALL_FINISH] wall, [LIGHTING], slight perspective" |
+| Out-of-home (billboard, bus stop ad, storefront) | "real-world environment shot, [TIME_OF_DAY], with passersby" |
+| Print (business card, brochure, menu, magazine spread, book cover) | "flatlay or held in hand, [PAPER_STOCK], [LIGHTING]" |
+| Screen (laptop, smartphone, tablet, monitor) | "device on a [SURFACE], screen showing the design, [LIGHTING], reflections" |
+| Packaging (gift box, shopping bag) | "studio product shot / lifestyle scene with [HUMAN_HAND or CONTEXT]" |
+
+Universal mockup template:
+
+```
+A photorealistic mockup of [MOCKUP_TYPE] showing the design "[DESIGN_DESCRIPTION_OR_UPLOADED_REFERENCE]".
+Surface / placement: [DESCRIBE_PHYSICAL_PLACEMENT — across chest / front face / centered on screen / flat on table].
+Setting: [STUDIO / LIFESTYLE / OUT-OF-HOME] with [BG_DETAIL].
+Lighting: [LIGHTING_SETUP — softbox studio / natural window / overcast outdoor / golden hour].
+Camera: [LENS + ANGLE — 50mm eye-level / 85mm 3/4 / top-down flatlay / drone wide].
+Materials: [FABRIC_OR_SUBSTRATE — heavyweight cotton / matte ceramic / glossy aluminum / coated paper].
+
+Preserve the design exactly — no warping, no color shift, no recropping. Match the design's
+proportions and contrast to the mockup surface naturally (small fabric ripples are OK,
+content distortion is not).
+
+[Aspect ratio]. [Realism cues — subtle shadow contact, natural texture, accurate scale].
+```
+
+For Midjourney with an uploaded design ref: append `--cref <design_url> --cw 100 --ar <ratio> --v 7`.
+For GPT Image 2 / Nano Banana: upload the design image and add "preserve the design from the attached image exactly — proportions, colors, and details unchanged".
+For Ideogram 3: ensure literal text is wrapped in double quotes and use `style_type: DESIGN`.
+
+## 22c. Style-to-UI Design System (Reference-driven UI mockup)
+
+Best on: GPT Image 2 (parses "use this image as reference for style and color grading"), Nano Banana Pro.
+
+```
+Create a hyper-realistic UI/UX mockup of [PRODUCT_OR_APP_TYPE] displayed on [DEVICE — slim modern laptop / iPhone / iPad / 4K monitor],
+placed on a [SURFACE] in a [ENVIRONMENT] setting.
+
+Use the attached image as a reference for style, color grading, typography mood, and layout density.
+Match the reference's saturation, contrast, and overall aesthetic without copying any literal element.
+
+Screen content: [SCREEN_DESCRIPTION — landing hero with headline "[HERO_HEADLINE]" + product card grid + footer nav].
+Lighting: soft natural daylight from [DIRECTION], gentle screen glow, subtle reflections on the device body.
+Camera: [LENS + ANGLE — 35mm slight 3/4, shallow DOF on background props].
+
+Realistic device materials. No moiré on the screen. No text artifacts. Typography readable at 100% crop.
+[Aspect ratio, e.g. 16:9 landscape].
+```
+
+## 22d. Livestream / Gacha-Game UI Screenshot
+
+Best on: GPT Image 2 (very strong prior for Douyin / TikTok / X / gacha UIs).
+
+```
+A hyper-realistic screenshot of [PLATFORM — Douyin livestream / TikTok / X / Twitch / mobile gacha game].
+Subject: [PERSON_OR_CHARACTER] [ACTION — speaking into mic / promoting product / pulling on banner].
+HUD elements (preserve realistic platform layout):
+- Top: [PLATFORM_LOGO + USER_HANDLE + VIEWER_COUNT]
+- Side: [GIFT_RIBBON / COMMENT_STREAM / CHAT_BUBBLES]
+- Bottom: [INPUT_BAR / LIKE+SHARE+COMMENT_ICONS / PRODUCT_CARD_OVERLAY]
+Lighting on subject: [PLATFORM-APPROPRIATE — bright ring light / flat fluorescent / studio softbox].
+Background: [SCENE_DESCRIPTION].
+Crisp UI typography in [LANGUAGE]. Authentic platform color scheme and iconography. No misspellings.
+[Aspect ratio, e.g. 9:16 vertical].
+```
+
+## 22e. Character Reference Card (Game / Anime / IP Sheet)
+
+Best on: GPT Image 2 (parses panel-and-stat layouts), Nano Banana Pro.
+
+```
+Create an official character reference card for [CHARACTER_NAME], laid out [LAYOUT_DESCRIPTION —
+4-quadrant card with portrait left, stats right, weapon callout bottom / 16-pose grid /
+3-row sheet: full-body, expressions, accessories].
+
+Portrait: [DESCRIPTION]. The character is the same person in every panel — identical face,
+hairstyle, costume, age, skin tone. Only pose, expression, and angle change.
+
+Stats panel (if applicable):
+- Name: "[NAME]"
+- Class: "[CLASS]"
+- Affiliation: "[AFFILIATION]"
+- Height / Weight / Birthday: [VALUES]
+- Likes: [LIST]
+- Dislikes: [LIST]
+- Signature ability: "[ABILITY_NAME]" — [BRIEF_DESCRIPTION]
+
+Visual style: [STYLE — anime cel-shaded / 3D render / pencil + watercolor / Persona-5 hybrid].
+Typography: clean sans-serif, [LANGUAGE]. Card frame: [FRAME_STYLE].
+Color palette: [HEX_OR_NAMED]. [Aspect ratio, e.g. 3:4].
+```
+
+## 22f. JSON-Recreate-From-Image (Pro tier)
+
+Best on: GPT Image 2 (strong "analyze + structured-recreate" prior).
+
+Two-step prompt: ask the model to analyze, then render the JSON it produces.
+
+```
+Analyze the attached photo and produce a detailed JSON prompt that recreates it.
+Break the JSON into: subject, wardrobe, pose, environment, lighting, camera, style, mood, color_palette.
+Then render the photo from the JSON you produced. Output the rendered image only.
+
+Constraints during render: preserve the original framing, lighting direction, and depth-of-field
+character. Do not introduce new objects.
+```
+
+## 23. Knowledge Card / Educational Infographic (Pro)
 
 Best on: GPT Image 2 (dense Chinese typography), Nano Banana Pro.
 
