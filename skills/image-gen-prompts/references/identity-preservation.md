@@ -1,6 +1,22 @@
 # Identity Preservation
 
-The #1 failure mode of Nano Banana: **face drift** — outputs that resemble the reference but aren't the same person. This file covers how to lock identity, common breakage patterns, and fixes.
+The #1 failure mode across image models: **face drift** — outputs that resemble the reference but aren't the same person. This file covers how to lock identity on each model family, common breakage patterns, and fixes.
+
+## Per-model identity surface (cheat sheet)
+
+| Model family | How identity is anchored |
+|---|---|
+| Nano Banana / Nano Banana Pro | Natural-language anchor phrases below + uploaded reference image |
+| GPT Image 2 | Natural-language anchor + uploaded reference + cross-image consistency clause |
+| GPT Image 1 / DALL·E 3 | Mask-based edit via Images Edit API; weaker preservation |
+| Midjourney v6 / v7 | `--cref <url> --cw 100` flag; weight 0–100 |
+| Stable Diffusion (SDXL/SD3.5) | IP-Adapter / InstantID / PhotoMaker / PuLID at workflow level |
+| FLUX | PuLID-FLUX / FLUX-IP-Adapter at workflow level (community) |
+| Imagen 3/4 | `referenceImages` payload with `referenceType: SUBJECT` |
+| Ideogram 3 | `style_reference_images` (style only — weaker for identity) |
+| Recraft v3 | Trained brand `style_id` (style/brand only — not face) |
+
+The phrases below apply to natural-language models (Nano Banana, GPT Image 2, FLUX, Imagen). For flag-based models, append the model's reference flag instead.
 
 ## Anchor Strength Ranking
 

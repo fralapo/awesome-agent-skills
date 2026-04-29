@@ -1,6 +1,8 @@
-# Nano Banana Prompt Templates
+# Universal Prompt Templates
 
-Fill-in templates per category. `[ALL_CAPS]` = replace. Each template is tested-shape — seen across multiple working prompts.
+Fill-in templates per category. `[ALL_CAPS]` = replace. Each template is tested-shape — seen across multiple working prompts on Nano Banana, Nano Banana Pro, and/or GPT Image 2 community repos.
+
+**Model notes per template** are inline (`Best on:` line). For Midjourney, append the appropriate `--ar`, `--v 7`, `--stylize` flags from `models/midjourney.md`. For SDXL/SD3, split into positive + negative prompts. For FLUX/Imagen, use the prose form as-is and pass aspect ratio as an API param.
 
 ---
 
@@ -222,4 +224,134 @@ Blend iconic landmarks, natural landscapes ([LIST]), and cultural elements uniqu
 Carve "[TARGET]" into the terrain using large white 3D letters.
 Artistic details: [NATIVE_BIRDS], cinematic lighting, vivid colors, aerial perspective, sun reflections.
 Ultra-quality, 4K+ resolution, 1080x1080 format.
+```
+
+## 16. Exploded-View Product Poster (GPT Image 2 / Nano Banana Pro)
+
+Best on: GPT Image 2 (parses JSON nesting flawlessly), Nano Banana Pro.
+
+```json
+{
+  "type": "exploded view product diagram poster",
+  "subject": "[PRODUCT_NAME]",
+  "style": "clean high-tech 3D render, studio lighting, glowing accents",
+  "background": "[BG_COLOR_OR_GRADIENT]",
+  "header": {
+    "logo": "∞ [BRAND_NAME]",
+    "subtitle": "[CATCHPHRASE]"
+  },
+  "layout": {
+    "centerpiece": "vertically stacked exploded view of [PRODUCT] showing [N] distinct layers: [LAYER_1], [LAYER_2], ...",
+    "callout_labels": {
+      "count": [N_CALLOUTS],
+      "left_side": ["[CALLOUT_1_TITLE] — [DESCRIPTION]", "..."],
+      "right_side": ["[CALLOUT_4_TITLE] — [DESCRIPTION]", "..."]
+    },
+    "footer": {
+      "headline": "[FOOTER_HEADLINE]",
+      "body": "[FOOTER_BODY_COPY]"
+    }
+  },
+  "aspect_ratio": "9:16"
+}
+```
+
+## 17. RAW iPhone Candid Lifestyle (GPT Image 2)
+
+Best on: GPT Image 2 (RAW iPhone aesthetic is a strong prior). Works on Nano Banana Pro with anti-glamour clause.
+
+```
+Create a completely RAW quality, unprocessed, unedited image with full iPhone camera quality.
+[ENVIRONMENT, e.g. "A subway station in [CITY], a momentary blur"]. [SUBJECTS_AND_ACTION].
+
+Realistic skin texture, natural flyaway hairs, slight asymmetry, no glamour retouching,
+no beauty filter, no overly polished AI aesthetic. Faces and postures must look like real
+pedestrians, not styled models. Phone-camera perspective, not studio perfection.
+
+[Aspect ratio, e.g. 9:16 vertical].
+```
+
+## 18. Multi-Panel Character Expression Sheet
+
+Best on: GPT Image 2, Nano Banana Pro. Fragile on Midjourney v6, SDXL.
+
+```
+A [N]-panel character expression sheet for [CHARACTER_NAME], arranged in a [GRID_LAYOUT e.g. 4x4 grid].
+The character is the same person across all panels — identical face, hairstyle, wardrobe color and silhouette,
+age, and skin tone. Only facial expression and head angle change between panels.
+Same lighting style, same color grade, same plain background across the series.
+
+Panels:
+1. Neutral / resting expression
+2. Happy / smiling
+3. Surprised / wide-eyed
+4. Sad / tearful
+5. Angry / brow furrowed
+6. Skeptical / one eyebrow raised
+7. Laughing
+8. Calm / introspective
+[...]
+
+Each panel labeled with the expression name in clean small caps below the portrait.
+Style: [ART_STYLE — anime / illustration / 3D render / photograph]. [Aspect ratio].
+```
+
+## 19. E-commerce Hero / Main Product Image
+
+Best on: Nano Banana Pro, GPT Image 2, FLUX Krea, Imagen 4.
+
+```
+A clean e-commerce main product image of [PRODUCT].
+The product is centered in the frame on a [BG_COLOR_OR_GRADIENT] background, with [SHADOW_STYLE — soft shadow / floating / surface contact].
+Lighting: bright even softbox lighting from above and 45° front, no harsh shadows on the product,
+gentle highlight on top edge, very subtle reflection beneath.
+Camera: 100mm f/8 macro, sharp focus on the front face of the product, ample padding around all edges.
+Realistic materials and accurate brand colors. Crisp surface detail.
+Format: 1:1 square, 1080x1080, optimized for product listing thumbnail.
+```
+
+## 20. YouTube Thumbnail (16:9)
+
+Best on: Ideogram 3 (best text), GPT Image 2, Nano Banana Pro, Midjourney v7.
+
+```
+A high-contrast YouTube thumbnail, 16:9 landscape.
+Subject: [SUBJECT_DESCRIPTION], expression [EXPRESSION e.g. wide-eyed surprise], placed off-center [LEFT/RIGHT].
+Background: [SCENE_DESCRIPTION] with strong color saturation and a dramatic light gradient.
+Large bold sans-serif headline reading "[HEADLINE_TEXT — keep under 6 words]" in [COLOR] with thick black stroke,
+positioned [POSITION e.g. upper-left, occupying 1/3 of frame].
+Small accent badge or arrow near the subject. Crisp kerning, exact spelling.
+Saturated color palette, high contrast, immediate visual hook.
+```
+
+## 21. Game-Style In-Engine Screenshot
+
+Best on: GPT Image 2 (strong game-engine priors), Midjourney v7.
+
+```
+A photorealistic in-engine screenshot from [GAME_TITLE_OR_GENRE_e.g. "a stealth-action title in the style of Hitman"].
+Scene: [SCENE_DESCRIPTION].
+HUD elements: [HUD_DETAILS_OR_NONE]. Lighting: [GAME_LIGHTING_STYLE e.g. moody volumetric, neon-lit].
+Engine look: [UNREAL 5 / DECIMA / RE ENGINE / etc.] with high-resolution textures, motion blur,
+post-process color grading.
+[Aspect ratio, e.g. 16:9].
+```
+
+## 22. Knowledge Card / Educational Infographic (Pro)
+
+Best on: GPT Image 2 (dense Chinese typography), Nano Banana Pro.
+
+```
+A clean educational knowledge card on the topic "[TOPIC]", [LANGUAGE] copy.
+Layout: [GRID_DESCRIPTION e.g. "title at top, three labeled illustration columns, footer with key takeaway"].
+
+Title: "[TITLE_TEXT]" in bold serif, large, centered.
+Three columns, each with:
+  - Stylized minimalist illustration of [CONCEPT_N]
+  - Subtitle "[CONCEPT_N_TITLE]"
+  - 2-3 sentence body copy "[DESCRIPTION]"
+Footer: takeaway "[KEY_TAKEAWAY]" in italic.
+
+Color palette: [HEX_LIST]. Typography hierarchy clear; information density high but not crowded.
+[Aspect ratio, e.g. 4:5 portrait].
 ```

@@ -26,7 +26,7 @@ Three skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow)
 | Skill | What it does | Corpus mined | Typical trigger |
 |---|---|---|---|
 | [`seedance-prompts`](./skills/seedance-prompts/) | Prompt templates for **ByteDance Seedance 2.0** video generation. Timecoded 3-shot storyboards, camera-move vocab, 15 category templates, multi-modal references (`@图片`/`@视频`/`@audio`), 12 curated examples. | ~195 prompts across 3 awesome-lists | `seedance`, `bytedance video`, `text-to-video prompt` |
-| [`nano-banana-prompts`](./skills/nano-banana-prompts/) | Prompt templates for **Google Nano Banana** and **Nano Banana Pro** (Gemini 2.5 Flash Image). Two-tier model guidance, 15 fill-in templates (headshot, bento infographic, 3D diorama, split-view render), identity-preservation ranking, structured JSON/YAML/XML shapes, text-in-image rendering, 15 worked examples. | ~600 prompts across 5 awesome-lists | `nano banana`, `gemini 2.5 flash image`, `gemini image gen` |
+| [`image-gen-prompts`](./skills/image-gen-prompts/) | Generic prompt engineering for **any** major image generation/editing model — Nano Banana / Nano Banana Pro, GPT Image 2 ("duct-tape"), GPT Image 1 / DALL·E 3, Midjourney v6/v7 + Niji, SDXL / SD3 / SD3.5, FLUX.1, Imagen 3/4, Ideogram 2/3, Recraft v3. Universal prompt anatomy, 22 fill-in templates (portrait, exploded-view product diagram, bento infographic, RAW iPhone candid, character expression sheet, e-commerce hero, YouTube thumbnail, knowledge card, 3D diorama, split-view render…), identity-preservation per model, structured JSON/YAML/XML shapes, text-rendering tier matrix, editing-workflow matrix, 20 worked examples. **Auto-routes by model** when the user names one (Midjourney, GPT Image 2, FLUX, etc.). | ~3500 prompts across 7 awesome-lists | `image prompt`, `nano banana`, `gpt image 2`, `midjourney`, `flux`, `sdxl`, `imagen`, `ideogram`, `dall-e` |
 | [`awesome-readme`](./skills/awesome-readme/) | Write GitHub READMEs that land on awesome-lists and still sound human. 8 full templates (library/CLI/webapp/desktop/research/template-repo/monorepo/profile), shields.io badge library, banner/logo/GIF recipes, profile-README widget catalog, anti-patterns, and a dedicated anti-AI-slop audit pass integrating the `humanizer` skill's Wikipedia *Signs of AI writing* patterns. | Best-README-Template + ~100 awesome-readme entries + Standard-Readme + Make-a-README + RDD essay | `readme`, `awesome readme`, `github readme`, `humanize readme` |
 
 More coming when I build one that earns its place. I'd rather ship three that work than twenty that almost do.
@@ -35,7 +35,7 @@ More coming when I build one that earns its place. I'd rather ship three that wo
 
 ## Install
 
-Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `nano-banana-prompts`, or `awesome-readme`).
+Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-prompts`, or `awesome-readme`).
 
 Commands below target Claude Code's default skills dir (`~/.claude/skills/`). Other agents: swap the destination for whatever path your tool reads (commonly `~/.config/<agent>/skills/` or `.agent/skills/` in a project root).
 
