@@ -13,6 +13,7 @@ Map user-mentioned keywords → file. When a user names a model, read the matchi
 | `imagen.md` | Google Imagen 3 / 4 | imagen, imagen 3, imagen 4, google imagen |
 | `ideogram.md` | Ideogram 2 / 3 | ideogram, ideogram 2, ideogram 3 |
 | `recraft.md` | Recraft v3 (raster + vector + brand styles) | recraft, recraft v3, recraft vector |
+| `seedream.md` | ByteDance Seedream 4.x / 5.0 | seedream, seedream 5, doubao image, jimmeng, byteimage |
 
 ## Routing logic
 
@@ -53,3 +54,5 @@ Else:
 | FLUX.1 [schnell] | FLUX.1 [dev] / [pro] |
 | Imagen 3 (basic) | Imagen 3 (long-prompt mode) / Imagen 4 |
 | Ideogram 2 | Ideogram 3 |
+| Seedream 4.0 / 4.5 | Seedream 5.0 |
+| Nano Banana | Nano Banana 2 |

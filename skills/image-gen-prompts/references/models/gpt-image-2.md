@@ -1,6 +1,6 @@
 # GPT Image 2 (OpenAI, codename "duct-tape")
 
-OpenAI's next-gen image model — significant leap over GPT Image 1 / DALL·E 3 in text rendering, cross-image consistency, commercial-grade illustration, and multilingual (CJK + Latin) typography.
+OpenAI's next-gen image model — significant leap over GPT Image 1 / DALL·E 3 in text rendering, cross-image consistency, commercial-grade illustration, and multilingual (CJK + Latin) typography. **GPT Image 1.5** is sometimes referenced as an intermediate tier between GPT Image 1 and 2; treat its prompt grammar as the same natural-language surface, with text/consistency capabilities sitting between the two.
 
 Source repos: `ZeroLu/awesome-gpt-image`, `YouMind-OpenLab/awesome-gpt-image-2`, `EvoLinkAI/awesome-gpt-image-2-prompts`. ~5500 prompts analyzed.
 

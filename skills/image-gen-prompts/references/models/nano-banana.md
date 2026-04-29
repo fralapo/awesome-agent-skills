@@ -1,6 +1,12 @@
-# Nano Banana / Nano Banana Pro (Gemini 2.5 Flash Image)
+# Nano Banana / Nano Banana Pro / Nano Banana 2 (Gemini 2.5 Flash Image and successors)
 
-Google Gemini's image model. **Nano Banana** = standard tier, **Nano Banana Pro** = higher-quality successor. Both share the same prompt grammar; Pro handles denser composition, longer text strings, and more reference images in parallel.
+Google Gemini's image model line.
+
+- **Nano Banana** = standard tier (initial Gemini 2.5 Flash Image release)
+- **Nano Banana Pro** = higher-quality successor of the original — denser composition, longer text strings, more reference images in parallel
+- **Nano Banana 2** = next-gen Pro tier, often referenced alongside Nano Banana Pro by community catalogs (treat as the same Pro tier for prompt-grammar purposes)
+
+All three share the same prompt grammar; Pro and Nano Banana 2 simply handle more complexity at once.
 
 Source repos: `Super-Maker-AI/awesome-nano-banana`, `YouMind-OpenLab/awesome-nano-banana-pro-prompts`, `PicoTrex/Awesome-Nano-Banana-images`, `jimmylv/awesome-nano-banana`, `ZeroLu/awesome-nanobanana-pro`. ~600 prompts analyzed.
 

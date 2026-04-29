@@ -1,6 +1,6 @@
 ---
 name: image-gen-prompts
-description: Write production-grade prompts for any major image generation/editing model — Google Nano Banana / Nano Banana Pro (Gemini 2.5 Flash Image), OpenAI GPT Image 2 ("duct-tape") and GPT Image 1 / DALL·E 3, Midjourney v6/v7 + Niji, Stable Diffusion (SDXL / SD3 / SD3.5), FLUX.1, Google Imagen 3/4, Ideogram 2/3, Recraft v3, and others. Use when the user wants to generate or edit images, needs prompt templates for portraits, product shots, 3D dioramas, infographics, anime/illustration, cinematic scenes, posters, comic panels, storyboards, e-commerce visuals, or asks about face/identity preservation, multi-image fusion, non-destructive editing, isometric/bento layouts, text rendering in images, JSON/YAML/XML structured prompts, or Raycast-style argument placeholders. If the user names a specific model, route through `references/models/_index.md` and read the matching per-model file. Triggers on keywords: image prompt, image generation, image editing, prompt engineering, nano banana, nano-banana, nano banana pro, gemini 2.5 flash image, gemini image gen, gpt image, gpt-image-2, duct-tape, dall-e, dall·e, dalle 3, midjourney, mj, niji, stable diffusion, sdxl, sd3, flux, flux.1, imagen, ideogram, recraft, 纳米香蕉.
+description: Write production-grade prompts for any major image generation/editing model — Google Nano Banana / Nano Banana Pro / Nano Banana 2 (Gemini 2.5 Flash Image), OpenAI GPT Image 2 ("duct-tape") and GPT Image 1.5 / GPT Image 1 / DALL·E 3, ByteDance Seedream 4.x / 5.0, Midjourney v6/v7 + Niji, Stable Diffusion (SDXL / SD3 / SD3.5), FLUX.1, Google Imagen 3/4, Ideogram 2/3, Recraft v3, and others. Use when the user wants to generate or edit images, illustrate articles/videos/podcasts (Content Illustration mode), remix existing prompt templates with their content, find proven prompts from public corpora, or asks for face/identity preservation, multi-image fusion, non-destructive editing, isometric/bento layouts, text rendering in images, JSON/YAML/XML structured prompts, or Raycast-style argument placeholders. If the user names a specific model, route through `references/models/_index.md` and read the matching per-model file. Triggers on keywords: image prompt, image generation, image editing, prompt engineering, nano banana, nano-banana, nano banana pro, nano banana 2, gemini 2.5 flash image, gemini image gen, gpt image, gpt-image-2, gpt-image-1.5, duct-tape, dall-e, dall·e, dalle 3, midjourney, mj, niji, stable diffusion, sdxl, sd3, flux, flux.1, imagen, ideogram, recraft, seedream, doubao, jimmeng, 纳米香蕉.
 version: 2.0.0
 source: local-git-analysis
 analyzed_repos:
@@ -13,10 +13,11 @@ analyzed_repos:
   - github.com/YouMind-OpenLab/awesome-gpt-image-2
   - github.com/EvoLinkAI/awesome-gpt-image-2-prompts
   - github.com/marc-aurele-besner/prompts
+  - github.com/YouMind-OpenLab/ai-image-prompts-skill
   - openart.ai/blog/post/midjourney-prompts-for-packaging-design
   - openart.ai/blog/post/midjourney-prompts-for-mockup
   - godofprompt.ai
-analyzed_prompts: ~6100
+analyzed_prompts: ~18900
 ---
 
 # Image Generation Prompt Engineering — Universal
@@ -51,6 +52,7 @@ Whenever the user names a model in their query, **read the matching file** under
 | `imagen`, `imagen 3`, `imagen 4` | `references/models/imagen.md` |
 | `ideogram`, `ideogram 2`, `ideogram 3` | `references/models/ideogram.md` |
 | `recraft`, `recraft v3` | `references/models/recraft.md` |
+| `seedream`, `seedream 4`, `seedream 5`, `doubao image`, `jimmeng`, `byteimage` | `references/models/seedream.md` |
 | no model named | default to model-agnostic universal pattern; ask user which model |
 
 Always start with `references/models/_index.md` if you need to scan all routes at once.
@@ -68,11 +70,12 @@ Always start with `references/models/_index.md` if you need to scan all routes a
 | Complex conditional rules | Weak | Strong |
 
 Per-model mapping of "Standard" vs "Pro" is documented in each `references/models/<name>.md`. Examples:
-- Nano Banana = Standard; Nano Banana Pro = Pro
-- GPT Image 1 / DALL·E 3 = Standard; GPT Image 2 = Pro
+- Nano Banana = Standard; Nano Banana Pro / Nano Banana 2 = Pro
+- GPT Image 1 / DALL·E 3 = Standard; GPT Image 1.5 = Standard+; GPT Image 2 = Pro
 - Midjourney v6 = Standard; v7 = Pro
 - SD 1.5 = Standard; SDXL / SD3 / SD3.5 = Pro
 - FLUX.1 [schnell] = Standard; FLUX.1 [dev] / [pro] = Pro
+- Seedream 4.0 / 4.5 = Standard; Seedream 5.0 = Pro
 
 **Rule of thumb:** default to Pro tier for infographics, posters with headlines, multi-character scenes, structured JSON/YAML prompts, and CJK text. Standard tier suffices for single-subject edits and short prompts.
 
@@ -137,6 +140,8 @@ Detailed templates and examples live in `references/`.
 - `references/text-rendering.md` — putting readable headlines, quotes, CJK in the image, per-model tier limits
 - `references/editing-workflow.md` — non-destructive editing, inpainting, multi-image fusion, before/after, character consistency across panels
 - `references/examples.md` — curated working prompts per category, attributed, with the model that produced each
+- `references/workflows.md` — Direct Generation, Content Illustration (article/video → image), and Remix/Personalization conversation patterns
+- `references/external-corpora.md` — pointers to public prompt libraries (YouMind 12k+, EvoLink ~3k, Awesome lists) when the user wants proven prompts rather than fresh composition
 - `references/models/` — per-model quirks, syntax surface, parameters, anti-patterns
 
 ## Quick Rules (model-agnostic)
@@ -167,9 +172,19 @@ Detailed templates and examples live in `references/`.
 - "Polished AI" defaults when shooting for candid lifestyle — explicitly veto glamour retouching
 - Forcing JSON on a tiny prompt — `{"subject":"red apple"}` is worse than `A red apple on a white table, studio lighting, 1:1.`
 
+## Conversation Modes
+
+Three distinct entry points handled in `references/workflows.md`:
+
+- **Direct Generation** — user describes an image; you compose a prompt from anatomy + template + per-model file.
+- **Content Illustration** — user pastes article / video script / podcast notes; you analyze theme + tone, match to a template, and move into Remix.
+- **Remix / Personalization** — after a template is chosen, ask only the relevant personalization questions (gender, age, setting, mood, profession) and remix the template with the user's content.
+
+If the user just wants **proven, image-attested prompts** rather than a freshly-composed one, point them at the searchable corpora in `references/external-corpora.md` (12,000+ prompts at YouMind, ~3,000 GPT Image 2 cases at EvoLink, plus Awesome-list browsable indexes).
+
 ## Workflow
 
-1. Ask user — generate from scratch or edit an existing image? Which model? Which tier? Aspect ratio?
+1. Ask user — generate from scratch, edit an existing image, illustrate content, or browse proven prompts? Which model? Which tier? Aspect ratio?
 2. If a model is named, read `references/models/<name>.md` first.
 3. Identify category → pick from `references/templates.md`.
 4. If editing with a reference image: lock identity + add preservation clause first (see `references/identity-preservation.md`).
