@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/fralapo/awesome-agent-skills/stargazers"><img src="https://img.shields.io/github/stars/fralapo/awesome-agent-skills?style=for-the-badge" alt="Stars"></a>
   <a href="https://github.com/fralapo/awesome-agent-skills/commits/main"><img src="https://img.shields.io/github/last-commit/fralapo/awesome-agent-skills?style=for-the-badge" alt="Last commit"></a>
-  <img src="https://img.shields.io/badge/skills-3-2ea44f?style=for-the-badge" alt="Skills count">
+  <img src="https://img.shields.io/badge/skills-4-2ea44f?style=for-the-badge" alt="Skills count">
   <img src="https://img.shields.io/badge/agent%20skills-SKILL.md-5A67D8?style=for-the-badge" alt="Agent skills format">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/fralapo/awesome-agent-skills?style=for-the-badge" alt="License"></a>
 </p>
@@ -21,21 +21,22 @@
 
 ## What's in here
 
-Three skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) plus a `references/` directory for deep-dive material. The agent (Claude Code, or any tool that reads the same format) matches the `description` field against whatever you're asking and loads the skill only when it's relevant. No eager bloat.
+Four skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) plus a `references/` directory for deep-dive material. The agent (Claude Code, or any tool that reads the same format) matches the `description` field against whatever you're asking and loads the skill only when it's relevant. No eager bloat.
 
 | Skill | What it does | Corpus mined | Typical trigger |
 |---|---|---|---|
 | [`seedance-prompts`](./skills/seedance-prompts/) | Prompt templates for **ByteDance Seedance 2.0** video generation. Timecoded 3-shot storyboards, camera-move vocab, 15 category templates, multi-modal references (`@图片`/`@视频`/`@audio`), 12 curated examples. | ~195 prompts across 3 awesome-lists | `seedance`, `bytedance video`, `text-to-video prompt` |
 | [`image-gen-prompts`](./skills/image-gen-prompts/) | Generic prompt engineering for **any** major image generation/editing model — Nano Banana / Pro / 2, GPT Image 2 / 1.5 / 1 / DALL·E 3, Midjourney v6/v7 + Niji, SDXL / SD3 / SD3.5, FLUX.1, Imagen 3/4, Ideogram 2/3, Recraft v3, Seedream 4.x/5.0. Universal prompt anatomy, 28+ fill-in templates (portrait, exploded-view product diagram, bento infographic, RAW iPhone candid, character expression sheet, e-commerce hero, YouTube thumbnail, knowledge card, 3D diorama, split-view render, packaging design, mockup family — apparel/drinkware/screen/wall art/print/OOH, style-to-UI design system, livestream + gacha-game UI, character reference card, JSON-recreate-from-image…), identity-preservation per model, structured JSON/YAML/XML shapes, text-rendering tier matrix, editing-workflow matrix, 24 worked examples, plus three conversation modes (Direct Generation / Content Illustration / Remix) and pointers to public corpora (12,000+ searchable prompts) when the user wants proven templates rather than fresh composition. **Auto-routes by model** when the user names one (Midjourney, GPT Image 2, FLUX, Seedream, etc.). | ~18,900 prompts across 10 awesome-lists/skills + 3 reference sites | `image prompt`, `nano banana`, `gpt image 2`, `seedream`, `midjourney`, `flux`, `sdxl`, `imagen`, `ideogram`, `dall-e`, `packaging`, `mockup`, `chatgpt image`, `gen_id`, `content illustration` |
 | [`awesome-readme`](./skills/awesome-readme/) | Write GitHub READMEs that land on awesome-lists and still sound human. 8 full templates (library/CLI/webapp/desktop/research/template-repo/monorepo/profile), shields.io badge library, banner/logo/GIF recipes, profile-README widget catalog, anti-patterns, and a dedicated anti-AI-slop audit pass integrating the `humanizer` skill's Wikipedia *Signs of AI writing* patterns. | Best-README-Template + ~100 awesome-readme entries + Standard-Readme + Make-a-README + RDD essay | `readme`, `awesome readme`, `github readme`, `humanize readme` |
+| [`llm-wiki`](./skills/llm-wiki/) | Build a persistent, LLM-maintained knowledge base in an Obsidian vault following the **LLM Wiki pattern** by Andrej Karpathy. Three-layer architecture (`raw/` immutable sources → `wiki/` LLM-owned interlinked markdown → `CLAUDE.md` schema). Operations: `ingest` (source → summary + entity/concept pages + index + log), `query` (read index first, traverse `[[backlinks]]`, synthesize with citations, optionally file answer as `synthesis/` page), `lint` (orphans, contradictions, stale claims, missing cross-refs). Page templates for source/concept/entity/synthesis, `[[Wikilinks]]` discipline, append-only `log.md` parseable with `grep "^## \["`. Includes a `vault-CLAUDE.md.template` to drop into any new vault. Pairs with the optional `llm-wiki-detect.ps1` SessionStart hook that notices `.obsidian/` in cwd and suggests bootstrap. | Karpathy's [llm-wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) + ~30 community implementations (ΩmegaWiki, Eshel, Synthadoc, PulseOS, llm-wiki-manager, sigma-guard) from the comment thread | `llm wiki`, `obsidian vault`, `ingest sources`, `inizializza wiki`, `knowledge base`, `personal wiki` |
 
-More coming when I build one that earns its place. I'd rather ship three that work than twenty that almost do.
+More coming when I build one that earns its place. I'd rather ship four that work than twenty that almost do.
 
 ---
 
 ## Install
 
-Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-prompts`, or `awesome-readme`).
+Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-prompts`, `awesome-readme`, or `llm-wiki`).
 
 Commands below target Claude Code's default skills dir (`~/.claude/skills/`). Other agents: swap the destination for whatever path your tool reads (commonly `~/.config/<agent>/skills/` or `.agent/skills/` in a project root).
 
@@ -99,7 +100,7 @@ The frontmatter `description` field is the matcher. Keep it specific and keyword
 
 ## How I build them
 
-The pattern is consistent across all three skills in this repo:
+The pattern is consistent across all four skills in this repo:
 
 1. **Mine a real corpus.** Community awesome-lists, vendor docs, internal notes. Several hundred examples minimum. I don't write skills from imagination.
 2. **Cluster what actually recurs.** Templates, anti-patterns, category-specific moves. Things a real prompter or writer reaches for ten times a week.
