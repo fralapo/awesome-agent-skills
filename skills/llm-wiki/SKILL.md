@@ -1,6 +1,6 @@
 ---
 name: llm-wiki
-description: Use when user wants to build/maintain a personal knowledge base in Obsidian using the LLM Wiki pattern (Andrej Karpathy). Triggers on "llm wiki", "/llm-wiki", "init wiki", "ingest sources", "compile knowledge base", "inizializza wiki", "second brain", or when working in a directory containing an Obsidian vault (`.obsidian/` folder) and user references knowledge-base, research-notes, or wiki accumulation work. Also use when user asks about RAG alternatives for curated personal corpora.
+description: Use when user wants to build/maintain a personal knowledge base in Obsidian using the LLM Wiki pattern (Andrej Karpathy). Triggers on "obsidian", "llm wiki", "/llm-wiki", "init wiki", "ingest sources", "compile knowledge base", "inizializza wiki", "second brain", "pkm", or when working in a directory containing an Obsidian vault (`.obsidian/` folder) and user references knowledge-base, research-notes, or wiki accumulation work. Also use when user asks about RAG alternatives for curated personal corpora.
 ---
 
 # LLM Wiki Skill
