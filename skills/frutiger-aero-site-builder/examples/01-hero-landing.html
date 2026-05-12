@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark-aero">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aria Voss — Frutiger Aero Designer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Aria Voss, designer working in glossy 2000s aesthetics — Frutiger Aero, Vista Aero Glass, indie web revival.">
+  <meta name="darkreader-lock" content="">
+
+  <link rel="stylesheet" href="../assets/css/aero-tokens.css">
+
+  <style>
+    /* ============================================================
+       PAGE STYLES — Pattern A: container + sidebar + main
+       Reference: derrek.org + frutigeraeroarchive.org + cinni.net
+       ============================================================ */
+
+    body {
+      background-color: #0d1b2a;
+      background:
+        radial-gradient(ellipse at 15% 20%, rgba(60, 218, 86, 0.25), transparent 60%),
+        radial-gradient(ellipse at 80% 70%, rgba(95, 168, 211, 0.3), transparent 60%),
+        radial-gradient(ellipse at 50% 90%, rgba(190, 80, 220, 0.2), transparent 60%),
+        linear-gradient(180deg, #0d1b2a 0%, #1b263b 40%, #2d3e2a 100%);
+      background-attachment: fixed;
+      background-size: cover;
+      cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3" fill="white" stroke="black" stroke-width="1"/></svg>') 10 10, auto;
+      min-height: 100vh;
+      padding: 30px 15px 60px;
+    }
+
+    /* ===== WINDOW WRAPPER (signature asymmetric border-radius) ===== */
+    .aero-window {
+      max-width: 1080px;
+      margin: 0 auto;
+      background: rgba(20, 20, 20, 0.75);
+      backdrop-filter: blur(1px) saturate(150%);
+      -webkit-backdrop-filter: blur(1px) saturate(150%);
+      border: 1px solid rgba(78, 78, 78, 0.9);
+      border-radius: 70px 80px 0 0;
+      box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.5),
+        inset 0 1px 0 rgba(255, 255, 255, 0.12);
+      overflow: hidden;
+    }
+
+    /* ===== VISTA TITLE BAR ===== */
+    .aero-titlebar {
+      background: linear-gradient(180deg,
+        rgba(148, 148, 148, 0.9) 0%,
+        rgba(71, 71, 71, 0.9) 20%,
+        rgba(19, 19, 19, 0.9) 40%,
+        rgba(7, 7, 7, 0.93) 100%);
+      padding: 16px 30px 13px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      backdrop-filter: blur(1px) saturate(150%);
+      border-bottom: 1px solid #000;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .aero-titlebar-brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .aero-titlebar-orb {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%,
+        rgba(255, 255, 255, 0.95) 0%,
+        var(--aero-green-400) 40%,
+        var(--aero-green-700) 100%);
+      box-shadow:
+        inset 0 -8px 15px rgba(0, 0, 0, 0.3),
+        inset 0 5px 12px rgba(255, 255, 255, 0.5),
+        0 2px 8px rgba(0, 0, 0, 0.5),
+        0 0 16px rgba(60, 218, 86, 0.4);
+      position: relative;
+      transition: all 300ms ease;
+      flex-shrink: 0;
+    }
+
+    .aero-titlebar-brand:hover .aero-titlebar-orb {
+      transform: rotate(5deg);
+      box-shadow:
+        inset 0 -8px 15px rgba(0, 0, 0, 0.3),
+        inset 0 5px 12px rgba(255, 255, 255, 0.6),
+        0 3px 10px rgba(0, 0, 0, 0.6),
+        0 0 28px rgba(60, 218, 86, 0.7);
+    }
+
+    .aero-titlebar-orb::before {
+      content: '';
+      position: absolute;
+      top: 12%;
+      left: 20%;
+      width: 56%;
+      height: 26%;
+      border-radius: 50%;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), transparent);
+      filter: blur(2px);
+    }
+
+    .aero-titlebar-text { line-height: 1.1; }
+
+    .aero-titlebar-title {
+      display: block;
+      font-size: 26px;
+      font-weight: 400;
+      color: white;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .aero-titlebar-tagline {
+      display: block;
+      font-size: 13px;
+      color: rgba(201, 201, 201, 0.95);
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+      margin-top: 2px;
+    }
+
+    .aero-titlebar-controls { display: flex; gap: 4px; }
+
+    .aero-titlebar-controls button {
+      width: 32px;
+      height: 22px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(0, 0, 0, 0.3) 50%,
+        rgba(0, 0, 0, 0.5) 100%);
+      color: white;
+      cursor: pointer;
+      font-size: 11px;
+      border-radius: 3px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+      transition: filter 150ms ease;
+    }
+
+    .aero-titlebar-controls button:hover { filter: brightness(1.3); }
+    .aero-titlebar-controls button[aria-label="Close"] {
+      background: linear-gradient(180deg,
+        rgba(232, 30, 30, 0.7) 0%,
+        rgba(120, 12, 12, 0.7) 50%,
+        rgba(80, 0, 0, 0.8) 100%);
+    }
+
+    /* ===== BODY: SIDEBAR + MAIN ===== */
+    .aero-body { display: flex; }
+
+    /* ===== SIDEBAR ===== */
+    .aero-sidebar {
+      width: 220px;
+      flex-shrink: 0;
+      background: rgba(20, 20, 20, 0.85);
+      border-right: 1px solid #474747;
+      backdrop-filter: blur(1px);
+      padding: 12px 11px;
+    }
+
+    .aero-nav-category {
+      margin-bottom: 14px;
+      background: rgba(26, 26, 26, 0.35);
+      border: 1px solid #424242;
+      padding: 3px 5px;
+    }
+
+    .aero-nav-category-title {
+      display: block;
+      background: linear-gradient(to bottom,
+        rgba(255, 255, 255, 0.75) 0%,
+        rgba(129, 129, 129, 0.75) 3%,
+        rgba(56, 56, 56, 0.75) 50%,
+        rgba(27, 27, 27, 0.75) 50%);
+      border: 1px solid #000;
+      color: #f7f4f4;
+      padding: 2px;
+      margin: 2px 0;
+      font-size: 12px;
+      text-align: center;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+    }
+
+    .aero-nav-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 3px 6px;
+      margin: 3px auto;
+      width: 93%;
+      font-size: 12px;
+      color: #eee;
+      text-decoration: none;
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+      border: 1px solid #0f0f0f;
+      border-radius: 5px;
+      background: linear-gradient(to bottom,
+        rgba(255, 255, 255, 0.25) 0%,
+        rgba(117, 117, 117, 0.15) 20%,
+        rgba(92, 92, 92, 0.15) 60%,
+        rgba(0, 0, 0, 0.3) 60%,
+        rgba(41, 41, 41, 0.3) 100%);
+      position: relative;
+      transition: transform 150ms ease, filter 150ms ease;
+    }
+
+    .aero-nav-link::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 5%;
+      width: 90%;
+      height: 11px;
+      background: linear-gradient(to bottom,
+        rgba(117, 117, 117, 0.7) 0%,
+        rgba(255, 255, 255, 0.1) 100%);
+      border-radius: 20px;
+      opacity: 0.3;
+      pointer-events: none;
+    }
+
+    .aero-nav-link svg { flex-shrink: 0; }
+
+    .aero-nav-link.is-active {
+      background: linear-gradient(to bottom,
+        rgba(255, 255, 255, 0.25) 0%,
+        rgba(117, 117, 117, 0.2) 20%,
+        rgba(92, 92, 92, 0.2) 40%,
+        rgba(29, 73, 23, 0.3) 40%,
+        rgba(43, 240, 36, 0.7) 100%);
+      color: var(--aero-green-glow);
+      transform: scale(1.03);
+    }
+
+    .aero-nav-link:hover {
+      background: linear-gradient(to bottom,
+        rgba(255, 255, 255, 0.25) 0%,
+        rgba(117, 117, 117, 0.2) 20%,
+        rgba(92, 92, 92, 0.2) 50%,
+        rgba(43, 43, 43, 0.3) 50%,
+        rgba(161, 161, 161, 0.3) 100%);
+      transform: scale(1.03);
+    }
+
+    /* ===== MAIN ===== */
+    .aero-main {
+      flex: 1;
+      background: rgba(39, 39, 39, 0.7);
+      backdrop-filter: blur(1px) saturate(150%);
+      -webkit-backdrop-filter: blur(1px) saturate(150%);
+      color: #dadada;
+      padding: 14px 12px 24px;
+      min-height: 600px;
+    }
+
+    /* Metallic Vista chrome title bars for sections */
+    .aero-main h1, .aero-main h2 {
+      background: linear-gradient(to bottom,
+        #bebebe 0%, #777 3%, #232323 55%,
+        #000 55%, #161616 98%, #000 100%);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+      border-left: 1px solid #4b4b4b;
+      border-right: 1px solid #4b4b4b;
+      border-bottom: 1px solid #000;
+      padding: 4px 10px 6px;
+      margin: 12px auto 0;
+      max-width: 970px;
+      font-weight: 400;
+      color: white;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+      text-align: center;
+    }
+
+    .aero-main h1 { font-size: 18px; }
+    .aero-main h2 { font-size: 15px; }
+
+    .aero-content-block {
+      background: rgba(27, 27, 27, 0.83);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+      border-left: 1px solid #4b4b4b;
+      border-right: 1px solid #4b4b4b;
+      border-bottom: 1px solid #4b4b4b;
+      padding: 15px 18px 18px;
+      margin-bottom: 12px;
+    }
+
+    .aero-content-block p {
+      font-size: 13px;
+      line-height: 1.6;
+      margin: 0 0 12px;
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    }
+
+    .aero-content-block p:last-child { margin-bottom: 0; }
+
+    .aero-content-block a {
+      color: var(--aero-green-500);
+      text-decoration: none;
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    }
+
+    .aero-content-block a:hover { text-decoration: underline; }
+
+    .aero-content-block code {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: 12px;
+      color: var(--aero-green-glow);
+    }
+
+    /* ===== GALLERY ===== */
+    .aero-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 15px 0 5px;
+    }
+
+    .aero-gallery-card {
+      background: rgba(19, 19, 19, 0.8);
+      border-top: 1px solid #424242;
+      border-left: 1px solid #424242;
+      border-right: 1px solid #424242;
+      border-bottom: 1px solid #131313;
+      padding: 6px 7px 8px;
+      transition: filter 200ms ease, transform 200ms ease;
+      text-decoration: none;
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .aero-gallery-card:hover {
+      filter: brightness(1.15);
+      transform: scale(1.02);
+    }
+
+    .aero-gallery-card-img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      background: #121313;
+      border-top: 1px solid #272727;
+      border-left: 1px solid #272727;
+      border-right: 1px solid #3f3f3f;
+      border-bottom: 1px solid #3f3f3f;
+      overflow: hidden;
+    }
+
+    .aero-gallery-card-img-placeholder {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg,
+        var(--aero-green-700) 0%,
+        var(--aero-blue-500) 50%,
+        var(--aero-green-500) 100%);
+      opacity: 0.6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    .aero-gallery-card-title {
+      font-size: 13px;
+      font-weight: 600;
+      margin: 4px 0 0;
+      color: #fff;
+    }
+
+    .aero-gallery-card-meta {
+      font-size: 11px;
+      color: rgba(180, 180, 180, 0.8);
+      margin: 0;
+    }
+
+    /* Inline orb decoration */
+    .aero-inline-orb {
+      display: inline-block;
+      vertical-align: middle;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%,
+        rgba(255, 255, 255, 0.9), var(--aero-green-500) 40%, var(--aero-green-700));
+      box-shadow:
+        inset 0 -2px 4px rgba(0, 0, 0, 0.4),
+        inset 0 1px 3px rgba(255, 255, 255, 0.5),
+        0 0 6px rgba(60, 218, 86, 0.5);
+      margin: 0 2px;
+    }
+
+    /* ===== FOOTER ===== */
+    .aero-footer {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 8px 30px;
+      background: linear-gradient(180deg,
+        rgba(50, 50, 50, 0.9) 0%,
+        rgba(20, 20, 20, 0.9) 50%,
+        rgba(10, 10, 10, 0.95) 100%);
+      border-radius: 0 0 12px 12px;
+      border: 1px solid #4b4b4b;
+      border-top: none;
+      color: #999;
+      font-size: 12px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .aero-footer a {
+      color: var(--aero-green-500);
+      text-decoration: none;
+    }
+
+    .aero-footer a:hover { text-decoration: underline; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      body { padding: 10px; }
+      .aero-window { border-radius: 30px 32px 0 0; }
+      .aero-titlebar { padding: 10px 15px; }
+      .aero-titlebar-title { font-size: 18px; }
+      .aero-titlebar-tagline { font-size: 11px; }
+      .aero-titlebar-orb { width: 36px; height: 36px; }
+      .aero-body { flex-direction: column; }
+      .aero-sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #474747;
+      }
+      .aero-footer {
+        flex-direction: column;
+        gap: 4px;
+        padding: 12px 15px;
+        text-align: center;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- WINDOW-CHROME WRAPPER (Pattern A: container + sidebar + main) -->
+  <div class="aero-window">
+
+    <!-- VISTA TITLE BAR -->
+    <header class="aero-titlebar">
+      <a href="/" class="aero-titlebar-brand">
+        <div class="aero-titlebar-orb" aria-hidden="true"></div>
+        <div class="aero-titlebar-text">
+          <span class="aero-titlebar-title">Aria Voss</span>
+          <span class="aero-titlebar-tagline">Glossy interfaces, indie web revival, and other 2007 nostalgia.</span>
+        </div>
+      </a>
+      <div class="aero-titlebar-controls" aria-hidden="true">
+        <button aria-label="Minimize">_</button>
+        <button aria-label="Maximize">□</button>
+        <button aria-label="Close">×</button>
+      </div>
+    </header>
+
+    <!-- BODY -->
+    <div class="aero-body">
+
+      <!-- SIDEBAR NAV (Vista categorized) -->
+      <aside class="aero-sidebar">
+
+        <nav class="aero-nav-category" aria-label="Main">
+          <span class="aero-nav-category-title">Main</span>
+          <a href="#intro" class="aero-nav-link is-active">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 3l9 8h-3v9h-4v-6h-4v6H6v-9H3l9-8z"/></svg>
+            Introduction
+          </a>
+          <a href="#work" class="aero-nav-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M3 7h18v13H3zM8 5h8v2H8z"/></svg>
+            Work
+          </a>
+          <a href="#about" class="aero-nav-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            About
+          </a>
+          <a href="#contact" class="aero-nav-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 6l8 6 8-6"/></svg>
+            Contact
+          </a>
+        </nav>
+
+        <nav class="aero-nav-category" aria-label="Writing">
+          <span class="aero-nav-category-title">Writing</span>
+          <a href="#blog" class="aero-nav-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M5 4h14v16H5z"/><path d="M8 8h8M8 12h8M8 16h5" stroke="rgba(0,0,0,0.4)" stroke-width="2"/></svg>
+            Blog
+          </a>
+          <a href="#field-notes" class="aero-nav-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M19 3v18l-7-3-7 3V3z"/></svg>
+            Field Notes
+          </a>
+          <a href="#newsletter" class="aero-nav-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18v12H3z"/><path d="M3 6l9 6 9-6"/></svg>
+            Newsletter
+          </a>
+        </nav>
+
+        <nav class="aero-nav-category" aria-label="Community">
+          <span class="aero-nav-category-title">Community</span>
+          <a href="#webring" class="aero-nav-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/></svg>
+            Webring
+          </a>
+          <a href="#guestbook" class="aero-nav-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h14a2 2 0 012 2v14a2 2 0 01-2 2H4V4z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+            Guestbook
+          </a>
+          <a href="#elsewhere" class="aero-nav-link">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 4h6v6M10 14L20 4M5 5h6v2H7v10h10v-4h2v6H5z"/></svg>
+            Elsewhere
+          </a>
+        </nav>
+
+      </aside>
+
+      <!-- MAIN CONTENT (editorial, content-rich) -->
+      <main class="aero-main" id="intro">
+
+        <header><h1>Introduction</h1></header>
+
+        <article class="aero-content-block">
+          <p>
+            Welcome to the personal site of <strong>Aria Voss</strong> — designer, indie web revivalist, and quiet enthusiast of the Vista era. This is where the work lives: glossy, optimistic, gently absurd. Sometimes commissioned for clients in <a href="#work">eco-tech</a>, <a href="#work">AI wellness</a>, or <a href="#work">small cultural brands</a>. Sometimes built just because the future you were promised never arrived, and someone has to keep the aesthetic alive.
+          </p>
+          <p>
+            You can browse <a href="#work">recent projects</a>, read the occasional <a href="#blog">essay or field note</a>, sign the <a href="#guestbook">guestbook</a>, or wander out through the <a href="#webring">webring</a>. The <a href="#newsletter">newsletter</a> goes out roughly twice a year. No tracking. No AI-generated imagery. Hand-written CSS, friendly cursor, soft optimism. <span class="aero-inline-orb" aria-hidden="true"></span>
+          </p>
+        </article>
+
+        <header id="work"><h2>Recent Work</h2></header>
+
+        <div class="aero-content-block" style="padding-bottom: 18px;">
+          <p>
+            A selection of projects from the past 18 months. Each combines period-accurate aesthetic discipline with modern accessibility, performance, and content discipline. Click any tile to read the case study.
+          </p>
+
+          <div class="aero-gallery">
+
+            <a href="#case-1" class="aero-gallery-card">
+              <div class="aero-gallery-card-img">
+                <div class="aero-gallery-card-img-placeholder">case study</div>
+              </div>
+              <p class="aero-gallery-card-title">Coastline Mapping Co.</p>
+              <p class="aero-gallery-card-meta">Brand + site — eco-tech, 2026</p>
+            </a>
+
+            <a href="#case-2" class="aero-gallery-card">
+              <div class="aero-gallery-card-img">
+                <div class="aero-gallery-card-img-placeholder" style="background: linear-gradient(135deg, var(--aero-blue-500), var(--aero-green-500));">case study</div>
+              </div>
+              <p class="aero-gallery-card-title">Mira Cloud Wellness</p>
+              <p class="aero-gallery-card-meta">App + marketing, 2025</p>
+            </a>
+
+            <a href="#case-3" class="aero-gallery-card">
+              <div class="aero-gallery-card-img">
+                <div class="aero-gallery-card-img-placeholder" style="background: linear-gradient(135deg, var(--aero-green-500), var(--aero-blue-700));">case study</div>
+              </div>
+              <p class="aero-gallery-card-title">Ortica Editions</p>
+              <p class="aero-gallery-card-meta">Independent press, 2025</p>
+            </a>
+
+            <a href="#case-4" class="aero-gallery-card">
+              <div class="aero-gallery-card-img">
+                <div class="aero-gallery-card-img-placeholder" style="background: linear-gradient(135deg, var(--aero-green-700), var(--aero-green-500));">case study</div>
+              </div>
+              <p class="aero-gallery-card-title">Solarpunk Atlas (volunteer)</p>
+              <p class="aero-gallery-card-meta">Open-source map, 2024</p>
+            </a>
+
+          </div>
+        </div>
+
+        <header id="about"><h2>About</h2></header>
+
+        <article class="aero-content-block">
+          <p>
+            I trained in editorial design, then drifted to product UI for a software studio that asked me to "make it feel like the future." I kept ending up at the past — specifically the period from <a href="#blog">Windows Vista to the Wii U</a>, when interfaces were glossy, optimistic, and quietly absurd. The current AI-generated design slop pushed me out into independent work. Two years later this is what I do all day.
+          </p>
+          <p>
+            Currently accepting commissions for: site identity refreshes, full brand systems for indie + eco-tech, illustration work in skeuomorphic 3D style, design system documentation. Not accepting: anything that ships AI-generated imagery as final output, or projects that require fluency in <em>"generic SaaS English."</em>
+          </p>
+        </article>
+
+        <header id="field-notes"><h2>Recent Field Notes</h2></header>
+
+        <article class="aero-content-block">
+          <p>
+            <strong><a href="#note-1">On the asymmetric Aero curve</a></strong> &nbsp;·&nbsp; A 600-word essay on why <code>border-radius: 70px 80px 0 0</code> is the single most distinctive CSS pattern of 2007, and why nothing made since has matched its specific lopsided confidence. <em>(March 2026)</em>
+          </p>
+          <p>
+            <strong><a href="#note-2">What "Frutiger Eco" actually meant</a></strong> &nbsp;·&nbsp; Re-reading the 2008 Sozaijiten Vol. 206 stock library against current eco-tech branding. Notes on the substance/aesthetic gap, with mercy for both sides. <em>(February 2026)</em>
+          </p>
+          <p>
+            <strong><a href="#note-3">Building portfolio sites in Vista chrome</a></strong> &nbsp;·&nbsp; A workshop in how to use <code>7.css</code> as scaffolding without leaning into pastiche. Includes the full build for the site you're reading. <em>(January 2026)</em>
+          </p>
+        </article>
+
+        <header id="contact"><h2>Contact</h2></header>
+
+        <article class="aero-content-block">
+          <p>
+            Reach out at <a href="mailto:hello@ariavoss.example">hello@ariavoss.example</a>. I read everything; I respond within a week. For commissioned work, please include: a sentence on the project, the medium (site, brand, illustration), and your budget range. For chat, follow me through the <a href="#webring">Frutiger Aero webring</a> or sign the <a href="#guestbook">guestbook</a> &mdash; both still functional in 2026, somehow.
+          </p>
+        </article>
+
+      </main>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER (Vista taskbar style) -->
+  <footer class="aero-footer">
+    <div>
+      © 2026 Aria Voss &nbsp;|&nbsp; Built with the
+      <a href="#" target="_blank">Frutiger Aero Site Builder</a> skill
+    </div>
+    <div>
+      <a href="#rss">RSS</a> ·
+      <a href="#sitemap">Sitemap</a> ·
+      <a href="https://frutigeraeroarchive.org" rel="external">FA Archive</a>
+    </div>
+  </footer>
+
+</body>
+</html>
