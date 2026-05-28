@@ -1,6 +1,6 @@
 ---
 name: social-algorithm
-description: "Knowledge base sistema personal brand organico + archivio note sull'algoritmo IG (2018-2026). Usa per vendita indiretta, strategia contenuti IG post-2025, funnel acquisizione clienti senza ADV, sistemi delega creator, scaling personal brand."
+description: "Knowledge base sistema personal brand organico + dinamiche algoritmo Instagram. Usa per vendita indiretta, strategia contenuti IG, funnel acquisizione clienti senza ADV, sistemi delega creator, scaling personal brand."
 allowed-tools:
   - Read
   - Grep
@@ -8,13 +8,13 @@ argument-hint: [topic, framework name, o ch01-ch07]
 ---
 
 # Social Algorithm & Personal Brand — Sistema Organico
-**Periodo source**: 2018-2026 | **Chapters**: 7 | **Generated**: 2026-05-28
+**Chapters**: 7
 
 ## How to Use This Skill
 - **No args** → leggi i Core Frameworks qui sotto
-- **Topic** → "spiegami vendita indiretta", "come scrivere script video", "metriche IG 2026" → leggo il chapter relevante
+- **Topic** → "spiegami vendita indiretta", "come scrivere script video", "metriche algoritmo" → leggo il chapter relevante
 - **Chapter** → "ch03" o "ch07" → carico chapter specifico
-- **Lookup storico** → knowledge base algoritmo (eras 2018-2026, matrice diagnostica, hook patterns, repost strategy) → ch07
+- **Lookup algoritmo** → knowledge base algoritmo (evoluzione ere, matrice diagnostica, hook patterns, repost strategy) → ch07
 
 Lingua source: italiano. Mantieni terminologia originale (vendita indiretta, cammino dell'eroe, prezzemolo, etc) — sono framework con nome specifico.
 
@@ -48,7 +48,7 @@ Non è il singolo contenuto a vendere, è l'insieme della comunicazione. CTA = u
 - Risorse complementari (lead magnet ricorrente fuori piattaforma)
 - Mai dare per scontato che il viewer ti conosca
 
-**3 metriche pillar 2026**: Salvataggi, Watch time, Condivisioni. Like e follower deprezzati.
+**3 metriche pillar attuali**: Salvataggi, Watch time, Condivisioni. Like e follower deprezzati.
 
 **Stories** = unico avamposto rimasto per relazione community. **Canali complementari** necessari: YouTube/LinkedIn/newsletter/school.
 
@@ -75,7 +75,7 @@ Talking head statico = morto. Combina:
 
 Plus differenziatore: esperienza personale (situazioni vissute, esempi concreti). Se ChatGPT può scrivere il tuo contenuto, non sei riconoscibile.
 
-### Definizione di Organico 2026 (Ch 4)
+### Definizione di Organico (Ch 4)
 Richieste/fatturato anche senza budget ADV. Organico+ADV sono **complementari**, non religioni monoteiste. Personal brand senza ADV è possibile (casi documentati di 7 cifre con base follower ridotta); ADV senza personal brand = costi alti, conversione bassa.
 
 ### Framework "Ti Vedo / Ti Valido / Ti Associo" (Ch 4)
@@ -110,7 +110,7 @@ Framework "**Tanti X ma pochi Y**" per leggere gli insights e capire il fix mira
 - **↑ Like / ↓ Commenti** → domande polarizzanti + esperienze personali
 - **↑ Visite profilo / ↓ Follower** → bio chiara + 3 sec hook + tematiche verticali
 
-### Repost Strategy (post 7-Ago-2025) (Ch 7)
+### Repost Strategy (Ch 7)
 Algoritmo discovery-first → follower non vedono i tuoi post. **Repost entro 3 ore** dalla pubblicazione bypassa argomento-centrismo. Pubblica quando audience è online; repost influenza distribuzione ore successive.
 
 ### Hook Non-Inflazionati (Ch 7)
@@ -131,14 +131,14 @@ Sostituisci formule cliché con framing specifico:
 | [ch04](references/ch04-sistema-acquisizione-organico.md) | Sistema Acquisizione Organico | Ti vedo/valido/associo, 4 gironi infernali, 5 livelli consapevolezza, 6 funnel, integrazione ADV |
 | [ch05](references/ch05-video-dinamici.md) | Video Instagram Dinamici | 4 tecniche dinamicità, script trailer-style, b-roll personalizzati |
 | [ch06](references/ch06-5-principi-scaling.md) | 5 Principi per Scalare | Posizionamento, comunicazione controllata, funnel etici, vendi esecuzione |
-| [ch07](references/ch07-algoritmo-knowledge-base.md) | Knowledge Base Algoritmo IG 2018-2026 | 3 metriche pillar, matrice diagnostica, repost strategy, hook non-inflazionati, eras 2018-2026 |
+| [ch07](references/ch07-algoritmo-knowledge-base.md) | Knowledge Base Algoritmo IG | 3 metriche pillar, matrice diagnostica, repost strategy, hook non-inflazionati, evoluzione ere algoritmo |
 
 ## Topic Index
 
 - **Algoritmo Instagram (state attuale)** → ch02, ch07
 - **B-roll** → ch05
 - **Bisogno (creare nei contenuti)** → ch01, ch06
-- **Carosello (formato IG, rinascita 2026)** → ch07
+- **Carosello (formato IG, rinascita)** → ch07
 - **Cammino dell'eroe** → ch01
 - **Canali complementari** → ch02
 - **CTA (call to action)** → ch01, ch06
@@ -149,7 +149,7 @@ Sostituisci formule cliché con framing specifico:
 - **Ideazione contenuti (metodi)** → ch03
 - **Lead magnet / risorse gratuite** → ch02
 - **Manifesto personale** → ch01
-- **Metriche IG 2026 (salvataggi/watch time/condivisioni)** → ch07, cheatsheet
+- **Metriche IG (salvataggi/watch time/condivisioni)** → ch07, cheatsheet
 - **Newsletter** → ch02
 - **Organico vs ADV** → ch04
 - **Pillar method** → ch03
@@ -167,7 +167,7 @@ Sostituisci formule cliché con framing specifico:
 - **Video dinamici / talking head morto** → ch05
 - **YouTube come canale complementare** → ch02
 - **Matrice diagnostica performance** → ch07, cheatsheet
-- **Repost strategy (post 7-ago-2025)** → ch07, cheatsheet
+- **Repost strategy** → ch07, cheatsheet
 - **Hook non-inflazionati / ganci** → ch07, cheatsheet
 - **Discovery-first algorithm** → ch07
 - **Organico vs ADV (5 motivi difesa)** → ch07
@@ -191,13 +191,13 @@ Sostituisci formule cliché con framing specifico:
 
 - [references/glossary.md](references/glossary.md) — ~60 termini chiave (framework, anti-pattern, tool, metriche)
 - [references/patterns.md](references/patterns.md) — 33 tecniche operative (vendita indiretta, delega, scripting, metriche, funnel, hook patterns, repost strategy)
-- [references/cheatsheet.md](references/cheatsheet.md) — tabelle quick-reference (3 metriche 2026, vecchio vs nuovo algoritmo, 4 elementi, 5 principi, 6 funnel, matrice diagnostica)
+- [references/cheatsheet.md](references/cheatsheet.md) — tabelle quick-reference (3 metriche pillar, vecchio vs nuovo algoritmo, 4 elementi, 5 principi, 6 funnel, matrice diagnostica)
 
 ---
 
 ## Scope & Limits
 
-Skill basata su sistema per personal brand organico + archivio 8 anni divulgazione algoritmo IG. **Lingua**: italiano (preserva framework names).
+Skill su sistema personal brand organico + dinamiche algoritmo IG. **Lingua**: italiano (preserva framework names).
 
 **Non copre**:
 - ADV tecniche (Meta Ads, Google Ads) — solo principio complementarità
@@ -205,4 +205,4 @@ Skill basata su sistema per personal brand organico + archivio 8 anni divulgazio
 - Aspetti legali, fiscali, contabili del business creator
 - Tool tecnici diversi da Turbo Scribe + AI assistant
 
-Per evoluzione algoritmo + tattiche correnti → ch07 (knowledge base interna sintetizzata).
+Per evoluzione algoritmo + tattiche correnti → ch07.

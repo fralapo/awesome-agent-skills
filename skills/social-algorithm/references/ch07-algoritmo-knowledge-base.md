@@ -1,14 +1,13 @@
-# Chapter 7: Knowledge Base Algoritmo Instagram 2018-2026
+# Chapter 7: Knowledge Base Algoritmo Instagram
 
-**Scope:** archivio di osservazioni tattiche sull'evoluzione algoritmo IG, best practice di formato, diagnostica performance contenuti, casi studio brand
-**Range temporale:** 2018-11-30 → 2026-05-26
+**Scope:** osservazioni tattiche sull'evoluzione algoritmo IG, best practice di formato, diagnostica performance contenuti, casi studio brand
 
 ## Core Idea
-Knowledge base cronologica di 8 anni di osservazioni sull'algoritmo Instagram. Documenta evoluzione delle dinamiche, panic moments (follow/unfollow ban, like nascosti, Reels launch), cambi di metriche pillar, passaggio profilo→argomento-centrico. Contiene framework diagnostici, hook patterns, repost strategy.
+Knowledge base sull'algoritmo Instagram. Documenta evoluzione delle dinamiche, panic moments (follow/unfollow ban, like nascosti, Reels launch), cambi di metriche pillar, passaggio profilo→argomento-centrico. Contiene framework diagnostici, hook patterns, repost strategy.
 
 ---
 
-## 1. Stato Algoritmo 2026 — i 3 Parametri Pillar
+## 1. Stato Algoritmo Attuale — i 3 Parametri Pillar
 
 Algoritmo decide cosa spingere su **3 metriche**, non più like/follower:
 
