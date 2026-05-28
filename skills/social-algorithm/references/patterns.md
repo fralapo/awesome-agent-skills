@@ -1,250 +1,250 @@
 # Patterns
 
-Tecniche operative estratte dalle 7 sezioni.
+Operational techniques extracted from the 7 sections.
 
-## 1. I 4 Elementi della Vendita Indiretta
-**Quando usare**: ogni contenuto deve toccare almeno 1-2 di questi
-**Come**:
-1. Esperienza diretta — "ho visto/fatto X"
-2. Principio del bisogno — gap situazione/desiderio
-3. Cammino dell'eroe — valori, percorso, payoff
-4. Social proof come prezzemolo — testimonianze ovunque
-**Trade-off**: contenuti più lenti da produrre ma costruiscono asset duraturo. CTA singola "Scrivimi info" è fast ma satura
+## 1. The 4 Elements of Indirect Selling
+**When to use**: every piece of content has to touch at least 1-2 of these
+**How**:
+1. Direct experience — "I saw / did X"
+2. Principle of need — situation / desire gap
+3. Hero's journey — values, journey, payoffs
+4. Social proof as garnish — testimonials everywhere
+**Trade-off**: slower content to produce but builds a lasting asset. A single "DM me info" CTA is fast but saturated
 
-## 2. Social Proof Sprinkle (prezzemolo)
-**Quando**: hai casi studio/testimonianze ma stanno solo in Drive
-**Come**: inserisci screen/risultati in storie, descrizioni, commenti, b-roll. Mai standalone "ecco il mio caso studio"
-**Trade-off**: serve disciplina; un caso studio = 5-10 micro-utilizzi sparsi
+## 2. Social Proof Sprinkle (garnish)
+**When**: you have case studies / testimonials but they only sit in Drive
+**How**: insert screenshots / results into Stories, descriptions, comments, B-roll. Never standalone "here is my case study"
+**Trade-off**: requires discipline; a single case study = 5-10 scattered micro-uses
 
 ## 3. Manifesto Filter
-**Quando**: hai clienti sbagliati / vuoi selezionare il target
-**Come**: scrivi manifesto pubblico (post pinnato) con valori, modus operandi, chi vuoi (e chi no). Esempio: "rispondo entro 48h, non salvo vite"
-**Trade-off**: perderai clienti non allineati = vittoria, non sconfitta
+**When**: you have the wrong clients / want to select the target
+**How**: write a public manifesto (pinned post) with values, modus operandi, who you want (and who not). Example: "I reply within 48h, I'm not saving lives"
+**Trade-off**: you will lose misaligned clients = win, not loss
 
-## 4. Distribuzione per Interessi — adattamento contenuti
-**Quando**: vedi engagement scendere a parità di follower
-**Come**:
-- Riconoscibilità + dominio in ogni contenuto
-- Risorse complementari (lead magnet ricorrente)
-- Mai dare per scontato che il viewer ti conosca
-**Trade-off**: contenuti meno "in-group" ma molto più scalabili
+## 4. Distribution by Interest — content adaptation
+**When**: you see engagement falling at constant follower count
+**How**:
+- Recognizability + domain in every piece of content
+- Complementary resources (recurring lead magnet)
+- Never assume the viewer knows you
+**Trade-off**: less "in-group" content but much more scalable
 
-## 5. Stories per Fidelizzazione
-**Quando**: il feed non raggiunge più la community
-**Come**: piano comunicativo intenzionale per stories, non posting compulsivo. Mostra valori, payoff, dietro le quinte, casi cliente
-**Trade-off**: investimento tempo quotidiano vs canale di vera relazione
+## 5. Stories for Loyalty
+**When**: the feed no longer reaches the community
+**How**: an intentional communication plan for Stories, not compulsive posting. Show values, payoffs, behind the scenes, client cases
+**Trade-off**: daily time investment vs a real relationship channel
 
-## 6. Canali Complementari
-**Quando**: dipendi 100% da Instagram
-**Come**: aggiungi almeno 1 canale fra:
-- YouTube (intento di click, long-form fidelizzante)
-- LinkedIn (target diverso, B2B)
-- Newsletter (canale proprietario, vendita potente)
-- School/Circle (community privata)
-**Trade-off**: più canali = più tempo, ma anti-fragilità
+## 6. Complementary Channels
+**When**: you depend 100% on Instagram
+**How**: add at least 1 channel among:
+- YouTube (click intent, long-form loyalty-builder)
+- LinkedIn (different target, B2B)
+- Newsletter (owned channel, powerful sales)
+- School / Circle (private community)
+**Trade-off**: more channels = more time, but anti-fragility
 
-## 7. Formula Revenue/Ore
-**Quando**: valuti se i contenuti "ti pagano"
-**Come**: `€_generati_dal_canale / ore_dedicate`. €500/ora è sopra qualsiasi consulenza
-**Trade-off**: serve attribuzione corretta; nel breve revenue bassa è normale (compound effect)
+## 7. Revenue / Hours Formula
+**When**: you are assessing whether content "pays you"
+**How**: `€_generated_from_the_channel / hours_dedicated`. €500/hour beats any consulting
+**Trade-off**: needs correct attribution; in the short run low revenue is normal (compound effect)
 
-## 8. 3 Stadi di Delega Personal Brand
-**Quando**: vuoi scalare senza perdere "personal"
-**Come**:
-- Stadio 1 — one-man-show (necessario per validare voce)
-- Stadio 2 — + editor (delega più veloce ROI)
-- Stadio 3 — microteam (direttore + supporto reg + editor)
-**Trade-off**: SMM generalista = scorciatoia tentante ma costa il brand
+## 8. 3 Personal Brand Delegation Stages
+**When**: you want to scale without losing "personal"
+**How**:
+- Stage 1 — one-man-show (necessary to validate your voice)
+- Stage 2 — + editor (delegation with faster ROI)
+- Stage 3 — microteam (director + recording support + editor)
+**Trade-off**: a generalist SMM = tempting shortcut but costs the brand
 
-## 9. Inside Out (ideazione)
-**Quando**: sei creativo, scrivi naturalmente
-**Come**: journaling settimanale + estrai pillar da trascrizioni call cliente (Gemini Meet → Claude project → "estrapola pillar di contenuto")
-**Trade-off**: serve abitudine di scrittura
+## 9. Inside Out (ideation)
+**When**: you are creative, you write naturally
+**How**: weekly journaling + extract pillars from client-call transcripts (Gemini Meet → Claude project → "extract content pillars")
+**Trade-off**: requires a writing habit
 
-## 10. Reference (ideazione)
-**Quando**: non scrivi spontaneamente, ami scrollare
-**Come**: account dedicato + scroll Reels + "Mi interessa" sui 3 puntini + collezione "next contents" nei salvati
-**Trade-off**: rischio fuga in scroll, serve disciplina
+## 10. Reference (ideation)
+**When**: you don't write spontaneously, you love scrolling
+**How**: dedicated account + Reels scrolling + "Interested" on the 3 dots + "next contents" collection in saves
+**Trade-off**: risk of getting lost in scrolling, discipline needed
 
-## 11. Pillar (ideazione)
-**Quando**: vuoi metodo strutturato, lista infinita
-**Come**: parti da macrotematiche del tuo dominio → spacchetta in sotto-tematiche → spacchetta ancora → fermati quando hai contenuto singolo specifico
-**Trade-off**: lista può diventare gigante; problema opposto = scegliere
+## 11. Pillar (ideation)
+**When**: you want a structured method, an endless list
+**How**: start from macro-topics of your domain → break into sub-topics → break further → stop when you have a single specific piece
+**Trade-off**: the list can get huge; the opposite problem = choosing
 
 ## 12. Reference Based Scripting (Turbo Scribe + AI)
-**Quando**: ti blocchi davanti al foglio bianco
-**Come**: link video reference → turboscribe.ai → struttura ossea → riempi con tuoi punti (eventualmente prompt AI "estrapolami la struttura da questo script, dammi scheletro da riempire con mie idee")
-**Trade-off**: rischio essere derivativo se non aggiungi esperienza personale
+**When**: you freeze in front of a blank page
+**How**: link to a reference video → turboscribe.ai → skeletal structure → fill in with your points (optionally AI prompt "extract the structure from this script, give me a skeleton to fill with my ideas")
+**Trade-off**: risk of being derivative if you don't add personal experience
 
-## 13. Modalità Autore (Ken Follett)
-**Quando**: ti piace scrivere ma vuoi qualità
-**Come**: butta giù pensieri, lascia decantare, rileggi, sfoltisci, struttura. Bozze multiple non versione perfetta al primo colpo
-**Trade-off**: più lento ma più "tuo"
+## 13. Author Mode (Ken Follett)
+**When**: you like writing but want quality
+**How**: dump your thoughts, let it sit, re-read, prune, structure. Multiple drafts, not a perfect version on the first try
+**Trade-off**: slower but more "yours"
 
 ## 14. Full Day Blocking
-**Quando**: non trovi mai tempo per registrare
-**Come**: blocca 1 giorno/mese in calendario CON MESI DI ANTICIPO (es. gennaio blocca marzo). 1 full day = oltre 1 mese di contenuti
-**Trade-off**: rigidità che diventa libertà
+**When**: you can never find time to record
+**How**: block 1 day / month on the calendar WITH MONTHS OF LEAD TIME (e.g. in January block March). 1 full day = more than 1 month of content
+**Trade-off**: rigidity that becomes freedom
 
-## 15. Set Minimo Registrazione
-**Quando**: vuoi iniziare con €0-100
-**Come**: iPhone recente + luce €6-30 Amazon + cavalletto + sfondo decente (parete casa). Outdoor anche (parco, Airbnb)
-**Trade-off**: niente, davvero
+## 15. Minimum Recording Setup
+**When**: you want to start with €0-100
+**How**: recent iPhone + €6-30 light from Amazon + tripod + decent background (home wall). Outdoor too (park, Airbnb)
+**Trade-off**: none, really
 
-## 16. 4 Tecniche Dinamicità Video
-**Quando**: i tuoi reel sono talking head statici e non performano
-**Come**: combina almeno 2-3 di:
-- Oggetti/metafore visive
-- Cambi inquadratura + movimento (registra in piedi)
-- B-roll personalizzati (registra 10-30 scene "fai cose")
-- Script trailer-style (periodi brevi)
-**Trade-off**: setup richiede 1h extra ma engagement molto più alto
+## 16. 4 Video Dynamism Techniques
+**When**: your reels are static talking heads and don't perform
+**How**: combine at least 2-3 of:
+- Objects / visual metaphors
+- Camera angle changes + movement (record standing)
+- Custom B-roll (record 10-30 scenes of "you doing things")
+- Trailer-style script (short sentences)
+**Trade-off**: setup takes 1h extra but engagement much higher
 
-## 17. Posizionamento Verticale
-**Quando**: target generico, conversione bassa
-**Come**: riduci dominio a 1 cosa precisa. "Personal brand" → "personal brand in organico". Faccia ↔ dominio in 2 secondi
-**Trade-off**: rinunci a pubblico più largo ma vendi 10x meglio
+## 17. Vertical Positioning
+**When**: target is generic, conversion is low
+**How**: reduce the domain to 1 precise thing. "Personal brand" → "personal brand in organic". Face ↔ domain in 2 seconds
+**Trade-off**: you give up wider audience but sell 10x better
 
-## 18. Bisogno Gap (struttura contenuto vendita)
-**Quando**: contenuti utili ma nessuno scrive
-**Come**:
-1. Mostra situazione attuale del target (problema)
-2. Mostra situazione desiderata (risultato cliente)
-3. Crea gap percepito (cosa manca per arrivare lì)
-4. CTA opzionale (a quel punto self-evident)
-**Trade-off**: serve case study reali, no genericità
+## 18. Need Gap (sales content structure)
+**When**: useful content but no one writes
+**How**:
+1. Show the target's current situation (the problem)
+2. Show the desired situation (the client result)
+3. Create the perceived gap (what's missing to get there)
+4. Optional CTA (by that point self-evident)
+**Trade-off**: requires real case studies, no generalities
 
-## 19. Vendi Esecuzione, Non Informazione
-**Quando**: hai paura di "regalare contenuto"
-**Come**: redesign servizio attorno a SUPPORTO + ACCOUNTABILITY + APPLICAZIONE su contesto specifico. Allora puoi dire tutto gratis
-**Trade-off**: ridisegnare offerta = lavoro grosso una tantum
+## 19. Sell Execution, Not Information
+**When**: you are afraid of "giving away content"
+**How**: redesign the service around SUPPORT + ACCOUNTABILITY + APPLICATION to a specific context. Then you can say everything for free
+**Trade-off**: redesigning the offer = a big one-off job
 
-## 20. Algoritmo 2026 — Ottimizza per 3 Metriche
-**Quando**: posti regolarmente ma non scali
-**Come**: progetta ogni contenuto per massimizzare almeno 1 di:
-- Salvataggi (= "tornerò qui")
-- Watch time (= contenuto profondo, spiegoni, caroselli lenti)
-- Condivisioni (= "devi vederlo anche tu")
-Like e follower = ignorali come KPI primari
-**Trade-off**: format come caroselli con audio rinati; like-bait morto
+## 20. Algorithm — Optimize for 3 Metrics
+**When**: you post regularly but don't scale
+**How**: design every piece of content to maximize at least 1 of:
+- Saves (= "I'll come back here")
+- Watch time (= deep content, long-form explainers, slow carousels)
+- Shares (= "you have to see this too")
+Likes and followers = ignore as primary KPIs
+**Trade-off**: formats like carousels with audio reborn; like-bait dead
 
-## 21. Matrice Diagnostica "Tanti X ma Pochi Y"
-**Quando**: vuoi capire cosa correggere leggendo i numeri di un post
-**Come**: confronta 2 metriche e applica fix:
-- Salvataggi alti / like bassi → CTA esplicita prima della metà
-- Views alte / follower bassi → identità visiva + format distintivo ripetuto
-- Follower alti / interazioni basse → contenuti personali + parla del target
-- Follower alti / click bio bassi → motivo forte per cliccare + CTA finale
-- Like alti / commenti bassi → domande polarizzanti + esperienze personali
-- Visite profilo alte / follower bassi → bio chiara + 3 sec hook + verticalità
-- Salvataggi alti / condivisioni basse → leva emotiva + tematiche identificative
-**Trade-off**: serve guardare insights regolarmente; rivela qual è il vero gap
+## 21. Diagnostic Matrix "Lots of X but Few Y"
+**When**: you want to figure out what to fix by reading the numbers on a post
+**How**: compare 2 metrics and apply the fix:
+- High saves / low likes → explicit CTA before the halfway mark
+- High views / low followers → visual identity + repeated distinctive format
+- High followers / low interactions → personal content + talk about the target
+- High followers / low bio clicks → strong reason to click + final CTA
+- High likes / low comments → polarizing questions + personal experiences
+- High profile visits / low followers → clear bio + 3-sec hook + verticality
+- High saves / low shares → emotional lever + identity-laden topics
+**Trade-off**: requires looking at insights regularly; reveals what the real gap is
 
-## 22. Repost Strategy (post-7 Agosto 2025)
-**Quando**: i tuoi follower non vedono più i tuoi post (algoritmo discovery-first)
-**Come**:
-1. Pubblica all'orario in cui audience è effettivamente online
-2. Fai **repost entro 3 ore** dalla pubblicazione iniziale
-3. Repost bypassa argomento-centrismo → arriva a chi ti segue come post nuovo
-**Trade-off**: usato male diventa spam; bonus: influenza distribuzione ore successive
+## 22. Repost Strategy (post-August 7, 2025)
+**When**: your followers no longer see your posts (discovery-first algorithm)
+**How**:
+1. Publish at the time your audience is actually online
+2. Do a **repost within 3 hours** of the initial publication
+3. Repost bypasses topic-centric distribution → reaches followers as a new post
+**Trade-off**: used poorly it becomes spam; bonus: influences distribution in the following hours
 
-## 23. Hook Pattern Non-Inflazionato
-**Quando**: i tuoi hook suonano come quelli di tutti gli altri
-**Come**: sostituisci formule cliché con framing specifico:
-- "Consigli per X" → "Tutti ti dicono di X, ma nessuno spiega COME"
-- "Come ho fatto X" → "In [tempo] ho portato X da [A] a [B]"
-- "X consigli per Y" → "Se stai vivendo [momento], queste sono le azioni per non finire con [Z] tra [T]"
-- "Il mio metodo per X" → "Se domani mi svegliassi con [problema], ecco esattamente cosa farei"
-**Trade-off**: hook specifici filtrano audience (chi non ha quel problema scrolla)
+## 23. Non-Inflated Hook Pattern
+**When**: your hooks sound like everyone else's
+**How**: replace clichéd formulas with specific framing:
+- "Tips for X" → "Everyone tells you to X, but no one explains HOW"
+- "How I did X" → "In [time] I took X from [A] to [B]"
+- "X tips for Y" → "If you are going through [moment], these are the actions to avoid ending up with [Z] within [T]"
+- "My method for X" → "If tomorrow I woke up with [problem], here's exactly what I'd do"
+**Trade-off**: specific hooks filter the audience (whoever doesn't have that problem scrolls)
 
-## 24. Diagnostica Brand Riconoscibili (3 leve)
-**Quando**: vuoi capire perché un brand domina sui social
-**Come**: cerca queste 3 cose:
-1. **Uso strategico trend** — adattati al loro TOV, non copia
-2. **Mascotte / volto** — identità visiva non-replicabile
-3. **Social listening attivo** — risposte personalizzate ironiche/coerenti ai commenti
-**Trade-off**: replicabilità su personal brand = sostituisci mascotte con tuo volto
+## 24. Diagnosing Recognizable Brands (3 levers)
+**When**: you want to understand why a brand dominates on social
+**How**: look for these 3 things:
+1. **Strategic trend use** — adapted to their TOV, no copy
+2. **Mascot / face** — non-replicable visual identity
+3. **Active social listening** — personalized ironic / coherent replies to comments
+**Trade-off**: replicability for a personal brand = substitute mascot with your face
 
-## 25. Ti Vedo / Ti Valido / Ti Associo (Triangolo Personal Brand)
-**Quando**: vuoi capire perché un personal brand non converte
-**Come**: diagnostica i 3 vertici:
-- **Ti Vedo (chi sei)**: hai ethos definito? Hai elementi di ricorrenza? Documenti il tuo storytelling?
-- **Ti Associo (cosa fai)**: bio comprensibile in 5 secondi? Offerta chiara?
-- **Ti Valido (perché crederti)**: esperienza incopiabile nei contenuti? Social proof come prezzemolo? Autorevolezza visibile?
-**Trade-off**: lavoro di mesi, non quick fix; ma senza questo nessun funnel funziona
+## 25. I See You / I Validate You / I Associate You (Personal Brand Triangle)
+**When**: you want to understand why a personal brand doesn't convert
+**How**: diagnose the 3 vertices:
+- **I See You (who you are)**: do you have a defined ethos? Do you have recurrence elements? Do you document your storytelling?
+- **I Associate You (what you do)**: is the bio understandable in 5 seconds? Is the offer clear?
+- **I Validate You (why believe you)**: uncopyable experience in the content? Social proof as garnish? Visible authority?
+**Trade-off**: months of work, not a quick fix; but without this no funnel works
 
-## 26. Profile Funnel (conversione da bio)
-**Quando**: hai processo di acquisto breve (target già consapevole "da chi vado?")
-**Come**:
-- Bio prima riga = motivo per cui dare soldi (comprensibile a bambino delle elementari)
-- Post pinnati: autorevolezza + proof + storia personale
-- Link in bio: 1-3 link max
-- Coerenza visiva nelle cover
-**Trade-off**: funziona già senza viralità se fondamenta solide
+## 26. Profile Funnel (conversion from bio)
+**When**: you have a short purchase process (target already aware "who do I go to?")
+**How**:
+- Bio first line = reason to give money (understandable to an elementary-school kid)
+- Pinned posts: authority + proof + personal story
+- Bio link: 1-3 links max
+- Visual coherence in covers
+**Trade-off**: works without virality if the foundations are solid
 
-## 27. Set di Vendita in Storie (struttura)
-**Quando**: vuoi convertire chi già ti segue senza essere pushy
-**Come**:
-1. Hook che crea gap percepito ("sai cosa fanno le persone dove vorresti essere?")
-2. 3-4 elementi necessari, testo poco per slide
-3. **Slide conclusiva** che unisce i puntini (le persone non lo fanno da sole)
-4. CTA variata (non solo "scrivimi info")
-**Trade-off**: 1/settimana se costante con storie, max 1/2 settimane se incostante
+## 27. Sales Set in Stories (structure)
+**When**: you want to convert your followers without being pushy
+**How**:
+1. Hook that creates a perceived gap ("do you know what people in the position you want do?")
+2. 3-4 necessary elements, little text per slide
+3. **Closing slide** that connects the dots (people don't do it on their own)
+4. Varied CTA (not just "DM me info")
+**Trade-off**: 1 / week if you do Stories consistently, max 1 / 2 weeks if inconsistent
 
 ## 28. Lead Magnet + ManyChat Funnel
-**Quando**: vuoi scalare lead acquisition senza setter dedicato
-**Come**:
-- Contenuto/storia con keyword → ManyChat trigger
-- Sempre **doppia conferma** (mai mandare risorsa al primo messaggio)
-- Usa **bottoni**, NON quick reply (invisibili)
-- Risorsa di attrazione → riattivazione conversazione su risorsa di vendita
-- Riattivazione manuale dopo X ore = dove avviene la conversione effettiva
-**Trade-off**: serve setup tecnico; se newsletter non gestita NON chiedere email
+**When**: you want to scale lead acquisition without a dedicated setter
+**How**:
+- Content / Story with keyword → ManyChat trigger
+- Always **double confirmation** (never send the resource on the first message)
+- Use **buttons**, NOT quick replies (invisible)
+- Attraction resource → conversation reactivation on a sales resource
+- Manual reactivation after X hours = where the actual conversion happens
+**Trade-off**: needs technical setup; if the newsletter is not managed, do NOT ask for email
 
-## 29. Pillar Method per Idee Contenuti
-**Quando**: hai macro-tematiche ma blocco creativo sul singolo post
-**Come**:
-1. Lista macro-tematiche del dominio (problemi/pain/obiettivi/desire del target)
-2. Spacchetta ogni macro in sotto-tematiche
-3. Domanda: "posso essere risolutivo in 60 secondi?" SÌ → accendila / NO → spacchetta ancora
-4. Filtra le idee per processo acquisto + livello consapevolezza target
-**Trade-off**: output sproporzionato (problema diventa scegliere)
+## 29. Pillar Method for Content Ideas
+**When**: you have macro-topics but a creative block on the single post
+**How**:
+1. List macro-topics of the domain (target problems / pains / goals / desires)
+2. Break each macro into sub-topics
+3. Question: "can I be resolutive in 60 seconds?" YES → flag it / NO → break further
+4. Filter the ideas by purchase process + target awareness level
+**Trade-off**: disproportionate output (the problem becomes choosing)
 
 ## 30. Try-and-Real Tactic
-**Quando**: vuoi più movimento senza creare contenuti nuovi
-**Come**:
-- Pubblica best performer del passato come Trial Reels
-- Crea **variazioni** (titolo/font/taglio) per bypassare de-duplica
-- Volume 1-3 al giorno
-- È un terno all'otto: serve volume alto perché funzioni 1
-**Trade-off**: frustrante (la maggior parte flop); contenuti che vanno = dati su pubblico cold
+**When**: you want more movement without creating new content
+**How**:
+- Publish past best performers as Trial Reels
+- Create **variations** (title / font / cut) to bypass deduplication
+- Volume 1-3 per day
+- It's a long shot: needs high volume so that 1 hits
+**Trade-off**: frustrating (most flop); the content that hits = data on a cold audience
 
-## 31. Gestione DM — Struttura Ossea
-**Quando**: ti scrivono in DM e non sai come gestire la conversazione
-**Come**:
-1. **Apertura**: "Prima di darti info, raccontami brevemente, così capisco se posso aiutarti"
-2. **Approfondimento**: domande direzionali (problema, cosa già fatto, obiettivo)
-3. **Chiusura**: "Mi sembra in linea, ti direi di fissare chiamata. Che ne pensi?" (controllo a loro)
-4. **Riattivazione**: chat NON finiscono, si riprendono ore/giorni/mesi dopo
-**Trade-off**: serve tempo; ma il 90% delle conversazioni che muoiono = soldi persi
+## 31. DM Management — Skeleton
+**When**: people DM you and you don't know how to handle the conversation
+**How**:
+1. **Opening**: "Before sending info, tell me briefly about it so I can see if I can help"
+2. **Deep dive**: directional questions (problem, what you've already done, goal)
+3. **Close**: "Looks in line, I'd say let's book a call. What do you think?" (control to them)
+4. **Reactivation**: chats DON'T end, they pick up hours / days / months later
+**Trade-off**: takes time; but the 90% of conversations that die = money lost
 
-## 32. 5 Livelli di Consapevolezza Target
-**Quando**: vuoi capire perché un contenuto/funnel non converte
-**Come**: mappa il tuo target sul livello attuale:
-- Inconsapevole / Consapevole problema / Consapevole soluzione / Consapevole prodotto / Consapevolissimo
-**Fix per livello**:
-- Inconsapevoli → contenuti divulgativi pieni di metafore (target più complesso)
-- Consapevoli problema → contenuti di consapevolezza ("così non va")
-- Consapevoli soluzione → casi studio + meccanismo unico
-- Consapevoli prodotto → set di vendita diretti
-**Trade-off**: parti dal "consapevole problema" in su per maggiore efficienza
+## 32. 5 Target Awareness Levels
+**When**: you want to understand why a piece of content / funnel doesn't convert
+**How**: map your target to the current level:
+- Unaware / Problem-aware / Solution-aware / Product-aware / Most-aware
+**Fix by level**:
+- Unaware → educational content full of metaphors (harder target)
+- Problem-aware → awareness content ("this isn't working")
+- Solution-aware → case studies + unique mechanism
+- Product-aware → direct sales sets
+**Trade-off**: start from "problem-aware" upward for greater efficiency
 
-## 33. Tactical Defense Organico vs ADV
-**Quando**: cliente/team dice "i contenuti organici sono inutili"
-**Come**: difendi con 5 argomenti:
-1. Sperimentazione (testi format gratis prima di spenderci budget)
-2. Community + fidelizzazione (ADV porta, organico trattiene)
-3. Valori + USP (differenziazione no-ADV-clone)
-4. Coerenza (chi vede ADV controlla profilo)
-5. Social listening (capisci pubblico = capisci cosa funzionerà in ADS)
-**Trade-off**: serve metrica composita ROAS+brand lift, non solo CPL del singolo canale
+## 33. Tactical Defense Organic vs ADV
+**When**: a client / team says "organic content is useless"
+**How**: defend with 5 arguments:
+1. Experimentation (test formats for free before spending budget)
+2. Community + loyalty (ADV brings, organic retains)
+3. Values + USP (no-ADV-clone differentiation)
+4. Coherence (whoever sees the ADV checks the profile)
+5. Social listening (understand the audience = understand what will work in ADS)
+**Trade-off**: needs a composite ROAS + brand-lift metric, not just the single channel's CPL
