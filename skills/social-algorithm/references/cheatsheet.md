@@ -1,194 +1,194 @@
 # Cheatsheet — Quick Reference
 
-## 3 Metriche Pillar Instagram 2026
-| Metrica | Significato | Implicazione contenuto |
-|---------|-------------|------------------------|
-| Salvataggi | "Questo profilo mi interessa, ritornerò" | Cheatsheet, liste, framework salvabili |
-| Watch time | "Argomenti che mi interessano" | Spiegoni, caroselli lenti, video lunghi |
-| Condivisioni | "Rilevante per il tuo target" | Meme relatable, take controintuitive |
+## 3 Pillar Instagram Metrics
+| Metric | Meaning | Content implication |
+|--------|---------|---------------------|
+| Saves | "This profile interests me, I'll come back" | Cheatsheets, lists, saveable frameworks |
+| Watch time | "Topics I'm interested in" | Long-form explainers, slow carousels, long videos |
+| Shares | "Relevant to your target" | Relatable memes, counter-intuitive takes |
 
-**Deprezzati**: Like, Follower (non più driver decisionali)
+**Devalued**: Likes, Followers (no longer decision drivers)
 
-## Vecchio vs Nuovo Algoritmo (2023 → 2026)
-| Dimensione | Vecchio (≤2023) | Nuovo (2025+) |
-|------------|-----------------|---------------|
-| Distribuzione | Follower-based | Interest-based |
-| Utenti | Attivi/cercanti | Passivi/dopaminici |
-| Tempo permanenza | KPI cruciale | Fuori controllo |
-| Engagement % | Alto | -20/24% medio |
-| Crescita | Lineare follower | Varianza top/flop |
-| Fidelizzazione | Via feed | Via stories + email |
+## Old vs Current Algorithm
+| Dimension | Old | Current |
+|-----------|-----|---------|
+| Distribution | Follower-based | Interest-based |
+| Users | Active / searching | Passive / dopamine-driven |
+| Time on profile | Crucial KPI | Out of control |
+| Engagement % | High | Average -20/24% |
+| Growth | Linear follower-based | Variance top / flop |
+| Loyalty | Via feed | Via Stories + email |
 
-## I 4 Elementi della Vendita Indiretta
-1. **Esperienza diretta** — "ho visto/fatto X"
-2. **Bisogno** — gap stato/desiderio
-3. **Cammino eroe** — valori, percorso, manifesto
-4. **Social proof prezzemolo** — testimonianze ovunque
+## The 4 Elements of Indirect Selling
+1. **Direct experience** — "I saw / did X"
+2. **Need** — state / desire gap
+3. **Hero's journey** — values, journey, manifesto
+4. **Social proof as garnish** — testimonials everywhere
 
-## I 5 Principi per Scalare
-1. Posizionamento > strategia
-2. Controllo comunicazione = controllo acquisizione
-3. Persone non comprano in autonomia → funnel
-4. Vendi esecuzione, non informazione
-5. Senza vendita indiretta, nessuna CTA salva
+## The 5 Principles for Scaling
+1. Positioning > strategy
+2. Controlling communication = controlling acquisition
+3. People do not buy on their own → funnels
+4. Sell execution, not information
+5. Without indirect selling, no CTA can save you
 
-## 4 Tecniche Video Dinamici
-1. Elementi visivi + metafore
-2. Cambi inquadratura + movimento (registra in piedi)
-3. B-roll personalizzati (no stock)
-4. Script trailer-style (periodi brevi)
+## 4 Dynamic Video Techniques
+1. Visual elements + metaphors
+2. Camera angle changes + movement (record standing)
+3. Custom B-roll (no stock)
+4. Trailer-style script (short sentences)
 
-## 3 Stadi Delega Personal Brand
-| Stadio | Cosa deleghi | Quando passare |
-|--------|--------------|----------------|
-| 1. One-man-show | Niente | Sempre primo step |
-| 2. + Editor | Edit + pubblicazione | Appena monetizzi |
-| 3. Microteam | Ricerca + supporto reg | Quando hai budget per direttore creativo |
+## 3 Personal Brand Delegation Stages
+| Stage | What you delegate | When to move |
+|-------|-------------------|--------------|
+| 1. One-man-show | Nothing | Always the first step |
+| 2. + Editor | Edit + publishing | As soon as you monetize |
+| 3. Microteam | Research + recording support | When you have budget for a creative director |
 
-## 3 Metodi Ideazione + 3 Metodi Scripting
-| Modello | Ideare | Scriptare |
-|---------|--------|-----------|
-| Inside Out | Journaling + call clienti | — |
-| Reference | Scroll mirato + salvataggi | Turbo Scribe + AI |
+## 3 Ideation Methods + 3 Scripting Methods
+| Model | Ideate | Script |
+|-------|--------|--------|
+| Inside Out | Journaling + client calls | — |
+| Reference | Targeted scrolling + saves | Turbo Scribe + AI |
 | Pillar | Macro → micro | — |
-| Autore | — | Bozze multiple |
-| AI-assisted | — | Prompt struttura + tuo |
+| Author Mode | — | Multiple drafts |
+| AI-assisted | — | Structure prompt + your input |
 
-## Decision: che canale complementare aggiungo?
-| Tuo target | Canale consigliato |
-|------------|-------------------|
-| B2C divulgazione | YouTube (long-form fidelizzante) |
-| B2B / agenzia | LinkedIn |
-| Topic verticale tecnico | Newsletter + Substack |
+## Decision: which complementary channel do I add?
+| Your target | Recommended channel |
+|-------------|---------------------|
+| B2C educational | YouTube (long-form loyalty-builder) |
+| B2B / agency | LinkedIn |
+| Technical vertical topic | Newsletter + Substack |
 | Community engagement | School / Circle |
-| Audience giovane | TikTok |
+| Young audience | TikTok |
 
-## Setup Registrazione Minimo
-- iPhone recente (no macchina foto obbligatoria)
-- Luce €6-30 Amazon
-- Cavalletto
-- Sfondo (parete casa, parco, Airbnb)
-- Opzionale: secondo punto luce
+## Minimum Recording Setup
+- Recent iPhone (real camera not mandatory)
+- Light €6-30 from Amazon
+- Tripod
+- Background (home wall, park, Airbnb)
+- Optional: a second light point
 
-## Formula ROI Contenuti
+## Content ROI Formula
 ```
-ROI = €_generati_dal_canale / ore_investite
+ROI = €_generated_from_the_channel / hours_invested
 
-10h × €5000 = €500/ora ✓ ottimo
-30h × €2000 = €67/ora ✗ rifiuta
-30h × €10000+ = €333+/ora ✓ accetta
+10h × €5000 = €500/hour ✓ great
+30h × €2000 = €67/hour ✗ refuse
+30h × €10000+ = €333+/hour ✓ accept
 ```
 
-## Matrice Diagnostica "Tanti X ma Pochi Y" (Ch 7)
-| Segnale | Diagnosi | Fix principale |
-|---------|----------|----------------|
-| ↑ Salvataggi, ↓ Like | Utile ma "già interagito mentalmente" | CTA esplicita prima della metà |
-| ↑ Views, ↓ Follower | Funziona ma non costruisce relazione | Identità visiva + format ripetuto |
-| ↑ Follower, ↓ Interazioni | Audience fredda | Contenuti personali, parla del target |
-| ↑ Follower, ↓ Click bio | Posizionamento OK, niente azione | Motivo forte + CTA finale soft |
-| ↑ Like, ↓ Commenti | Risuona ma non polarizza | Domande polarizzanti + esperienze |
-| ↑ Visite profilo, ↓ Follower | Non convince in 3 sec | Bio chiara + tematiche verticali |
-| ↑ Salvataggi, ↓ Condivisioni | Utile ma non "socialmente condivisibile" | Leva emotiva + tematiche identificative |
+## Diagnostic Matrix "Lots of X but Few Y" (Ch 7)
+| Signal | Diagnosis | Main fix |
+|--------|-----------|----------|
+| ↑ Saves, ↓ Likes | Useful but "already interacted mentally" | Explicit CTA before the halfway mark |
+| ↑ Views, ↓ Followers | Works but doesn't build a relationship | Visual identity + repeated format |
+| ↑ Followers, ↓ Interactions | Cold audience | Personal content, talk about the target |
+| ↑ Followers, ↓ Bio clicks | Positioning OK, no action | Strong reason + soft final CTA |
+| ↑ Likes, ↓ Comments | Resonates but doesn't polarize | Polarizing questions + experiences |
+| ↑ Profile visits, ↓ Followers | Doesn't convince in 3 sec | Clear bio + vertical topics |
+| ↑ Saves, ↓ Shares | Useful but not "socially shareable" | Emotional lever + identity-laden topics |
 
-## Hook Patterns Non-Inflazionati (Ch 7)
-| Cliché da evitare | Sostituisci con |
-|-------------------|-----------------|
-| "Consigli per X" | "Tutti ti dicono di X, ma nessuno spiega COME" |
-| "Come X anche se Y" | "Si può davvero X anche se Y in così poco tempo?" |
-| "X per chi ha Y" | "Se sei [gruppo X] e non vuoi mai più [Y], guarda" |
-| "Il mio metodo per X" | "Se domani mi svegliassi con [problema], ecco cosa farei" |
-| "Come ho fatto crescere X" | "In [tempo] ho portato X da [A] a [B]" |
-| "X anni di esperienza" | "Ci ho messo [tempo immemore], te lo insegno in [tempo brevissimo]" |
-| "X consigli per Y" | "Se stai vivendo [momento], queste sono le azioni per non finire con [Z] tra [T]" |
+## Non-Inflated Hook Patterns (Ch 7)
+| Cliché to avoid | Replace with |
+|-----------------|--------------|
+| "Tips for X" | "Everyone tells you to X, but no one explains HOW" |
+| "How to X even if Y" | "Can you really X even with Y in so little time?" |
+| "X for those with Y" | "If you are [group X] and never want [Y] again, watch this" |
+| "My method for X" | "If tomorrow I woke up with [problem], here's what I'd do" |
+| "How I grew X" | "In [time] I took X from [A] to [B]" |
+| "X years of experience" | "It took me [forever], I'll teach it to you in [very short time]" |
+| "X tips for Y" | "If you are going through [moment], these are the actions to avoid ending up with [Z] within [T]" |
 
-## Repost Strategy 2025-2026 (Ch 7)
-- Feature lanciata **7 agosto 2025**
-- **Repost entro 3 ore** dalla pubblicazione iniziale
-- Pubblica all'orario in cui audience è online (insights/analytics)
-- Repost = post nuovo (non storia) ai TUOI follower → bypassa argomento-centrismo
-- Influenza distribuzione ore successive (effetto cascata)
+## Repost Strategy (Ch 7)
+- Feature launched **August 7, 2025**
+- **Repost within 3 hours** of the initial publication
+- Publish at the time your audience is online (insights / analytics)
+- Repost = new post (not Story) to YOUR followers → bypasses topic-centric distribution
+- Influences distribution in the following hours (cascade effect)
 
-## 5 Motivi per cui Organico Conta nell'Era ADV (Ch 7)
-1. **Sperimentazione** — testi format gratis prima di portarli in ADS
-2. **Community** — ADV porta, organico fidelizza
-3. **Valori + USP** — differenziazione vs competitor
-4. **Coerenza** — chi vede ADV controlla profilo
-5. **Social listening** — capisci pubblico
+## 5 Reasons Organic Matters in the ADV Era (Ch 7)
+1. **Experimentation** — test formats for free before taking them to ADS
+2. **Community** — ADV brings, organic builds loyalty
+3. **Values + USP** — differentiation vs competitors
+4. **Coherence** — whoever sees the ADV checks the profile
+5. **Social listening** — understand the audience
 
-## Triangolo "Ti Vedo / Ti Valido / Ti Associo" (Ch 4)
-| Vertice | Sub-elementi | Domanda diagnostica |
-|---------|--------------|---------------------|
-| **Ti Vedo** | Ethos + Ricorrenza + Storytelling personale | Mi ricordo di te? |
-| **Ti Associo** | Posizionamento + Offerta + Target chiari | So cosa fai in 5 secondi? |
-| **Ti Valido** | Esperienza + Autorevolezza + Proof | Credo che funzioni? |
+## "I See You / I Validate You / I Associate You" Triangle (Ch 4)
+| Vertex | Sub-elements | Diagnostic question |
+|--------|--------------|---------------------|
+| **I See You** | Ethos + Recurrence + Personal storytelling | Do I remember you? |
+| **I Associate You** | Positioning + Offer + Target clear | Do I know what you do in 5 seconds? |
+| **I Validate You** | Experience + Authority + Proof | Do I believe it works? |
 
-## 4 Gironi dell'Inferno (anti-pattern Ch 4)
-1. **Naviganti a vista** — contenuti senza metodo, sperano clienti
-2. **Cricca dei pescatori** — pubblicano e aspettano
-3. **Venditori di pentole** — ogni post = CTA/vendita, brucia community
-4. **Scaricatori di porto** — ADV su contenuti senza struttura
+## 4 Circles of Hell (anti-pattern Ch 4)
+1. **Wing-it navigators** — content with no method, hope for clients
+2. **Fishermen's clique** — they post and wait
+3. **Pot sellers** — every post = CTA / pitch, burns the community
+4. **Dock laborers** — ADV on content with no structure
 
-## 5 Livelli di Consapevolezza Target (Ch 4)
-| Livello | Stato target | Contenuto adatto |
-|---------|--------------|------------------|
-| Inconsapevole | Non sa di avere il problema | Divulgativi (target difficile) |
-| Consapevole problema | Sa di avere un problema (maggioranza) | "Così non va", errori, framework |
-| Consapevole soluzione | Sa che esiste soluzione | Casi studio + meccanismo unico |
-| Consapevole prodotto | Sa che tu offri quella soluzione | Set di vendita, "Scrivimi info" |
-| Consapevolissimo | Tutto noto, manca azione/obiezione | Offerta diretta, sconti |
+## 5 Target Awareness Levels (Ch 4)
+| Level | Target state | Suitable content |
+|-------|--------------|------------------|
+| Unaware | Doesn't know they have the problem | Educational (hard target) |
+| Problem-aware | Knows they have a problem (majority) | "This isn't working", errors, frameworks |
+| Solution-aware | Knows a solution exists | Case studies + unique mechanism |
+| Product-aware | Knows you offer that solution | Sales set, "DM me info" |
+| Most-aware | Everything known, only action / objection missing | Direct offer, discounts |
 
-## 6 Funnel di Acquisizione (Ch 4)
-| Funnel | Quando | Effort |
-|--------|--------|--------|
-| Profile funnel (bio+pinnati+link) | Processo acquisto breve | Basso, once |
-| Contatto follower (proattivo) | Pochi follower, fase iniziale | Alto, manuale |
-| ManyChat (semi-auto) | Volumi medi, no setter | Medio, setup |
-| Storie indirette | Sempre, 2+/sett | Medio, costante |
-| Storie dirette (set vendita) | 1/sett se costante | Medio |
-| Lead magnet + ManyChat | Scalare lead generation | Alto setup, basso ongoing |
-| Quiz funnel | Qualificare lead | Alto setup |
+## 6 Acquisition Funnels (Ch 4)
+| Funnel | When | Effort |
+|--------|------|--------|
+| Profile funnel (bio + pinned + link) | Short purchase process | Low, one-off |
+| Follower outreach (proactive) | Few followers, early stage | High, manual |
+| ManyChat (semi-auto) | Mid-volume, no setter | Medium, setup |
+| Indirect Stories | Always, 2+ / week | Medium, constant |
+| Direct Stories (sales set) | 1 / week if consistent | Medium |
+| Lead magnet + ManyChat | Scaling lead generation | High setup, low ongoing |
+| Quiz funnel | Qualifying leads | High setup |
 
-## Spettro Proattivo ↔ Reattivo (Ch 4)
-- **Più piccolo / nicchia satura** → più PROATTIVO (contatto follower, lead magnet)
-- **Più grande / nicchia poco satura** → più REATTIVO (aspetti che scrivano)
-- Mai 100% reattivo se non sei già brand affermato
+## Proactive ↔ Reactive Spectrum (Ch 4)
+- **Smaller / saturated niche** → more PROACTIVE (follower outreach, lead magnet)
+- **Larger / less saturated niche** → more REACTIVE (you wait for them to write)
+- Never 100% reactive unless you are already an established brand
 
-## Gestione DM — Struttura Ossea (Ch 4)
-1. Apertura: "Prima di darti info, raccontami brevemente"
-2. Approfondimento: problema attuale + cosa già fatto + obiettivo
-3. Chiusura: "Mi sembra in linea, ti direi di fissare chiamata. Che ne pensi?"
-4. Riattivazione: chat non finiscono mai
+## DM Management — Skeleton (Ch 4)
+1. Opening: "Before sending info, tell me briefly about it"
+2. Deep dive: current problem + what you've already done + goal
+3. Close: "Looks in line, I'd say let's book a call. What do you think?"
+4. Reactivation: chats never end
 
-## ADV Integrazione 2026 (Ch 4)
-- **Prospecting**: €3-5/giorno su contenuti attrazione già validati
-- **Retargeting**: a chi ha interagito → contenuti consapevolezza + vendita
-- Mai ADV su fondamenta rotte (bruci soldi)
+## ADV Integration (Ch 4)
+- **Prospecting**: €3-5 / day on already validated attraction content
+- **Retargeting**: to those who have interacted → awareness + sales content
+- Never ADV on broken foundations (you burn money)
 
-## Tempistiche Risultati (Ch 4)
-| Fase | Tempo (con guida) |
-|------|-------------------|
-| Da 0 a 1 (mai vendite organic) | 3-4 mesi denso |
-| Da 1 a 2 (profilo avviato) | 3 mesi |
-| Da 2 a 3 (scaling) | Dipende (team, servizio, canali) |
+## Result Timelines (Ch 4)
+| Phase | Time (with guidance) |
+|-------|----------------------|
+| From 0 to 1 (no organic sales yet) | 3-4 dense months |
+| From 1 to 2 (profile up and running) | 3 months |
+| From 2 to 3 (scaling) | Depends (team, service, channels) |
 
-## 3 Leve dei Brand Riconoscibili (Ch 7)
-1. Uso strategico trend (adattati al TOV)
-2. Mascotte / volto identitario
-3. Social listening attivo (commenti con personalità)
+## 3 Levers of Recognizable Brands (Ch 7)
+1. Strategic trend use (adapted to TOV)
+2. Mascot / identity face
+3. Active social listening (comments with personality)
 
 ## Anti-Pattern Cheat List
-- "Scrivimi info per ricevere informazioni" (overuse)
-- Talking head statico parete bianca
-- B-roll stock library
-- Contenuto autoreferenziale standalone (caso studio isolato)
-- Vendere informazioni con AI già disponibile
-- Aspettare tempo libero per registrare
-- Solo Instagram (no canale complementare)
-- Misurare in ore senza misurare revenue
-- Posizionamento "per tutti"
-- Flexare risultati personali (interessa solo cliente)
+- "DM me info to receive information" (overuse)
+- Static talking head white wall
+- Stock library B-roll
+- Standalone self-referential content (isolated case study)
+- Selling information when AI already provides it
+- Waiting for free time to record
+- Only Instagram (no complementary channel)
+- Measuring in hours without measuring revenue
+- "For everyone" positioning
+- Flexing personal results (the client only cares about themselves)
 
-## Riferimenti Esterni
-- turboscribe.ai — trascrizione video (3 free / incognito)
-- school.com / circle.so — piattaforme community private
-- gemini meet — trascrizione automatica call clienti
+## External References
+- turboscribe.ai — video transcription (3 free / incognito)
+- school.com / circle.so — private community platforms
+- gemini meet — automatic transcription for client calls

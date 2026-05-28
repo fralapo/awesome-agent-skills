@@ -1,123 +1,123 @@
 ---
 name: social-algorithm
-description: "Knowledge base sistema personal brand organico + dinamiche algoritmo Instagram. Usa per vendita indiretta, strategia contenuti IG, funnel acquisizione clienti senza ADV, sistemi delega creator, scaling personal brand."
+description: "Knowledge base for organic personal brand systems and Instagram algorithm dynamics. Use for indirect selling, IG content strategy, client acquisition funnels without ADV, creator delegation systems, and personal brand scaling."
 allowed-tools:
   - Read
   - Grep
-argument-hint: [topic, framework name, o ch01-ch07]
+argument-hint: [topic, framework name, or ch01-ch07]
 ---
 
-# Social Algorithm & Personal Brand — Sistema Organico
+# Social Algorithm & Personal Brand — Organic System
 **Chapters**: 7
 
 ## How to Use This Skill
-- **No args** → leggi i Core Frameworks qui sotto
-- **Topic** → "spiegami vendita indiretta", "come scrivere script video", "metriche algoritmo" → leggo il chapter relevante
-- **Chapter** → "ch03" o "ch07" → carico chapter specifico
-- **Lookup algoritmo** → knowledge base algoritmo (evoluzione ere, matrice diagnostica, hook patterns, repost strategy) → ch07
+- **No args** → read the Core Frameworks below
+- **Topic** → "explain indirect selling", "how to write a video script", "algorithm metrics" → load the relevant chapter
+- **Chapter** → "ch01" or "ch07" → load that specific chapter
+- **Algorithm lookup** → algorithm knowledge base (era evolution, diagnostic matrix, hook patterns, repost strategy) → ch07
 
-Lingua source: italiano. Mantieni terminologia originale (vendita indiretta, cammino dell'eroe, prezzemolo, etc) — sono framework con nome specifico.
+Source language: English. Keep original framework names (indirect selling, hero's journey, social proof as garnish, etc.) — they are proper names of frameworks.
 
 ---
 
 ## Core Frameworks & Mental Models
 
-### Vendita Indiretta — i 4 Elementi (Ch 1)
-Non è il singolo contenuto a vendere, è l'insieme della comunicazione. CTA = ultimo 5%. I 4 elementi da inserire in ogni pezzo di comunicazione:
-1. **Esperienza diretta** — basa tutto sulla tua esperienza concreta, non solo "come fare" ma "come ho fatto"
-2. **Principio del bisogno** — crea gap percepito tra situazione attuale del target e quella desiderata. Senza bisogno, nessuna CTA funziona
-3. **Cammino dell'eroe** — documenta valori, percorso, payoff personali, manifesto. Non storia eroica favelas→Lambo, ma RIVELARE chi sei
-4. **Social proof come prezzemolo** — testimonianze/risultati ovunque (storie, descrizioni, commenti), MAI come post standalone "ecco il mio caso studio"
+### Indirect Selling — the 4 Elements (Ch 1)
+The single piece of content does not sell, the body of communication does. CTA = last 5%. The 4 elements to embed in every piece of communication:
+1. **Direct experience** — base everything on your concrete experience, not just "how to" but "how I did"
+2. **Principle of need** — create a perceived gap between the target's current state and the desired one. With no need, no CTA works
+3. **Hero's journey** — document values, journey, personal payoffs, manifesto. Not a heroic favelas-to-Lambo story, but REVEALING who you are
+4. **Social proof as garnish** — testimonials and results everywhere (Stories, descriptions, comments), NEVER as a standalone "here is my case study" post
 
-### I 5 Principi per Scalare (Ch 6)
-1. **Posizionamento > strategia** — verticalizzazione su un dominio specifico, non "tutto personal brand". Connessione faccia ↔ dominio in 2 secondi
-2. **Controllo comunicazione = controllo acquisizione** — contenuti attrazione (utile) ≠ contenuti vendita (creano bisogno). Strutture distinte
-3. **Persone non comprano in autonomia** — cervello in comfort zone, servono funnel etici. No idealismo "lasciamoli liberi"
-4. **Vendi esecuzione, non informazione** — con AI knowledge = commodity. Se temi di "regalare contenuto" il servizio è progettato male
-5. **Senza vendita indiretta nessuna CTA vende** — tutti i contenuti devono "portare acqua al mulino"
+### The 5 Principles to Scale (Ch 6)
+1. **Positioning > strategy** — verticalize on one specific domain, not "personal brand in general". Face ↔ domain connection in 2 seconds
+2. **Controlling communication = controlling acquisition** — attraction content (useful) ≠ sales content (creates need). Distinct structures
+3. **People don't buy on their own** — the brain stays in its comfort zone, ethical funnels are needed. No idealism around "let them be free"
+4. **Sell execution, not information** — with AI, knowledge is a commodity. If you fear "giving away content", the service is poorly designed
+5. **Without indirect selling, no CTA sells** — all content must "carry water to your mill"
 
-### Il Cambiamento Epocale Algoritmo (Ch 2, 7)
-**2 cambiamenti strutturali**:
-- Distribuzione per **interessi** (non più follower-based) — argomento-centrico vs profilo-centrico
-- Utenti **passivi/dopaminici** — IG come TV con telecomando, apertura per abitudine non per cercare
+### The Epochal Algorithm Shift (Ch 2, 7)
+**2 structural changes**:
+- Distribution by **interest** (no longer follower-based) — topic-centric vs profile-centric
+- **Passive / dopamine-driven** users — IG is like TV with a remote, opened by habit rather than intent
 
-**3 conseguenze**: engagement -20/24%, varianza alta (pochi top, pochi flop, no middle), algoritmo premia buon contenuto a prescindere da follower (TikTokizzazione)
+**3 consequences**: engagement -20/24%, high variance (few top, few flop, no middle), the algorithm rewards good content regardless of follower count (TikTok-ification)
 
-**3 elementi nei contenuti post-cambiamento**:
-- Riconoscibilità + associazione col tuo dominio in ogni contenuto
-- Risorse complementari (lead magnet ricorrente fuori piattaforma)
-- Mai dare per scontato che il viewer ti conosca
+**3 elements in post-shift content**:
+- Recognizability + association with your domain in every piece of content
+- Complementary resources (recurring lead magnet off-platform)
+- Never assume the viewer knows you
 
-**3 metriche pillar attuali**: Salvataggi, Watch time, Condivisioni. Like e follower deprezzati.
+**3 current pillar metrics**: Saves, watch time, shares. Likes and follower counts have been devalued.
 
-**Stories** = unico avamposto rimasto per relazione community. **Canali complementari** necessari: YouTube/LinkedIn/newsletter/school.
+**Stories** = the only remaining outpost for the community relationship. **Complementary channels** are necessary: YouTube / LinkedIn / newsletter / school.
 
-### Sistema Operativo per Costanza (Ch 3)
-**Formula corretta**: `revenue_generata / ore_investite` (NON `n_contenuti / ore`). €500/ora è sopra qualsiasi consulenza — nessuno rifiuta.
+### Operating System for Consistency (Ch 3)
+**Correct formula**: `revenue_generated / hours_invested` (NOT `n_content / hours`). €500/hour beats any consulting fee — no one turns it down.
 
-**3 stadi delega**:
-1. One-man-show (necessario per validare voce)
-2. + Editor — prima delega, ROI rapido
-3. Microteam: direttore creativo + supporto in registrazione + editor
+**3 delegation stages**:
+1. One-man-show (necessary to validate your voice)
+2. + Editor — first delegation, quick ROI
+3. Microteam: creative director + recording support + editor
 
-**3 metodi ideare**: Inside Out (journaling + estrazione call clienti via trascrizione+AI), Reference (scroll mirato salvataggi), Pillar (macro→micro fino a singolo contenuto)
+**3 ideation methods**: Inside Out (journaling + extracting client calls via transcription + AI), Reference (focused scrolling and saves), Pillar (macro → micro down to a single piece of content)
 
-**3 metodi scriptare**: Reference Based (Turbo Scribe + AI riempi struttura), Modalità Autore (bozze multiple alla Ken Follett), AI-assisted (prompt struttura + tuo)
+**3 scripting methods**: Reference Based (Turbo Scribe + AI fills the structure), Author Mode (multiple drafts à la Ken Follett), AI-assisted (structure prompt + your input)
 
-**Full day blocking**: blocca giorno registrazione in calendario con MESI di anticipo. 1 full day = oltre 1 mese di contenuti.
+**Full day blocking**: block a recording day in your calendar MONTHS in advance. 1 full day = more than 1 month of content.
 
-### Video Dinamici — 4 Tecniche (Ch 5)
-Talking head statico = morto. Combina:
-1. Elementi visivi + metafore (chiave per nicchie astratte)
-2. Cambi inquadratura + movimento (registra in piedi, cavalletto fermo)
-3. B-roll personalizzati (MAI stock — registra 10-30 scene "fai cose" coerenti col dominio)
-4. Script trailer-style (periodi brevi, frastagliati, vai a capo frequente)
+### Dynamic Videos — 4 Techniques (Ch 5)
+Static talking head = dead. Combine:
+1. Visual elements + metaphors (key for abstract niches)
+2. Camera angle changes + movement (record standing, tripod still)
+3. Custom B-roll (NEVER stock — record 10-30 scenes of "you doing things" coherent with your domain)
+4. Trailer-style script (short sentences, jagged, frequent line breaks)
 
-Plus differenziatore: esperienza personale (situazioni vissute, esempi concreti). Se ChatGPT può scrivere il tuo contenuto, non sei riconoscibile.
+Plus the differentiator: personal experience (situations you lived through, concrete examples). If ChatGPT can write your content, you are not recognizable.
 
-### Definizione di Organico (Ch 4)
-Richieste/fatturato anche senza budget ADV. Organico+ADV sono **complementari**, non religioni monoteiste. Personal brand senza ADV è possibile (casi documentati di 7 cifre con base follower ridotta); ADV senza personal brand = costi alti, conversione bassa.
+### Definition of Organic (Ch 4)
+Inquiries / revenue even without ADV budget. Organic + ADV are **complementary**, not competing religions. A personal brand without ADV is possible (documented seven-figure cases with small follower bases); ADV without a personal brand = high costs, low conversion.
 
-### Framework "Ti Vedo / Ti Valido / Ti Associo" (Ch 4)
-Processo mentale che il prospect deve compiere per ricordarti e comprare. Triangolo a 3 vertici:
-- **Ti Vedo** = ethos (chi sei) + ricorrenza (cosa ti identifica) + storytelling personale (percorso)
-- **Ti Associo** = posizionamento + offerta + target (in 5 secondi, comprensibile a bambino)
-- **Ti Valido** = esperienza incopiabile + autorevolezza + social proof come prezzemolo
+### "I See You / I Validate You / I Associate You" Framework (Ch 4)
+The mental process the prospect has to go through to remember you and buy. A triangle with 3 vertices:
+- **I See You** = ethos (who you are) + recurrence (what identifies you) + personal storytelling (the journey)
+- **I Associate You** = positioning + offer + target (in 5 seconds, understandable to a child)
+- **I Validate You** = uncopyable experience + authority + social proof as garnish
 
-### I 4 Gironi dell'Inferno (Ch 4 — cosa NON funziona)
-1. **Naviganti a vista** — contenuti senza metodo, sperano arrivino clienti
-2. **Cricca dei pescatori** — pubblicano e aspettano che il cliente li scovi
-3. **Venditori di pentole** — ogni post = CTA o vendita, bruciano la community
-4. **Scaricatori di porto** — budget su contenuti senza struttura sotto
+### The 4 Circles of Hell (Ch 4 — what does NOT work)
+1. **Wing-it navigators** — content with no method, hoping clients show up
+2. **Fishermen's clique** — they post and wait for the client to find them
+3. **Pot sellers** — every post = CTA or pitch, they burn the community
+4. **Dock laborers** — budget on content with no underlying structure
 
-### 5 Livelli di Consapevolezza Target (Ch 4)
-Inconsapevole → Consapevole del problema → della soluzione → del prodotto → consapevolissimo. Parti dal "consapevole del problema" in su; inconsapevoli sono target più difficile.
+### 5 Target Awareness Levels (Ch 4)
+Unaware → Problem-aware → Solution-aware → Product-aware → Most-aware. Start from problem-aware upward; unaware audiences are the hardest target.
 
-### 6 Funnel di Acquisizione (Ch 4)
-- **Profile funnel** (bio + post pinnati + link bio)
-- **Contatto follower** (proattivo, give-first)
-- **ManyChat** (automatico, bottoni > quick reply, doppia conferma)
-- **Storie indirette** (recensioni/dietro le quinte/casi/prese di posizione)
-- **Storie dirette** (set di vendita: hook gap + elementi + slide conclusiva + CTA)
-- **Lead magnet funnel** (keyword → ManyChat → riattivazione chat)
-- **Quiz funnel** (qualifica lead)
+### 6 Acquisition Funnels (Ch 4)
+- **Profile funnel** (bio + pinned posts + bio link)
+- **Follower outreach** (proactive, give-first)
+- **ManyChat** (automated, buttons > quick replies, double confirmation)
+- **Indirect Stories** (reviews / behind the scenes / cases / stances)
+- **Direct Stories** (sales set: gap hook + elements + closing slide + CTA)
+- **Lead magnet funnel** (keyword → ManyChat → chat reactivation)
+- **Quiz funnel** (lead qualification)
 
-### Matrice Diagnostica Performance (Ch 7)
-Framework "**Tanti X ma pochi Y**" per leggere gli insights e capire il fix mirato. Esempi:
-- **↑ Salvataggi / ↓ Like** → CTA esplicita prima della metà del contenuto
-- **↑ Views / ↓ Follower** → identità visiva + format distintivo ripetuto
-- **↑ Follower / ↓ Interazioni** → contenuti personali, parla del target
-- **↑ Like / ↓ Commenti** → domande polarizzanti + esperienze personali
-- **↑ Visite profilo / ↓ Follower** → bio chiara + 3 sec hook + tematiche verticali
+### Performance Diagnostic Matrix (Ch 7)
+The "**lots of X but few Y**" framework reads insights and points to a targeted fix. Examples:
+- **↑ Saves / ↓ Likes** → explicit CTA before the halfway mark of the content
+- **↑ Views / ↓ Followers** → visual identity + repeated distinctive format
+- **↑ Followers / ↓ Interactions** → personal content, talk about the target
+- **↑ Likes / ↓ Comments** → polarizing questions + personal experiences
+- **↑ Profile visits / ↓ Followers** → clear bio + 3-second hook + vertical topics
 
 ### Repost Strategy (Ch 7)
-Algoritmo discovery-first → follower non vedono i tuoi post. **Repost entro 3 ore** dalla pubblicazione bypassa argomento-centrismo. Pubblica quando audience è online; repost influenza distribuzione ore successive.
+The discovery-first algorithm means followers don't see your posts. **Repost within 3 hours** of publishing to bypass topic-centric distribution. Publish when your audience is online; the repost shapes distribution in the following hours.
 
-### Hook Non-Inflazionati (Ch 7)
-Sostituisci formule cliché con framing specifico:
-- "Consigli per X" → "Tutti ti dicono di X, ma nessuno spiega COME"
-- "Come ho fatto X" → "In [tempo] ho portato X da [A] a [B]"
-- "X consigli per Y" → "Se stai vivendo [momento], queste azioni per non finire con [Z]"
+### Non-Inflated Hooks (Ch 7)
+Replace clichéd formulas with specific framing:
+- "Tips for X" → "Everyone tells you to X, but no one explains HOW"
+- "How I did X" → "In [time] I took X from [A] to [B]"
+- "X tips for Y" → "If you are going through [moment], these are the actions to avoid ending up with [Z]"
 
 ---
 
@@ -125,84 +125,84 @@ Sostituisci formule cliché con framing specifico:
 
 | # | Title | Key Frameworks |
 |---|-------|----------------|
-| [ch01](references/ch01-vendita-indiretta.md) | Vendita Indiretta — i 4 elementi | 4 elementi vendita indiretta, social proof prezzemolo, manifesto filter |
-| [ch02](references/ch02-cambiamento-algoritmo.md) | Cambiamento Epocale Algoritmo | Distribuzione per interessi, 3 conseguenze, stories come community |
-| [ch03](references/ch03-sistemi-delega.md) | Sistemi & Delega | Formula revenue/ore, 3 stadi delega, Inside Out/Reference/Pillar, full day blocking |
-| [ch04](references/ch04-sistema-acquisizione-organico.md) | Sistema Acquisizione Organico | Ti vedo/valido/associo, 4 gironi infernali, 5 livelli consapevolezza, 6 funnel, integrazione ADV |
-| [ch05](references/ch05-video-dinamici.md) | Video Instagram Dinamici | 4 tecniche dinamicità, script trailer-style, b-roll personalizzati |
-| [ch06](references/ch06-5-principi-scaling.md) | 5 Principi per Scalare | Posizionamento, comunicazione controllata, funnel etici, vendi esecuzione |
-| [ch07](references/ch07-algoritmo-knowledge-base.md) | Knowledge Base Algoritmo IG | 3 metriche pillar, matrice diagnostica, repost strategy, hook non-inflazionati, evoluzione ere algoritmo |
+| [ch01](references/ch01-indirect-selling.md) | Indirect Selling — the 4 elements | 4 elements of indirect selling, social proof as garnish, manifesto filter |
+| [ch02](references/ch02-algorithm-shift.md) | The Epochal Algorithm Shift | Distribution by interests, 3 consequences, Stories as community |
+| [ch03](references/ch03-systems-delegation.md) | Systems & Delegation | Revenue/hours formula, 3 delegation stages, Inside Out / Reference / Pillar, full day blocking |
+| [ch04](references/ch04-organic-acquisition-system.md) | Organic Acquisition System | I see you / validate / associate, 4 circles of hell, 5 awareness levels, 6 funnels, ADV integration |
+| [ch05](references/ch05-dynamic-videos.md) | Dynamic Instagram Videos | 4 dynamism techniques, trailer-style scripts, custom B-roll |
+| [ch06](references/ch06-5-scaling-principles.md) | The 5 Scaling Principles | Positioning, controlled communication, ethical funnels, sell execution |
+| [ch07](references/ch07-algorithm-knowledge-base.md) | IG Algorithm Knowledge Base | 3 pillar metrics, diagnostic matrix, repost strategy, non-inflated hooks, algorithm era evolution |
 
 ## Topic Index
 
-- **Algoritmo Instagram (state attuale)** → ch02, ch07
+- **Instagram algorithm (current state)** → ch02, ch07
 - **B-roll** → ch05
-- **Bisogno (creare nei contenuti)** → ch01, ch06
-- **Carosello (formato IG, rinascita)** → ch07
-- **Cammino dell'eroe** → ch01
-- **Canali complementari** → ch02
+- **Need (creating it in content)** → ch01, ch06
+- **Carousel (IG format, revival)** → ch07
+- **Hero's journey** → ch01
+- **Complementary channels** → ch02
 - **CTA (call to action)** → ch01, ch06
-- **Delega creator** → ch03
-- **Esperienza diretta nei contenuti** → ch01, ch05
-- **Funnel** → ch06
-- **Full day registrazione** → ch03
-- **Ideazione contenuti (metodi)** → ch03
-- **Lead magnet / risorse gratuite** → ch02
-- **Manifesto personale** → ch01
-- **Metriche IG (salvataggi/watch time/condivisioni)** → ch07, cheatsheet
+- **Creator delegation** → ch03
+- **Direct experience in content** → ch01, ch05
+- **Funnels** → ch06
+- **Full recording day** → ch03
+- **Content ideation (methods)** → ch03
+- **Lead magnet / free resources** → ch02
+- **Personal manifesto** → ch01
+- **IG metrics (saves / watch time / shares)** → ch07, cheatsheet
 - **Newsletter** → ch02
-- **Organico vs ADV** → ch04
+- **Organic vs ADV** → ch04
 - **Pillar method** → ch03
-- **Posizionamento / verticalizzazione** → ch06
-- **Personal brand (definizione)** → ch04, ch06
+- **Positioning / verticalization** → ch06
+- **Personal brand (definition)** → ch04, ch06
 - **Reference Based scripting** → ch03, ch05
-- **Revenue / ore (formula)** → ch03
-- **Scaling personal brand** → ch06
-- **Scripting (metodi)** → ch03, ch05
-- **Set registrazione minimo** → ch03, ch05
+- **Revenue / hours (formula)** → ch03
+- **Scaling a personal brand** → ch06
+- **Scripting (methods)** → ch03, ch05
+- **Minimum recording setup** → ch03, ch05
 - **Social proof** → ch01
-- **Stories Instagram** → ch02
+- **Instagram Stories** → ch02
 - **Turbo Scribe** → ch03, ch05
-- **Vendita indiretta (4 elementi)** → ch01, ch06
-- **Video dinamici / talking head morto** → ch05
-- **YouTube come canale complementare** → ch02
-- **Matrice diagnostica performance** → ch07, cheatsheet
+- **Indirect selling (4 elements)** → ch01, ch06
+- **Dynamic videos / dead talking head** → ch05
+- **YouTube as a complementary channel** → ch02
+- **Performance diagnostic matrix** → ch07, cheatsheet
 - **Repost strategy** → ch07, cheatsheet
-- **Hook non-inflazionati / ganci** → ch07, cheatsheet
+- **Non-inflated hooks** → ch07, cheatsheet
 - **Discovery-first algorithm** → ch07
-- **Organico vs ADV (5 motivi difesa)** → ch07
-- **Brand riconoscibili (3 leve)** → ch07
-- **Spiegoni (formato)** → ch07
-- **Community Notes / fact-checking Meta** → ch07
+- **Organic vs ADV (5 defense arguments)** → ch07
+- **Recognizable brands (3 levers)** → ch07
+- **Long-form explainers (format)** → ch07
+- **Community Notes / Meta fact-checking** → ch07
 - **RedNote / TikTok USA ban** → ch07
-- **Ti vedo/Ti valido/Ti associo (triangolo)** → ch04
-- **4 Gironi dell'inferno (anti-pattern)** → ch04
-- **5 livelli consapevolezza target** → ch04
+- **I see you / I validate you / I associate you (triangle)** → ch04
+- **4 circles of hell (anti-pattern)** → ch04
+- **5 target awareness levels** → ch04
 - **Profile funnel** → ch04
 - **Lead magnet funnel + ManyChat** → ch04
 - **Quiz funnel** → ch04
-- **Storie indirette / dirette / set di vendita** → ch04
-- **Gestione DM (struttura chat)** → ch04
+- **Indirect / direct Stories / sales set** → ch04
+- **DM management (chat structure)** → ch04
 - **Try-and-Real / Trial Reels** → ch04
-- **Integrazione ADV (prospecting/retargeting)** → ch04
-- **Ethos / Ricorrenza / Storytelling personale** → ch04
+- **ADV integration (prospecting / retargeting)** → ch04
+- **Ethos / Recurrence / Personal storytelling** → ch04
 
 ## Supporting Files
 
-- [references/glossary.md](references/glossary.md) — ~60 termini chiave (framework, anti-pattern, tool, metriche)
-- [references/patterns.md](references/patterns.md) — 33 tecniche operative (vendita indiretta, delega, scripting, metriche, funnel, hook patterns, repost strategy)
-- [references/cheatsheet.md](references/cheatsheet.md) — tabelle quick-reference (3 metriche pillar, vecchio vs nuovo algoritmo, 4 elementi, 5 principi, 6 funnel, matrice diagnostica)
+- [references/glossary.md](references/glossary.md) — ~60 key terms (frameworks, anti-patterns, tools, metrics)
+- [references/patterns.md](references/patterns.md) — 33 operational techniques (indirect selling, delegation, scripting, metrics, funnels, hook patterns, repost strategy)
+- [references/cheatsheet.md](references/cheatsheet.md) — quick-reference tables (3 pillar metrics, old vs new algorithm, 4 elements, 5 principles, 6 funnels, diagnostic matrix)
 
 ---
 
 ## Scope & Limits
 
-Skill su sistema personal brand organico + dinamiche algoritmo IG. **Lingua**: italiano (preserva framework names).
+A skill on the organic personal brand system and IG algorithm dynamics. **Language**: English (framework names preserved).
 
-**Non copre**:
-- ADV tecniche (Meta Ads, Google Ads) — solo principio complementarità
-- Piattaforme: TikTok / LinkedIn / YouTube hanno menzione ma non strategie verticali
-- Aspetti legali, fiscali, contabili del business creator
-- Tool tecnici diversi da Turbo Scribe + AI assistant
+**Does not cover**:
+- ADV tactics (Meta Ads, Google Ads) — only the complementarity principle
+- Platforms: TikTok / LinkedIn / YouTube are mentioned but without vertical strategies
+- Legal, fiscal, and accounting aspects of the creator business
+- Tools other than Turbo Scribe + an AI assistant
 
-Per evoluzione algoritmo + tattiche correnti → ch07.
+For algorithm evolution and current tactics → ch07.
