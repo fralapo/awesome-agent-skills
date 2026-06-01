@@ -8,6 +8,14 @@ Key terms from the organic personal brand system + IG algorithm archive.
 
 **Acts 1-4 (4H Course)** — structure of the full system: context, content, marketing, integration (Ch 4)
 
+**Bio anatomy** — the 3-4 line structure of a converting bio: clarity+specificity / differentiation / authority / optional CTA (Ch 4)
+
+**"Kill the verb help"** — bio rule: drop "I help…" (makes you identical to all competitors); replace with imperative, first-person verb, "They call me when…", or "You find me when…" (Ch 4)
+
+**"Would I give this person my money?" test** — 1-10 gut check applied to a bio to judge whether it justifies a purchase (Ch 4)
+
+**Bio link (Linktree problem)** — max 3 / ideally 2 links (a free resource + a direct-contact funnel); the profile is itself the landing page, so remove options (Ch 4)
+
 **Lasting asset** — the personal brand seen as a long-term investment, not a tactical lead gen (Ch 4)
 
 **B-roll** — clips of "you doing things" intercut with the speech, never stock (Ch 5)
