@@ -102,6 +102,14 @@ Unaware → Problem-aware → Solution-aware → Product-aware → Most-aware. S
 - **Lead magnet funnel** (keyword → ManyChat → chat reactivation)
 - **Quiz funnel** (lead qualification)
 
+### Bio Anatomy — 3-4 Lines That Convert (Ch 4)
+The bio is the first outpost that converts traffic; a prospect who doesn't understand you is a lost client (goes to the clearer competitor). ~150 chars, expect to rewrite it often. Test: *"1-10, from this bio alone, would I give this person my money?"*
+- **Line 1 (decisive)**: who you are + what you do + what you do DIFFERENTLY. Must be **clear** (the target's own words) + **specific**. **Kill the verb "help"** → alternatives: "They call me when…", imperative ("Acquire steady clients organically"), first-person verb ("I build personal brands that sell organically"), "You find me when…" (for coaching/mental niches)
+- **Line 2 (differentiation)**: deepen line 1 / show *how* you impact them. No empty fillers, no invented method names unless certified. The distinctive tail clause = the core of your method
+- **Line 3 (authority)**: prove you're not a nobody — case studies / years / client numbers (uncopyable). At the start with no cases → drop it and be more specific above
+- **Line 4 (optional CTA)**: "write INFO in DM" (mass/aware B2C) · book now (short purchase window) · simple "click" + arrow
+- **Emoji** = purely stylistic; **bio link** = max 3 ideally 2 (a free resource + a direct-contact funnel), profile IS the landing page, reachable in ≤2 clicks
+
 ### Performance Diagnostic Matrix (Ch 7)
 The "**lots of X but few Y**" framework reads insights and points to a targeted fix. Examples:
 - **↑ Saves / ↓ Likes** → explicit CTA before the halfway mark of the content
@@ -179,6 +187,8 @@ Replace clichéd formulas with specific framing:
 - **4 circles of hell (anti-pattern)** → ch04
 - **5 target awareness levels** → ch04
 - **Profile funnel** → ch04
+- **Bio anatomy (3-4 lines, "kill the verb help")** → ch04, patterns
+- **Bio link / Linktree (max 2-3 links)** → ch04
 - **Lead magnet funnel + ManyChat** → ch04
 - **Quiz funnel** → ch04
 - **Indirect / direct Stories / sales set** → ch04

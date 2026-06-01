@@ -19,6 +19,18 @@
 | Growth | Linear follower-based | Variance top / flop |
 | Loyalty | Via feed | Via Stories + email |
 
+## Bio That Converts — 3-4 Lines (~150 chars)
+| Line | Job | Rule of thumb |
+|------|-----|---------------|
+| 1 | Clarity + specificity | who+what+what's DIFFERENT, in target's words. **Kill "help"** → imperative / first-person verb / "They call me when…" / "You find me when…" |
+| 2 | Differentiation | deepen L1, show *how* you impact them. No fillers, no uncertified method names. Distinctive clause = core of method |
+| 3 | Authority | case studies / years / client numbers (uncopyable). No case yet → drop it, be more specific above |
+| 4 (opt) | CTA | "write INFO in DM" (mass B2C) · book-now (short window) · "click" + arrow |
+
+- **Test**: "1-10, from this bio alone, would I give this person my money?"
+- **Link**: max 3 ideally 2 = free resource + direct-contact funnel. Profile IS the landing page, ≤2 clicks. No Linktree
+- **Emoji**: purely stylistic, cost characters — optional
+
 ## The 4 Elements of Indirect Selling
 1. **Direct experience** — "I saw / did X"
 2. **Need** — state / desire gap

@@ -248,3 +248,14 @@ Likes and followers = ignore as primary KPIs
 4. Coherence (whoever sees the ADV checks the profile)
 5. Social listening (understand the audience = understand what will work in ADS)
 **Trade-off**: needs a composite ROAS + brand-lift metric, not just the single channel's CPL
+
+## 34. Bio That Converts — the 3-4 Line Structure
+**When**: writing / auditing an Instagram bio (the first conversion outpost; a confused prospect leaves for the clearer competitor)
+**How**:
+1. **Line 1** — clarity + specificity. Who you are + what you do + what you do DIFFERENTLY, in the target's own words. **Kill the verb "help"**: use "They call me when…", an imperative ("Acquire steady clients organically"), a first-person verb ("I build personal brands that sell organically"), or "You find me when…" (coaching/mental niches)
+2. **Line 2** — differentiation. Deepen line 1 / show *how* you impact them. No empty fillers, no invented method names unless certified. The distinctive tail clause = the core of the method
+3. **Line 3** — authority. Case studies / years / client numbers (uncopyable). No big case yet → drop it, be more specific above
+4. **Line 4 (optional)** — CTA: "write INFO in DM" (mass/aware B2C) · book-now (short purchase window) · simple "click" + arrow
+5. **Bio link** — max 3 ideally 2: a free resource + a direct-contact funnel (phone/WhatsApp/Calendly). Profile = the landing page, reachable in ≤2 clicks. No Linktree clutter
+**Test**: "1-10, from this bio alone, would I give this person my money?"
+**Trade-off**: ~150 chars feels always too few; expect frequent rewrites. Emoji are purely stylistic (cost characters)
