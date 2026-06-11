@@ -1,6 +1,6 @@
 ---
 name: x-twitter-scraper
-description: Use when planning X/Twitter data workflows with Xquik x-twitter-scraper: tweet search, tweet lookup, profile lookup, timelines, follower export, media download, monitors, signed webhooks, MCP setup, SDK selection, or confirmation-gated write flows. Requires a user-issued Xquik API key. Never ask for X login material, cookies, or session material.
+description: "Use when planning X/Twitter data workflows with Xquik x-twitter-scraper: tweet search, tweet lookup, profile lookup, timelines, follower export, media download, monitors, signed webhooks, MCP setup, SDK selection, or confirmation-gated write flows. Requires a user-issued Xquik API key. Never ask for X login material, cookies, or session material."
 allowed-tools:
   - Read
   - Grep
