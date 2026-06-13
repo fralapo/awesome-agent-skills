@@ -129,9 +129,21 @@ Hack, Durand, Borsche, and Van Noten all cite staying independent of corporate a
 **Operate from abundance.**
 Ideas are infinite. The river does not run dry if you release into it. Hoarding material or clinging to one work dams the river. Release, let flow, begin again. "The next work is always available" (Rubin).
 
+**Weekly Practice Audit (5 min — turns the principles above into Monday actions).**
+Three yes/no questions; each "no" has a fixed fix:
+1. Did I **seed** this week — collect without verdict, expose to inputs outside my field? *No →* book one Inspiration Box hour before the next review.
+2. Did I **build the antenna** — at least one slow walk, one pre-sleep reflection, one protected boredom window? *No →* cut one scheduled meeting to make room.
+3. Did I **run the Opposite Test** on at least one settled assumption? *No →* take the assumption you're most certain of and invert it now.
+
+All three yes → the practice is alive. Two or fewer → apply the weakest leg's fix *before* any craft work this week. Permanent Craft mode with no seeding is how a practice quietly dies.
+
 ---
 
 ## Decision Rules
+
+**If the Ecstatic is absent and the deadline is within ~48 hours → stop iterating; ship with the Conviction Test as the sole gate** (Does it have conviction? Is it real? Is it accurate?). Iterating without the Ecstatic at deadline is Demo-itis dressed up as diligence.
+
+**If the Ecstatic is absent and time remains → return to Experimentation, do not refine.** Refinement amplifies what is already there; on a polished void it only produces a more polished void. (Cross-ref: the PASS 2+ plateau rule in [evaluator.md](evaluator.md) — when score and method both stall, the *insight* is the suspect, not the craft.)
 
 **If the brief can't be expressed in one emotionally resonant sentence, it isn't ready.** Sharpen it before any creative execution begins.
 

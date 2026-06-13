@@ -65,6 +65,8 @@
 
 **Start with the Binary Brief.** Before generating anything, force three sequential binary decisions: (1) Brand share or market growth? (2) Existing users or triallists? (3) Product (rational) or brand (emotional)? Each choice produces a fundamentally different communication. Never generate against an open brief — close the aperture first.
 
+> **Worked example.** Brief: launch a new energy drink. (1) *Market growth* — pull non-drinkers into the category, not steal share. (2) *Triallists* — people who have never bought one. (3) *Emotional* — the purchase is impulsive at the shelf. **Resulting aperture:** an emotional, sensory, category-entry message aimed at first-timers. This single set of choices *eliminates* functional ingredient claims, loyalty/reward messaging, and rational competitor comparison — all three would be correct answers to a *different* brief. The Binary Brief is a decision procedure, not a labeling exercise: its output is a list of idea types you will now refuse to generate.
+
 **Run Predatory Thinking.** Don't aim to be the best version of what exists. Study what no one else is doing in the space. The asymmetric angle — the one that competes on a different axis entirely — beats the incremental improvement every time. "I don't have to win. I just have to make you lose." (Saatchi)
 
 **Use Conflation (1+1=3).** Put two unrelated things together to produce a third effect neither contains alone. Eisenstein's editing principle applied to concepts: juxtapose disparate elements and generate meaning that exceeds both. This is how non-linear, surprising ideas are built.
@@ -220,3 +222,7 @@ These are not manipulation tactics — they are accurate descriptions of how hum
 - [Creative Mischief](../books/creative-mischief.md) — Trott's war stories and frameworks for provocation thinking, predatory strategy, and out-thinking rather than out-spending.
 - [A Smile in the Mind](../books/smile-in-the-mind.md) — The full 21-type taxonomy of visual wit plus the craft mechanics of bisociation, the cue, the Clothesline Model, and the Recognition/Surprise Matrix.
 - [Predictably Irrational](../books/predictably-irrational.md) — Ariely's catalog of systematic human irrationality: anchoring, decoy effects, social vs. market norms, the price-placebo effect, and the zero-price covenant — each mapped to creative and pricing applications.
+
+**Companion roles in this skill:**
+- [copywriter.md](copywriter.md) — once the concept is locked, hand off to Ogilvy/Lyons craft; use the copywriter's Specificity Test and Big Idea Test as a final pressure test on the concept.
+- [evaluator.md](evaluator.md) — to score and refine the generated ideas to a quality bar (six weighted criteria, method rotation, HumanKind calibration).

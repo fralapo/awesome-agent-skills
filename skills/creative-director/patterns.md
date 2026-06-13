@@ -1,6 +1,6 @@
 # Patterns — Techniques a Creative Director Can Actually Do
 
-Every concrete technique, method, and checklist pulled from the four role files, grouped by function. Each entry: *When* to use it, *How* to run it.
+Every concrete technique, method, and checklist pulled from the five role files, grouped by function. Each entry: *When* to use it, *How* to run it.
 
 ---
 
@@ -163,3 +163,22 @@ Every concrete technique, method, and checklist pulled from the four role files,
 **Big Idea Test Application** — *When:* before committing any campaign concept. *How:* run Ogilvy's five questions: Did it make me gasp? Do I wish I'd thought of it? Is it unique? Does it fit the strategy perfectly? Could it run for 30 years? All five must be yes. If not, return to ideation — do not proceed to production.
 
 **Scary Goal Setting** — *When:* briefing a team or setting quarterly objectives. *How:* calibrate challenge to slightly exceed current skill — too far below = boredom; too far above = anxiety. Frame goals as imaginative aspirations, not effort requirements: "Dial up the worth, not the work." Ask the team to lean forward, not just work harder.
+
+---
+
+## Scoring & Refinement
+*→ role: [evaluator.md](roles/evaluator.md)*
+
+**Idea-Level Check (PASS 0)** — *When:* before scoring anything. *How:* place the idea on the Pollard 7-level taxonomy (business → brand → tagline → advertising → campaign → non_advertising → execution). Confirm it sits at the level the brief requires. Most common failure: an execution masquerading as a campaign ("let's make an AR filter"). Flag and re-level before evaluating.
+
+**Weighted Scoring Run (PASS 1)** — *When:* deciding if an idea is good enough to present. *How:* score 1–10 on six criteria, multiply by weight, sum: Originality ×0.25, Strategic fit ×0.20, Emotional response ×0.20, Feasibility ×0.15, Scalability ×0.10, Simplicity ×0.10. Apply the saturation cap on Originality (3+ known campaigns with the mechanic → cap 7). Below 7 → do not present.
+
+**Dual Calibration** — *When:* sanity-checking a score. *How:* run two independent scales — HumanKind (Cannes Gold 9.5+ … <7 redo) and Grey Scale (10 best in world … 1 toxic). If they diverge by more than 1.5 points, one is lying — re-evaluate.
+
+**Gap Analysis** — *When:* score and HumanKind disagree. *How:* Score 8+/HK<7 = clever but doesn't matter → strengthen human purpose. Score<7/HK 8+ = matters but boring → strengthen craft/originality. Both 8+ = ship after scalability check. Both <7 = restart with new HMW.
+
+**Multi-Perspective Panel** — *When:* a single score feels thin or contested. *How:* score the idea from four seats reusing the other roles as lenses — Copywriter (the line/benefit), Idea Generator (originality/bisociation), Creative Leader (would a real person pass it on?), Visionary (Cannes-jury bar). For the top 3 ideas, answer "Why isn't this a 9?"
+
+**Method Rotation** — *When:* refining an idea across passes (PASS 2+). *How:* on each refine pass, generate with a *different* method from the one that produced the idea — same method reproduces the same blind spot. Rotation is mandatory; demand ≥3 methods from different categories upstream or originality is structurally capped.
+
+**Kill Your Darlings** — *When:* you have a favorite. *How:* after picking it, argue *against* it. If the counter-argument is stronger than the idea, the idea is weak. Pair with the Pre-Mortem ("it's a year later and this flopped — why?") before exiting to articulation.
