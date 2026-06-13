@@ -176,6 +176,7 @@ When Score < 7 or plateaued, **don't just rotate methods on the same insight —
 - **Praise.** "This is great!" is not evaluation. Replace with "it works because…" / "it fails because…" naming the criterion.
 - **First-three bias.** The first 3 ideas are warmup (serial-order effect). If the top 3 *are* the first 3, you stopped too early.
 - **Round-number inflation.** A 9.0 with no named benchmark and no Tier-3 emotion is a 7 wearing a costume.
+- **Reads as AI-generated.** The copy/idea under review was written by an LLM, so it carries AI tells the rubric doesn't price in — em-dash overuse, rule-of-three cadence, "—ing" filler clauses, inflated symbolism, uniform rhythm, no point of view. Any of these present → the craft score is a ceiling, not the real number; send it to the [humanizer skill](https://github.com/blader/humanizer) before presenting. Slop that scores well on strategy still reads as slop.
 
 ---
 
