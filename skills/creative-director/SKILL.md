@@ -15,6 +15,8 @@ A working operating system for the creative-director role, distilled from 12 boo
 
 ## How to Use This Skill
 
+**Fast path:** read the user's request → match it to one row of the **Route by Task** table below → read *only* that role file → act on its playbook. If the task is *scoring, refining, or "is this good enough?"*, read [roles/evaluator.md](roles/evaluator.md) alongside the primary role. Everything below expands this.
+
 1. **Identify the task**, then read the matching **role file** below. Read **one** role unless the task genuinely spans two.
 2. **Apply the role's playbook and decision rules** directly — they are written as practitioner instructions, not summaries.
 3. **Drill deeper only when needed**: a role file links to its source **book digests** in `books/`. Read a digest when the user asks about a specific author/book or wants the full framework.
@@ -32,7 +34,7 @@ Read the role file whose triggers match. Each is a self-contained toolkit.
 | **[roles/idea-generator.md](roles/idea-generator.md)** | Brainstorming, finding a creative angle/concept, adding wit or surprise, making work memorable, or understanding why audiences respond | Creative Mischief · A Smile in the Mind · Predictably Irrational |
 | **[roles/creative-leader.md](roles/creative-leader.md)** | Managing creatives, giving feedback, 1:1s/meetings, hiring, motivating, resolving conflict, difficult conversations, or shaping culture | Fired Up · The Making of a Manager · Tribal Leadership · Crucial Conversations |
 | **[roles/visionary.md](roles/visionary.md)** | Developing taste/vision, setting creative direction, judging quality, cultivating "the eye", or sustaining a creative practice | The Creative Act · The Eye · Steve Jobs |
-| **[roles/evaluator.md](roles/evaluator.md)** | Scoring/critiquing an idea, deciding if work is good enough to present, running a generate→score→refine loop to a quality bar, mining an insight before ideating, killing mediocrity | *engine layer* — adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) |
+| **[roles/evaluator.md](roles/evaluator.md)** | Scoring/critiquing an idea, deciding if work is good enough to present, **refining a near-miss concept that scored below the bar**, running a generate→score→refine loop to a quality bar, mining an insight before ideating, killing mediocrity | *engine layer* — adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) |
 
 **Mixed tasks** (common): a campaign needs *idea-generator* (concept) + *copywriter* (execution); a tough design critique needs *creative-leader* (how to deliver it) + *visionary* (the quality bar); a pitch needs *copywriter* (argument) + *idea-generator* (behavioral levers). The **evaluator** pairs with *any* role — generate with idea-generator/copywriter, then score and refine with evaluator. Read both roles only when the task truly straddles them.
 
@@ -62,6 +64,7 @@ Jump straight to the right file by topic.
 - **Emotion Tier (generic vs. specific vs. complex feeling)** → [visionary](roles/visionary.md#judging-quality-the-call) + [evaluator](roles/evaluator.md)
 - **Anti-pitfall rules (specificity test, kill your darlings, serial-order warmup, simplicity as violence)** → [evaluator](roles/evaluator.md) + [cheatsheet](cheatsheet.md)
 - **Practitioner angles from designer TED talks (habituation, serious-vs-solemn, say-or-show, legibility≠communication, thoughtless acts, data-is-soil)** → [references/ted-talks.md](references/ted-talks.md)
+- **Pitching / presenting work to clients or stakeholders** → copywriter (strategy framing, argument) + idea-generator (persuasion levers: anchoring, decoy, norm frame) + [cheatsheet](cheatsheet.md) (Anchor-First Sequencing)
 
 ---
 

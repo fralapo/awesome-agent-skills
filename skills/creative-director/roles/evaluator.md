@@ -116,6 +116,29 @@ Run two independent scales. If they diverge by more than 1.5 points, re-evaluate
 
 ---
 
+### Worked Example (one full pass)
+
+**Brief:** launch a sustainable sneaker to Gen Z; budget ~$500k.
+**Idea:** "The sneaker you plant when you're done with it" — each pair ships with a compostable sole and a seed-paper box.
+
+**PASS 0:** level = `non_advertising` (a product/utility object, not an ad). Matches a launch brief that wants cultural object + earned media. ✓
+
+**PASS 1 — scores (1–10):**
+| Criterion | Score | Why | ×Weight |
+|---|---|---|---|
+| Originality | 8 | Unexpected mechanic; no saturation cap triggered | 2.00 |
+| Strategic fit | 9 | Answers the sustainability brief directly | 1.80 |
+| Emotional response | 8 | Tier 2 "proud guilt-relief", bordering Tier 3 — push it | 1.60 |
+| Feasibility | 6 | Compostable supply chain unconfirmed | 0.90 |
+| Scalability | 7 | Series possible (seasonal plants) | 0.70 |
+| Simplicity | 9 | One sentence, says-or-shows in 10 sec | 0.90 |
+
+**Weighted Score ≈ 7.9. HumanKind ≈ 7.5** (a real act, needs refinement). Divergence < 1.5 → calibration holds.
+
+**Gap Analysis:** both ≥7 but feasibility drags. **Action:** verify the compostable supply chain *or* reframe as "made to be planted" (keep the story, drop the unproven shipping kit), then re-score feasibility. Note the honest blocker in the deliverable rather than inflating the 6.
+
+---
+
 ### PASS 2+ — Recursive Refine Loop
 
 For each of the top 3, until threshold or stop:

@@ -156,6 +156,8 @@ Not from the 12 books. Adapted from [smixs/creative-director-skill](https://gith
 
 **Abstraction Laddering** — Choosing the rung between abstract and concrete where an idea has the most room to live. Move up for platform thinking, down for execution. *(smixs / Idea Generator)*
 
+**Droga Rule** — David Droga's principle: prefer the uncomfortable idea over the comfortable one. Discomfort in the room during a review is a positive signal; if an idea makes no one uneasy, it won't hook anyone. *(smixs / Evaluator)*
+
 **Emotion Tiers (1/2/3)** — Tier 1 generic valence (happy/sad, ≤6), Tier 2 specific named emotion (defiant/nostalgic, 6–8), Tier 3 complex/contradictory (bittersweet pride, vulnerable defiance, 8–10). A 9+ emotional score requires Tier 3. *(smixs / Evaluator + Visionary)*
 
 **Gap Analysis** — Diagnostic from the Score×HumanKind split: 8+/<7 "clever but doesn't matter" (add purpose); <7/8+ "matters but boring" (add craft); both <7 restart. *(smixs / Evaluator)*
