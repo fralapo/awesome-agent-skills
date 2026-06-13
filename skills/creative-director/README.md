@@ -4,23 +4,26 @@ A creative-director "operating system" skill, distilled from **12 books** on adv
 
 ## What it does
 
-When invoked, it acts as a **router**: a small always-loaded `SKILL.md` sends the agent to **one of four role toolkits**, and only that role (plus, if needed, a specific book digest) is loaded into context. A typical task costs a few thousand tokens instead of the 1.28M-token source corpus.
+When invoked, it acts as a **router**: a small always-loaded `SKILL.md` sends the agent to **one of five role toolkits**, and only that role (plus, if needed, a specific book digest) is loaded into context. A typical task costs a few thousand tokens instead of the 1.28M-token source corpus.
 
-### The four roles
+### The five roles
 
-| Role | Activates for | Source books |
+| Role | Activates for | Source |
 |---|---|---|
 | **Copywriter** | headlines, body copy, taglines, campaigns, briefs, positioning | Ogilvy on Advertising · Guts |
-| **Idea Generator** | brainstorming, creative angles, wit, persuasion psychology | Creative Mischief · A Smile in the Mind · Predictably Irrational |
+| **Idea Generator** | brainstorming, creative angles, wit, persuasion psychology, insight mining | Creative Mischief · A Smile in the Mind · Predictably Irrational + insight layer¹ |
 | **Creative Leader** | feedback, 1:1s, hiring, motivation, conflict, culture | Fired Up · The Making of a Manager · Tribal Leadership · Crucial Conversations |
 | **Visionary** | taste, vision, judging quality, "the eye", creative practice | The Creative Act · The Eye · Steve Jobs |
+| **Evaluator** | scoring an idea, refine-to-threshold loop, killing mediocrity, award-jury calibration | engine layer¹ |
+
+¹ The Evaluator role and the insight/Pollard/emotion-tier layers are adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) (HumanKind/Grey calibration, Pollard idea taxonomy, weighted scoring loop) — not from the 12 books, and marked as such wherever they appear.
 
 ## Structure
 
 ```
 creative-director/
 ├── SKILL.md          # router: task → role, topic & book index
-├── roles/            # 4 synthesized toolkits (one loads per task)
+├── roles/            # 5 synthesized toolkits (4 from books + 1 evaluation engine)
 ├── books/            # 12 per-book digests (deepest layer, on-demand)
 ├── glossary.md       # ~60 named frameworks/terms
 ├── patterns.md       # ~50 concrete techniques, grouped by use
@@ -33,6 +36,8 @@ creative-director/
 /creative-director write a headline for a premium coffee brand
 /creative-director how do I give hard feedback on a junior's concept
 /creative-director help me develop my eye
+/creative-director score this campaign idea and tell me if it's good enough to present
+/creative-director find the insight before we brainstorm this brief
 /creative-director what does Ogilvy say about long copy
 ```
 

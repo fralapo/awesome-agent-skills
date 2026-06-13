@@ -1,13 +1,13 @@
 ---
 name: creative-director
-description: "Creative-director knowledge base distilled from 12 books on advertising, creative leadership, idea generation, and taste. Use when writing or critiquing copy/ads/headlines/campaigns, generating creative ideas or concepts, leading and giving feedback to creative teams, handling difficult conversations, shaping team culture, or developing taste, vision, and creative judgment. Routes to one of four role toolkits (Copywriter, Idea Generator, Creative Leader, Visionary) and loads only what the task needs."
+description: "Creative-director knowledge base distilled from 12 books on advertising, creative leadership, idea generation, and taste, plus an evaluation engine adapted from smixs/creative-director-skill. Use when writing or critiquing copy/ads/headlines/campaigns, generating creative ideas or concepts, mining a consumer insight, scoring/evaluating or refining a concept to a quality bar, leading and giving feedback to creative teams, handling difficult conversations, shaping team culture, or developing taste, vision, and creative judgment. Routes to one of five role toolkits (Copywriter, Idea Generator, Creative Leader, Visionary, Evaluator) and loads only what the task needs."
 ---
 
 <!-- argument-hint: [role, task, topic, or book — e.g. "headline", "lead my team", "develop taste", "ogilvy"] -->
 
 # Creative Director
 
-A working operating system for the creative-director role, distilled from 12 books. It is organized as a **router**: this file is small and always-loaded; the depth lives in **four role files** (loaded one at a time, only when the task calls for it) and **twelve book digests** (loaded only when you drill into a specific author).
+A working operating system for the creative-director role, distilled from 12 books and extended with an evaluation engine adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill). It is organized as a **router**: this file is small and always-loaded; the depth lives in **five role files** (loaded one at a time, only when the task calls for it) and **twelve book digests** (loaded only when you drill into a specific author).
 
 **Built for token economy.** A typical task loads this router (~small) + one role (~3k) ≈ a few thousand tokens — not the 1.28M-token source corpus. Read deeper layers only when needed.
 
@@ -32,8 +32,9 @@ Read the role file whose triggers match. Each is a self-contained toolkit.
 | **[roles/idea-generator.md](roles/idea-generator.md)** | Brainstorming, finding a creative angle/concept, adding wit or surprise, making work memorable, or understanding why audiences respond | Creative Mischief · A Smile in the Mind · Predictably Irrational |
 | **[roles/creative-leader.md](roles/creative-leader.md)** | Managing creatives, giving feedback, 1:1s/meetings, hiring, motivating, resolving conflict, difficult conversations, or shaping culture | Fired Up · The Making of a Manager · Tribal Leadership · Crucial Conversations |
 | **[roles/visionary.md](roles/visionary.md)** | Developing taste/vision, setting creative direction, judging quality, cultivating "the eye", or sustaining a creative practice | The Creative Act · The Eye · Steve Jobs |
+| **[roles/evaluator.md](roles/evaluator.md)** | Scoring/critiquing an idea, deciding if work is good enough to present, running a generate→score→refine loop to a quality bar, mining an insight before ideating, killing mediocrity | *engine layer* — adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) |
 
-**Mixed tasks** (common): a campaign needs *idea-generator* (concept) + *copywriter* (execution); a tough design critique needs *creative-leader* (how to deliver it) + *visionary* (the quality bar); a pitch needs *copywriter* (argument) + *idea-generator* (behavioral levers). Read both roles only when the task truly straddles them.
+**Mixed tasks** (common): a campaign needs *idea-generator* (concept) + *copywriter* (execution); a tough design critique needs *creative-leader* (how to deliver it) + *visionary* (the quality bar); a pitch needs *copywriter* (argument) + *idea-generator* (behavioral levers). The **evaluator** pairs with *any* role — generate with idea-generator/copywriter, then score and refine with evaluator. Read both roles only when the task truly straddles them.
 
 ---
 
@@ -55,6 +56,11 @@ Jump straight to the right file by topic.
 - **Developing taste / "the eye", input diet, references** → visionary ([the-eye](books/the-eye.md))
 - **Creative practice, the Source, the Ecstatic, the four phases** → visionary ([creative-act](books/creative-act.md))
 - **Product vision, focus, simplicity, end-to-end, the RDF (+ shadow side)** → visionary ([steve-jobs](books/steve-jobs.md))
+- **Finding the insight before ideating (Pollard Four Points, JTBD, Tension Spotting, HMW, Abstraction Laddering)** → idea-generator ([insight section](roles/idea-generator.md#finding-the-insight-first))
+- **Idea level / Pollard 7-level taxonomy (business → execution), activation test** → idea-generator + [evaluator](roles/evaluator.md)
+- **Scoring an idea / "is it good enough to present?" / refine to a quality bar (6 weighted criteria, HumanKind + Grey, Gap Analysis)** → [evaluator](roles/evaluator.md)
+- **Emotion Tier (generic vs. specific vs. complex feeling)** → [visionary](roles/visionary.md#judging-quality-the-call) + [evaluator](roles/evaluator.md)
+- **Anti-pitfall rules (specificity test, kill your darlings, serial-order warmup, simplicity as violence)** → [evaluator](roles/evaluator.md) + [cheatsheet](cheatsheet.md)
 
 ---
 
@@ -88,3 +94,5 @@ Jump straight to the right file by topic.
 ## Scope & Limits
 
 This skill carries the *ideas* of these books, synthesized — not their full text. It is a thinking and craft aid, not a substitute for the originals. One source — *Tested Advertising Methods* (Caples) — was in the folder but shipped as a scanned PDF with no extractable text, so it is **not** included; add it later by OCR'ing the file and folding it into the copywriter role.
+
+The **Evaluator** role and the insight/Pollard/emotion-tier layers are *not* from the 12 books — they are a distilled adaptation of [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) (HumanKind/Grey calibration, Pollard taxonomy, weighted scoring loop), marked as such wherever they appear. That project carries the heavier version: a 569-case canon, the P01–P18 pattern map, and a full methods catalog. Drop in a curated case subset there if you want empirical saturation calibration here.

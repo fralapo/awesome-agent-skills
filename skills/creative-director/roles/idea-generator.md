@@ -26,6 +26,41 @@
 
 ## Playbook
 
+### Finding the Insight First
+
+> Adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) — insight discipline (Mark Pollard, JTBD, tension spotting) that sits *upstream* of the book-derived generation moves below. **No insight → no idea.**
+
+**Set the idea level before generating.** Generating a `business` idea for a shelf-talker is waste; an `execution` for a rebrand falls short. Pick the required level (**Pollard 7-Level Taxonomy**):
+
+| Level | When required | Lifespan |
+|---|---|---|
+| `business` | new venture, repositioning the whole company | years |
+| `brand` | rebrand, brand platform, "what do we stand for?" | 5–10+ yrs |
+| `tagline` | phrase that crystallizes the brand idea | 5–10+ yrs |
+| `advertising` | central thought across all comms — recognizable without the logo | 3–5 yrs |
+| `campaign` | seasonal push, launch, promo | 3–12 mo |
+| `non_advertising` | activation / utility / cultural object that lives without ads | varies |
+| `execution` | one-off channel, format, or mechanic | days–weeks |
+
+**Activation test** (is this `non_advertising` or just `execution`?): "Remove the campaign — does it still mean something?" Yes → `non_advertising`; No → `execution`.
+
+**Mine the insight, in sequence:**
+
+1. **Pollard Four Points** — Problem → Insight → Advantage → Strategy.
+2. **JTBD** — what "job" does the audience hire this communication (or product) to do?
+3. **Tension Spotting** — find one of three live tensions:
+   - **Cultural** — what society says vs. what it does
+   - **Category** — what the category promises vs. what it delivers
+   - **Human** — what a person wants vs. what stands in the way
+4. **HMW** — write 3 "How Might We…" at different altitudes (broad / medium / narrow).
+5. **Abstraction Laddering** — pick the rung between abstract and concrete where the idea has the most room.
+
+**Insight quality test:** "Does it refresh your view of the world? Does the audience say 'yes, exactly — but I never put it that way'?" If every marketer in the category already knows it, dig deeper.
+
+**Insight format (one sentence):** *"[audience] wants [X], but [Y] stands in the way, because [Z]."* Tie every idea you generate to a specific insight/tension. If an idea floats free of a tension, it's decoration.
+
+---
+
 ### Generating Ideas
 
 **Start with the Binary Brief.** Before generating anything, force three sequential binary decisions: (1) Brand share or market growth? (2) Existing users or triallists? (3) Product (rational) or brand (emotional)? Each choice produces a fundamentally different communication. Never generate against an open brief — close the aperture first.
@@ -41,6 +76,13 @@
 **Use Wu Wei where applicable.** Identify structural forces already working in your favor and let them run. The most elegant creative solutions often involve doing less, not more — finding what's already true and removing the friction in front of it.
 
 **Borrow from real life.** Real life is the richest source of ideas. The skill is spotting it, not inventing from scratch. Pattern-match against situations, behaviors, and tensions in the world before reaching for invented analogies.
+
+**Rotate methods — never run on one.** *(from [smixs](https://github.com/smixs/creative-director-skill))* For any real brief, generate with at least **three** methods from **different categories**, then rotate to a *new* method on each refinement pass — one method = one blind spot:
+- **Structural** — Binary Brief, Conflation (1+1=3), SCAMPER-style transforms, the Five Entry Points
+- **Association / collision** — Bisociation, the 21-Type Wit Checklist, word-list cascades, Conflation
+- **Inversion / perturbation** — Predatory Thinking, Context Reframing, Test-the-Opposite, "what if I removed X?"
+
+**Remove the obvious — bias toward ideas 5–12.** Serial-order effect: the first three ideas are statistically the most conventional. Generate 8–12, mark the first three as **warmup** (don't delete — they clear the channel), then push past them. If your favorite is one of the first three, you stopped too early.
 
 ---
 

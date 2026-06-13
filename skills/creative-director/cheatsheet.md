@@ -47,6 +47,73 @@ Decision rules, compact tables, and quick heuristics. Every line helps DECIDE so
 - If a technical warning from the team arrives → taste does not override physics. Hold both.
 - If you find yourself explaining the work → cut or change until you don't.
 
+### Evaluator
+- If you can't name a real campaign the idea stands alongside → it is not a 9+.
+- If swapping the brand for a competitor leaves the idea working → originality ≤ 5 (Specificity Test).
+- If everything resolves cleanly → originality is weak. Best work holds an unresolved tension.
+- If HumanKind < 7 → do not present, regardless of craft score.
+- If the idea can't be said in one sentence → it's a plan, not an idea. Send it back.
+- After picking a favorite → argue against it (Kill Your Darlings). Stronger counter = weak idea.
+- If all candidates came from one method → originality is structurally capped. Rotate.
+- If your top 3 are the first 3 generated → you stopped too early (serial-order warmup).
+
+---
+
+## Idea-Strength Scoring Rubric *(Evaluator)*
+
+Weighted 1–10. Source: [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill).
+
+| Criterion | Weight | Cap rule |
+|---|---|---|
+| Originality | 0.25 | 3+ known campaigns share the mechanic → cap 7; saturated pattern → cap 6 |
+| Strategic fit | 0.20 | — |
+| Emotional response | 0.20 | Tier 1 ≤6 · Tier 2 6–8 · Tier 3 8–10 (9+ needs Tier 3) |
+| Feasibility | 0.15 | — |
+| Scalability | 0.10 | — |
+| Simplicity | 0.10 | Not one sentence → low |
+
+**Dual calibration:** HumanKind (9.5+ Cannes Gold · 9.0–9.4 shortlist · 8–8.9 Bronze/Silver · 7–7.9 needs work · <7 redo) + Grey (10 best-in-world → 1 toxic). Diverge >1.5 → re-evaluate. **Below 7 = do not present.**
+
+**Gap Analysis:** Score 8+ / HK <7 = clever but doesn't matter → add purpose. Score <7 / HK 8+ = matters but boring → add craft. Both <7 → restart.
+
+Full loop: [roles/evaluator.md](roles/evaluator.md).
+
+---
+
+## Pollard 7-Level Idea Taxonomy *(set the level before generating)*
+
+| Level | Required for | Lifespan |
+|---|---|---|
+| business | new venture / company repositioning | years |
+| brand | rebrand, brand platform | 5–10+ yrs |
+| tagline | crystallizing phrase | 5–10+ yrs |
+| advertising | central thought, all comms | 3–5 yrs |
+| campaign | launch, promo, season | 3–12 mo |
+| non_advertising | activation/utility that lives without ads | varies |
+| execution | one-off channel/format/mechanic | days–weeks |
+
+Mismatch = #1 cause of creative-meeting friction. Most common: execution dressed as campaign. Activation test: "remove the campaign — still meaningful?" Yes = non_advertising, No = execution.
+
+---
+
+## Insight Format
+
+*"[audience] wants [X], but [Y] stands in the way, because [Z]."* Find the tension first: **Cultural** (society says vs. does) · **Category** (promises vs. delivers) · **Human** (wants vs. obstacle). Test: "do they say 'yes, exactly — but I never put it that way'?"
+
+---
+
+## Anti-Pitfall Rules *(Evaluator, from smixs)*
+
+1. **Never** skip the insight. No insight = decoration.
+2. **Never** give 9+ without naming the campaign it stands alongside.
+3. **Never** generate with one method. 3 from different categories, rotate each pass.
+4. **Never** praise generated work. Critic, not fan. "Works because…" / "fails because…"
+5. **Remove the obvious** — first 3 ideas = warmup, bias to 5–12.
+6. **Specificity Test** — swap brand for competitor; still works → originality ≤5.
+7. **Kill Your Darlings** — argue against your favorite.
+8. **Droga** — uncomfortable > comfortable.
+9. **Simplicity as violence** — not one sentence → it's a plan.
+
 ---
 
 ## Recognition/Surprise Matrix

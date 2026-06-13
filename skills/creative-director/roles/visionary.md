@@ -72,6 +72,16 @@ Reality Distortion Field (Jobs): hold an unwavering vision past the team's "no w
 
 ### Judging Quality (the call)
 
+**Score the emotion by tier, not by valence.** *(Emotion Tier test, from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill).)* "Positive" is not an emotion. Award-grade work targets a *specific, complex* feeling. When judging emotional response, place it on the tier — and cap the score accordingly:
+
+| Tier | Kind | Examples | Score ceiling |
+|---|---|---|---|
+| **Tier 1** | Generic valence | happy, sad, angry, excited | ≤ 6 |
+| **Tier 2** | Specific named emotion | nostalgic, defiant, proud, anxious, relieved | 6–8 |
+| **Tier 3** | Complex / contradictory | bittersweet pride, ironic sincerity, vulnerable defiance, hopeful grief | 8–10 |
+
+A 9+ on emotion **requires Tier 3**. If you can only name a Tier 1 feeling, the work is emotionally generic — push the concept until a specific, layered emotion appears. This is the craft companion to the Ecstatic: the Ecstatic tells you *whether* you feel something; the tier tells you whether it's *worth* anything.
+
 **Scan the body before the mind.**
 In every review session, check for the Ecstatic response before intellectual assessment. If nothing produces it anywhere, the work may not be there yet. If something produces a strong negative reaction, investigate rather than dismiss — strong reactions indicate live territory. If the work makes you lean forward and reach for it (Jobs's prototype eye-test), it belongs.
 

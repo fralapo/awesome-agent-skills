@@ -147,3 +147,45 @@ All significant named concepts across the 12 books, alphabetically sorted. Forma
 **Wu Wei** — Identify structural forces already working in your favor and let them run. The most elegant creative solutions involve doing less, not more — finding what's true and removing friction. *(Creative Mischief / Idea Generator)*
 
 **Zero Price Effect** — FREE is not just a very low price — it triggers an entirely different emotional system with no perceived downside risk. FREE switches audiences into social-norm mode, not market-norm mode. The covenant it creates cascades through the whole relationship. *(Predictably Irrational / Idea Generator)*
+
+---
+
+## Evaluation-Engine Terms
+
+Not from the 12 books. Adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) for the [Evaluator](roles/evaluator.md) and the insight layer of the [Idea Generator](roles/idea-generator.md). Alphabetical.
+
+**Abstraction Laddering** — Choosing the rung between abstract and concrete where an idea has the most room to live. Move up for platform thinking, down for execution. *(smixs / Idea Generator)*
+
+**Emotion Tiers (1/2/3)** — Tier 1 generic valence (happy/sad, ≤6), Tier 2 specific named emotion (defiant/nostalgic, 6–8), Tier 3 complex/contradictory (bittersweet pride, vulnerable defiance, 8–10). A 9+ emotional score requires Tier 3. *(smixs / Evaluator + Visionary)*
+
+**Gap Analysis** — Diagnostic from the Score×HumanKind split: 8+/<7 "clever but doesn't matter" (add purpose); <7/8+ "matters but boring" (add craft); both <7 restart. *(smixs / Evaluator)*
+
+**Grey Scale** — Originality calibration: 10 best-in-world, 9 best-in-show, 8 best-in-category, 7 original, 6 gratifying, 5 capable, 4 expected, 3 dull, 2 careless, 1 toxic. *(smixs / Evaluator)*
+
+**HMW (How Might We)** — Reframe a problem as 3 "How Might We…" questions at different altitudes (broad/medium/narrow) to open solution space without prescribing a solution. *(smixs / Idea Generator)*
+
+**HumanKind Scale** — Leo Burnett "acts, not ads" calibration: 9.5+ Cannes Gold/Grand Prix, 9.0–9.4 shortlist, 8–8.9 Bronze/Silver, 7–7.9 a real act needing work, <7 do not present. *(smixs / Evaluator)*
+
+**Insight Format** — One sentence: "[audience] wants [X], but [Y] stands in the way, because [Z]." Every idea ties to one. *(smixs / Idea Generator)*
+
+**JTBD (Jobs To Be Done)** — What "job" does the audience hire the communication (or product) to do? Reframes need around progress sought, not demographics. *(smixs / Idea Generator)*
+
+**Kill Your Darlings** — After choosing a favorite idea, argue against it. If the counter-argument is stronger than the idea, the idea is weak. *(smixs / Evaluator)*
+
+**Method Rotation** — Generate with ≥3 methods from different categories (structural / association / inversion), then switch to a new method each refinement pass. One method = one blind spot. *(smixs / Idea Generator + Evaluator)*
+
+**Multi-Perspective Panel** — Score an idea from four seats — Copywriter (craft), Idea Generator (originality), Creative Leader (consumer), Visionary (Cannes-jury) — reusing the skill's own roles as evaluation lenses. *(smixs / Evaluator)*
+
+**Pollard Four Points** — Insight sequence: Problem → Insight → Advantage → Strategy. *(smixs / Idea Generator)*
+
+**Pollard 7-Level Taxonomy** — business / brand / tagline / advertising / campaign / non_advertising / execution. Set the level before generating; level/brief mismatch is the #1 cause of creative-meeting friction. *(smixs / Idea Generator + Evaluator)*
+
+**Saturation Cap** — Empirical originality limit: if 3+ known campaigns use the same mechanic, cap originality at 7; saturated pattern caps at 6 unless a structurally new variant. *(smixs / Evaluator)*
+
+**Serial-Order Effect** — The first three ideas are statistically the most conventional; mark them as warmup and bias toward ideas 5–12. *(smixs / Idea Generator)*
+
+**Simplicity as Violence** — If an idea can't be explained in one sentence, it isn't an idea — it's a plan. *(smixs / Evaluator)*
+
+**Specificity Test** — Swap your brand for a competitor; if the idea/line still works, originality ≤5 — it belongs to the category, not the brand. *(smixs / Evaluator + Copywriter)*
+
+**Tension Spotting** — Locate one live tension to build on: Cultural (society says vs. does), Category (promises vs. delivers), Human (wants vs. obstacle). *(smixs / Idea Generator)*
