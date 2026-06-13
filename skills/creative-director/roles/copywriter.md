@@ -170,6 +170,8 @@ Every ad is a deposit or a withdrawal from the brand's personality. Cheap-lookin
 
 **If music is being used to solve a creative problem → stop and find the idea first.** Nine times out of ten, music is a creative crutch. (Lyons) It papers over the absence of an idea.
 
+**If swapping your brand for a competitor leaves the line still working → it isn't yours.** *(Specificity Test, from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill).)* Generic claims belong to the category, not the brand. This is the operational edge of "specifics outperform generalities" and Brand Image: a working line is one a rival literally could not sign. Tie the claim to a named product truth until the swap breaks it.
+
 ---
 
 ## Red Flags (Stop and Fix)
