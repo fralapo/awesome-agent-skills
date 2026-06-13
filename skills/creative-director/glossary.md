@@ -189,3 +189,37 @@ Not from the 12 books. Adapted from [smixs/creative-director-skill](https://gith
 **Specificity Test** — Swap your brand for a competitor; if the idea/line still works, originality ≤5 — it belongs to the category, not the brand. *(smixs / Evaluator + Copywriter)*
 
 **Tension Spotting** — Locate one live tension to build on: Cultural (society says vs. does), Category (promises vs. delivers), Human (wants vs. obstacle). *(smixs / Idea Generator)*
+
+---
+
+## TED-Talk Terms
+
+Public TED/TEDx talks by working designers and creatives. Full layer: [references/ted-talks.md](references/ted-talks.md). Alphabetical.
+
+**Build to Think** — Tim Brown: prototypes are thinking tools, not output. Make something rough to discover what you think. *(TED: Tim Brown / Visionary)*
+
+**Cognitive-Style Diversity** — Grandin: visual (photo-realistic), pattern (systems/math/music), and verbal thinkers each catch what others miss; compose teams of complementary specialists. *(TED: Grandin / Creative Leader)*
+
+**Data is the New Soil** — McCandless: data is a fertile medium worked by many hands; absolute figures mislead, relative figures + context reveal the story. *(TED: McCandless / Idea Generator)*
+
+**Elastic Mind** — Antonelli: the capacity to fluidly navigate shifts of scale, rhythm, and pace; great design translates a tech/scientific shift into usable human form. *(TED: Antonelli / Visionary)*
+
+**Habituation** — Fadell: the brain encodes routine and stops seeing fixable problems. Counter by "staying beginners" — look broader, look closer, think younger. *(TED: Fadell / Visionary + Evaluator)*
+
+**Integrative Thinking** — Roger Martin via Tim Brown: exploit opposing ideas/constraints to make new solutions; balance desirable / feasible / viable. *(TED: Tim Brown / Visionary)*
+
+**Joy / Wonder / Curiosity** — Bantjes: three qualitative questions to score whether visual/creative work is worth the craft; zero on all three → reconsider the brief. *(TED: Bantjes / Evaluator)*
+
+**Legibility ≠ Communication** — Carson: work can be perfectly readable and say nothing; the emotional message lands before a word is read. Strip the copy, read the 2-second emotion. *(TED: Carson / Evaluator)*
+
+**Say-or-Show** — Kidd: a cover is "a haiku of the story." Picture and copy saying the same thing kills the gap; let image OR line carry the idea. *(TED: Kidd / Idea Generator + Copywriter)*
+
+**Serious vs. Solemn** — Scher: serious = spontaneous, risky, inventive, imperfect; solemn = correct, expected, polished, dead. "Being solemn is easy. Being serious is hard." *(TED: Scher / Evaluator + Visionary)*
+
+**The Art of Unlearning** — Pardini: the human edge in the AI era is shedding conditioned rules to work from instinct and deliberate chaos; ask of AI output "does it feel or only function?" *(TED: Pardini / Creative Leader + Visionary)*
+
+**The Tragic Gap** — Parker Palmer via Burstein: the space between what is and what we hope for, held "like a violin string" to make something beautiful; embrace attention, challenge, limitation, loss. *(TED: Burstein / Visionary)*
+
+**Thoughtless Acts** — Bennett: the subconscious workarounds people invent reveal latent design opportunities; observe the real behavior before ideating. *(TED: Bennett / Idea Generator)*
+
+**Underdog Posture** — Henry White: no rules + authenticity + permission to copy a format from another industry; re-adopt deliberately when work gets over-polished. *(TED: Henry White / Creative Leader)*

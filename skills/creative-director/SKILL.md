@@ -61,6 +61,7 @@ Jump straight to the right file by topic.
 - **Scoring an idea / "is it good enough to present?" / refine to a quality bar (6 weighted criteria, HumanKind + Grey, Gap Analysis)** → [evaluator](roles/evaluator.md)
 - **Emotion Tier (generic vs. specific vs. complex feeling)** → [visionary](roles/visionary.md#judging-quality-the-call) + [evaluator](roles/evaluator.md)
 - **Anti-pitfall rules (specificity test, kill your darlings, serial-order warmup, simplicity as violence)** → [evaluator](roles/evaluator.md) + [cheatsheet](cheatsheet.md)
+- **Practitioner angles from designer TED talks (habituation, serious-vs-solemn, say-or-show, legibility≠communication, thoughtless acts, data-is-soil)** → [references/ted-talks.md](references/ted-talks.md)
 
 ---
 
@@ -88,6 +89,7 @@ Jump straight to the right file by topic.
 - **[cheatsheet.md](cheatsheet.md)** — cross-role decision rules and quick-reference tables (the judgment layer)
 - **[patterns.md](patterns.md)** — every named technique/framework, grouped by use
 - **[glossary.md](glossary.md)** — all key terms with definitions and source
+- **[references/ted-talks.md](references/ted-talks.md)** — 23 designer/creative TED talks distilled, grouped by the role each feeds (supplementary practitioner layer; not from the 12 books)
 
 ---
 

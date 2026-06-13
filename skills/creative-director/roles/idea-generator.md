@@ -84,6 +84,12 @@
 
 **Remove the obvious — bias toward ideas 5–12.** Serial-order effect: the first three ideas are statistically the most conventional. Generate 8–12, mark the first three as **warmup** (don't delete — they clear the channel), then push past them. If your favorite is one of the first three, you stopped too early.
 
+**More moves from the practitioners** *(designer TED talks — see [../references/ted-talks.md](../references/ted-talks.md)):*
+- **Detoxify the category with one loaded word** (Glaser): a single unexpected, connotation-rich word can reframe a whole category (his "reliable Dutchman" sign). Hunt for that one word before building a whole device.
+- **Say it OR show it — never both** (Kidd): a cover is "a haiku of the story." Picture and copy saying the same thing treats the audience like a moron and kills the gap. Let image *or* line carry the idea; the gap is the engagement (pairs with the Clothesline Model and the Cue).
+- **Mine the thoughtless act** (Bennett): the subconscious workaround a real person invents reveals the latent opportunity. Take the user's literal vantage point and watch behavior *before* ideating — the workaround is the brief. The best insight is "a blinding glimpse of the bleeding obvious."
+- **Make doubt the voice** (Glaser): when stuck, write what you do and don't know about the brief *on* the work itself — shown reasoning can become the most distinctive feature.
+
 ---
 
 ### Adding Wit and Surprise
