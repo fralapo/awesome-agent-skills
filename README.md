@@ -4,7 +4,7 @@
 
 <p align="center">
   A small, opinionated set of agent skills I actually use.
-  Each one is mined from a corpus of 200+ real community examples, not generated from scratch.
+  Each one is mined from real community corpora — anywhere from a couple hundred examples to tens of thousands. None of it written from imagination.
   <br>
   Built on <a href="https://docs.claude.com/en/docs/claude-code/skills">Claude Code's skill format</a>, works with any agent that reads <code>SKILL.md</code> + <code>references/</code>.
 </p>
@@ -32,7 +32,7 @@ Six skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) p
 | [`creative-director`](./skills/creative-director/) | Multi-role creative-director knowledge base distilled from **12 books** on advertising, creative leadership, idea generation, and taste, plus an **evaluation engine** adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill). Router architecture: a small always-loaded `SKILL.md` sends the agent to one of five role toolkits — **Copywriter** (Ogilvy on Advertising, Guts), **Idea Generator** (Creative Mischief, A Smile in the Mind, Predictably Irrational + Pollard/JTBD/tension insight layer), **Creative Leader** (Fired Up, The Making of a Manager, Tribal Leadership, Crucial Conversations), **Visionary** (The Creative Act, The Eye, Steve Jobs), **Evaluator** (HumanKind/Grey calibration, 6-criteria weighted scoring, recursive refine-to-9 loop) — and loads only that role plus, when needed, a single book digest. A typical task costs a few thousand tokens instead of the 1.28M-token source corpus. Ships glossary (~95 terms), patterns.md (~50 techniques), cheatsheet.md, and `references/ted-talks.md` (23 designer/creative TED talks distilled, grouped by role). *Tested Advertising Methods* was in the source folder but shipped as a scanned, text-free PDF, so it's excluded until OCR'd. | 12 books across advertising, creative leadership, idea generation, and taste + smixs evaluation engine + 23 designer TED talks | `creative director`, `headline`, `copywriting`, `brainstorm`, `creative angle`, `find the insight`, `score this idea`, `evaluate concept`, `is it good enough`, `lead creative team`, `feedback on concept`, `difficult conversation`, `team culture`, `develop taste`, `creative vision`, `judge quality`, `ogilvy`, `rick rubin`, `steve jobs` |
 | [`social-algorithm`](./skills/social-algorithm/) | Knowledge base for **organic personal-brand acquisition + Instagram algorithm dynamics**. Seven chapters of field-tested practitioner material: indirect selling (4 elements — direct experience, need, hero's journey, social proof as garnish), the epochal algorithm shift (interest-based distribution, dopamine-driven users, -20/24% engagement drop), creator systems & delegation (revenue/hours formula vs content/hours, 3-stage delegation ladder, Inside Out / Reference / Pillar ideation, Reference Based / Author Mode / AI-assisted scripting, full-day blocking), end-to-end acquisition system ("I See You / I Validate You / I Associate You" triangle, 4 Circles of Hell anti-patterns, 5 awareness levels, 6 acquisition funnels including profile / follower outreach / ManyChat / Stories / lead magnet / quiz funnel, ADV integration prospecting + retargeting), dynamic video techniques (visual elements + metaphors, framing changes, custom B-roll, trailer-style scripts), 5 scaling principles, and a working algorithm knowledge base (3 pillar metrics — saves / watch time / shares — diagnostic matrix "lots of X but few Y" with a targeted fix per signal, discovery-first repost strategy, 8 non-inflated hook patterns, era-by-era evolution of platform dynamics). Plus glossary (~60 terms), patterns.md (33 operational techniques), cheatsheet.md (quick-reference tables). | Practitioner field notes + tested operational frameworks | `personal brand`, `indirect selling`, `instagram algorithm`, `organic acquisition`, `client acquisition`, `social algorithm`, `organic funnel`, `saves watch time`, `recognizability`, `hero's journey`, `personal brand positioning`, `i see you i validate you i associate you`, `circles of hell`, `manychat` |
 
-More coming when I build one that earns its place. I'd rather ship four that work than twenty that almost do.
+More coming when I build one that earns its place. I'd rather ship six that work than twenty that almost do.
 
 ---
 
@@ -116,13 +116,12 @@ If you're writing your own agent skills, those five steps are the only ones that
 
 ## Contributing
 
-Personal repo, but useful PRs get in. The bar:
+This is my personal collection — every skill here I author and mine myself. I'm not looking to absorb new skills from outside (vendor-tool wrappers especially aren't a fit). What does help:
 
-- **New skill:** must match the structure above and cite its corpus
-- **Skill improvement:** cite the specific pattern that motivated the change
-- **Bug fix:** the smallest diff that fixes the thing
+- **Bug fix:** the smallest diff that fixes the thing.
+- **Improvement to an existing skill:** cite the specific pattern or source that motivated it.
 
-Open an issue before a large PR so neither of us wastes time.
+Open an issue first. If you've built your own skill, I'd rather link to your repo than fold it into mine.
 
 ---
 
