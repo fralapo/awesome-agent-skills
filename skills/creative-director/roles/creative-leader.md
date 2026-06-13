@@ -178,6 +178,10 @@ Five interview questions worth asking:
 
 **The Purpose / People / Process diagnostic.** When a team is dysfunctional, ask in sequence: Is the team unclear on goals (purpose)? Wrong or unmotivated people (people)? Broken coordination (process)? Fix in that order.
 
+**Hire for cognitive-style diversity.** *(Grandin — see [../references/ted-talks.md](../references/ted-talks.md).)* Specialist minds — **visual** (photo-realistic), **pattern** (systems/math/music), and **verbal** thinkers — each catch what the others miss. Build the room out of complementary specialists; pair the detail-obsessive visual thinker with the systems thinker, instead of defaulting to a room of verbal generalists.
+
+**Keep (or re-adopt) the underdog posture.** *(Henry White.)* Its three powers: *no rules* (move fast, throw more darts), *authenticity* (the audience takes the work personally), and *it's okay to copy* (transplant a format from another industry). When work is over-polished or risk-averse, ask the team: "what would we do with no rules and nobody watching?" — then ship the minimum version that keeps that raw energy.
+
 ---
 
 ## Decision Rules

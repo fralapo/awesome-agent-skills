@@ -46,6 +46,10 @@ Bottling the Underground (Baron): the most effective cultural moves come from be
 **Use young people as calibration instruments.**
 Coddington: "Surrounding yourself with young people keeps one motivated." Pilati: "I draw inspiration from being around people not of my generation." This is not trend-chasing — it is maintaining an unfiltered signal from outside your own calcified reference system.
 
+**Fight habituation; stay a beginner.** *(Fadell — see [../references/ted-talks.md](../references/ted-talks.md).)* The brain numbs to routine problems and stops seeing them. Counter with three moves: **look broader** (map every step before and after the stated problem — you often remove or combine steps instead of polishing the one named), **look closer** (sweat the details everyone has stopped noticing), **think younger** (keep unhabituated minds on the team). Ask of any familiar surface: "what have we stopped seeing here?"
+
+**Treat the constraint as a prompt, not a compromise.** *(Carter, via Eames: "conscious of working within constraints, but not of making compromises.")* A form designed *to* a tight platform/format limit can outlive the limit. When a constraint later lifts, check whether the constraint-born solution has standalone value before reverting to the unconstrained default.
+
 ---
 
 ### Setting and Holding a Vision

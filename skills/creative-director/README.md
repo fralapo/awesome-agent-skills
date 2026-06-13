@@ -25,7 +25,8 @@ creative-director/
 ├── SKILL.md          # router: task → role, topic & book index
 ├── roles/            # 5 synthesized toolkits (4 from books + 1 evaluation engine)
 ├── books/            # 12 per-book digests (deepest layer, on-demand)
-├── glossary.md       # ~60 named frameworks/terms
+├── references/       # ted-talks.md — 23 designer/creative TED talks distilled
+├── glossary.md       # ~95 named frameworks/terms
 ├── patterns.md       # ~50 concrete techniques, grouped by use
 └── cheatsheet.md     # decision rules + quick-reference tables
 ```
@@ -47,3 +48,4 @@ Read **one** role per task; the router suggests both when a task straddles two (
 
 - *Tested Advertising Methods* (Caples) was in the source folder but shipped as a scanned image-only PDF — no extractable text — so it is **not** included. OCR the file and fold it into the Copywriter role to add it.
 - Source books are not redistributed; this skill contains only synthesized structure (frameworks, principles, techniques), never raw book text.
+- Two layers are **not** from the 12 books, and are attributed wherever they appear: the **Evaluator** role + insight/scoring layers (adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill)), and `references/ted-talks.md` (23 public designer/creative TED talks, distilled and grouped by role).

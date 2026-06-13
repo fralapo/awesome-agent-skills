@@ -78,6 +78,11 @@ Score the idea from four seats — this is where the encyclopedia pays off. Open
 
 Select the **top 3** ideas. For each, answer the diagnostic: **"Why isn't this a 9?"**
 
+**Supplementary quality lenses** *(from designer TED talks — see [../references/ted-talks.md](../references/ted-talks.md)):*
+- **Legibility ≠ communication** (Carson): strip all copy and ask "what emotion does this send in the first 2 seconds?" If it doesn't match the brief's feeling, it fails however correct the words are.
+- **Serious, not solemn** (Scher): polished/expected = *solemn* (dead); risky/invented/imperfect = *serious*. If it feels safe, it's solemn — push it.
+- **Joy / wonder / curiosity** (Bantjes): the human-side check when every strategic metric passes but the work feels inert. Zero on all three → reconsider the brief.
+
 ---
 
 ### Dual Calibration (sanity-check the number)
