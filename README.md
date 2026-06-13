@@ -4,7 +4,7 @@
 
 <p align="center">
   A small, opinionated set of agent skills I actually use.
-  Each one is mined from real community corpora — anywhere from a couple hundred examples to tens of thousands. None of it written from imagination.
+  Each one is mined from real community corpora, anywhere from a couple hundred examples to tens of thousands. None of it written from imagination.
   <br>
   Built on <a href="https://docs.claude.com/en/docs/claude-code/skills">Claude Code's skill format</a>, works with any agent that reads <code>SKILL.md</code> + <code>references/</code>.
 </p>
@@ -42,7 +42,7 @@ Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-
 
 Commands below target Claude Code's default skills dir (`~/.claude/skills/`). Other agents: swap the destination for whatever path your tool reads (commonly `~/.config/<agent>/skills/` or `.agent/skills/` in a project root).
 
-### Symlink one skill (recommended — updates follow `git pull`)
+### Symlink one skill (recommended; updates follow `git pull`)
 
 **macOS / Linux:**
 ```sh
@@ -89,8 +89,8 @@ Restart the agent after install. Most tools load skills at startup.
 
 ```
 skills/<skill-name>/
-├── SKILL.md              # required — frontmatter (name, description) + workflow
-└── references/           # optional — deep-dive files loaded only when relevant
+├── SKILL.md              # required: frontmatter (name, description) + workflow
+└── references/           # optional: deep-dive files loaded only when relevant
     ├── patterns.md
     ├── templates.md
     └── examples.md
@@ -116,7 +116,7 @@ If you're writing your own agent skills, those five steps are the only ones that
 
 ## Contributing
 
-This is my personal collection — every skill here I author and mine myself. I'm not looking to absorb new skills from outside (vendor-tool wrappers especially aren't a fit). What does help:
+This is my personal collection. Every skill here I author and mine myself. I'm not looking to absorb new skills from outside (vendor-tool wrappers especially aren't a fit). What does help:
 
 - **Bug fix:** the smallest diff that fixes the thing.
 - **Improvement to an existing skill:** cite the specific pattern or source that motivated it.
