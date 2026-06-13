@@ -174,7 +174,7 @@ Every ad is a deposit or a withdrawal from the brand's personality. Cheap-lookin
 
 **If swapping your brand for a competitor leaves the line still working → it isn't yours.** *(Specificity Test, from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill).)* Generic claims belong to the category, not the brand. This is the operational edge of "specifics outperform generalities" and Brand Image: a working line is one a rival literally could not sign. Tie the claim to a named product truth until the swap breaks it.
 
-**Before declaring any copy complete, run the final gate in order — stop at first failure:** (1) **Specificity Test** — swap the brand for a competitor; if the line survives, it isn't yours, rewrite. (2) **Headline Approval Checklist** — benefit + brand + news + specific. (3) **Big Idea Test** — score it (does it make you gasp? unique? on-strategy? could it run for years?); below 4/5, label the deliverable as execution-only, not a campaign idea. (4) **Brag-and-Boast scan** — any vague superlative ("the best", "world-class") survives → rewrite before handoff.
+**Before declaring any copy complete, run the final gate in order — stop at first failure:** (1) **Specificity Test** — swap the brand for a competitor; if the line survives, it isn't yours, rewrite. (2) **Headline Approval Checklist** — benefit + brand + news + specific. (3) **Big Idea Test** — score it (does it make you gasp? unique? on-strategy? could it run for years?); below 4/5, label the deliverable as execution-only, not a campaign idea. (4) **Brag-and-Boast scan** — any vague superlative ("the best", "world-class") survives → rewrite before handoff. (5) **Humanize pass** — *you* are an LLM writing this copy, so it will drift toward AI-slop. Strip the modern tells the craft checks above miss: em-dash overuse, rule-of-three cadence, superficial "—ing" clauses ("…, delivering value"), inflated symbolism, and uniform sentence rhythm. Ask "what makes this read as AI-written?", then rewrite. Hand off to the [humanizer skill](https://github.com/blader/humanizer) for a deep pass on any long-form prose.
 
 ---
 
@@ -205,3 +205,6 @@ Every ad is a deposit or a withdrawal from the brand's personality. Cheap-lookin
 **Companion roles in this skill:**
 - [idea-generator.md](idea-generator.md) — run *upstream* of any copy assignment: the Pollard insight pass, Binary Brief, and 21-Type Wit Checklist lock the insight and idea level before writing begins.
 - [evaluator.md](evaluator.md) — run *downstream*: score the finished line on the six weighted criteria and the HumanKind scale before presenting.
+
+**Related skill (external):**
+- [humanizer](https://github.com/blader/humanizer) — anti-AI-slop editor based on Wikipedia's "Signs of AI writing". Because the copy here is LLM-generated, run it on any body copy, about-page, or long-form prose before handoff; it catches the AI tells (em-dash overuse, rule-of-three, vague attributions, soulless rhythm) that the Ogilvy/Lyons checks were never written to catch.
