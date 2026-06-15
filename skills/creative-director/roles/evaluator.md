@@ -2,7 +2,7 @@
 
 *Activate when:* scoring or critiquing an idea, deciding whether work is good enough to present, running a recursive "generate → score → refine" loop to a quality threshold, killing mediocre concepts, or calibrating originality against the canon.
 
-> **Provenance.** Unlike the other four roles (distilled from the 17 books), this role adapts the *ideation-and-evaluation engine* from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) — award-jury calibration (Leo Burnett HumanKind, Grey Scale), Mark Pollard's idea taxonomy, and a weighted-rubric refine loop. It is the "workshop" layer that turns the encyclopedia into a working judgment engine. Use it *with* the other roles, not instead of them.
+> **Provenance.** Unlike the other four roles (distilled from the 16 books), this role adapts the *ideation-and-evaluation engine* from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) — award-jury calibration (Leo Burnett HumanKind, Grey Scale), Mark Pollard's idea taxonomy, and a weighted-rubric refine loop. It is the "workshop" layer that turns the encyclopedia into a working judgment engine. Use it *with* the other roles, not instead of them.
 
 ---
 
@@ -86,7 +86,6 @@ Select the **top 3** ideas. For each, answer the diagnostic: **"Why isn't this a
 **Visual-craft lenses** *(when the execution is visual — from the Visionary role's "Visual Craft" section; see [visionary.md](visionary.md)):*
 - **Composition** (Dondis): is it *leveling* or *sharpening* — and is that the right choice? Inert layouts usually lack contrast. Ambiguity between the two reads as a mistake, not tension.
 - **Typography** (Spiekermann): does the typeface match the message's voice; is text type invisible and display type doing the hierarchy; is spacing a tuned system? Bad type caps the craft score regardless of the idea.
-- **Sequence & word/picture** (McCloud): does it "say or show" rather than duo-specifically repeat itself; is the reader given something to complete (closure)? Redundant caption-over-image is a craft flag.
 - **Information design** (Tufte): if it carries data/diagrams — data density high, chartjunk zero, distinctions at the smallest effective difference? A chart treated as decoration drags the score.
 
 ---

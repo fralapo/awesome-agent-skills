@@ -113,8 +113,6 @@ Every concrete technique, method, and checklist pulled from the five role files,
 
 **Type-as-System Spec** *(Spiekermann)* — *When:* setting any type. *How:* match typeface to the message's voice first; keep text type invisible and let display type carry hierarchy. Tune the six parameters together (size, leading, measure, tracking, word space, weight) — longer lines need more leading + looser tracking. Test at real output size, not on a 72-pt proof.
 
-**Say-or-Show / Gutter Staging** *(McCloud)* — *When:* any word+image or sequential execution. *How:* say *or* show, rarely both — cut captions that repeat the image (duo-specific). Design what the reader completes *between* frames (closure); vary transitions; use space as time. Simplify what they should inhabit, render what they should observe (masking effect).
-
 **Data-as-Design Pass** *(Tufte)* — *When:* the work carries charts/diagrams/data. *How:* maximize data density, minimize non-data ink, kill chartjunk. Use small multiples for comparison, layering/separation to beat the 1+1=3 clutter, and the smallest effective difference for every distinction. Treat the chart as a designed object, not an afterthought.
 
 ---

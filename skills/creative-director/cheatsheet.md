@@ -54,7 +54,6 @@ Decision rules, compact tables, and quick heuristics. Every line helps DECIDE so
 - If a layout feels off but you can't say why → read it against the felt axis: is it *leveling* or *sharpening*? Commit to one; ambiguity reads as a mistake (Dondis).
 - If a layout is inert → push contrast, not more elements (contrast/harmony dialectic).
 - If the type is drawing attention at reading size → wrong text face; reserve character for display (Spiekermann).
-- If a caption repeats what the image already shows → say *or* show, not both; cut the duo-specific redundancy (McCloud).
 - If a chart is decorated → strip chartjunk, raise data density, use the smallest effective difference (Tufte).
 
 ### Evaluator
