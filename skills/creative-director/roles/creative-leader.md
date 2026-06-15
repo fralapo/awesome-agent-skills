@@ -115,6 +115,14 @@ Sequence them in order. Delay feasibility talk until after dreaming is complete.
 
 **Name and celebrate significant failures.** Periodically mark meaningful failures as mile markers. This signals the team is aiming at the right end of the success/failure continuum and reframes failure culturally from verdict to data.
 
+**Balance the two pillars: stability + challenge.** *(Henry — [herding-tigers](../books/herding-tigers.md).)* Creative people need both a predictable container (clear expectations + protection from organizational noise) and stretching work (permission to risk + skills at their edge). Map the team on a 2×2: high stability / low challenge → boredom and attrition; high challenge / low stability → anger and burnout. Aim both axes high. This is the leadership-side complement to the Fire Triangle.
+
+**Fight for the team — protection is the trust signal.** *(Henry.)* Your most underrated function is absorbing organizational pressure before it reaches the team: scope creep, last-minute pivots, stakeholder second-guessing. Intercept these upstream, have the hard conversation in private, and return with a decision, not a debate. Never surprise the team with a reversal you didn't fight. Teams that see you go to bat consistently take bigger creative risks.
+
+**Give explicit permission, not just direction.** *(Henry.)* Creative people won't take real risks unless they hear, out loud, that you want them to. Direction tells them *what*; permission tells them it's safe to reach. Without it, talented people play it safe regardless of how open the brief looks.
+
+**Choose effective over liked.** *(Henry.)* The need to be liked softens feedback, avoids conflict, and waters down direction. Before any hard call, ask: "Am I doing this to be liked, or to be effective?" Trust and respect are the goal; they are earned by saying hard things clearly, not by being agreeable.
+
 ---
 
 ### Shaping Culture
@@ -150,6 +158,10 @@ Do not skip stages. Apply stage-specific leverage or you reinforce mediocrity.
 ---
 
 ### Core Management Mechanics
+
+**Make the maker→manager shift on purpose.** *(Henry — [herding-tigers](../books/herding-tigers.md).)* You led by doing the work; now you lead people who do it — a different game. Your creative instincts will pull you back into execution and quietly strip the team of ownership. Keep a handful of projects you stay directly involved in; hand off the rest with intent. Weekly, sweep for moments you slipped into maker mode and ask whether coaching would have reached the same outcome in two weeks instead of two hours.
+
+**Calibrate autonomy to competence.** *(Henry.)* Latitude is not one-size-fits-all. Extend freedom in proportion to demonstrated skill and reliability: full freedom to someone who needs structure sets them up to fail; micromanaging a senior creative is its own disrespect. In 1:1s, ask explicitly how much direction a person wants versus how much you give, and adjust iteratively.
 
 **1:1s belong to the report, not to you.** Have reports own the agenda. Your job is to listen and probe, not to deliver updates. Useful prompts: "What's most on your mind?", "Where are you stuck?", "What would make this week a success?" Dedicate one 1:1 per month exclusively to behavioral feedback and career trajectory — no project status allowed in that session.
 

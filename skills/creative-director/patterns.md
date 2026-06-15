@@ -94,6 +94,29 @@ Every concrete technique, method, and checklist pulled from the five role files,
 
 **Purpose/People/Process Diagnostic** — *When:* a team is dysfunctional. *How:* ask in sequence: (1) unclear on goals? (Purpose.) (2) Wrong or unmotivated people? (People.) (3) Broken coordination? (Process.) Fix in that order. Do not skip to Process if Purpose is unclear.
 
+**Stability + Challenge 2×2** *(Henry)* — *When:* diagnosing motivation/retention. *How:* plot the person on stability (clear expectations + protection) × challenge (risk permission + stretch). Low challenge → boredom/attrition; low stability → anger/burnout. Move the weak axis up. Leadership-side complement to the Fire Triangle.
+
+**Fight for the Team** *(Henry)* — *When:* stakeholder pressure, scope creep, or a mid-project pivot lands. *How:* intercept upstream; have the hard conversation in private; return with a decision, not a debate. Never surprise the team with a reversal you didn't fight. The visible protection is what buys bigger creative risk.
+
+**Maker→Manager Sweep** *(Henry)* — *When:* weekly, and whenever you feel the itch to "just do it myself." *How:* list where you slipped into execution; keep a few projects you stay hands-on; hand off the rest; for each rescue you did, ask whether coaching would reach the same outcome in two weeks instead of two hours.
+
+**Autonomy-to-Competence Calibration** *(Henry)* — *When:* deciding how much latitude to give. *How:* match freedom to demonstrated skill + reliability; in 1:1s ask how much direction the person wants vs. gets, and adjust. Full freedom to someone who needs structure = setup to fail; micromanaging a senior = disrespect.
+
+**Liked-vs-Effective Check** *(Henry)* — *When:* before hard feedback or an unpopular call. *How:* ask "am I doing this to be liked or to be effective?" If liked, recalibrate. Trust is earned by saying hard things clearly.
+
+---
+
+## Visual Craft
+*→ role: [visionary.md](roles/visionary.md) (the "Visual Craft" half)*
+
+**Leveling vs. Sharpening Diagnosis** *(Dondis)* — *When:* a layout feels off but you can't say why. *How:* read it against the felt axis (implied vertical + horizontal base) and the lower-left stress pull. Is it *leveling* (resolved/calm) or *sharpening* (tense/surprising)? Pick one — ambiguity between them reads as a mistake. Inert layout → push contrast, the most communicative pole of contrast/harmony.
+
+**Type-as-System Spec** *(Spiekermann)* — *When:* setting any type. *How:* match typeface to the message's voice first; keep text type invisible and let display type carry hierarchy. Tune the six parameters together (size, leading, measure, tracking, word space, weight) — longer lines need more leading + looser tracking. Test at real output size, not on a 72-pt proof.
+
+**Say-or-Show / Gutter Staging** *(McCloud)* — *When:* any word+image or sequential execution. *How:* say *or* show, rarely both — cut captions that repeat the image (duo-specific). Design what the reader completes *between* frames (closure); vary transitions; use space as time. Simplify what they should inhabit, render what they should observe (masking effect).
+
+**Data-as-Design Pass** *(Tufte)* — *When:* the work carries charts/diagrams/data. *How:* maximize data density, minimize non-data ink, kill chartjunk. Use small multiples for comparison, layering/separation to beat the 1+1=3 clutter, and the smallest effective difference for every distinction. Treat the chart as a designed object, not an afterthought.
+
 ---
 
 ## Difficult Conversations
