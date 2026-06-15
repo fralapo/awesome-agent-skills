@@ -1,6 +1,6 @@
 # TED Talks — Designers & Creatives, Distilled
 
-A supplementary on-demand layer: 23 talks by working designers, creative directors, and artists, distilled to what a creative director can *use*. Not from the 12 books — these are public TED / TEDx transcripts, attributed by speaker + talk. Load this when you want a fresh practitioner angle, a quotable line, or a quality lens the books don't carry. Grouped by the role each one feeds.
+A supplementary on-demand layer: 23 talks by working designers, creative directors, and artists, distilled to what a creative director can *use*. Not from the 17 books — these are public TED / TEDx transcripts, attributed by speaker + talk. Load this when you want a fresh practitioner angle, a quotable line, or a quality lens the books don't carry. Grouped by the role each one feeds.
 
 > Provenance: public TED/TEDx talks. Synthesized, not transcribed — never quote at length; the short lines below are the memorable ones, verbatim where marked.
 
@@ -44,7 +44,7 @@ A supplementary on-demand layer: 23 talks by working designers, creative directo
 
 ---
 
-## Skipped as redundant (already covered by the 12 books)
+## Skipped as redundant (already covered by the 17 books)
 
 - **Gilbert — *Your elusive creative genius*** & **Tan — *Where does creativity hide?*** — the daemon/"genius" externalization and question-as-attractor restate Rubin's **the Source** ([creative-act](../books/creative-act.md)). Vivid illustrations (Tom Waits asking the muse to wait), no new framework.
 - **Barreto** (phone as broadcast), **Simms** (fear→excitement reframe), **Echelman** (constraint-as-gift narrative), **Stewart** (data-vs-intuition at scale — marginal). Motivational or already-covered; no net-new tool.

@@ -234,6 +234,7 @@ Five interview questions worth asking:
 - [The Making of a Manager](../books/making-of-a-manager.md) — Practitioner's playbook for feedback, 1:1s, hiring, delegation, meeting design, and scaling yourself as a new or growing creative leader.
 - [Tribal Leadership](../books/tribal-leadership.md) — Diagnostic and upgrade system for the Five Tribal Stages; how to read culture from language, build triads, define core values and a noble cause, and move a tribe one stage forward in 90 days.
 - [Crucial Conversations](../books/crucial-conversations.md) — The full toolkit for high-stakes dialogue: Pool of Shared Meaning, STATE, AMPP, CRIB, Contrasting, and how to stay honest and respectful simultaneously when it matters most.
+- [Herding Tigers](../books/herding-tigers.md) — Todd Henry on the maker→manager transition: giving creatives both stability and challenge, fighting for the team (absorbing organizational pressure), calibrating autonomy to competence, and being respected over being liked.
 
 **Companion roles in this skill:**
 - [visionary.md](visionary.md#judging-quality-the-call) — *form* the quality judgment before you deliver a creative note. The Emotion Tier test and the Ecstatic compass are the taste instruments this role does not carry; great delivery of a note on mediocre work still ships mediocre work.
