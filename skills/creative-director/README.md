@@ -1,6 +1,6 @@
 # creative-director
 
-A creative-director "operating system" skill, distilled from **17 books** on advertising, creative leadership, idea generation, taste, typography, visual literacy, information design, and visual storytelling. Built with [book-to-skill](https://github.com/virgiliojr94/book-to-skill) + a custom multi-role synthesis.
+A creative-director "operating system" skill, distilled from **16 books** on advertising, creative leadership, idea generation, taste, typography, visual literacy, and information design. Built with [book-to-skill](https://github.com/virgiliojr94/book-to-skill) + a custom multi-role synthesis.
 
 ## What it does
 
@@ -13,10 +13,10 @@ When invoked, it acts as a **router**: a small always-loaded `SKILL.md` sends th
 | **Copywriter** | headlines, body copy, taglines, campaigns, briefs, positioning | Ogilvy on Advertising · Guts |
 | **Idea Generator** | brainstorming, creative angles, wit, persuasion psychology, insight mining | Creative Mischief · A Smile in the Mind · Predictably Irrational + insight layer¹ |
 | **Creative Leader** | feedback, 1:1s, hiring, motivation, conflict, culture, maker→manager transition | Fired Up · The Making of a Manager · Tribal Leadership · Crucial Conversations · Herding Tigers |
-| **Visionary** | taste, vision, judging quality, "the eye", typography, information/data-viz design, visual storytelling, creative practice | The Creative Act · The Eye · Steve Jobs · A Primer of Visual Literacy · Envisioning Information · Understanding Comics · Stop Stealing Sheep |
+| **Visionary** | taste, vision, judging quality, "the eye", typography, information/data-viz design, creative practice | The Creative Act · The Eye · Steve Jobs · A Primer of Visual Literacy · Envisioning Information · Stop Stealing Sheep |
 | **Evaluator** | scoring an idea, refine-to-threshold loop, killing mediocrity, award-jury calibration | engine layer¹ |
 
-¹ The Evaluator role and the insight/Pollard/emotion-tier layers are adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) (HumanKind/Grey calibration, Pollard idea taxonomy, weighted scoring loop) — not from the 17 books, and marked as such wherever they appear.
+¹ The Evaluator role and the insight/Pollard/emotion-tier layers are adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) (HumanKind/Grey calibration, Pollard idea taxonomy, weighted scoring loop) — not from the 16 books, and marked as such wherever they appear.
 
 ## Structure
 
@@ -24,9 +24,9 @@ When invoked, it acts as a **router**: a small always-loaded `SKILL.md` sends th
 creative-director/
 ├── SKILL.md          # router: task → role, topic & book index
 ├── roles/            # 5 synthesized toolkits (4 from books + 1 evaluation engine)
-├── books/            # 17 per-book digests (deepest layer, on-demand)
+├── books/            # 16 per-book digests (deepest layer, on-demand)
 ├── references/       # ted-talks.md — 23 designer/creative TED talks distilled
-├── glossary.md       # ~150 named frameworks/terms
+├── glossary.md       # ~140 named frameworks/terms
 ├── patterns.md       # ~50 concrete techniques, grouped by use
 └── cheatsheet.md     # decision rules + quick-reference tables
 ```
@@ -48,4 +48,4 @@ Read **one** role per task; the router suggests both when a task straddles two (
 
 - *Tested Advertising Methods* (Caples) was in the source folder but shipped as a scanned image-only PDF — no extractable text — so it is **not** included. OCR the file and fold it into the Copywriter role to add it.
 - Source books are not redistributed; this skill contains only synthesized structure (frameworks, principles, techniques), never raw book text.
-- Two layers are **not** from the 17 books, and are attributed wherever they appear: the **Evaluator** role + insight/scoring layers (adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill)), and `references/ted-talks.md` (23 public designer/creative TED talks, distilled and grouped by role).
+- Two layers are **not** from the 16 books, and are attributed wherever they appear: the **Evaluator** role + insight/scoring layers (adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill)), and `references/ted-talks.md` (23 public designer/creative TED talks, distilled and grouped by role).

@@ -2,7 +2,7 @@
 
 *Activate when:* developing taste/vision, setting creative direction, judging quality, cultivating "the eye", making the call on what's great vs good, building a creative practice, or working the visual craft underneath taste — composition, typography, visual sequence, and information/data design.
 
-*Two halves:* this role is **taste & vision** (Rubin, Williams, Jobs — the judgment) plus **visual craft** (Dondis, Spiekermann, McCloud, Tufte — the grammar that judgment operates on). Use the craft section when "it just feels off" needs to become a specific, fixable diagnosis.
+*Two halves:* this role is **taste & vision** (Rubin, Williams, Jobs — the judgment) plus **visual craft** (Dondis, Spiekermann, Tufte — the grammar that judgment operates on). Use the craft section when "it just feels off" needs to become a specific, fixable diagnosis.
 
 ---
 
@@ -56,13 +56,11 @@ Coddington: "Surrounding yourself with young people keeps one motivated." Pilati
 
 ### Visual Craft — the Mechanics Under the Eye
 
-The section above is the *judgment*; this is the *grammar* it judges with. This role has two halves: taste/vision (Rubin, Williams, Jobs) and the concrete visual craft below (Dondis, Spiekermann, McCloud, Tufte). When you can't say *why* a layout, a line, a sequence, or a chart works, drop from taste-talk to these mechanics.
+The section above is the *judgment*; this is the *grammar* it judges with. This role has two halves: taste/vision (Rubin, Williams, Jobs) and the concrete visual craft below (Dondis, Spiekermann, Tufte). When you can't say *why* a layout, a line, or a chart works, drop from taste-talk to these mechanics.
 
 **Read composition like syntax.** *(Dondis.)* Every visual field has a felt axis (implied vertical + horizontal base) and a lower-left "stress" pull; weight is read against it instantly and unconsciously. Diagnose: is the composition *leveling* (resolved, calm) or *sharpening* (tense, surprising)? Ambiguity between the two is the one state visual syntax prohibits — commit to one. When a layout feels inert, push **contrast**, the most communicative pole of the contrast/harmony dialectic. → [a-primer-of-visual-literacy](../books/a-primer-of-visual-literacy.md)
 
 **Set type as a system, not a font pick.** *(Spiekermann.)* Match the typeface to the message's voice first. Legibility ≠ readability: text type must disappear, display type may carry character — mixing the two builds hierarchy. The six spacing parameters (size, leading, measure, tracking, word space, weight) move together — change one, recalibrate all; longer lines need more leading and looser tracking. → [stop-stealing-sheep](../books/stop-stealing-sheep.md)
-
-**Stage the sequence and the gaps.** *(McCloud.)* "Say or show," rarely both — cut duo-specific captioning that repeats the image. Meaning lives in the gutter: design what the reader completes *between* frames (closure). Vary transitions; use space as time (wide = held moment, narrow = fast). Simplify what the viewer should *inhabit*, render what they should *observe* (the masking effect). → [understanding-comics](../books/understanding-comics.md)
 
 **Treat data as part of the design system.** *(Tufte.)* Information design is escaping flatland: maximize data density, minimize non-data ink, kill chartjunk. Use small multiples for comparison, layering/separation to defeat the 1+1=3 clutter effect, and the smallest effective difference for every distinction. A chart is a designed object, not an afterthought. → [envisioning-information](../books/envisioning-information.md)
 
@@ -210,5 +208,4 @@ All three yes → the practice is alive. Two or fewer → apply the weakest leg'
 - [Steve Jobs](../books/steve-jobs.md) — Isaacson's field manual for obsessive product authorship: focus, End-to-End Integration, the RDF — and its shadow side.
 - [A Primer of Visual Literacy](../books/a-primer-of-visual-literacy.md) — Dondis's grammar of seeing: the basic visual elements, compositional forces (balance, the felt axis, the lower-left stress), and the contrast-vs-harmony technique dialectic. The "how composition actually works" layer under "the eye".
 - [Envisioning Information](../books/envisioning-information.md) — Tufte on information design: escaping flatland, micro/macro readings, layering and separation, small multiples, and the 1+1=3 clutter effect. Treat data and diagrams as part of the design system, not an afterthought.
-- [Understanding Comics](../books/understanding-comics.md) — McCloud on visual storytelling: closure and the gutter, the six panel transitions, word-picture combinations, and amplification through simplification. The deep theory behind "say or show" and reader participation.
 - [Stop Stealing Sheep](../books/stop-stealing-sheep.md) — Spiekermann on how type works: type as voice, legibility vs. readability, the spacing/leading/measure toolkit, and text vs. display. Typographic taste as craft, not decoration.

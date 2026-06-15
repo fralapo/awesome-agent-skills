@@ -1,6 +1,6 @@
 # Glossary of Named Frameworks, Effects, and Terms
 
-All significant named concepts across the 17 books. The first list (12 books) is one A–Z run; terms from the five books added later — Dondis, Tufte, McCloud, Spiekermann, Henry — are grouped in their own A–Z section ("Visual-Craft & Creative-Leadership Terms"), followed by the engine and TED-talk layers. Format: **Term** — definition *(Book / Role)*.
+All significant named concepts across the 16 books. The first list (12 books) is one A–Z run; terms from the four books added later — Dondis, Tufte, Spiekermann, Henry — are grouped in their own A–Z section ("Visual-Craft & Creative-Leadership Terms"), followed by the engine and TED-talk layers. Format: **Term** — definition *(Book / Role)*.
 
 ---
 
@@ -152,13 +152,9 @@ All significant named concepts across the 17 books. The first list (12 books) is
 
 ## Visual-Craft & Creative-Leadership Terms
 
-*From the five books added to the Visionary and Creative-Leader roles: Dondis, Tufte, McCloud, Spiekermann (visual craft) and Henry (leadership).*
+*From the four books added to the Visionary and Creative-Leader roles: Dondis, Tufte, Spiekermann (visual craft) and Henry (leadership).*
 
 **Abstract Level** — The elemental, non-referential understructure of a visual message that bypasses the intellect and reaches emotion directly, one of three simultaneous levels of visual intelligence. *(Dondis / Visionary)*
-
-**Amplification Through Simplification** — Reducing a face or figure to its fewest marks makes it more universal, not less powerful, because readers project their own identity onto it. *(McCloud / Visionary)*
-
-**Aspect-to-Aspect Transition** — A panel-to-panel shift that wanders across an environment or mood with no time progression, building atmosphere rather than advancing plot; the dominant mode in manga. *(McCloud / Visionary)*
 
 **Attraction and Grouping (Gestalt Laws)** — The perceptual principles that proximity clusters elements into units and similarity links like to like, operating before any drawn boundary does. *(Dondis / Visionary)*
 
@@ -169,8 +165,6 @@ All significant named concepts across the 17 books. The first list (12 books) is
 **Bounded Autonomy** — Clear, explicit boundaries (fixed deadline, scope, objective) around a genuinely open interior where the team retains full creative latitude and needs no daily check-ins. *(Henry / Creative Leader)*
 
 **Chartjunk** — Decorative apparatus added to a display — 3D bars, crosshatching, pictorial fills, heavy grid lines — that encodes no data and signals contempt for both information and audience. *(Tufte / Visionary)*
-
-**Closure** — The reader's unconscious act of completing the action that takes place in the gutter between two panels; the cognitive mechanism that makes comics uniquely participatory. *(McCloud / Visionary)*
 
 **Color as Label / Measure / Representation / Beauty** — Tufte's four distinct functions of color in information design; failure occurs when these roles are conflated or when large areas receive full saturation. *(Tufte / Visionary)*
 
@@ -186,17 +180,11 @@ All significant named concepts across the 17 books. The first list (12 books) is
 
 **Escaping Flatland** — Tufte's master problem: all information design is a fight to represent multidimensional reality on a static two-dimensional surface without collapsing complexity. *(Tufte / Visionary)*
 
-**Expressive Line / Synaesthetics** — McCloud's term for the cross-sensory translation of formal properties (line quality, border weight, color temperature) into emotion, independent of what is depicted. *(McCloud / Visionary)*
-
 **Felt Axis** — The invisible vertical axis and horizontal base every visual field imposes, against which balance is measured unconsciously and instantly by the viewer. *(Dondis / Visionary)*
 
 **Fight for the Team** — The leader's most tangible trust signal: absorbing stakeholder pressure, scope creep, and mid-project pivots upstream before they reach the creative team. *(Henry / Creative Leader)*
 
-**The Gutter** — The blank space between comics panels where reader imagination completes the off-panel action; the medium's primary site of meaning-making, not empty space. *(McCloud / Visionary)*
-
 **Grid and Hierarchy** — The principle that all readable layouts — even apparently chaotic ones — rest on a proportional underlying grid, with hierarchy structural rather than decorative. *(Spiekermann / Visionary)*
-
-**Interdependent Word/Picture Mode** — The word/picture combination in which neither channel makes complete sense alone but together they produce a third meaning unavailable to either; the mode uniquely achievable by comics. *(McCloud / Visionary)*
 
 **Layering and Separation** — The discipline of assigning each visual layer a distinct register (weight, value, hue) so the eye parses signal from signal; the counter-measure to the 1+1=3 effect. *(Tufte / Visionary)*
 
@@ -210,15 +198,11 @@ All significant named concepts across the 17 books. The first list (12 books) is
 
 **Maker to Manager** — The identity shift from leading through personal execution to leading people who execute; requires consciously stopping from slipping back into making and redirecting creative instincts toward building the team. *(Henry / Creative Leader)*
 
-**Masking Effect (Cartoon Vacuum)** — The phenomenon whereby a simplified, iconic face becomes a universal vessel that readers project their own identity onto, while a rendered face remains an observed other. *(McCloud / Visionary)*
-
 **Measure** — The line length of a text column; a core spacing parameter whose increase demands proportionally more leading and looser tracking to maintain comfortable reading rhythm. *(Spiekermann / Visionary)*
 
 **Micro/Macro Reading** — The quality of great information displays whereby the same marks simultaneously form a coherent global pattern and reward granular close inspection. *(Tufte / Visionary)*
 
 **1+1=3 Effect** — Albers's principle that two visual elements placed together on a flat surface generate spurious ghost patterns and textures neither element possesses alone; combated by disciplined layering. *(Tufte / Visionary)*
-
-**Panel Transitions (The Six)** — McCloud's grammar of comics pacing: moment-to-moment, action-to-action, subject-to-subject, scene-to-scene, aspect-to-aspect, and non-sequitur — each implying a different reader relationship to time and causality. *(McCloud / Visionary)*
 
 **Permission** — The explicit, repeated signal from a creative leader that real risk-taking is wanted; without it, talented people play it safe regardless of how open the brief appears. *(Henry / Creative Leader)*
 
@@ -226,15 +210,9 @@ All significant named concepts across the 17 books. The first list (12 books) is
 
 **Relational Usury** — Henry's term for promising future benefits you cannot deliver in order to extract short-term creative effort; destroys team trust rapidly and irreparably. *(Henry / Creative Leader)*
 
-**The Big Triangle** — McCloud's map of all visual imagery between three vertices — photorealistic representation, abstract language/meaning, and pure picture plane — with cartoons positioned near the language vertex. *(McCloud / Visionary)*
-
-**The Six Steps** — McCloud's hierarchy from idea/purpose through form, idiom, structure, and craft to surface; most creative attention is spent at the surface while the most determining choices live at the top. *(McCloud / Visionary)*
-
 **Smallest Effective Difference** — Tufte's principle that distinctions between visual elements should be made as small as possible while remaining perceptible; overstatement generates noise that competes with data. *(Tufte / Visionary)*
 
 **Small Multiples** — A series of small, identical visual frames varying along a single variable, keeping all comparisons within eyespan and eliminating reliance on visual memory. *(Tufte / Visionary)*
-
-**Space = Time** — McCloud's axiom that in comics panel dimensions are temporal notation — wide panels hold duration, narrow panels imply rapid succession, splash pages expand time. *(McCloud / Visionary)*
 
 **Stability + Challenge** — Henry's two-pillar model: creative people require a predictable container (clear expectations, protection from noise) and stretching work (risk permission, skills at their limit) simultaneously. *(Henry / Creative Leader)*
 
@@ -248,7 +226,7 @@ All significant named concepts across the 17 books. The first list (12 books) is
 
 ## Evaluation-Engine Terms
 
-Not from the 17 books. Adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) for the [Evaluator](roles/evaluator.md) and the insight layer of the [Idea Generator](roles/idea-generator.md). Alphabetical.
+Not from the 16 books. Adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) for the [Evaluator](roles/evaluator.md) and the insight layer of the [Idea Generator](roles/idea-generator.md). Alphabetical.
 
 **Abstraction Laddering** — Choosing the rung between abstract and concrete where an idea has the most room to live. Move up for platform thinking, down for execution. *(smixs / Idea Generator)*
 
