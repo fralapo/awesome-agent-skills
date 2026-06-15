@@ -13,7 +13,7 @@
 
 - **Amplification Through Simplification / The Cartoon Vacuum**: Simplifying a face to a few marks amplifies its universality — the reader projects their own face onto it (the "masking effect"). Complex, rendered backgrounds can coexist with iconic characters because the character becomes a vessel for the reader's identity while the world remains external and specific. — *How to develop:* Distinguish between elements the viewer should *inhabit* (simplify) and elements they should *observe* (render); never apply the same visual register to both without intent.
 
-- **Closure and the Gutter**: The gutter — the blank space between panels — is where comics' true action lives. Readers unconsciously complete what happens between two images: this is closure. "In the gutter... human imagination takes two separate images and transforms them into a single idea." McCloud calls this the reader's complicity; "we are all of us in the gutter." — *How to develop:* Treat every gutter as a creative decision, not empty space. Ask: what is the reader being invited to construct here? Make that construction do emotional or narrative work.
+- **Closure and the Gutter**: The gutter — the blank space between panels — is where comics' true action lives. Readers unconsciously complete what happens between two images: this is closure. In the gutter, human imagination takes two separate images and transforms them into a single idea — the reader's defining act of complicity. — *How to develop:* Treat every gutter as a creative decision, not empty space. Ask: what is the reader being invited to construct here? Make that construction do emotional or narrative work.
 
 - **The Six Panel Transitions**: Moment-to-moment (minimal change, dreamy drift); action-to-action (single subject in successive actions — most economical storytelling); subject-to-subject (scene-level cuts between subjects within one idea); scene-to-scene (temporal or spatial leap, requires reader to deduce the gap); aspect-to-aspect (no time progression — wandering eye across an environment, mood, or idea; dominant in manga); non-sequitur (no logical relationship — pure juxtaposition). Western mainstream comics favour action-to-action; aspect-to-aspect carries enormous atmospheric weight. — *How to develop:* Identify the predominant transition type in any sequence you are designing. Vary deliberately; monotonous transition rhythm dulls the reader.
 
@@ -70,12 +70,11 @@
 
 ## Signature Quotes
 
-- "Comics is the invisible art." — Scott McCloud
-- "In the gutter of the comic strip lie the bodies of all our discarded characters." — Scott McCloud
-- "Each act of omission becomes an act of meaning." — Scott McCloud
-- "We are all of us in the gutter." — Scott McCloud
-- "The more cartoony a face is, the more people it could be said to describe." — Scott McCloud
-- "Space is time in comics." — Scott McCloud
+> The source is an image-only PDF, so verbatim quotes can't be sourced from extracted text. Only lines below are reproduced as direct quotes (high-confidence canonical); McCloud's other ideas appear as paraphrase in the frameworks above.
+
+- "Comics: the invisible art." — Scott McCloud (the book's subtitle)
+- "Juxtaposed pictorial and other images in deliberate sequence, intended to convey information and/or to produce an aesthetic response in the viewer." — Scott McCloud (his definition of comics)
+- *Paraphrased, not verbatim:* the more cartoony a face, the more people it can describe (simplification universalises); in comics, space **is** time; every act of omission in the gutter becomes an act of meaning completed by the reader.
 
 ---
 

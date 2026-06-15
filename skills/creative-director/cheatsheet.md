@@ -36,6 +36,11 @@ Decision rules, compact tables, and quick heuristics. Every line helps DECIDE so
 - If conversation becomes crucial (high stakes + differing opinions + emotions) → Start with Heart before speaking.
 - If someone goes silent or hostile → AMPP, not more content.
 - If goals seem incompatible → CRIB before declaring deadlock.
+- If a person is bored or leaving → low *challenge*; if angry or burning out → low *stability*. Move the weak axis (Henry's two pillars).
+- If stakeholder pressure or a pivot arrives → fight it upstream, decide in private, never surprise the team with a reversal you didn't contest.
+- If you're asking "will they like this?" before a hard call → wrong question. Ask "is it effective?" (liked vs. trusted).
+- If you keep rescuing the work yourself → you haven't made the maker→manager shift; hand off and coach instead.
+- If someone needs structure but you gave full freedom (or vice-versa) → recalibrate autonomy to competence.
 
 ### Visionary
 - If brief can't fit in one emotionally resonant sentence → sharpen it; don't brief the team yet.
@@ -46,6 +51,11 @@ Decision rules, compact tables, and quick heuristics. Every line helps DECIDE so
 - If the team is comfortable → the brief is probably too safe.
 - If a technical warning from the team arrives → taste does not override physics. Hold both.
 - If you find yourself explaining the work → cut or change until you don't.
+- If a layout feels off but you can't say why → read it against the felt axis: is it *leveling* or *sharpening*? Commit to one; ambiguity reads as a mistake (Dondis).
+- If a layout is inert → push contrast, not more elements (contrast/harmony dialectic).
+- If the type is drawing attention at reading size → wrong text face; reserve character for display (Spiekermann).
+- If a caption repeats what the image already shows → say *or* show, not both; cut the duo-specific redundancy (McCloud).
+- If a chart is decorated → strip chartjunk, raise data density, use the smallest effective difference (Tufte).
 
 ### Evaluator
 - If you can't name a real campaign the idea stands alongside → it is not a 9+.

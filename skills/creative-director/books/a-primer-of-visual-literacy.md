@@ -70,8 +70,8 @@
 - "The toolbox of all visual communications is the basic elements, the compositional source for all kinds of visual materials and messages and objects and experiences." — Donis A. Dondis
 - "The most dynamic of the visual techniques is contrast, which exists on a polarity with its opposite technique of harmony." — Donis A. Dondis
 - "In terms of sound visual syntax, ambiguity is totally undesirable. Of all our senses, sight is the one that wastes the least energy." — Donis A. Dondis
-- "The felt axis is an unconscious constant." — Donis A. Dondis
-- "Abstract expression is intense; it short-circuits the intellect, making contact directly with the emotions and feelings, encapsulating the essential meaning, cutting through the conscious to the unconscious." — Donis A. Dondis
+- "It is an unconscious constant." — Donis A. Dondis (on the felt axis)
+- "The meaning inherent in abstract expression is intense; it short-circuits the intellect, making contact directly with the emotions and feelings, encapsulating the essential meaning, cutting through the conscious to the unconscious." — Donis A. Dondis
 - "Visual forms should not be purposefully unclear; they should harmonize or contrast, attract or repel, relate or clash." — Donis A. Dondis
 - "It is the techniques that will serve most effectively as connectors between intention and result." — Donis A. Dondis
 

@@ -6,7 +6,7 @@
 
 ## Core Frameworks
 
-- **Type as Visible Language**: Type is "the visible language linking writer and reader." Every typographic choice — typeface, size, spacing, weight — is a communication act before a single word is read. — *How to develop:* Before opening a type menu, write one sentence describing the voice of the message; let that sentence, not habit, drive the selection.
+- **Type as Visible Language**: Type is "that voice, the visible language linking writer and reader." Every typographic choice — typeface, size, spacing, weight — is a communication act before a single word is read. — *How to develop:* Before opening a type menu, write one sentence describing the voice of the message; let that sentence, not habit, drive the selection.
 
 - **The Wardrobe Analogy**: Choosing a typeface is no more intimidating than planning your wardrobe. No one wears the same shoes to run a marathon, climb the Eiger, and walk to the office. Typefaces are functional gear, not decorations. — *How to develop:* Classify each project by register (authoritative, playful, intimate, urgent) and match to a typeface with the corresponding body language rather than defaulting to the house favorite.
 
@@ -18,11 +18,11 @@
 
 - **Text Type vs. Display Type**: Text type must be self-effacing — so normal the reader never thinks about it. Display type may have verve and personality because it is read in a glance, not sustained over pages. Mixing the two is how hierarchy and contrast are built. — *How to develop:* Audit your text column: if the typeface is drawing attention to itself at reading sizes, replace it with something quieter; reserve character for headlines and pull-quotes.
 
-- **Choosing Typefaces by Purpose and Context**: Every category — book, newspaper, signage, form, screen, corporate identity — has evolved its own typographic conventions because each has different constraints of size, resolution, illumination, and reading speed. "As long as you print on paper, the choice of typeface is first governed by the content of the message, then the intended audience, and only lastly by technical constraints." — *How to develop:* Map the output context (substrate, lighting, distance, reading speed) before selecting; treat historical convention as field-tested intelligence rather than nostalgia.
+- **Choosing Typefaces by Purpose and Context**: Every category — book, newspaper, signage, form, screen, corporate identity — has evolved its own typographic conventions because each has different constraints of size, resolution, illumination, and reading speed. "As long as you print on paper, the choice of typeface is first and foremost governed by the content of the message, then the intended audience, and only lastly by technical constraints." — *How to develop:* Map the output context (substrate, lighting, distance, reading speed) before selecting; treat historical convention as field-tested intelligence rather than nostalgia.
 
 - **Grid and Hierarchy**: Even pages that look messy are laid out following complex grids and strict hierarchies. The grid is the common denominator — small enough to allow for all styles of architecture, like the bricks in a building. — *How to develop:* Design the grid first as a proportional system (column widths as multiples of a baseline unit); let type sizes and leading snap to it so visual rhythm is structural, not decorative.
 
-- **Type as Everyday Infrastructure**: Type is not a specialist concern — it is on eggs, road signs, tax forms, ballots, screens, and cereal boxes. Poorly designed signage, illegible forms, and botched wayfinding are failures of typography, not just aesthetics. "There is no excuse for producing bad business forms, illegible invoices, or bewildering ballots." — *How to develop:* Extend typographic care to every touchpoint — internal documents, error messages, data tables — not just prestige deliverables.
+- **Type as Everyday Infrastructure**: Type is not a specialist concern — it is on eggs, road signs, tax forms, ballots, screens, and cereal boxes. Poorly designed signage, illegible forms, and botched wayfinding are failures of typography, not just aesthetics. "There is no excuse for producing bad business forms, illegible invoices, awkward applications, ridiculous receipts, or bewildering ballots." — *How to develop:* Extend typographic care to every touchpoint — internal documents, error messages, data tables — not just prestige deliverables.
 
 ---
 
@@ -56,7 +56,7 @@
 
 ## Anti-patterns
 
-- **Letterspacing lowercase**: The Goudy provocation that titles the book — letterspacing lowercase text destroys word shape, which is how fluent readers decode text. It is the mark of someone copying without understanding.
+- **Letterspacing lowercase**: Letterspacing lowercase text destroys word shape, which is how fluent readers decode text — the mark of someone copying without understanding. (Goudy's original provocation, which gives the book its title, was aimed at letterspaced *black letter*; the lowercase rule is the modern descendant.)
 - **Default font inertia**: Using whatever the printer or operating system supplies (Arial, Times, Courier) because it is there — not because it fits the message. "There is no excuse" for this in an era of thousands of available faces.
 - **Overdesigning at small sizes**: Fine serifs, tight tracking, and extreme contrast between thick and thin strokes collapse at small sizes and on rough substrates. What looks refined at 24 pt becomes a blur at 8 pt.
 - **Adding weight when legibility fails**: Engineers who make type heavier to make it more legible are wrong. Too much weight fills in the counters; letters become blobs. Counter space is where legibility lives.
@@ -71,10 +71,10 @@
 
 - "Type is that voice, the visible language linking writer and reader." — Erik Spiekermann
 - "Design — in this case, at least — has to be invisible." — Erik Spiekermann
-- "Anyone who would letterspace lower case would steal sheep." — Frederic Goudy (the founding provocation of the book)
+- "Anyone who would letterspace black letter would steal sheep." — Frederic Goudy (the founding provocation of the book)
 - "We read best what we read most." — Erik Spiekermann
 - "Every time you change one spacing parameter, you have to look closely at all the others and adjust them accordingly." — Erik Spiekermann
-- "Brands have to speak their own authentic language. Type is visible language. Using a bland or overused typeface will make the brand equally bland and even invisible." — Erik Spiekermann
+- "Brands have to speak their own authentic language. Type is visible language. Using a bland or overused typeface will make the brand and its products or media equally bland and even invisible." — Erik Spiekermann
 - "Good designers learn all the rules before they start breaking them." — Erik Spiekermann
 
 ---

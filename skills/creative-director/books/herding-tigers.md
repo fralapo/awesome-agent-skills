@@ -10,7 +10,7 @@
 
 - **Maker to Manager (The Identity Shift)**: You led by doing the work; now your job is to lead people who do it. These are fundamentally different games. Your creative instincts — which made you great as an individual contributor — will pull you back into execution mode, undermining your team's ownership. — *How to apply:* Weekly, do a mental sweep for moments when you slipped into maker mode. Reserve a handful of projects to stay directly involved; hand off everything else with intent.
 
-- **Bounded Autonomy**: The sweet spot is "freedom within a box" — clear expectations and principles that guide decisions, but room inside those boundaries for creative risk. Define the box precisely; then get out of the way. — *How to apply:* On each project, make explicit what is fixed (deadline, scope, core objective) and what is open (approach, execution, aesthetic choices). Communicate both, then trust the team to operate inside the open space without daily check-ins.
+- **Bounded Autonomy**: The sweet spot is freedom of action within clear boundaries — explicit expectations and principles that guide decisions, but room inside those boundaries for creative risk. Define the box precisely; then get out of the way. — *How to apply:* On each project, make explicit what is fixed (deadline, scope, core objective) and what is open (approach, execution, aesthetic choices). Communicate both, then trust the team to operate inside the open space without daily check-ins.
 
 - **Fight For Your Team (Protection as Leadership)**: Your most underrated function is absorbing organizational pressure before it hits your team. Scope creep, last-minute pivots, stakeholder second-guessing — intercept these upstream. If your team sees you going to bat for them consistently, they will produce bolder, higher-risk work. If they see you passing pressure down or protecting your own reputation, trust collapses. — *How to apply:* When a stakeholder wants to change direction mid-project, have the conversation in private and return with a decision, not a debate. Never surprise your team with a reversal you didn't fight.
 
@@ -31,7 +31,7 @@
 - Trust is the primary currency of creative teams. Spend it slowly, protect it fiercely, and never borrow against future trust for a short-term win.
 - Fighting for your team is not optional — it is the most tangible signal of your leadership. "You need to fight for and defend your team." — Todd Henry
 - Permission matters as much as direction. Creative people won't take real risks unless they believe you genuinely want them to.
-- Don't try to be liked. "It's not my job to be liked. It's my job to help them do their best work." The two sometimes coexist, but when they conflict, choose effectiveness.
+- Don't try to be liked. As TV producer Jim Friedman put it: "It's not my job to be liked. It's my job to help them do their best work." The two sometimes coexist, but when they conflict, choose effectiveness.
 - Giving someone a hard problem is an act of trust, not laziness. Holding people back from challenge is the quiet form of disrespect.
 - Relational usury — promising future benefits you can't deliver to extract short-term effort — is a fast track to a team that stops believing in you.
 - Vulnerability without credibility backfires. Establish your competence first, then invite people into your thought process.
