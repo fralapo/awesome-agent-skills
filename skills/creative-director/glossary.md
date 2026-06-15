@@ -1,6 +1,6 @@
 # Glossary of Named Frameworks, Effects, and Terms
 
-All significant named concepts across the 12 books, alphabetically sorted. Format: **Term** — definition *(Book / Role)*.
+All significant named concepts across the 17 books. The first list (12 books) is one A–Z run; terms from the five books added later — Dondis, Tufte, McCloud, Spiekermann, Henry — are grouped in their own A–Z section ("Visual-Craft & Creative-Leadership Terms"), followed by the engine and TED-talk layers. Format: **Term** — definition *(Book / Role)*.
 
 ---
 
@@ -150,9 +150,105 @@ All significant named concepts across the 12 books, alphabetically sorted. Forma
 
 ---
 
+## Visual-Craft & Creative-Leadership Terms
+
+*From the five books added to the Visionary and Creative-Leader roles: Dondis, Tufte, McCloud, Spiekermann (visual craft) and Henry (leadership).*
+
+**Abstract Level** — The elemental, non-referential understructure of a visual message that bypasses the intellect and reaches emotion directly, one of three simultaneous levels of visual intelligence. *(Dondis / Visionary)*
+
+**Amplification Through Simplification** — Reducing a face or figure to its fewest marks makes it more universal, not less powerful, because readers project their own identity onto it. *(McCloud / Visionary)*
+
+**Aspect-to-Aspect Transition** — A panel-to-panel shift that wanders across an environment or mood with no time progression, building atmosphere rather than advancing plot; the dominant mode in manga. *(McCloud / Visionary)*
+
+**Attraction and Grouping (Gestalt Laws)** — The perceptual principles that proximity clusters elements into units and similarity links like to like, operating before any drawn boundary does. *(Dondis / Visionary)*
+
+**Autonomy Calibrated to Competence** — The principle that the degree of creative latitude extended to a person must match their demonstrated skill and reliability, adjusted iteratively. *(Henry / Creative Leader)*
+
+**Basic Visual Elements** — The nine irreducible atoms of every visual message — dot, line, shape, direction, tone, color, texture, scale, and dimension/motion — that are the raw material of all visual communication. *(Dondis / Visionary)*
+
+**Bounded Autonomy** — Clear, explicit boundaries (fixed deadline, scope, objective) around a genuinely open interior where the team retains full creative latitude and needs no daily check-ins. *(Henry / Creative Leader)*
+
+**Chartjunk** — Decorative apparatus added to a display — 3D bars, crosshatching, pictorial fills, heavy grid lines — that encodes no data and signals contempt for both information and audience. *(Tufte / Visionary)*
+
+**Closure** — The reader's unconscious act of completing the action that takes place in the gutter between two panels; the cognitive mechanism that makes comics uniquely participatory. *(McCloud / Visionary)*
+
+**Color as Label / Measure / Representation / Beauty** — Tufte's four distinct functions of color in information design; failure occurs when these roles are conflated or when large areas receive full saturation. *(Tufte / Visionary)*
+
+**Color Restraint and Nature's Palette** — The governing principle that muted, nature-derived base tones form quiet fields against which a single spot of saturated color carries maximum signal. *(Tufte / Visionary)*
+
+**Compositional Stress and the Left-Lower Pull** — The perceptual tendency to weight the lower-left quadrant as settled and the upper-right as maximally stressed, driven by left-to-right reading conditioning. *(Dondis / Visionary)*
+
+**Data Density (Maximising Data-Ink Ratio)** — The discipline of pushing the ratio of data-bearing ink to total ink toward 1, eliminating all marks that do not encode information. *(Tufte / Visionary)*
+
+**Dialectic of Visual Techniques** — The master lever of visual communication: every technique exists on a polarity with its opposite (balance/instability, simplicity/complexity, etc.), and contrast is the most dynamically communicative position. *(Dondis / Visionary)*
+
+**Display Type vs. Text Type** — The distinction between type read in a glance (display, may have personality) and type sustained over columns (text, must be self-effacing); hierarchy is built by mixing them. *(Spiekermann / Visionary)*
+
+**Escaping Flatland** — Tufte's master problem: all information design is a fight to represent multidimensional reality on a static two-dimensional surface without collapsing complexity. *(Tufte / Visionary)*
+
+**Expressive Line / Synaesthetics** — McCloud's term for the cross-sensory translation of formal properties (line quality, border weight, color temperature) into emotion, independent of what is depicted. *(McCloud / Visionary)*
+
+**Felt Axis** — The invisible vertical axis and horizontal base every visual field imposes, against which balance is measured unconsciously and instantly by the viewer. *(Dondis / Visionary)*
+
+**Fight for the Team** — The leader's most tangible trust signal: absorbing stakeholder pressure, scope creep, and mid-project pivots upstream before they reach the creative team. *(Henry / Creative Leader)*
+
+**The Gutter** — The blank space between comics panels where reader imagination completes the off-panel action; the medium's primary site of meaning-making, not empty space. *(McCloud / Visionary)*
+
+**Grid and Hierarchy** — The principle that all readable layouts — even apparently chaotic ones — rest on a proportional underlying grid, with hierarchy structural rather than decorative. *(Spiekermann / Visionary)*
+
+**Interdependent Word/Picture Mode** — The word/picture combination in which neither channel makes complete sense alone but together they produce a third meaning unavailable to either; the mode uniquely achievable by comics. *(McCloud / Visionary)*
+
+**Layering and Separation** — The discipline of assigning each visual layer a distinct register (weight, value, hue) so the eye parses signal from signal; the counter-measure to the 1+1=3 effect. *(Tufte / Visionary)*
+
+**Leading (Line Space)** — The vertical distance between baselines, one of six interdependent spacing parameters that must be recalibrated whenever any other parameter changes. *(Spiekermann / Visionary)*
+
+**Legibility vs. Readability** — Legibility is whether individual letterforms can be distinguished; readability is whether running text can be sustained — both depend on spacing as much as on letterform design. *(Spiekermann / Visionary)*
+
+**Leveling vs. Sharpening** — The polarity between compositions that conform to the felt axis (repose, harmony) and those that violate it (tension, contrast); ambiguity between the two is the one state visual syntax prohibits. *(Dondis / Visionary)*
+
+**Liked vs. Trusted** — The leadership trap of seeking approval: the need to be liked softens feedback, avoids conflict, and compromises the work — being trusted and respected is the effective goal. *(Henry / Creative Leader)*
+
+**Maker to Manager** — The identity shift from leading through personal execution to leading people who execute; requires consciously stopping from slipping back into making and redirecting creative instincts toward building the team. *(Henry / Creative Leader)*
+
+**Masking Effect (Cartoon Vacuum)** — The phenomenon whereby a simplified, iconic face becomes a universal vessel that readers project their own identity onto, while a rendered face remains an observed other. *(McCloud / Visionary)*
+
+**Measure** — The line length of a text column; a core spacing parameter whose increase demands proportionally more leading and looser tracking to maintain comfortable reading rhythm. *(Spiekermann / Visionary)*
+
+**Micro/Macro Reading** — The quality of great information displays whereby the same marks simultaneously form a coherent global pattern and reward granular close inspection. *(Tufte / Visionary)*
+
+**1+1=3 Effect** — Albers's principle that two visual elements placed together on a flat surface generate spurious ghost patterns and textures neither element possesses alone; combated by disciplined layering. *(Tufte / Visionary)*
+
+**Panel Transitions (The Six)** — McCloud's grammar of comics pacing: moment-to-moment, action-to-action, subject-to-subject, scene-to-scene, aspect-to-aspect, and non-sequitur — each implying a different reader relationship to time and causality. *(McCloud / Visionary)*
+
+**Permission** — The explicit, repeated signal from a creative leader that real risk-taking is wanted; without it, talented people play it safe regardless of how open the brief appears. *(Henry / Creative Leader)*
+
+**Pragnanz (Law of)** — The Gestalt principle that perception always resolves toward the simplest, most regular, most symmetrical state prevailing conditions allow. *(Dondis / Visionary)*
+
+**Relational Usury** — Henry's term for promising future benefits you cannot deliver in order to extract short-term creative effort; destroys team trust rapidly and irreparably. *(Henry / Creative Leader)*
+
+**The Big Triangle** — McCloud's map of all visual imagery between three vertices — photorealistic representation, abstract language/meaning, and pure picture plane — with cartoons positioned near the language vertex. *(McCloud / Visionary)*
+
+**The Six Steps** — McCloud's hierarchy from idea/purpose through form, idiom, structure, and craft to surface; most creative attention is spent at the surface while the most determining choices live at the top. *(McCloud / Visionary)*
+
+**Smallest Effective Difference** — Tufte's principle that distinctions between visual elements should be made as small as possible while remaining perceptible; overstatement generates noise that competes with data. *(Tufte / Visionary)*
+
+**Small Multiples** — A series of small, identical visual frames varying along a single variable, keeping all comparisons within eyespan and eliminating reliance on visual memory. *(Tufte / Visionary)*
+
+**Space = Time** — McCloud's axiom that in comics panel dimensions are temporal notation — wide panels hold duration, narrow panels imply rapid succession, splash pages expand time. *(McCloud / Visionary)*
+
+**Stability + Challenge** — Henry's two-pillar model: creative people require a predictable container (clear expectations, protection from noise) and stretching work (risk permission, skills at their limit) simultaneously. *(Henry / Creative Leader)*
+
+**Three Levels of Visual Intelligence** — Dondis's framework that all visual content operates simultaneously as representational (recognition), abstract (elemental/emotional), and symbolic (learned sign system); effective messages consciously control all three. *(Dondis / Visionary)*
+
+**Type as Voice** — The principle that every typeface communicates personality and register before a single word is read, making typeface selection a communication act equivalent to tone of voice. *(Spiekermann / Visionary)*
+
+**Typographic Toolkit (Spacing System)** — The six interdependent parameters — size, leading, measure, tracking, word spacing, and weight — that must be recalibrated as a system whenever any one is changed. *(Spiekermann / Visionary)*
+
+---
+
 ## Evaluation-Engine Terms
 
-Not from the 12 books. Adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) for the [Evaluator](roles/evaluator.md) and the insight layer of the [Idea Generator](roles/idea-generator.md). Alphabetical.
+Not from the 17 books. Adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) for the [Evaluator](roles/evaluator.md) and the insight layer of the [Idea Generator](roles/idea-generator.md). Alphabetical.
 
 **Abstraction Laddering** — Choosing the rung between abstract and concrete where an idea has the most room to live. Move up for platform thinking, down for execution. *(smixs / Idea Generator)*
 

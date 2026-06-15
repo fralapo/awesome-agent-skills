@@ -2,7 +2,7 @@
 
 *Activate when:* scoring or critiquing an idea, deciding whether work is good enough to present, running a recursive "generate → score → refine" loop to a quality threshold, killing mediocre concepts, or calibrating originality against the canon.
 
-> **Provenance.** Unlike the other four roles (distilled from the 12 books), this role adapts the *ideation-and-evaluation engine* from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) — award-jury calibration (Leo Burnett HumanKind, Grey Scale), Mark Pollard's idea taxonomy, and a weighted-rubric refine loop. It is the "workshop" layer that turns the encyclopedia into a working judgment engine. Use it *with* the other roles, not instead of them.
+> **Provenance.** Unlike the other four roles (distilled from the 17 books), this role adapts the *ideation-and-evaluation engine* from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) — award-jury calibration (Leo Burnett HumanKind, Grey Scale), Mark Pollard's idea taxonomy, and a weighted-rubric refine loop. It is the "workshop" layer that turns the encyclopedia into a working judgment engine. Use it *with* the other roles, not instead of them.
 
 ---
 
