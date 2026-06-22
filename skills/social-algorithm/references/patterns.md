@@ -259,3 +259,32 @@ Likes and followers = ignore as primary KPIs
 5. **Bio link** — max 3 ideally 2: a free resource + a direct-contact funnel (phone/WhatsApp/Calendly). Profile = the landing page, reachable in ≤2 clicks. No Linktree clutter
 **Test**: "1-10, from this bio alone, would I give this person my money?"
 **Trade-off**: ~150 chars feels always too few; expect frequent rewrites. Emoji are purely stylistic (cost characters)
+
+## 35. Read the Market Sophistication Stage
+**When**: positioning / promise isn't landing despite good content
+**How**: locate your market on the 5-stage ladder and phrase the promise accordingly:
+1. First to market → plain claim
+2. Few competitors → amplify the claim
+3. Claim saturated → lead with the mechanism (the *how*)
+4. Mechanism saturated → amplify / differentiate the mechanism
+5. Everything heard → pull back to identification + you (storytelling, alignment)
+**Rule**: in a saturated market (4-5) a generic promise won't enter no matter how good the content. Awareness = the prospect; sophistication = the market — work both before content
+**Trade-off**: forces honest competitor study; the higher the stage, the more "you" has to carry the differentiation
+
+## 36. Stand Out Under Topic-Centric Distribution
+**When**: reach is fine but content blends in / doesn't convert new viewers
+**How**: you compete with EVERYONE on the interest, not 3 rivals → 
+- Open with a **contrarian line** that breaks a common myth (not "X tips for Y")
+- **Differentiate visually** so videos don't read as interchangeable talking heads
+- Carry **your** experience / vision — what ChatGPT can't write
+- Stay **directional** (speak to people in the purchase window), don't chase views/trends — exception: mass markets where volume is the play
+**Trade-off**: directional content filters out the merely curious; that's the point
+
+## 37. Build the Acquisition Ecosystem (non-linear flow)
+**When**: relying on a single path (`post → inquiry`) that no longer fires
+**How**: place **1-3 touchpoints** on the account and prioritize the **3 highest-leverage funnels** (~90% of results):
+1. Stories (majority indirect → direct sales set / CTA)
+2. Lead magnet OR quiz funnel (capture + qualify + reactivate)
+3. DM management (welcome → handle → reactivate)
+Plus: open DMs proactively; deploy free resources **early**, run them as a real funnel (not "post + ask email + hope")
+**Trade-off**: more moving parts to instrument, but conversion no longer depends on one fragile path

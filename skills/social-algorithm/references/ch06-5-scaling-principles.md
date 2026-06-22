@@ -35,6 +35,9 @@ A verticalized professional → "X = only this domain" → in 2 seconds you know
 ### Trade-off
 You give up wide targets → you sell 10x better to a narrow one.
 
+### Sophistication Sets the Ceiling
+Verticalization alone is not enough in a crowded market. Positioning means **how the market notices and remembers you** vs everyone else — and that depends on the **market sophistication stage** (how many times the audience has already heard your promise). In a saturated market a generic promise will not enter no matter how good the content; you must raise the promise or shift to the mechanism / to yourself. See the 5 stages in ch04 (ACT 1).
+
 ---
 
 ## PRINCIPLE 2 — If You Don't Control Communication, You Don't Control Acquisition

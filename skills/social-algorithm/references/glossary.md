@@ -78,6 +78,20 @@ Key terms from the organic personal brand system + IG algorithm archive.
 
 **Sophisticated market** — distrustful audience no longer responding to overused direct CTAs (Ch 1)
 
+**Market sophistication (5 stages)** — how many times the market has already heard a promise like yours: plain claim → amplified claim → mechanism → amplified mechanism → identification/you. Saturated market = a generic promise won't enter no matter how good the content (Ch 4, 6)
+
+**Competitive density** — under topic-centric distribution you compete with EVERYONE covering the interest, not just the 3 rivals your followers also follow (Ch 2)
+
+**Contrarian opening** — hook that opens with an unexpected line dismantling a common myth, instead of the generic "X tips for Y" (Ch 2)
+
+**Directional content** — content aimed at the person you want to help (inside the interest bubble / purchase window), as opposed to chasing views/trends; exception = mass markets where volume is the play (Ch 2)
+
+**Non-linear flow** — the dead `content → inquiry` path replaced by 1-3 touchpoints forming an ecosystem (Ch 4)
+
+**Touchpoints (1-3)** — multiple contact points on the account (lead magnet, quiz, bio link, Stories, reactivation) so prospects can enter the orbit several ways (Ch 4)
+
+**Proactive DMs** — opening conversations yourself without the expectation of forcing a call; warms prospects and yields market data (Ch 4)
+
 **Visual metaphor** — dynamic video technique; especially useful for abstract niches (Ch 5)
 
 **Creative microteam** — delegation model that keeps the "personal": director + support + editor (Ch 3)

@@ -75,6 +75,17 @@ It doesn't go to the community → only followers interact. It hits empty space.
 
 **Every piece of content has to work for someone who is seeing you for the first time.**
 
+### Competitive Density — You Compete With Everyone, Not 3 Rivals
+Under topic-centric distribution your content is shown next to **everyone** who covers that interest, not just the handful of accounts a viewer chose to follow. As long as a person is interested in the topic, they are bombarded with content on it. So the bar is no longer "better than the 3 competitors my followers also see" — it is "does this stand out among *all* content on the topic." Two practical levers:
+- **Contrarian opening**: start with a line the viewer does not expect — dismantle a common myth — instead of the generic "X tips for Y."
+- **Visual differentiation**: vary the look so your videos don't read as one more interchangeable talking head. Sameness gets skipped.
+
+> The element that makes you stand out is **you** — your experience, your vision, *how* you say it. It does not require more time, more editing, or more budget: it requires a different mindset. If ChatGPT could write the content, you are not recognizable.
+
+### Directional Content > Chasing Views and Trends
+Because the platform pushes to new people, the tempting move is "make viral content to reach everyone." Resist it. Distribution is interest-based, so content is shown most to people **in the purchase window / inside the interest bubble** — the ones actually looking for your solution. Chase volume and you build an account with reach you can't convert (loyalty is already harder). Stay **directional**: speak to the person you want to help, even on wide topics.
+- **Exception — mass markets**: if the target is enormous (weight loss, B2C "make money", dropshipping), volume IS the play and chasing reach is justified. Everywhere else, prioritize direction over views.
+
 ---
 
 ## 5. The 3 Key Elements in Post-Shift Content

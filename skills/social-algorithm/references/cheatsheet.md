@@ -149,7 +149,21 @@ ROI = €_generated_from_the_channel / hours_invested
 | Product-aware | Knows you offer that solution | Sales set, "DM me info" |
 | Most-aware | Everything known, only action / objection missing | Direct offer, discounts |
 
+## 5 Market Sophistication Stages (Ch 4)
+| Stage | Market state | How to phrase the promise |
+|-------|--------------|---------------------------|
+| 1 | First to market | Plain claim ("Acquire clients with IG") |
+| 2 | Few competitors | Amplify (bigger / faster / easier) |
+| 3 | Claim saturated | Lead with the mechanism (the *how*) |
+| 4 | Mechanism saturated | Amplify / differentiate the mechanism |
+| 5 | Everything heard | Pull back to identification + you |
+
+- Saturated market (4-5): a **generic promise won't enter no matter how good the content**
+- Awareness = the prospect; Sophistication = the market. Demographics ("Mark, 25-35") ≠ your marketing
+
 ## 6 Acquisition Funnels (Ch 4)
+**Flow is non-linear** (`content → inquiry` is dead) → 1-3 touchpoints = ecosystem. **3 highest-leverage** (~90% of results): Stories indirect+direct · lead magnet OR quiz funnel · DM management. Talk in DMs proactively; deploy free resources early.
+
 | Funnel | When | Effort |
 |--------|------|--------|
 | Profile funnel (bio + pinned + link) | Short purchase process | Low, one-off |
