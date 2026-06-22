@@ -93,7 +93,11 @@ The mental process the prospect has to go through to remember you and buy. A tri
 ### 5 Target Awareness Levels (Ch 4)
 Unaware → Problem-aware → Solution-aware → Product-aware → Most-aware. Start from problem-aware upward; unaware audiences are the hardest target.
 
+### 5 Market Sophistication Stages (Ch 4)
+How many times the market has already heard your promise (≠ awareness, which is about the prospect). Plain claim → amplified claim → mechanism → amplified mechanism → identification/you. In a saturated market (stage 4-5) a **generic promise won't enter no matter how good the content**; raise the promise or pivot to the mechanism / to yourself. Positioning = how the market notices and remembers you, not "who I talk to". Demographics ("Mark, 25-35") are NOT your marketing — sophistication + awareness are.
+
 ### 6 Acquisition Funnels (Ch 4)
+The flow is **no longer linear** (`content → inquiry` is dead) — build 1-3 touchpoints into an ecosystem. The **3 highest-leverage** funnels carry ~90% of results: (1) Stories indirect+direct, (2) lead magnet OR quiz funnel, (3) DM management. Talk in DMs proactively; deploy free resources early (run them as a real funnel, not "post + ask email + hope").
 - **Profile funnel** (bio + pinned posts + bio link)
 - **Follower outreach** (proactive, give-first)
 - **ManyChat** (automated, buttons > quick replies, double confirmation)
@@ -186,6 +190,13 @@ Replace clichéd formulas with specific framing:
 - **I see you / I validate you / I associate you (triangle)** → ch04
 - **4 circles of hell (anti-pattern)** → ch04
 - **5 target awareness levels** → ch04
+- **Market sophistication (5 stages)** → ch04, ch06
+- **Competitive density (compete with everyone, not 3 rivals)** → ch02
+- **Directional content vs chasing views / mass-market exception** → ch02
+- **Contrarian opening hook** → ch02
+- **Non-linear flow / 1-3 touchpoints** → ch04
+- **3 highest-leverage funnels** → ch04
+- **Proactive DMs** → ch04
 - **Profile funnel** → ch04
 - **Bio anatomy (3-4 lines, "kill the verb help")** → ch04, patterns
 - **Bio link / Linktree (max 2-3 links)** → ch04

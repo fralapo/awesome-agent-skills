@@ -64,6 +64,18 @@ Positioning + offer + target, all clear. Could an elementary-school kid understa
 
 > Start from problem-aware upward. Unaware = too complex without strong authority.
 
+### Market Sophistication — the 5 Stages
+Awareness describes the **prospect**; sophistication describes the **market**: how many times the audience has already heard a promise like yours. It dictates how you must phrase your positioning / promise — **independently of how good your content is**.
+1. **Stage 1 — first to market**: a plain claim still works ("Acquire clients with Instagram"). Rare today.
+2. **Stage 2 — a few competitors**: amplify the claim (bigger / faster / easier).
+3. **Stage 3 — claim saturated**: lead with the **mechanism** — the *how* that makes the promise credible.
+4. **Stage 4 — mechanism saturated**: amplify / differentiate the mechanism itself.
+5. **Stage 5 — everything heard**: pull back to **identification + the person (you)** → this is where alignment and storytelling become the only lever.
+
+> Decisive rule for saturated markets (stage 4-5): a **generic promise will not enter the market no matter how good your content is**. Too many people already say it. You need a higher, or differently framed, promise. Positioning is not "who I talk to" — it is **how the market notices and remembers you** versus everyone else.
+>
+> Most acquisition problems trace back here: classic "target work" (demographics — "Mark, 25-35, wants to lose weight") is NOT what your marketing is built on. Sophistication + awareness are. If you're stuck, study the two ladders before touching content.
+
 ### ATTRACTION Content
 **Characteristics**: useful, relevant, concrete, clear. Designed for those who do NOT know you.
 
@@ -112,6 +124,19 @@ For abstract niches (psychology, mental coach): **relevant** content based on re
 ---
 
 ## ACT 3 — Acquisition Funnels
+
+### The Flow Is No Longer Linear — 1-3 Touchpoints
+The old model `content → inquiry arrives` is dead. Because distribution lands cold traffic on the profile, you need **1-3 contact points** on the account so a prospect has several ways to enter the orbit and approach the service: a lead magnet, a quiz, the bio link, Stories, follower reactivation. Build an **ecosystem**, not a single path. The flow is messier than before — accept it, and instrument it.
+
+### The 3 Highest-Leverage Funnels Right Now
+Of the six funnels below, three carry ~90% of the results across niche / client / stage. If you do nothing else, run these:
+1. **Stories (indirect + direct)** — a majority of indirect Stories build fertile ground, then a direct sales set / CTA opens conversations. An active, working Story flow is the single most common trait of accounts that sell.
+2. **Lead magnet OR quiz funnel** — drives traffic off-platform, captures contacts (email / phone), and (with a quiz) **qualifies** who is arriving — critical data — plus enables reactivation.
+3. **DM management** — welcome messages, conversation handling, reactivation from resources. Higher-revenue accounts manage DMs deliberately; weak DM handling cuts your own legs.
+
+> **Talk in DMs proactively.** "Nobody writes me" is not a constraint — you can open the conversation. Always keep DMs active in any phase: it warms prospects *and* gives you market data. DM ≠ dragging people into a call against their will; it = starting conversations without the expectation of forcing a call.
+
+> **Free resources DO acquire clients** — when run as a real funnel, not "post the resource, ask for the email, light a candle." And deploy them **early**, not at month five: with cold-traffic distribution there's no reason to wait.
 
 ### The Profile Is a Funnel
 - **Bio**: the first line = the reason to give you money. Understandable to an elementary-school kid. Full anatomy below.
