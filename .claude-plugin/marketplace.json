@@ -1,0 +1,21 @@
+{
+  "name": "awesome-agent-skills",
+  "owner": {
+    "name": "fralapo",
+    "url": "https://github.com/fralapo"
+  },
+  "metadata": {
+    "description": "Marketplace for awesome-agent-skills — one plugin bundling all skills.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "awesome-agent-skills",
+      "source": "./",
+      "description": "All skills in one install: seedance-prompts, image-gen-prompts, awesome-readme, llm-wiki, social-algorithm, creative-director, ffmpeg.",
+      "version": "1.0.0",
+      "author": { "name": "fralapo", "url": "https://github.com/fralapo" },
+      "homepage": "https://github.com/fralapo/awesome-agent-skills"
+    }
+  ]
+}

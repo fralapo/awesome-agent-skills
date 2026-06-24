@@ -39,6 +39,26 @@ More coming when I build one that earns its place. I'd rather ship seven that wo
 
 ## Install
 
+### Plugin marketplace (recommended)
+
+One command set, every skill, native on Windows (no symlink permissions needed), updates via `/plugin`. Run inside Claude Code:
+
+```text
+/plugin marketplace add fralapo/awesome-agent-skills
+/plugin install awesome-agent-skills@awesome-agent-skills
+```
+
+That installs the whole collection as a single plugin — all skills become available at once. Update later with:
+
+```text
+/plugin marketplace update awesome-agent-skills
+/plugin update awesome-agent-skills@awesome-agent-skills
+```
+
+Prefer just one skill? Use the manual method below and symlink/copy only that folder.
+
+### Manual (symlink or copy)
+
 Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-prompts`, `awesome-readme`, `llm-wiki`, `social-algorithm`, `creative-director`, or `ffmpeg`).
 
 Commands below target Claude Code's default skills dir (`~/.claude/skills/`). Other agents: swap the destination for whatever path your tool reads (commonly `~/.config/<agent>/skills/` or `.agent/skills/` in a project root).

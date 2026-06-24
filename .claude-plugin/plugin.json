@@ -1,0 +1,13 @@
+{
+  "name": "awesome-agent-skills",
+  "version": "1.0.0",
+  "description": "A curated set of agent skills mined from real corpora and official docs: seedance-prompts, image-gen-prompts, awesome-readme, llm-wiki, social-algorithm, creative-director, ffmpeg.",
+  "author": {
+    "name": "fralapo",
+    "url": "https://github.com/fralapo"
+  },
+  "homepage": "https://github.com/fralapo/awesome-agent-skills",
+  "repository": "https://github.com/fralapo/awesome-agent-skills",
+  "license": "MIT",
+  "keywords": ["skills", "prompts", "ffmpeg", "readme", "image-generation", "obsidian", "marketplace"]
+}
