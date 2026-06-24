@@ -9,7 +9,7 @@ source: "FFmpeg official documentation — https://ffmpeg.org/documentation.html
 
 FFmpeg is a universal media converter: it reads any number of inputs (files, pipes, network streams, capture devices), filters and transcodes them, and writes any number of outputs. This skill is a practitioner's toolkit for **constructing correct command lines fast** and knowing which option, codec, or filter to reach for.
 
-> Full source text lives at the user's `FFmpeg-Complete-Documentation.md`. This skill extracts the structure; grep the chapter files or that doc for exhaustive option lists.
+> The full official source text ships with this skill at [reference/FFmpeg-Complete-Documentation.md](reference/FFmpeg-Complete-Documentation.md) (~1.9 MB). This skill extracts the structure; grep that file or the chapter files for exhaustive option lists.
 
 ## How to Use This Skill
 
@@ -94,4 +94,4 @@ Options apply to the **next** file specified. Put input options (e.g. `-ss`, `-f
 
 ## Scope & Limits
 
-Distilled from the official docs; for the exhaustive per-filter / per-encoder option list, grep the chapter files or the full `FFmpeg-Complete-Documentation.md`. Option availability depends on how the local FFmpeg build was compiled (`ffmpeg -encoders`, `-filters`, `-protocols`, `-buildconf` to verify). Hardware-accel paths depend on drivers/OS.
+Distilled from the official docs; for the exhaustive per-filter / per-encoder option list, grep the chapter files or the bundled [reference/FFmpeg-Complete-Documentation.md](reference/FFmpeg-Complete-Documentation.md). Option availability depends on how the local FFmpeg build was compiled (`ffmpeg -encoders`, `-filters`, `-protocols`, `-buildconf` to verify). Hardware-accel paths depend on drivers/OS.
