@@ -19,6 +19,19 @@
 
 ---
 
+## Contents
+
+- [What's in here](#whats-in-here)
+- [Install](#install)
+  - [Plugin marketplace (recommended)](#plugin-marketplace-recommended)
+  - [Manual (symlink or copy)](#manual-symlink-or-copy)
+- [How a skill is organized](#how-a-skill-is-organized)
+- [How I build them](#how-i-build-them)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
 ## What's in here
 
 Seven skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) plus deep-dive material (a `references/` directory, or `chapters/` + cheatsheet/patterns/glossary for the book-distilled ones). The agent (Claude Code, or any tool that reads the same format) matches the `description` field against whatever you're asking and loads the skill only when it's relevant. No eager bloat.
