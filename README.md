@@ -130,7 +130,7 @@ skills/<skill-name>/
     └── examples.md
 ```
 
-Book-distilled skills (`creative-director`, `social-algorithm`, `ffmpeg`) swap `references/` for `chapters/` plus a `glossary.md` / `patterns.md` / `cheatsheet.md` trio — same idea, loaded on demand.
+Some skills carry extra on-demand files alongside or instead of `references/`: a `glossary.md` / `patterns.md` / `cheatsheet.md` trio (`creative-director`, `ffmpeg`), a `chapters/` directory (`ffmpeg`), or `roles/` + `books/` (`creative-director`). Same idea — depth loaded only when the agent needs it.
 
 The frontmatter `description` field is the matcher. Keep it specific and keyword-dense; the agent uses it to decide whether to load the skill at all.
 
