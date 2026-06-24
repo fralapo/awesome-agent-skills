@@ -4,9 +4,9 @@
 
 <p align="center">
   A small, opinionated set of agent skills I actually use.
-  Each one is mined from real community corpora, anywhere from a couple hundred examples to tens of thousands. None of it written from imagination.
+  Each one is mined from a real corpus — community awesome-lists, official docs, books, field notes — anywhere from a couple hundred examples to tens of thousands. None of it written from imagination.
   <br>
-  Built on <a href="https://docs.claude.com/en/docs/claude-code/skills">Claude Code's skill format</a>, works with any agent that reads <code>SKILL.md</code> + <code>references/</code>.
+  Built on <a href="https://docs.claude.com/en/docs/claude-code/skills">Claude Code's skill format</a>, installable as a plugin and usable by any agent that reads <code>SKILL.md</code>.
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@ Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-
 
 Commands below target Claude Code's default skills dir (`~/.claude/skills/`). Other agents: swap the destination for whatever path your tool reads (commonly `~/.config/<agent>/skills/` or `.agent/skills/` in a project root).
 
-### Symlink one skill (recommended; updates follow `git pull`)
+#### Symlink one skill (updates follow `git pull`)
 
 **macOS / Linux:**
 ```sh
@@ -79,7 +79,7 @@ New-Item -ItemType SymbolicLink `
   -Target "$env:USERPROFILE\src\awesome-agent-skills\skills\<skill>"
 ```
 
-### Copy (static snapshot, no auto-update)
+#### Copy (static snapshot, no auto-update)
 
 **macOS / Linux:**
 ```sh
@@ -93,7 +93,7 @@ git clone https://github.com/fralapo/awesome-agent-skills.git
 xcopy /E /I awesome-agent-skills\skills\<skill> $env:USERPROFILE\.claude\skills\<skill>
 ```
 
-### Symlink every skill at once (macOS / Linux)
+#### Symlink every skill at once (macOS / Linux)
 
 ```sh
 git clone https://github.com/fralapo/awesome-agent-skills.git ~/src/awesome-agent-skills
@@ -117,7 +117,11 @@ skills/<skill-name>/
     └── examples.md
 ```
 
+Book-distilled skills (`creative-director`, `social-algorithm`, `ffmpeg`) swap `references/` for `chapters/` plus a `glossary.md` / `patterns.md` / `cheatsheet.md` trio — same idea, loaded on demand.
+
 The frontmatter `description` field is the matcher. Keep it specific and keyword-dense; the agent uses it to decide whether to load the skill at all.
+
+The whole repo also ships as one installable plugin — see [Install](#install). The plugin manifests live in `.claude-plugin/` (`plugin.json` bundles every skill, `marketplace.json` lists it).
 
 ---
 
