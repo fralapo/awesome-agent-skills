@@ -288,3 +288,11 @@ Likes and followers = ignore as primary KPIs
 3. DM management (welcome → handle → reactivate)
 Plus: open DMs proactively; deploy free resources **early**, run them as a real funnel (not "post + ask email + hope")
 **Trade-off**: more moving parts to instrument, but conversion no longer depends on one fragile path
+
+## 38. Two Reasoning Frames Before the CTA
+**When**: "my CTAs don't work" — content is correct on paper but no one writes
+**How**: stop tweaking the CTA (it's only a gentle nudge) and build the need first:
+1. **Real reason they pay** — name the core lever (the situation worth paying to solve), not every pain. A real problem ≠ a *buying* problem
+2. **Desire over pain** — show the desired situation (where they could get), not "knife in the wound". Result/situation Stories convert best → create the "how did they do it?" gap
+With both in place the CTA is optional; people reach the link and act unprompted
+**Trade-off**: requires honest diagnosis of why people actually pay + real client results to show
