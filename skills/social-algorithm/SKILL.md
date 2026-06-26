@@ -8,12 +8,12 @@ argument-hint: [topic, framework name, or ch01-ch07]
 ---
 
 # Social Algorithm & Personal Brand — Organic System
-**Chapters**: 7
+**Chapters**: 8
 
 ## How to Use This Skill
 - **No args** → read the Core Frameworks below
 - **Topic** → "explain indirect selling", "how to write a video script", "algorithm metrics" → load the relevant chapter
-- **Chapter** → "ch01" or "ch07" → load that specific chapter
+- **Chapter** → "ch01" or "ch08" → load that specific chapter
 - **Algorithm lookup** → algorithm knowledge base (era evolution, diagnostic matrix, hook patterns, repost strategy) → ch07
 
 Source language: English. Keep original framework names (indirect selling, hero's journey, social proof as garnish, etc.) — they are proper names of frameworks.
@@ -28,6 +28,12 @@ The single piece of content does not sell, the body of communication does. CTA =
 2. **Principle of need** — create a perceived gap between the target's current state and the desired one. With no need, no CTA works
 3. **Hero's journey** — document values, journey, personal payoffs, manifesto. Not a heroic favelas-to-Lambo story, but REVEALING who you are
 4. **Social proof as garnish** — testimonials and results everywhere (Stories, descriptions, comments), NEVER as a standalone "here is my case study" post
+
+### Why People Act — The CTA Is Not the Lever (Ch 8)
+The CTA is a **gentle nudge** that only fires when the prerequisites already exist. Standard CTAs ("comment below", "DM me info") are burned out and convert less every year. Humans act only when they **feel a need** — an emotional sensation your communication must create. Low conversion is usually **missing prerequisites**, not a weak CTA; a sales Story "correct on paper" still moves no one if it creates no need. **Two reasoning frames** build that need:
+1. **The real reasons people pay you** — get brutally clear on the core lever (why they'd give you money), not every pain. Not every real problem is a *buying* problem; find the situation worth paying to solve.
+2. **Desire over pain** — lead with the desired situation (where they could get to), not "twisting the knife". Result/situation Stories convert best: they let the viewer see someone in their position getting different results → the healthy gap "how did they do it?" — the question a prospect must ask before acting.
+With both frames in place the CTA is optional; people reach the link and act unprompted. **Final diagnosis**: "CTAs don't work" → it's not the CTA, it's communication that doesn't create need.
 
 ### The 5 Principles to Scale (Ch 6)
 1. **Positioning > strategy** — verticalize on one specific domain, not "personal brand in general". Face ↔ domain connection in 2 seconds
@@ -144,6 +150,7 @@ Replace clichéd formulas with specific framing:
 | [ch05](references/ch05-dynamic-videos.md) | Dynamic Instagram Videos | 4 dynamism techniques, trailer-style scripts, custom B-roll |
 | [ch06](references/ch06-5-scaling-principles.md) | The 5 Scaling Principles | Positioning, controlled communication, ethical funnels, sell execution |
 | [ch07](references/ch07-algorithm-knowledge-base.md) | IG Algorithm Knowledge Base | 3 pillar metrics, diagnostic matrix, repost strategy, non-inflated hooks, algorithm era evolution |
+| [ch08](references/ch08-why-people-act.md) | Why People Act — The CTA Is Not the Lever | CTA as gentle nudge, need before action, real reasons people pay, desire over pain, two reasoning frames |
 
 ## Topic Index
 
@@ -153,7 +160,15 @@ Replace clichéd formulas with specific framing:
 - **Carousel (IG format, revival)** → ch07
 - **Hero's journey** → ch01
 - **Complementary channels** → ch02
-- **CTA (call to action)** → ch01, ch06
+- **CTA (call to action)** → ch01, ch06, ch08
+- **CTA as gentle nudge / why CTAs fail** → ch08
+- **Why people take action (felt need)** → ch08
+- **Purchase process (emotional need)** → ch08
+- **Two reasoning frames (real reasons + desire)** → ch08
+- **Desire over pain (desiderata)** → ch08
+- **Real reasons people pay you (core lever)** → ch08
+- **Buying problem vs real problem** → ch08
+- **"How did they do it?" gap** → ch08
 - **Creator delegation** → ch03
 - **Direct experience in content** → ch01, ch05
 - **Funnels** → ch06
