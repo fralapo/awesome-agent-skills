@@ -1,5 +1,5 @@
 ---
-name: video-editing
+name: video-editor
 description: >-
   Software-agnostic system for editing short-form and long-form video for retention, rhythm, clarity,
   narrative impact, perceived quality, and shareability. Use when planning, cutting, or reviewing any
