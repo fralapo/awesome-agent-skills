@@ -1,6 +1,6 @@
 {
   "name": "awesome-agent-skills",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A curated set of agent skills mined from real corpora and official docs: seedance-prompts, image-gen-prompts, awesome-readme, llm-wiki, social-algorithm, creative-director, ffmpeg, video-editor.",
   "author": {
     "name": "fralapo",
