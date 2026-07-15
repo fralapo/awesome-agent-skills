@@ -50,7 +50,7 @@
 **How**: for each stage of the buyer's journey, explicitly design content to maximize perceived gain and minimize perceived pain/effort of the next step. Remember the company only controls the "gears" (process/tools); the customer controls the "accelerator, brake, clutch" (their own pace).
 **Trade-offs**: requires mapping the full buying cycle honestly, including stages the seller doesn't control.
 
-## Fear-Setting (Ferriss)
+## Fear-Setting
 **When to use**: any postponed, high-stakes personal or business decision.
 **How**: write three columns — worst-case outcomes, mitigations for each, and the recovery path if the worst happens.
 **Trade-offs**: takes 15–30 minutes of deliberate discomfort; routinely reveals the downside is bounded/reversible.

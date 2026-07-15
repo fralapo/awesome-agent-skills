@@ -4,11 +4,11 @@ description: "MBA-level marketing and startup knowledge base — segmentation, p
 allowed-tools:
   - Read
   - Grep
-argument-hint: [topic, framework name, or ch01-ch08]
+argument-hint: [topic, framework name, or ch01-ch09]
 ---
 
 # Marketing MBA — Theory & Startup Execution Knowledge Base
-**Chapters**: 8 | **Generated**: 2026-07-15
+**Chapters**: 9 | **Generated**: 2026-07-15
 
 ## How to Use This Skill
 - **No args** → read the Core Frameworks below
@@ -72,6 +72,7 @@ Interests, not positions → objective standards for residual conflict → optio
 | [ch06](references/ch06-startup-execution-team-fundraising.md) | Startup Execution, Team, Culture & Fundraising | Founder readiness, the Ungame, hiring frameworks, MAT, fundraising stages |
 | [ch07](references/ch07-sales-negotiation-persuasion.md) | Sales, Negotiation & Persuasion | B2B pipeline, 4 Pillars, Getting to Yes, 10/20/30 pitch rule, CENTER |
 | [ch08](references/ch08-psychology-leadership-effectiveness.md) | Consumer Psychology, Leadership & Personal Effectiveness | Compromise Effect, P/M/O framework, Netflix culture, 10X Rule, matching markets |
+| [ch09](references/ch09-inbound-social-product-marketing.md) | Inbound Marketing, Social Growth & Product Marketing | Inbound loop, SEO/content tactics, social-media growth, product marketing/PM careers, customer success ops |
 
 ## Topic Index
 
@@ -81,19 +82,24 @@ Interests, not positions → objective standards for residual conflict → optio
 - **Branding / brand architecture** → ch02
 - **Business model design** → ch05
 - **Consumer psychology (Compromise Effect, reviews)** → ch08
+- **Customer success operations** → ch09
 - **Distribution / channel strategy** → ch03
 - **Five Forces / industry analysis** → ch04
 - **Founder readiness / the Ungame** → ch06
 - **Fundraising / pitch deck** → ch06, ch07
+- **Go-to-market segmentation** → ch09
 - **Green / sustainable marketing** → ch08
 - **Hiring frameworks (PIII, 3A+3+, Rule of Six)** → ch06
+- **Inbound marketing / SEO / content** → ch09
 - **Negotiation** → ch07
 - **New product development** → ch01
 - **Pricing strategy** → ch03
 - **Product life cycle / diffusion of innovation** → ch01
+- **Product marketing / PM careers** → ch09
 - **Product-to-company gap / MVP / CORE** → ch05, ch06
 - **Segmentation & targeting** → ch02
 - **Sales pipeline / B2B sales** → ch07
+- **Social media / digital growth** → ch09
 - **Storytelling / persuasion** → ch07
 - **Strategy vs. planning** → ch04
 - **Time management / personal effectiveness** → ch08
