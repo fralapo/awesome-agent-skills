@@ -1,7 +1,7 @@
 {
   "name": "awesome-agent-skills",
-  "version": "1.3.0",
-  "description": "A curated set of agent skills mined from real corpora and official docs: seedance-prompts, image-gen-prompts, awesome-readme, llm-wiki, social-algorithm, creative-director, ffmpeg, video-editor, public-speaking-persuasion.",
+  "version": "1.4.0",
+  "description": "A curated set of agent skills mined from real corpora and official docs: seedance-prompts, image-gen-prompts, awesome-readme, llm-wiki, social-algorithm, creative-director, ffmpeg, video-editor, public-speaking-persuasion, marketing-mba.",
   "author": {
     "name": "fralapo",
     "url": "https://github.com/fralapo"
@@ -9,5 +9,5 @@
   "homepage": "https://github.com/fralapo/awesome-agent-skills",
   "repository": "https://github.com/fralapo/awesome-agent-skills",
   "license": "MIT",
-  "keywords": ["skills", "prompts", "ffmpeg", "readme", "image-generation", "obsidian", "marketplace", "video-editor", "reels", "retention", "public-speaking", "persuasion", "storytelling"]
+  "keywords": ["skills", "prompts", "ffmpeg", "readme", "image-generation", "obsidian", "marketplace", "video-editor", "reels", "retention", "public-speaking", "persuasion", "storytelling", "marketing", "mba", "startup", "sales", "business-strategy"]
 }
