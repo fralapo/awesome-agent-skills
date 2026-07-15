@@ -43,7 +43,7 @@
 **SG&A** — Selling, General & Administrative expense; typically inverts vs. R&D spend as a company matures (Ch6)
 **Stanford Shopping Center Test** — a hiring gut-check: would you rush over to greet this person in public? (Ch6)
 **SWOT** — Strengths, Weaknesses (internal) / Opportunities, Threats (external) (Ch1)
-**The Ungame** — Michael Skok's term for operating a startup under radical, unmapped uncertainty (Ch6)
+**The Ungame** — term for operating a startup under radical, unmapped uncertainty (Ch6)
 **Three D's** — Discontinuous, Disruptive, Defensible: framework for a breakthrough solution (Ch5)
 **Ungame watchwords** — realist, clarity, humility, credibility, delivery (Ch6)
 **Value proposition template** — "For [who], dissatisfied with [current state], we offer [product] providing [benefit], unlike [alternative]" (Ch5)
