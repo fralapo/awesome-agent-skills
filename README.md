@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/fralapo/awesome-agent-skills/stargazers"><img src="https://img.shields.io/github/stars/fralapo/awesome-agent-skills?style=for-the-badge" alt="Stars"></a>
   <a href="https://github.com/fralapo/awesome-agent-skills/commits/main"><img src="https://img.shields.io/github/last-commit/fralapo/awesome-agent-skills?style=for-the-badge" alt="Last commit"></a>
-  <img src="https://img.shields.io/badge/skills-10-2ea44f?style=for-the-badge" alt="Skills count">
+  <img src="https://img.shields.io/badge/skills-11-2ea44f?style=for-the-badge" alt="Skills count">
   <img src="https://img.shields.io/badge/agent%20skills-SKILL.md-5A67D8?style=for-the-badge" alt="Agent skills format">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/fralapo/awesome-agent-skills?style=for-the-badge" alt="License"></a>
 </p>
@@ -34,7 +34,7 @@
 
 ## What's in here
 
-Ten skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) plus deep-dive material (a `references/` directory, or `chapters/` + cheatsheet/patterns/glossary for the book-distilled ones). The agent (Claude Code, or any tool that reads the same format) matches the `description` field against whatever you're asking and loads the skill only when it's relevant. No eager bloat.
+Eleven skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) plus deep-dive material (a `references/` directory, or `chapters/` + cheatsheet/patterns/glossary for the book-distilled ones). The agent (Claude Code, or any tool that reads the same format) matches the `description` field against whatever you're asking and loads the skill only when it's relevant. No eager bloat.
 
 | Skill | What it does | Corpus mined | Typical trigger |
 |---|---|---|---|
@@ -48,6 +48,7 @@ Ten skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) p
 | [`video-editor`](./skills/video-editor/) | Software-agnostic decision system for editing viral video: hook system, pacing, motion, captions, sound design, transitions. | 25 expert YouTube video-editing breakdowns, deduped | `video editing`, `reel`, `retention`, `hook`, `pacing`, `b-roll`, `motion graphics` |
 | [`public-speaking-persuasion`](./skills/public-speaking-persuasion/) | Public speaking + persuasion theory: speech structure, logical-fallacy/cognitive-bias catalogs, objection handling, pitching. | 51 theoretical transcripts on communication and persuasion | `public speaking`, `persuasion`, `pitch`, `logical fallacy`, `objection handling` |
 | [`marketing-mba`](./skills/marketing-mba/) | MBA-level marketing + startup execution: segmentation, pricing, value proposition, sales pipeline, negotiation, founder frameworks. | 90 theoretical marketing/startup/business transcripts | `marketing`, `value proposition`, `pricing strategy`, `go-to-market`, `negotiation`, `porter five forces` |
+| [`ux-ui-expert`](./skills/ux-ui-expert/) | UX/UI research and design knowledge base: study plans, research roadmaps, sample sizes, ethics, the UX/UI/CX distinction, ROI of UX, Double Diamond process, visual/interaction fundamentals, and the psychology behind engagement-driving design. | 20 chapters distilled from theoretical UX research and UI/UX design transcripts | `ux research`, `ui design`, `study plan`, `usability testing`, `sample size`, `design system`, `user flow`, `ux psychology` |
 
 More coming when I build one that earns its place. I'd rather ship seven that work than twenty that almost do.
 
@@ -75,7 +76,7 @@ Prefer just one skill? Use the manual method below and symlink/copy only that fo
 
 ### Manual (symlink or copy)
 
-Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-prompts`, `awesome-readme`, `llm-wiki`, `social-algorithm`, `creative-director`, `ffmpeg`, `video-editor`, `public-speaking-persuasion`, or `marketing-mba`).
+Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-prompts`, `awesome-readme`, `llm-wiki`, `social-algorithm`, `creative-director`, `ffmpeg`, `video-editor`, `public-speaking-persuasion`, `marketing-mba`, or `ux-ui-expert`).
 
 Commands below target Claude Code's default skills dir (`~/.claude/skills/`). Other agents: swap the destination for whatever path your tool reads (commonly `~/.config/<agent>/skills/` or `.agent/skills/` in a project root).
 
