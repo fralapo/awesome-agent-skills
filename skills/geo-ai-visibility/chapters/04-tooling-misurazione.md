@@ -9,18 +9,18 @@ Nel 2025-2026 è nata una categoria di tool dedicata a misurare la "AI visibilit
 
 ## Profound
 
-- **Funding**: player più finanziato della categoria — $96M Series C a valutazione $1B (feb 2026), funding totale $155M. (fonte: research/06-tooling-misurazione.md)
+- **Funding**: player più finanziato della categoria — **$96M Series C a valutazione $1B** (feb 2026), funding totale **$155M**. (fonte: research/06-tooling-misurazione.md)
 - **Posizionamento**: enterprise/agenzie. (fonte: research/06-tooling-misurazione.md)
 
 ## Peec AI
 
 - **Profilo**: startup europea, lanciata a metà 2025. (fonte: research/06-tooling-misurazione.md)
-- **Crescita**: rapida — €650K ARR in 4 mesi, poi round €18M Series A (nov 2025). (fonte: research/06-tooling-misurazione.md)
+- **Crescita**: rapida — **€650K ARR in 4 mesi**, poi round **€18M Series A** (nov 2025). (fonte: research/06-tooling-misurazione.md)
 - **Posizionamento**: buon rapporto profondità/prezzo tra Otterly e Profound, forte su share-of-voice analytics e competitive benchmarking. (fonte: research/06-tooling-misurazione.md)
 
 ## Otterly.AI
 
-- **Prezzo**: entry point più basso della categoria — piani a partire da $29/mese. (fonte: research/06-tooling-misurazione.md)
+- **Prezzo**: entry point più basso della categoria — piani a partire da **$29/mese**. (fonte: research/06-tooling-misurazione.md)
 - **Target**: adatto a piccoli team/SMB che vogliono iniziare a monitorare senza budget enterprise. (fonte: research/06-tooling-misurazione.md)
 
 ## AthenaHQ
