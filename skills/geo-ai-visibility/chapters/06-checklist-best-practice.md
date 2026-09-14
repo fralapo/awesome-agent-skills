@@ -60,7 +60,7 @@ Le best practice GEO che emergono dalle guide del settore (HubSpot, Ahrefs, agen
 9. **Contenuto solo client-side rendered** — i crawler AI spesso non eseguono JS in modo affidabile, quindi il contenuto diventa invisibile. (fonte: research/08-checklist-best-practice.md)
 
 ## Key Takeaways
-1. La checklist GEO si raggruppa in sei aree: fondamenta tecniche, structured data, struttura contenuto, qualità editoriale, autorità off-site, manutenzione/freshness, misurazione. (fonte: research/08-checklist-best-practice.md)
+1. La checklist GEO si raggruppa in sette aree: fondamenta tecniche, structured data, struttura contenuto, qualità editoriale, autorità off-site, manutenzione/freshness, misurazione. (fonte: research/08-checklist-best-practice.md)
 2. Le leve di contenuto con impatto misurato più alto restano statistiche/dati (ceiling +40%) e quotazioni di esperti con attribuzione (+28%). (fonte: research/08-checklist-best-practice.md)
 3. Nove anti-pattern ricorrono nelle guide di settore, tra cui l'assunzione errata che il ranking Google tradizionale garantisca automaticamente visibilità AI. (fonte: research/08-checklist-best-practice.md)
 4. La misurazione va fatta per piattaforma separata: l'overlap tra domini citati da ChatGPT e Perplexity è solo dell'11%, quindi un solo tool o un solo canale non basta. (fonte: research/08-checklist-best-practice.md)
