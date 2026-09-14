@@ -38,7 +38,7 @@ Ogni motore generativo (ChatGPT, Perplexity, Google AI Overviews/AI Mode, Copilo
 - **Posizione del contenuto nella pagina sorgente conta**: il **55%** delle citazioni AI Overview proviene dal top 30% del contenuto della pagina, il **24%** dalla sezione centrale (30-60%), solo il **21%** dal fondo pagina — mettere le risposte/fatti chiave in alto. (fonte: research/03-motori-generativi-tecnico.md)
 
 ## Key Takeaways
-1. Tutti i motori generativi condividono lo stesso scheletro RAG (retrieval → filtro/ranking → sintesi → citazione), ma solo il 30-40% delle fonti recuperate sopravvive al filtro fino a diventare citazione finale.
+1. Tutti i motori generativi condividono lo stesso scheletro RAG (retrieval → filtro/ranking → sintesi → citazione), ma da 5-10 fonti candidate recuperate sopravvivono solo 3-4 citazioni finali dopo il filtro a più stadi (fonte: research/03-motori-generativi-tecnico.md).
 2. L'unità recuperata e citata è il chunk semantico autosufficiente, non la pagina intera — coerente con quanto visto in Chapter 1 sulla differenza strutturale GEO vs SEO.
 3. Ogni piattaforma pesa fonti diverse: ChatGPT favorisce fonti di consenso (Wikipedia ~7,8%) e concorrenti (+11,1pp vs Google); Perplexity è fortemente Reddit-influenced (~46,7%); Google AI Overviews dipende sempre meno dal top-10 classico (38% nel 2026, giù dal 76%) per via del query fan-out; AI Mode ha il più alto zero-click rate (93%).
 4. Solo l'11% dei domini è citato sia da ChatGPT sia da Perplexity su 680M+ citazioni analizzate: nessuna strategia single-platform è sufficiente, serve misurare e ottimizzare per ciascun motore.
