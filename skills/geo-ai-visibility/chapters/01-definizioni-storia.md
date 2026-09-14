@@ -17,7 +17,7 @@
 
 - **10.000 query totali** (8k train / 1k validation / 1k test), aggregate da **9 dataset sorgente**: MS MARCO, ORCAS-I, Natural Questions, AllSouls, LIMA, Davinci-Debate, Perplexity.ai Discover, ELI5, e query generate da GPT-4. (fonte: research/01-definizioni-storia.md)
 - **25 domini/categorie** diverse (Arts, Health, Games, Law & Government, Debate, History, People & Society, Science, Explanation, Opinion, ecc.). Distribuzione query: **80% informazionali, 10% transazionali, 10% navigazionali**. (fonte: research/01-definizioni-storia.md)
-- Backend di ricerca: **Google Search** (top-5 risultati per query) usato per costruire il motore generativo prototipo su cui testare gli interventi, con validazione reale anche su **Perplexity.ai** come motore generativo deployato. (fonte: research/01-definizioni-storia.md)
+- **Backend di ricerca**: Google Search (top-5 risultati per query) usato per costruire il motore generativo prototipo su cui testare gli interventi, con validazione reale anche su Perplexity.ai come motore generativo deployato. (fonte: research/01-definizioni-storia.md)
 
 ### Le due metriche proposte
 
@@ -45,7 +45,7 @@
 
 ### Effetto redistributivo (finding chiave)
 
-- Il lift da GEO è **molto più forte per fonti già a basso ranking**: "Cite Sources" dà **+115% per fonti in posizione 5** contro **-30% per fonti già in posizione 1**. Implicazione: GEO tende a "democratizzare" la visibilità — i siti svantaggiati nella SERP tradizionale hanno margine di crescita più alto nelle risposte generative, mentre i siti già dominanti hanno meno da guadagnare (o perdono relativamente). (fonte: research/01-definizioni-storia.md)
+- **Effetto redistributivo**: il lift da GEO è molto più forte per fonti già a basso ranking — "Cite Sources" dà **+115% per fonti in posizione 5** contro **-30% per fonti già in posizione 1**. Implicazione: GEO tende a "democratizzare" la visibilità — i siti svantaggiati nella SERP tradizionale hanno margine di crescita più alto nelle risposte generative, mentre i siti già dominanti hanno meno da guadagnare (o perdono relativamente). (fonte: research/01-definizioni-storia.md)
 
 ### Efficacia per dominio (differenziata)
 
@@ -53,7 +53,7 @@
 
 ### Limiti dichiarati dagli autori
 
-- Le tecniche richiedono adattamento continuo man mano che i motori generativi evolvono; i dataset di query possono invecchiare e richiedere aggiornamento del benchmark; lo studio non valuta l'impatto sul ranking SEO tradizionale (è ortogonale); il tagging delle query per dominio è soggetto a interpretazione soggettiva (nonostante verifica manuale). (fonte: research/01-definizioni-storia.md)
+- **Limiti dichiarati**: le tecniche richiedono adattamento continuo man mano che i motori generativi evolvono; i dataset di query possono invecchiare e richiedere aggiornamento del benchmark; lo studio non valuta l'impatto sul ranking SEO tradizionale (è ortogonale); il tagging delle query per dominio è soggetto a interpretazione soggettiva (nonostante verifica manuale). (fonte: research/01-definizioni-storia.md)
 
 ## Cronologia essenziale del settore
 
