@@ -119,3 +119,28 @@
 **When to use**: adding any reward, notification, or refresh mechanic intended to drive repeat engagement.
 **How**: identify whether the reward is consistent (predictable) or variable (intermittent); variable rewards drive stronger engagement but carry higher compulsive-use risk — weigh that tradeoff explicitly rather than defaulting to variable reward for growth metrics alone; pair engagement mechanics with user-control features (easy opt-out, visible frequency settings) to offset the risk.
 **Trade-offs**: a more ethical, predictable reward system will likely produce lower raw engagement numbers than an unpredictable one — a deliberate tradeoff between growth and user wellbeing.
+
+## Applying the Goal Gradient Effect to a Multi-Step Flow
+**When to use**: onboarding, checkout, setup wizards, or any flow with a measurable completion rate.
+**How**: replace binary/complete-or-not messaging with a visible, incrementing proximity signal shown at every step, not just the end (a progress bar, a step counter, "3 minutes left"); make the increments concrete rather than vague ("507/512" beats "almost there").
+**Trade-offs**: requires knowing (or estimating) total steps/time up front; a progress signal that's inaccurate or stalls erodes trust faster than having no progress indicator at all.
+
+## Prioritizing Polish with the Peak-End Rule
+**When to use**: limited design time across a long flow, or deciding what to fix first in an existing experience.
+**How**: identify the single worst friction point in the flow and fix it first (protects against a strongly negative peak); then invest in the final screen (success state, confirmation, summary) since it's disproportionately remembered; only then spread remaining effort across the middle steps.
+**Trade-offs**: middle-of-flow steps get comparatively less polish — acceptable because they're the part users remember least, but don't let this excuse leaving genuinely broken middle steps unfixed.
+
+## Calibrating Perceived Effort with the Labor Illusion
+**When to use**: a technically instant operation is sensitive or high-stakes (identity verification, payment processing, background checks, security scans).
+**How**: insert a deliberate, transparent processing state (a progress indicator, a short "verifying..." sequence) sized to the perceived weight of the action, rather than returning an instant result that may read as suspiciously unchecked.
+**Trade-offs**: adds artificial latency to the golden path — only justified when trust/perceived-thoroughness matters more than raw speed; never use it to disguise genuinely poor performance elsewhere in the product (that's dishonest, not calibration).
+
+## Isolating What Matters with the Von Restorff Effect
+**When to use**: a list, menu, or set of options all look equally weighted and nothing stands out as most important.
+**How**: pick the one or two items that most need to be remembered or acted on; give only those a distinguishing treatment (unique icon, illustration, accent color) while leaving the rest visually uniform.
+**Trade-offs**: overusing this on multiple items cancels the effect — the isolation only works if it stays rare; reserve it for the genuinely most important item(s) per screen.
+
+## Fixing Choice Overload
+**When to use**: a navigation, menu, or settings screen exposes many valid options at once and users report feeling stuck or unsure where to start.
+**How**: diagnose whether the problem is option count (choice overload) or information density (cognitive overload) — they need different fixes; for choice overload, reduce the visible option set via filtering, search, or categorization (progressive disclosure of options), rather than just reformatting or visually simplifying the same full list.
+**Trade-offs**: hiding options behind filters/categories can bury a option a power user wanted immediately visible — balance against providing a clear "see all" or search escape hatch.

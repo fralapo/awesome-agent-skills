@@ -1,6 +1,6 @@
 ---
 name: ux-ui-expert
-description: "UX/UI research and design knowledge base: study plans, research roadmaps, the researcher's project cycle, usability-testing/card-sort/diary-study sample sizes, small-sample reporting, experimental design, research ethics (Belmont Report), stakeholder leadership/influence, the UX/UI/CX distinction with user-centred design principles, ROI of UX, the Double Diamond process, user flow diagrams, common beginner UI mistakes, visual/interaction design fundamentals (hierarchy, grids, typography, color, states), designing around user intent, and the psychology behind UI/UX (cognitive load, conditioning, reinforcement, hedonic adaptation). Use when planning UX research/design work, choosing methods/sample sizes, writing recommendations, leading stakeholders, scoping UX vs. UI vs. CX, building a business case for UX, mapping a user flow, reviewing a UI for mistakes, applying visual design fundamentals, or reasoning about how a design choice affects user behavior."
+description: "UX/UI research and design knowledge base: study plans, research roadmaps, the researcher's project cycle, usability-testing/card-sort/diary-study sample sizes, small-sample reporting, experimental design, research ethics (Belmont Report), stakeholder leadership/influence, the UX/UI/CX distinction with user-centred design principles, ROI of UX, the Double Diamond process, user flow diagrams, common beginner UI mistakes, visual/interaction design fundamentals (hierarchy, grids, typography, color, states), designing around user intent, and the psychology behind UI/UX (cognitive load, conditioning, reinforcement, hedonic adaptation, goal gradient effect, peak-end rule, labor illusion, Von Restorff effect, choice overload). Use when planning UX research/design work, choosing methods/sample sizes, writing recommendations, leading stakeholders, scoping UX vs. UI vs. CX, building a business case for UX, mapping a user flow, reviewing a UI for mistakes, applying visual design fundamentals, or reasoning about how a design choice affects user behavior."
 allowed-tools:
   - Read
   - Grep
@@ -66,6 +66,8 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 
 **Psychology of Engagement**: cognitive overload (too much info at once) is reduced by limiting what's shown and structuring how it's presented. Color carries learned meaning (red=alert, blue/green=calm) — use deliberately, not just aesthetically. Notification sounds work via classical conditioning (Pavlov) to trigger involuntary checking. Positive intermittent (unpredictable) reinforcement is the strongest engagement driver — and the mechanism requiring the most ethical scrutiny, since it's structurally identical to what drives compulsive use. Hedonic adaptation means any static experience loses its appeal over time — expect and plan for refreshes.
 
+**Five More Psychology Triggers**: Goal Gradient Effect — motivation spikes as a perceived finish line nears, so surface concrete proximity ("3 min left") throughout a flow, not just at the end. Peak-End Rule — people remember an experience's peak (best/worst moment) and its ending, not the average — invest polish there first. Labor Illusion — visible effort/time increases perceived value, so a sensitive action (verification, background check) can benefit from a deliberate, transparent processing delay instead of feeling suspiciously instant. Von Restorff Effect — an item that visually stands out from a uniform set is disproportionately remembered, so deliberately differentiate the one or two things that matter most rather than equally weighting everything. Choice Overload — too many simultaneous options causes anxiety/decision paralysis (distinct from cognitive overload's information-density problem) — fix with filtering, search, or categorization, not reformatting the same option count.
+
 ---
 
 ## Chapter Index
@@ -91,7 +93,7 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 | [ch17](chapters/ch17-beginner-ui-mistakes.md) | Common Beginner UI Mistakes & Fixes | 7+1 mistakes checklist (flow, effects, spacing, consistency, icons, redundancy, feedback, charts) |
 | [ch18](chapters/ch18-visual-interaction-fundamentals.md) | Visual & Interaction Design Fundamentals | Affordances/signifiers, visual hierarchy, grids/spacing, typography, color theory, dark mode, shadows, states, micro-interactions |
 | [ch19](chapters/ch19-designing-around-user-intent.md) | Designing Around User Intent, Content & Systems | Start-with-intent process, layout conventions, progressive disclosure, design systems |
-| [ch20](chapters/ch20-psychology-of-ux.md) | The Psychology Behind UI/UX Design | Cognitive overload, processing fluency, color psychology, conditioning, variable reward, hedonic adaptation |
+| [ch20](chapters/ch20-psychology-of-ux.md) | The Psychology Behind UI/UX Design | Cognitive overload, processing fluency, color psychology, conditioning, variable reward, hedonic adaptation, goal gradient effect, peak-end rule, labor illusion, Von Restorff effect, choice overload |
 
 ## Topic Index
 
@@ -103,6 +105,7 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Between/within-subjects design** → ch09
 - **Business acumen** → ch03
 - **Card sorting** → ch08
+- **Choice overload** → ch20
 - **Classical conditioning (notifications)** → ch20
 - **Cognitive overload** → ch20
 - **Color psychology** → ch20
@@ -126,15 +129,18 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Empathy / empathy map** → ch07, ch11
 - **Ethics** → ch09
 - **Feedback & states (UI)** → ch18
+- **Goal gradient effect** → ch20
 - **Goleman leadership styles** → ch11
 - **Hedonic adaptation** → ch20
 - **Impact measurement** → ch10
 - **Influence vs. persuasion** → ch11
 - **Information architecture** → ch12
+- **Labor illusion** → ch20
 - **Latin Square design** → ch09
 - **Leadership theories** → ch11
 - **Magic number five (sample size)** → ch08
 - **Micro-interactions** → ch18
+- **Peak-end rule** → ch20
 - **Persuasive design** → ch20
 - **Positive/intermittent reinforcement** → ch20
 - **Processing fluency** → ch20
@@ -159,6 +165,7 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **UX Iceberg** → ch12
 - **UX/UI/CX scope model** → ch12
 - **Visual hierarchy** → ch18
+- **Von Restorff effect** → ch20
 
 ## Supporting Files
 

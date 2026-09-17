@@ -18,6 +18,8 @@
 
 **Central Limit Theorem (practitioner rule)** — statistical rule of thumb: don't report percentages for sample sizes under ~30 (Ch7, Ch8)
 
+**Choice Overload** — anxiety and decision paralysis produced by too many simultaneous options, distinct from cognitive overload's information-density problem; fixed by filtering/search/categorization, not reformatting (Ch20)
+
 **Classical Conditioning** — pairing a neutral stimulus with a response until the stimulus alone triggers it (Pavlov); underlies notification-sound design (Ch20)
 
 **Coercion** — forcing/threatening someone against their will; the most unethical influence tactic (Ch11)
@@ -76,6 +78,8 @@
 
 **Ghost Button** — a button with no visible background until an interaction state (e.g., hover) reveals it (Ch18)
 
+**Goal Gradient Effect** — motivation/effort increase as a perceived finish line nears; surfacing concrete completion proximity throughout a flow (not just at the end) lifts completion rates (Ch20)
+
 **Goleman's Six Leadership Styles** — Affiliative, Visionary, Coaching, Democratic (good defaults), Coercive/Commanding, Pace-Setting (situational) (Ch11)
 
 **Great Man Theory** — Thomas Carlyle's discredited theory that leaders are born with innate charisma, not made (Ch11)
@@ -90,6 +94,8 @@
 
 **Institutional Review Board (IRB)** — academic/biomedical ethics review body; most UX researchers operate without one (Ch9)
 
+**Labor Illusion** — assigning more value to an outcome believed to have taken visible time/effort, even when the process is instant; used to make sensitive operations (verification, background checks) feel appropriately weighty rather than suspiciously instant (Ch20)
+
 **Latin Square Design** — a counterbalancing shortcut that still embeds systematic order bias; best avoided in favor of true pseudorandom assignment (Ch9)
 
 **Magic Number Five** — 5 participants in a usability test uncover ~80-85% of usability problems (Nielsen/Virzi/Lewis) (Ch8)
@@ -103,6 +109,8 @@
 **Order Effects** — bias introduced by the sequence in which conditions are presented (fatigue, practice/learning) (Ch9)
 
 **Payback Period** — time for recovered revenue/cost savings to equal the cost of a UX fix (Ch13)
+
+**Peak-End Rule** — remembered evaluation of an experience is dominated by its most intense point and its ending, not the average of every moment; invest design polish there first (Ch20)
 
 **Persuasion** — short-term, one-directional convincing; "something you do," distinct from influence (Ch11)
 
@@ -161,5 +169,7 @@
 **UX Iceberg** — a model showing visual design as the ~10% visible tip, with interface design, functional specs, and strategy stacked beneath it (Ch12)
 
 **Who / Question / Why Framework** — a 3-column table for structuring research questions with intent (Ch5)
+
+**Von Restorff Effect (Isolation Effect)** — an item that stands out from a set of otherwise-similar items is disproportionately remembered; deliberately isolating the one or two most important UI elements leverages this instead of equally weighting everything (Ch20)
 
 **Within-Subjects Design** — experimental design where each participant experiences all conditions (Ch9)

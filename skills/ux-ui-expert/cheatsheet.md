@@ -161,3 +161,8 @@ Use a base-unit system (4px or 8px multiples) for all spacing values — keeps e
 | Intermittent reinforcement | Unpredictable reward = strongest engagement driver | Feed refreshes — highest compulsive-use risk |
 | Hedonic adaptation | Static experiences lose appeal over time | Planning content/feature refresh cadence |
 | Dopamine-driven design | Reward mechanisms funnel toward "feel good → use more" | Any engagement-optimization decision — check user wellbeing tradeoff |
+| Goal gradient effect | Motivation spikes as the perceived finish line nears | Any multi-step flow with a completion-rate problem |
+| Peak-end rule | Only the peak moment and the ending are remembered, not the average | Deciding where to invest limited design polish |
+| Labor illusion | Visible effort/time increases perceived value of an outcome | Sensitive/high-stakes actions that are technically instant |
+| Von Restorff effect | An item that stands out from a uniform set is disproportionately remembered | A list/menu where nothing is differentiated and nothing sticks |
+| Choice overload | Too many simultaneous options causes anxiety/decision paralysis | Navigation/menus dumping every option at once |
