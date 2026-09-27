@@ -33,7 +33,17 @@ If unset, ask the user for it before proceeding — never hardcode a key in scri
 
 ## How to call it
 
-Use `scripts/jev_client.py` from this skill's folder (stdlib only, no deps, works from any cwd). Below, `<skill-dir>` means this skill's base directory — the one shown when the skill loads (plugin install: inside the plugin cache; manual install: `~/.claude/skills/jev`). Always use the absolute path. Three ways:
+Use `scripts/jev_client.py` from this skill's folder (stdlib only, no deps, works from any cwd). Below, `<skill-dir>` means this skill's base directory — the one shown when the skill loads (plugin install: inside the plugin cache; manual install: `~/.claude/skills/jev`). Always use the absolute path.
+
+If the base directory isn't shown or the script isn't there, find it instead of guessing (newest install wins):
+```bash
+ls -d ~/.claude/plugins/cache/*/*/*/skills/jev/scripts/jev_client.py ~/.claude/skills/jev/scripts/jev_client.py 2>/dev/null | sort -V | tail -1
+```
+```powershell
+(Get-ChildItem "$HOME/.claude/plugins/cache","$HOME/.claude/skills" -Recurse -Filter jev_client.py -ErrorAction SilentlyContinue | Sort-Object LastWriteTime | Select-Object -Last 1).FullName
+```
+
+Three ways to call it:
 
 **Inline, one-off:**
 ```bash
