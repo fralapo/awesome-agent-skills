@@ -38,15 +38,16 @@ Split `git diff` into hunks (one changed block of one file each; keep each under
 
 Plain rules first, no JEV needed — flag always: added `skip`/`only`/`xit`/`@Ignore`, removed assertions, deleted test files, lockfile/CI/config/secrets-looking changes.
 
-Then per hunk:
+Then per hunk. Give context, or everything comes back `risky`/`cannot_tell`: generate the diff with `git diff -U10` (10 lines around each change), and describe the project in one line (what it is, whether it has a test suite).
 ```json
-{"state": {"file": "src/auth.py", "intent": "<what the change is supposed to do>", "hunk": "<diff text>"},
+{"state": {"project": "<one line: what the app is; has_tests: yes/no>", "file": "src/auth.py", "intent": "<what the change is supposed to do>", "hunk": "<diff text with -U10 context>"},
  "questions": {
-   "risk": {"type": "choice", "instructions": "Given `intent`, is `hunk` safe?",
-     "criteria": {"safe": "does what intent says, no visible risk", "risky": "possible bug, missing check, broken edge case, security or data-loss risk", "unrelated": "change not explained by intent", "cannot_tell": "not enough context in the hunk"}},
-   "needs_test": {"type": "noul", "instructions": "Does `hunk` change behavior that should have a test?"}}}
+   "risk": {"type": "choice", "instructions": "Given `intent`, does `hunk` contain a concrete defect?",
+     "criteria": {"safe": "does what `intent` says; renames, data additions, refactors and CSS with no visible defect count as safe", "risky": "you can point at a specific line that is likely wrong: a bug, missing check, broken edge case, data loss, or security hole", "unrelated": "change not explained by `intent`", "cannot_tell": "the defect, if any, depends on code not shown"}}}}
 ```
-Claude reads carefully: every `risky`, `unrelated`, `cannot_tell`, and anything with confidence < 0.7. Skim the `safe` ones.
+Read carefully: `risky` with confidence ≥ 0.6, and every `unrelated`. Quick look at `cannot_tell` (open the surrounding code only if the hunk touches state, persistence, auth, money, or deletion). Skim `safe`. Only ask a `needs_test` noul when the project has a test suite.
+
+First real use (9 hunks, UI + localStorage app, old broad criteria, no context lines): 6 flagged, 0 real bugs. The tighter `risky` definition and -U10 context are the fix; if more than half the hunks still get flagged, the review isn't saving time — say so and review the diff yourself.
 
 ## 4. Triage failing tests / logs
 
