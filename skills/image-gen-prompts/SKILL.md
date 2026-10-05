@@ -39,7 +39,7 @@ Strong prompts share the same anatomy across models — subject, environment, li
 - User needs style-specific prompts: cinematic, Kodak Portra, anime, 3D chibi, pixel art, Baroque frame, ukiyo-e, Swiss design, cyberpunk, RAW iPhone, 90s point-and-shoot, 35mm direct flash
 - User mentions "preserve face", "same face 100%", "change only the background", "keep pose", "multi-view", "action figure box", "exploded view"
 - User wants Raycast-friendly prompts with `{argument name="..." default="..."}` placeholders
-- User explicitly names a model (Midjourney, MJ, SDXL, FLUX, GPT Image 2, Nano Banana, etc.)
+- User explicitly names a model (Midjourney, MJ, SDXL, FLUX, GPT Image 2 / 2.5, Nano Banana, etc.)
 
 ## Model Routing
 
@@ -152,20 +152,20 @@ Detailed templates and examples live in `references/`.
 
 ## Quick Rules (model-agnostic)
 
-1. **Paragraph + constraint lines beats tag soup** for natural-language models (Nano Banana, GPT Image 2, FLUX, Imagen). For Midjourney and SDXL, dense comma-separated tag blocks plus flags still work.
+1. **Paragraph + constraint lines beats tag soup** for natural-language models (Nano Banana, GPT Image 2 / 2.5, FLUX, Imagen). For Midjourney and SDXL, dense comma-separated tag blocks plus flags still work.
 2. **Specify aspect ratio explicitly** — `1080x1080`, `16:9`, `9:16`, or `--ar 9:16` for Midjourney. Don't rely on defaults.
 3. **Identity anchor every edit.** "Same face 100% from reference", "keep facial features exactly consistent", "do not change the face".
 4. **Non-destructive edits need an allow-list.** Name what changes AND what is preserved — most models otherwise drift on wardrobe/pose.
 5. **Lens + lighting = photorealism.** `85mm f/1.4`, `Kodak Portra 400`, `three-point lighting`, `golden hour rim light`, `harsh on-camera flash` all carry real weight on every model.
 6. **Single-object constraints must be repeated.** If you want exactly one object, write an explicit strict-single-object block (see `references/patterns.md#single-object-rule`).
 7. **Text in image = quote it exactly.** Wrap exact strings in double quotes: `serif font reading "Stay Hungry, Stay Foolish"`. For CJK, prefer Pro-tier models.
-8. **Use `[PLACEHOLDERS]`** (square brackets, uppercase) for reusable templates. Use `{argument name="x" default="y"}` for Raycast snippets — supported as a literal placeholder by Nano Banana, GPT Image 2, and any natural-language model.
+8. **Use `[PLACEHOLDERS]`** (square brackets, uppercase) for reusable templates. Use `{argument name="x" default="y"}` for Raycast snippets — supported as a literal placeholder by Nano Banana, GPT Image 2 / 2.5, and any natural-language model.
 9. **For bento/infographic layouts**, enumerate modules (M1…M8) with content type per cell — strongly favors Pro-tier models.
 10. **Negatives go at the end** as a `NEGATIVE:` list or `Do NOT:` bullet — except SDXL/Midjourney where negatives have dedicated syntax (`--no` for MJ, dedicated negative prompt input for SD).
-11. **For natural / un-AI looks**: explicitly request "natural skin texture, flyaway hairs, slight asymmetry, no glamour retouching, no beauty filter, no overly polished AI aesthetic". GPT Image 2 and Nano Banana Pro both respect these.
+11. **For natural / un-AI looks**: explicitly request "natural skin texture, flyaway hairs, slight asymmetry, no glamour retouching, no beauty filter, no overly polished AI aesthetic". GPT Image 2 / 2.5 and Nano Banana Pro both respect these.
 12. **One change per edit turn + a lock list.** Name the single change, enumerate what stays, allow only the physically necessary side effects (contact shadows, reflections). Branch variants from a saved master. Preservation is visual, not pixel-identical — composite when pixels must match.
 13. **Review every output against a concrete check** — text at full and phone size, object/people counts, identity before styling, product geometry, edit scope, decoded alpha.
-14. **For cross-image consistency** (same character across N panels): describe the character once in detail, then reference back as "the same character from panel 1" — works on GPT Image 2 and Nano Banana Pro; weaker on others.
+14. **For cross-image consistency** (same character across N panels): describe the character once in detail, then reference back as "the same character from panel 1" — works on GPT Image 2 / 2.5 and Nano Banana Pro; weaker on others.
 
 ## Anti-Patterns
 

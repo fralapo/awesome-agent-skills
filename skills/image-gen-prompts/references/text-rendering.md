@@ -1,6 +1,6 @@
 # Rendering Text in Images
 
-The strongest open consumer models for in-image text are **Ideogram 3** (best for posters/headlines), **GPT Image 2** (best for dense multilingual / CJK), and **Nano Banana Pro** (best when integrated with reference images). Non-Pro tiers and most SD/SDXL workflows handle short Latin labels only.
+The strongest open consumer models for in-image text are **Ideogram 3** (best for posters/headlines), **GPT Image 2 / 2.5** (best for dense multilingual / CJK), and **Nano Banana Pro** (best when integrated with reference images). Non-Pro tiers and most SD/SDXL workflows handle short Latin labels only.
 
 ## Cross-model tier cheatsheet
 

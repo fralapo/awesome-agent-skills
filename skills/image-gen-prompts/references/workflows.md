@@ -18,7 +18,7 @@ User describes the image they want → produce a prompt directly using the unive
 - **Type of image** — avatar, product photo, poster, infographic, etc.
 - **Topic / subject** — what is being depicted
 - **Audience / mood** — who will see it, what feeling it should evoke
-- **Model** — Nano Banana Pro, GPT Image 2, Midjourney, FLUX, SDXL, Imagen, Ideogram, Recraft, Seedream
+- **Model** — Nano Banana Pro, GPT Image 2 / 2.5, Midjourney, FLUX, SDXL, Imagen, Ideogram, Recraft, Seedream
 - **Aspect ratio / format** — square, vertical, landscape; print sizes for posters
 
 | Vague request | Questions to ask |
@@ -142,6 +142,6 @@ Both paths are valid; ask which the user prefers when ambiguous.
 These conventions help when this skill runs inside a chat agent:
 
 - **One image-generation prompt per response** unless the user explicitly asks for variations.
-- **Always state the target model** in a one-line preamble (`For GPT Image 2:` / `For Midjourney v7:`) before the fenced prompt block.
+- **Always state the target model** in a one-line preamble (`For GPT Image 2.5 Sunburst:` / `For Midjourney v7:`) before the fenced prompt block.
 - **Truncate verbose previews** to ~100 chars when listing many template options; offer a "show full" expansion.
 - **Cite the source** when you draw from `examples.md` or `external-corpora.md` (attribution lines like `Source: @author via repo-name`).
