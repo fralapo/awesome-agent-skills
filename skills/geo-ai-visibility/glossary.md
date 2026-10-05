@@ -54,7 +54,7 @@
 
 **Share of Voice** — a brand-visibility metric tracked by AI-visibility tools: how often a brand is cited/mentioned relative to competitors across a set of tracked prompts/topics (Ch4).
 
-**Structured data / schema.org** — machine-readable markup (e.g., `FAQPage`, `Article`, `Organization`) added to a page; pages with correct structured data are cited 2.3x more often than those without (Ch3, Ch6).
+**Structured data / schema.org** — machine-readable markup (e.g., `FAQPage`, `Article`, `Organization`; FAQ rich results were retired by Google in May 2026, Ch8) added to a page; pages with correct structured data are cited 2.3x more often than those without (Ch3, Ch6).
 
 **Subjective Impression (SI)** — the second metric proposed in the founding GEO paper: a composite 7-component score (relevance, citation influence, content uniqueness, positional prominence, perceived volume, click likelihood, source diversity) evaluated with GPT-3.5 (Ch1).
 
