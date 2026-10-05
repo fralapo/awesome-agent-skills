@@ -52,8 +52,8 @@ Sintesi del confronto: Magnet vinceva su portfolio, specializzazione verticale (
 6. **Case study strutturati e bidirezionali**: cliente, settore, servizi, brief, intervento, deliverable, risultato; il case linka i servizi e la pagina servizio linka i case. Questo crea il grafo interno *agenzia → servizio → progetto → cliente*.
 7. **Money page + libreria informativa**: 20–30 contenuti eccellenti per pillar battono 200 mediocri. I contenuti "come funziona X" sono quelli più citabili.
 8. **Pagine autore**: bio, competenze, progetti, articoli firmati, link a LinkedIn/docenze/talk. Gli articoli indicano l'autore.
-9. **Schema coerente con un unico `@id`**: `Organization` (+ `LocalBusiness`/`ProfessionalService` se c'è una sede fisica) in homepage con `name`, `legalName`, `alternateName`, `url`, `logo`, `address`, `telephone`, `email`, `foundingDate`, `sameAs` (LinkedIn, Instagram, Behance, Google Business Profile, directory); `Service` su ogni pagina servizio con `provider` che punta allo stesso `@id`; `FAQPage`, `BreadcrumbList`, `CreativeWork`/`Article` per i case.
-10. **NAP e descrizione identici ovunque**: stesso nome, indirizzo, telefono e stessa frase-descrizione su sito, Google Business Profile, LinkedIn, Clutch/Sortlist/DesignRush, Behance, associazioni di categoria. Non mescolare sede legale e operativa nelle directory. Indicare la geografia reale (es. "Assago, Milano"), mai fingere un indirizzo in città.
+9. **Schema coerente con un unico `@id`**: in homepage (o nella pagina "chi siamo"; non serve su ogni pagina) il sottotipo più specifico di `LocalBusiness` se c'è una sede fisica (es. `ProfessionalService`), altrimenti `Organization`, con `name`, `legalName`, `alternateName`, `description`, `url`, `logo`, `address`, `telephone`, `email`, `vatID`, `foundingDate`, `sameAs` (LinkedIn, Instagram, Behance, Google Business Profile, directory). `Service` su ogni pagina servizio con `provider` che punta allo stesso `@id`; `BreadcrumbList`; `CreativeWork`/`Article` per i case. I dati strutturati devono corrispondere al testo visibile. `Service` non produce rich result in Google: vale solo come segnale semantico. `FAQPage` non dà più rich result (vedi verifiche sotto).
+10. **NAP e descrizione identici ovunque**: stesso nome, indirizzo, telefono e stessa frase-descrizione su sito, Google Business Profile, Bing Places (ChatGPT Search si appoggia in gran parte all'indice Bing), LinkedIn, Clutch/Sortlist/DesignRush, Behance, associazioni di categoria. Non mescolare sede legale e operativa nelle directory. Indicare la geografia reale (es. "Assago, Milano"), mai fingere un indirizzo in città.
 11. **Corroborazione esterna come priorità n.1**: profili directory, recensioni autentiche che descrivono il lavoro svolto, e soprattutto **credit sui domini dei clienti/partner** ("creative agency: X"). Una menzione sul sito di un cliente vale più di molte directory generiche.
 12. **Nicchia verticale come cavallo di Troia**: invece di inseguire query ipercompetitive ("agenzia comunicazione Milano"), presidia una verticale dove si hanno credenziali reali (nel caso: brand licensing, anche in inglese con `/en/` e `hreflang`). L'autorità costruita lì si trasferisce all'entità e poi agli altri servizi.
 13. **Contenuto importante nel DOM**: nomi clienti, servizi, descrizioni e titoli in testo, non dentro canvas, video o immagini; alt descrittivi sulle immagini portfolio; anchor text descrittivi al posto di "Scopri di più"; encoding pulito (accenti e apostrofi).
@@ -62,10 +62,29 @@ Sintesi del confronto: Magnet vinceva su portfolio, specializzazione verticale (
 
 - **Doorway page**: decine di landing quasi identiche "agenzia X Milano" accanto alle pagine servizio esistenti producono cannibalizzazione e possono peggiorare il sito. Meglio rafforzare l'URL esistente o fare redirect 301 verso uno slug nuovo.
 - **Presidio di città senza sede**: le sezioni per città funzionano quando corrispondono a una presenza reale; altrimenti sono doorway.
-- **Classifiche autoreferenziali**: un articolo "migliori agenzie" che mette sé stessi al primo posto può portare traffico e presenza semantica, ma **non è una fonte indipendente** e vale poco come prova. Le fonti terze vere (testate, directory con recensioni, award) restano il segnale forte.
-- **Keyword stuffing nel nome GBP o nei title** ("X Agenzia Comunicazione Milano Brand Identity…"): è spam, e il keyword stuffing misura negativo anche nel paper Princeton (chapter 01).
-- **FAQ SEO finte**: servono domande reali con risposte concrete di 40–100 parole.
+- **Classifiche autoreferenziali**: un articolo "migliori agenzie" che mette sé stessi al primo posto **non è una fonte indipendente** e oggi è anche rischioso. Nello studio di Lily Ray (apr–giu 2026, 184 listicle autopromozionali di 146 brand), quando Google AI Overviews citava una di queste liste, il brand autore restava fuori dalle raccomandazioni nel 69% dei casi: la lista finiva per promuovere i concorrenti. Dal gennaio 2026 sono stati osservati cali di visibilità a livello di dominio per i siti che ne pubblicano molte. Le fonti terze vere (testate, directory con recensioni, award) restano il segnale forte.
+- **Keyword stuffing nel nome GBP o nei title** ("X Agenzia Comunicazione Milano Brand Identity…"): le linee guida di Google Business Profile vietano di aggiungere keyword, località o slogan al nome, pena sospensione del profilo; e il keyword stuffing misura negativo anche nel paper Princeton (chapter 01).
+- **FAQ SEO finte**: servono domande reali con risposte concrete di 40–100 parole. Il valore è nel testo domanda-risposta, non nel markup: da maggio 2026 Google non mostra più i rich result FAQ.
 - **Dati autodichiarati presi per buoni**: crescite di traffico o authority pubblicate da un'agenzia sul proprio sito vanno verificate con tool indipendenti.
+
+## Verifiche con fonti (ottobre 2026)
+
+Affermazioni della sessione di analisi controllate su fonti primarie o studi pubblici:
+
+| Affermazione | Esito | Cosa dice la fonte |
+|---|---|---|
+| Non esiste un markup "GEO" speciale per AI Overviews/AI Mode | ✅ Confermata | Google: nessun requisito aggiuntivo né ottimizzazione speciale; non servono file "AI text" o markup nuovi. Contano crawlability, internal link, page experience, contenuto importante in testo, dati strutturati coerenti col testo visibile, Business Profile aggiornato (doc "AI features and your website", agg. 10 dic 2025) |
+| Il traffico da AI Overviews/AI Mode è in Search Console | ✅ Confermata | Incluso nel report Performance, tipo di ricerca "Web", senza filtro separato |
+| `Organization` aiuta a disambiguare l'entità | ✅ Confermata | Google: aiuta a capire i dettagli amministrativi e a "disambiguate your organization". Va in homepage o nella pagina "chi siamo", non su ogni pagina. Per un business locale Google raccomanda il sottotipo più specifico di `LocalBusiness` |
+| Schema `FAQPage` sulle FAQ | ⚠️ Superata | Rich result FAQ deprecati l'8 mag 2026 e rimossi dalla documentazione il 15 giu 2026. Il markup non dà più risultati visivi in Google; le FAQ restano utili come testo |
+| Pagine "agenzia X città" duplicate sono rischiose | ✅ Confermata | Spam policy Google (doorway abuse): cita esplicitamente pagine "targeted at specific regions or cities that funnel users to one page" |
+| Nome GBP senza keyword | ✅ Confermata | Linee guida GBP: il nome deve essere quello reale; vietato aggiungere keyword, località, slogan |
+| Directory e citazioni esterne contano per gli LLM | ✅ Confermata, con sfumatura | BrightLocal (set 2026, 1,9M citazioni AI su query locali, ChatGPT + AI Mode + AI Overviews): siti dei business 42% delle citazioni, Google Business Profile 28,6%, Yelp 9,5%, altre directory <2% ciascuna; i motori Google pesano molto GBP, ChatGPT più Yelp e Bing. Il sito proprio resta la fonte più citata: la corroborazione esterna si aggiunge, non sostituisce |
+| ChatGPT usa Bing per le ricerche locali | ✅ Confermata (studio 2024) | BrightLocal (nov 2024): ChatGPT Search "mostly powered by Bing's Index"; fonti: siti business 58%, menzioni 27%, directory 15%. Da qui l'importanza di Bing Places |
+| Classifiche autoreferenziali utili | ❌ Smentita come tattica | Studio Lily Ray 2026 (vedi Rischi): citazione senza raccomandazione nel 69% dei casi, cali di visibilità di dominio |
+| I numeri di crescita di Bliss | ❓ Non verificabili | Dichiarati da Bliss sul proprio sito; nessuna fonte indipendente |
+
+Nota per il mercato italiano: gli studi sopra sono su ricerche USA, dove Yelp pesa molto. In Italia il ruolo equivalente lo hanno GBP, Bing Places e le directory di settore realmente usate nel proprio mercato; vale il principio, non la lista.
 
 ## KPI GEO per un business locale
 
@@ -101,4 +120,11 @@ Formato utile:
 
 ## Fonti
 - Sessione di analisi con assistente AI (ottobre 2026) su https://www.magnetmilano.it/ e https://blissagency.it/, fornita da Jacopo come caso di ricerca.
-- Google Search Central: linee guida su AI Overviews/AI Mode e structured data `Organization` e `LocalBusiness` (citate nella sessione).
+- Google Search Central, "AI features and your website": https://developers.google.com/search/docs/appearance/ai-features
+- Google Search Central, Organization structured data: https://developers.google.com/search/docs/appearance/structured-data/organization
+- Google Search Central, aggiornamenti documentazione (deprecazione FAQ rich result, 2026): https://developers.google.com/search/updates
+- Google Search spam policies (doorway abuse): https://developers.google.com/search/docs/essentials/spam-policies
+- Linee guida Google Business Profile: https://support.google.com/business/answer/3038177
+- BrightLocal, Local AI visibility study (set 2026): https://www.brightlocal.com/research/local-ai-visibility-study/
+- BrightLocal, Uncovering ChatGPT Search sources (2024): https://www.brightlocal.com/research/uncovering-chatgpt-search-sources/
+- Studio Lily Ray sui listicle autopromozionali (sintesi ALM Corp, 2026): https://almcorp.com/news/self-promotional-listicles-ai-overviews-help-competitors-lily-ray-study/
