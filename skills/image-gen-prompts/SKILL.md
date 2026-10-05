@@ -1,7 +1,7 @@
 ---
 name: image-gen-prompts
-description: Production-grade prompts for any major image gen/edit model — Nano Banana / Pro / 2 (Gemini 2.5 Flash Image), GPT Image 2 / 1.5 / 1 / DALL·E 3, Seedream 4.x/5.0, Midjourney v6/v7 + Niji, SDXL / SD3 / SD3.5, FLUX.1, Imagen 3/4, Ideogram 2/3, Recraft v3. Use for generating or editing images, illustrating articles/videos/podcasts (Content Illustration), remixing templates, finding proven prompts from public corpora, identity preservation, multi-image fusion, non-destructive editing, isometric/bento layouts, in-image text, JSON/YAML/XML structured prompts, Raycast placeholders. If a model is named, read `references/models/_index.md` then the per-model file. Triggers: image prompt, image generation, image editing, nano banana, gemini image, gpt image, gpt-image-2, dall-e, midjourney, mj, niji, stable diffusion, sdxl, sd3, flux, imagen, ideogram, recraft, seedream, doubao, 纳米香蕉.
-version: 2.0.0
+description: Production-grade prompts for any major image gen/edit model — Nano Banana / Pro / 2 (Gemini 2.5 Flash Image), GPT Image 2.5 (Flare / Sunburst) / 2 / 1.5 / 1 / DALL·E 3, Seedream 4.x/5.0, Midjourney v6/v7 + Niji, SDXL / SD3 / SD3.5, FLUX.1, Imagen 3/4, Ideogram 2/3, Recraft v3. Use for generating or editing images, illustrating articles/videos/podcasts (Content Illustration), remixing templates, finding proven prompts from public corpora, identity preservation, multi-image fusion, non-destructive editing, isometric/bento layouts, in-image text, JSON/YAML/XML structured prompts, Raycast placeholders, sprite-sheet/GIF workflows, reconstructing a prompt from an inspiration image. If a model is named, read `references/models/_index.md` then the per-model file. Triggers: image prompt, image generation, image editing, nano banana, gemini image, gpt image, gpt-image-2, gpt image 2.5, gpt-image-2.5, flare, sunburst, chatgpt images 2.5, dall-e, midjourney, mj, niji, stable diffusion, sdxl, sd3, flux, imagen, ideogram, recraft, seedream, doubao, 纳米香蕉.
+version: 2.1.0
 source: local-git-analysis
 analyzed_repos:
   - github.com/Super-Maker-AI/awesome-nano-banana
@@ -12,19 +12,23 @@ analyzed_repos:
   - github.com/ZeroLu/awesome-gpt-image
   - github.com/YouMind-OpenLab/awesome-gpt-image-2
   - github.com/EvoLinkAI/awesome-gpt-image-2-prompts
+  - github.com/wangrunlin/awesome-gpt-image-2-5-prompts
+  - github.com/LaplaceYoung/awesome-gpt-image-2.5
+  - github.com/VulcanEon/awesome-gpt-image-2.5-prompts
+  - medium.com/@gptimage25ai (awesome-gpt-image-2-5-prompts article)
   - github.com/marc-aurele-besner/prompts
   - github.com/YouMind-OpenLab/ai-image-prompts-skill
   - openart.ai/blog/post/midjourney-prompts-for-packaging-design
   - openart.ai/blog/post/midjourney-prompts-for-mockup
   - godofprompt.ai
-analyzed_prompts: ~18900
+analyzed_prompts: ~19170
 ---
 
 # Image Generation Prompt Engineering — Universal
 
 Generic prompt-engineering skill for **any** modern image generation / editing model. Works model-agnostic by default; switches to model-specific guidance when the user names a model.
 
-Strong prompts share the same anatomy across models — subject, environment, lighting, camera/lens, style, format, and (for edits) what to preserve. What differs is **syntax surface**: Midjourney uses `--flags`, GPT Image 2 likes structured JSON, Nano Banana parses natural-language addressing of reference images, SDXL leans on weighted token blocks plus negative prompts, FLUX rewards prose density, Ideogram is the strongest at typography.
+Strong prompts share the same anatomy across models — subject, environment, lighting, camera/lens, style, format, and (for edits) what to preserve. What differs is **syntax surface**: Midjourney uses `--flags`, GPT Image 2 likes structured JSON, GPT Image 2.5 rewards role-assigned references and lock lists, Nano Banana parses natural-language addressing of reference images, SDXL leans on weighted token blocks plus negative prompts, FLUX rewards prose density, Ideogram is the strongest at typography.
 
 ## When to Use This Skill
 
@@ -44,6 +48,7 @@ Whenever the user names a model in their query, **read the matching file** under
 | Trigger keywords (any) | Read |
 |---|---|
 | `nano banana`, `nano-banana`, `gemini 2.5 flash image`, `gemini image`, `nano banana pro`, `纳米香蕉` | `references/models/nano-banana.md` |
+| `gpt image 2.5`, `gpt-image-2.5`, `image 2.5`, `chatgpt images 2.5`, `flare`, `sunburst`, `gpt-image-2.5-flare`, `gpt-image-2.5-sunburst` | `references/models/gpt-image-2-5.md` (+ `gpt-image-2.md` for shared grammar) |
 | `gpt image 2`, `gpt-image-2`, `duct-tape`, `gpt image 2 prompts` | `references/models/gpt-image-2.md` |
 | `gpt image 1`, `gpt-image-1`, `dall-e 3`, `dall·e 3`, `dalle 3` | `references/models/gpt-image-1.md` |
 | `midjourney`, `mj`, `--ar`, `--stylize`, `--sref`, `--cref`, `niji`, `--niji` | `references/models/midjourney.md` |
@@ -71,7 +76,7 @@ Always start with `references/models/_index.md` if you need to scan all routes a
 
 Per-model mapping of "Standard" vs "Pro" is documented in each `references/models/<name>.md`. Examples:
 - Nano Banana = Standard; Nano Banana Pro / Nano Banana 2 = Pro
-- GPT Image 1 / DALL·E 3 = Standard; GPT Image 1.5 = Standard+; GPT Image 2 = Pro
+- GPT Image 1 / DALL·E 3 = Standard; GPT Image 1.5 = Standard+; GPT Image 2 = Pro; GPT Image 2.5 Flare = Pro, Sunburst = Pro+ (precision edits, dense exact copy)
 - Midjourney v6 = Standard; v7 = Pro
 - SD 1.5 = Standard; SDXL / SD3 / SD3.5 = Pro
 - FLUX.1 [schnell] = Standard; FLUX.1 [dev] / [pro] = Pro
@@ -123,6 +128,7 @@ How to address an uploaded reference image varies. Universal pattern works acros
 |---|---|
 | Nano Banana / Gemini | "the person in the uploaded image", "same face 100% from reference" — natural language |
 | GPT Image 2 | "Based on this character", "Using this portrait", "Upload a source image" — natural language |
+| GPT Image 2.5 | "Image 1 = product (shape, label); Image 2 = only light/color; Image 3 = only layout" + a conflict priority; say what each ref must NOT contribute |
 | Midjourney | `--cref <url>` for character ref, `--sref <url>` for style ref, `--cw 100` weight |
 | Stable Diffusion / FLUX | IP-Adapter / ControlNet at the workflow level, not in the prompt text |
 | Imagen / Ideogram / Recraft | API-level `referenceImages` payload; prompt text references via "the provided reference" |
@@ -142,7 +148,7 @@ Detailed templates and examples live in `references/`.
 - `references/examples.md` — curated working prompts per category, attributed, with the model that produced each
 - `references/workflows.md` — Direct Generation, Content Illustration (article/video → image), and Remix/Personalization conversation patterns
 - `references/external-corpora.md` — pointers to public prompt libraries (YouMind 12k+, EvoLink ~3k, Awesome lists) when the user wants proven prompts rather than fresh composition
-- `references/models/` — per-model quirks, syntax surface, parameters, anti-patterns
+- `references/models/` — per-model quirks, syntax surface, parameters, anti-patterns (`gpt-image-2-5.md` adds Flare/Sunburst choice, API size/quality rules, 10 patterns, 12 templates, known failures, review checklist)
 
 ## Quick Rules (model-agnostic)
 
@@ -157,7 +163,9 @@ Detailed templates and examples live in `references/`.
 9. **For bento/infographic layouts**, enumerate modules (M1…M8) with content type per cell — strongly favors Pro-tier models.
 10. **Negatives go at the end** as a `NEGATIVE:` list or `Do NOT:` bullet — except SDXL/Midjourney where negatives have dedicated syntax (`--no` for MJ, dedicated negative prompt input for SD).
 11. **For natural / un-AI looks**: explicitly request "natural skin texture, flyaway hairs, slight asymmetry, no glamour retouching, no beauty filter, no overly polished AI aesthetic". GPT Image 2 and Nano Banana Pro both respect these.
-12. **For cross-image consistency** (same character across N panels): describe the character once in detail, then reference back as "the same character from panel 1" — works on GPT Image 2 and Nano Banana Pro; weaker on others.
+12. **One change per edit turn + a lock list.** Name the single change, enumerate what stays, allow only the physically necessary side effects (contact shadows, reflections). Branch variants from a saved master. Preservation is visual, not pixel-identical — composite when pixels must match.
+13. **Review every output against a concrete check** — text at full and phone size, object/people counts, identity before styling, product geometry, edit scope, decoded alpha.
+14. **For cross-image consistency** (same character across N panels): describe the character once in detail, then reference back as "the same character from panel 1" — works on GPT Image 2 and Nano Banana Pro; weaker on others.
 
 ## Anti-Patterns
 
@@ -170,25 +178,29 @@ Detailed templates and examples live in `references/`.
 - Embedding exact text > 15 words on Standard-tier models — spelling breaks
 - Mixing Midjourney `--flags` into a Nano Banana / GPT Image / FLUX prompt — flags get parsed as literal text and pollute output
 - "Polished AI" defaults when shooting for candid lifestyle — explicitly veto glamour retouching
+- Expecting an image model to export a GIF, ZIP, vector or HTML — generate the sheet, then split/assemble with code (see `models/gpt-image-2-5.md` Pattern 6)
+- Trusting "no text / ONLY this text / no watermark" without checking — negatives are honored only part of the time
 - Forcing JSON on a tiny prompt — `{"subject":"red apple"}` is worse than `A red apple on a white table, studio lighting, 1:1.`
 
 ## Conversation Modes
 
-Three distinct entry points handled in `references/workflows.md`:
+Four distinct entry points handled in `references/workflows.md`:
 
 - **Direct Generation** — user describes an image; you compose a prompt from anatomy + template + per-model file.
 - **Content Illustration** — user pastes article / video script / podcast notes; you analyze theme + tone, match to a template, and move into Remix.
+- **Inspiration → Prompt (reconstruction)** — user shares an image they like; you write a new brief from what is visible and list the unknowns (references, earlier turns, edits) instead of pretending to recover the original prompt.
 - **Remix / Personalization** — after a template is chosen, ask only the relevant personalization questions (gender, age, setting, mood, profession) and remix the template with the user's content.
 
-If the user just wants **proven, image-attested prompts** rather than a freshly-composed one, point them at the searchable corpora in `references/external-corpora.md` (12,000+ prompts at YouMind, ~3,000 GPT Image 2 cases at EvoLink, plus Awesome-list browsable indexes).
+If the user just wants **proven, image-attested prompts** rather than a freshly-composed one, point them at the searchable corpora in `references/external-corpora.md` (12,000+ prompts at YouMind, ~3,000 GPT Image 2 cases at EvoLink, ~250 GPT Image 2.5 cases across wangrunlin / LaplaceYoung / VulcanEon, plus Awesome-list browsable indexes).
 
 ## Workflow
 
-1. Ask user — generate from scratch, edit an existing image, illustrate content, or browse proven prompts? Which model? Which tier? Aspect ratio?
+1. Ask user — generate from scratch, edit an existing image, illustrate content, reconstruct a prompt from an inspiration image, or browse proven prompts? Which model? Which tier? Aspect ratio?
 2. If a model is named, read `references/models/<name>.md` first.
 3. Identify category → pick from `references/templates.md`.
 4. If editing with a reference image: lock identity + add preservation clause first (see `references/identity-preservation.md`).
 5. Fill subject → environment → lighting → camera → format → style.
 6. Add negatives only for known failure modes (not prophylactically). Use the model's native negative-prompt mechanism if it has one.
 7. For text in image, follow `references/text-rendering.md` and downgrade to a Pro-tier model if the string is long or non-Latin.
-8. Output the prompt in a single fenced block; user pastes into the target model UI/API. For Midjourney, end with the flag block; for SD/FLUX, output positive + negative prompt separately.
+8. Output the prompt in a single fenced block; user pastes into the target model UI/API. For Midjourney, end with the flag block; for SD/FLUX, output positive + negative prompt separately. For GPT Image 2.5 on the API, list `model` (Flare or Sunburst), `size`, `quality`, `background` as parameters outside the prompt.
+9. Close with a one-line **Check:** — the first thing the user should inspect in the result (spelling, count, identity, geometry, edit scope, alpha).
