@@ -9,7 +9,9 @@ visibility — a local file, pasted text, or a URL.
    a URL, WebFetch it. If given pasted text, use it directly.
 2. **Score category by category**, using the six categories in
    `cheatsheet.md` (Struttura contenuto, Structured data, Citabilità,
-   Segnali di autorità, Tecnico / llms.txt, Note per piattaforma). For
+   Segnali di autorità, Entità e business locale, Tecnico / llms.txt,
+   Note per piattaforma). Score "Entità e business locale" only when the
+   subject is a business site (agency, studio, local services). For
    each category, go item by item and mark: ✅ pass / ⚠️ partial / ❌ fail,
    with a one-line reason citing what's present or missing in the content.
 3. **Prioritize fixes by measured impact.** When multiple ❌/⚠️ items
@@ -28,3 +30,13 @@ visibility — a local file, pasted text, or a URL.
    no restating the whole table).
 5. **Stay grounded.** Don't invent findings not visible in the content;
    don't cite statistics not already documented in this skill's chapters.
+
+## Variant: "why does the AI recommend my competitor?"
+
+When the question is why an AI assistant recommends another business
+instead of the user's, run the competitor gap analysis in
+`chapters/08-entity-geo-locale-caso-agenzie.md` instead of a single-page
+audit: list the "service + city" queries, find which competitor page wins
+each one, compare it with the user's equivalent page, and output the
+Query / Pagina concorrente / Pagina propria / Gap / Priorità table, with
+the vertical niche where the user is strongest marked 🟢 as the opportunity.
