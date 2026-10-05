@@ -18,7 +18,7 @@ User describes the image they want → produce a prompt directly using the unive
 - **Type of image** — avatar, product photo, poster, infographic, etc.
 - **Topic / subject** — what is being depicted
 - **Audience / mood** — who will see it, what feeling it should evoke
-- **Model** — Nano Banana Pro, GPT Image 2, Midjourney, FLUX, SDXL, Imagen, Ideogram, Recraft, Seedream
+- **Model** — Nano Banana Pro, GPT Image 2 / 2.5, Midjourney, FLUX, SDXL, Imagen, Ideogram, Recraft, Seedream
 - **Aspect ratio / format** — square, vertical, landscape; print sizes for posters
 
 | Vague request | Questions to ask |
@@ -105,9 +105,33 @@ Keep the **structure**, replace the **content**:
 - User content: AI and human collaboration
 - Remixed: "Futuristic cityscape with holographic AI assistants walking alongside humans, warm neon lights suggesting harmony, cyberpunk style with optimistic undertones"
 
+## Workflow 4 — Inspiration → Prompt (reconstruction)
+
+The "missing step" (gptimage25ai, Medium): a striking image is easy to save and surprisingly hard to reproduce. When the user brings an image they like and wants "the prompt for this", don't pretend to recover the original wording — write a new brief and make the unknowns part of the case. Method distilled from `VulcanEon/awesome-gpt-image-2.5-prompts` (`docs/METHODOLOGY.md`):
+
+1. **Observe** only what is visible: composition, subject arrangement, palette, medium, framing, text on the image.
+2. **Infer** the editorial layer and label it as inference: plausible light direction, lens cue, materials, constraints.
+3. **Adapt** deliberately: swap real brands, public figures and real people for fictional or user-supplied ones; replace copy with the user's own.
+4. **List the unknowns** next to the prompt: private reference images, earlier turns and edits, hidden prompt, seed, exact model variant, number of attempts. If the look clearly depends on a reference (a face, a product), tell the user which input to supply.
+5. **Attach a review check** to the prompt — the one thing to inspect first (identity, spelling, object count, geometry, continuity).
+6. After the first result, save the best image as the master and move to one-change-per-turn edits (`editing-workflow.md` → Repair recipes).
+
+Output shape:
+
+```
+For [MODEL]:
+[prompt]
+
+Inputs needed: [none / reference roles]
+Unknowns: [what the image can't reveal]
+Check: [what to inspect first]
+```
+
+Label it a **visual reconstruction** (no source prompt available) or an **editorial adaptation** (source prompt available, rewritten). Never claim it reproduces the original.
+
 ## When to Recommend Existing Prompts vs Compose New
 
-If the user wants **inspiration** or **proven prompts**, point them to `external-corpora.md` for searchable libraries (12,000+ curated prompts on YouMind, ~3,000 GPT Image 2 prompts on EvoLink, ~600 Nano Banana cases on Awesome lists, etc.).
+If the user wants **inspiration** or **proven prompts**, point them to `external-corpora.md` for searchable libraries (12,000+ curated prompts on YouMind, ~3,000 GPT Image 2 prompts on EvoLink, ~250 source-checked GPT Image 2.5 cases across three 2.5 libraries, ~600 Nano Banana cases on Awesome lists, etc.).
 
 If the user wants a **prompt for a specific scene**, compose using the universal anatomy (`SKILL.md`) + per-model file + `templates.md`.
 
@@ -118,6 +142,6 @@ Both paths are valid; ask which the user prefers when ambiguous.
 These conventions help when this skill runs inside a chat agent:
 
 - **One image-generation prompt per response** unless the user explicitly asks for variations.
-- **Always state the target model** in a one-line preamble (`For GPT Image 2:` / `For Midjourney v7:`) before the fenced prompt block.
+- **Always state the target model** in a one-line preamble (`For GPT Image 2.5 Sunburst:` / `For Midjourney v7:`) before the fenced prompt block.
 - **Truncate verbose previews** to ~100 chars when listing many template options; offer a "show full" expansion.
 - **Cite the source** when you draw from `examples.md` or `external-corpora.md` (attribution lines like `Source: @author via repo-name`).

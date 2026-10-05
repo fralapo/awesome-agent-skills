@@ -2,7 +2,7 @@
 
 Each example is a real prompt that produced good output in the source repo. Use as reference shapes, not verbatim — swap in your own subject/constraints.
 
-Attribution: prompts from the 9 community repos and 3 reference sites analyzed (Super-Maker-AI, YouMind-OpenLab nano-banana-pro, PicoTrex, jimmylv, ZeroLu/awesome-nanobanana-pro, ZeroLu/awesome-gpt-image, YouMind-OpenLab/awesome-gpt-image-2, EvoLinkAI/awesome-gpt-image-2-prompts, marc-aurele-besner/prompts, openart.ai packaging-design + mockup posts, godofprompt.ai prompt marketplace). Original authors noted where known.
+Attribution: prompts from the 12 community repos and 3 reference sites analyzed (Super-Maker-AI, YouMind-OpenLab nano-banana-pro, PicoTrex, jimmylv, ZeroLu/awesome-nanobanana-pro, ZeroLu/awesome-gpt-image, YouMind-OpenLab/awesome-gpt-image-2, EvoLinkAI/awesome-gpt-image-2-prompts, wangrunlin/awesome-gpt-image-2-5-prompts, LaplaceYoung/awesome-gpt-image-2.5, VulcanEon/awesome-gpt-image-2.5-prompts, marc-aurele-besner/prompts, openart.ai packaging-design + mockup posts, godofprompt.ai prompt marketplace). Original authors noted where known.
 
 Each example header tags its origin model (`Best on:` line) — the prompt was confirmed to work on that model in source. Most natural-language prompts also work on the other Pro-tier natural-language models with minor adjustments.
 
@@ -575,6 +575,268 @@ Render as a hyper-realistic UI mockup displayed on a [DEVICE — slim modern lap
 on a [SURFACE]. Soft natural daylight, gentle screen glow, subtle device reflections.
 Crisp typography. 16:9 landscape. No moiré, no text artifacts.
 ```
+
+---
+
+## 25. Full Web-Page Mockup with Height Allocation (GPT Image 2.5)
+
+Best on: GPT Image 2.5 Sunburst (dense CJK UI copy).
+
+Source: `wangrunlin/awesome-gpt-image-2-5-prompts` — chinese-agency-page-layout (@listudio). Condensed; original lists every Chinese UI string.
+
+```
+Generate a complete visual design of the official website of [COMPANY / SECTOR], a long screenshot
+of the desktop webpage, frontal view, no perspective, 9:16 vertical, complete from navigation to footer.
+[BACKGROUND] with [4 NAMED COLORS], neat grid, right-angled cards, [STYLE MOTIF].
+
+Slim navigation bar at the top: wordmark "[BRAND]" and slogan "[SLOGAN]" on the left; navigation
+"[ITEM 1, ITEM 2, ITEM 3, ITEM 4]" on the right; a "[CTA →]" button at the far right.
+The hero occupies about 27% of the image: two-line headline "[LINE 1]" / "[LINE 2]" in bold [COLOR]
+sans-serif on the left; [HERO SUBJECT, wardrobe, light] on the right.
+Concept bar about 8% · services about 16% (three equal cards: "[A]", "[B]", "[C]") · works about 17%
+(four thumbnails titled "[W1]", "[W2]", "[W3]", "[W4]") · recruitment band about 18% · news about 6%
+(three dated lines) · footer about 8% with "© [YEAR] [BRAND]".
+
+All interface copy is readable and accurate [LANGUAGE], with clear title/body levels.
+No garbled characters, no third-party logos, no watermarks, no browser borders, no device cases.
+Output a complete web design drawing.
+```
+
+Check: section shares sum to 100%; proofread small text at full size. It's an image, not HTML.
+
+---
+
+## 26. Three-Reference Product Ad with Conflict Priority (GPT Image 2.5)
+
+Best on: GPT Image 2.5.
+
+Source: `wangrunlin/awesome-gpt-image-2-5-prompts` — three-reference-product-ad (@jackzhang123vip).
+
+```
+Image 1 is the primary reference for the product itself; Image 2 provides only the color, lighting,
+tonal values, and overall atmosphere; Image 3 provides only the composition, product placement,
+visual proportions, and negative space structure.
+Conflict priority: Product authenticity and label accuracy from Image 1 > Layout structure from
+Image 3 > Color and lighting from Image 2.
+Create a 1024×1536 vertical commercial product advertisement. Use the exact [PRODUCT] from Image 1,
+placing it fully on the left side of the frame, while reserving a large, clean, uniform area of
+negative space for copy on the right, as shown in Image 3. Apply the atmosphere from Image 2 —
+[LIGHT DIRECTION, TONES] — but do not replicate the objects found in Image 2.
+Fully preserve the product's shape, proportions, materials, label size and placement, and the
+label text ("[LINE 1]" and "[LINE 2]"). The text must be clear, in the correct order, and appear
+only on the product label. Do not redesign, recolor, distort, crop, duplicate, or alter the product.
+Only physically accurate reflections and natural contact shadows may be added.
+No text on the right side. Do not replicate props, text, logos or branding from Image 2 or Image 3.
+Do not add copy, placeholder text, garbled characters, QR codes, watermarks, props, people, or a second product.
+```
+
+---
+
+## 27. Replace the Product in a Fixed Poster (GPT Image 2.5)
+
+Best on: GPT Image 2.5.
+
+Source: `wangrunlin/awesome-gpt-image-2-5-prompts` — fixed-template-product-swap (@AdrianPunk115).
+
+```
+Please edit Image 1 by replacing the main product with the product shown in Image 2.
+Strictly separate the functions of the two reference images:
+Image 1 dictates the advertising composition, background, lighting direction, decorative elements,
+and text layout (excluding the product itself).
+Image 2 dictates the new product's authentic shape, structure, material, color, logo, and packaging details.
+Remove the old product from Image 1 and naturally place the product from Image 2 into the area
+previously occupied by the original product.
+Preserve the authentic aspect ratio of the product from Image 2; do not squash, stretch, or alter its
+structure to fit the original outline. You may scale the product proportionally as a whole.
+Modify only the area occupied by the new product, along with any necessary contact shadows,
+occlusions, and local reflections. Do not recreate the entire poster.
+Keep the headline, text content, font, font size, positioning, background texture, decorative
+elements, and canvas dimensions unchanged.
+Do not create a hybrid design combining the two products. Do not retain the old product's cap,
+handle, label, or other components. Do not add accessories not present in Image 2, do not guess
+at illegible packaging text, and do not alter the product's color to match the background.
+Output only the single, completed poster with the product replaced.
+```
+
+---
+
+## 28. Person Holding a Reference Product (GPT Image 2.5)
+
+Best on: GPT Image 2.5.
+
+Source: `wangrunlin/awesome-gpt-image-2-5-prompts` — person-holding-reference-product (@AdrianPunk115). Condensed.
+
+```
+Generate a natural, realistic product display photo based on the two uploaded images.
+Image 1 = the person: identity, facial features, hairstyle, skin tone, clothing.
+Image 2 = the product: shape, structure, color, material, logo, packaging details.
+The person holds the product as if showing it to the camera, in front of the chest or side-front,
+main display face toward the camera, never covering the face.
+Choose a logical grip for the product's shape: fingers wrap, cradle or pinch it with correct
+foreground/background layering and contact shadows. The hand must not clip into the product,
+and the product must not float above the palm.
+Preserve the person's face, apparent age and body shape; only arm and hand positions may change.
+Do not redesign the product, mirror the logo or add accessories.
+Same lighting environment for person and product; keep the person's original background, simplified.
+3:4 vertical. No titles, slogans or customer reviews.
+```
+
+---
+
+## 29. Japanese-Film Colour Grade Without Redrawing (GPT Image 2.5)
+
+Best on: GPT Image 2.5.
+
+Source: `wangrunlin/awesome-gpt-image-2-5-prompts` — garden-photo-color-grading (@HoodyLiu). Condensed.
+
+```
+Only perform professional color grading and light-and-shadow optimization on the original photo.
+Strictly retain the original composition, scenery positions, [KEY OBJECTS] and proportions; do not
+add, delete or change any objects.
+Style: high-end, restrained, quiet Japanese film look.
+Brighten dark details moderately but keep deep shadows (no gray blacks). Reduce sky highlights and
+blue saturation to a calm gray-blue, no HDR. [HERO ELEMENT] in natural [COLOR], not pure white or
+fluorescent. Greens to low-saturated moss / forest / slight olive; reduce yellow-green digital feel.
+Soft highlights, deep shadows, medium-strong contrast, warm sun vs cool shadow.
+Slight film fog, natural halation, fine 35mm grain, soft sharpening; color reference Kodak Portra 400.
+Prohibited: changing composition, adding objects/clouds/people/lights, new branches, season change,
+overexposure, crushed blacks, HDR, over-sharpening, fluorescent green, heavy filters, painterly or
+illustration feel, AI-redrawing feel.
+The result must look like a professional color correction of the original RAW photo, not a regenerated image.
+```
+
+Check: inspect branches, reflections and small objects for redraws.
+
+---
+
+## 30. Character Production Reference Sheet (GPT Image 2.5)
+
+Best on: GPT Image 2.5 Sunburst.
+
+Source: `wangrunlin/awesome-gpt-image-2-5-prompts` — character-design-reference-sheet (@meAsifAi, 1.3k likes). Condensed from 9 numbered sections.
+
+```
+Create a premium professional character design reference sheet based strictly on the provided reference image.
+
+REFERENCE & IDENTITY LOCK: the uploaded reference is the single source of truth. Preserve exact facial
+identity, hairline, eye shape/color, skin tone, body proportions, costume, accessories, colors, patterns.
+Do not redesign, beautify, simplify, age or de-age. Before constructing the sheet, internally analyze
+and lock: facial construction, head-to-body ratio, silhouette, costume construction, accessory placement,
+color relationships, materials, identity anchors.
+
+PAGE: one studio-grade board, landscape 16:9, off-white background, subtle guide lines, restrained labels.
+01 HERO PORTRAIT · 02 FULL-BODY TURNAROUND (front, 3/4 front, side, 3/4 back, back — identical scale,
+aligned head/shoulder/waist/knee lines) · 03 EXPRESSIONS (neutral, smile, serious, determined, surprised,
+sad) · 04 SIGNATURE POSES (4–6) · 05 COSTUME & DETAIL CALLOUTS · 06 MATERIAL STUDIES · 07 COLOR PALETTE
+(skin, hair, primary, secondary, accent) · 08 PROPORTION & SILHOUETTE GUIDE · 09 DESIGN CONTINUITY
+(identical identity, costume, accessory placement, consistent left/right details).
+
+CAMERA: orthographic-like turnaround; consistent head framing for expressions.
+LIGHTING: neutral studio light for design inspection, not cinematic drama.
+NEGATIVE: no identity drift, costume variations, missing or duplicated accessories, extra limbs,
+malformed hands, random props, dramatic scenery, clutter, watermark, logo, cropped views.
+```
+
+---
+
+## 31. Pixel-Art Pet Sprite Sheet → GIF (GPT Image 2.5 + Python)
+
+Best on: ChatGPT Images 2.5 (needs a chat that can also run Python).
+
+Source: `wangrunlin/awesome-gpt-image-2-5-prompts` — pixel-pet-loop (@Mayz1169). Condensed.
+
+```
+Turn the pet in my uploaded reference into an adorable pixel-art sprite with a subtle, seamless
+looping idle animation. Preserve species, colors, markings, eye color, accessories; chibi proportions
+but recognizable anatomy. Do not add limbs or features the animal does not have.
+STYLE: crisp square pixels, clean outlines, limited palette; no anti-aliased or vector edges.
+ANIMATION: 16 consecutive frames of one gentle idle — breathing + one secondary motion (ear twitch,
+tail sway) + one blink only if the species has eyelids. Same position, anchored contact points,
+no walking/turning/camera movement. Last frame flows back into the first.
+SPRITE SHEET: exactly 4 columns × 4 rows, left→right, top→bottom; canvas 1024×1024, cells 256×256;
+fixed body anchor and baseline; ≥16 px transparent padding in every cell; same pet, not variations;
+no grid lines, labels, text or watermarks.
+TRANSPARENCY: genuine RGBA, alpha zero outside the pet; no checkerboard, floor or shadow.
+DELIVERABLES: 1) the PNG sheet; 2) a transparent looping GIF, 150 ms per frame; 3) a ZIP of
+frame_01.png…frame_16.png. Split into equal cells on one shared canvas (no per-frame crop/scale),
+nearest-neighbor resizing, correct GIF disposal. Inspect all frames before exporting.
+If you cannot create the GIF or ZIP, say which deliverables are missing.
+```
+
+---
+
+## 32. Exact Copy on Products and Billboards (OpenAI guide, GPT Image 2.5)
+
+Best on: GPT Image 2.5 Flare / Sunburst. Settings: `1024x1536`, `quality=medium`.
+
+Source: OpenAI image-prompting guide examples, via `wangrunlin/awesome-gpt-image-2-5-prompts` and `VulcanEon/awesome-gpt-image-2.5-prompts`.
+
+```
+Create a collectible action figure of a vintage-style toy propeller airplane with rounded wings,
+a front-mounted spinning propeller, slightly worn paint edges, classic childhood proportions,
+designed as a nostalgic holiday collectible, in blister packaging.
+
+Style:
+Premium toy photography, realistic plastic and painted metal textures, studio lighting,
+shallow depth of field, sharp label printing, high-end retail presentation.
+
+Constraints:
+- Original design only
+- No trademarks
+- No watermarks
+- No logos
+
+Include ONLY this packaging text (verbatim):
+"Christmas Memories Edition"
+```
+
+Two-turn variant (turn 2 edits turn 1's output in the same conversation):
+
+```
+T1  Create a realistic billboard mockup of the shampoo on a highway scene during sunset.
+    Billboard text (EXACT, verbatim, no extra characters):
+    "Fresh and clean"
+    Typography: bold sans-serif, high contrast, centered, clean kerning.
+    Ensure text appears once and is perfectly legible. No watermarks, no logos.
+T2  Make it look like a winter evening with snowfall.
+```
+
+---
+
+## 33. Text-Free Scene That Resists Invented Lettering (GPT Image 2.5)
+
+Best on: GPT Image 2.5.
+
+Source: `VulcanEon/awesome-gpt-image-2.5-prompts` — cyberpunk-without-copy (written as a fix for a documented failure where the model invented signage).
+
+```
+Restyle my adult portrait as a rainy near-future street photograph. Keep my face, age and expression.
+Use violet rim light, cyan window reflections and a dark technical jacket. Every illuminated panel
+must show only abstract gradients or geometric light, never letters or symbols resembling writing.
+Include no slogans, subtitles, labels, logos or watermark. Keep visible skin naturally textured.
+Return one portrait image rather than a poster or magazine cover.
+```
+
+Check: zoom into every luminous panel and smooth surface; if pseudo-lettering remains, use the *Remove invented lettering* repair recipe.
+
+---
+
+## 34. Selective Sharpness Against Motion (GPT Image 2.5)
+
+Best on: GPT Image 2.5.
+
+Source: `VulcanEon/awesome-gpt-image-2.5-prompts` — subway-stillness (visual reconstruction, not a verified reproduction).
+
+```
+Photograph an adult standing safely behind the platform warning line while a train passes behind
+them. Keep the eyes, face and orange flower bouquet sharp; let only the train stretch into
+horizontal motion blur. Use a cream knit sweater against cool gray station materials. A breeze
+lifts a few hair strands without blurring the face. Blend soft overhead light with warmer skin
+highlights. Portrait framing, natural pores and wool fibers. No platform-edge pose, extra hands,
+text overlays or smeared flowers.
+```
+
+Check: blur follows one direction and spares the person, hands and bouquet.
 
 ---
 

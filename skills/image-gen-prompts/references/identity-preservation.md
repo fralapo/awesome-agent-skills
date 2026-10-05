@@ -7,7 +7,7 @@ The #1 failure mode across image models: **face drift** — outputs that resembl
 | Model family | How identity is anchored |
 |---|---|
 | Nano Banana / Nano Banana Pro | Natural-language anchor phrases below + uploaded reference image |
-| GPT Image 2 | Natural-language anchor + uploaded reference + cross-image consistency clause |
+| GPT Image 2 / 2.5 | Natural-language anchor + uploaded reference + cross-image consistency clause |
 | GPT Image 1 / DALL·E 3 | Mask-based edit via Images Edit API; weaker preservation |
 | Midjourney v6 / v7 | `--cref <url> --cw 100` flag; weight 0–100 |
 | Stable Diffusion (SDXL/SD3.5) | IP-Adapter / InstantID / PhotoMaker / PuLID at workflow level |
@@ -16,7 +16,7 @@ The #1 failure mode across image models: **face drift** — outputs that resembl
 | Ideogram 3 | `style_reference_images` (style only — weaker for identity) |
 | Recraft v3 | Trained brand `style_id` (style/brand only — not face) |
 
-The phrases below apply to natural-language models (Nano Banana, GPT Image 2, FLUX, Imagen). For flag-based models, append the model's reference flag instead.
+The phrases below apply to natural-language models (Nano Banana, GPT Image 2 / 2.5, FLUX, Imagen). For flag-based models, append the model's reference flag instead.
 
 ## Anchor Strength Ranking
 

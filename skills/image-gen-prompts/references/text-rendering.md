@@ -1,6 +1,6 @@
 # Rendering Text in Images
 
-The strongest open consumer models for in-image text are **Ideogram 3** (best for posters/headlines), **GPT Image 2** (best for dense multilingual / CJK), and **Nano Banana Pro** (best when integrated with reference images). Non-Pro tiers and most SD/SDXL workflows handle short Latin labels only.
+The strongest open consumer models for in-image text are **Ideogram 3** (best for posters/headlines), **GPT Image 2 / 2.5** (best for dense multilingual / CJK), and **Nano Banana Pro** (best when integrated with reference images). Non-Pro tiers and most SD/SDXL workflows handle short Latin labels only.
 
 ## Cross-model tier cheatsheet
 
@@ -20,7 +20,7 @@ The strongest open consumer models for in-image text are **Ideogram 3** (best fo
 
 **Defaults**:
 - Posters / single-line headlines / brand mockups → **Ideogram 3**
-- Dense Chinese, multi-module infographics, mixed-script → **GPT Image 2**
+- Dense Chinese, multi-module infographics, mixed-script → **GPT Image 2** or **GPT Image 2.5 Sunburst** (full CJK web pages / app UIs when every label is quoted; use the `Include ONLY this text (verbatim):` block and still proofread — small stray writing can appear)
 - Quote cards with reference images / face-anchored typography → **Nano Banana Pro**
 - Cinematic photo + short overlay text → **Midjourney v7** or **FLUX**
 
