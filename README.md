@@ -78,7 +78,7 @@ Prefer just one skill? Use the manual method below and symlink/copy only that fo
 
 ### Manual (symlink or copy)
 
-Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-prompts`, `awesome-readme`, `llm-wiki`, `social-algorithm`, `creative-director`, `ffmpeg`, `video-editor`, `public-speaking-persuasion`, `marketing-mba`, `ux-ui-expert`, or `geo-ai-visibility`).
+Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-prompts`, `awesome-readme`, `llm-wiki`, `social-algorithm`, `creative-director`, `ffmpeg`, `video-editor`, `public-speaking-persuasion`, `marketing-mba`, `ux-ui-expert`, `geo-ai-visibility`, or `jev`).
 
 Commands below target Claude Code's default skills dir (`~/.claude/skills/`). Other agents: swap the destination for whatever path your tool reads (commonly `~/.config/<agent>/skills/` or `.agent/skills/` in a project root).
 

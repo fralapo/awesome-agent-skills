@@ -1,6 +1,6 @@
 # Universal Prompt Patterns
 
-Extracted from ~3500 working prompts across community repos for Nano Banana, Nano Banana Pro, GPT Image 2, GPT Image 1, plus cross-checks against Midjourney / SDXL / FLUX / Imagen / Ideogram conventions. Each pattern is a building block — combine them, don't use alone.
+Extracted from ~3500 working prompts across community repos for Nano Banana, Nano Banana Pro, GPT Image 2 / 2.5, GPT Image 1, plus cross-checks against Midjourney / SDXL / FLUX / Imagen / Ideogram conventions. Each pattern is a building block — combine them, don't use alone.
 
 For per-model syntax surface (flags, weights, reference-image addressing) see `models/<name>.md`. The vocabulary on this page works on any natural-language model and translates with minor adjustments to flag-based ones.
 
@@ -19,7 +19,7 @@ For per-model syntax surface (flags, weights, reference-image addressing) see `m
 | `cinematic warm key + sculpting rim, film grain` | Editorial grit |
 | `direct front flash, 35mm lens, nostalgic glow` | 90s film portrait |
 | `harsh on-camera flash, specular highlights, strong catchlights, high-contrast film grain` | 35mm flash editorial |
-| `RAW iPhone unprocessed, full camera quality, momentary blur` | RAW iPhone aesthetic (GPT Image 2 favored) |
+| `RAW iPhone unprocessed, full camera quality, momentary blur` | RAW iPhone aesthetic (GPT Image 2 / 2.5 favored) |
 | `2003 digital camera, slight noise, shallow flash falloff` | Early-digicam family snapshot |
 | `90s point-and-shoot camera quality, slight chromatic aberration` | 90s point-and-shoot |
 | `wooden lantern lighting mixed with gentle natural window light, subtle film grain` | Vintage Japanese ryokan / onsen |
@@ -41,7 +41,7 @@ For per-model syntax surface (flags, weights, reference-image addressing) see `m
 
 ## Format-Spec Anatomy (deliverable format + dimensions + DPI)
 
-Specify the deliverable shape, not just aspect ratio. Strongest signal on ChatGPT (DALL·E 3 / GPT Image 1) — ChatGPT respects file-format + dimension cues. Other natural-language models (GPT Image 2, Nano Banana, FLUX, Imagen) parse the cues but ignore actual file format (the API/UI controls it). Midjourney/SDXL parse via flags / output settings.
+Specify the deliverable shape, not just aspect ratio. Strongest signal on ChatGPT (DALL·E 3 / GPT Image 1) — ChatGPT respects file-format + dimension cues. Other natural-language models (GPT Image 2 / 2.5, Nano Banana, FLUX, Imagen) parse the cues but ignore actual file format (the API/UI controls it). Midjourney/SDXL parse via flags / output settings.
 
 | Use case | Format spec to write into prompt |
 |---|---|
@@ -95,7 +95,7 @@ These actually shift the output substantially:
 
 ## Identity Anchor Phrases (ranked by strength)
 
-These work on any natural-language model (Nano Banana, GPT Image 2, FLUX, Imagen). For Midjourney, use `--cref <url> --cw 100` instead. For SDXL/SD3, use IP-Adapter / InstantID at the workflow level.
+These work on any natural-language model (Nano Banana, GPT Image 2 / 2.5, FLUX, Imagen). For Midjourney, use `--cref <url> --cw 100` instead. For SDXL/SD3, use IP-Adapter / InstantID at the workflow level.
 
 1. `The face must be 100% identical to the uploaded image. Do not change the face.` (strongest)
 2. `Keep the facial features of the person in the uploaded image exactly consistent.`
@@ -103,7 +103,7 @@ These work on any natural-language model (Nano Banana, GPT Image 2, FLUX, Imagen
 4. `The person from the attached image (uploaded image facial details).`
 5. `Based on the provided image, same face.` (weakest — use only for stylistic remixes)
 
-For multi-panel cross-image consistency on GPT Image 2 / Nano Banana Pro, layer in: `the same character from panel 1, identical wardrobe and hair`.
+For multi-panel cross-image consistency on GPT Image 2 / 2.5 / Nano Banana Pro, layer in: `the same character from panel 1, identical wardrobe and hair`.
 
 Repeat the anchor at the top AND near the end of long prompts.
 
@@ -182,7 +182,7 @@ Faces and postures must look like real pedestrians, not styled models.
 Phone-camera perspective, not studio perfection.
 ```
 
-Effective on GPT Image 2 and Nano Banana Pro. Imagen needs only the first sentence; FLUX usually doesn't need it.
+Effective on GPT Image 2 / 2.5 and Nano Banana Pro. Imagen needs only the first sentence; FLUX usually doesn't need it.
 
 ## Cross-Panel Consistency Pattern (Pro tier)
 
@@ -195,7 +195,7 @@ camera angle change between panels. Same lighting style, same color grade,
 same time-of-day across the series.
 ```
 
-Strongest on GPT Image 2 and Nano Banana Pro. Midjourney v7 with `--cref` works for the face but wardrobe drift is common.
+Strongest on GPT Image 2 / 2.5 and Nano Banana Pro. Midjourney v7 with `--cref` works for the face but wardrobe drift is common.
 
 ## Bento / Infographic Module Pattern (Pro only)
 
@@ -219,7 +219,7 @@ Background: {description, blur behind cards}.
 |---|---|---|
 | `[BRACKET_CAPS]` | `[CHARACTER]`, `[COLOR_THEME]`, `[SUBJECT]` | Reusable templates for humans to fill |
 | `{argument name="x" default="y"}` | `{argument name="quote" default="Stay hungry"}` | Raycast Snippets |
-| `<tag>...</tag>` | `<role>`, `<step 1>`, `<final output format>` | Multi-step meta prompts (Pro: GPT Image 2, Nano Banana Pro) |
+| `<tag>...</tag>` | `<role>`, `<step 1>`, `<final output format>` | Multi-step meta prompts (Pro: GPT Image 2 / 2.5, Nano Banana Pro) |
 | `{{mustache}}` | `{{brand}}`, `{{product}}` | Programmatic templates |
 
 Pick one convention per prompt — mixing confuses both humans and the model.

@@ -12,7 +12,7 @@
     {
       "name": "awesome-agent-skills",
       "source": "./",
-      "description": "All skills in one install: seedance-prompts, image-gen-prompts, awesome-readme, llm-wiki, social-algorithm, creative-director, ffmpeg, video-editor, public-speaking-persuasion, marketing-mba, ux-ui-expert, geo-ai-visibility, jev.",
+      "description": "All skills in one install: seedance-prompts, image-gen-prompts (incl. GPT Image 2.5), awesome-readme, llm-wiki, social-algorithm, creative-director, ffmpeg, video-editor, public-speaking-persuasion, marketing-mba, ux-ui-expert, geo-ai-visibility, jev.",
       "version": "1.9.0",
       "author": { "name": "fralapo", "url": "https://github.com/fralapo" },
       "homepage": "https://github.com/fralapo/awesome-agent-skills"
