@@ -4,7 +4,7 @@
 
 | Model | JSON | YAML | XML/`<tag>` |
 |---|---|---|---|
-| GPT Image 2 | ✅✅ best in class — heavy nested objects respected | ✅ | ✅ |
+| GPT Image 2 / 2.5 | ✅✅ best in class — heavy nested objects respected | ✅ | ✅ |
 | Nano Banana Pro | ✅ reliable | ✅ reliable | ✅ reliable |
 | Nano Banana (standard) | ⚠️ partial | ⚠️ partial | ⚠️ partial |
 | GPT Image 1 / DALL·E 3 | ⚠️ partial | ⚠️ partial | ⚠️ partial |
@@ -15,7 +15,7 @@
 | Ideogram 3 | ⚠️ partial | ⚠️ partial | ⚠️ partial |
 | Recraft v3 | ⚠️ partial | ⚠️ partial | ⚠️ partial |
 
-Default rule: use structured prompts on Pro-tier natural-language models (GPT Image 2, Nano Banana Pro). Use prose on Standard tier. Use tags/flags on Midjourney/SDXL.
+Default rule: use structured prompts on Pro-tier natural-language models (GPT Image 2 / 2.5, Nano Banana Pro). Use prose on Standard tier. Use tags/flags on Midjourney/SDXL.
 
 Use structure when:
 
@@ -189,9 +189,9 @@ Ultra-realistic 8K, natural skin texture with visible pores. Catchlights in eyes
 - **Made-up schemas.** Model has no prior for `"vibe_intensity": 0.7` — unknown keys are ignored. Stick to observable visual attributes.
 - **Wrong model.** Pasting JSON into Midjourney's `/imagine` prompts the model with the literal `{ }` characters and pollutes output. Use prose-only on Midjourney/SDXL.
 
-## GPT Image 2 — preferred JSON shape
+## GPT Image 2 / 2.5 — preferred JSON shape
 
-GPT Image 2 reliably parses heavy nested objects with these top-level keys (observed in working prompts):
+GPT Image 2 / 2.5 reliably parses heavy nested objects with these top-level keys (observed in working prompts):
 
 ```json
 {

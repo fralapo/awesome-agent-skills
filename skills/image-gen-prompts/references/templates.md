@@ -1,6 +1,6 @@
 # Universal Prompt Templates
 
-Fill-in templates per category. `[ALL_CAPS]` = replace. Each template is tested-shape — seen across multiple working prompts on Nano Banana, Nano Banana Pro, and/or GPT Image 2 community repos.
+Fill-in templates per category. `[ALL_CAPS]` = replace. Each template is tested-shape — seen across multiple working prompts on Nano Banana, Nano Banana Pro, and/or GPT Image 2 / 2.5 community repos.
 
 **Model notes per template** are inline (`Best on:` line). For Midjourney, append the appropriate `--ar`, `--v 7`, `--stylize` flags from `models/midjourney.md`. For SDXL/SD3, split into positive + negative prompts. For FLUX/Imagen, use the prose form as-is and pass aspect ratio as an API param.
 
@@ -226,9 +226,9 @@ Artistic details: [NATIVE_BIRDS], cinematic lighting, vivid colors, aerial persp
 Ultra-quality, 4K+ resolution, 1080x1080 format.
 ```
 
-## 16. Exploded-View Product Poster (GPT Image 2 / Nano Banana Pro)
+## 16. Exploded-View Product Poster (GPT Image 2 / 2.5 / Nano Banana Pro)
 
-Best on: GPT Image 2 (parses JSON nesting flawlessly), Nano Banana Pro.
+Best on: GPT Image 2 / 2.5 (parses JSON nesting flawlessly), Nano Banana Pro.
 
 ```json
 {
@@ -256,9 +256,9 @@ Best on: GPT Image 2 (parses JSON nesting flawlessly), Nano Banana Pro.
 }
 ```
 
-## 17. RAW iPhone Candid Lifestyle (GPT Image 2)
+## 17. RAW iPhone Candid Lifestyle (GPT Image 2 / 2.5)
 
-Best on: GPT Image 2 (RAW iPhone aesthetic is a strong prior). Works on Nano Banana Pro with anti-glamour clause.
+Best on: GPT Image 2 / 2.5 (RAW iPhone aesthetic is a strong prior). Works on Nano Banana Pro with anti-glamour clause.
 
 ```
 Create a completely RAW quality, unprocessed, unedited image with full iPhone camera quality.
@@ -273,7 +273,7 @@ pedestrians, not styled models. Phone-camera perspective, not studio perfection.
 
 ## 18. Multi-Panel Character Expression Sheet
 
-Best on: GPT Image 2, Nano Banana Pro. Fragile on Midjourney v6, SDXL.
+Best on: GPT Image 2 / 2.5, Nano Banana Pro. Fragile on Midjourney v6, SDXL.
 
 ```
 A [N]-panel character expression sheet for [CHARACTER_NAME], arranged in a [GRID_LAYOUT e.g. 4x4 grid].
@@ -298,7 +298,7 @@ Style: [ART_STYLE — anime / illustration / 3D render / photograph]. [Aspect ra
 
 ## 19. E-commerce Hero / Main Product Image
 
-Best on: Nano Banana Pro, GPT Image 2, FLUX Krea, Imagen 4.
+Best on: Nano Banana Pro, GPT Image 2 / 2.5, FLUX Krea, Imagen 4.
 
 ```
 A clean e-commerce main product image of [PRODUCT].
@@ -312,7 +312,7 @@ Format: 1:1 square, 1080x1080, optimized for product listing thumbnail.
 
 ## 20. YouTube Thumbnail (16:9)
 
-Best on: Ideogram 3 (best text), GPT Image 2, Nano Banana Pro, Midjourney v7.
+Best on: Ideogram 3 (best text), GPT Image 2 / 2.5, Nano Banana Pro, Midjourney v7.
 
 ```
 A high-contrast YouTube thumbnail, 16:9 landscape.
@@ -326,7 +326,7 @@ Saturated color palette, high contrast, immediate visual hook.
 
 ## 21. Game-Style In-Engine Screenshot
 
-Best on: GPT Image 2 (strong game-engine priors), Midjourney v7.
+Best on: GPT Image 2 / 2.5 (strong game-engine priors), Midjourney v7.
 
 ```
 A photorealistic in-engine screenshot from [GAME_TITLE_OR_GENRE_e.g. "a stealth-action title in the style of Hitman"].
@@ -339,7 +339,7 @@ post-process color grading.
 
 ## 22a. Packaging Design (Box / Bottle / Pouch / Tube / Can / Wrapper)
 
-Best on: Midjourney v7, GPT Image 2, Ideogram 3 (when typography is the hero), FLUX Krea (photoreal materials).
+Best on: Midjourney v7, GPT Image 2 / 2.5, Ideogram 3 (when typography is the hero), FLUX Krea (photoreal materials).
 
 ```
 A photorealistic studio product shot of [PRODUCT_TYPE — bottle / box / pouch / tube / can / jar]
@@ -362,7 +362,7 @@ For Midjourney, append: ` --ar 1:1 --stylize 250 --v 7`. For SDXL/SD3, split off
 
 ## 22b. Mockup Family (T-shirt / Hoodie / Mug / Phone Case / Tote / Cap / Sticker / Poster on Wall / Billboard / Business Card / Magazine Spread / Book Cover / Screen Mockup / Shopping Bag / Menu / Brochure / Notebook / Gift Box)
 
-Best on: GPT Image 2 (preserves uploaded design fidelity well via natural language), Midjourney v7, Ideogram 3 (text-heavy mockups).
+Best on: GPT Image 2 / 2.5 (preserves uploaded design fidelity well via natural language), Midjourney v7, Ideogram 3 (text-heavy mockups).
 
 Pick the slot:
 
@@ -395,12 +395,12 @@ content distortion is not).
 ```
 
 For Midjourney with an uploaded design ref: append `--cref <design_url> --cw 100 --ar <ratio> --v 7`.
-For GPT Image 2 / Nano Banana: upload the design image and add "preserve the design from the attached image exactly — proportions, colors, and details unchanged".
+For GPT Image 2 / 2.5 / Nano Banana: upload the design image and add "preserve the design from the attached image exactly — proportions, colors, and details unchanged".
 For Ideogram 3: ensure literal text is wrapped in double quotes and use `style_type: DESIGN`.
 
 ## 22c. Style-to-UI Design System (Reference-driven UI mockup)
 
-Best on: GPT Image 2 (parses "use this image as reference for style and color grading"), Nano Banana Pro.
+Best on: GPT Image 2 / 2.5 (parses "use this image as reference for style and color grading"), Nano Banana Pro.
 
 ```
 Create a hyper-realistic UI/UX mockup of [PRODUCT_OR_APP_TYPE] displayed on [DEVICE — slim modern laptop / iPhone / iPad / 4K monitor],
@@ -419,7 +419,7 @@ Realistic device materials. No moiré on the screen. No text artifacts. Typograp
 
 ## 22d. Livestream / Gacha-Game UI Screenshot
 
-Best on: GPT Image 2 (very strong prior for Douyin / TikTok / X / gacha UIs).
+Best on: GPT Image 2 / 2.5 (very strong prior for Douyin / TikTok / X / gacha UIs).
 
 ```
 A hyper-realistic screenshot of [PLATFORM — Douyin livestream / TikTok / X / Twitch / mobile gacha game].
@@ -436,7 +436,7 @@ Crisp UI typography in [LANGUAGE]. Authentic platform color scheme and iconograp
 
 ## 22e. Character Reference Card (Game / Anime / IP Sheet)
 
-Best on: GPT Image 2 (parses panel-and-stat layouts), Nano Banana Pro.
+Best on: GPT Image 2 / 2.5 (parses panel-and-stat layouts), Nano Banana Pro.
 
 ```
 Create an official character reference card for [CHARACTER_NAME], laid out [LAYOUT_DESCRIPTION —
@@ -462,7 +462,7 @@ Color palette: [HEX_OR_NAMED]. [Aspect ratio, e.g. 3:4].
 
 ## 22g. Sticker / Emoji-Style Asset Pack
 
-Best on: GPT Image 2, Nano Banana Pro, Ideogram 3, Recraft v3 (vector). Source: `marc-aurele-besner/prompts` Case 23 + community extensions.
+Best on: GPT Image 2 / 2.5, Nano Banana Pro, Ideogram 3, Recraft v3 (vector). Source: `marc-aurele-besner/prompts` Case 23 + community extensions.
 
 ```
 Create a set of [N] sticker designs for a [USE_CASE — messaging app / brand merch / Telegram pack].
@@ -476,7 +476,7 @@ For ChatGPT: please include a gen_id with the set.
 
 ## 22h. App / Favicon / Mobile Game Icon
 
-Best on: GPT Image 2, Nano Banana Pro, Recraft v3 (icon style preset).
+Best on: GPT Image 2 / 2.5, Nano Banana Pro, Recraft v3 (icon style preset).
 
 ```
 Design an app icon for [APP_NAME — describe the app's core function].
@@ -491,7 +491,7 @@ For ChatGPT: please include a gen_id.
 
 ## 22i. Architectural Rendering / Real-Estate Hero Image
 
-Best on: GPT Image 2, FLUX Krea, Imagen 4, Midjourney v7.
+Best on: GPT Image 2 / 2.5, FLUX Krea, Imagen 4, Midjourney v7.
 
 ```
 Create a photorealistic architectural rendering of [BUILDING_TYPE — modern eco-house /
@@ -507,7 +507,7 @@ Output at [4000x3000 / 16:9 widescreen]. Sharp detail, natural soft shadows.
 
 ## 22j. Scientific / Medical Diagram
 
-Best on: GPT Image 2 (best at labels + accuracy), Nano Banana Pro.
+Best on: GPT Image 2 / 2.5 (best at labels + accuracy), Nano Banana Pro.
 
 ```
 Illustrate the [SUBJECT — anatomy of the human heart / water cycle / cell mitosis] for an
@@ -522,7 +522,7 @@ Spelling of medical terminology must be exact. No invented organs or processes.
 
 ## 22f. JSON-Recreate-From-Image (Pro tier)
 
-Best on: GPT Image 2 (strong "analyze + structured-recreate" prior).
+Best on: GPT Image 2 / 2.5 (strong "analyze + structured-recreate" prior).
 
 Two-step prompt: ask the model to analyze, then render the JSON it produces.
 
@@ -537,7 +537,7 @@ character. Do not introduce new objects.
 
 ## 23. Knowledge Card / Educational Infographic (Pro)
 
-Best on: GPT Image 2 (dense Chinese typography), Nano Banana Pro.
+Best on: GPT Image 2 / 2.5 (dense Chinese typography), Nano Banana Pro.
 
 ```
 A clean educational knowledge card on the topic "[TOPIC]", [LANGUAGE] copy.
