@@ -1,6 +1,6 @@
 ---
 name: geo-ai-visibility
-description: "GEO (Generative Engine Optimization) / AI Visibility knowledge base: how to get content cited and mentioned by ChatGPT Search, Perplexity, Google AI Overviews/AI Mode, Copilot, and Gemini. Covers the founding GEO research (Princeton/Georgia Tech paper, technique impact data), how generative answer engines retrieve/rank/cite sources (RAG pipelines), concrete optimization techniques (quotation/statistics addition, structured data, entity-based content, llms.txt), AI-visibility measurement tooling (Profound, Peec AI, Otterly.AI, AthenaHQ), GEO vs. traditional SEO, case-study data (zero-click search, citation concentration), and cross-source consensus/best-practice checklists distilled from GEO research and practitioner videos. Use when planning content/site strategy for AI answer engines, auditing a page or article for AI citability, explaining GEO/AEO/LLMO terminology, choosing an AI-visibility tracking tool, or reasoning about why content does/doesn't get cited by an LLM-based search product."
+description: "GEO (Generative Engine Optimization) / AI Visibility knowledge base: how to get content cited and mentioned by ChatGPT Search, Perplexity, Google AI Overviews/AI Mode, Copilot, and Gemini. Covers the founding GEO research (Princeton/Georgia Tech paper, technique impact data), how generative answer engines retrieve/rank/cite sources (RAG pipelines), concrete optimization techniques (quotation/statistics addition, structured data, entity-based content, llms.txt), AI-visibility measurement tooling (Profound, Peec AI, Otterly.AI, AthenaHQ), GEO vs. traditional SEO, case-study data (zero-click search, citation concentration), and cross-source consensus/best-practice checklists distilled from GEO research and practitioner videos. Use when planning content/site strategy for AI answer engines, auditing a page or article for AI citability, explaining GEO/AEO/LLMO terminology, choosing an AI-visibility tracking tool, reasoning about why content does/doesn't get cited by an LLM-based search product, or diagnosing why an AI assistant recommends a competitor instead of a local business/agency (entity disambiguation, \"service + city\" query coverage, entity reinforcement, Organization/LocalBusiness/Service schema with sameAs, NAP consistency, third-party corroboration, competitor gap analysis)."
 allowed-tools:
   - Read
   - Grep
@@ -33,6 +33,7 @@ relevant chapter file before answering.
 - `chapters/05-case-study-dati.md` — dati, statistiche, casi studio
 - `chapters/06-checklist-best-practice.md` — checklist e anti-pattern
 - `chapters/07-video-insights-consenso.md` — consenso e divergenze cross-fonte da ricerca video
+- `chapters/08-entity-geo-locale-caso-agenzie.md` — entity GEO per business locali di servizi: caso Magnet vs Bliss, perché un LLM consiglia un'agenzia e non un'altra, gap analysis sul concorrente
 
 See also `cheatsheet.md` (audit checklist), `glossary.md` (terminologia), `patterns.md` (procedura di audit).
 
@@ -56,6 +57,8 @@ See also `cheatsheet.md` (audit checklist), `glossary.md` (terminologia), `patte
 
 **Citation concentration**: a realistic-expectations note — an aggregated study of 680M+ citations found the top 1% of cited domains (~12 sites: Wikipedia, Reddit, Forbes, Healthline, Investopedia, NYT, and large .gov/.edu domains) capture 47% of all AI citations (`chapters/05-case-study-dati.md`).
 
+**Retrieval before persuasion (local services)**: an LLM recommends the business its retrieval returns with enough corroboration, not the "best" one. In the Magnet vs Bliss case, an agency with a stronger portfolio never appeared in "agency + service + Milan" answers while a competitor appeared even when the city changed, because the competitor had a literal page or section for every "service + city" phrasing, the same entity definition in every footer, textual case studies, author pages, and fresh informational content. The excluded agency had an ambiguous name, a brand-first hero with no who/where/what sentence, gallery-style portfolio, and almost no third-party sources. Fix order: disambiguate the entity and align NAP and description everywhere, add third-party corroboration, add schema with a shared `@id`, then rework the service pages, and lead with a vertical niche where you have real credentials. Avoid doorway pages and self-ranking listicles (`chapters/08-entity-geo-locale-caso-agenzie.md`).
+
 ---
 
 ## Supporting Files
@@ -66,4 +69,4 @@ See also `cheatsheet.md` (audit checklist), `glossary.md` (terminologia), `patte
 
 ## Scope & Limits
 
-This skill covers GEO/AI-visibility strategy and research: how generative answer engines retrieve and cite sources, concrete content/technical optimization techniques, AI-visibility measurement tooling, and cross-source consensus on best practice. It does not cover hands-on implementation of schema markup, CMS-specific publishing workflows, or general SEO practice beyond what's needed to understand GEO as a layer on top of it — check a dedicated SEO skill or tool documentation for that.
+This skill covers GEO/AI-visibility strategy and research: how generative answer engines retrieve and cite sources, concrete content/technical optimization techniques, AI-visibility measurement tooling, and cross-source consensus on best practice. It does not cover hands-on implementation of schema markup, CMS-specific publishing workflows, or general SEO practice beyond what's needed to understand GEO as a layer on top of it — check a dedicated SEO skill or tool documentation for that. Chapter 08 does list the schema properties and NAP fields that matter for local entity disambiguation, as a checklist rather than an implementation guide.

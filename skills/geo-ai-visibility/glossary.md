@@ -20,7 +20,13 @@
 
 **Cross-web consensus** — the pattern by which LLMs infer a brand's authority from independent third-party sources repeating the same claim; without such consensus, the model cannot "verify" a brand and won't recommend it, regardless of on-site content quality (Ch3, Ch6, Ch7).
 
+**Doorway page** — a near-duplicate landing page created only to rank for a keyword variant (e.g. one "agency X city" page per city or service with the same content); it cannibalizes the real service page and is treated as spam, so city sections should match a real presence (Ch8).
+
 **E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)** — Google's classic SEO authority framework, now also treated as a guiding principle for GEO even though it is not a directly measurable ranking factor (Ch3).
+
+**Entity disambiguation** — making it unambiguous which real-world organization a name refers to (full name instead of a generic short form, `alternateName`, `sameAs`, consistent NAP), so a generative engine can attach services and proofs to the right entity (Ch8).
+
+**Entity reinforcement** — repeating the same one-sentence entity definition (name + category + location + services), usually in the site footer, so every crawled URL carries the full entity description (Ch8).
 
 **Entity-based content** — structuring content so it clearly identifies and explains the key entities (people, places, concepts, products) relevant to a topic, with consistent naming of the brand/entity across the site and external profiles (Ch3).
 
@@ -36,7 +42,11 @@
 
 **Model Context Protocol (MCP)** — a complementary standard to llms.txt that lets AI agents take action on a site (e.g., check real-time inventory, place an order) rather than only read it (Ch3).
 
+**NAP consistency** — identical Name, Address and Phone (plus the same short description) across the site, Google Business Profile, LinkedIn and directories; a core local-entity signal (Ch8).
+
 **PAWC (Position-Adjusted Word Count)** — one of the two metrics proposed in the founding GEO paper: a word count of cited content weighted with exponential decay by citation position within the answer, so citations near the top of the answer count more (Ch1).
+
+**Query coverage** — having a dedicated indexable surface (page or explicit section) for each commercial phrasing a user might search, such as "studio grafico Milano" or "web agency Roma"; the main reason one business appears in AI answers across many query variants (Ch8).
 
 **Query fan-out** — the mechanism by which a generative engine (notably Google AI Overviews/AI Mode) splits a single user query into multiple sub-queries and cites pages that recur across the sub-query results, which decouples AI citation from classic top-10 ranking (Ch1, Ch2).
 
