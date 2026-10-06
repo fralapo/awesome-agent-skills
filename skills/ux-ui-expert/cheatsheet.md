@@ -147,6 +147,30 @@ Inputs also need: Focus, Error, sometimes Warning
 ## Typography Quick Rule
 1 typeface is enough. ~6 font sizes max for landing pages/websites; narrower range (rarely >24px) for dense dashboards. Tighten letter-spacing ~-2 to -3% and line-height ~110-120% on large headlines.
 
+## The 9 UI/UX Typography Laws
+| # | Law | Rule of thumb |
+|---|---|---|
+| 1 | Hierarchy | Size/weight/color contrast decides what's read first |
+| 2 | Spacing (proximity) | Close = related; far = separate — fix ambiguous grouping with gap, not labels |
+| 3 | Line height | Scale down as size goes up: body ~1.4-1.5×, subhead ~1.3×, large heading ~1.1-1.2× |
+| 4 | Chunking | Short paragraphs + sub-headers + white space, not one dense block |
+| 5 | Serial position effect | Front-load context, middle = support, end = decision/CTA |
+| 6 | Font choice/pairing | 1 family default; 2 max with shared x-height/proportions; 3 only if you know why |
+| 7 | Line length (measure) | 45-75 characters/line, sweet spot ~60-65 (~600-700px at 16px body) |
+| 8 | Alignment | Left-align body text by default; center only for ≤3-4 lines |
+| 9 | Contrast (WCAG) | 4.5:1 normal text, 3:1 large text (≥24px regular / ≥18px bold) — check manually |
+
+## UX Writing — 3 C's
+Clear (understood on first read) → Concise (fits the space) → Useful (gives a next action). Revise in that order: "Something went wrong" is clear+concise but not useful.
+
+## Widows vs. Orphans
+| | Which line | Where it lands | Mnemonic |
+|---|---|---|---|
+| Widow | Last line of paragraph | Alone at start of next page/column | "Has a past, no future" |
+| Orphan | First line of paragraph | Alone at end of previous page/column | "Has a future, no past" |
+
+Baseline fix for long text: `orphans: 2; widows: 2;` + `text-wrap: pretty` (paragraphs) + `text-wrap: balance` (headings); sparing `&nbsp;` or `<span style="white-space:nowrap">` on a heading's last two words for the rest. Matters most in paginated/print/column layouts; in continuous-scroll web it mainly shows up as a stranded last word in a reflowed heading.
+
 ## Spacing Rule
 Use a base-unit system (4px or 8px multiples) for all spacing values — keeps every measurement evenly divisible and consistent.
 

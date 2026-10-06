@@ -144,3 +144,18 @@
 **When to use**: a navigation, menu, or settings screen exposes many valid options at once and users report feeling stuck or unsure where to start.
 **How**: diagnose whether the problem is option count (choice overload) or information density (cognitive overload) — they need different fixes; for choice overload, reduce the visible option set via filtering, search, or categorization (progressive disclosure of options), rather than just reformatting or visually simplifying the same full list.
 **Trade-offs**: hiding options behind filters/categories can bury a option a power user wanted immediately visible — balance against providing a clear "see all" or search escape hatch.
+
+## Applying the 9 Typography Laws to a Layout
+**When to use**: reviewing or building any text-heavy screen (landing page, article, dashboard, pricing card) for readability and polish.
+**How**: work in reading order — (1) set hierarchy via size/weight/color contrast; (2) fix spacing so proximity matches logical grouping (heading-to-paragraph gap, label-to-input gap); (3) scale line-height down as font-size goes up (body ~1.4-1.5×, large headings ~1.1-1.2×); (4) chunk dense text into short paragraphs/sub-headers; (5) place key info first, decision/CTA last (serial position effect); (6) limit to 1-2 typefaces with a real pairing rationale; (7) cap line length at 45-75 characters; (8) left-align body text, reserve center for ≤3-4 lines; (9) verify WCAG contrast (4.5:1 / 3:1) manually.
+**Trade-offs**: running the full checklist on every screen is overkill for simple UI (a button, a badge) — reserve it for text-dense surfaces where reading comfort is the actual product.
+
+## Revising Copy with the UX Writing 3 C's
+**When to use**: writing or reviewing any product copy — error messages, empty states, button labels, onboarding text.
+**How**: revise in order, not simultaneously — first make it Clear (would a first-time reader understand it with no other context?), then Concise (cut everything the space doesn't need), then Useful (does it tell the user what to do next?). A draft that's clear and concise but has no next action ("Something went wrong") still fails and needs a usefulness pass.
+**Trade-offs**: optimizing concision too early can cut context a user actually needed to understand the message — always finish the clarity pass first.
+
+## Preventing Widows and Orphans in UI Text
+**When to use**: any paginated, printed, multi-column, or card-truncated layout, or a heading that might reflow awkwardly on narrower viewports.
+**How**: for paragraphs that fragment across pages/columns, set `orphans: 2; widows: 2;` in CSS and add `text-wrap: pretty`; for headings, add `text-wrap: balance` first; if a single word still strands itself, join the last two words with `&nbsp;` or wrap them in `<span style="white-space: nowrap">`; if none of that reads cleanly, shorten the text or adjust the container width instead of forcing a markup fix. Re-check at every breakpoint — reflow creates new widows/orphans that a static design file won't show.
+**Trade-offs**: `orphans`/`widows` CSS only fires where content actually breaks across pages/columns (no effect on continuous scroll); overusing `&nbsp;` across long text can relocate the problem instead of fixing it — reserve it for titles, labels, and fixed units.
