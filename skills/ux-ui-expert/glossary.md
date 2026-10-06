@@ -172,4 +172,26 @@
 
 **Von Restorff Effect (Isolation Effect)** — an item that stands out from a set of otherwise-similar items is disproportionately remembered; deliberately isolating the one or two most important UI elements leverages this instead of equally weighting everything (Ch20)
 
+**Widow** — the last line of a paragraph left isolated alone at the start of the next page or column; mnemonic "has a past, but no future" (Ch21)
+
+**Orphan** — the first line of a paragraph left isolated alone at the end of the previous page or column; mnemonic "has a future, but no past" (Ch21)
+
+**Gestalt Proximity** — the perceptual principle that spatially close elements are read as related and distant ones as separate, independent of content; the mechanism behind spacing-based hierarchy (Ch21)
+
+**Miller's Law** — people can hold only a limited number of information chunks in working memory at once; the rationale for breaking dense text into short paragraphs and sub-headers (Ch21)
+
+**Serial Position Effect** — disproportionate recall of the first and last items in a sequence, with the middle skimmed; used to decide where to place context vs. supporting detail vs. a decision point (Ch21)
+
+**Measure (typography)** — the length of a line of text, in characters or pixel width; kept to ~45-75 characters per line for comfortable reading (Ch21)
+
+**WCAG Contrast Ratio** — the minimum measurable contrast between text and background luminance required for accessibility: 4.5:1 for normal text, 3:1 for large text (Ch21)
+
+**Microcopy** — small, high-frequency UI text (button labels, error messages, empty states, tooltips) that carries disproportionate UX weight relative to its length (Ch21)
+
+**UX Writing (3 C's)** — the Clear → Concise → Useful framework for revising product copy, applied in that order (Ch21)
+
+**UX Writer** — a role, formalized around 2013 (first hired at Google), responsible for a product's tone/voice/style and content testing; the underlying skill applies to anyone editing UI copy, not only title-holders (Ch21)
+
+**Non-Breaking Space (NBSP)** — a space character (`&nbsp;`, U+00A0) that prevents a line break between the words it joins; used sparingly between a heading's last two words to prevent a widow (Ch21)
+
 **Within-Subjects Design** — experimental design where each participant experiences all conditions (Ch9)
