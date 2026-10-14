@@ -6,7 +6,7 @@
   A small, opinionated set of agent skills I actually use.
   Each one is mined from a real corpus (community awesome-lists, official docs, books, field notes), anywhere from a couple hundred examples to tens of thousands. None of it written from imagination.
   <br>
-  Built on <a href="https://docs.claude.com/en/docs/claude-code/skills">Claude Code's skill format</a>, installable as a plugin and usable by any agent that reads <code>SKILL.md</code>.
+  Built on <a href="https://docs.claude.com/en/docs/claude-code/skills">Claude Code's skill format</a>, installable as a plugin, and usable by any agent that reads <code>SKILL.md</code> — including <a href="https://developers.openai.com/codex/skills">OpenAI Codex CLI</a>, which this repo also ships ready-to-discover folders for.
 </p>
 
 <p align="center">
@@ -25,6 +25,7 @@
 - [Install](#install)
   - [Plugin marketplace (recommended)](#plugin-marketplace-recommended)
   - [Manual (symlink or copy)](#manual-symlink-or-copy)
+  - [Codex CLI (OpenAI)](#codex-cli-openai)
 - [How a skill is organized](#how-a-skill-is-organized)
 - [How I build them](#how-i-build-them)
 - [Contributing](#contributing)
@@ -123,6 +124,30 @@ done
 
 Restart the agent after install. Most tools load skills at startup.
 
+### Codex CLI (OpenAI)
+
+Every `SKILL.md` here already uses the two fields [Codex's skill format](https://developers.openai.com/codex/skills) requires — `name` and `description` — so no content changes were needed. Codex just needs the folders somewhere it scans. This repo ships the symlinks already: `.agents/skills/<skill>` at repo root, one per skill, pointing at `skills/<skill>`.
+
+**Project-scoped (works as soon as you clone):**
+
+```sh
+git clone https://github.com/fralapo/awesome-agent-skills.git
+cd awesome-agent-skills
+codex   # Codex scans ./.agents/skills automatically
+```
+
+**Global, for use from any directory:**
+
+```sh
+git clone https://github.com/fralapo/awesome-agent-skills.git ~/src/awesome-agent-skills
+mkdir -p ~/.agents/skills
+for d in ~/src/awesome-agent-skills/.agents/skills/*/; do
+  ln -s "$(readlink -f "$d")" ~/.agents/skills/"$(basename "$d")"
+done
+```
+
+Run `/skills` (or type `$`) inside Codex to confirm they loaded; restart Codex if a skill you just added doesn't show up. See Codex's docs for the full list of scan paths (repo, user, admin, system) and how to disable a skill via `~/.codex/config.toml`.
+
 ---
 
 ## How a skill is organized
@@ -140,7 +165,7 @@ Some skills carry extra on-demand files alongside or instead of `references/`: a
 
 The frontmatter `description` field is the matcher. Keep it specific and keyword-dense; the agent uses it to decide whether to load the skill at all.
 
-The whole repo also ships as one installable plugin; see [Install](#install). The plugin manifests live in `.claude-plugin/` (`plugin.json` bundles every skill, `marketplace.json` lists it).
+The whole repo also ships as one installable plugin; see [Install](#install). The plugin manifests live in `.claude-plugin/` (`plugin.json` bundles every skill, `marketplace.json` lists it). For Codex CLI, `.agents/skills/<skill>` at the repo root is a symlink to the matching `skills/<skill>` folder — same content, no duplication, just a second, Codex-scanned path to the same files.
 
 ---
 
