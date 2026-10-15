@@ -70,7 +70,21 @@ Chain-of-identity tokens that hold a subject stable across shots:
 - For referenced input: `参考@图片1的男人形象` (reference man-identity from image 1)
 - Pair with physical anchors: specific clothing, hair, accessory — `dark blue linen outfit`, `wooden hairpin`, `loose school uniform collar`
 
-Reinforce in **each shot** if drift observed.
+Reinforce in **each shot** if drift observed — but note the stronger corpus finding below: reinforcing drift fixes it short-term but restating full wardrobe/hairstyle text per shot is itself a drift trigger over longer clips. Prefer locking once (see Timing & Negative-List Discipline) and only repeat a short named anchor (`same blue jacket`), not the whole description.
+
+### Token + Inherit / Do-Not-Inherit (stronger identity-lock pattern)
+
+The highest-reliability identity lock splits references by role, names each with a token, and pairs an **inherit** list with a **do-not-inherit** list:
+
+```
+@image1 = the woman (identity reference)
+INHERIT: identity, face shape, skin tone, apparent age, hairstyle, hair color,
+height, build, body proportion, each clothing item named, footwear, accessories.
+DO NOT INHERIT: background, room, furniture, original pose, camera angle/framing,
+original lighting, any text in the reference.
+```
+
+Without the do-not-inherit clause, the reference's background/pose/composition leak into the output — this is the single most common identity-lock failure in the corpus. For a UI/scene reference, separate **composition lock** (which image defines framing) from **design lock** (which image defines look only) the same way. A sketch/illustration reference needs an explicit render instruction (`use only as design blueprint, render as fully realistic live-action humans`) or the line-art survives into the video.
 
 ## Multi-Modal Reference Syntax
 
@@ -113,6 +127,29 @@ Key phrases that work:
 - `whispers "..."`
 - `stutters in response, "..."`
 - `(Subtitle: ...)` for on-screen text
+
+### Causal Reaction Chain (stronger pattern for emotional beats)
+
+Listing facial parts separately ("eyebrows raise, eyes widen, mouth opens") produces sticker-style switching — expressions that snap rather than flow. Write the reaction as a **causal chain** instead: hears it → brief pause to understand → expression starts to shift → body follows → residue of the previous expression lingers → next state.
+
+```
+{Character} hears the line, a beat of stillness while it registers, then {one
+expression beat} starts to form, {one body beat} follows a fraction later, the
+previous {expression} still fading at the edges as the new one settles. "{line}"
+```
+
+Close every beat with an explicit **end-state line** so the next beat has a defined starting point (`ending state: ...` / `終了状態: ...`) — this matters both for multi-shot continuity (pattern above) and for dialogue scenes specifically.
+
+For a physical "tell" (blushing, nervousness, shyness), specify *behavior*, not the symptom: asking for "a blush" yields a flat pink filter; asking for "eyes look away, mouth corner slips, speech slows, hand pauses" yields the actual emotion.
+
+### Dialogue Discipline (from retest corpus)
+
+- Declare language **before** the line, on its own line: `セリフ言語: 日本語` / `Natural English dialogue only`. Wrap the line in quotes/braces so it isn't read as scene description.
+- With an uploaded audio reference (`@audio1`, Seedance 2.5): state that lip-sync follows the actual vocal in the audio, not the written text; require closed lips during instrumental passages; restrict lip-sync to **one** performer per beat so background characters don't start mouthing too.
+- One line per beat, under ~8 words in a 2-5s segment — longer lines desync lip-sync before anything else breaks.
+- Two characters speaking in the same beat splits the lip-sync budget — give one the line, the other a physical reaction.
+- Proper nouns and digits are the least reliable part of a generated line — move brand names/numbers to on-screen text added in post rather than spoken dialogue.
+- For continuous dialogue scenes, add an explicit `no silent moments and no voice-over` — otherwise the model can deliver music over a moving mouth instead of synced speech.
 
 ## Sound Design Pattern
 
@@ -186,3 +223,15 @@ Quick-look labels recurring across the corpus:
 | Anime battle | `Figure 1 vs Figure 2, motion lines, speed blur, impact frames` |
 | Modern rural ASMR | `Sony A7S3, Extreme Macro, natural transparent lighting, healing ASMR` |
 | Haute couture fantasy | `Unreal Engine 5 fluid rendering, 8K, visual illusion, liquid porcelain` |
+| POV / bodycam | `chest-mounted, non-empty opening frame, FOV breathing, no-drift clause` |
+| Retro found-footage | `early-2000s DV, autofocus hunting, accidental zooms, no stabilization` |
+| Stop motion | `animated on twos, 12fps, snap not glide, no smooth interpolation` |
+| Game UI / livestream | `fixed full-screen HUD, FOV breathing, HUD text ≠ dialogue language` |
+
+## Timing & Negative-List Discipline
+
+Two structural rules that separate the strongest prompts from the rest of the corpus, independent of category:
+
+**Timing.** Segments should run 2–5 seconds (2s for documentary tracking, 3s for ads, sub-second only with an audio anchor). Write **closed intervals that touch end to end** (`0-4s`, `4-8s`...) and make them **sum exactly** to the stated duration — a stated duration with gaps makes the model stretch the last beat to fill it; half the corpus states a duration but doesn't segment it, and those clips visibly drift after ~6 seconds. Give each segment exactly one main action; two actions in one segment get half-finished at both ends. Hand state over between segments explicitly — write an opening-state / main-event / ending-state triplet per beat so the next beat has a defined start.
+
+**Negative / exclusion lists.** Keep the negative block in **one place**, after the timeline, so it applies to the whole clip — burying it inside one segment only protects that segment. Tune the list to the failure mode of the category, not a generic list: anime needs the *adjacent-style* exclusion (flat cel shadow, generic 3D pretty-girl face, semi-photoreal); stop-motion needs the mandatory trio (`no smooth interpolation, no motion blur, no morphing`); product/UGC shots need `realistic hands` stated positively (hands are where finger-count fails during handling); any shot with on-screen type needs `no garbled text / no rendered logo — leave a clean tail frame` since generated typography rarely comes out clean.

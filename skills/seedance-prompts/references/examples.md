@@ -214,9 +214,42 @@ Negative: blur, low-res, noise, watermark, text, warping, deformation, stiff mot
 
 ---
 
+## M. POV/Bodycam — GoPro Fishing (non-empty opening frame, FOV discipline)
+
+**Category**: POV / Continuous Take | **Pattern source**: LearnPrompt/awesome-seedance corpus — "First-person continuous take" template (illustrative prompt built from the documented structure, not a verbatim corpus quote)
+
+```
+SCENE CONTEXT: A fisherman, chest-mounted action cam, 15 seconds.
+ACTIVE REFERENCES: @location1 = river bend at dawn, @hands1 = forearms, rod, tackle box.
+FIRST FRAME: non-empty opening frame — already mid-cast, rod raised, line already peeling off the reel.
+FORMAT MODE: A 0-9s river bank, one continuous take, HARD CUT. B 9-15s boat deck, one continuous take. Camera cuts nowhere else.
+OPTICS: FOV 84° easing to 63° through the fight with the fish. No drift within any segment.
+The camera itself is never visible. Right hand on the reel, left hand on the rod.
+Audio: river current, reel clicking, line tension creak. No music.
+```
+
+---
+
+## N. Retro Found-Footage — Seoul Summer Evening (small incident, defect list)
+
+**Category**: Retro Found Footage | **Pattern source**: LearnPrompt/awesome-seedance corpus — "Early-2000s DV home video" template (illustrative)
+
+```
+15 seconds, SD resolution, early-2000s DV home-video format.
+MAIN SUBJECT: woman in her 20s, shoulder-length hair, yellow sundress. Maintain the same face, hairstyle, clothing, body proportions.
+SETTING: quiet residential alley at golden hour — potted plants on windowsills, a utility pole, laundry hanging between buildings. No tourist attractions, ads, recognizable brands.
+CAMERA: autofocus hunting on the plants, one accidental zoom-in, drifting composition. No stabilization, no cinematic moves.
+[00-06s] She waters the plants, a cat crosses behind her, she laughs and says "Did you see that?"
+[06-12s] She walks toward the camera, a motorbike passes in the background.
+[12-15s] The recording abruptly cuts to black.
+AUDIO: footsteps, distant traffic, cicadas. No music.
+```
+
+---
+
 ## Cross-Cut Observations
 
-Observing across these 12 prompts:
+Observing across these 14 prompts:
 
 1. **Every prompt ≥ 10s uses 3 timecoded shots.** Never 2, rarely 4.
 2. **Micro-detail clauses compound per-line** (see D, E, F). 5–8 details is the zone.
