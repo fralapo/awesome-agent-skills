@@ -106,6 +106,39 @@ Terms extracted from 195+ prompts that Seedance 2.0 handles cleanly. Mixing EN/C
 - `subtitle appears: "..."`
 - `voiceover references @audio1`
 
+## POV / Bodycam Optics
+
+- `chest-mounted`, `POV chest-to-eye height` — mount + height, so shake is implied rather than described
+- `non-empty opening frame` — refuse a dead first second; start already mid-action
+- `FOV {X}° easing to {Y}°` — pin field of view per segment in degrees
+- `no drift within any segment` — pairs with the FOV spec above
+- `wide-angle distortion at the edges`, `vertical bob from walking`, `motion blur on fast head turns`
+- `the camera itself is never visible` — the operator's own face/body must not appear in frame
+- `one continuous take` vs `HARD CUT` — declare explicitly where cuts fall; everything else is one take
+
+## Retro Camcorder / Found-Footage Defects
+
+- `autofocus hunting`, `exposure shifts`, `exposure breathing`, `accidental zooms`, `drifting composition`, `uneven zooms`, `occasional accidental face cropping`
+- `no stabilization, drone footage, gimbal movement` — ban modern smoothing explicitly
+- Gear-era anchors: `MiniDV camcorder`, `VHS`, `16mm`, `early-2000s DV`, `iPhone 16 Pro` (a named device carries a whole optical signature that "realistic" alone does not)
+- `no cinematic emulation, no beauty filter, no skin smoothing` — switch off polish by hand
+
+## Stop-Motion Cadence
+
+- `True {N}fps, ANIMATED ON TWOS` — pin frames-per-second and hold-count numerically
+- `snapping to the next pose, never gliding`
+- Mandatory negative trio: `no smooth interpolation`, `no motion blur`, `no morphing`
+- `perfectly locked top-down overhead, no camera movement` (tabletop) — lock the rig, let only the subject change
+- `uneven handmade edges`, `tiny positional jitter between poses`, `occasional one-frame motion smear`, `painterly boil in outlines`
+
+## Game UI / HUD Overlay
+
+- `fixed full-screen game HUD throughout` — layout never changes, only the values on it
+- `FOV breathing {X}–{Y}°` — third-person follow-camera field-of-view range
+- Named fixed zones: `top-left`, `top-center`, `top-right`, `bottom-left`, `bottom-right` (stamina/health, objective banner, date/score, minimap, button prompts/facecam)
+- Banner text discipline: 2–4 capitalized words, numbers as `N/M` — longer HUD strings render garbled
+- `exactly one hard cut at {N}s` — only acceptable "edit" on HUD/gameplay captures; otherwise no cuts, no transitions
+
 ## Negative-Prompt Catalog (CN-idiomatic)
 
 Copy whichever applies to tail of prompt (format: `排除：a, b, c`):
