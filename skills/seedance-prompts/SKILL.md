@@ -1,7 +1,7 @@
 ---
 name: seedance-prompts
-description: Write production-grade prompts for ByteDance Seedance 2.0/2.5 video generation. Use when the user wants to generate videos with Seedance, needs prompt templates for cinematic/anime/commercial/UGC/short-drama/VFX/POV-bodycam/found-footage/pets/stop-motion/game-UI/fashion/food-ASMR/horror styles, asks about multi-modal references (@图片/@视频/@audio), shot-by-shot timecoded storyboards, camera move vocabulary, character/scene consistency (identity locks), storyboard-grid-to-video, or video extension/continuity. Triggers on keywords: seedance, seedance 2.0, seedance 2.5, 即梦, bytedance video, text-to-video prompt.
-version: 1.1.0
+description: "Write production-grade prompts for ByteDance Seedance 2.0/2.5 video generation. Use when the user wants to generate videos with Seedance, needs prompt templates for cinematic/anime/commercial/UGC/short-drama/VFX/POV-bodycam/found-footage/pets/stop-motion/game-UI/fashion/food-ASMR/horror styles, asks about multi-modal references (@图片/@视频/@audio), shot-by-shot timecoded storyboards, camera move vocabulary, character/scene consistency (identity locks), storyboard-grid-to-video, or video extension/continuity. Triggers on keywords: seedance, seedance 2.0, seedance 2.5, 即梦, bytedance video, text-to-video prompt."
+version: 1.1.1
 source: local-git-analysis
 analyzed_repos:
   - github.com/ZeroLu/awesome-seedance
