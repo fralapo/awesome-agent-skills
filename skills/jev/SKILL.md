@@ -1,6 +1,6 @@
 ---
 name: jev
-description: Use the real JEV model (TypeSafe's System One decision model) via OpenRouter for fast, cheap, typed decisions — boolean/noul, choice, score — instead of burning a full LLM turn on classification, routing, filtering, or triage. Trigger whenever a task reduces to "yes/no", "pick one of N", or "rate on a scale" over some text/state: ticket routing, content moderation gates, file/document triage, resume screening, sentiment scoring, tool/skill selection, web-scrape link picking, context-pruning decisions, guardrail checks. NOT for text generation, summarization, free-form extraction, or multi-step reasoning — JEV can only answer with a boolean, one of a fixed list, or a number on a scale.
+description: "Use the real JEV model (TypeSafe's System One decision model) via OpenRouter for fast, cheap, typed decisions — boolean/noul, choice, score — instead of burning a full LLM turn on classification, routing, filtering, or triage. Trigger whenever a task reduces to \"yes/no\", \"pick one of N\", or \"rate on a scale\" over some text/state: ticket routing, content moderation gates, file/document triage, resume screening, sentiment scoring, tool/skill selection, web-scrape link picking, context-pruning decisions, guardrail checks. NOT for text generation, summarization, free-form extraction, or multi-step reasoning — JEV can only answer with a boolean, one of a fixed list, or a number on a scale."
 ---
 
 # JEV via OpenRouter
