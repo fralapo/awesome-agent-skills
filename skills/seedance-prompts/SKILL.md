@@ -1,25 +1,26 @@
 ---
 name: seedance-prompts
-description: Write production-grade prompts for ByteDance Seedance 2.0 video generation. Use when the user wants to generate videos with Seedance 2.0, needs prompt templates for cinematic/anime/commercial/UGC/short-drama/VFX styles, asks about multi-modal references (@图片/@视频/@audio), shot-by-shot timecoded storyboards, camera move vocabulary, character/scene consistency, or video extension/continuity. Triggers on keywords: seedance, seedance 2.0, 即梦, bytedance video, text-to-video prompt.
-version: 1.0.0
+description: Write production-grade prompts for ByteDance Seedance 2.0/2.5 video generation. Use when the user wants to generate videos with Seedance, needs prompt templates for cinematic/anime/commercial/UGC/short-drama/VFX/POV-bodycam/found-footage/pets/stop-motion/game-UI/fashion/food-ASMR/horror styles, asks about multi-modal references (@图片/@视频/@audio), shot-by-shot timecoded storyboards, camera move vocabulary, character/scene consistency (identity locks), storyboard-grid-to-video, or video extension/continuity. Triggers on keywords: seedance, seedance 2.0, seedance 2.5, 即梦, bytedance video, text-to-video prompt.
+version: 1.1.0
 source: local-git-analysis
 analyzed_repos:
   - github.com/ZeroLu/awesome-seedance
   - github.com/YouMind-OpenLab/awesome-seedance-2-prompts
   - github.com/weshopai/awesome-Seedance-2.0-prompt
-analyzed_prompts: ~195
+  - github.com/LearnPrompt/awesome-seedance
+analyzed_prompts: ~1000+ (195 hand-mined + 800+ verified cases/retests from the LearnPrompt/goodcase.ai corpus)
 ---
 
-# Seedance 2.0 Prompt Engineering
+# Seedance 2.0/2.5 Prompt Engineering
 
-Seedance 2.0 is ByteDance's quad-modal video model: **image + video + audio + text** input. Output: up to 1080p, 4–15s, auto dubbing/scoring. Prompts are high-density storyboards, not one-line descriptions.
+Seedance is ByteDance's quad-modal video model: **image + video + audio + text** input. Output: up to 1080p, 4–15s per generation (Seedance 2.0), extendable to longer cuts via stitched segments (Seedance 2.5), auto dubbing/scoring, native lip-sync. Prompts are high-density storyboards, not one-line descriptions.
 
 ## When to Use This Skill
 
 - User asks to write / improve a Seedance 2.0 prompt
 - User wants to port a shot idea into Seedance structure
 - User mentions multi-shot storyboards, camera moves (Hitchcock zoom, FPV, bullet time), character consistency across shots, video-to-video edits, or audio-driven generation
-- User requests a specific style: cinematic, anime, commercial, UGC, short-drama (竖屏), VFX
+- User requests a specific style: cinematic, anime, commercial, UGC, short-drama (竖屏), VFX, POV/bodycam, retro found-footage (home video/VHS/MiniDV), pets/animals as lead, stop-motion, game-UI/livestream HUD, fashion lookbook, food ASMR, horror/suspense, process/transformation montage, or storyboard-grid-to-video
 
 ## Core Prompt Anatomy
 
@@ -72,9 +73,9 @@ Reference chaining in a single prompt is supported — e.g. identity from image,
 
 Detailed templates and examples for each category live in `references/`.
 
-- `references/patterns.md` — structural patterns + idioms mined from 195+ prompts
-- `references/templates.md` — fill-in templates per category (cinematic, anime, commercial, UGC, short-drama, VFX, sound, consistency, camera, extension)
-- `references/camera-vocab.md` — camera moves, lens, lighting, grading vocabulary
+- `references/patterns.md` — structural patterns + idioms mined from 1000+ prompts and verified cases
+- `references/templates.md` — fill-in templates per category (cinematic, anime, commercial, UGC, short-drama, VFX, sound, consistency, camera, extension, POV/bodycam, found-footage, pets, stop-motion, game-UI, fashion, food-ASMR, horror, process montage, storyboard-grid-to-video)
+- `references/camera-vocab.md` — camera moves, lens, lighting, grading, POV optics, retro-defect, stop-motion and HUD vocabulary
 - `references/examples.md` — curated working prompts with source attribution
 
 ## Quick Rules
@@ -89,6 +90,10 @@ Detailed templates and examples for each category live in `references/`.
 8. **Character consistency** → repeat identity anchor in each shot (`同一人物`, `maintain consistent face/clothing/hair`).
 9. **For extension/continuity** → end shot N with exact state, start shot N+1 from that state (pose, lighting, framing).
 10. **Audio drives rhythm** — if using `@audio`, beat-align actions (`beat-synced`, `与音乐节拍完全吻合`).
+11. **Lock identity once, not per shot.** State the identity/wardrobe lock in one fixed block and add a whole-clip "maintained throughout" clause; repeating it inside every shot header actually triggers drift instead of preventing it.
+12. **Closed, summing timecodes.** Segments must touch end-to-end (`0-4s`, `4-8s`...) and sum exactly to the stated duration — a stated duration with gaps makes the model stretch the last beat.
+13. **One dialogue line ≤ ~8 words per 2-5s beat**, one speaker per beat. Longer lines or two simultaneous speakers break lip-sync.
+14. **End each beat with an explicit end-state line** (pose/expression/position) so the next beat has a defined starting point — critical for multi-shot continuity and for dialogue reaction chains.
 
 ## Anti-Patterns
 
@@ -97,6 +102,10 @@ Detailed templates and examples for each category live in `references/`.
 - More than 2 reference tags per shot → identity conflict
 - Abstract emotion-only prompts (no visual action) → static output
 - Over-specifying > 8 micro-details per shot → model drops some
+- Restating wardrobe/hairstyle inside every shot → appearance mutation between shots (lock once, reference the lock)
+- Writing a duration without segmenting it → visible drift after ~6 seconds on unsegmented clips
+- Asking for "realistic handheld" + "cinematic 4K lighting" in the same prompt → two contradictory light logics, result looks plastic
+- Expecting the model to render clean on-screen logos/slogans/longer type → leave a clean tail frame, add text in post
 
 ## Workflow
 
