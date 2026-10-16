@@ -211,3 +211,13 @@ Key terms from the organic personal brand system + IG algorithm archive.
 **Prospecting (ADV)** — ad campaigns on already validated content to bring new traffic to funnels (Ch 4)
 
 **Retargeting (ADV)** — campaigns on those who have interacted in the last X months (Ch 4)
+
+**The Loop** — coined mechanic: interacting once with a creator (watch-through, save, send, profile tap) makes that creator's Stories surface first and their feed content show up more, often compounding within days (Ch 10)
+
+**Movement** — a constant, recurring inflow of people discovering the account for the first time; a permanent precondition for growth, not a phase to graduate from (Ch 10)
+
+**Provide more elements** — deliberately varying format / setting / video type (not just topic) so the platform has more material to match against different viewers' preferences (Ch 10)
+
+**Circle / Square / Star content** — model for the content landscape in a niche: circle content = the topics your target is already watching/saving/acting on; differentiation has to happen INSIDE circle content via ethos, value, and positioning, not by avoiding it (Ch 10)
+
+**3 differentiation errors** — weak communication/ethos, no real market analysis, generic content that says nothing; rule these out before blaming positioning (Ch 10)
