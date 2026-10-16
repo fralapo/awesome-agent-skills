@@ -296,3 +296,19 @@ Plus: open DMs proactively; deploy free resources **early**, run them as a real 
 2. **Desire over pain** — show the desired situation (where they could get), not "knife in the wound". Result/situation Stories convert best → create the "how did they do it?" gap
 With both in place the CTA is optional; people reach the link and act unprompted
 **Trade-off**: requires honest diagnosis of why people actually pay + real client results to show
+
+## 39. The Loop (attraction → authority sequencing)
+**When**: you post regularly but new followers never seem to turn into clients
+**How**:
+1. Publish attraction content 1-3x/week to pull new people INTO the loop
+2. Once someone interacts, assume their Stories tray + feed will preferentially show you next — fill that space with authority/recognizability content (case studies, unfiltered talk, recognizable style), not more attraction content
+3. Vary format/setting/video type across both so the platform has more material to match against different viewers ("provide more elements")
+**Trade-off**: requires planning two distinct content jobs instead of one undifferentiated stream
+
+## 40. 3-Error Content Diagnostic
+**When**: content is on-topic and still gets no distribution / no conversion
+**How**: check in order before touching positioning:
+1. Communication/ethos — are you reading a script / flat on camera?
+2. Market analysis — have you checked what the target is actually watching/saving, or are you guessing?
+3. Value — does this say anything beyond what's already been said, or is it generic?
+**Trade-off**: tempting to jump straight to "fix positioning"; skipping these 3 first wastes a rewrite on the wrong problem
