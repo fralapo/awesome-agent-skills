@@ -8,14 +8,15 @@ argument-hint: [topic, framework name, or ch01-ch07]
 ---
 
 # Social Algorithm & Personal Brand — Organic System
-**Chapters**: 9
+**Chapters**: 10
 
 ## How to Use This Skill
 - **No args** → read the Core Frameworks below
 - **Topic** → "explain indirect selling", "how to write a video script", "algorithm metrics" → load the relevant chapter
-- **Chapter** → "ch01" or "ch09" → load that specific chapter
+- **Chapter** → "ch01" or "ch10" → load that specific chapter
 - **Why a personal brand / AI-era case / documentation mindset** → ch09
 - **Algorithm lookup** → algorithm knowledge base (era evolution, diagnostic matrix, hook patterns, repost strategy) → ch07
+- **The Loop / movement / content differentiation** → ch10
 
 Source language: English. Keep original framework names (indirect selling, hero's journey, social proof as garnish, etc.) — they are proper names of frameworks.
 
@@ -147,6 +148,19 @@ Replace clichéd formulas with specific framing:
 - "How I did X" → "In [time] I took X from [A] to [B]"
 - "X tips for Y" → "If you are going through [moment], these are the actions to avoid ending up with [Z]"
 
+### The Loop — Movement, Trust Windows, Differentiation (Ch 10)
+**The Loop**: a coined mechanic — interacting once with a creator (watch-through, save, send, profile tap) puts a person in that creator's loop: their Stories surface first, their feed content shows up more, often compounding within days. Two content jobs feed the loop:
+1. **Attraction content** (1-3x/week) — pulls new people INTO the loop
+2. **Authority / recognizability content** — what the loop then shows on repeat, converting trust into clients
+
+**Provide more elements**: diversify format/setting/video type (not just topic) — the platform shows people more of whatever format they personally engage with.
+
+**Trust as currency**: content lifespan is now longer (resurfaces after months) but the window to earn any one viewer's trust is shorter — a follow no longer guarantees continued visibility.
+
+**Movement**: a constant inflow of new discovery is a permanent precondition for growth, never a phase you graduate from; plateaus usually mean movement stopped, not that content quality dropped.
+
+**3 errors before blaming positioning**: weak communication/ethos (reading a script kills it), no real market analysis, generic content that says nothing. Differentiate inside the right topic via ethos, save-worthy value, and stated authority.
+
 ---
 
 ## Chapter Index
@@ -162,6 +176,7 @@ Replace clichéd formulas with specific framing:
 | [ch07](references/ch07-algorithm-knowledge-base.md) | IG Algorithm Knowledge Base | 3 pillar metrics, diagnostic matrix, repost strategy, non-inflated hooks, algorithm era evolution |
 | [ch08](references/ch08-why-people-act.md) | Why People Act — The CTA Is Not the Lever | CTA as gentle nudge, need before action, real reasons people pay, desire over pain, two reasoning frames |
 | [ch09](references/ch09-why-a-personal-brand-now.md) | Why a Personal Brand Now — AI-Era Case & Documentation Mindset | AI favors the human, "no time" excuse, immortality/long-term asset, exposure not tech, document don't overproduce, content ≠ personal brand |
+| [ch10](references/ch10-the-loop-and-movement.md) | The Loop — Movement, Trust Windows, Differentiation | The Loop mechanic, attraction/authority cadence, provide more elements, trust as currency, movement, 3 differentiation errors, circle/square/star content |
 
 ## Topic Index
 
@@ -242,12 +257,20 @@ Replace clichéd formulas with specific framing:
 - **Try-and-Real / Trial Reels** → ch04
 - **ADV integration (prospecting / retargeting)** → ch04
 - **Ethos / Recurrence / Personal storytelling** → ch04
+- **The Loop (mechanic)** → ch10
+- **Movement (constant new-audience inflow)** → ch10
+- **Attraction vs authority content cadence (1-3x/week)** → ch10
+- **Provide more elements to the platform (format diversity)** → ch10
+- **Trust as currency / shorter trust window** → ch10
+- **3 content differentiation errors (ethos, market analysis, generic value)** → ch10
+- **Circle / square / star content model** → ch10
+- **Fast-purchase markets (profile action without a follow)** → ch10, ch04
 
 ## Supporting Files
 
 - [references/glossary.md](references/glossary.md) — ~60 key terms (frameworks, anti-patterns, tools, metrics)
 - [references/patterns.md](references/patterns.md) — 33 operational techniques (indirect selling, delegation, scripting, metrics, funnels, hook patterns, repost strategy)
-- [references/cheatsheet.md](references/cheatsheet.md) — quick-reference tables (3 pillar metrics, old vs new algorithm, 4 elements, 5 principles, 6 funnels, diagnostic matrix)
+- [references/cheatsheet.md](references/cheatsheet.md) — quick-reference tables (3 pillar metrics, old vs new algorithm, 4 elements, 5 principles, 6 funnels, diagnostic matrix, the Loop)
 
 ---
 
