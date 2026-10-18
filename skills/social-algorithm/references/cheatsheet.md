@@ -214,6 +214,23 @@ ROI = €_generated_from_the_channel / hours_invested
 - "For everyone" positioning
 - Flexing personal results (the client only cares about themselves)
 
+## The Loop (Ch 10)
+| Element | Rule |
+|---------|------|
+| Trigger | Any interaction (watch-through, save, send, profile tap) |
+| Effect | Your Stories surface first + more of your feed content shown to that person |
+| Attraction content | 1-3x / week — pulls people INTO the loop |
+| Authority content | What the loop shows on repeat once someone is inside — converts trust into clients |
+| Provide more elements | Vary format/setting/video type — the platform shows more of whatever format a person engages with |
+| Trust window | Content lives longer (resurfaces after months), but the window to earn any one viewer's trust is shorter |
+| Movement | Constant new-audience inflow — permanent precondition for growth, never a phase you graduate from |
+
+## 3 Errors Before Blaming Positioning (Ch 10)
+1. Weak communication / ethos (reading a script kills it)
+2. No real market analysis (content not checked against what the target actually watches/saves)
+3. Generic content that says nothing new
+> If none of the 3 apply and content still flops → likely a positioning / market-sophistication problem (Ch 4)
+
 ## External References
 - turboscribe.ai — video transcription (3 free / incognito)
 - school.com / circle.so — private community platforms
