@@ -1,6 +1,6 @@
 ---
 name: ux-ui-expert
-description: "UX/UI research and design knowledge base: study plans, research roadmaps, the researcher's project cycle, usability-testing/card-sort/diary-study sample sizes, small-sample reporting, experimental design, research ethics (Belmont Report), stakeholder leadership/influence, the UX/UI/CX distinction with user-centred design principles, ROI of UX, the Double Diamond process, user flow diagrams, common beginner UI mistakes, visual/interaction design fundamentals (hierarchy, grids, typography, color, states), designing around user intent, the psychology behind UI/UX (cognitive load, conditioning, reinforcement, hedonic adaptation, goal gradient effect, peak-end rule, labor illusion, Von Restorff effect, choice overload), the 9 UI/UX typography laws (hierarchy, spacing/proximity, line-height scaling, chunking, serial position effect, font pairing, line length, alignment, WCAG contrast), UX writing (the 3 C's — clear, concise, useful — microcopy, and the UX writer role), and micro-typography/widows-and-orphans handling in text composition (CSS orphans/widows, text-wrap balance/pretty, non-breaking spaces). Use when planning UX research/design work, choosing methods/sample sizes, writing recommendations, leading stakeholders, scoping UX vs. UI vs. CX, building a business case for UX, mapping a user flow, reviewing a UI for mistakes, applying visual design fundamentals, writing or reviewing UI copy/microcopy, checking typography/readability/accessibility contrast, fixing widows and orphans in text, or reasoning about how a design choice affects user behavior."
+description: "UX/UI research and design knowledge base: study plans, research roadmaps, the researcher's project cycle, usability-testing/card-sort/diary-study sample sizes, small-sample reporting, experimental design, research ethics (Belmont Report), stakeholder leadership/influence, the UX/UI/CX distinction with user-centred design principles, ROI of UX, the Double Diamond process, user flow diagrams, common beginner UI mistakes, visual/interaction design fundamentals (hierarchy, grids, typography, color, states), designing around user intent, the psychology behind UI/UX (cognitive load, conditioning, reinforcement, hedonic adaptation, goal gradient effect, peak-end rule, labor illusion, Von Restorff effect, choice overload), the 9 UI/UX typography laws (hierarchy, spacing/proximity, line-height scaling, chunking, serial position effect, font pairing, line length, alignment, WCAG contrast), UX writing (the 3 C's — clear, concise, useful — microcopy, and the UX writer role), micro-typography/widows-and-orphans handling in text composition (CSS orphans/widows, text-wrap balance/pretty, non-breaking spaces), and color systems (the 60-30-10 proportion rule, analogous/complementary color-wheel choices, section-level micro-palettes with CSS variables and scroll-driven swaps, the HSL model for generating coherent variants, semantic design tokens, free palette/contrast tools, and the European Accessibility Act). Use when planning UX research/design work, choosing methods/sample sizes, writing recommendations, leading stakeholders, scoping UX vs. UI vs. CX, building a business case for UX, mapping a user flow, reviewing a UI for mistakes, applying visual design fundamentals, writing or reviewing UI copy/microcopy, checking typography/readability/accessibility contrast, fixing widows and orphans in text, building or auditing a color palette or design tokens, or reasoning about how a design choice affects user behavior."
 allowed-tools:
   - Read
   - Grep
@@ -95,6 +95,7 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 | [ch19](chapters/ch19-designing-around-user-intent.md) | Designing Around User Intent, Content & Systems | Start-with-intent process, layout conventions, progressive disclosure, design systems |
 | [ch20](chapters/ch20-psychology-of-ux.md) | The Psychology Behind UI/UX Design | Cognitive overload, processing fluency, color psychology, conditioning, variable reward, hedonic adaptation, goal gradient effect, peak-end rule, labor illusion, Von Restorff effect, choice overload |
 | [ch21](chapters/ch21-typography-laws-ux-writing.md) | Typography Laws, UX Writing & Micro-Typography | 9 typography laws (hierarchy, proximity, line-height scaling, chunking, serial position, font pairing, line length, alignment, WCAG contrast), UX writing 3 C's, UX writer role, widows/orphans handling |
+| [ch22](chapters/ch22-color-systems-60-30-10.md) | Color Systems — 60-30-10, Color Theory & Design Tokens | 60-30-10 proportion rule, analogous/complementary color wheel, section-level micro-palettes (CSS variables + GSAP ScrollTrigger), HSL variant generation, semantic design tokens, free palette/contrast tools, European Accessibility Act |
 
 ## Topic Index
 
@@ -111,7 +112,8 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Classical conditioning (notifications)** → ch20
 - **Cognitive overload** → ch20
 - **Color psychology** → ch20
-- **Color theory** → ch18
+- **Color theory** → ch18, ch22
+- **Color wheel (analogous/complementary)** → ch22
 - **Communication styles** → ch11
 - **Component consistency** → ch17
 - **Concept testing** → ch03
@@ -120,6 +122,7 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Cost-of-error multiplier** → ch13
 - **Counterbalancing** → ch09
 - **Decision point (user flow)** → ch16
+- **Design tokens (semantic color)** → ch22
 - **CX (customer experience)** → ch12
 - **Dark mode (design)** → ch18
 - **Dopamine-driven engagement** → ch20
@@ -131,11 +134,13 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Double Diamond (applied)** → ch14
 - **Empathy / empathy map** → ch07, ch11
 - **Ethics** → ch09
+- **European Accessibility Act (EAA)** → ch22
 - **Feedback & states (UI)** → ch18
 - **Font pairing** → ch21
 - **Gestalt proximity (spacing)** → ch21
 - **Goal gradient effect** → ch20
 - **Goleman leadership styles** → ch11
+- **HSL model (color variants)** → ch22
 - **Hedonic adaptation** → ch20
 - **Impact measurement** → ch10
 - **Influence vs. persuasion** → ch11
@@ -146,6 +151,7 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Line length / measure** → ch21
 - **Magic number five (sample size)** → ch08
 - **Micro-interactions** → ch18
+- **Micro-palette (section-level color)** → ch22
 - **Microcopy** → ch21
 - **Non-breaking space (NBSP)** → ch21
 - **Orphans (typography)** → ch21
@@ -162,6 +168,7 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Screener design** → ch05
 - **Serial Position Effect (typography)** → ch21
 - **Shadows (depth)** → ch18
+- **60-30-10 rule (color proportion)** → ch22
 - **Stakeholder collaboration** → ch02, ch06
 - **Study plan** → ch05
 - **Team structure (embedded/consulting)** → ch02
@@ -191,4 +198,4 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 
 ## Scope & Limits
 
-This skill covers UX/UI product research and design practice: research planning, methods, sample sizes, ethics, impact tracking, stakeholder leadership, the UX/UI/CX distinction, the ROI of UX, the Double Diamond design process, user flow diagrams, visual/interaction design fundamentals, typography laws, UX writing/microcopy, micro-typography (widows/orphans), and the psychology behind engagement-driving design decisions. For statistics/quant methods beyond what's covered here (confidence intervals, significance testing) or for hands-on tool tutorials (Figma, specific design software), check related skills or ask the agent directly.
+This skill covers UX/UI product research and design practice: research planning, methods, sample sizes, ethics, impact tracking, stakeholder leadership, the UX/UI/CX distinction, the ROI of UX, the Double Diamond design process, user flow diagrams, visual/interaction design fundamentals, typography laws, UX writing/microcopy, micro-typography (widows/orphans), color systems (60-30-10, color wheel, HSL, design tokens, accessibility/EAA), and the psychology behind engagement-driving design decisions. For statistics/quant methods beyond what's covered here (confidence intervals, significance testing) or for hands-on tool tutorials (Figma, specific design software), check related skills or ask the agent directly.
