@@ -155,6 +155,31 @@
 **How**: revise in order, not simultaneously — first make it Clear (would a first-time reader understand it with no other context?), then Concise (cut everything the space doesn't need), then Useful (does it tell the user what to do next?). A draft that's clear and concise but has no next action ("Something went wrong") still fails and needs a usefulness pass.
 **Trade-offs**: optimizing concision too early can cut context a user actually needed to understand the message — always finish the clarity pass first.
 
+## Applying 60-30-10 to a Page or Section
+**When to use**: choosing or auditing a color palette for a new page, component, or scroll-driven narrative section.
+**How**: assign roughly 60% of the visible area to a dominant neutral/low-saturation color, 30% to a secondary supporting color (often from imagery), and 10% to a single accent color reserved for the primary CTA or focus point; pick the dominant/secondary pair as analogous colors on the wheel for harmony, and the accent as a complementary color for contrast; verify the final contrast ratio (Ch21) on the actual rendered pairing. For a long narrative page, reapply the same 60-30-10 trio per section as a micro-palette instead of forcing one global palette across the whole page.
+**Trade-offs**: reapplying the rule per section means maintaining more than one palette, which only pays off when each section has genuinely distinct content/imagery to justify its own accent — for a short, uniform page, one global 60-30-10 palette is simpler and sufficient.
+
+## Building Scroll-Driven Section Palettes
+**When to use**: a long-scroll storytelling page (case study, product launch, narrative landing page) where the palette should shift to match whichever section or asset is currently in view.
+**How**: define each section's 60-30-10 colors as CSS custom properties (variables); use a scroll-trigger library (e.g., GSAP's ScrollTrigger) to detect which section is in view and update the active variable values accordingly; make sure every component reads its color from the variables rather than a hardcoded value, so the swap only requires changing the variables.
+**Trade-offs**: adds a JS dependency and more implementation complexity than a static palette — reserve it for pages where the scroll-linked palette change is actually reinforcing the narrative, not as a default technique for every page.
+
+## Generating Color Variants with HSL
+**When to use**: building a family of related colors (tints, shades, states) from one starting brand color.
+**How**: convert the starting color to HSL; hold Hue fixed; generate variants by varying only Saturation and Lightness (e.g., lighter/less-saturated for backgrounds, darker/more-saturated for emphasis or hover states).
+**Trade-offs**: faster and more reliable than picking additional colors by eye, but all variants stay within one hue family — reach for a second, deliberately chosen hue (not an HSL variant) when a genuinely different semantic meaning (e.g., danger vs. brand) is needed.
+
+## Setting Up Semantic Color Design Tokens
+**When to use**: any design system or codebase with more than a handful of color usages, before colors get hardcoded into individual components.
+**How**: name variables by role, not by hue (`--color-accent`, `--color-surface`, `--color-tertiary`), not by value; map each component's relevant variant (e.g., a button's "accent" state) to the matching token; update the token's value, not the component, when the palette changes.
+**Trade-offs**: requires upfront naming discipline and a bit more indirection when reading the code, but avoids a manual hunt through every component when a brand color changes later.
+
+## Choosing Free Color Tooling for a Task
+**When to use**: generating, validating, or matching a color palette without custom tooling.
+**How**: Coolors.co for template palettes or quick custom builds; Adobe Color to generate analogous/complementary colors from one starting color; a Tailwind-syntax generator (e.g., uicolors.app) to turn one color into a full shade scale with ready-to-paste code; browser DevTools to extract exact colors from an existing reference site; a contrast checker to verify the WCAG minimum (Ch21) before shipping.
+**Trade-offs**: free tools cover the vast majority of cases; a larger, cross-platform design system still benefits from a dedicated token-management tool once the palette needs to sync across code, design files, and documentation.
+
 ## Preventing Widows and Orphans in UI Text
 **When to use**: any paginated, printed, multi-column, or card-truncated layout, or a heading that might reflow awkwardly on narrower viewports.
 **How**: for paragraphs that fragment across pages/columns, set `orphans: 2; widows: 2;` in CSS and add `text-wrap: pretty`; for headings, add `text-wrap: balance` first; if a single word still strands itself, join the last two words with `&nbsp;` or wrap them in `<span style="white-space: nowrap">`; if none of that reads cleanly, shorten the text or adjust the container width instead of forcing a markup fix. Re-check at every breakpoint — reflow creates new widows/orphans that a static design file won't show.

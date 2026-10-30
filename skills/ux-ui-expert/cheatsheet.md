@@ -132,6 +132,39 @@ Metrics to attach a UX fix to: conversion rate, abandonment/drop-off rate, suppo
 7. Missing interactive feedback
 + Overdesigned charts (legibility lost)
 
+## 60-30-10 Color Proportion Rule
+| Role | Proportion | Purpose |
+|---|---|---|
+| Dominant | 60% | Neutral/low-saturation base (white/gray, or near-black for dark themes) |
+| Secondary | 30% | Supporting color, often from imagery/illustration |
+| Accent / focus point | 10% | Reserved for the primary CTA — never reuse it in the other two roles |
+
+Can be reapplied per section as a **micro-palette**, each with its own trio, instead of one global palette for the whole page.
+
+## Color Wheel: Analogous vs. Complementary
+| | Position on wheel | Contrast | Best for |
+|---|---|---|---|
+| Analogous | Adjacent hues | Lower, harmonious | Dominant + secondary pairing |
+| Complementary | Opposite hues | Higher | Isolating the 10% accent |
+
+## HSL for Color Variants
+Fix **Hue**, vary **Saturation** and **Lightness** → reliable same-family variants (tints for backgrounds, shades for emphasis/hover) without guessing.
+
+## Semantic Color Design Tokens
+Name by role, not hue: `--color-accent`, `--color-surface`, `--color-tertiary`. Components reference the role; update the token's value (not each component) when the palette changes.
+
+## Free Color Tools
+| Tool | Use |
+|---|---|
+| Coolors.co | Template or custom palette generation |
+| Adobe Color | Analogous/complementary colors from one starting color |
+| Tailwind-syntax generator (e.g. uicolors.app) | Full shade scale + ready-to-paste code |
+| Browser DevTools | Extract exact colors from a reference site |
+| Contrast checker | Verify WCAG 4.5:1 minimum (Ch21) |
+
+## European Accessibility Act (EAA)
+Mandatory for private businesses (exempt: micro-enterprises under 10 employees or €2M revenue). Non-compliance fines in Italy: €5,000–€40,000 per violation. ~87M people in Europe have some form of disability. Never convey required information through color alone.
+
 ## Semantic Color Convention
 | Color | Meaning |
 |---|---|
