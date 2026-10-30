@@ -30,6 +30,14 @@
 
 **Color Ramp** — a systematic range of tints/shades derived from a primary color, used for chips, states, and charts (Ch18)
 
+**60-30-10 Rule** — a color-proportion rule assigning 60% of a UI to a dominant/neutral color, 30% to a secondary/supporting color, and 10% to an accent/focus-point color used only where attention should land (Ch22)
+
+**Micro-Palette** — a section-scoped application of the 60-30-10 rule, where each page section gets its own dominant/secondary/accent trio rather than one palette for the whole page (Ch22)
+
+**Design Token** — a semantic variable (e.g. `--color-tertiary`) storing a color's role rather than its raw value, referenced by components by role so a palette change stays a one-line edit (Ch22)
+
+**European Accessibility Act (EAA)** — EU directive making digital accessibility mandatory for private businesses (exempting only micro-enterprises under 10 employees or €2M revenue); non-compliance carries fines (€5,000–€40,000 per violation in Italy) (Ch22)
+
 **Compassion** — taking action to help based on empathy; the empathy type most relevant to UX practice (Ch11)
 
 **Component State Set** — the minimum required visual states for an interactive element: default, hover, active/pressed, disabled, often loading (Ch18)
@@ -195,3 +203,9 @@
 **Non-Breaking Space (NBSP)** — a space character (`&nbsp;`, U+00A0) that prevents a line break between the words it joins; used sparingly between a heading's last two words to prevent a widow (Ch21)
 
 **Within-Subjects Design** — experimental design where each participant experiences all conditions (Ch9)
+
+**Analogous Colors** — hues adjacent on the color wheel, producing a naturally harmonious, lower-contrast pairing (Ch22)
+
+**Complementary Colors** — hues opposite on the color wheel, producing a high-contrast pairing suited to an accent color (Ch22)
+
+**HSL Model** — a color model (Hue, Saturation, Lightness) used to generate coherent color variants by holding hue fixed and varying only saturation/lightness (Ch22)
