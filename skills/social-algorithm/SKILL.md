@@ -8,15 +8,16 @@ argument-hint: [topic, framework name, or ch01-ch07]
 ---
 
 # Social Algorithm & Personal Brand — Organic System
-**Chapters**: 10
+**Chapters**: 11
 
 ## How to Use This Skill
 - **No args** → read the Core Frameworks below
 - **Topic** → "explain indirect selling", "how to write a video script", "algorithm metrics" → load the relevant chapter
-- **Chapter** → "ch01" or "ch10" → load that specific chapter
+- **Chapter** → "ch01" or "ch11" → load that specific chapter
 - **Why a personal brand / AI-era case / documentation mindset** → ch09
 - **Algorithm lookup** → algorithm knowledge base (era evolution, diagnostic matrix, hook patterns, repost strategy) → ch07
 - **The Loop / movement / content differentiation** → ch10
+- **YouTube / on-camera energy / sponsors / long-term constancy** → ch11
 
 Source language: English. Keep original framework names (indirect selling, hero's journey, social proof as garnish, etc.) — they are proper names of frameworks.
 
@@ -161,6 +162,17 @@ Replace clichéd formulas with specific framing:
 
 **3 errors before blaming positioning**: weak communication/ethos (reading a script kills it), no real market analysis, generic content that says nothing. Differentiate inside the right topic via ethos, save-worthy value, and stated authority.
 
+### YouTube — Energy, Character vs Authenticity, and the Long Game (Ch 11)
+**Energy, not character, keeps people watching**: playing a persona reads as fake; what actually holds attention is a real, transmitted quality from whoever is on camera, independent of topic or production value. Flop videos are almost always missing energy, not missing a "character."
+
+**Finding your energy reshapes positioning over time**: a single piece of real audience feedback on tone/language (e.g. cutting swearing) can make content read as more mature, attract higher-level clients, and unlock sponsors — more than any content strategy would.
+
+**YouTube as showcase, not a standalone revenue line**: for most creators the channel's real value is proof-of-expertise for a downstream offer (consulting, coaching, a productized service) — not ad revenue itself.
+
+**Sponsors buy positioning, not just reach**: sponsorship follows years of visible tonal/niche/authority work; a smaller, well-positioned channel can be more sponsor-ready than a bigger, unfocused one.
+
+**Constancy over years is the actual mechanism**: the payoff (showcase credibility, consulting clients, sponsors) is gated by surviving a multi-year, low-feedback middle period (~2 videos/week sustained for 5 years in the documented case) — not a slogan, the literal precondition.
+
 ---
 
 ## Chapter Index
@@ -177,6 +189,7 @@ Replace clichéd formulas with specific framing:
 | [ch08](references/ch08-why-people-act.md) | Why People Act — The CTA Is Not the Lever | CTA as gentle nudge, need before action, real reasons people pay, desire over pain, two reasoning frames |
 | [ch09](references/ch09-why-a-personal-brand-now.md) | Why a Personal Brand Now — AI-Era Case & Documentation Mindset | AI favors the human, "no time" excuse, immortality/long-term asset, exposure not tech, document don't overproduce, content ≠ personal brand |
 | [ch10](references/ch10-the-loop-and-movement.md) | The Loop — Movement, Trust Windows, Differentiation | The Loop mechanic, attraction/authority cadence, provide more elements, trust as currency, movement, 3 differentiation errors, circle/square/star content |
+| [ch11](references/ch11-youtube-energy-and-longevity.md) | YouTube — Energy, Character vs Authenticity, and the Long Game | On-camera energy vs performed character, audience feedback reshaping positioning, YouTube as showcase, sponsor-readiness, multi-year constancy |
 
 ## Topic Index
 
@@ -265,6 +278,11 @@ Replace clichéd formulas with specific framing:
 - **3 content differentiation errors (ethos, market analysis, generic value)** → ch10
 - **Circle / square / star content model** → ch10
 - **Fast-purchase markets (profile action without a follow)** → ch10, ch04
+- **YouTube (on-camera energy, character vs authenticity)** → ch11
+- **YouTube as showcase / revenue diversification** → ch11
+- **Sponsors / sponsor-readiness** → ch11
+- **Constancy over years (YouTube longevity)** → ch11
+- **Language and positioning (tone shift from audience feedback)** → ch11
 
 ## Supporting Files
 
@@ -280,7 +298,7 @@ A skill on the organic personal brand system and IG algorithm dynamics. **Langua
 
 **Does not cover**:
 - ADV tactics (Meta Ads, Google Ads) — only the complementarity principle
-- Platforms: TikTok / LinkedIn / YouTube are mentioned but without vertical strategies
+- Platforms: TikTok / LinkedIn are mentioned but without vertical strategies. YouTube now has a dedicated chapter (ch11) covering on-camera energy, positioning, showcase/sponsor monetization, and constancy — but not YouTube-specific tactics like SEO, thumbnails, or the algorithm itself
 - Legal, fiscal, and accounting aspects of the creator business
 - Tools other than Turbo Scribe + an AI assistant
 

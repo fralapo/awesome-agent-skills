@@ -221,3 +221,13 @@ Key terms from the organic personal brand system + IG algorithm archive.
 **Circle / Square / Star content** — model for the content landscape in a niche: circle content = the topics your target is already watching/saving/acting on; differentiation has to happen INSIDE circle content via ethos, value, and positioning, not by avoiding it (Ch 10)
 
 **3 differentiation errors** — weak communication/ethos, no real market analysis, generic content that says nothing; rule these out before blaming positioning (Ch 10)
+
+**Energy (on-camera)** — the real, transmitted quality from the person on camera that determines whether a video works, independent of topic, genre, or production value; distinct from a performed character (Ch 11)
+
+**Character vs energy** — anti-pattern vs fix: playing a persona reads as fake; the actual lever is training your own real energy (Ch 11)
+
+**Showcase (YouTube as)** — treating channel growth metrics as proof-of-expertise for a downstream, higher-margin offer (consulting, coaching, productized service) rather than as the end goal (Ch 11)
+
+**Sponsor-readiness** — positioning + tonal maturity (clean language, consistent niche, demonstrated authority) that makes a channel brand-safe enough for sponsorship, independent of raw reach (Ch 11)
+
+**The stoics** — creators who keep publishing through the multi-year, low-feedback middle period (near-depression, demoralizing post-monetization months) instead of quitting before the compounding payoff arrives (Ch 11)
