@@ -322,3 +322,12 @@ With both in place the CTA is optional; people reach the link and act unprompted
 4. Only then pitch or expect sponsors — they buy brand-safety and positioning, not raw reach
 5. Sustain output (~2x/week) for years, through the discouraging middle period, before expecting any of the above to compound
 **Trade-off**: the payoff (showcase credibility, sponsor deals) is gated by multi-year constancy; there is no shortcut past the low-feedback period
+
+## 42. The Casey Neistat Method (4 Steps)
+**When**: starting or relaunching a YouTube channel in the content-first era, unsure what to post or who to post it for
+**How**:
+1. **Target** — name ONE specific viewer persona (age, job, needs, what they want to see), not a demographic bracket; you need the right few, not the most
+2. **Document, don't create** — base videos on your own lived process/current work, not on AI-suggested generic topics; say what YOU think, not what a model would say if asked directly
+3. **Educate** — while documenting, explicitly explain what you're learning/doing so the viewer gets usable value alongside the story
+4. **Share vision & mission** — state your own point of view and method repeatedly, even against prevailing format trends, to build a "micro-cult" following rather than a generic info channel
+**Trade-off**: slower to scale than chasing trends/volume, but matches exactly what content-first distribution (and the Hype Score, for 500-500,000 subscriber channels) now rewards

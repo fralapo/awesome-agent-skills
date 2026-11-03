@@ -8,16 +8,17 @@ argument-hint: [topic, framework name, or ch01-ch07]
 ---
 
 # Social Algorithm & Personal Brand — Organic System
-**Chapters**: 11
+**Chapters**: 12
 
 ## How to Use This Skill
 - **No args** → read the Core Frameworks below
 - **Topic** → "explain indirect selling", "how to write a video script", "algorithm metrics" → load the relevant chapter
-- **Chapter** → "ch01" or "ch11" → load that specific chapter
+- **Chapter** → "ch01" or "ch12" → load that specific chapter
 - **Why a personal brand / AI-era case / documentation mindset** → ch09
 - **Algorithm lookup** → algorithm knowledge base (era evolution, diagnostic matrix, hook patterns, repost strategy) → ch07
 - **The Loop / movement / content differentiation** → ch10
 - **YouTube / on-camera energy / sponsors / long-term constancy** → ch11
+- **YouTube algorithm shift / Hype Score / Casey Neistat method / target persona** → ch12
 
 Source language: English. Keep original framework names (indirect selling, hero's journey, social proof as garnish, etc.) — they are proper names of frameworks.
 
@@ -173,6 +174,13 @@ Replace clichéd formulas with specific framing:
 
 **Constancy over years is the actual mechanism**: the payoff (showcase credibility, consulting clients, sponsors) is gated by surviving a multi-year, low-feedback middle period (~2 videos/week sustained for 5 years in the documented case) — not a slogan, the literal precondition.
 
+### YouTube's Content-First Shift & the Casey Neistat Method (Ch 12)
+**Channel-first → content-first**: YouTube shifted from subscriber-gated distribution (2019-2023) to per-video, interest-matched distribution — the same structural move Ch 2 documents for IG. A new **Hype Score** feature now actively promotes small/mid channels (~500-500,000 subscribers).
+
+**The Casey Neistat method (4 steps)**: (1) target ONE named viewer persona, not a demographic bracket; (2) document your own lived process, don't assemble AI-suggested generic content ("document, don't create" — a content-sourcing point, distinct from Ch 9's production-logistics "document, don't overproduce"); (3) educate the audience inside the documentation; (4) state your own vision/mission/point of view repeatedly to build a "micro-cult brand" rather than a generic info channel.
+
+**Delivery**: work from a rough outline and react genuinely, don't script lines; reserve AI for editing/research, never for the content or opinions themselves.
+
 ---
 
 ## Chapter Index
@@ -190,6 +198,7 @@ Replace clichéd formulas with specific framing:
 | [ch09](references/ch09-why-a-personal-brand-now.md) | Why a Personal Brand Now — AI-Era Case & Documentation Mindset | AI favors the human, "no time" excuse, immortality/long-term asset, exposure not tech, document don't overproduce, content ≠ personal brand |
 | [ch10](references/ch10-the-loop-and-movement.md) | The Loop — Movement, Trust Windows, Differentiation | The Loop mechanic, attraction/authority cadence, provide more elements, trust as currency, movement, 3 differentiation errors, circle/square/star content |
 | [ch11](references/ch11-youtube-energy-and-longevity.md) | YouTube — Energy, Character vs Authenticity, and the Long Game | On-camera energy vs performed character, audience feedback reshaping positioning, YouTube as showcase, sponsor-readiness, multi-year constancy |
+| [ch12](references/ch12-youtube-content-first-and-casey-neistat-method.md) | YouTube's Content-First Shift & the Casey Neistat Method | Channel-first vs content-first, Hype Score, 4-step method (target/document/educate/vision), unscripted delivery |
 
 ## Topic Index
 
@@ -283,6 +292,13 @@ Replace clichéd formulas with specific framing:
 - **Sponsors / sponsor-readiness** → ch11
 - **Constancy over years (YouTube longevity)** → ch11
 - **Language and positioning (tone shift from audience feedback)** → ch11
+- **Channel-first vs content-first (YouTube algorithm shift)** → ch12
+- **Hype Score (YouTube feature)** → ch12
+- **Casey Neistat method (4 steps)** → ch12
+- **Target persona (named, specific) / "Antonio" example** → ch12
+- **Document, don't create (AI slop vs lived process)** → ch12
+- **Micro-cult brand** → ch12
+- **Unscripted delivery / rough outline** → ch12, ch11
 
 ## Supporting Files
 

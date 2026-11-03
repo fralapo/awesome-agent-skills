@@ -231,3 +231,15 @@ Key terms from the organic personal brand system + IG algorithm archive.
 **Sponsor-readiness** — positioning + tonal maturity (clean language, consistent niche, demonstrated authority) that makes a channel brand-safe enough for sponsorship, independent of raw reach (Ch 11)
 
 **The stoics** — creators who keep publishing through the multi-year, low-feedback middle period (near-depression, demoralizing post-monetization months) instead of quitting before the compounding payoff arrives (Ch 11)
+
+**Channel-first (YouTube, 2019-2023)** — old YouTube distribution model: subscriber count gated visibility, so channel size alone kept mediocre content performing (Ch 12)
+
+**Content-first (YouTube, current)** — current YouTube distribution model: subscriber count counts for little; distribution runs on the individual piece of content's value, independent of channel size (Ch 12)
+
+**Hype Score (YouTube feature)** — mechanism that actively promotes content from small-to-mid channels (~500-500,000 subscribers), an explicit incentive layered on top of the content-first shift (Ch 12)
+
+**Casey Neistat method** — 4-step method for a documentary-style "micro-cult brand" channel: target one named persona, document don't create, educate while documenting, share vision/mission (Ch 12)
+
+**Document, don't create** — sourcing content from your own lived process instead of AI-assembled generic advice ("AI slop"); distinct from Ch 9's "document, don't overproduce" (a production-logistics point, not a content-sourcing one) (Ch 12)
+
+**Micro-cult brand** — a small, tightly positioned channel built around a consistent personal point of view rather than broad appeal or trend-chasing (Ch 12)
