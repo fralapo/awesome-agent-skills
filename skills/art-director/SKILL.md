@@ -43,6 +43,14 @@ The art director **decides how the idea looks and feels, and keeps it consistent
 7. **Direct with criteria.** A brief states the feeling, the references, the rules and the red lines; it does not dictate every pixel.
 8. **Design for the audience, not the client's personal taste,** and for how the audience will feel moments after first contact.
 
+## Go Deeper: Visual Theory Shelf
+
+The theory behind visual judgment lives in `creative-director` (role `visionary`, section "Visual Craft"), kept in one place on purpose. Load it when you must explain *why* a direction works, not just describe it:
+- Composition as syntax (balance, felt axis, leveling vs. sharpening, contrast vs. harmony) → `books/a-primer-of-visual-literacy.md`.
+- Type as voice (legibility vs. readability, the six spacing parameters, matching typeface to message) → `books/stop-stealing-sheep.md`.
+- Information and data design (small multiples, layering, chartjunk) → `books/envisioning-information.md`.
+- Developing taste and references → `books/the-eye.md`.
+
 ## Direction Brief Template
 
 Concept (from creative director) · Core emotion · Audience · Palette logic · Type voice · Imagery and texture language · Layout character · Do / Don't · References · Touchpoints in priority order · Open questions for other roles.

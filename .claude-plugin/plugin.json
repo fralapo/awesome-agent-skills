@@ -1,6 +1,6 @@
 {
   "name": "awesome-agent-skills",
-  "version": "1.18.0",
+  "version": "1.18.1",
   "description": "A curated set of agent skills mined from real corpora and official docs: seedance-prompts, image-gen-prompts (incl. GPT Image 2.5), awesome-readme, llm-wiki, social-algorithm, creative-director, art-director, graphic-designer, ffmpeg, video-editor, public-speaking-persuasion, marketing-mba, ux-ui-expert, geo-ai-visibility, jev, vectorcraft-expert, photocraft-expert, effectcraft-expert, filmcraft-expert, designcraft-expert (ArtCraft apps over MCP), presentation-design, slide-software-techniques, freelance-designer-ops, depth-psychology. Also discoverable by OpenAI Codex CLI via .agents/skills/.",
   "author": {
     "name": "fralapo",
