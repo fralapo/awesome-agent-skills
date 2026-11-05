@@ -1,72 +1,79 @@
 ---
 name: ux-ui-expert
-description: "UX/UI research and design knowledge base: study plans, research roadmaps, the researcher's project cycle, usability-testing/card-sort/diary-study sample sizes, small-sample reporting, experimental design, research ethics (Belmont Report), stakeholder leadership/influence, the UX/UI/CX distinction with user-centred design principles, ROI of UX, the Double Diamond process, user flow diagrams, common beginner UI mistakes, visual/interaction design fundamentals (hierarchy, grids, typography, color, states), designing around user intent, the psychology behind UI/UX (cognitive load, conditioning, reinforcement, hedonic adaptation, goal gradient effect, peak-end rule, labor illusion, Von Restorff effect, choice overload), the 9 UI/UX typography laws (hierarchy, spacing/proximity, line-height scaling, chunking, serial position effect, font pairing, line length, alignment, WCAG contrast), UX writing (the 3 C's — clear, concise, useful — microcopy, and the UX writer role), micro-typography/widows-and-orphans handling in text composition (CSS orphans/widows, text-wrap balance/pretty, non-breaking spaces), and color systems (the 60-30-10 proportion rule, analogous/complementary color-wheel choices, section-level micro-palettes with CSS variables and scroll-driven swaps, the HSL model for generating coherent variants, semantic design tokens, free palette/contrast tools, and the European Accessibility Act). Use when planning UX research/design work, choosing methods/sample sizes, writing recommendations, leading stakeholders, scoping UX vs. UI vs. CX, building a business case for UX, mapping a user flow, reviewing a UI for mistakes, applying visual design fundamentals, writing or reviewing UI copy/microcopy, checking typography/readability/accessibility contrast, fixing widows and orphans in text, building or auditing a color palette or design tokens, or reasoning about how a design choice affects user behavior."
+description: "UX research + UI design knowledge base. Research: study plans, roadmaps, sample sizes (usability 5, card sort, diary), small-sample reporting, experiment design, ethics, stakeholders, ROI of UX, Double Diamond. Design: UX/UI/CX scope, user flows, beginner UI mistakes, hierarchy, grids and spacing, component states, dark mode, design systems, the 9 typography laws, UX writing and microcopy, widows/orphans, color systems (60-30-10, color wheel, HSL, tokens, WCAG/EAA), and UX psychology (cognitive load, variable reward, goal gradient, peak-end, Von Restorff, choice overload). Use this skill whenever the user plans or runs user research, reviews or critiques a UI, screen, app, landing page or dashboard, picks fonts, colors or a palette, writes button/error/empty-state copy, maps a flow, builds a business case for UX, or asks why users behave a certain way in a product, even if they never say 'UX'."
 allowed-tools:
   - Read
   - Grep
-argument-hint: [topic, framework name, or chapter number]
+argument-hint: [task, topic, framework name, or chapter number]
 ---
 
-# UX/UI Research & Leadership Expert
+# UX/UI Research & Design Expert
+**Chapters**: 22 | **Supporting files**: cheatsheet, patterns, glossary
 
 ## How to Use This Skill
 
-- **Without arguments** — load core frameworks below for reference
-- **With a topic** — ask about `study plan`, `sample size`, `ethics`, or another indexed topic; I find and read the relevant chapter
-- **With a chapter** — ask for `ch05`; I load that specific chapter file
-- **Browse** — ask "what chapters do you have?" to see the full index
+1. **Match the task to a workflow** below and open only the chapters it names. Don't load all 22.
+2. **Use the Core Frameworks** for quick answers; read the chapter before going beyond them.
+3. **Quick lookups**: [cheatsheet.md](cheatsheet.md) (tables: sample sizes, typography laws, 60-30-10, states, psychology), [patterns.md](patterns.md) (When / How / Trade-offs for 37 techniques), [glossary.md](glossary.md).
+4. **Ground recommendations in evidence**: cite the rule or number (e.g. "line length 45-75 chars, ch21") and never blame the user.
 
-When you ask about a topic not covered in Core Frameworks below, I will read the relevant chapter file before answering.
+---
+
+## Task Workflows
+
+**Review / critique a UI (screen, landing page, app, dashboard)**: go in this order and report findings as *issue → why it matters → fix*, sorted by severity.
+1. Intent and flow: what is the user trying to do here? Are edge cases and the empty, error and loading states designed? (ch19, ch16)
+2. Hierarchy: does the eye land on the primary action first? Is only one thing emphasised? (ch18, ch20 Von Restorff)
+3. Spacing and grid: consistent 4/8px units, proximity groups the right things. (ch17, ch21 law 2)
+4. Typography: the 9 laws, especially sizes, line height, line length and contrast. (ch21)
+5. Color: 60-30-10 roles, an accent reserved for the CTA, semantic colors, never color alone. (ch22, ch18)
+6. Components: consistency, icon system, all states (default/hover/active/disabled/focus/error). (ch17, ch18)
+7. Copy: clear, concise, useful; widows/orphans in headings. (ch21)
+8. Psychology: cognitive overload, choice overload, an ethical reward loop. (ch20)
+
+**Plan user research**: frame the knowledge gap (ch15), then pick strategic vs. tactical (ch03), write the study plan with Who/Question/Why (ch05), choose the method and sample size (ch08; experiments ch09), check ethics (ch09), plan analysis and reporting (ch07), and measure impact against a baseline (ch10).
+
+**Build a palette or color system**: one primary, HSL variants, 60-30-10 roles, semantic tokens, WCAG contrast check (ch22, ch21 law 9, ch18).
+
+**Write or fix UI copy** (buttons, errors, empty states, onboarding): the 3 C's in order, front-load the context, end on the action (ch21).
+
+**Make the case for UX to stakeholders**: the ROI model and cost-of-error multiplier (ch13), influence over persuasion with the Goleman sequence (ch11), and recommendation quality (ch06).
+
+**Scope an ambiguous design brief**: UX/UI/CX layer (ch12), Double Diamond (ch14), start-with-intent (ch19), user flow (ch16).
 
 ---
 
 ## Core Frameworks & Mental Models
 
-**Strategic vs. Tactical Research Map**: Strategic research (= foundational = generative = exploratory = discovery, all the same thing) is big-picture, long-term, and builds the knowledge base of who users are. Tactical research (= evaluative) tests existing ideas/prototypes, splitting into formative (pre-launch, improve) and summative (post-launch, measure at scale). Use "strategic/tactical" language with leadership, "generative/evaluative" with product teams — pick one set per audience and stick with it.
+### Research
 
-**Study Plan Structure**: Background/Problem (why now) → Objectives + Non-Objectives (explicitly scope out what you won't study) → Research Questions + success metrics → Timeline + DACI (who's doing what, when) → Methodology (methods, participants, sample size, materials) → Procedure/Discussion Guide (a "recipe" someone else could replicate). First drafts should take minutes after a good kickoff meeting — treat drafts as drafts, get stakeholder feedback before running.
+**Strategic vs. tactical**: strategic research (= foundational = generative = exploratory = discovery) builds long-term knowledge of who the users are. Tactical (= evaluative) tests existing ideas: formative before launch, summative after. Use "strategic/tactical" with leadership and "generative/evaluative" with product teams, consistently.
 
-**Who / Question / Why Framework**: structure every research question with 3 columns — Who you're learning from, the Question itself, and Why (what you'll do with the answer). Filters out questions analytics can answer better than qualitative interviews (e.g., "how many people click X" is not a qualitative-research question).
+**Study plan**: background/problem → objectives + explicit non-objectives → research questions + success metrics → timeline + DACI → methodology (methods, participants, sample, materials) → a procedure someone else could replicate. **Who / Question / Why** for every question filters out what analytics answers better.
 
-**The Magic Number Five**: 5 participants in a usability test uncover ~80-85% of usability issues (Nielsen/Virzi/Lewis). Recruit 6-8 for no-show buffer. Holds per design being tested, regardless of how many demographic segments you sample from, unless you have a strong hypothesis that segments differ enough to need separate localized studies.
+**Sample sizes**: usability testing needs 5 participants per design (finds ~80-85% of issues; recruit 6-8). Card sort needs 10-15 moderated or 20-30+ unmoderated; open builds a new IA, closed validates one. Under n≈30, never report bare percentages: use quantity words + the raw number, and prioritise issues by prevalence × frequency × severity.
 
-**Card Sorting**: Open card sort (no predefined categories) builds new information architecture; Closed card sort (predefined categories) validates existing IA. Moderated sorts need 10-15 participants; unmoderated need 20-30+.
+**Experiments and ethics**: between-subjects avoids order effects but needs more people (randomise). Within-subjects needs fewer but must be counterbalanced (n! orderings, not a Latin Square). Run the Belmont checklist (respect for persons, beneficence, justice, fidelity, integrity) before any study.
 
-**Small-Sample Reporting Rule**: never report bare percentages under n≈30 (Central Limit Theorem rule of thumb). Use quantity words (none/a few/some/most/all) paired with the raw number. Prioritize usability issues by Prevalence × Frequency × Severity, not raw counts.
+**Recommendations and influence**: recommendations are data-driven, feasible, prioritised, blame-free and concise. Influence (earned, mutual) beats persuasion (one-way). With a resistant stakeholder, open Affiliative, then switch to Democratic (Goleman).
 
-**Between-Subjects vs. Within-Subjects**: Between-subjects (each participant sees one condition) avoids order effects but needs a bigger sample — fix individual-difference risk with random assignment. Within-subjects (each participant sees all conditions) needs a smaller sample and yields comparison data, but risks order effects — fix with counterbalancing (compute n! possible orderings, randomly assign; avoid the Latin Square shortcut, which still embeds systematic bias).
+**Impact and ROI**: decide what to measure → baseline → measure continuously → show before/after with the story. Payback = yearly loss from the problem ÷ cost of the fix; a fix after development costs ~100× more.
 
-**Belmont Report's Five Ethics Principles**: Respect for Persons (autonomy, informed consent, debrief), Beneficence (do no harm, maximize benefit), Justice (fair distribution of costs/benefits), Fidelity and Responsibility (build trust, own the repercussions), Integrity (honesty and accuracy — never fabricate data). Apply this checklist before fielding any study, especially without a formal IRB.
+### Design
 
-**Manipulation vs. Coercion vs. Persuasion vs. Influence**: Manipulation is one-sided control for short-term selfish gain; Coercion is force/threats (unethical); Persuasion is "something you do" — short-term, one-directional convincing; Influence is "something you earn" — long-term, mutual, cooperative, win-win. Build influence, not persuasion, with resistant stakeholders.
+**UX / UI / CX**: UI (the visible layer) ⊂ UX (perception from use or anticipated use) ⊂ CX (every touchpoint, including sales and support). **UX Iceberg**: visual design is the visible tip, with structure, scope and strategy underneath. Prioritise bottom-up.
 
-**Goleman's Six Leadership Styles**: Affiliative, Visionary, Coaching, Democratic are good defaults; Coercive/Commanding and Pace-Setting are situational only. Start Affiliative (non-judgmental questions to understand) then shift Democratic (offer suggestions, invite input) when proposing change to a resistant stakeholder — apply the same curious, research-like posture to teammates that you use with participants.
+**Double Diamond**: Discover (wide) → Define (narrow) → Develop (wide, sketch several directions before hi-fi) → Deliver (narrow, test and iterate). **Start with intent**: name the user's intent before layout, follow conventions unless breaking them helps the user, and use progressive disclosure.
 
-**Recommendation Quality Bar**: good recommendations are data-driven, feasible, appropriately prioritized (impact/severity/prevalence/frequency), never blame the user, and are concise (context lives separately from the one-line recommendation). Avoid single-solution framing, non-data-driven suggestions, and reflexive "more research is needed."
+**Beginner UI mistakes**: unplanned flow, piled-up effects, poor spacing, inconsistent components, weak icons, redundant elements, no interaction feedback, overdesigned charts. Removing usually beats adding.
 
-**5 Steps to Measuring UX Success**: decide what to measure (tied to real objectives) → plan the study → conduct a baseline/benchmark study → continuously measure against that baseline → visualize before/after and tell the story (pair numbers with qualitative narrative).
+**Fundamentals**: hierarchy comes from contrast in size, weight, position and color. One typeface is enough. Use 4/8px spacing. Build color from one primary's tints and shades plus semantic colors (blue trust, red danger, yellow warning, green success). Dark mode needs lighter surfaces instead of shadows. Every interactive element needs default/hover/active/disabled, and inputs also need focus and error.
 
-**UX / UI / CX Scope Model**: UX = perceptions and responses from using (or anticipating) a product; UI = the visible interface layer (visual design, layout, branding); CX = the full customer journey across every touchpoint, including sales and support. UI is a subset of UX; CX is the superset. A fix at one layer doesn't resolve a problem at another.
+**Typography laws** (ch21): hierarchy; proximity; line height that shrinks as size grows (body 1.4-1.5×, headings 1.1-1.2×); chunking; serial position (context first, CTA last); 1 font family, 2 at most; 45-75 characters per line; left-aligned body text; WCAG contrast 4.5:1 (3:1 for large text). **UX writing**: Clear → Concise → Useful, revised in that order. Fix widows and orphans with `text-wrap: balance/pretty`, `orphans/widows: 2` and a sparing `&nbsp;`.
 
-**The UX Iceberg**: visual design is the visible ~10% tip. Beneath it: interface design (structure, navigation, information architecture) → functional specs/content requirements → strategy (users, objectives) at the base. Priorities are set bottom-up even though the deliverable is built top-down in visibility.
+**Color systems** (ch22): **60-30-10**: a neutral dominant, a supporting secondary, and an accent reserved for the primary CTA. It can be reapplied per section as a micro-palette. Analogous colors give harmony; a complementary color isolates the accent. Generate variants in HSL (fix the hue, vary saturation and lightness). Name tokens by role (`--color-accent`), not by hue. Never convey information through color alone; the European Accessibility Act makes this a legal duty for most businesses.
 
-**ROI Calculation Model**: (current daily/annual loss from a UX problem) ÷ (research + implementation fix cost) = payback period. Fixing an error post-development costs ~100x fixing it before/during development. Three of the most common project-failure causes — badly defined requirements, poor cross-team communication, stakeholder politics — are directly addressed by UX practice (stakeholder interviews, research, usability testing).
-
-**Double Diamond Process**: Discover (go wide — explore user/business problems, qual + quant data, competitive analysis) → Define (go narrow — synthesize, prioritize, t-shirt size) → Develop (go wide — sketch multiple solution directions before high-fidelity tools) → Deliver (go narrow — multiple testing/iteration rounds, cross-functional review, ship). The wide/narrow rhythm repeats twice: once for the problem, once for the solution.
-
-**Six-Step Research Project Cycle**: surface knowledge gap → define the question (what's known/unknown, timeline, segments) → define the research plan → recruit + write guided script → facilitate (run sessions, stakeholders observe) → synthesize and present. Research exists to replace the psychological ownership/bias of whoever built a feature with objective evidence.
-
-**User Flow Notation**: circle = start/end, solid line = preferred path, dotted line = alternative path, diamond = decision point. Map every branch, not just the happy path, to catch missing states before implementation.
-
-**Beginner UI Mistakes Checklist**: unplanned flow (missing edge cases), overusing effects (stacked shadows/gradients — default to removing), poor spacing (fix with grids/auto-layout), inconsistent components (fix with shared styles/variables/components), weak icon systems (consistent library, labels for non-obvious icons), redundant elements (cut visual clutter with no function), missing interactive feedback (every action needs a visible response), overdesigned charts (legibility over aesthetics).
-
-**Visual Hierarchy & Fundamentals**: hierarchy comes from contrast (size/position/color) — most important content bigger, bolder, higher. One typeface is enough. Use a base-unit (4/8px) spacing system. Build color from one primary's tints/shades, then layer semantic color (blue=trust, red=danger, yellow=warning, green=success). Dark mode needs its own treatment (softened borders, lighter surfaces instead of shadows). Every interactive element needs default/hover/active/disabled states at minimum.
-
-**Start-with-Intent Design**: identify the user's specific intent before choosing layout or visuals; expand functionality only when a new real intent is identified, not for aesthetic reasons. Default to established layout conventions unless deviating deliberately serves the user better. Use progressive disclosure (e.g., "load more" over infinite scroll) to keep users in control.
-
-**Psychology of Engagement**: cognitive overload (too much info at once) is reduced by limiting what's shown and structuring how it's presented. Color carries learned meaning (red=alert, blue/green=calm) — use deliberately, not just aesthetically. Notification sounds work via classical conditioning (Pavlov) to trigger involuntary checking. Positive intermittent (unpredictable) reinforcement is the strongest engagement driver — and the mechanism requiring the most ethical scrutiny, since it's structurally identical to what drives compulsive use. Hedonic adaptation means any static experience loses its appeal over time — expect and plan for refreshes.
-
-**Five More Psychology Triggers**: Goal Gradient Effect — motivation spikes as a perceived finish line nears, so surface concrete proximity ("3 min left") throughout a flow, not just at the end. Peak-End Rule — people remember an experience's peak (best/worst moment) and its ending, not the average — invest polish there first. Labor Illusion — visible effort/time increases perceived value, so a sensitive action (verification, background check) can benefit from a deliberate, transparent processing delay instead of feeling suspiciously instant. Von Restorff Effect — an item that visually stands out from a uniform set is disproportionately remembered, so deliberately differentiate the one or two things that matter most rather than equally weighting everything. Choice Overload — too many simultaneous options causes anxiety/decision paralysis (distinct from cognitive overload's information-density problem) — fix with filtering, search, or categorization, not reformatting the same option count.
+**UX psychology** (ch20): cognitive overload (too much information) differs from choice overload (too many options). Processing fluency makes simpler layouts read as higher quality. Variable reward is the strongest and riskiest engagement loop. Hedonic adaptation means static experiences fade. Goal gradient: show how close the finish line is. Peak-end: polish the peak and the ending. Labor illusion: visible effort raises trust for sensitive actions. Von Restorff: make only what matters stand out.
 
 ---
 
@@ -74,128 +81,120 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 
 | # | Title | Key Frameworks |
 |---|-------|----------------|
-| [ch01](chapters/ch01-foundations.md) | Foundations — What UX Research Is | Scientific-method mapping, problem spotters vs. solvers |
+| [ch01](chapters/ch01-foundations.md) | Foundations: What UX Research Is | Scientific-method mapping, problem spotters vs. solvers |
 | [ch02](chapters/ch02-stakeholders-team.md) | Stakeholders, Daily Life, Team Structure | Four core stakeholders, embedded/consulting/hybrid models |
 | [ch03](chapters/ch03-types-of-research.md) | Types of Research & Business Acumen | Strategic vs. tactical map, concept testing, Campbell's Law |
-| [ch04](chapters/ch04-research-roadmap.md) | The Research Roadmap | Roadmap scope rule, quarterly planning walkthrough, buffer time |
+| [ch04](chapters/ch04-research-roadmap.md) | The Research Roadmap | Roadmap scope rule, quarterly planning, buffer time |
 | [ch05](chapters/ch05-study-plan.md) | Crafting the Study Plan | Study plan structure, Who/Question/Why, screener table |
-| [ch06](chapters/ch06-stakeholders-in-session.md) | Managing Live Sessions & Recommendations | Stakeholder-gone-wild scenarios, good/poor recommendation criteria |
-| [ch07](chapters/ch07-data-analysis.md) | Data Analysis — AI, Deliverables, Small Samples | Human-plus-AI sequence, small-sample reporting, empathy map critique |
-| [ch08](chapters/ch08-qualitative-methods.md) | Core Qualitative Methods | Magic number five, card sort procedure, contextual inquiry, diary studies |
+| [ch06](chapters/ch06-stakeholders-in-session.md) | Live Sessions & Recommendations | Stakeholder-gone-wild scenarios, recommendation quality |
+| [ch07](chapters/ch07-data-analysis.md) | Data Analysis: AI, Deliverables, Small Samples | Human-plus-AI sequence, small-sample reporting |
+| [ch08](chapters/ch08-qualitative-methods.md) | Core Qualitative Methods | Magic number five, card sort, contextual inquiry, diary studies |
 | [ch09](chapters/ch09-experimental-design-ethics.md) | Experimental Design & Ethics | Between/within-subjects, counterbalancing, Belmont Report |
 | [ch10](chapters/ch10-measuring-impact.md) | Measuring & Tracking Impact | Four kinds of impact, 5 steps to measuring UX success |
-| [ch11](chapters/ch11-leadership-influence.md) | Leadership, Influence, Communication | Leadership theories, Goleman styles, influence vs. persuasion, communication styles |
-| [ch12](chapters/ch12-ucd-ux-ui-cx.md) | User-Centred Design & the UX/UI/CX Distinction | UX/UI/CX scope model, UX Iceberg, 5 UCD design principles |
-| [ch13](chapters/ch13-roi-of-ux.md) | The ROI of User Experience | Cost-of-error multiplier, ROI calculation model, top-12 failure causes |
-| [ch14](chapters/ch14-double-diamond-process.md) | Applying the Double Diamond Design Process | Discover/Define/Develop/Deliver, t-shirt sizing |
-| [ch15](chapters/ch15-researcher-project-cycle.md) | The UX Researcher's Project Cycle & Evaluation | Six-step research cycle, bias-replacement rationale, qualitative impact evaluation |
-| [ch16](chapters/ch16-user-flow-diagrams.md) | User Flow Diagrams | User flow notation, decision points, sub-flows |
-| [ch17](chapters/ch17-beginner-ui-mistakes.md) | Common Beginner UI Mistakes & Fixes | 7+1 mistakes checklist (flow, effects, spacing, consistency, icons, redundancy, feedback, charts) |
-| [ch18](chapters/ch18-visual-interaction-fundamentals.md) | Visual & Interaction Design Fundamentals | Affordances/signifiers, visual hierarchy, grids/spacing, typography, color theory, dark mode, shadows, states, micro-interactions |
-| [ch19](chapters/ch19-designing-around-user-intent.md) | Designing Around User Intent, Content & Systems | Start-with-intent process, layout conventions, progressive disclosure, design systems |
-| [ch20](chapters/ch20-psychology-of-ux.md) | The Psychology Behind UI/UX Design | Cognitive overload, processing fluency, color psychology, conditioning, variable reward, hedonic adaptation, goal gradient effect, peak-end rule, labor illusion, Von Restorff effect, choice overload |
-| [ch21](chapters/ch21-typography-laws-ux-writing.md) | Typography Laws, UX Writing & Micro-Typography | 9 typography laws (hierarchy, proximity, line-height scaling, chunking, serial position, font pairing, line length, alignment, WCAG contrast), UX writing 3 C's, UX writer role, widows/orphans handling |
-| [ch22](chapters/ch22-color-systems-60-30-10.md) | Color Systems — 60-30-10, Color Theory & Design Tokens | 60-30-10 proportion rule, analogous/complementary color wheel, section-level micro-palettes (CSS variables + GSAP ScrollTrigger), HSL variant generation, semantic design tokens, free palette/contrast tools, European Accessibility Act |
+| [ch11](chapters/ch11-leadership-influence.md) | Leadership, Influence, Communication | Goleman styles, influence vs. persuasion, communication styles |
+| [ch12](chapters/ch12-ucd-ux-ui-cx.md) | User-Centred Design & UX/UI/CX | Scope model, UX Iceberg, 5 UCD principles |
+| [ch13](chapters/ch13-roi-of-ux.md) | The ROI of User Experience | Cost-of-error multiplier, ROI model, failure causes |
+| [ch14](chapters/ch14-double-diamond-process.md) | Applying the Double Diamond | Discover/Define/Develop/Deliver, t-shirt sizing |
+| [ch15](chapters/ch15-researcher-project-cycle.md) | The Researcher's Project Cycle | Six-step cycle, bias replacement, qualitative impact |
+| [ch16](chapters/ch16-user-flow-diagrams.md) | User Flow Diagrams | Notation, decision points, sub-flows |
+| [ch17](chapters/ch17-beginner-ui-mistakes.md) | Common Beginner UI Mistakes & Fixes | 7+1 mistakes checklist |
+| [ch18](chapters/ch18-visual-interaction-fundamentals.md) | Visual & Interaction Fundamentals | Affordances, hierarchy, grids, typography, color, dark mode, shadows, states, micro-interactions |
+| [ch19](chapters/ch19-designing-around-user-intent.md) | Designing Around User Intent | Start-with-intent, conventions, progressive disclosure, design systems |
+| [ch20](chapters/ch20-psychology-of-ux.md) | The Psychology Behind UI/UX | Cognitive/choice overload, fluency, conditioning, variable reward, goal gradient, peak-end, labor illusion, Von Restorff |
+| [ch21](chapters/ch21-typography-laws-ux-writing.md) | Typography Laws, UX Writing, Micro-Typography | 9 typography laws, 3 C's, UX writer role, widows/orphans |
+| [ch22](chapters/ch22-color-systems-60-30-10.md) | Color Systems | 60-30-10, color wheel, micro-palettes, HSL, design tokens, free tools, EAA |
 
 ## Topic Index
 
-- **Abandonment/drop-off rate** → ch13
+- **Abandonment / drop-off rate** → ch13
+- **Accessibility (contrast, EAA, color alone)** → ch21, ch22
 - **Affordances & signifiers** → ch18
+- **AI-assisted analysis** → ch07
+- **Alignment (text)** → ch21
 - **Anticipated use** → ch12
 - **Auto-layout** → ch17
-- **Belmont Report** → ch09
+- **Belmont Report / ethics** → ch09
 - **Between/within-subjects design** → ch09
 - **Business acumen** → ch03
 - **Card sorting** → ch08
+- **Charts (overdesigned)** → ch17
 - **Choice overload** → ch20
 - **Chunking (Miller's Law)** → ch21
 - **Classical conditioning (notifications)** → ch20
 - **Cognitive overload** → ch20
 - **Color psychology** → ch20
-- **Color theory** → ch18, ch22
-- **Color wheel (analogous/complementary)** → ch22
+- **Color theory / color wheel** → ch18, ch22
 - **Communication styles** → ch11
 - **Component consistency** → ch17
 - **Concept testing** → ch03
 - **Contrast ratio (WCAG)** → ch21
 - **Conversion rate** → ch13
 - **Cost-of-error multiplier** → ch13
-- **Counterbalancing** → ch09
-- **Decision point (user flow)** → ch16
-- **Design tokens (semantic color)** → ch22
+- **Counterbalancing / Latin Square** → ch09
 - **CX (customer experience)** → ch12
-- **Dark mode (design)** → ch18
-- **Dopamine-driven engagement** → ch20
-- **Data analysis (AI-assisted)** → ch07
 - **DACI** → ch05
+- **Dark mode** → ch18
+- **Decision point (user flow)** → ch16
 - **Design system** → ch19
-- **Desire path (design diagnostic)** → ch12
+- **Design tokens (semantic color)** → ch22
+- **Desire path** → ch12
 - **Diary studies** → ch08
-- **Double Diamond (applied)** → ch14
+- **Dopamine-driven engagement** → ch20
+- **Double Diamond** → ch14
 - **Empathy / empathy map** → ch07, ch11
-- **Ethics** → ch09
-- **European Accessibility Act (EAA)** → ch22
-- **Feedback & states (UI)** → ch18
+- **Feedback & component states** → ch18
 - **Font pairing** → ch21
 - **Gestalt proximity (spacing)** → ch21
 - **Goal gradient effect** → ch20
 - **Goleman leadership styles** → ch11
-- **HSL model (color variants)** → ch22
 - **Hedonic adaptation** → ch20
+- **HSL color variants** → ch22
 - **Impact measurement** → ch10
 - **Influence vs. persuasion** → ch11
-- **Information architecture** → ch12
+- **Information architecture** → ch08, ch12
 - **Labor illusion** → ch20
-- **Latin Square design** → ch09
 - **Leadership theories** → ch11
-- **Line length / measure** → ch21
+- **Line height / line length** → ch21
 - **Magic number five (sample size)** → ch08
 - **Micro-interactions** → ch18
 - **Micro-palette (section-level color)** → ch22
-- **Microcopy** → ch21
-- **Non-breaking space (NBSP)** → ch21
-- **Orphans (typography)** → ch21
+- **Microcopy / UX writing (3 C's)** → ch21
+- **Non-breaking space / widows / orphans** → ch21
 - **Peak-end rule** → ch20
-- **Persuasive design** → ch20
-- **Positive/intermittent reinforcement** → ch20
 - **Processing fluency** → ch20
 - **Progressive disclosure** → ch19
 - **Recommendations (writing)** → ch06
+- **Reinforcement (positive / intermittent)** → ch20
+- **Research project cycle** → ch15
 - **Research roadmap** → ch04
-- **Research project cycle (6 steps)** → ch15
 - **ROI of UX (payback period)** → ch13
 - **Sample size (small-N reporting)** → ch07, ch08
 - **Screener design** → ch05
-- **Serial Position Effect (typography)** → ch21
+- **Serial position effect** → ch21
 - **Shadows (depth)** → ch18
-- **60-30-10 rule (color proportion)** → ch22
+- **60-30-10 rule** → ch22
+- **Spacing system (4/8px)** → ch17, ch18
 - **Stakeholder collaboration** → ch02, ch06
 - **Study plan** → ch05
-- **Team structure (embedded/consulting)** → ch02
+- **Team structure** → ch02
 - **T-shirt sizing** → ch14
-- **Types of research (strategic/tactical)** → ch03
-- **Typography** → ch18, ch21
-- **Typography laws (9 laws)** → ch21
-- **UCD design principles** → ch12
+- **Types of research** → ch03
+- **Typography laws** → ch18, ch21
+- **UCD principles / UX Iceberg / scope model** → ch12
 - **Usability testing** → ch08
 - **User flow notation** → ch16
-- **User intent (start-with-intent process)** → ch19
-- **UX Iceberg** → ch12
-- **UX/UI/CX scope model** → ch12
+- **User intent** → ch19
 - **UX writer (role)** → ch21
-- **UX writing (3 C's)** → ch21
 - **Visual hierarchy** → ch18
 - **Von Restorff effect** → ch20
-- **Widows (typography)** → ch21
 
-## Supporting Files
+## Related Skills
 
-- [glossary.md](glossary.md) — all key terms with definitions
-- [patterns.md](patterns.md) — all techniques and frameworks with when-to-use/how/trade-offs
-- [cheatsheet.md](cheatsheet.md) — quick-reference tables and decision guides
-
----
+- `presentation-design`: the same visual fundamentals applied to slides (PowerPoint, Keynote, Canva, Google Slides).
+- `creative-director`: concepts, copy and visual literacy beyond interface work.
+- `depth-psychology`: motives and defences of people (this skill's ch20 covers behavioural psychology in products).
+- `public-speaking-persuasion`: presenting research findings and pitching UX work.
 
 ## Scope & Limits
 
-This skill covers UX/UI product research and design practice: research planning, methods, sample sizes, ethics, impact tracking, stakeholder leadership, the UX/UI/CX distinction, the ROI of UX, the Double Diamond design process, user flow diagrams, visual/interaction design fundamentals, typography laws, UX writing/microcopy, micro-typography (widows/orphans), color systems (60-30-10, color wheel, HSL, design tokens, accessibility/EAA), and the psychology behind engagement-driving design decisions. For statistics/quant methods beyond what's covered here (confidence intervals, significance testing) or for hands-on tool tutorials (Figma, specific design software), check related skills or ask the agent directly.
+Covers UX research practice and UI design fundamentals as listed above. Not covered: advanced statistics (confidence intervals, significance testing), full WCAG audits beyond contrast and color, and tool tutorials (Figma etc.). Say so when a question goes beyond these chapters instead of inventing rules.
