@@ -32,6 +32,7 @@ The graphic designer **makes the work**: grids, type, composition, image treatme
 - **Poster, texture, effects** → ch05.
 - **Logo construction** → ch06 (strategy and direction come from the art director, see `art-director`).
 - Quick numbers: [cheatsheet.md](cheatsheet.md).
+- **Deeper theory** (composition as syntax, type as voice, the six spacing parameters, information design): `creative-director`, role `visionary`, section "Visual Craft". Screen typography laws: `ux-ui-expert` ch21.
 
 ## The Craft Principles
 

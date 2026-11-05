@@ -56,7 +56,7 @@ Coddington: "Surrounding yourself with young people keeps one motivated." Pilati
 
 ### Visual Craft — the Mechanics Under the Eye
 
-The section above is the *judgment*; this is the *grammar* it judges with. This role has two halves: taste/vision (Rubin, Williams, Jobs) and the concrete visual craft below (Dondis, Spiekermann, Tufte). When you can't say *why* a layout, a line, or a chart works, drop from taste-talk to these mechanics.
+The section above is the *judgment*; this is the *grammar* it judges with. This role has two halves: taste/vision (Rubin, Williams, Jobs) and the concrete visual craft below (Dondis, Spiekermann, Tufte). When you can't say *why* a layout, a line, or a chart works, drop from taste-talk to these mechanics. The creative director *judges* with this grammar; turning it into a look and feel is the `art-director`'s job, and building it (grids, type setting, files) is the `graphic-designer`'s. Both of those skills point back here for the underlying theory.
 
 **Read composition like syntax.** *(Dondis.)* Every visual field has a felt axis (implied vertical + horizontal base) and a lower-left "stress" pull; weight is read against it instantly and unconsciously. Diagnose: is the composition *leveling* (resolved, calm) or *sharpening* (tense, surprising)? Ambiguity between the two is the one state visual syntax prohibits — commit to one. When a layout feels inert, push **contrast**, the most communicative pole of the contrast/harmony dialectic. → [a-primer-of-visual-literacy](../books/a-primer-of-visual-literacy.md)
 
