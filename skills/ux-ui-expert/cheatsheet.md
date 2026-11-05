@@ -1,4 +1,4 @@
-# Cheatsheet — UX/UI Research & Leadership Expert
+# Cheatsheet — UX/UI Research & Design
 
 ## Sample Size Quick Reference
 | Method | Sample Size |
