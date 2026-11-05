@@ -70,6 +70,18 @@ Jump straight to the right file by topic.
 - **Practitioner angles from designer TED talks (habituation, serious-vs-solemn, say-or-show, legibility≠communication, thoughtless acts, data-is-soil)** → [references/ted-talks.md](references/ted-talks.md)
 - **Pitching / presenting work to clients or stakeholders** → copywriter (strategy framing, argument) + idea-generator (persuasion levers: anchoring, decoy, norm frame) + [cheatsheet](cheatsheet.md) (Anchor-First Sequencing)
 
+- **Problem framing, concept memorability, ideation by recombination, presenting to stakeholders (design-practice notes)** → [references/concept-and-insight-in-design-practice.md](references/concept-and-insight-in-design-practice.md)
+
+---
+
+## Role Boundaries (design team)
+
+The creative director owns the **idea and the strategy**: insight, concept, message, quality bar, the team's creative judgment. Hand off, do not absorb:
+- **Visual direction** (look and feel, moodboards, style routes, identity-system rules) → `art-director`.
+- **Craft and production** (grids, type setting, logo construction, files) → `graphic-designer`.
+- **Screens, flows, usability, accessibility numbers** → `ux-ui-expert`.
+Give the art director the concept in one sentence, the audience and the single feeling; ask for the direction instead of specifying fonts and colours. If the work is judged on craft or look, route the feedback to the owner of that decision.
+
 ---
 
 ## Book Index

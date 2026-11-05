@@ -8,7 +8,9 @@ argument-hint: [task, topic, framework name, or chapter number]
 ---
 
 # UX/UI Research & Design Expert
-**Chapters**: 22 | **Supporting files**: cheatsheet, patterns, glossary
+**Chapters**: 23 | **Supporting files**: cheatsheet, patterns, glossary
+
+**Role boundary.** This skill is the UX/UI designer: screens, flows, interaction, usability evidence. Concept and insight → `creative-director`; visual direction and identity rules → `art-director`; print, poster, logo and layout craft → `graphic-designer`. Adapt their direction to interfaces and report back when it fails on screen (ch23).
 
 ## How to Use This Skill
 
@@ -103,6 +105,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 | [ch20](chapters/ch20-psychology-of-ux.md) | The Psychology Behind UI/UX | Cognitive/choice overload, fluency, conditioning, variable reward, goal gradient, peak-end, labor illusion, Von Restorff |
 | [ch21](chapters/ch21-typography-laws-ux-writing.md) | Typography Laws, UX Writing, Micro-Typography | 9 typography laws, 3 C's, UX writer role, widows/orphans |
 | [ch22](chapters/ch22-color-systems-60-30-10.md) | Color Systems | 60-30-10, color wheel, micro-palettes, HSL, design tokens, free tools, EAA |
+| [ch23](chapters/ch23-learning-ux-portfolio-and-accessibility-checks.md) | Learning UX, Case Studies, First Accessibility Checks | informational interviews, self-initiated project, case-study contents, low-vision checks, working with other design roles |
 
 ## Topic Index
 
