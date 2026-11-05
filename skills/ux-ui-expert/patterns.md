@@ -1,4 +1,4 @@
-# Patterns — UX/UI Research & Leadership Expert
+# Patterns — UX/UI Research & Design
 
 ## Research Roadmap Planning
 **When to use**: quarterly (or longer) planning across 2+ concurrent research projects.
