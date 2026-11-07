@@ -47,3 +47,4 @@ A persuasive speech that only informs or entertains fails at its real job — mo
 ## Connects To
 - **Sales Pitching & Entrepreneurial Pitches**: pitches culminate in the same direct/indirect close choice when asking for a decision or investment.
 - **Persuasion Fundamentals**: the emotion-to-commitment principle is the pathos leg of the broader persuasion framework applied specifically to the closing action.
+- **Pricing and Sales Negotiation** (`pricing-and-sales-negotiation` ch06): asking for a concrete next step and reversing risk at the close.

@@ -97,6 +97,7 @@ The principles stay the same in every context: one message per slide, the voice 
 
 **Portfolio**
 - A portfolio is a presentation for a company. Keep the container neutral; the projects must speak.
+- Portfolio deck narrative: inverted pyramid per slide (headline, body, tail), headlines written first, one positioning sentence decides which projects to show; see `brand-strategy-storytelling` ch08.
 - Photography: (1) clean slides, no decoration; (2) open each project with the client's logo and choose shots suited to it; (3) vary layouts, but at most 2 photos per slide; (4) explain your method (how you create, what you offer, your style); (5) white or black background, never coloured (colour alters the photos). Link out to more images instead of bloating the file.
 - Designer portfolio: recurring layouts (cover; about the designer; per project: title, intro, materials) and a clickable index so a busy recruiter jumps to relevant projects. The emailed PDF must explain itself: slightly more text with small headings. Project intro slide: brand name and info (goal, strategy) on the left, an evocative image on the right. Use consistent mockups (same shadows and style) everywhere. Nothing touches the slide edge. Highlight with bold, not CAPS. Avoid overly narrow columns. Cover: name, role sought, small photo, contacts and a "Portfolio" label.
 

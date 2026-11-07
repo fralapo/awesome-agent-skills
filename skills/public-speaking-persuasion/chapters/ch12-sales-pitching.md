@@ -29,6 +29,13 @@ A pitch persuades by making the audience feel understood before it offers anythi
   4. **Change** — what they want different and how.
   - How: move through the levels in order; impact and change questions surface the real motivation a fact question never reaches.
 
+- **30-Second Introduction (Problem - Solution - Proof)**: a lightweight intro for networking and first meetings, lighter than the 7 elements.
+  1. **Problem**: "You know how [problem the listener has]..." in plain words; if the first sentence confuses, the rest will not land.
+  2. **Solution**: "We solve that by [what you do]..."
+  3. **Proof**: one concrete result or example, ideally a number or outcome.
+  - Keep it under about 30 seconds and practise until natural; unprepared attempts ramble.
+  - Anti-patterns: telling your life story or listing skills instead of a problem and a result; complex wording that hides the value.
+
 ## Key Concepts
 - **Elevator pitch**: a complete pitch compressed to about 60 seconds, still containing all core elements.
 - **Unit economics**: the concrete dollars/euros made per unit, page visitor, or sale — proof the model works, not just a story.
@@ -57,3 +64,4 @@ A pitch persuades by making the audience feel understood before it offers anythi
 ## Connects To
 - **Persuasion Fundamentals**: problem-first pitching is an application of establishing credibility and empathy before asserting a claim.
 - **Calls to Action & Commitment**: the "resources" and "capture value" elements are the pitch's call to action and its payoff framing.
+- **Pricing and Sales Negotiation** (`pricing-and-sales-negotiation` ch05-ch07): discovery frames, closing sequences and proposal structure for selling creative services.

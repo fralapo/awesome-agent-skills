@@ -65,7 +65,8 @@ argument-hint: [topic or chapter number]
 - **Hour tracking (formulas)** → ch02, ch03
 - **Invoices and revenue views** → ch02
 - **Italy: partita IVA, forfettario** → ch01
-- **Niche / positioning** → ch01
+- **Niche / positioning** → ch01, `brand-strategy-storytelling` ch03
+- **Pricing, quoting, negotiating, raising rates** → `pricing-and-sales-negotiation`
 - **Notion setup** → ch02
 - **Planning the week / day** → ch03
 - **Tool stack, workspace, desk** → ch04
@@ -75,7 +76,9 @@ argument-hint: [topic or chapter number]
 
 - `presentation-design` / `slide-software-techniques`: the craft side of a presentation-design practice.
 - `social-algorithm`: growing a personal brand and audience.
-- `marketing-mba`: pricing, positioning, negotiation.
+- `pricing-and-sales-negotiation`: how to price and quote projects, run discovery calls, handle discounts and objections, raise rates and decline bad-fit clients. Workshop and sprint scoping, day rates and preparation days: `workshop-facilitation` ch10 (orientation only).
+- `brand-strategy-storytelling`: choosing and owning a niche, positioning, personal brand, portfolio and case-study storytelling.
+- `marketing-mba`: market-level positioning, pricing strategy theory, B2B sales pipeline.
 
 ## Scope & Limits
 

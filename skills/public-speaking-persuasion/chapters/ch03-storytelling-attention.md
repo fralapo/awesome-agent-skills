@@ -52,3 +52,4 @@ Attention is captured by structure, not content quality alone: the order you rev
 - **Speech Structure & Openings**: the 60-second hook framework generalizes to any opening — see the opening-technique chapter for stage-level equivalents.
 - **Persuasion Fundamentals & Ethics**: "emotional narration at any cost" is the storytelling-specific version of the ethics boundary between persuasion and manipulation.
 - **Public Speaking Delivery & Voice**: rhythm variation at the story level pairs directly with vocal pacing and pause technique.
+- **Brand Strategy & Storytelling** (`brand-strategy-storytelling` ch05): normal / explosion / new normal, emotion audit, point-first editing and the binary story critique extend the 5-line skeleton for written brand stories.

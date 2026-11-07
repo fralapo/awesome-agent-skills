@@ -36,3 +36,4 @@ No single design process is universally correct — but having a repeatable proc
 ## Connects To
 - **Ch3**: Double Diamond's diverge/converge rhythm is the same pattern named there as part of design thinking's abductive process (and the reminder that real projects often run through it more than twice — "triple/quadruple diamonds").
 - **Ch12**: the UX Iceberg's bottom-up ordering (strategy → structure → visuals) maps onto Discover/Define happening before Develop/Deliver.
+- **workshop-facilitation** ch06-ch07: concrete exercises for the diverge and converge steps (How might we, Crazy Eights, heat map, design sprint days).

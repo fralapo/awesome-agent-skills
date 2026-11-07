@@ -11,6 +11,7 @@ A brand is the perception people hold, shaped by every interaction; a logo, pale
 - **Touchpoint priority**: design the identity for the touchpoint that matters most for the business (packaging for a product, menu for a cafe, interface for software), and keep the system flexible enough to grow from one product to a parent brand.
 - **Scaling**: typography and illustration style must travel from mobile apps to billboards and social animation; updating only the logo for launch assets leaves the system behind.
 - **Future-proofing**: expect the mark to appear in motion, on merchandise, in 3D and possibly AR; plan a refresh every five to ten years, where small refinements of proportion and spacing can go unnoticed while keeping it fresh.
+- **Perimeter and collections**: for product ranges, write the brand values as a perimeter and organise materials and colours into a few collections (heritage, innovative, performance); see ch09.
 - **Pre-mortem**: ask where the system could fail (logo misread, palette failing on different backgrounds, type unreadable on small screens) and test those cases before launch.
 - **Series as a family**: recurring assignments (monthly event posters, seasonal editions) can carry the designer's own concepts and vary by season or theme while belonging to one family.
 - **Typographic voice**: letter anatomy carries meaning (a high or low crossbar, stroke weight, letter height shift the era feel); a full weight range in one wordmark can express variety and breadth.
@@ -26,3 +27,4 @@ A brand is the perception people hold, shaped by every interaction; a logo, pale
 - A system tested only on the website.
 - Changing the logo while typography and imagery stay generic.
 - Ignoring the main touchpoint and polishing secondary ones.
+- Equating identity design with branding: the system around the mark is identity work; claiming "brand" requires strategy and experience too. See `brand-strategy-storytelling` ch01.

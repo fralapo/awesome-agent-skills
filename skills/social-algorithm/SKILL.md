@@ -48,6 +48,8 @@ The personal brand is the **core of the activity** — service, marketing, and f
 - **Document, don't overproduce** — you already have the content/ideas/ability; enter the *forma mentis* "what I do, I communicate". No studio/filmmaker needed; waiting for the setup = procrastination. Simply *making content* used to be enough to grow — no longer.
 - **Making content ≠ having a personal brand** — publishing is step one; the brand means giving people the *pieces* (tesserae) that let them know you and **bringing yourself**. Starting move: block **1 hour of focus** and answer *"how do I want to be remembered in this market in 2–3–5 years?"*
 
+**Character and story beneath the brand** (origin, defining moment, transformation, enemy, authenticity gap, "too much" reframe, two-word descriptor) and **audience economics** (smallest viable audience, true-fans arithmetic, 30-30-30 experiment plan) → `brand-strategy-storytelling` ch05–ch07. For converting inbound leads into paid clients (qualifying, discovery, pricing, objections) see `pricing-and-sales-negotiation`.
+
 ### The 5 Principles to Scale (Ch 6)
 1. **Positioning > strategy** — verticalize on one specific domain, not "personal brand in general". Face ↔ domain connection in 2 seconds
 2. **Controlling communication = controlling acquisition** — attraction content (useful) ≠ sales content (creates need). Distinct structures
@@ -126,6 +128,7 @@ The flow is **no longer linear** (`content → inquiry` is dead) — build 1-3 t
 - **Quiz funnel** (lead qualification)
 
 ### Bio Anatomy — 3-4 Lines That Convert (Ch 4)
+Line-1 wording help: the two-word descriptor and known-unknown twist in `brand-strategy-storytelling` ch04.
 The bio is the first outpost that converts traffic; a prospect who doesn't understand you is a lost client (goes to the clearer competitor). ~150 chars, expect to rewrite it often. Test: *"1-10, from this bio alone, would I give this person my money?"*
 - **Line 1 (decisive)**: who you are + what you do + what you do DIFFERENTLY. Must be **clear** (the target's own words) + **specific**. **Kill the verb "help"** → alternatives: "They call me when…", imperative ("Acquire steady clients organically"), first-person verb ("I build personal brands that sell organically"), "You find me when…" (for coaching/mental niches)
 - **Line 2 (differentiation)**: deepen line 1 / show *how* you impact them. No empty fillers, no invented method names unless certified. The distinctive tail clause = the core of your method

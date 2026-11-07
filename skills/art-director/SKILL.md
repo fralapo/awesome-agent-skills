@@ -1,6 +1,6 @@
 ---
 name: art-director
-description: "The Art Director role: turning a concept into a coherent visual direction and keeping it consistent. One-emotion method, emotion-to-palette/type/imagery mapping, research and moodboards, presenting about three visual directions and locking one early, describing styles by palette/typography/texture/layout with a catalogue of contemporary styles, identity systems and visual-language rules, the three-format and stress tests, touchpoint priorities, briefing and reviewing graphic designers, and presenting directions to clients. Use when setting or judging the look and feel of a campaign, brand or series, building a moodboard or style references, reviewing work against a direction, or deciding between visual routes. Receives the concept from the creative director, directs the graphic designer, aligns with ux-ui-expert on screens."
+description: "The Art Director role: turning a concept into a coherent visual direction and keeping it consistent. One-emotion method, emotion-to-palette/type/imagery mapping, research and moodboards, presenting about three routes and locking one early, describing styles by palette/typography/texture/layout with a catalogue of contemporary styles, identity systems and visual-language rules, the three-format and stress tests, touchpoint priorities, briefing and reviewing designers, presenting to clients, strategy-to-direction translation, client taste discovery, stylescape fit checks and motion style frames, redesign/rebrand and set cohesion, product material and finish direction, and ethical borrowing of references. Use when setting or judging the look and feel of a campaign, brand or series, building a moodboard or style references, reviewing work against a direction, deciding between visual routes, translating a strategy into a look, finding out what a client really likes, judging a redesign or rebrand, or analysing a reference. Receives the concept from the creative director, directs the graphic designer, aligns with ux-ui-expert on screens."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [task, topic, or chapter number]
 ---
 
 # Art Director
-**Chapters**: 4 | **Corpus**: theoretical transcripts on visual direction and brand identity, distilled | **Generated**: 2026-11-05
+**Chapters**: 9 | **Corpus**: theoretical transcripts on visual direction and brand identity, distilled | **Generated**: 2026-11-05
 
 ## Role and Boundaries
 
@@ -31,6 +31,26 @@ The art director **decides how the idea looks and feels, and keeps it consistent
 - **Choosing between routes / presenting to a client** → ch02 and ch04.
 - **Brand or campaign consistency, identity systems** → ch03.
 - **Briefing or reviewing a designer's work** → ch04.
+- **Turning a strategy into a direction, discovering client taste, decoding vague briefs** → ch05.
+- **Stylescape fit check, moodboard to design, motion style frames** → ch06.
+- **Redesign, rebrand, pack or cover-set analysis** → ch07 (with ch03 for system rollout).
+- **Analysing a reference, search loop, influence vs plagiarism** → ch08.
+- **Physical product, material, finish, perceived tier, product redesign, wearables** → ch09.
+- **Brand positioning, attributes, personas feeding the brief** → `brand-strategy-storytelling` ch02-ch03: take the attribute pair as the filter for "Core emotion" and "Audience" below.
+- **Moodboard or direction workshops with clients** (criteria elicitation, voting) → `workshop-facilitation` ch02, ch06.
+
+| Task | Chapter |
+|---|---|
+| Strategy sheet, attributes to voice, scaffolded sign-off | ch05 |
+| Sticky-note taste sorting, split-room problem | ch05 |
+| How many routes to show (3 vs 1-2 deep vs 1 consolidated) | ch05 (with ch02, ch04) |
+| Stylescape as fit check; stylescape to web/pack/booklet | ch06 |
+| Style frames for a film, arc across acts | ch06 |
+| Keep/evolve/drop inventory, rebrand rollout, trend vs fad | ch07 |
+| Describe a reference precisely; five ingredients | ch08 |
+| Brand values as a perimeter, material collections, gloss vs matte tier | ch09 |
+| Diagnose-then-redesign a product; core vs accessory; cost justification | ch09 |
+| Evolution presentation of a rebranded mark | ch07 |
 
 ## Principles
 
@@ -42,6 +62,12 @@ The art director **decides how the idea looks and feels, and keeps it consistent
 6. **Build systems, not assets.** A visual language with rules for colour, type, imagery, iconography and motion, tested across very different formats.
 7. **Direct with criteria.** A brief states the feeling, the references, the rules and the red lines; it does not dictate every pixel.
 8. **Design for the audience, not the client's personal taste,** and for how the audience will feel moments after first contact.
+9. **Scaffold the client.** Words, attributes, tone, visuals, mark: sign off each step and keep a breadcrumb back to the agreed words.
+10. **Discover taste with examples**, not adjectives; a split room is a decision problem to solve before concepting.
+11. **Stage decides the number of routes**: wide when taste is unknown, deep when it is known, single once approved.
+12. **Keep equity unless the brief resets it**; a mark change needs a business reason and a rollout plan.
+13. **Describe before you interpret** when studying references; disclose lineage.
+14. **Objects: perimeter, not recipe.** Fix the values, let designers change anything inside; read price tier from finish and proportion, and justify every line by function, structure or emotion.
 
 ## Go Deeper: Visual Theory Shelf
 
@@ -53,7 +79,7 @@ The theory behind visual judgment lives in `creative-director` (role `visionary`
 
 ## Direction Brief Template
 
-Concept (from creative director) · Core emotion · Audience · Palette logic · Type voice · Imagery and texture language · Layout character · Do / Don't · References · Touchpoints in priority order · Open questions for other roles.
+Concept (from creative director) · Core emotion · Audience · Strategy keywords (about five) · Attribute-to-voice list · Client references and competitors to avoid · Price tier · Palette logic · Type voice · Imagery and texture language · Layout character · Do / Don't · References · Touchpoints in priority order · Open questions for other roles · Equity inventory (keep / evolve / drop), for redesign work.
 
 ## Review Checklist
 
@@ -63,3 +89,9 @@ Concept (from creative director) · Core emotion · Audience · Palette logic ·
 4. Does it hold on the three most different formats and at small size?
 5. Is any element decorative only? Send back.
 6. Is the problem craft (→ graphic designer), idea (→ creative director) or usability (→ UX/UI)? Route feedback accordingly.
+7. Redesign: is recognition kept where the brief did not ask for a reset, and is the improvement named?
+8. Does every decision trace back to the agreed words (breadcrumb)?
+9. Set work: does the set read as one creator, with a shared link and individual character?
+10. Physical product: does the finish match the price tier, and does each change answer a diagnosed problem?
+
+Problem framing, kickoff questions, root cause and concept formulas → `creative-director` (references on discovery and conceptual patterns). Craft critique method, logo reproduction tests, portfolio review → `graphic-designer` ch07, ch08, ch13.

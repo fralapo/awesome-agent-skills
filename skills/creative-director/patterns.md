@@ -54,6 +54,22 @@ Every concrete technique, method, and checklist pulled from the five role files,
 
 **"What If" Battery** — *When:* a concept is working but feels safe. *How:* invert the working assumption: what if all the loud parts were quiet? What if I removed every noun and kept only verbs? What if this were the first ad anyone ever saw? Extreme inversions expose the actual position on the spectrum so you can choose it consciously.
 
+**Kickoff Triplet** — *When:* before any pitch. *How:* goal in one sentence; who (top three audiences, choose one), what (message and feeling), where-when (buying stage, format timing); narrow parameters; ask how the client decides.
+
+**Problem Tree** — *When:* the stated problem looks like a symptom. *How:* effects as branches, problem as trunk, causes as roots; repeat "why" until a root can be changed.
+
+**Three Questions Before a Stated Solution** — *When:* a client arrives with the answer. *How:* do we know it is true; who else believes it and what does research say; who decides.
+
+**Empathy Grid** — *When:* finding opportunity. *How:* columns task, gap, opportunity; one typical day of the audience; turn one pain into a solution statement.
+
+**Hybrid Meaning Test (A+B=C)** — *When:* judging a visual concept. *How:* name C; if C is only A next to B, it is a collage.
+
+**Concept-First Cover Process** — *When:* covers and constrained briefs. *How:* analytical sources, one universal truth, 3-5 ways of showing it, device references, then the system, then outsider test.
+
+**Silent Anonymous Concept Sketch** — *When:* a group must compare solutions. *How:* short demos, individual silent sketching about 45 minutes with words, anonymous display, separate vote.
+
+**Personal Creative Formula** — *When:* inconsistent output. *How:* write where, how, trigger, judgment, flow conditions; add a pre-task routine; explain it to someone.
+
 ---
 
 ## Persuasion Levers
@@ -180,6 +196,10 @@ Every concrete technique, method, and checklist pulled from the five role files,
 **Structure as Liberator** — *When:* sustaining a creative practice. *How:* fix when, where, and for how long you work. The decision not to decide every morning about your schedule frees creative energy inside the session. Enforce a deliberate reset ritual (Clean Table) before each project.
 
 **Antenna Building** — *When:* daily. *How:* protect slow walks, pre-sleep reflection, mindful eating. Treat boredom and stillness as productive reception modes. Distinguish deliberate distraction (driving, showering — keeps conscious mind busy, frees subconscious) from procrastination (avoidance). Use the former; eliminate the latter.
+
+**Four-Stage Idea Pipeline** — *When:* a brief needs ideas on demand. *How:* (1) clarify: restate the request until clear, cut to two or three precise keywords; (2) saturate: take in material far from the problem, filtered through the keywords; (3) incubate: stop, think briefly before sleep, use routine activity; (4) capture at once. Details in [references/idea-pipeline-originality-and-team-systems.md](references/idea-pipeline-originality-and-team-systems.md).
+
+**Cross-Field Import** — *When:* the category's own references all look alike. *How:* define the audience (new is relative to them), borrow a familiar idea from another discipline, reintroduce it in a new context; try the big/small flip and photograph the overlooked for fresh viewpoints.
 
 **Big Idea Test Application** — *When:* before committing any campaign concept. *How:* run Ogilvy's five questions: Did it make me gasp? Do I wish I'd thought of it? Is it unique? Does it fit the strategy perfectly? Could it run for 30 years? All five must be yes. If not, return to ideation — do not proceed to production.
 

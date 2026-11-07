@@ -223,3 +223,39 @@ Use a base-unit system (4px or 8px multiples) for all spacing values — keeps e
 | Labor illusion | Visible effort/time increases perceived value of an outcome | Sensitive/high-stakes actions that are technically instant |
 | Von Restorff effect | An item that stands out from a uniform set is disproportionately remembered | A list/menu where nothing is differentiated and nothing sticks |
 | Choice overload | Too many simultaneous options causes anxiety/decision paralysis | Navigation/menus dumping every option at once |
+
+## Research Buy-In (MVR)
+Interview sceptic > name live metric > mine analytics/support/reviews > one narrow test on biggest drop-off > insight first, video as proof > ask for the next study (ch26).
+
+## Participant Sources (in order)
+Communities > niche influencers > competitor reviews > social search > screener post > own users incl. drop-offs. Not: friends, family, street tests (ch27).
+
+## Top-Tasks Benchmark
+10-12 tasks | 15-18 users | 1 hour moderated | time + success | target >= 80% | repeat after redesign (ch27).
+
+## Interview Guide Order
+Warm-up > topic behaviour > last-time stories > product narration > reaction. A 30-question guide gets about half done (ch27).
+
+## Prioritisation Quick Pick
+Many ideas vs effort: value/difficulty matrix. Fixed release: MoSCoW. Stakeholder goals: obtainability x desirability 1-10 (ch29).
+
+## Job Search 5 Steps
+Needs (like/loathe) > criteria > sources > JD study > tracker (ch25).
+
+## Anticipatory Design Principles
+Do not invade | keep control | be transparent | curate with context | trust before data (ch31).
+
+## Atomic Design Levels
+Atoms > molecules > organisms > templates > pages; extract after 10-20 page variants (ch33).
+
+## Redesign Audit Order (ch34)
+Purpose > hierarchy > consistency > navigation (one path per action) > colour meaning > layout/grouping > platform guidelines. Goal first: design, strategy or usability.
+
+## Signals Must Mean Something (ch35)
+Shadow = tappable | primary colour = one primary action | red = error/danger, destructive is secondary | shape = content type | text inside the control | contrast checked on translucent surfaces.
+
+## Survey Zones (ch27)
+Current reality | obstacles | desired future. Screener first, first-person prompts, obstacle question, "anything else", categorise one question at a time.
+
+## Content Model (ch36)
+Per type: purpose, audience, size range, source, owner. Test layouts with shortest, longest and missing content.

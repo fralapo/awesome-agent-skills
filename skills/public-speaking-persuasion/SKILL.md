@@ -8,7 +8,7 @@ argument-hint: [topic, framework name, or chapter number]
 ---
 
 # Public Speaking & Persuasion
-**Chapters**: 14 | **Generated**: 2026-07-15
+**Chapters**: 15 | **Generated**: 2026-07-15
 
 ## How to Use This Skill
 
@@ -41,6 +41,8 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 
 **Pitching leads with the problem, not the solution.** The **7 Elements of an Entrepreneurial Pitch**: Problem, Who, Product, Competition, Make Money, Resources, Capture Value — never open on Product. Climb the **4 Levels of Question** (Fact → Opinion → Impact → Change) to surface real motivation.
 
+**Client conversations are fit checks.** Frame a pitch or discovery call as "are we a good fit?" so the pressure shifts to the listener; ask first, answer later. Good questions are open, neutral, concise and single; use **PROACT** (Problem, Objective, Alternatives, Consequences, Trade-offs) to frame a problem. Pause about three seconds before replying, say so when you need time to think, and answer a question with a curious question. A 30-second intro runs Problem, Solution, Proof (ch12 additions).
+
 **Closing requires emotion, not just logic.** Every close is **Direct** (name the action) or **Indirect** (dramatize the cost of inaction) — pick one. Logic produces agreement; emotion produces commitment. Make inaction structurally harder than acting (**Institutional Yes**).
 
 ---
@@ -55,14 +57,15 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 | [ch04](chapters/ch04-argumentation-fallacies.md) | Argumentation & Logical Fallacies | 16-fallacy catalog, Reason+Emotion |
 | [ch05](chapters/ch05-cognitive-biases.md) | Cognitive Biases & Decision-Making | 18-bias catalog, System 1/2, Framing effect |
 | [ch06](chapters/ch06-delivery-voice.md) | Public Speaking Delivery & Voice | 5 Aspects of Voice, 4-Step Method, 3-Minute Practice |
-| [ch07](chapters/ch07-speech-structure-openings.md) | Speech Structure & Openings | Three Openings, One-Sentence Rule, Image-Over-Text |
+| [ch07](chapters/ch07-speech-structure-openings.md) | Speech Structure & Openings | Three Openings, One-Sentence Rule, Image-Over-Text, Story-First Method, Overview-Steps-Outro |
 | [ch08](chapters/ch08-anxiety-mental-performance.md) | Managing Anxiety & Mental Performance | 4 Ways of Dealing with Anxiety, 3 Power Tools |
 | [ch09](chapters/ch09-audience-analysis.md) | Audience Analysis & Hostile Audiences | 4 Types of Audience, Reopen-the-Decision |
 | [ch10](chapters/ch10-objection-handling.md) | Objection Handling & Communication Failure | 5 Paths to Communication Failure, Conversation Aikido |
 | [ch11](chapters/ch11-persuasive-writing-clarity.md) | Persuasive Writing & Clarity of Thought | "This" Opening, Write/Edit Separation, 6 Steps to Get an Email Read |
-| [ch12](chapters/ch12-sales-pitching.md) | Sales Pitching & Entrepreneurial Pitches | 7 Elements of a Pitch, 4 Habits of Selling, 4 Levels of Question |
+| [ch12](chapters/ch12-sales-pitching.md) | Sales Pitching & Entrepreneurial Pitches | 7 Elements of a Pitch, 4 Habits of Selling, 4 Levels of Question, 30-Second Introduction |
 | [ch13](chapters/ch13-calls-to-action.md) | Calls to Action & Commitment | 2 Ways to Call to Action, Emotion-to-Commitment |
 | [ch14](chapters/ch14-leadership-communication.md) | Leadership Communication & Mentoring | 4 Steps to Great Communication, Mentee Onboarding Structure |
+| [ch15](chapters/ch15-client-conversations-questions-pacing.md) | Client Conversations: Questions, Pacing and Fit | Fit-Assessment Frame, PROACT, Good-Question Rules, 3-Lesson Confidence Sequence |
 
 ## Topic Index
 
@@ -72,7 +75,9 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Biases (cognitive)** → ch05
 - **Call to action / closing** → ch13
 - **Clarity of thought** → ch11
+- **Client meetings / discovery calls** → ch15, ch12
 - **Delivery / voice** → ch06
+- **Elevator pitch (30 s)** → ch12 (Problem-Solution-Proof), ch07
 - **Email writing** → ch11
 - **Ethos / Logos / Pathos** → ch01
 - **Fallacies (logical)** → ch04
@@ -83,12 +88,16 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Objection handling** → ch10
 - **Openings (speech)** → ch07
 - **Persuasion vs. manipulation** → ch01
-- **Pitching (sales/investor)** → ch12
+- **Pitching (sales/investor)** → ch12, ch15
 - **Point X** → ch01
+- **Questions (asking well)** → ch15, ch12
 - **Self-talk (negative)** → ch08
+- **Silence / pausing before replying** → ch15, ch06
 - **Slides / PowerPoint** → ch06, ch07
 - **Storytelling structure** → ch02
 - **Storytelling for attention/social** → ch03
+- **Story-first opening, introverts** → ch07, ch02
+- **Video / tutorial structure** → ch07 (Overview-Steps-Outro)
 
 ## Supporting Files
 
@@ -100,4 +109,4 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 
 ## Scope & Limits
 
-This skill covers persuasion theory, storytelling, argumentation, cognitive bias, public speaking delivery, and sales/leadership communication only. For hands-on execution (writing an actual speech, running a live pitch), combine with project context. For topics beyond this corpus, ask the agent directly.
+This skill covers persuasion theory, storytelling, argumentation, cognitive bias, public speaking delivery, and sales/leadership communication only. For hands-on execution (writing an actual speech, running a live pitch), combine with project context. For topics beyond this corpus, ask the agent directly. For presenting design work to clients see `presentation-design` ch12. For pricing, bids, discount requests and sales calls for freelance or studio work, use `pricing-and-sales-negotiation`. Giving clear exercise instructions and managing a room: `workshop-facilitation` ch03.

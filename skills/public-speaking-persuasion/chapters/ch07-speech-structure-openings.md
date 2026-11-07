@@ -15,6 +15,19 @@ The first and last words of a speech carry disproportionate weight, and a speech
   - How: (1) Default to one full image per slide, no bullet lists. (2) If text is unavoidable, use a single active word, not a passive label — the word should push a direction, not just name the image's subject. (3) Choose memorable, unexpected images over generic stock photography; the image should be surprising within its context, not the safe/expected choice for the topic.
   - Exception: detail-heavy technical reviews (financial breakdowns, line-item data) are a different communication mode from inspiring/persuading — spreadsheets belong in a working meeting, not a persuasive talk.
 
+- **Story-First Method for Quiet Speakers**: open with a short story, then move to data.
+  - When to use: talks, presentations and facilitation, especially when the speaker is not naturally extroverted.
+  - How: (1) choose the one key point; (2) find or build a story that illustrates it (setup, conflict, change to a new normal); (3) rehearse it aloud (mirror, a trusted friend, even while walking); (4) tell it first, then give the data.
+  - Notes: the conflict can be small; a little self-deprecation helps; audiences relax as soon as they know a story is coming, and the energy shift also eases the speaker. The story is the part most worth rehearsing. A quiet speaker need not imitate stage energy.
+  - Anti-pattern: starting with data or bullet points.
+
+- **Overview - Steps - Outro (how-to and educational content)**: structure for a video, tutorial or teaching talk when viewers arrive with a question.
+  1. **Overview** (cold open, 5-10 seconds): say what will be taught, promise the concrete result, one credibility line (a sentence or two, enough to justify why this speaker), and why it matters to the viewer.
+  2. **Body**: three to five steps, like a recipe; show the end result first, then the steps to reach it. More than five overloads.
+  3. **Outro**: recap, give one small concrete action (for example a short challenge with a measurable count), then ask for one specific next step.
+  - Rules: lead with the answer; give a small win to act on, because people come back to report results.
+  - Anti-patterns: a resume-style intro; more than five steps; a passive outro with no action.
+
 ## Key Concepts
 - **The message**: the one-sentence summary an audience member should be able to repeat back an hour later.
 - **Self-interest assumption**: in speaking and selling, assume the audience is asking "why does this matter to me" — connect the topic to your own lived reason for caring about it.

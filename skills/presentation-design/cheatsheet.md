@@ -165,3 +165,13 @@ All sizes in pt on a 1920×1080 px, 16:9 canvas (pt ≈ px). Scale proportionall
 - Pitch deck ≈13 slides (page numbers optional). Respect any imposed cap without overloading.
 - More slides ≠ longer talk: the speaker sets the duration.
 - Time budget: 10–20-min talk ≈4–5 h; full client deck ≈1 month part-time.
+
+## Presenting Design Work (Ch12)
+| Step | Rule |
+|---|---|
+| Walk-through | context -> frames in order -> key details (skip repeats) -> peak moment |
+| Direction round | ~4 distinct, named directions, persona filter, nothing designed yet; never ~20 |
+| Logo presentation | recap goal -> recap process (<= ~5 min) -> 3 options -> hidden comparison slide -> targeted questions -> feedback deadline |
+| Per option (5 slides) | isolated on white; 1-colour light/dark; standard mock-ups; small format; large format; isolated again |
+| Questions | "missed the mark?", "how would [persona] react?", "right direction for [pain point]?", "one to cross off?"; never "what did you think?" |
+| Language | plain words + familiar references + sensory close; no jargon; check descriptors for negative meanings |

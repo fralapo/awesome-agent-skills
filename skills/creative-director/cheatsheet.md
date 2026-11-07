@@ -25,6 +25,18 @@ Decision rules, compact tables, and quick heuristics. Every line helps DECIDE so
 - If FREE is used without designing the social-norm covenant → redesign the whole relationship.
 - If product tiers are binary (two options) → add the decoy. Never two options.
 - If the brief is rational in an emotional category → question the brief, not the executions.
+- If two elements sit side by side but no third meaning appears → it is a collage, not a concept. Find the hybrid meaning or drop it.
+- If an outsider cannot say what the idea is → the puzzle is too hard; if they get it instantly with no effort → too easy.
+- If the style was chosen before the idea (patterns, botanicals, textures) → stop; fix the idea first.
+
+### Problem Framing
+- If the goal needs more than one sentence → cut until one remains.
+- If a stated solution arrives pre-diagnosed ("we need a new platform") → ask: is it true, who else believes it, who decides?
+- If the deadline is arbitrary → ask why the date matters before cutting scope; new users get polish, existing users get function.
+- If the client cannot say how they will decide (price, results, quality, rapport) → ask before pitching.
+- If a workshop output (persona, poster, insight) has no path to a feature or decision → it is decoration.
+- If ideas will not come → check the pipeline: request restated into two or three keywords, far-away saturation, a break, immediate capture.
+- If the goal is "never seen before" → define the audience and import an idea from another field instead.
 
 ### Creative Leader
 - If a report can deliver at 80%+ quality → coach and hand off. Step in only for irreversible stakes.
@@ -43,6 +55,9 @@ Decision rules, compact tables, and quick heuristics. Every line helps DECIDE so
 - If someone needs structure but you gave full freedom (or vice-versa) → recalibrate autonomy to competence.
 
 ### Visionary
+- If direction is unclear, more speed makes the miss larger: restate the goal and the criteria of success first.
+- If a review turns into taste → return to written criteria (strategy ladder: mission, strategy, criteria, proposals).
+- If an idea will not come → make something and explain the problem aloud; do not wait for inspiration.
 - If brief can't fit in one emotionally resonant sentence → sharpen it; don't brief the team yet.
 - If nothing produces the Ecstatic response → work is not there yet; return to Experimentation.
 - If you're refining past the point of extraction → Demo-itis. Ship.

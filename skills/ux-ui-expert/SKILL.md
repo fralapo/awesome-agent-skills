@@ -1,6 +1,6 @@
 ---
 name: ux-ui-expert
-description: "UX research + UI design knowledge base. Research: study plans, roadmaps, sample sizes (usability 5, card sort, diary), small-sample reporting, experiment design, ethics, stakeholders, ROI of UX, Double Diamond. Design: UX/UI/CX scope, user flows, beginner UI mistakes, hierarchy, grids and spacing, component states, dark mode, design systems, the 9 typography laws, UX writing and microcopy, widows/orphans, color systems (60-30-10, color wheel, HSL, tokens, WCAG/EAA), and UX psychology (cognitive load, variable reward, goal gradient, peak-end, Von Restorff, choice overload). Use this skill whenever the user plans or runs user research, reviews or critiques a UI, screen, app, landing page or dashboard, picks fonts, colors or a palette, writes button/error/empty-state copy, maps a flow, builds a business case for UX, or asks why users behave a certain way in a product, even if they never say 'UX'."
+description: "UX research + UI design knowledge base. Research: study plans, roadmaps, sample sizes (usability 5, card sort, diary), small-sample reporting, experiment design, ethics, stakeholders, ROI of UX, Double Diamond. Design: UX/UI/CX scope, user flows, beginner UI mistakes, hierarchy, grids and spacing, component states, dark mode, design systems, the 9 typography laws, UX writing and microcopy, widows/orphans, color systems (60-30-10, color wheel, HSL, tokens, WCAG/EAA), and UX psychology (cognitive load, variable reward, goal gradient, peak-end, Von Restorff, choice overload). Practice and career: portfolios and case studies, the UX job search, winning research buy-in (minimum viable research), recruiting participants and top-task benchmarks, personas and mental-model workshops, feature prioritisation and website process, prototyping and design sprints, anticipatory design, transactional flows, atomic design. Use this skill whenever the user plans or runs user research, reviews or critiques a UI, screen, app, landing page or dashboard, picks fonts, colors or a palette, writes button/error/empty-state copy, maps a flow, builds a business case for UX, plans a portfolio or job search, scopes a website or feature list, recruits test participants, or asks why users behave a certain way in a product, even if they never say 'UX'."
 allowed-tools:
   - Read
   - Grep
@@ -8,15 +8,15 @@ argument-hint: [task, topic, framework name, or chapter number]
 ---
 
 # UX/UI Research & Design Expert
-**Chapters**: 23 | **Supporting files**: cheatsheet, patterns, glossary
+**Chapters**: 36 | **Supporting files**: cheatsheet, patterns, glossary
 
-**Role boundary.** This skill is the UX/UI designer: screens, flows, interaction, usability evidence. Concept and insight → `creative-director`; visual direction and identity rules → `art-director`; print, poster, logo and layout craft → `graphic-designer`. Adapt their direction to interfaces and report back when it fails on screen (ch23).
+**Role boundary.** This skill is the UX/UI designer: screens, flows, interaction, usability evidence. Concept and insight → `creative-director`; visual direction and identity rules → `art-director`; print, poster, logo and layout craft → `graphic-designer`. Adapt their direction to interfaces and report back when it fails on screen (ch23, ch29 mood board handoff). Workshops, design sprints and group alignment exercises (agenda, timing, voting, facilitation) → `workshop-facilitation`.
 
 ## How to Use This Skill
 
-1. **Match the task to a workflow** below and open only the chapters it names. Don't load all 22.
+1. **Match the task to a workflow** below and open only the chapters it names. Don't load them all.
 2. **Use the Core Frameworks** for quick answers; read the chapter before going beyond them.
-3. **Quick lookups**: [cheatsheet.md](cheatsheet.md) (tables: sample sizes, typography laws, 60-30-10, states, psychology), [patterns.md](patterns.md) (When / How / Trade-offs for 37 techniques), [glossary.md](glossary.md).
+3. **Quick lookups**: [cheatsheet.md](cheatsheet.md) (tables: sample sizes, typography laws, 60-30-10, states, psychology), [patterns.md](patterns.md) (When / How / Trade-offs for 47 techniques), [glossary.md](glossary.md).
 4. **Ground recommendations in evidence**: cite the rule or number (e.g. "line length 45-75 chars, ch21") and never blame the user.
 
 ---
@@ -43,6 +43,28 @@ argument-hint: [task, topic, framework name, or chapter number]
 
 **Scope an ambiguous design brief**: UX/UI/CX layer (ch12), Double Diamond (ch14), start-with-intent (ch19), user flow (ch16).
 
+**Build a portfolio or run a UX job search**: narrative first and mapped to job descriptions (ch24), 5-step search with criteria and one tracker (ch25), learning path and case-study contents (ch23).
+
+**Get buy-in for research / run a small study**: interview the sceptic, mine existing data, one narrow test on the metric that matters (ch26), then recruit and run it (ch27).
+
+**Recruit participants and run sessions or a before/after benchmark**: sources, screening, one-hour sessions, discussion guide, top-tasks benchmark (ch27).
+
+**Define users and scope features or a website**: personas and mental-model workshop (ch28), profiles, goal scoring, value/difficulty, content-first site build (ch29).
+
+**Validate before building**: prototype at the right fidelity, storyboard, design sprint (ch30).
+
+**Design automation, predictions or recommendations**: suggest, do not silently decide; reversible and transparent (ch31).
+
+**Redesign a transaction, kiosk or gesture**: frequency hierarchy, outcomes over codes, one gesture one meaning (ch32).
+
+**Build a component library**: atomic design from page patterns (ch33).
+
+**Audit or redesign an existing interface (app, kiosk, site)**: name the goal, one purpose per screen, merge duplicates, rank by frequency (ch34); check signals, contrast and context of use (ch35).
+
+**Plan content for a site or app**: content model, audit, style guide, design for variance (ch36); survey method for customer language (ch27).
+
+**Run a workshop or design sprint with stakeholders**: hand off the process design, exercises and timing to `workshop-facilitation` (ch01, ch07); keep the research questions and usability evidence here (ch05, ch08).
+
 ---
 
 ## Core Frameworks & Mental Models
@@ -59,7 +81,15 @@ argument-hint: [task, topic, framework name, or chapter number]
 
 **Recommendations and influence**: recommendations are data-driven, feasible, prioritised, blame-free and concise. Influence (earned, mutual) beats persuasion (one-way). With a resistant stakeholder, open Affiliative, then switch to Democratic (Goleman).
 
-**Impact and ROI**: decide what to measure → baseline → measure continuously → show before/after with the story. Payback = yearly loss from the problem ÷ cost of the fix; a fix after development costs ~100× more.
+**Impact and ROI**: decide what to measure → baseline → measure continuously → show before/after with the story. Payback = yearly loss from the problem ÷ cost of the fix; a fix after development costs ~100× more. For quoting UX/UI work, paid discovery phases and value-based fees see `pricing-and-sales-negotiation` ch01, ch05, ch07.
+
+**Buy-in and minimum viable research** (ch26): treat "no" as a UX problem; interview the sceptic, tie the proposal to one live metric, mine existing data, run one narrow study on the biggest drop-off, lead with the insight and session video. Analytics shows what, people show why.
+
+**Recruiting** (ch27): friends, family and street tests mislead; recruit in communities, reviews and your own users (including drop-offs); screen everyone; 1-hour sessions. Top-tasks benchmark: 10-12 tasks, 15-18 users, 80% success target, repeat after redesign.
+
+**Scoping workshops** (ch29): 3-5 profiles, four-moment user stories, goal scoring (obtainability x desirability), value/difficulty matrix or MoSCoW, content-first site build.
+
+**Anticipatory design** (ch31): offer, explain, allow reversal; ask first on high stakes.
 
 ### Design
 
@@ -106,6 +136,19 @@ argument-hint: [task, topic, framework name, or chapter number]
 | [ch21](chapters/ch21-typography-laws-ux-writing.md) | Typography Laws, UX Writing, Micro-Typography | 9 typography laws, 3 C's, UX writer role, widows/orphans |
 | [ch22](chapters/ch22-color-systems-60-30-10.md) | Color Systems | 60-30-10, color wheel, micro-palettes, HSL, design tokens, free tools, EAA |
 | [ch23](chapters/ch23-learning-ux-portfolio-and-accessibility-checks.md) | Learning UX, Case Studies, First Accessibility Checks | informational interviews, self-initiated project, case-study contents, low-vision checks, working with other design roles |
+| [ch24](chapters/ch24-ux-portfolio-and-case-study-narrative.md) | The UX Portfolio and Case-Study Narrative | narrative first, claim then proof, deck vs site, case-study skeleton |
+| [ch25](chapters/ch25-ux-job-search-and-career-skills.md) | The UX Job Search and Career Skills | 5-step search, role landscape, neglected skills |
+| [ch26](chapters/ch26-winning-research-buy-in-minimum-viable-research.md) | Winning Research Buy-In, Minimum Viable Research | MVR sequence, five benefits, what vs why, bookends |
+| [ch27](chapters/ch27-recruiting-and-running-practical-research-sessions.md) | Recruiting and Running Practical Sessions | sources, guerrilla pitfalls, discussion guide, top-tasks benchmark |
+| [ch28](chapters/ch28-personas-archetypes-and-mental-modeling.md) | Personas, Archetypes, Mental Modeling | research-based personas, first questions, mental-model workshop |
+| [ch29](chapters/ch29-workshops-feature-prioritisation-and-website-process.md) | Workshops, Feature Prioritisation, Website Process | goal scoring, basket weaving, value/difficulty, MoSCoW, build order |
+| [ch30](chapters/ch30-prototyping-early-and-design-sprints.md) | Prototyping Early and Design Sprints | fidelity by audience, storyboard, sprint intake and test day |
+| [ch31](chapters/ch31-anticipatory-design-and-automation.md) | Anticipatory Design and Automation | 3 cautions, 5 principles, kill switch |
+| [ch32](chapters/ch32-transactional-flows-and-gesture-design.md) | Transactional Flows and Gesture Design | frequency hierarchy, codes to outcomes, gesture rules |
+| [ch33](chapters/ch33-atomic-design-component-library.md) | Atomic Design | atoms to pages, 6-step extraction |
+| [ch34](chapters/ch34-interface-audit-and-redesign-method.md) | Interface Audit and Redesign Method | 3 redesign goals, audit order, merge duplicates, navigation fixes |
+| [ch35](chapters/ch35-interface-craft-and-context-of-use.md) | Interface Craft and Context of Use | meaningful shadow/colour/shape, translucent contrast, status and range, low-attention controls |
+| [ch36](chapters/ch36-content-modelling-and-ux-content-strategy.md) | Content Modelling and UX Content Strategy | content model, audit, design for variance, editors as users |
 
 ## Topic Index
 
@@ -115,16 +158,23 @@ argument-hint: [task, topic, framework name, or chapter number]
 - **AI-assisted analysis** → ch07
 - **Alignment (text)** → ch21
 - **Anticipated use** → ch12
+- **Anticipatory design / automation** → ch31
+- **Archetype / persona** → ch28
+- **Atomic design** → ch33
 - **Auto-layout** → ch17
+- **Basket weaving / feature prioritisation / MoSCoW / value-difficulty** → ch29
 - **Belmont Report / ethics** → ch09
 - **Between/within-subjects design** → ch09
+- **Redesign audit / duplicate pages / navigation cleanup** → ch34
 - **Business acumen** → ch03
 - **Card sorting** → ch08
+- **Case study / portfolio (relevance filter, cover letter)** → ch23, ch24
 - **Charts (overdesigned)** → ch17
 - **Choice overload** → ch20
 - **Chunking (Miller's Law)** → ch21
 - **Classical conditioning (notifications)** → ch20
 - **Cognitive overload** → ch20
+- **Content model / content strategy / content audit** → ch36
 - **Color psychology** → ch20
 - **Color theory / color wheel** → ch18, ch22
 - **Communication styles** → ch11
@@ -138,34 +188,44 @@ argument-hint: [task, topic, framework name, or chapter number]
 - **DACI** → ch05
 - **Dark mode** → ch18
 - **Decision point (user flow)** → ch16
+- **Design sprint** → ch30
 - **Design system** → ch19
 - **Design tokens (semantic color)** → ch22
 - **Desire path** → ch12
 - **Diary studies** → ch08
+- **Discussion guide (interview)** → ch27
 - **Dopamine-driven engagement** → ch20
 - **Double Diamond** → ch14
 - **Empathy / empathy map** → ch07, ch11
 - **Feedback & component states** → ch18
 - **Font pairing** → ch21
+- **Friends and family / guerrilla testing** → ch27
 - **Gestalt proximity (spacing)** → ch21
+- **Gestures** → ch32
 - **Goal gradient effect** → ch20
+- **Goal scoring / user stories** → ch29
 - **Goleman leadership styles** → ch11
 - **Hedonic adaptation** → ch20
 - **HSL color variants** → ch22
 - **Impact measurement** → ch10
 - **Influence vs. persuasion** → ch11
 - **Information architecture** → ch08, ch12
+- **Job search / job descriptions / product designer role** → ch25
 - **Labor illusion** → ch20
 - **Leadership theories** → ch11
 - **Line height / line length** → ch21
 - **Magic number five (sample size)** → ch08
+- **Mental modeling** → ch28
 - **Micro-interactions** → ch18
 - **Micro-palette (section-level color)** → ch22
 - **Microcopy / UX writing (3 C's)** → ch21
+- **Minimum viable research / research buy-in** → ch26
 - **Non-breaking space / widows / orphans** → ch21
+- **Participant recruiting** → ch27
 - **Peak-end rule** → ch20
 - **Processing fluency** → ch20
 - **Progressive disclosure** → ch19
+- **Prototype fidelity / storyboard** → ch30
 - **Recommendations (writing)** → ch06
 - **Reinforcement (positive / intermittent)** → ch20
 - **Research project cycle** → ch15
@@ -174,13 +234,18 @@ argument-hint: [task, topic, framework name, or chapter number]
 - **Sample size (small-N reporting)** → ch07, ch08
 - **Screener design** → ch05
 - **Serial position effect** → ch21
-- **Shadows (depth)** → ch18
+- **Shadows (depth, meaning)** → ch18, ch35
+- **Shape per content type / button hierarchy** → ch35
+- **Translucent surfaces / glass contrast** → ch35
+- **Low-attention and physical interfaces (alarm, camera, intercom)** → ch35
 - **60-30-10 rule** → ch22
 - **Spacing system (4/8px)** → ch17, ch18
 - **Stakeholder collaboration** → ch02, ch06
 - **Study plan** → ch05
+- **Survey (three zones, screener, categories)** → ch27
 - **Team structure** → ch02
 - **T-shirt sizing** → ch14
+- **Top-tasks benchmark** → ch27
 - **Types of research** → ch03
 - **Typography laws** → ch18, ch21
 - **UCD principles / UX Iceberg / scope model** → ch12
@@ -190,6 +255,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 - **UX writer (role)** → ch21
 - **Visual hierarchy** → ch18
 - **Von Restorff effect** → ch20
+- **Website process / sitemap / landing page sequence** → ch29
 
 ## Related Skills
 
@@ -197,6 +263,13 @@ argument-hint: [task, topic, framework name, or chapter number]
 - `creative-director`: concepts, copy and visual literacy beyond interface work.
 - `depth-psychology`: motives and defences of people (this skill's ch20 covers behavioural psychology in products).
 - `public-speaking-persuasion`: presenting research findings and pitching UX work.
+- `freelance-designer-ops`: pipeline, client acquisition and organisation for the career chapters (ch24, ch25).
+- `workshop-facilitation`: running workshops and design sprints (agenda, silent work, voting, remote).
+- `pricing-and-sales-negotiation`: quoting UX/UI work and paid discovery.
+
+## Scope & Limits
+
+Thin coverage: resume/ATS formatting, interview answers and hiring-side scoring are not covered (ch25 gives search strategy and role definitions only); say so rather than inventing advice.
 
 ## Scope & Limits
 

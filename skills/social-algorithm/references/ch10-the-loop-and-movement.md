@@ -57,6 +57,8 @@ Two facts that look contradictory but aren't:
 
 Movement is driven by attraction content (§2) hitting the right interest cluster (Ch 2's distribution-by-interest) — it is the practical, ongoing output of getting that mechanic right, continuously, not a one-time fix.
 
+Counter-view (see `brand-strategy-storytelling` ch07): chasing viral spikes erodes motivation and builds the wrong audience; judge inflow by what newcomers do on the second and third touch. Constant inflow is the input, loyalty is the outcome.
+
 ---
 
 ## 6. The 3 Errors That Block Differentiation (and the Square/Star/Circle Model)

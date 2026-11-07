@@ -184,3 +184,53 @@
 **When to use**: any paginated, printed, multi-column, or card-truncated layout, or a heading that might reflow awkwardly on narrower viewports.
 **How**: for paragraphs that fragment across pages/columns, set `orphans: 2; widows: 2;` in CSS and add `text-wrap: pretty`; for headings, add `text-wrap: balance` first; if a single word still strands itself, join the last two words with `&nbsp;` or wrap them in `<span style="white-space: nowrap">`; if none of that reads cleanly, shorten the text or adjust the container width instead of forcing a markup fix. Re-check at every breakpoint — reflow creates new widows/orphans that a static design file won't show.
 **Trade-offs**: `orphans`/`widows` CSS only fires where content actually breaks across pages/columns (no effect on continuous scroll); overusing `&nbsp;` across long text can relocate the problem instead of fixing it — reserve it for titles, labels, and fixed units.
+
+## Running Minimum Viable Research
+**When to use**: a stakeholder resists or budgets block research.
+**How**: interview the sceptic about past research stories; pick the live metric; mine analytics, support logs and reviews for a few hours; test one element on the highest drop-off step, combining an A/B variant with moderated sessions; present the insight first, then session video.
+**Trade-offs**: narrow scope proves little about the whole product; use the win to fund larger studies.
+
+## Recruiting Without an Agency
+**When to use**: niche audience, small budget.
+**How**: post in communities after contributing, use competitor reviewers and your own lapsed users, attach a screener to every call, state slots, length and incentive.
+**Trade-offs**: slower to assemble than an agency and self-selected; always screen.
+
+## Mental-Model Workshop
+**When to use**: early discovery with a client team.
+**How**: timeline of tasks, then gaps, then opportunities (only here solutions are allowed), affinity-map, convert clusters to features and use cases, prioritise short/medium/long term.
+**Trade-offs**: supplements interviews and does not replace them.
+
+## Basket Weaving Feature Generation
+**When to use**: a feature list copied from competitors.
+**How**: top three needs per profile beside prioritised business goals on two colours of notes; ideas at each intersection become features, messages or campaigns; score value against difficulty with builders present.
+**Trade-offs**: ideas can be messages or content tasks, not features; separate them first.
+
+## Fake-It Prototype Before Build
+**When to use**: demand or usability unproven.
+**How**: storyboard people and moments, choose fidelity by audience, fake the back end with existing services, test with five outside-network participants.
+**Trade-offs**: fidelity too high wastes time; too low fails realistic usability tests.
+
+## Designing a Safe Automation
+**When to use**: predictions, defaults, auto-actions.
+**How**: suggest rather than decide for non-trivial choices, explain actions, make them reversible with a never-again switch, ask first when stakes are high.
+**Trade-offs**: more prompts reduce the convenience automation promised.
+
+## Atomic Component Extraction
+**When to use**: several designers drift out of consistency.
+**How**: design 2-3 pages and 10-20 variants, find recurring patterns, extract and build bottom-up, replace instances with the component.
+**Trade-offs**: governance overhead for small teams.
+
+## Interface Audit and Redesign
+**When to use**: an existing app, kiosk or site feels cluttered or confusing.
+**How**: name the goal (design, strategy or usability); list screens with one purpose each; merge duplicate pages and menu entries; rank actions by frequency with one primary per view; keep profile items in the profile; then apply a shared component set and check platform guidelines (ch34).
+**Trade-offs**: structural cuts may meet stakeholder resistance; test the main task with five users to defend them.
+
+## Survey for Problem Trends and Customer Language
+**When to use**: you need the shape of a problem and the words people use at low cost.
+**How**: agree three zones (reality, obstacles, desired future), screener first, first-person story prompts, categorise one question at a time, reuse verbatim answers (ch27).
+**Trade-offs**: shows what and how many, not why; follow with interviews (ch26).
+
+## Content Modelling Before Layout
+**When to use**: a site or app where content is long-lived or edited by others.
+**How**: audit existing content, define each type (purpose, audience, size range, source, owner), give the model to design, test layouts against shortest, longest and missing content, write the style guide, design the editors' workflow (ch36).
+**Trade-offs**: needs content people early; costs time before visuals appear.

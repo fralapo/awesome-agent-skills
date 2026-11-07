@@ -209,3 +209,35 @@
 **Complementary Colors** — hues opposite on the color wheel, producing a high-contrast pairing suited to an accent color (Ch22)
 
 **HSL Model** — a color model (Hue, Saturation, Lightness) used to generate coherent color variants by holding hue fixed and varying only saturation/lightness (Ch22)
+
+**Minimum Viable Research (MVR)** - one narrow, fast study on the highest-impact step, designed to produce a visible insight and earn trust for larger research (Ch26)
+
+**Bookending** - research at the start, before launch, after launch and after each significant change (Ch26)
+
+**Top-Tasks Benchmark** - 10-12 representative tasks timed and scored with 15-18 target users before and after a redesign (Ch27)
+
+**Guerrilla Testing** - unscreened street or cafe testing; supplementary at best (Ch27)
+
+**Archetype** - a research-based user type used to decide who a design is for (Ch28)
+
+**Mental Model Workshop** - tasks, gaps, opportunities, affinity mapping, features and use cases (Ch28)
+
+**Goal Scoring** - rating goals 1-10 on obtainability and desirability (Ch29)
+
+**Basket Weaving** - placing user needs beside business goals and generating ideas at each intersection (Ch29)
+
+**MoSCoW** - must/should/could/won't prioritisation (Ch29)
+
+**Design Sprint** - a time-boxed week ending in a tested prototype, used as a research vehicle (Ch30)
+
+**Anticipatory Design** - predicting needs and offering choices rather than automating decisions (Ch31)
+
+**Atomic Design** - atoms, molecules, organisms, templates, pages (Ch33)
+
+**Content Model** - per content type: purpose, audience, size range, source and owner, defined before layout (Ch36)
+
+**Concentric Radii** - nested corners whose radii match the device and each other (Ch35)
+
+**Redesign Audit** - ordered review: purpose, hierarchy, consistency, navigation, colour, layout, platform guidelines (Ch34)
+
+**Survey Zones** - current reality, obstacles, desired future; each survey question maps to one (Ch27)

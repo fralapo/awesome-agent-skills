@@ -36,3 +36,4 @@ UX research doesn't happen in isolation — success depends on knowing your four
 - **Ch1**: extends the stakeholder qualities and "bridge between users and stakeholders" framing introduced there.
 - **Ch5**: the study plan's stakeholder-alignment steps operationalize the collaboration tactics from this chapter.
 - **Ch6**: covers what to do when stakeholders misbehave *during* a live session, building on the collaboration norms set here.
+- **workshop-facilitation** ch04: deciders, difficult participants and running alignment sessions with these stakeholders.

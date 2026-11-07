@@ -194,6 +194,9 @@ Five interview questions worth asking:
 
 **Keep (or re-adopt) the underdog posture.** *(Henry White.)* Its three powers: *no rules* (move fast, throw more darts), *authenticity* (the audience takes the work personally), and *it's okay to copy* (transplant a format from another industry). When work is over-polished or risk-averse, ask the team: "what would we do with no rules and nobody watching?" — then ship the minimum version that keeps that raw energy.
 
+
+For running group workshops, ideation sessions and decision exercises (agenda, silent work, voting, parking lot) see `workshop-facilitation`; this role covers leading and giving feedback to a team.
+
 ---
 
 ## Decision Rules

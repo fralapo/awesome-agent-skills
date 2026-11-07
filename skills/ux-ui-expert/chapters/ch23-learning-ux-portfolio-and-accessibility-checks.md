@@ -15,6 +15,8 @@ The UX/UI designer role owns screens, flows, interaction and usability evidence.
 ## A Strong Case Study Contains
 User research · a validated problem statement · a clear statement of your own contribution · the reasoning behind design decisions · limitations and challenges · what went wrong and what went right · user testing or surveys · business impact.
 
+Narrative shell: outcome-hook title, three-part summary (client's challenge, your outcome, business results), client as hero and you as guide, headlines that carry the story alone (inverted pyramid); see `brand-strategy-storytelling` ch08.
+
 ## First Accessibility Checks
 - Simulate impairment (blur, vignette, low contrast) as a first pass, then validate with real users; imagination is not evidence.
 - For low-vision readers, desaturate very bright colours and pick out forms with high-contrast outlines; both fully saturated images and full black-and-white conversions performed worse than this middle ground.

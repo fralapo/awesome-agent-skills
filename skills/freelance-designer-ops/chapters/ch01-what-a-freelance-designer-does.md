@@ -73,6 +73,8 @@ Italy-specific (partita IVA) notes:
 - Invoices may need a *marca da bollo* (stamp duty) added manually; electronic invoicing is mandatory and usually done in the accountant's portal.
 - Taxes, contributions (INPS) and ATECO codes are confusing at first — this is what an accountant is for.
 - First-year revenue target: keep it prudent and reachable (account for your real living costs); small, reachable targets avoid demoralisation.
+- For pricing the scoped project, qualifying leads and handling budget objections, see `pricing-and-sales-negotiation` (ch03 cost-based bid, ch05 discovery, ch08 objections).
+- Method for choosing and owning the niche (three-circle fit, wedge, niche and ownership tests): `brand-strategy-storytelling` ch03.
 
 ## Procedures
 **Positioning a niche service**

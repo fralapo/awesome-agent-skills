@@ -45,3 +45,4 @@ A story persuades not because of what happened but because of the specific, sens
 ## Connects To
 - **Persuasion Fundamentals & Ethics**: story is one of the core levers of influence alongside logic and credibility — it supplies the emotional/character dimension.
 - **Speech Structure & Openings**: the 5-Line Structure doubles as a speech-opening tool — starting a talk with the "situation/desire/conflict" beats hooks attention before content is delivered.
+- **Brand Strategy & Storytelling** (`brand-strategy-storytelling` ch05): normal / explosion / new normal, emotion audit, point-first editing and the binary story critique extend the 5-line skeleton for written brand stories.

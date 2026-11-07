@@ -77,3 +77,8 @@
 - **5 Aspects of Voice**: Breathing, Resonance, Silence, Articulation, Inflection
 - **4 Levels of Question**: Fact → Opinion → Impact → Change
 - **5 Paths to Communication Failure**: unclear want, unclear plan, no resources/execution, no self-belief, no rehearsal
+- **PROACT**: Problem, Objective, Alternatives, Consequences, Trade-offs
+- **30-second intro**: Problem ("You know how...") -> Solution ("We solve that by...") -> Proof (a number or outcome)
+- **Overview-Steps-Outro**: cold open 5-10 s -> 3-5 steps (result first) -> recap + one small action + one specific next step
+- **Good question**: open, neutral, concise, single; no binary or leading
+- **Pause rule**: count about 3 seconds before replying; say "I need to collect my thoughts" when needed

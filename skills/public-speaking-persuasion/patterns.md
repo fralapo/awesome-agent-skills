@@ -96,3 +96,13 @@ Concrete, repeatable techniques. Each entry: When to use / How / Trade-offs.
 **When**: building speaking skill fast.
 **How**: record yourself speaking on a topic for 3 minutes a day, 10 consecutive days, reviewing playback each time.
 **Trade-offs**: requires consistency over 10 days to compound; a single session yields little.
+
+## Fit-Assessment Meeting
+**When**: first call or pitch with a prospect.
+**How**: frame as "are we a good fit?"; ask about goals, challenges and a one-year picture of success; show value through your questions; agree next steps and a follow-up date.
+**Trade-offs**: needs willingness to walk away; feels less polished than a rehearsed pitch but surfaces the real need.
+
+## Problem-Solution-Proof Intro
+**When**: networking, 30-second self-presentation.
+**How**: "You know how [problem]..." / "We solve that by..." / one concrete result.
+**Trade-offs**: shorter than the 7-element pitch; omits competition and business model.

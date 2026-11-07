@@ -8,7 +8,7 @@ argument-hint: [task, topic, or chapter number]
 ---
 
 # Presentation Design
-**Chapters**: 11 | **Corpus**: ~300 theoretical transcripts on presentation design, distilled | **Generated**: 2026-11-05
+**Chapters**: 12 | **Corpus**: ~300 theoretical transcripts on presentation design, distilled | **Generated**: 2026-11-05
 
 The *what and why* of good slides. For click-level how-to in PowerPoint, Keynote, Google Slides, Canva or Figma Slides, use the companion skill `slide-software-techniques`.
 
@@ -18,7 +18,7 @@ The *what and why* of good slides. For click-level how-to in PowerPoint, Keynote
 - **Reviewing or redesigning slides** → use the *Review Checklist* and ch10 (redesign playbook).
 - **A specific question** → find the chapter in the Topic Index and read it before answering.
 - Quick lookups: [cheatsheet.md](cheatsheet.md) (all numbers in tables), [patterns.md](patterns.md) (ready-made slide recipes), [glossary.md](glossary.md).
-- **Minimum reading per task** (saves context): new deck → cheatsheet + ch02 + the ch09 section for its context; pitch deck → cheatsheet + ch09 (pitch) + ch07, plus `public-speaking-persuasion` ch12 for the *content* sequence of an investor pitch (problem, who, product, competition, business model, resources, capture value); slide review → Review Checklist + ch10; data-heavy deck → ch07; animated deck → ch08.
+- **Minimum reading per task** (saves context): new deck → cheatsheet + ch02 + the ch09 section for its context; pitch deck → cheatsheet + ch09 (pitch) + ch07, plus `public-speaking-persuasion` ch12 for the *content* sequence of an investor pitch (problem, who, product, competition, business model, resources, capture value); presenting design/identity work to a client → ch12 + `public-speaking-persuasion` ch15; slide review → Review Checklist + ch10; data-heavy deck → ch07; animated deck → ch08.
 
 ---
 
@@ -100,6 +100,7 @@ When generating files programmatically (python-pptx, DeckCraft, etc.), encode th
 | [ch09](chapters/ch09-contexts.md) | Presentations by Context | school, thesis, internship report, scientific, corporate, pitch deck slides, product launch, portfolio, training, talks, webinars |
 | [ch10](chapters/ch10-redesign-playbook.md) | The Redesign Playbook (Before → After) | 5-area audit, keep/kill/change, split vs squeeze, rebuild pasted content, redesign cases |
 | [ch11](chapters/ch11-templates-brand-ai-resources.md) | Templates, Brand, AI and Resources | when to use templates, recoloring by roles, corporate template build, brand rules, AI tools, asset sites |
+| [ch12](chapters/ch12-presenting-design-work-to-clients.md) | Presenting Design Work to Clients | walk-through sequence, direction round, 3 options x 5 slides, targeted questions, reference-based pitch language |
 
 ## Topic Index
 
@@ -115,9 +116,12 @@ When generating files programmatically (python-pptx, DeckCraft, etc.), encode th
 - **Charts (pie alternatives, highlighting)** → ch07
 - **Color palette, contrast** → ch05
 - **Competitor / problem / team / offer slides (pitch)** → ch09, ch07
+- **Client presentations of design work (logo, identity, directions)** → ch12
 - **Corporate decks, meetings** → ch09
 - **Cover slide** → ch02
 - **Delivery: presenter view, remote, PDF backup, rehearsal** → ch01
+- **Describing design to non-designers (jargon, analogies)** → ch12
+- **Design critique / pitch walk-through** → ch12, ch10
 - **Document vs slides (emailed decks)** → ch01, ch04
 - **Fonts, sizes, line spacing** → ch04
 - **Hierarchy, focus, whitespace** → ch03
@@ -140,7 +144,9 @@ When generating files programmatically (python-pptx, DeckCraft, etc.), encode th
 ## Related Skills
 
 - `slide-software-techniques`: menus, settings and recipes in PowerPoint, Keynote, Google Slides, Canva, Figma Slides.
-- `public-speaking-persuasion`: delivery, voice, storytelling, persuasion.
+- `public-speaking-persuasion`: delivery, voice, storytelling, persuasion, client conversations and questions (ch15).
+- `pricing-and-sales-negotiation`: pricing a deck or a presentation-design engagement and selling it (proposal, consultation formats).
+- `workshop-facilitation`: workshop readouts and facilitation materials: process and agenda there (ch10), slide design here.
 - `ux-ui-expert`: general visual fundamentals (typography laws, 60-30-10 color, hierarchy) and UX psychology.
 - `creative-director`: concepts, copy and visual metaphors.
 - `anthropic-skills:pptx`, `designcraft-expert`: producing the actual files.

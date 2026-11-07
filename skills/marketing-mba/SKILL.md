@@ -44,6 +44,7 @@ Planning lists comfortable, controllable activities with no theory of winning. S
 Rivalry, buyer power, supplier power, threat of new entrants, threat of substitutes — a structural cap on industry profitability independent of execution quality. Diagnose the industry boundary correctly first; treat the forces as dynamic, not a static snapshot.
 
 ### Pricing Strategy Selector (Ch3)
+For service pricing (quotes, bids, day rates, value-based fees) see `pricing-and-sales-negotiation`.
 Skimming (recoup R&D, quality signal, barriers to entry) vs. penetration (fast volume, capacity ready) vs. prestige (luxury/status) vs. cost-plus (B2B partner sustainability). Skimming → penetration works; the reverse rarely does, because customers anchor to a low launch price. Always compare total profit **dollars**, not margin percentage.
 
 ### Product → Company Roadmap (Ch6)
@@ -56,6 +57,7 @@ Classify what you have — feature, product, or company — before investing fur
 Leads → Suspects (MQL) → Prospects (SQL) → Opportunities → Customers, with rising conversion ratios left-to-right. Every B2B conversation sequences strictly: **Empathy → Trust → Value → Confidence** — jumping to competence/fix-mode first is a fatal error.
 
 ### Principled Negotiation — Getting to Yes (Ch7)
+For price and scope negotiation in client work (anchoring, concessions, change orders) see `pricing-and-sales-negotiation` ch04, ch08, ch09.
 Interests, not positions → objective standards for residual conflict → options for mutual gain, brainstormed before evaluation → people separate from the problem. Know your **BATNA** before you start.
 
 ---
@@ -77,6 +79,8 @@ Interests, not positions → objective standards for residual conflict → optio
 ## Topic Index
 
 - **4Ps / marketing mix** → ch01, ch03
+- **Brand ladder, brand platform, client discovery, niche selection, personal brand** → `brand-strategy-storytelling`
+- **Facilitating a marketing or brand strategy workshop** (goal, metrics, lightning demos, concepts, roadmap) → `workshop-facilitation` ch08
 - **Ambition / goal-setting** → ch08
 - **BCG Matrix / portfolio strategy** → ch01
 - **Branding / brand architecture** → ch02

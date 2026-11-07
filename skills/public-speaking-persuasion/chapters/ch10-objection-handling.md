@@ -43,3 +43,4 @@ Most communication failure is diagnosable against a five-point checklist before 
 ## Connects To
 - **Audience Analysis & Hostile Audiences**: Conversation Aikido is the core technique for de-escalating a resistant or adversarial audience.
 - **Persuasion Fundamentals**: uncovering the real need behind an objection is a precondition for credible, targeted persuasion.
+- **Pricing and Sales Negotiation** (`pricing-and-sales-negotiation` ch08): the same acknowledge-then-ask logic applied to price objections, discounts and low budgets.

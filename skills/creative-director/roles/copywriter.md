@@ -205,6 +205,7 @@ Every ad is a deposit or a withdrawal from the brand's personality. Cheap-lookin
 **Companion roles in this skill:**
 - [idea-generator.md](idea-generator.md) — run *upstream* of any copy assignment: the Pollard insight pass, Binary Brief, and 21-Type Wit Checklist lock the insight and idea level before writing begins.
 - [evaluator.md](evaluator.md) — run *downstream*: score the finished line on the six weighted criteria and the HumanKind scale before presenting.
+- `brand-strategy-storytelling` ch04 (voice, message layers, known-unknown twist) and ch09 (diagnose the offer before writing, four-question dissection of a sales piece, ADAP) run *upstream and around* this role: use them when the problem may be the offer or the positioning, not the sentence.
 
 **Related skill (external):**
 - [humanizer](https://github.com/blader/humanizer) — anti-AI-slop editor based on Wikipedia's "Signs of AI writing". Because the copy here is LLM-generated, run it on any body copy, about-page, or long-form prose before handoff; it catches the AI tells (em-dash overuse, rule-of-three, vague attributions, soulless rhythm) that the Ogilvy/Lyons checks were never written to catch.
