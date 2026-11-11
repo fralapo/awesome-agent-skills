@@ -182,6 +182,8 @@ Replace clichéd formulas with specific framing:
 
 **The documentary method (4 steps)**: (1) target ONE named viewer persona, not a demographic bracket; (2) document your own lived process, don't assemble AI-suggested generic content ("document, don't create" — a content-sourcing point, distinct from Ch 9's production-logistics "document, don't overproduce"); (3) educate the audience inside the documentation; (4) state your own vision/mission/point of view repeatedly to build a "micro-cult brand" rather than a generic info channel.
 
+**What makes AI output "slop" (and what doesn't)**: slop is a large output generated from a small input with no intention behind it ("make me a great post/app" → a mediocre average of everything that already exists). The same tool is not slop when a human supplies a specific idea and iterates on it with real feedback (drafts, screenshots, test users). Test before publishing: could anyone typing the same short prompt have produced this? If yes, it is slop and cannot differentiate you. The line moves as models improve, so judge the *intention and iteration behind* the piece, not whether AI touched it.
+
 **Delivery**: work from a rough outline and react genuinely, don't script lines; reserve AI for editing/research, never for the content or opinions themselves.
 
 ---
