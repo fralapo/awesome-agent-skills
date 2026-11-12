@@ -259,3 +259,21 @@ Current reality | obstacles | desired future. Screener first, first-person promp
 
 ## Content Model (ch36)
 Per type: purpose, audience, size range, source, owner. Test layouts with shortest, longest and missing content.
+
+## Premium Traits (ch37)
+Anticipate | pace transitions | delight at peaks | no motion on critical moments | invisible consistency (one icon family, 4/8 scale) | empty states never dead-end | reward discovery | errors say the fix.
+
+## Ten Trust Levers (ch37)
+People in front | verified badges | borrowed trust (Apple/Google, known payments) | no hidden fees | clear cancellation | explicit consent | visible pending states | a real person reachable | who uses you | friction at important moments.
+
+## Onboarding Numbers (ch38)
+4-5 screens before the app | progress always visible | pre-permission screen before every system prompt | one "where did you find us" question | collect only what is used | paywall: hard after onboarding for low ticket or running costs, freemium for higher ticket.
+
+## Retention Tactics (ch39)
+Personalization | aha moment | habit loops | community | switching cost. Loop: trigger, action, variable reward, investment. Ethics test: would the user endorse it on reflection? Streaks need recovery; stopping cues where harm is plausible.
+
+## AI UI Rules (ch40)
+Context in text, one visual reference, one screen per prompt, state prohibitions, measurable corrections, new session near 80% context. Check hierarchy, relevance, consistency, polish.
+
+## Ship vs Polish and Audit (ch41)
+Polish only conversion screens with measurable traffic. Audit: state, goal, five lenses (clarity, flow, hierarchy, consistency, density), package, impact-effort 2x2. Closed beta 25-30 users, capacity screen, tracking from day one.

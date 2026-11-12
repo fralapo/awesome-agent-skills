@@ -28,7 +28,7 @@ First number yours, high, round. Bracket: higher number first, pause. Three opti
 Annual target ÷ number of clients served at once (8-15, example 10) = minimum new-client fee (about a tenth of target).
 
 ## Payment Terms (common)
-50% upfront / 25% at about three quarters / 25% on delivery (net 30). Simpler: 50/50. Deposit before work. Instalments for cash-flow-limited buyers.
+50% upfront / 25% at about three quarters / 25% on delivery (net 30). Simpler: 50/50. Deposit before work. Instalments for cash-flow-limited buyers. Small creative jobs: 25%/50%/full deposit, non-refundable once started, final and source files only after payment, hourly rate beyond deadline or scope.
 
 ## Objection Moves
 | They say | You do |
@@ -46,6 +46,9 @@ Decide final number first. Concede once, explicitly, conditionally ("this time o
 
 ## Scope Control
 Objective "done"; fixed quantities; capped rounds (typically 3); changes get a separate estimate; approvals documented; early warning on overrun; timeline clause.
+
+## Engagement Shapes
+Starter project before a retainer (cold, high-ticket prospect) · intensive (~3 months, fixed) → light (15-20 h/week or 20-40 h/month, capped) → intensive · light async retainer with explicit monthly allowance. See ch11.
 
 ## Raise Rates
 Three yeses → raise (~2x step). New clients first. Refusals → raise value, not cut price. Track average project value and close rate. Restrict supply; do not be instantly available.

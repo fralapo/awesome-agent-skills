@@ -33,7 +33,7 @@ Discovery questions: audience, occasion, deadline, number of slides, brand asset
 ### Client Communication Rules (Ch01)
 | Rule | Practice |
 |---|---|
-| Official channel | Email; avoid WhatsApp and voice messages; move Instagram DMs to email |
+| Official medium | Email; avoid WhatsApp and voice messages; move Instagram DMs to email |
 | Phone | Your choice to share |
 | Working hours | Decide (e.g. Mon–Fri until 18:00) and state at onboarding |
 | Feedback | Explain the *why* of each choice; aim for clients who trust you |
@@ -136,7 +136,7 @@ Cold water on the face → glass of water → 5 min breathing → stretching + 1
 - [ ] One personal/wellbeing goal for the year
 - [ ] One revenue goal: beat last year by any amount
 - [ ] 4–6 main projects: liked, went wrong, one lesson each
-- [ ] Channels reviewed: growth, clients brought, time cost
+- [ ] Platforms reviewed: growth, clients brought, time cost
 - [ ] "Why" document re-read and compared with behaviour
 - [ ] Costs named (burnout, no breaks, isolation)
 - [ ] Resolutions set
@@ -160,3 +160,62 @@ Cold water on the face → glass of water → 5 min breathing → stretching + 1
 | **[Italy]** E-invoicing | Mandatory, usually in the accountant's portal |
 | **[Italy]** INPS, ATECO | Confusing at first: what the accountant is for |
 | First-year target | Prudent and reachable, based on real living costs |
+
+## Winning Clients (Ch05)
+| Item | Value |
+|---|---|
+| Routes | Referrals/past clients · prospect list · time-boxed free audit · targeted content · communities and platforms |
+| Prospect list sources | Previous clients · enquiries that never started · event contacts · email list · social contacts with a business need |
+| Free audit | Startup without in-house design · **2 h** timer · annotate · redesign 2-3 screens · video **≤ 5 min** · send as a gift; payoff is usually a later referral |
+| Free-work rule | You choosing one capped, targeted sample = marketing; a client demanding free work = pricing triage |
+| Rejection audit | Polite and professional? Full process followed? Enough hours invested? Change the process, not the price |
+| Platforms | Niche-in-niche title · custom proposal echoing the client's words · fast reply · fixed offers · reviews · treat rivals as network |
+| Market shape | Intensive (~3 months) → light (15-20 h/week or 20-40 h/month) → intensive |
+| Networking | At least one event per quarter; add value in groups, never drop links |
+
+## Onboarding and Hygiene (Ch06)
+| Item | Value |
+|---|---|
+| Four phases | Why → align → design → deliver |
+| Kickoff questions | Priority? evolution? what to avoid? differs per user? what is success? |
+| Contract minimum | Revision rounds (2 typical for a logo) · rate beyond deadline/scope · non-refundable deposit (25%, 50% or full) · files after payment |
+| Backups | More than two locations |
+| File pages | Cover → Dev Ready → Prototypes → Review → WIP per flow → design system |
+| QA issue fields | Title · description · type · priority · status · design link · live capture · device/window size · deep link |
+| Capture levels | Element · area · screen recording |
+
+## Presenting and Rejection (Ch07)
+| Item | Value |
+|---|---|
+| 8 beats | Story/problem → 3 objectives → process → concept + rationale → in context (mockups) → alternatives side by side → return to the problem → next step |
+| Long mockup | One tall page (~1920 px wide), built once, reused |
+| Too simple/stubborn | Both versions side by side → facts → money (readability, CTA, sales) |
+| Glance test | 3 seconds: where does the eye land first and next? |
+| Drift check | Test every iteration against the written goal |
+| Status UI | Colour + icon + label + number; avoid symbols that collide with existing meanings |
+
+## Portfolio and Content (Ch08)
+| Item | Value |
+|---|---|
+| User path | Want → problem → solution → CTA |
+| Value proposition | Outcome + audience + measurable result + method (real numbers only) |
+| Consistency | One palette · two fonts · same grid, margins, image sizes |
+| CTA | End of every project · persistent button · free 15-minute call |
+| Export | Vectors or large canvas; web export at 72 PPI from high pixel count |
+| Content pipeline | Pillars (3-4) → monthly idea dump (5 per pillar) → weekly session (~4 h for ~5 posts) → board: ideas / WIP / written / posted |
+| Cadence ramp | 2 posts/week × 3 weeks → 3 → 5 (or 3 → 4 → 5 → 7) |
+| Weekly mix | 2 strategy · 2 stories · 2 product/business · 1 shared work |
+| Engagement | ~1 h/day of thoughtful comments |
+| Email | Lead magnet → ~12 emails over 2-3 weeks → offer; segment by engagement |
+| Judge by | Replies, saves, shares, DMs, enquiries; log the source |
+
+## Career and Side Products (Ch09)
+| Item | Value |
+|---|---|
+| Six habits | Learn one scary skill/year · colour by meaning · fundamentals · feedback as education · goal sentence · stay visible |
+| Side product box | ~2 weeks design + build, then bugs, then submit |
+| Design depth | Only on surfaces that drive metrics, and only with steady traffic |
+| Paying users | 10 paying > 1,000 free for signal |
+| Ads | Only after organic content shows the converting message |
+| Tracking | "Where did you find us?" from day one |
+| Lifecycle email | Day 0-13 onboarding every ~2 days → purchase flow → win-back every 2 days for a week → ongoing nurture |

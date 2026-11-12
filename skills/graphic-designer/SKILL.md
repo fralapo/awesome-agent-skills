@@ -1,6 +1,6 @@
 ---
 name: graphic-designer
-description: "The Graphic Designer role: hands-on craft of visual communication. Grids and layout (column and modular grids, A4 setup, image-text composition), typography fundamentals (size ratios, weight contrast, alignment, rivers, widows), experimental typography (outline surgery, blending, constraints, physical experiments), poster languages (brutalism, grunge, texture, threshold, displacement), logo construction (types, shape psychology, vectorising, stress tests, delivery), logo ideation and reproduction tests, monoline and custom lettering, craft critique method and feedback language, layout and type refinement rules (near-tangents, scale contrast), composition reading paths and key-art review, packaging and print craft, portfolio review, and file handover hygiene. Use when executing or critiquing the craft of a poster, layout, cover, typographic piece or logo, picking type or a grid, explaining why a layout looks amateur, critiquing or giving feedback on a design, reviewing a logo or a portfolio, preparing a pack or a printed booklet, or refining a layout that is almost right. Works inside a direction set by the art director and a concept set by the creative director; hands UX/UI screens to ux-ui-expert."
+description: "The Graphic Designer role: hands-on craft of visual communication. Grids and layout (column and modular grids, A4 setup, image-text composition), typography fundamentals (size ratios, weight contrast, alignment, rivers, widows), experimental typography (outline surgery, blending, constraints, physical experiments), poster languages (brutalism, grunge, texture, threshold, displacement), logo construction (types, shape psychology, vectorising, stress tests, delivery), logo ideation and reproduction tests, monoline and custom lettering, craft critique method and feedback language, layout and type refinement rules (near-tangents, scale contrast), composition reading paths and key-art review, packaging and print craft, portfolio review, space and white-space systems (macro/micro, spacing scale), grid construction from the brief with column maths and layout workflows, hierarchy and contrast (three levels, nine forms of contrast, balance, isolation), movement and flow (six levels, L-I-F-T, repetition, rhythm), colour craft (value contrast, harmony schemes, palette roles and output maps, print checks), logo rules (logotype, shape map, negative space, redesign audit), the amateur-to-pro fix list with type ramps, decision budget and redesign procedure, and file handover hygiene. Use when executing or critiquing the craft of a poster, layout, cover, typographic piece or logo, picking type, a grid or a palette, setting spacing, explaining why a layout looks amateur, redesigning a weak piece, critiquing or giving feedback on a design, reviewing a logo or a portfolio, preparing a pack or a printed booklet, or refining a layout that is almost right. Works inside a direction set by the art director and a concept set by the creative director; hands UX/UI screens to ux-ui-expert."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [task, topic, or chapter number]
 ---
 
 # Graphic Designer
-**Chapters**: 13 | **Corpus**: theoretical transcripts on graphic design craft, distilled | **Generated**: 2026-11-05
+**Chapters**: 20 | **Corpus**: graphic design craft theory and practice, distilled | **Generated**: 2026-11-12
 
 ## Role and Boundaries
 
@@ -29,12 +29,18 @@ The graphic designer **makes the work**: grids, type, composition, image treatme
 ## How to Use This Skill
 
 - **Layout / editorial / cover** → cheatsheet + ch01 + ch02 (+ ch03 for hierarchy, + ch10 for the refinement pass).
-- **Typography** → ch03; **experimental type** → ch04.
+- **Typography** → ch03 (workflow, personality, optical adjustment, poster type techniques); **experimental type** → ch04.
+- **Space, white space, spacing scale, minimal design, negative-space layouts** → ch14.
+- **Building a grid from a brief (column maths), grid types, modular and asymmetrical workflows, breaking the grid** → ch15 (basics in ch02).
+- **Hierarchy, contrast types, balance, visual weight, isolation, entry-proof-action** → ch16.
+- **Eye path, movement levels, rhythm, L-I-F-T, repetition and consistency, proportion** → ch17 (poster/key-art path in ch11).
+- **Colour craft: value, grayscale test, harmony schemes, palette roles and output map, shadows, CMYK** → ch18 (meaning and colour strategy: `art-director` ch11; screen palettes and tokens: `ux-ui-expert` ch22).
 - **Poster, texture, effects** → ch05; **poster/key-art composition and eye path** → ch11.
-- **Logo construction** → ch06 (strategy and direction come from the art director, see `art-director`); **logo ideation, critique, reproduction tests, restraint and lockup hierarchy, presentation** → ch08; **custom lettering / monoline** → ch09.
+- **Logo construction** → ch06 (strategy and direction come from the art director, see `art-director`); **logo ideation, critique, reproduction tests, restraint and lockup hierarchy, presentation** → ch08; **logo principles, logotype and kerning rules, shape map, negative-space marks, anchor audit, redesign audit, ownability** → ch19; **custom lettering / monoline** → ch09.
 - **Critiquing a design or phrasing feedback** → ch07 (direction-level review: `art-director` ch04 and ch07).
 - **Packaging, brochures, print economy, finishes** → ch12 (finish and perceived tier of physical products: `art-director` ch09).
 - **Portfolio or case-study review** → ch13.
+- **Why a piece looks amateur, before/after fixes, type ramp, decision budget, scale test, redesigning an existing piece, trends** → ch20 (judging levels and approval: `art-director` ch10 and ch12; interface audits: `ux-ui-expert` ch34).
 - **Quoting a graphic or logo job, justifying the fee, or scoping revisions** → `pricing-and-sales-negotiation` (ch01, ch03, ch09).
 - **Moodboard or direction workshops with clients** → `workshop-facilitation` (ch02, ch06).
 - Quick numbers: [cheatsheet.md](cheatsheet.md).
@@ -54,6 +60,11 @@ The graphic designer **makes the work**: grids, type, composition, image treatme
 10. **Align exactly or separate clearly.** Near-tangents, near-equal sizes and near-aligned edges are the typical amateur tell.
 11. **Review in order**: objective, read order, technical soundness; one dimension per pass; at real size, as a whole set.
 12. **Test marks where they live**: print at size, business-card lockup, one colour, application mock-ups, silhouette.
+13. **Space is a system.** One base unit and its multiples for micro and macro space; gaps between groups larger than inside groups; space is never the leftover.
+14. **Build the grid from the brief.** Message, place and purpose first; column width = (canvas - margins - gutters) / columns; spans follow the attention order.
+15. **Hook is not message.** The largest element attracts; the key information may sit in the second tier, but it must still be unmistakable. One isolation tactic at a time.
+16. **Value before hue.** Readability comes from light/dark difference; check in grayscale and at 25 percent; give every colour a role and test each output.
+17. **Decide before you execute.** Sketch the structure, budget the decisions (about four), test with a fresh viewer, and test at four scales.
 
 ## Review Checklist (craft)
 
@@ -69,4 +80,10 @@ The graphic designer **makes the work**: grids, type, composition, image treatme
 10. Any near-tangent, near-equal size or trapped space? Fix or separate.
 11. Print/pack: information ranked, mandatory copy present, physical mock-up checked?
 12. Portfolio/case study: one role, best work first, problem, system, context, result?
+13. Space on a stated scale, group gaps larger than inner gaps, squint test passes?
+14. Grid maths stated; longer headline and other format tested?
+15. Hook and key information identified; only one isolation tactic; grayscale hierarchy intact?
+16. Flow: main route clear, secondary routes weaker, one purposeful disruption at most; repetition carriers constant across the set?
+17. Logo: audience, voice and one-sentence brief written; ownability grid; kerned by hand; anchor audit; redesign heritage and colour equity checked?
+18. Decision budget and 10-second test passed; type ramp by ratio; real copy; four-scale test?
 If the problem is the idea or the visual direction rather than the craft, hand off instead of fixing it here.

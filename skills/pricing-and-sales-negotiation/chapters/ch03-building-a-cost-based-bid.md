@@ -40,6 +40,7 @@ Five factors set a project price: **style** (look and approach), **size** (numbe
 - Common schedule: 50% upfront, 25% at about three-quarters of the way, 25% on delivery, net 30 at most. A frequent simpler split is 50/50 (signing and completion). A stronger opening ask is 100% upfront; expect to settle at 50/50 (one school of thought).
 - Split large fees into instalments matched to the buyer's cash flow.
 - Take a deposit before work starts. Do not discuss money on later sales calls; hand invoicing to a finance step.
+- **Deposit and delivery terms for small creative jobs (logos, decks, single deliverables):** deposit of 25%, 50% or the full fee (50% is the most cited), written as non-refundable once work starts; final and source files are released only after payment; work after the agreed completion date or beyond the agreed scope is charged at a stated hourly rate. Without these terms, free changes weeks later and unpaid use of delivered work are the usual losses. A client who vanishes after the deposit costs you little; one who vanishes without a deposit costs the whole job. Do not chase at length. Working outside a platform that holds escrow removes its protection, so the deposit matters more there. Contract wording and enforcement: a lawyer. Operational routine: `freelance-designer-ops` ch06.
 - Keep early overhead lean; keep a line of credit for late payers; do not spend the advance as if it were profit. Judge a deal by what you keep after all costs, not by gross value.
 - Agree a partnership exit clause before problems appear.
 

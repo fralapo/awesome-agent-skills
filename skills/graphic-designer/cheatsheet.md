@@ -32,6 +32,29 @@
 | Lockup hierarchy | name dominates; tagline lower and lighter; script paired with a lighter type; monoline re-balanced after scaling |
 | Finishes | spot varnish = partial gloss on matte; glossy reads cheaper than matte plus metal accent |
 | Portfolio | 3-5 pro-level pieces; best first; first 20-30 seconds decide |
+| Spacing scale | one base unit and multiples: 4 / 8 / 16 / 32, or 12 / 24 / 48; reuse values across unrelated places |
+| Column maths | width = (canvas - outer margins - total gutters) / columns; 1200 px, 60 px margins, 6 columns, 24 px gutters = 160 px |
+| Columns by need | 6 for halves and thirds; 12 for finer banner control; 10 flexible; widen the span, do not shrink type, when copy grows |
+| Print margins | about 0.5 to 1 in (2.5 cm) plus about 0.5 cm bleed; buffer lines inside module lines |
+| Baseline grid | body leading = base unit; headline = multiple (14 pt body, 28 pt headline) |
+| Hierarchy levels | hook (largest) / secondary (clear gap, ch10: 50-60 percent of headline) / finisher (body, action); hook is not always the key information |
+| Entry-proof-action | entry top left, under about 7 words; proof = stat + close crop; action on F/Z path with a white-space moat and one accent |
+| Isolation | exactly one tactic: unique hue, unexpected scale or subtle motion; compare on three artboards |
+| Primary button | about 1.5-2x the height and width of standard text elements |
+| Movement levels | direct guidance, hierarchy flow, layered routes, implied motion, disruption, temporal flow |
+| L-I-F-T | leverage point, internal rhythm, friction and flow, transferability (thumbnail, dark/light, mobile, print) |
+| Image ratio | one aspect ratio per family (for example 3:2) |
+| Colour test | grayscale; 50 and 25 percent; contrast checker; colour-blindness preview; CMYK proof |
+| Tint / tone / shade | hue + white / + grey / + black |
+| Palette roles | action, communicator, support, neutral, anchor, feedback; map each against digital, print, social, motion |
+| Shadow / texture | shadow about 30 percent black, multiply, 30-50 percent opacity; texture in overlay or soft light |
+| Type ramp | body 11 x 1.618 = 18 / 29 / 47, or x 1.414 = 16 / 23; weights 400 / 600 / 800 |
+| Text numbers | print body 10-12 pt (not below 9 pt untested); web 15-25 px; leading 120-145 percent; 45-90 characters per line; H1 180-200 percent of body, H2 130-150 percent |
+| Decision budget | about 4 decisions per poster; 10-second test with a fresh viewer |
+| Scale test | about 1920 / 768 / 280 / 64 px (or print equivalents) |
+| Logo viewing | step back 1.2-1.8 m (4-6 ft); two spacing versions (tight for large, loose for small) |
+| Ownability grid | 20 category logos, same size, names hidden |
+| Logo presentation | max 3 systems in an identical template plus one on-brief stretch concept |
 
 ## Logo Types
 Lettermark (long names) · Wordmark (startups, short names) · Brandmark (language-free) · Combination (flexible) · Emblem (authority) · Mascot (personality, hard to keep timeless).

@@ -27,3 +27,20 @@ Clarity comes from strong, simple contrast: a fixed ratio between sizes, a jump 
 - Mixed alignments within one layout.
 - Rivers, widows and orphans left in the final.
 - Picking unvetted free fonts as the typographic foundation.
+
+## Additions: Workflow, Personality, Optical Adjustment and Poster Type
+**Typography workflow (in order).** (1) Name the role of each text (heading, subheading, body). (2) Name the tone and audience. (3) Choose typefaces, two and three at most. (4) Build hierarchy with size, weight or contrast within one family, and colour (a price in its own colour). (5) Pair. (6) Lay out around the focal point: decide it first (image, object or large type), emphasise it with space, size and contrast, then lead the eye to the first text block (the second block if the focal point is itself type); use proximity so related blocks (a subheading and its body, two quotes from one person) sit close; align consistently; use optical tracking by default and step back to check leading. (7) Leave the piece for 1 to 2 hours, then check the path, legibility and mood, and ask someone else. The secondary text should differ from the focal text in size and in a compatible face so the two are not confused; sample colours from elsewhere in the design; end the reading path on the action.
+
+**Pairing.** By contrast (high-contrast serif headline with a clean sans body); by brand or logo tone (friendly sans with a script for warmth); safest shortcut: two weights of one family. Ratio-based ramps and variable-font role weights: ch20.
+
+**Typeface personality (tendencies, test with the audience).** Sharp thin serifs with strong verticals = tradition, authority, formality (the sharper, the more imposing); small subtle serifs = delicacy and refinement (fragrance); rounded sans = friendly, young, approachable; heavy block faces = stability, power, confidence (titles and calls to action in energising campaigns); tight kerning = strength, urgency, modernity; loose kerning = luxury, calm, openness. A thin sans can signal luxury without the formality of a serif. Playful for toy packaging, sinister for horror, never tone-deaf (a playful face for a funeral director). Formality scales with neatness: serious briefs get ultra-consistent, tidy, aligned layouts; informal or rule-breaking briefs can use irregular layouts, text partly hidden behind objects, text crossing the bleed or variable fonts.
+
+**Optical adjustment.** Equal measurement does not look equal. Round letters (O, C) look smaller than straight ones (H, I) and are enlarged slightly in titles and logos (many faces already compensate; never in body text). Slanted and curved letters (V, A, G) make uneven apparent gaps next to straight ones, so kern headings and logos by hand, pair by pair, not by moving global tracking; too-tight kerning harms legibility. Practice: kerning games aiming consistently above 90 percent, redesigning a headline or logo in a contrasting style (sharp serif against rounded sans) to see how perception shifts, studying why industries choose certain styles. Logo-specific kerning tricks: ch19.
+
+**Poster type techniques (type as the focal point).**
+- *Knockout*: cut the title into a shape or image; strongest over a monochrome image with a bright contrasting colour inside the cut; leave space (for example top right) for small text.
+- *Clipping mask with one large letter*: for minimal posters; sample colours from the image for the surrounding text; keep the poster focused on that letter.
+- *Scattered type*: controlled chaos as the focal point; the arrangement can echo the concept (climbing, mountains); works over imagery and against the ground.
+- *Hierarchy*: most important text most accessible by colour, size or style, then secondary, then least important.
+- *Central placement*: type in the dead centre as the focal point, over imagery or alone; recolour one element to strengthen it. Choose centre or off-centre by content and desired path.
+- Small text must still read at the final print size (A3, for example); leave deliberate space for it and check a proof.

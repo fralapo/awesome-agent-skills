@@ -1,6 +1,6 @@
 ---
 name: creative-director
-description: "Creative-director knowledge base distilled from 16 books on advertising, creative leadership, idea generation, taste, typography, visual literacy, and information design, plus an evaluation engine adapted from smixs/creative-director-skill. Use when writing or critiquing copy/ads/headlines/campaigns, generating creative ideas or concepts, mining a consumer insight, scoring/evaluating or refining a concept to a quality bar, leading and giving feedback to creative teams, handling difficult conversations, shaping team culture, developing taste, vision, and creative judgment, framing a problem and running a creative kickoff, and judging whether a visual idea is a real concept. Routes to one of five role toolkits (Copywriter, Idea Generator, Creative Leader, Visionary, Evaluator) and loads only what the task needs."
+description: "Creative-director knowledge base distilled from 16 books on advertising, creative leadership, idea generation, taste, typography, visual literacy, and information design, plus an evaluation engine adapted from smixs/creative-director-skill. Use when writing or critiquing copy/ads/headlines/campaigns, generating creative ideas or concepts, mining a consumer insight, scoring/evaluating or refining a concept to a quality bar, leading and giving feedback to creative teams, handling difficult conversations, shaping team culture, developing taste, vision, and creative judgment, framing a problem and running a creative kickoff, judging whether a visual idea is a real concept, choosing a concept-generation method (problem sprint, competitor reverse engineering, journey mapping, reverse brainstorming), and checking the perception gap and persuasion levers of a visual message. Routes to one of five role toolkits (Copywriter, Idea Generator, Creative Leader, Visionary, Evaluator) and loads only what the task needs."
 ---
 
 <!-- argument-hint: [role, task, topic, or book — e.g. "headline", "lead my team", "develop taste", "ogilvy"] -->
@@ -36,7 +36,7 @@ Read the role file whose triggers match. Each is a self-contained toolkit.
 | **[roles/visionary.md](roles/visionary.md)** | Developing taste/vision, setting creative direction, judging quality, cultivating "the eye", typography and type choice, information/data-viz design, or sustaining a creative practice | The Creative Act · The Eye · Steve Jobs · A Primer of Visual Literacy · Envisioning Information · Stop Stealing Sheep |
 | **[roles/evaluator.md](roles/evaluator.md)** | Scoring/critiquing an idea, deciding if work is good enough to present, **refining a near-miss concept that scored below the bar**, running a generate→score→refine loop to a quality bar, mining an insight before ideating, killing mediocrity | *engine layer* — adapted from [smixs/creative-director-skill](https://github.com/smixs/creative-director-skill) |
 
-**Mixed tasks** (common): a campaign needs *idea-generator* (concept) + *copywriter* (execution); a tough design critique needs *creative-leader* (how to deliver it) + *visionary* (the quality bar); a pitch needs *copywriter* (argument) + *idea-generator* (behavioral levers). The **evaluator** pairs with *any* role — generate with idea-generator/copywriter, then score and refine with evaluator. Read both roles only when the task truly straddles them. A design brief that arrives vague needs `references/problem-discovery-and-framing.md` before the idea-generator; a visual concept that is "just a pairing" needs `references/conceptual-design-patterns.md` plus the evaluator.
+**Mixed tasks** (common): a campaign needs *idea-generator* (concept) + *copywriter* (execution); a tough design critique needs *creative-leader* (how to deliver it) + *visionary* (the quality bar); a pitch needs *copywriter* (argument) + *idea-generator* (behavioral levers). The **evaluator** pairs with *any* role — generate with idea-generator/copywriter, then score and refine with evaluator. Read both roles only when the task truly straddles them. A design brief that arrives vague needs `references/problem-discovery-and-framing.md` before the idea-generator; a visual concept that is "just a pairing" needs `references/conceptual-design-patterns.md` plus the evaluator; when ideas will not come or all look alike, pick a method in `references/concept-generation-methods.md`; when a concept must persuade (not just be understood), add `references/persuasion-and-visual-communication.md`.
 
 ---
 
@@ -75,6 +75,9 @@ Jump straight to the right file by topic.
 - **What makes a visual idea a concept (A+B=C, formula library, puzzle sweet spot, concept-first cover process)** → [references/conceptual-design-patterns.md](references/conceptual-design-patterns.md)
 - **Personal creative formula, make-first habits, protected thinking time, direction over speed, strategy ladder, review culture** → [references/creative-process-habits-and-review-culture.md](references/creative-process-habits-and-review-culture.md)
 - **Staged idea pipeline (clarify, saturate, incubate, capture), originality as cross-field remix, big/small, team innovation systems** → [references/idea-pipeline-originality-and-team-systems.md](references/idea-pipeline-originality-and-team-systems.md)
+- **Concept-generation methods (problem sprint, reverse engineering a competitor, word association and keyword boxes, journey mapping, reverse brainstorming, tension statements, quote-to-image, pattern collision, constraints, 3-3-3 feedback)** → [references/concept-generation-methods.md](references/concept-generation-methods.md)
+- **Perception gap, message levels, persuasion and brand-psychology levers (loss aversion, FOMO, mere exposure, anchoring, faces, memory encoding), symbolic communication and its ethics** → [references/persuasion-and-visual-communication.md](references/persuasion-and-visual-communication.md)
+- **Judging whether a visual piece is good enough (five levels, swap test, three-second test), colour and shape psychology for the look, criteria-first presenting and approval** → `art-director` ch10, ch11, ch12
 - **Brand positioning, brand voice, personal-brand character, brand story arcs, case-study narrative** → `brand-strategy-storytelling` (this skill keeps the concept, headline and campaign craft)
 - **Selling and pricing the concept (proposals, pitch structure, budget conversations)** → `pricing-and-sales-negotiation` ch07
 - **Workshop agendas, brainstorm structure and group decision exercises** → `workshop-facilitation`
@@ -87,7 +90,7 @@ The creative director owns the **idea and the strategy**: insight, concept, mess
 - **Visual direction** (look and feel, moodboards, style routes, identity-system rules) → `art-director`.
 - **Craft and production** (grids, type setting, logo construction, files) → `graphic-designer`.
 - **Screens, flows, usability, accessibility numbers** → `ux-ui-expert`.
-Give the art director the concept in one sentence, the audience and the single feeling; ask for the direction instead of specifying fonts and colours. If the work is judged on craft or look, route the feedback to the owner of that decision. Client taste discovery, strategy-to-direction translation and rebrand analysis → `art-director` ch05-ch08; craft critique, logo ideation and tests, portfolio review → `graphic-designer` ch07, ch08, ch13.
+Give the art director the concept in one sentence, the audience and the single feeling; ask for the direction instead of specifying fonts and colours. If the work is judged on craft or look, route the feedback to the owner of that decision. Client taste discovery, strategy-to-direction translation and rebrand analysis → `art-director` ch05-ch08; judging quality levels, colour/shape psychology for the look and getting a direction approved → `art-director` ch10-ch12; craft critique, logo ideation and tests, portfolio review → `graphic-designer` ch07, ch08, ch13.
 
 ---
 
@@ -124,6 +127,8 @@ Give the art director the concept in one sentence, the audience and the single f
 - **[references/conceptual-design-patterns.md](references/conceptual-design-patterns.md)** — concept as hybrid meaning, formula library, concept-first process
 - **[references/creative-process-habits-and-review-culture.md](references/creative-process-habits-and-review-culture.md)** — process habits, direction setting, review culture
 - **[references/idea-pipeline-originality-and-team-systems.md](references/idea-pipeline-originality-and-team-systems.md)** — staged idea pipeline, originality as remix, team innovation systems
+- **[references/concept-generation-methods.md](references/concept-generation-methods.md)** — method chooser, problem sprint, competitor reverse engineering, journey mapping, reverse brainstorming, metaphor and constraint exercises
+- **[references/persuasion-and-visual-communication.md](references/persuasion-and-visual-communication.md)** — perception gap, message levels, brand-psychology levers, symbolic communication, ethics
 
 ---
 

@@ -98,7 +98,7 @@ Pick the row that matches the situation, read the chapter, then adapt. Always **
 
 ## Related Skills
 
-- `freelance-designer-ops`: operating the practice (Notion CRM pipeline, hour tracker, scoping time).
+- `freelance-designer-ops`: operating the practice (Notion CRM pipeline, hour tracker, scoping time); acquisition routes, onboarding and contract routine, presenting and handling rejection (ch05 to ch07).
 - `public-speaking-persuasion`: objection psychology (ch10), sales pitching (ch12), calls to action (ch13), cognitive biases (ch05).
 - `marketing-mba`: pricing strategy (ch03), positioning (ch02), sales pipeline and principled negotiation (ch07).
 - `creative-director`, `art-director`, `graphic-designer`, `ux-ui-expert`, `presentation-design`: the work being sold.

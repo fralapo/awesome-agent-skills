@@ -37,9 +37,9 @@ Concrete, repeatable techniques. Each entry: When to use / How / Trade-offs.
 **How**: receive the deck beforehand, choose the slides with the biggest gain, redesign them on screen while explaining, leave a before/after file; cap at 1–1.5 h.
 **Trade-offs**: tiring (constant topic switching, no depth), but transformative for the client.
 
-## Email as the Official Channel
+## Email as the Official Medium
 **When**: onboarding any client.
-**How**: state working hours and channels at the start; move WhatsApp/DM conversations to email; share your phone only if you choose.
+**How**: state working hours and contact routes at the start; move WhatsApp/DM conversations to email; share your phone only if you choose.
 **Trade-offs**: some clients find email slower; traceability wins.
 
 ## Person / Professional / Project Separation
@@ -164,10 +164,60 @@ Concrete, repeatable techniques. Each entry: When to use / How / Trade-offs.
 
 ## Yearly Review with Two Goals
 **When**: January or any natural pause.
-**How**: one wellbeing goal, one revenue goal (beat last year by any amount), one lesson per main project, channel review, costs named, resolutions.
+**How**: one wellbeing goal, one revenue goal (beat last year by any amount), one lesson per main project, platform review, costs named, resolutions.
 **Trade-offs**: takes a quiet half-day of honest reflection.
 
 ## Pause at the Goal
 **When**: the year's revenue target is met early.
 **How**: use the slack to recharge, adjust strategy and do the postponed personal project instead of grinding out of fear.
 **Trade-offs**: less revenue that year; a business that never pauses never evolves.
+
+## Time-Boxed Free Audit
+**When**: you want a specific startup or small company as a client and have spare capacity.
+**How**: 2-hour timer; annotate the product; redesign 2-3 key screens; record a video of 5 minutes or less; send as a gift to the decision-maker. See ch05.
+**Trade-offs**: often no reply; the payoff is usually a later referral. Never open-ended, never twice for the same recipient.
+
+## Monthly Pipeline Routine
+**When**: always, especially in a slow month.
+**How**: update the prospect list, three useful touches to warm contacts, two messages to past clients, log sources. See ch05.
+**Trade-offs**: 90 minutes a month; returns arrive months later.
+
+## Rejection Audit
+**When**: a proposal or design is rejected.
+**How**: check tone, process and hours; ask for one reason; write one workflow change; do not discount. See ch05, ch07.
+**Trade-offs**: requires dropping defensiveness.
+
+## Side-by-Side Persuasion
+**When**: a client insists on a weaker design ("too simple, fill the space").
+**How**: build both; explain decisions with facts; tie to money; keep contract and deposit as backstop. See ch07.
+**Trade-offs**: extra hour of design; it moves taste into evidence.
+
+## Kickoff Question Set
+**When**: any "simple" request before quoting.
+**How**: priority, evolution, what to avoid, differences per user, what success looks like; write the goal in one or two sentences. See ch06.
+**Trade-offs**: slower start; fewer surprises.
+
+## Review Page Discipline
+**When**: weekly client calls on a design file.
+**How**: explore privately in WIP; move only discussion items to Review; move approved work to Dev Ready by flow. See ch06.
+**Trade-offs**: requires tidying before each call.
+
+## Portfolio as Conversion Path
+**When**: the portfolio gets visits but no enquiries.
+**How**: value proposition, user path, only best work, context and a result per project, CTA at the end of each, consistent grid and two fonts. See ch08.
+**Trade-offs**: fewer projects shown; narrower audience.
+
+## Weekly Content Session
+**When**: you want a steady presence without burning out.
+**How**: pillars, monthly idea dump, one weekly writing session (about 4 hours for about 5 posts), daily engagement. See ch08.
+**Trade-offs**: a lightweight system gives up some polish.
+
+## Reach vs Proof Content
+**When**: posts get views but no enquiries.
+**How**: keep reach content, add weekly proof (finished work with results), niche problem-led posts and an occasional plain availability post; log sources. See ch08.
+**Trade-offs**: proof posts get few likes.
+
+## Persona-Based Content Pivot
+**When**: a product's content gets views but no downloads.
+**How**: define two personas, one account or series per persona, built on real pain points; add a source question in onboarding. See ch09.
+**Trade-offs**: smaller reach, higher intent.

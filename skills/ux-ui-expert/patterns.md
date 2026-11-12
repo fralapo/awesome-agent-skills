@@ -234,3 +234,33 @@
 **When to use**: a site or app where content is long-lived or edited by others.
 **How**: audit existing content, define each type (purpose, audience, size range, source, owner), give the model to design, test layouts against shortest, longest and missing content, write the style guide, design the editors' workflow (ch36).
 **Trade-offs**: needs content people early; costs time before visuals appear.
+
+## Premium-Feel Detail Audit
+**When to use**: a working app feels cheap or generic.
+**How**: squint test for one dominant element; check the 4/8 scale and one icon family; list every animation with duration and purpose; confirm empty, error, loading and success states; polish first run and sign-in first (ch37).
+**Trade-offs**: polish costs time that may not move metrics; apply to screens many people see.
+
+## Onboarding and Permission Flow
+**When to use**: designing or fixing the first run.
+**How**: name the goal (trust, low friction, expectations); 4-5 native screens; progress visible; pre-permission screens; tailor from goal questions; reach the aha moment fast; add an attribution question (ch38).
+**Trade-offs**: personalization questions add steps; ask only what is used.
+
+## Honest Cancellation Flow
+**When to use**: any subscription.
+**How**: one path from the account area, exact end date, what is lost, optional pause or downgrade, visible confirm button, confirmation message; log the reason as research data (ch38).
+**Trade-offs**: some retention lost in the flow; trust and reviews gained.
+
+## Ethical Retention Check
+**When to use**: before shipping a streak, notification, feed or reward mechanic.
+**How**: goal alignment, reflective endorsement, stopping cues where harm is plausible, streak recovery, notification caps, exportable data (ch39).
+**Trade-offs**: lower raw engagement numbers in exchange for lower harm and risk.
+
+## AI-Assisted Screen Generation
+**When to use**: producing UI or code from a design with an AI tool.
+**How**: brief with vision, user, prohibitions; one screen and one reference at a time; correct with measurable values; review hierarchy, relevance, consistency, polish (ch40).
+**Trade-offs**: slower than one-shot prompts but far less rework.
+
+## Results-Driven UX Audit
+**When to use**: a product underperforms or a client asks for an audit.
+**How**: current state and drop-offs, goal, five lenses, packaged findings, impact-effort 2x2 (ch41).
+**Trade-offs**: needs data or access to the live product; without a goal the audit has no direction.

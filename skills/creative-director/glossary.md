@@ -299,3 +299,34 @@ Public TED/TEDx talks by working designers and creatives. Full layer: [reference
 **Thoughtless Acts** — Bennett: the subconscious workarounds people invent reveal latent design opportunities; observe the real behavior before ideating. *(TED: Bennett / Idea Generator)*
 
 **Underdog Posture** — Henry White: no rules + authenticity + permission to copy a format from another industry; re-adopt deliberately when work gets over-polished. *(TED: Henry White / Creative Leader)*
+
+---
+
+## Design-Practice Terms
+
+Concept-generation and visual-persuasion terms from the design-practice references. Alphabetical.
+
+**Anchoring (visual)** — The first element noticed sets the reference for judging value; choose it on purpose and tie it to the brief. *(Persuasion reference / Idea Generator)*
+
+**Attention Thief** — Element that draws attention without having earned it; reduce first, delete if it has no job. *(Persuasion reference / Evaluator; see art-director ch10)*
+
+**Competitor Reverse Engineering** — Study, deconstruct, find the positioning gap, build a differentiated identity. *(Concept methods / Idea Generator)*
+
+**Five Levels of Design** — Aesthetics, organization, communication, persuasion, memory; most work stops at level 1 or 2. *(Persuasion reference / Evaluator)*
+
+**Loss Aversion (in messaging)** — Avoiding a loss feels more urgent than gaining an equal benefit; show the pain, then the relief. *(Persuasion reference / Copywriter)*
+
+**Memory Encoding** — Giving the viewer something to resolve (metaphor, absence, imbalance) so the idea is stored. *(Persuasion reference / Idea Generator)*
+
+**Mere Exposure** — Repeated contact with the same elements builds trust; repeat with variation. *(Persuasion reference / Copywriter)*
+
+**Perception Gap** — Difference between the intended and the perceived message; tested by asking what viewers remember, in order. *(Persuasion reference / Evaluator)*
+
+**Problem Sprint** — List the problems in a brief or design; each fix is a candidate concept. *(Concept methods / Idea Generator)*
+
+**Reverse Brainstorming** — Brainstorm ways to cause the problem, then design the opposite. *(Concept methods / Idea Generator)*
+
+**Swap Test** — Cover the logo and imagine another company in the sector; if the piece still works, it is only polish. *(Persuasion reference / Evaluator)*
+
+**Tension Statement** — A brief's opposites written as one problem whose form-solution resolves both. *(Concept methods / Idea Generator)*
+

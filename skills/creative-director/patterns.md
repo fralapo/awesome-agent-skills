@@ -223,3 +223,29 @@ Every concrete technique, method, and checklist pulled from the five role files,
 **Method Rotation** — *When:* refining an idea across passes (PASS 2+). *How:* on each refine pass, generate with a *different* method from the one that produced the idea — same method reproduces the same blind spot. Rotation is mandatory; demand ≥3 methods from different categories upstream or originality is structurally capped.
 
 **Kill Your Darlings** — *When:* you have a favorite. *How:* after picking it, argue *against* it. If the counter-argument is stronger than the idea, the idea is weak. Pair with the Pre-Mortem ("it's a year later and this flopped — why?") before exiting to articulation.
+
+---
+
+## Concept Methods & Visual Persuasion (design practice)
+*→ references: [concept-generation-methods.md](references/concept-generation-methods.md), [persuasion-and-visual-communication.md](references/persuasion-and-visual-communication.md)*
+
+**Problem Sprint** — *When:* an existing design or a brief shows visible faults. *How:* list every problem; write a fix for each; each fix is a candidate concept; keep those that map to the goals.
+
+**Competitor Reverse Engineering** — *When:* a strong competitor owns the category. *How:* study the identity; deconstruct symbolism, shapes, proportions, taglines; analyse positioning and the gap it leaves; build a differentiated identity from the gap.
+
+**Word Association Merge** — *When:* the brief is a few words. *How:* write words for several topics (product, genre, audience, features), then combine pairs from different topics into concepts.
+
+**User Journey Mapping** — *When:* the concept must work at the moment the person meets it. *How:* stages (discovery, interest, decision) with action and emotion each; tailor the concept to each stage.
+
+**Reverse Brainstorming** — *When:* solutions feel safe and obvious. *How:* brainstorm ways to confuse or frustrate the user, then design the opposite; check every idea against the goals.
+
+**Tension Statement** — *When:* the brief contains opposites. *How:* write the problem as a tension ("modern yet traditional"); look for the form that resolves it (a traditional shield rendered minimally).
+
+**Quote-to-Image** — *When:* the message is abstract. *How:* choose a quotation that carries it and translate it into a visual metaphor with shock and memorability; leave generous negative space.
+
+**3-3-3 Feedback** — *When:* checking for unintended associations. *How:* ask for three likes, three dislikes and three things it reminds them of.
+
+**Perception-Gap Test** — *When:* before presenting a concept. *How:* show it for a few seconds; ask what they remember, in order; a wrong first item or a missed call to action means the message failed.
+
+**Three-Phase Visual Story** — *When:* a narrative helps the brief. *How:* setup, confrontation (the problem), resolution (the product or mark as the answer).
+

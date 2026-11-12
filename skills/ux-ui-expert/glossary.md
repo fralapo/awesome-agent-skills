@@ -241,3 +241,19 @@
 **Redesign Audit** - ordered review: purpose, hierarchy, consistency, navigation, colour, layout, platform guidelines (Ch34)
 
 **Survey Zones** - current reality, obstacles, desired future; each survey question maps to one (Ch27)
+
+**Aha Moment** - the first point at which a user experiences the core value; time to it is the onboarding metric (Ch38, Ch39)
+
+**Pre-Permission Screen** - an in-app explanation shown before the system permission dialog, so a refusal does not burn the one real prompt (Ch38)
+
+**Invisible Consistency** - icon style, spacing, type and interaction so uniform that deviations of 1-2 px are felt (Ch37)
+
+**Trust Lever** - a specific design choice (verification, up-front fees, clear cancellation, reachable support) that lowers perceived risk (Ch37)
+
+**Switching Cost** - the value stored in a product (history, data, integrations) that makes leaving costly; legitimate only with export (Ch39)
+
+**Zeigarnik Effect** - unfinished items hold attention; unread counts and incomplete units pull users back (Ch39)
+
+**Impact-Effort Grid** - 2x2 for ordering audit findings: high impact and low effort first (Ch41)
+
+**Dev Ready Board** - an approved, per-flow design board showing the full happy path and its states for handoff (Ch40)

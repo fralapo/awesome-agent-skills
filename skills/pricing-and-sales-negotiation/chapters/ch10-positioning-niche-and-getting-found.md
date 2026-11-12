@@ -38,9 +38,10 @@ Rather than competing in a saturated field, serve non-customers and cut cost whi
 - **Funnel:** awareness, consideration and validation, a barrier/doubt stage, conversion by micro-commitments (newsletter, call, signup), delight, sharing. Put most effort at the top; word of mouth is powerful but passive and unpredictable.
 - **Inform or inspire:** publish knowledge, process and experience that match clients' current problems; find where clients gather information. Social media as advertising reads as spam; no offers before value is given. Being good is no longer enough; the work must be visible.
 - **Clients hire people they know, like and trust.** If one of the three is missing (excellent but unlikeable), the hire does not happen. Trust comes from past work or a reliable recommendation.
+- **Marketplaces:** logos and similar commodities sell there for very little. If you use one, treat it as a funnel, pick a niche within a niche, publish fixed named offers instead of hourly gigs, answer fast with a proposal that quotes the client's own words, and take a deposit before leaving the platform's protection. Tactics: `freelance-designer-ops` ch05.
 - **Referrals:** ask existing clients with a specific, low-pressure request; ask at the moment of client happiness; offer referrals to others when a lead does not fit. Build relationships without a transactional aim; visibility creates introductions.
 - Speak at conferences, join local boards, publish regularly to stay top of mind. Do not blame the market: clients who value design exist in every market.
-- A lead that does not convert is not a loss: you lose only what you had. Keep a consistent professional voice on the channel that matters.
+- A lead that does not convert is not a loss: you lose only what you had. Keep a consistent professional voice on the platform that matters.
 - **Profile writing (attention, interest, desire, action):** a clear headline, supporting detail, evidence that maps to the target need, and an invitation. See `marketing-mba` ch01 for AIDA. The same funnel fits any process where the other side evaluates you (a job search included): at each touchpoint ask what captures attention, what sustains interest, what builds desire, and whether anything makes action hard. Remove friction before the last step (for example a portfolio whose password the evaluator does not have), and think about the evaluator's experience, not only your own.
 
 ## Example Phrasings
@@ -51,7 +52,7 @@ Rather than competing in a saturated field, serve non-customers and cut cost whi
 - A trendy label shared by hundreds of others; staying local out of habit.
 - Presenting every interest publicly; long mixed portfolios.
 - Competing on features and price in a saturated market; matching rivals' prices.
-- Posting personal content on professional channels; vague captions nobody searches.
+- Posting personal content on professional platforms; vague captions nobody searches.
 - Networking with a transactional or desperate tone; waiting for merit to be recognised.
 - Trying to convince price-sensitive clients to pay premium fees.
 

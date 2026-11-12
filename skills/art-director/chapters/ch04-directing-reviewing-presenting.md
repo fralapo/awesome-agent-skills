@@ -25,6 +25,10 @@ An art director gets quality from other people's hands. That means briefing with
 - Layout and alignment can change real outcomes (a ballot with staggered response marks can mislead voters), so anticipate human reaction, not only taste.
 - Over-deliver on process: finish earlier than promised, offer one more concept than agreed, and present with care.
 
+## Going Further
+- Quality ladder, swap test, three-second test and attention-thief test for reviews → ch10.
+- Criteria-first presenting (three judging words), adjectives into evidence, side-by-side answers to stubborn feedback and pre-delivery checks → ch12.
+
 ## Accessibility and Testing Hand-offs
 - Ask the graphic designer for a first impairment simulation (blur, vignette, low contrast); for low-vision readers desaturate very bright colours and use high-contrast outlines. Real-user validation and numeric WCAG thresholds belong to `ux-ui-expert`.
 - Ask for a stranger test on files: could someone edit the project without questions?

@@ -1,6 +1,6 @@
 ---
 name: ux-ui-expert
-description: "UX research + UI design knowledge base. Research: study plans, roadmaps, sample sizes (usability 5, card sort, diary), small-sample reporting, experiment design, ethics, stakeholders, ROI of UX, Double Diamond. Design: UX/UI/CX scope, user flows, beginner UI mistakes, hierarchy, grids and spacing, component states, dark mode, design systems, the 9 typography laws, UX writing and microcopy, widows/orphans, color systems (60-30-10, color wheel, HSL, tokens, WCAG/EAA), and UX psychology (cognitive load, variable reward, goal gradient, peak-end, Von Restorff, choice overload). Practice and career: portfolios and case studies, the UX job search, winning research buy-in (minimum viable research), recruiting participants and top-task benchmarks, personas and mental-model workshops, feature prioritisation and website process, prototyping and design sprints, anticipatory design, transactional flows, atomic design. Use this skill whenever the user plans or runs user research, reviews or critiques a UI, screen, app, landing page or dashboard, picks fonts, colors or a palette, writes button/error/empty-state copy, maps a flow, builds a business case for UX, plans a portfolio or job search, scopes a website or feature list, recruits test participants, or asks why users behave a certain way in a product, even if they never say 'UX'."
+description: "UX research + UI design knowledge base. Research: study plans, roadmaps, sample sizes (usability 5, card sort, diary), small-sample reporting, experiment design, ethics, stakeholders, ROI of UX, Double Diamond. Design: UX/UI/CX scope, user flows, beginner UI mistakes, hierarchy, grids and spacing, component states, dark mode, design systems, the 9 typography laws, UX writing and microcopy, widows/orphans, color systems (60-30-10, color wheel, HSL, tokens, WCAG/EAA), and UX psychology (cognitive load, variable reward, goal gradient, peak-end, Von Restorff, choice overload). Practice and career: portfolios and case studies, the UX job search, winning research buy-in (minimum viable research), recruiting participants and top-task benchmarks, personas and mental-model workshops, feature prioritisation and website process, prototyping and design sprints, anticipatory design, transactional flows, atomic design. Product UX: premium feel and trust levers, onboarding, permission, paywall and cancellation flows, retention mechanics with ethics, AI-assisted UI and design-to-code handoff, design QA, shipping versus polishing and the results-driven UX audit. Use this skill whenever the user plans or runs user research, reviews or critiques a UI, screen, app, landing page or dashboard, picks fonts, colors or a palette, writes button/error/empty-state copy, maps a flow, builds a business case for UX, plans a portfolio or job search, scopes a website or feature list, recruits test participants, or asks why users behave a certain way in a product, even if they never say 'UX'."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 ---
 
 # UX/UI Research & Design Expert
-**Chapters**: 36 | **Supporting files**: cheatsheet, patterns, glossary
+**Chapters**: 41 | **Supporting files**: cheatsheet, patterns, glossary
 
 **Role boundary.** This skill is the UX/UI designer: screens, flows, interaction, usability evidence. Concept and insight → `creative-director`; visual direction and identity rules → `art-director`; print, poster, logo and layout craft → `graphic-designer`. Adapt their direction to interfaces and report back when it fails on screen (ch23, ch29 mood board handoff). Workshops, design sprints and group alignment exercises (agenda, timing, voting, facilitation) → `workshop-facilitation`.
 
@@ -16,7 +16,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 
 1. **Match the task to a workflow** below and open only the chapters it names. Don't load them all.
 2. **Use the Core Frameworks** for quick answers; read the chapter before going beyond them.
-3. **Quick lookups**: [cheatsheet.md](cheatsheet.md) (tables: sample sizes, typography laws, 60-30-10, states, psychology), [patterns.md](patterns.md) (When / How / Trade-offs for 47 techniques), [glossary.md](glossary.md).
+3. **Quick lookups**: [cheatsheet.md](cheatsheet.md) (tables: sample sizes, typography laws, 60-30-10, states, psychology), [patterns.md](patterns.md) (When / How / Trade-offs for 53 techniques), [glossary.md](glossary.md).
 4. **Ground recommendations in evidence**: cite the rule or number (e.g. "line length 45-75 chars, ch21") and never blame the user.
 
 ---
@@ -63,6 +63,16 @@ argument-hint: [task, topic, framework name, or chapter number]
 
 **Plan content for a site or app**: content model, audit, style guide, design for variance (ch36); survey method for customer language (ch27).
 
+**Make an app feel premium or trustworthy**: eight premium traits, detail audit, ten trust levers, friction only where stakes are high (ch37).
+
+**Design or fix onboarding, permission prompts, paywall or cancellation**: three failure points, pre-permission screens, progress, aha moment, paywall model by price, short honest cancel flow (ch38).
+
+**Improve retention or add habit mechanics**: five tactics, loop model, diagnose the drop by cohort, ethics decision rules (ch39, with ch20).
+
+**Use AI tools to generate UI, hand off to developers or run design QA**: intern briefing, one screen at a time, PRD-first build, file hygiene, QA issue fields (ch40).
+
+**Decide what to polish versus ship, or run a UX audit tied to results**: ship/polish rules, closed-beta launch, five-step audit with five lenses and impact-effort grid (ch41, with ch34).
+
 **Run a workshop or design sprint with stakeholders**: hand off the process design, exercises and timing to `workshop-facilitation` (ch01, ch07); keep the research questions and usability evidence here (ch05, ch08).
 
 ---
@@ -107,6 +117,8 @@ argument-hint: [task, topic, framework name, or chapter number]
 
 **UX psychology** (ch20): cognitive overload (too much information) differs from choice overload (too many options). Processing fluency makes simpler layouts read as higher quality. Variable reward is the strongest and riskiest engagement loop. Hedonic adaptation means static experiences fade. Goal gradient: show how close the finish line is. Peak-end: polish the peak and the ending. Labor illusion: visible effort raises trust for sensitive actions. Von Restorff: make only what matters stand out.
 
+**Product UX** (ch37-ch41): premium feel = eight deliberate traits (anticipate, pace transitions, delight, know when not to animate, invisible consistency, intentional empty states, reward discovery, prescriptive errors); trust = ten levers, with friction added only on irreversible or sensitive actions. Onboarding fails by asking too much first, not setting expectations, or feeling generic; ask for permissions only after a pre-permission screen; keep cancellation as easy as sign-up. Retention rests on personalization, a fast aha moment, habit loops, community and switching costs, used only where the mechanic serves the user's goal. With AI tools: brief like an intern, one screen and one reference at a time, state prohibitions, review hierarchy and consistency. Polish only screens on conversion steps that have enough traffic; audit with a goal, five lenses (clarity, flow, hierarchy, consistency, density) and an impact-effort grid.
+
 ---
 
 ## Chapter Index
@@ -149,10 +161,27 @@ argument-hint: [task, topic, framework name, or chapter number]
 | [ch34](chapters/ch34-interface-audit-and-redesign-method.md) | Interface Audit and Redesign Method | 3 redesign goals, audit order, merge duplicates, navigation fixes |
 | [ch35](chapters/ch35-interface-craft-and-context-of-use.md) | Interface Craft and Context of Use | meaningful shadow/colour/shape, translucent contrast, status and range, low-attention controls |
 | [ch36](chapters/ch36-content-modelling-and-ux-content-strategy.md) | Content Modelling and UX Content Strategy | content model, audit, design for variance, editors as users |
+| [ch37](chapters/ch37-perceived-quality-premium-feel-and-trust.md) | Perceived Quality, Premium Feel and Trust | 8 premium traits, detail audit, perceived value, 10 trust levers |
+| [ch38](chapters/ch38-onboarding-permissions-paywall-and-cancellation.md) | Onboarding, Permissions, Paywall and Cancellation | 3 failure points, pre-permission screens, paywall models, honest cancel flow |
+| [ch39](chapters/ch39-retention-habit-mechanics-and-ethics.md) | Retention and Habit Mechanics, with Ethics | 5 tactics, loop model, cohort diagnosis, ethics rules |
+| [ch40](chapters/ch40-ai-assisted-ui-workflow-and-design-to-code-handoff.md) | AI-Assisted UI, Design-to-Code Handoff, Design QA | 5 generation rules, PRD-first build, file structure, QA issue fields |
+| [ch41](chapters/ch41-shipping-vs-polishing-and-results-driven-ux-audit.md) | Shipping vs Polishing, Results-Driven UX Audit | ship/polish rules, closed beta, 5-step audit, 5 lenses, impact-effort |
 
 ## Topic Index
 
-- **Abandonment / drop-off rate** → ch13
+- **Abandonment / drop-off rate** → ch13, ch38, ch41
+- **AI-generated UI / prompts / design-to-code / MCP** → ch40
+- **Attribution question ("where did you find us")** → ch38, ch41
+- **Cancellation flow / paywall / freemium vs hard paywall** → ch38
+- **Design QA / handoff / Dev Ready file structure** → ch40
+- **Dark patterns / habit ethics / streaks / notifications** → ch39
+- **Empty states / prescriptive errors** → ch37, ch38
+- **Impact-effort grid / five audit lenses / UX audit** → ch41
+- **Onboarding / permission prompts / aha moment** → ch38
+- **Premium feel / perceived quality / invisible consistency** → ch37
+- **Retention / habit loops / switching cost** → ch39
+- **Ship vs polish / closed beta / validation** → ch41
+- **Trust levers / friction at key moments** → ch37
 - **Accessibility (contrast, EAA, color alone)** → ch21, ch22
 - **Affordances & signifiers** → ch18
 - **AI-assisted analysis** → ch07
@@ -263,7 +292,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 - `creative-director`: concepts, copy and visual literacy beyond interface work.
 - `depth-psychology`: motives and defences of people (this skill's ch20 covers behavioural psychology in products).
 - `public-speaking-persuasion`: presenting research findings and pitching UX work.
-- `freelance-designer-ops`: pipeline, client acquisition and organisation for the career chapters (ch24, ch25).
+- `freelance-designer-ops`: pipeline, client acquisition, content and organisation for the career chapters (ch24, ch25); growth and marketing of the product itself is outside this skill.
 - `workshop-facilitation`: running workshops and design sprints (agenda, silent work, voting, remote).
 - `pricing-and-sales-negotiation`: quoting UX/UI work and paid discovery.
 
@@ -273,4 +302,4 @@ Thin coverage: resume/ATS formatting, interview answers and hiring-side scoring 
 
 ## Scope & Limits
 
-Covers UX research practice and UI design fundamentals as listed above. Not covered: advanced statistics (confidence intervals, significance testing), full WCAG audits beyond contrast and color, and tool tutorials (Figma etc.). Say so when a question goes beyond these chapters instead of inventing rules.
+Covers UX research practice and UI design fundamentals as listed above. Product growth, marketing, content and client acquisition are not covered here (see `freelance-designer-ops`). Not covered: advanced statistics (confidence intervals, significance testing), full WCAG audits beyond contrast and color, and tool tutorials (Figma etc.). Say so when a question goes beyond these chapters instead of inventing rules.

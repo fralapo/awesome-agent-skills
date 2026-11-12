@@ -49,8 +49,11 @@ The material supports only limited rules here; use them cautiously.
 - A **minimum level of engagement fee** per client (ch05) is the retainer's floor logic: a new client must be worth more than the least profitable client you would displace.
 - For early-stage clients with potential, ask for a **percentage, royalty or retainer** instead of a discounted one-off fee (ch08), with a cap and clear exit.
 - A **trial** (30 days, reporting every two weeks, ability to redirect) works as a reversible start to a longer arrangement.
+- **Starter project before a retainer:** for a cold or high-ticket prospect who hesitates, propose a small, priced project first to prove value; the retainer follows the proof. This is a reversible start with a real fee, unlike free work (ch08).
+- **Intensive, light, intensive (fractional model):** early-stage clients increasingly buy a designer full-time for about three months on an MVP, redesign or major feature, then scale back to roughly 15 to 20 hours a week or 20 to 40 hours a month for upkeep, then recall the designer for the next intensive piece. Quote each phase separately (the intensive as a fixed fee or output package, the light phase as a monthly hour allowance with a cap and an exit), and say that the light phase is a standing availability, not unlimited requests. These hour figures come from one market description; test them with the client.
+- **Low-priced asynchronous retainer:** a few small monthly updates handled by short recorded explanations can sit comfortably beside bigger work and supports travel or side projects; keep the monthly allowance explicit so it does not grow unpriced.
 - Reminders: ask for the next project before the current one ends; follow up after delivery with a note and ask for a testimonial.
-- Not covered by the source material: retainer hour banks, monthly scope definitions, rollover rules. Do not invent them; define them with the user and ask an accountant or lawyer about terms.
+- Still not covered by the source material: rollover rules and detailed hour-bank mechanics. Do not invent them; define them with the user and ask an accountant or lawyer about terms.
 
 ## 7. Onboarding as Part of the Product
 Short training videos on how the work runs; a pre-work assignment before kickoff; automated logistics; modules for repeated questions; live coaching kept for individual situations; the share of live to recorded shifts toward recorded over time. Pilot the first version with a small group as a beta before building the full thing.

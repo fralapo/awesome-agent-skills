@@ -37,6 +37,13 @@ Decision rules, compact tables, and quick heuristics. Every line helps DECIDE so
 - If a workshop output (persona, poster, insight) has no path to a feature or decision → it is decoration.
 - If ideas will not come → check the pipeline: request restated into two or three keywords, far-away saturation, a break, immediate capture.
 - If the goal is "never seen before" → define the audience and import an idea from another field instead.
+- If the brief has opposites ("young and old", "modern yet traditional") → write them as a tension; the tension suggests the form.
+- If ideas all look alike → rotate the method (problem sprint, competitor reverse engineering, journey mapping, reverse brainstorming), not only the surface.
+- If a strong competitor owns the category → study, deconstruct, find the positioning gap, build against it; do not match its style head-on.
+- If the idea needs explaining to an outsider → the perception gap is open; fix the concept, not the caption.
+- If picture and headline say the same thing → change one of them.
+- If a persuasion lever is an invented stake (false scarcity, fake urgency) → drop it.
+- If a mapping (colour, shape) is cited as proof → treat it as a hypothesis and check with the actual audience.
 
 ### Creative Leader
 - If a report can deliver at 80%+ quality → coach and hand off. Step in only for irreversible stakes.
