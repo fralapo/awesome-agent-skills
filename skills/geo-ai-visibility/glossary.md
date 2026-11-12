@@ -1,6 +1,6 @@
 # Glossary — GEO / AI Visibility
 
-**AEO (Answer Engine Optimization)** — term used interchangeably with GEO by most sources in this material to describe optimizing content for AI-generated answers; one source (Niko) distinguishes it as the older, pre-LLM discipline of optimizing for featured snippets/People Also Ask (Ch1, Ch7).
+**AEO (Answer Engine Optimization)** — term used interchangeably with GEO by most sources in this material to describe optimizing content for AI-generated answers; a minority of practitioners distinguish it as the older, pre-LLM discipline of optimizing for featured snippets/People Also Ask (Ch1, Ch7).
 
 **AI Overview / AI Mode** — Google's generative-answer surfaces layered on top of classic search; AI Mode has the highest measured zero-click rate (93%) and the lowest referral rate (1.6-2.5%) of all surfaces analyzed (Ch2, Ch5).
 
@@ -46,7 +46,7 @@
 
 **PAWC (Position-Adjusted Word Count)** — one of the two metrics proposed in the founding GEO paper: a word count of cited content weighted with exponential decay by citation position within the answer, so citations near the top of the answer count more (Ch1).
 
-**Query coverage** — having a dedicated indexable surface (page or explicit section) for each commercial phrasing a user might search, such as "studio grafico Milano" or "web agency Roma"; the main reason one business appears in AI answers across many query variants (Ch8).
+**Query coverage** — having a dedicated indexable surface (page or explicit section) for each commercial phrasing a user might search, such as "graphic design studio + city" or "web agency + city"; the main reason one business appears in AI answers across many query variants (Ch8).
 
 **Query fan-out** — the mechanism by which a generative engine (notably Google AI Overviews/AI Mode) splits a single user query into multiple sub-queries and cites pages that recur across the sub-query results, which decouples AI citation from classic top-10 ranking (Ch1, Ch2).
 

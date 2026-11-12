@@ -1,7 +1,7 @@
 # Chapter 11: YouTube — Energy, Character vs Authenticity, and the Long Game
 
 ## Core Idea
-A cross-platform companion to Ch 2/7/10's Instagram-centric algorithm thinking, drawn from a creator's 5-year retrospective on building a YouTube channel ("Ecco Come Fare YouTube mi Ha CAMBIATO in 5 Anni"). The through-line: **what works on camera is energy, not a persona you perform** — and the compounding payoff (showcase, revenue diversification, sponsors) only arrives after years of uninterrupted publishing, not a few viral hits.
+A cross-platform companion to Ch 2/7/10's Instagram-centric algorithm thinking, based on a multi-year retrospective of building a YouTube channel. The through-line: **what works on camera is energy, not a persona you perform** — and the compounding payoff (showcase, revenue diversification, sponsors) only arrives after years of uninterrupted publishing, not a few viral hits.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: freelance-designer-ops
-description: "Operating manual for a freelance designer (presentation, graphic or web): what the job really involves, choosing a niche, scoping and timing client projects, consultations and training formats, client communication rules, handling criticism, delegating; a buildable Notion workspace (projects, clients, notes, CRM pipeline, hour tracker with formulas, invoices, content calendar); time management with Google Calendar + Google Tasks (calendars as labels, 1–4 h blocks with goals, batching, energy mapping, notebook triage); tool stack, workspace setup, content creation and yearly review; finding and winning clients (referrals, prospect list, time-boxed free audits, platforms), onboarding and contract hygiene, presenting design and handling rejection, a portfolio and content system that converts, career habits and designer-founder side projects. Use when the user is a freelancer or solo creative planning their week, setting up Notion or a project/hour tracker, estimating how long a deck or project takes, organising clients and invoices, deciding whether to take on work, structuring a consultation or training, or reflecting on growing a freelance practice, even if they don't say 'freelance'."
+description: "Operating manual for a freelance designer: choosing a niche, scoping and timing client projects, consultation and training formats, client communication rules, handling criticism; a buildable Notion workspace (projects, clients, CRM pipeline, hour tracker formulas, invoices, content calendar); time management with calendar blocks, batching and energy mapping; tool stack and yearly review; finding and winning clients (referrals, prospect lists, time-boxed free audits), onboarding and contracts, presenting design and handling rejection, a portfolio and content system that converts, career habits and side projects. Use when the user is a freelancer or solo creative planning their week, setting up Notion or an hour tracker, estimating how long a project takes, organising clients and invoices, deciding whether to take on work, looking for clients, or growing a freelance practice, even if they don't say 'freelance'."
 allowed-tools:
   - Read
   - Grep
@@ -108,6 +108,12 @@ argument-hint: [topic or chapter number]
 - `pricing-and-sales-negotiation`: how to price and quote projects, run discovery calls, handle discounts and objections, raise rates and decline bad-fit clients. Workshop and sprint scoping, day rates and preparation days: `workshop-facilitation` ch10 (orientation only).
 - `brand-strategy-storytelling`: choosing and owning a niche, positioning, personal brand, portfolio and case-study storytelling.
 - `marketing-mba`: market-level positioning, pricing strategy theory, B2B sales pipeline.
+
+## Supporting Files
+
+- [cheatsheet.md](cheatsheet.md): quick numbers, tables and checklists.
+- [patterns.md](patterns.md): repeatable techniques with when to use, how, and trade-offs.
+- [glossary.md](glossary.md): terms used across the chapters.
 
 ## Scope & Limits
 

@@ -79,6 +79,12 @@ Companion to `presentation-design` (the *what and why*: process, layout, type, c
 - `anthropic-skills:pptx`: generating .pptx files programmatically.
 - `designcraft-expert`, `vectorcraft-expert`: layout and vector work in ArtCraft apps.
 
+## Supporting Files
+
+- [cheatsheet.md](cheatsheet.md): quick numbers, tables and checklists.
+- [patterns.md](patterns.md): repeatable techniques with when to use, how, and trade-offs.
+- [glossary.md](glossary.md): terms used across the chapters.
+
 ## Scope & Limits
 
 Techniques documented for recent PowerPoint (Microsoft 365), Keynote, Google Slides, Canva and Figma Slides. Menus move between versions: if a command isn't where described, search the app's command box (*Tell me / Search*) for the English or Italian name rather than inventing a path.

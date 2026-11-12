@@ -1,6 +1,6 @@
 ---
 name: awesome-readme
-description: "Write awesome-list-worthy GitHub READMEs (library, CLI, app, research, template, and username profile READMEs) whose prose reads human, not AI-generated. Covers section selection, shields.io badges, banner/logo/demo GIF, TOC, <details> blocks, back-to-top anchors, contrib.rocks and star-history widgets, typing SVGs, github-readme-stats cards, Standard-Readme compliance, README-Driven Development, and a full anti-AI-slop audit pass on every draft. Use whenever the user asks to write, generate, improve, refactor, humanize or audit a README or README.md, or wants badges, a TOC, install/usage blocks, a contributing section, a roadmap, 'getting started', or a profile README with stats or a snake animation."
+description: "Write awesome-list-worthy GitHub READMEs (library, CLI, app, research, template, and username profile READMEs) whose prose reads human, not AI-generated. Covers section selection, shields.io badges, banner/logo/demo GIF, TOC, collapsible details blocks, back-to-top anchors, contrib.rocks and star-history widgets, typing SVGs, github-readme-stats cards, Standard-Readme compliance, README-Driven Development, and a full anti-AI-slop audit pass on every draft. Use whenever the user asks to write, generate, improve, refactor, humanize or audit a README or README.md, or wants badges, a TOC, install/usage blocks, a contributing section, a roadmap, 'getting started', or a profile README with stats or a snake animation."
 version: 1.0.0
 source: local-git-analysis
 analyzed_repos:

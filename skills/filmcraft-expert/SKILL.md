@@ -183,6 +183,6 @@ ArtCraft apps get updates almost daily. Every "absent" or "missing" item in this
 
 ## References
 
-- Lessons: `references/01-touring-and-workflow.md` … `references/17-managing-projects.md`; glossary in `references/glossary.md`.
+- Lessons in `references/` (read the matching file before a non-trivial task): 01-touring-and-workflow · 02-project-and-sequences · 03-importing-media · 04-organizing-media · 05-editing-essentials · 06-clips-and-markers · 07-transitions · 08-advanced-editing · 09-motion-and-keyframes · 10-editing-and-mixing-audio · 11-improving-audio · 12-video-effects · 13-color-correction-and-grading · 14-compositing · 15-graphics-titles-captions · 16-exporting · 17-managing-projects. Glossary: `references/glossary.md`.
 - Related skills: [`video-editor`](../video-editor/SKILL.md) (editing decisions), [`ffmpeg`](../ffmpeg/SKILL.md) (command-line media work).
 - Keep deliverables in a predictable place: export to an explicit, agreed folder and name files with project, version and target (e.g. `promo_v3_9x16_-14LUFS.mp4`).

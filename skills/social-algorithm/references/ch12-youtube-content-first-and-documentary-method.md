@@ -1,7 +1,7 @@
-# Chapter 12: YouTube's Content-First Shift & the documentary Method
+# Chapter 12: YouTube's Content-First Shift & the Documentary Method
 
 ## Core Idea
-A second, complementary YouTube source (a practitioner, "L'epoca d'oro di YouTube è tornata") describing a recent algorithm shift — YouTube moving from **channel-first** to **content-first** distribution, plus a new **Hype Score** feature rewarding small channels — and a 4-step operating method ("the documentary method") for building a focused, documentary-style channel inside that shift. This is the YouTube-specific analogue of Ch 2's IG "distribution by interest" shift, and sharpens Ch 11's "document, don't overproduce" / audience-feedback points into a repeatable targeting + content method.
+A complementary view of YouTube, describing a recent algorithm shift — YouTube moving from **channel-first** to **content-first** distribution, plus a new **Hype Score** feature rewarding small channels — and a 4-step operating method ("the documentary method") for building a focused, documentary-style channel inside that shift. This is the YouTube-specific analogue of Ch 2's IG "distribution by interest" shift, and sharpens Ch 11's "document, don't overproduce" / audience-feedback points into a repeatable targeting + content method.
 
 ---
 
@@ -17,9 +17,9 @@ A second, complementary YouTube source (a practitioner, "L'epoca d'oro di YouTub
 
 ---
 
-## 2. The documentary Method — 4 Steps
+## 2. The Documentary Method — 4 Steps
 
-A named operating method (per a practitioner, modeled on early documentary) for building a "micro-cult brand" on YouTube inside the content-first era, rather than chasing volume:
+An operating method, modelled on early daily-vlog documentary channels, for building a "micro-cult brand" on YouTube inside the content-first era, rather than chasing volume:
 
 ### Step 1 — Target (name a single viewer, not a demographic bracket)
 Build one named, specific persona (the example used: "Antonio," a defined age range, job, needs, and the videos he wants to see) rather than a vague demographic. The explicit framing: **you don't need 100,000 or 200,000 "Antonios" — you need the right ones**, matching this specific target. Every downstream decision (topic, title, tone of voice, communication style) is derived from this one persona, not guessed at generically.

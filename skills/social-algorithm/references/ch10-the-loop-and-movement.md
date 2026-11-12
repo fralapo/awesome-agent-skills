@@ -1,7 +1,7 @@
 # Chapter 10: The Loop — Movement, Trust Windows, and Differentiation
 
 ## Core Idea
-A follow-up refinement to the algorithm shift (Ch 2): distribution by interest is not just "who sees you less" — it has a mechanic that rewards interaction with a second, faster wave of visibility. a practitioner calls this mechanic **the Loop**. Once you understand it, the question shifts from "how do I get more reach" to "how do I get the right people to interact once, so the platform shows me to them again and again."
+A follow-up refinement to the algorithm shift (Ch 2): distribution by interest is not just "who sees you less" — it has a mechanic that rewards interaction with a second, faster wave of visibility. This mechanic is called **the Loop**. Once you understand it, the question shifts from "how do I get more reach" to "how do I get the right people to interact once, so the platform shows me to them again and again."
 
 ---
 

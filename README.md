@@ -12,8 +12,9 @@
 <p align="center">
   <a href="https://github.com/fralapo/awesome-agent-skills/stargazers"><img src="https://img.shields.io/github/stars/fralapo/awesome-agent-skills?style=for-the-badge" alt="Stars"></a>
   <a href="https://github.com/fralapo/awesome-agent-skills/commits/main"><img src="https://img.shields.io/github/last-commit/fralapo/awesome-agent-skills?style=for-the-badge" alt="Last commit"></a>
-  <img src="https://img.shields.io/badge/skills-27-2ea44f?style=for-the-badge" alt="Skills count">
+  <img src="https://img.shields.io/badge/skills-28-2ea44f?style=for-the-badge" alt="Skills count">
   <img src="https://img.shields.io/badge/agent%20skills-SKILL.md-5A67D8?style=for-the-badge" alt="Agent skills format">
+  <a href="https://github.com/fralapo/awesome-agent-skills/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/fralapo/awesome-agent-skills/validate.yml?style=for-the-badge&label=checks" alt="Checks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/fralapo/awesome-agent-skills?style=for-the-badge" alt="License"></a>
 </p>
 
@@ -22,12 +23,20 @@
 ## Contents
 
 - [What's in here](#whats-in-here)
+  - [Design roles](#design-roles)
+  - [Presentations, speaking and workshops](#presentations-speaking-and-workshops)
+  - [Marketing, brand and business](#marketing-brand-and-business)
+  - [Image, video and motion](#image-video-and-motion)
+  - [ArtCraft apps over MCP](#artcraft-apps-over-mcp)
+  - [Code, docs and knowledge](#code-docs-and-knowledge)
+  - [People](#people)
 - [Install](#install)
   - [Plugin marketplace (recommended)](#plugin-marketplace-recommended)
   - [Manual (symlink or copy)](#manual-symlink-or-copy)
   - [Codex CLI (OpenAI)](#codex-cli-openai)
 - [How a skill is organized](#how-a-skill-is-organized)
 - [How I build them](#how-i-build-them)
+- [Checks](#checks)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -35,42 +44,78 @@
 
 ## What's in here
 
-Twenty-seven skills. Each is a single folder with a `SKILL.md` (frontmatter + workflow) plus deep-dive material (a `references/` directory, or `chapters/` + cheatsheet/patterns/glossary for the book-distilled ones). The agent (Claude Code, or any tool that reads the same format) matches the `description` field against whatever you're asking and loads the skill only when it's relevant. No eager bloat.
+28 skills. Each is one folder with a `SKILL.md` (frontmatter plus workflow) and deeper material next to it (`references/`, or `chapters/` with a cheatsheet, patterns and glossary). The agent matches the `description` field against what you ask and loads a skill only when it is relevant, then opens only the chapters the task needs.
 
-| Skill | What it does | Corpus mined | Typical trigger |
-|---|---|---|---|
-| [`seedance-prompts`](./skills/seedance-prompts/) | Prompt templates for **ByteDance Seedance 2.0/2.5** video gen: storyboards, camera-move vocab, multi-modal refs, identity locks, POV/bodycam, found-footage, stop-motion, game-UI HUD. | ~1000+ prompts/cases across 4 awesome-lists | `seedance`, `bytedance video`, `text-to-video prompt` |
-| [`image-gen-prompts`](./skills/image-gen-prompts/) | Prompt engineering for any major image model (Midjourney, GPT Image 2.5 Flare/Sunburst, FLUX, SDXL, Seedream, Imagen, Ideogram...). 40+ templates, 20 edit-repair recipes, auto-routes by model named. | ~19,170 prompts across 14 sources | `image prompt`, `nano banana`, `gpt image 2.5`, `midjourney`, `flux`, `sdxl`, `ideogram`, `dall-e`, `mockup` |
-| [`awesome-readme`](./skills/awesome-readme/) | Write GitHub READMEs that land on awesome-lists and sound human, not AI-generated. 8 templates + badge/GIF recipes + anti-slop audit pass. | Best-README-Template + ~100 awesome-readme entries + Standard-Readme | `readme`, `awesome readme`, `github readme`, `humanize readme` |
-| [`llm-wiki`](./skills/llm-wiki/) | Persistent LLM-maintained knowledge base in an Obsidian vault, Karpathy's "compile, don't retrieve" pattern. `ingest`/`query`/`lint` ops, hallucination spot-checks. | Karpathy's llm-wiki gist + 3 production Obsidian-wiki repos + field-tested corrections | `obsidian`, `llm wiki`, `karpathy wiki`, `second brain`, `pkm`, `wiki ingest` |
-| [`creative-director`](./skills/creative-director/) | Router into 5 role toolkits (copywriter, idea generator, creative leader, visionary, evaluator), each loading only its own book digest. | 16 books + smixs evaluation engine + 23 TED talks | `creative director`, `headline`, `copywriting`, `evaluate concept`, `typography`, `visual literacy` |
-| [`social-algorithm`](./skills/social-algorithm/) | Organic personal-brand growth + Instagram algorithm dynamics: indirect selling, acquisition funnels, hook patterns, delegation systems, YouTube energy and sponsor-readiness. | Practitioner field notes + tested operational frameworks | `personal brand`, `instagram algorithm`, `organic acquisition`, `hero's journey`, `manychat`, `youtube` |
-| [`ffmpeg`](./skills/ffmpeg/) | Full FFmpeg CLI reference: codecs, formats, filtergraphs, protocols, capture devices, plus full official docs bundled for grep. | Official FFmpeg documentation, all tools & libraries | `ffmpeg`, `ffprobe`, `transcode`, `filtergraph`, `-map`, `hls`, `crf`, `nvenc` |
-| [`video-editor`](./skills/video-editor/) | Software-agnostic decision system for editing viral video: hook system, pacing, motion, captions, sound design, transitions. | 25 expert YouTube video-editing breakdowns, deduped | `video editing`, `reel`, `retention`, `hook`, `pacing`, `b-roll`, `motion graphics` |
-| [`public-speaking-persuasion`](./skills/public-speaking-persuasion/) | Public speaking + persuasion theory: speech structure, logical-fallacy/cognitive-bias catalogs, objection handling, pitching, client conversations and questions. | 51 theoretical transcripts on communication and persuasion | `public speaking`, `persuasion`, `pitch`, `logical fallacy`, `objection handling` |
-| [`marketing-mba`](./skills/marketing-mba/) | MBA-level marketing + startup execution: segmentation, pricing, value proposition, sales pipeline, negotiation, founder frameworks. | 90 theoretical marketing/startup/business transcripts | `marketing`, `value proposition`, `pricing strategy`, `go-to-market`, `negotiation`, `porter five forces` |
-| [`ux-ui-expert`](./skills/ux-ui-expert/) | UX/UI research and design knowledge base: study plans, research roadmaps, sample sizes, ethics, the UX/UI/CX distinction, ROI of UX, Double Diamond process, visual/interaction fundamentals, typography laws, UX writing/microcopy, widows & orphans, color systems (60-30-10, color wheel, HSL, design tokens, EAA), the psychology behind engagement-driving design, plus practice and career chapters (portfolios, job search, research buy-in, recruiting, personas, prioritisation, prototyping, anticipatory design, atomic design) and product-UX chapters (premium feel and trust, onboarding/paywall/cancellation flows, retention mechanics with ethics, AI-assisted UI and design-to-code handoff, shipping vs polishing). | 41 chapters distilled from theoretical UX research, UI/UX and app-design material | `ux research`, `ui design`, `study plan`, `usability testing`, `sample size`, `design system`, `user flow`, `ux psychology`, `typography`, `ux writing`, `widows and orphans`, `60-30-10`, `color theory`, `design tokens` |
-| [`geo-ai-visibility`](./skills/geo-ai-visibility/) | GEO/AI-visibility knowledge base: how to get content cited by ChatGPT Search, Perplexity, Google AI Overviews/AI Mode, Copilot, and Gemini — founding GEO research, generative-engine retrieval/ranking, concrete optimization techniques (llms.txt, structured data, quotation/statistics addition), AI-visibility tooling, GEO vs. SEO, a cross-source best-practice audit checklist, and an entity-GEO case study on why an AI recommends one local agency over another. | 8 chapters distilled from the founding GEO paper, AI-visibility tooling docs, 9 practitioner videos, and a Agency A vs Agency B agency case study | `geo`, `ai visibility`, `aeo`, `llms.txt`, `ai overview`, `chatgpt search`, `audit <url>` |
-| [`jev`](./skills/jev/) | Hands TypeSafe's **Jev** (System One decision model, via OpenRouter) typed yes/no, choice and score questions, so the agent doesn't spend a full LLM turn on each one: triage, routing, reranking search results, browser element picking, diff review, test-failure triage, citation checks, prompt-injection screening. Stdlib Python client with parallel batches, retry and key failover. Needs `OPENROUTER_API_KEY`. | OpenRouter Jev docs + API reference, TypeSafe's official skill and cookbooks, community integrations, live-tested patterns | `classify`, `triage`, `route`, `rerank`, `yes/no gate`, `score`, `jev` |
-| [`vectorcraft-expert`](./skills/vectorcraft-expert/) | Illustrator-grade vector work driven through **[VectorCraft](https://getartcraft.com/apps/vectorcraft)**'s MCP tools: logos, icons, illustrations, social posts, patterns, print files (CMYK, bleed, outlined type), SVG/PDF/PNG export. Maps every Illustrator feature to a real VectorCraft command. | Adobe *Illustrator Classroom in a Book 2026* method, rewritten from scratch + VectorCraft's live command catalogue (900+ commands), live-tested | `vectorcraft`, `logo`, `icon`, `pen tool`, `pathfinder`, `image trace`, `svg`, `pdf/x` |
-| [`photocraft-expert`](./skills/photocraft-expert/) | Photoshop-grade retouching, compositing and raster design in **PhotoCraft** (plus raw development in **LightCraft**): non-destructive layers/masks, selections and cut-outs, smart-object mockups, type on images, web/social/print export. | Adobe *Photoshop Classroom in a Book 2026* method, rewritten from scratch + PhotoCraft/LightCraft command catalogues, live-tested | `photocraft`, `retouch`, `cut-out`, `mask`, `mockup`, `smart object`, `camera raw` |
-| [`effectcraft-expert`](./skills/effectcraft-expert/) | After Effects-grade motion graphics in **EffectCraft**: animated text and logos, shape layers, easing, parenting, masks, Roto Brush, puppet, tracking, 3D camera/lights, templates, Lottie and social renders. | Adobe *After Effects Classroom in a Book 2026* method, rewritten from scratch + EffectCraft commands/effects, live-tested | `effectcraft`, `motion graphics`, `keyframes`, `animated logo`, `roto`, `lottie` |
-| [`filmcraft-expert`](./skills/filmcraft-expert/) | Premiere-grade editing in **FilmCraft**: rough → fine cut, trims, 9:16 reels from 16:9, transitions, keyframes, audio ducking/loudness (hand-off to SoundCraft), Lumetri color, chroma key, captions, export presets, project archiving. | Adobe *Premiere Classroom in a Book 2026* method, rewritten from scratch + FilmCraft's 716 commands / 304 effects, live-tested | `filmcraft`, `video edit`, `reel`, `subtitles`, `color grading`, `export` |
-| [`designcraft-expert`](./skills/designcraft-expert/) | InDesign-grade layout in **DesignCraft** (interactive PDF via **PdfCraft**): parent pages, page numbers, threaded text, paragraph/character/table styles, tables, text wrap, preflight, PDF/X export, EPUB, PNG pages for social. | Adobe *InDesign Classroom in a Book 2026* method, rewritten from scratch + DesignCraft's 545 commands, live-tested | `designcraft`, `layout`, `brochure`, `catalog`, `paragraph styles`, `preflight`, `pdf/x` |
-| [`presentation-design`](./skills/presentation-design/) | The full playbook for beautiful, effective slide decks: message-first process, slide-type system, layout and hierarchy, a type scale for 1920×1080, color roles, images/icons/effects, charts and tables, animation timings, contexts (school, thesis, corporate, pitch deck, portfolio, talks), a before→after redesign method, templates and brand. Includes a deck-generation workflow for building .pptx with code. | ~300 theoretical transcripts on presentation design, distilled into 12 chapters | `presentation`, `slides`, `pitch deck`, `powerpoint`, `keynote`, `make a ppt`, `redesign slides` |
-| [`slide-software-techniques`](./skills/slide-software-techniques/) | Click-level how-to in **PowerPoint, Keynote, Google Slides, Canva, Figma Slides**: Slide Master setup, theme fonts/colors, .potx and chart templates, autofit and text handling, shortcuts, Morph / Magic Move recipes (zoom, slider, glass, loops, masks), export compatibility and presenting. | ~100 theoretical transcripts on presentation software and animation | `slide master`, `morph`, `magic move`, `autofit`, `potx`, `google slides`, `canva` |
-| [`freelance-designer-ops`](./skills/freelance-designer-ops/) | Operating manual for a freelance designer: scoping and timing projects, service formats, client rules, a buildable Notion workspace (projects, clients, CRM, hour tracker formulas, invoices), time blocking with Google Calendar + Tasks, tool stack and yearly review. | ~35 theoretical notes on freelance design practice and productivity, extended to 9 chapters (client acquisition, onboarding and contracts, presenting and rejection, portfolio and content, career habits) | `freelance`, `notion workspace`, `hour tracker`, `time blocking`, `client management` |
-| [`depth-psychology`](./skills/depth-psychology/) | Depth-psychology lens (psychoanalytic): ego vs. false ego, conditioned mind, inner child, repression and projection, fears and addictions as symptoms, partner-as-parent dynamics, family, therapy and dreams, power, manipulation red flags, myths read psychologically. Separates the model's own claims from mainstream psychology; not clinical advice. | ~185 theoretical transcripts on depth psychology, 8 chapters | `psychology`, `inner child`, `projection`, `manipulation`, `jealousy`, `dream meaning` |
-| [`graphic-designer`](./skills/graphic-designer/) | The Graphic Designer role: grids and layout, typography fundamentals, experimental typography, brutalist/grunge poster languages, logo construction, logo ideation and tests, lettering, critique method, layout refinement, key-art composition, packaging and print craft, portfolio review, space and spacing systems, grid construction, hierarchy/contrast/movement models, colour craft, logo rules and redesign audit, the amateur-to-pro fix list and file handover. Has explicit role boundaries and hand-offs to the other design roles. | Graphic design craft theory and practice, distilled into 20 chapters + cheatsheet | `poster`, `layout`, `grid`, `typography`, `logo`, `brutalist`, `experimental type` |
-| [`art-director`](./skills/art-director/) | The Art Director role: one-emotion method, moodboards and references, presenting ~3 visual routes, a style catalogue, identity-system rules and consistency tests, briefing and reviewing designers, strategy-to-direction, client taste discovery, stylescapes, rebrand analysis and studying references, design quality levels with perception tests, visual psychology for direction, brief expansion and winning approval. Hands the idea to creative-director, craft to graphic-designer, screens to ux-ui-expert. | Theoretical material on visual direction and brand identity, distilled into 12 chapters | `art direction`, `moodboard`, `visual identity`, `brand system`, `style reference`, `look and feel` |
-| [`pricing-and-sales-negotiation`](./skills/pricing-and-sales-negotiation/) | Pricing, quoting, selling and negotiating for freelancers and small studios: value-based pricing, bottom-up cost bids, price brackets and option ladders, discovery calls, objections and discounts, concession rules, packaging and retainers, raising rates, red flags and when to walk away. | ~100 theory notes on pricing, bidding, discovery and negotiation, distilled into 12 chapters | `pricing`, `quote`, `proposal`, `raise rates`, `discount`, `too expensive`, `discovery call`, `negotiation` |
-| [`coding-with-agents`](./skills/coding-with-agents/) | Practical method for building software with AI coding agents: mental model and when AI helps or hurts, the working loop (context, specs, task shaping, observability), reviewing and verifying AI output (testing techniques, random/differential tests), software quality and complexity, learning and career in the AI era, and how LLMs work for practitioners (sampling, reasoning, token economics, local vs hosted, security checklist). Separates facts from positions. | Practitioner commentary on programming with AI, distilled into 6 chapters + cheatsheet | `coding agent`, `vibe coding`, `ai code review`, `testing`, `software complexity`, `llm sampling`, `token cost`, `junior developer` |
-| [`workshop-facilitation`](./skills/workshop-facilitation/) | Plan, run and follow up workshops that end in decisions: agendas, facilitator role, timeboxing, silent-first techniques and voting, difficult participants, alignment and ideation exercises, the design sprint day by day, strategy and brand workshops, remote facilitation. | Theory notes on facilitation, design sprints and strategy workshops, distilled into 10 chapters | `workshop`, `facilitation`, `design sprint`, `agenda`, `dot voting`, `retrospective`, `kickoff` |
-| [`brand-strategy-storytelling`](./skills/brand-strategy-storytelling/) | Brand strategy, positioning and storytelling: brand ladder, client discovery, positioning and niche, voice and messaging, brand story arcs, personal brand, audience trust, portfolio and case-study narrative, copy that sells. Hands off pricing, visual identity, ad concepts and Instagram mechanics. | Theory notes on branding, positioning, storytelling and copywriting, distilled into 9 chapters | `brand strategy`, `positioning`, `niche`, `brand voice`, `case study`, `personal brand`, `brand story` |
+### Design roles
 
-The five ArtCraft skills share one rule: these apps ship updates almost daily, so every "not available" list is a dated snapshot (2026-11-03). The agent re-checks the live command catalogue before calling something missing. They are independent write-ups, not book digests: no text from the Adobe Press books is reproduced. Adobe, Illustrator, Photoshop, After Effects, Premiere and InDesign are trademarks of Adobe; this repo isn't affiliated with Adobe or ArtCraft.
+Four roles that hand work to each other instead of overlapping: idea, direction, craft, screens.
 
-More coming when I build one that earns its place. I'd rather ship seven that work than twenty that almost do.
+| Skill | What it covers | Typical triggers |
+|---|---|---|
+| [`creative-director`](./skills/creative-director/) | Router into five toolkits (copywriter, idea generator, creative leader, visionary, evaluator). Concepts, insights, headlines, feedback to creative teams, scoring an idea against a quality bar. | `headline`, `campaign idea`, `evaluate concept`, `creative feedback` |
+| [`art-director`](./skills/art-director/) | From concept to visual direction: one-emotion method, moodboards, three routes, identity-system rules, stylescapes, rebrand analysis, quality levels and perception tests, getting a direction approved. | `moodboard`, `look and feel`, `visual identity`, `rebrand` |
+| [`graphic-designer`](./skills/graphic-designer/) | Hands-on craft: grids, typography, posters, logo construction and tests, spacing systems, hierarchy and contrast, colour craft, print and packaging, the amateur-to-pro fix list, file handover. | `poster`, `layout`, `grid`, `typography`, `logo` |
+| [`ux-ui-expert`](./skills/ux-ui-expert/) | UX research (study plans, sample sizes, ethics, ROI) and UI design (flows, hierarchy, design systems, typography laws, microcopy, colour systems, UX psychology), plus product flows such as onboarding, paywalls and retention. | `usability test`, `ui review`, `user flow`, `microcopy`, `design system` |
+
+### Presentations, speaking and workshops
+
+| Skill | What it covers | Typical triggers |
+|---|---|---|
+| [`presentation-design`](./skills/presentation-design/) | Slide decks from message to delivery: slide-type system, layout, a type scale for 1920×1080, colour roles, charts, animation timings, redesign method, and a workflow for generating .pptx with code. | `slides`, `pitch deck`, `redesign this deck` |
+| [`slide-software-techniques`](./skills/slide-software-techniques/) | Click-level how-to in PowerPoint, Keynote, Google Slides, Canva and Figma Slides: Slide Master, theme fonts and colours, templates, Morph and Magic Move recipes, export and presenting. | `slide master`, `morph`, `magic move`, `potx` |
+| [`public-speaking-persuasion`](./skills/public-speaking-persuasion/) | Speech structure, storytelling, fallacy and bias catalogues, delivery, stage anxiety, objection handling, pitching and client conversations. | `speech`, `pitch`, `persuasion`, `objection handling` |
+| [`workshop-facilitation`](./skills/workshop-facilitation/) | Workshops that end in decisions: agendas, timeboxing, silent-first techniques and voting, difficult participants, the design sprint day by day, remote facilitation. | `workshop`, `design sprint`, `agenda`, `dot voting` |
+
+### Marketing, brand and business
+
+| Skill | What it covers | Typical triggers |
+|---|---|---|
+| [`marketing-mba`](./skills/marketing-mba/) | MBA-level marketing and startup execution: segmentation, value proposition, pricing strategy, sales pipeline, negotiation, founder frameworks. | `go-to-market`, `value proposition`, `segmentation` |
+| [`brand-strategy-storytelling`](./skills/brand-strategy-storytelling/) | Brand ladder, client discovery, positioning and niche, voice and messaging, story arcs, personal brand, case-study narrative. | `positioning`, `brand voice`, `brand story`, `niche` |
+| [`social-algorithm`](./skills/social-algorithm/) | Organic personal-brand growth and Instagram dynamics: indirect selling, the interaction loop, diagnostic metrics, hooks, acquisition funnels without ads, content systems, YouTube positioning. | `instagram`, `reel underperformed`, `hook`, `personal brand` |
+| [`geo-ai-visibility`](./skills/geo-ai-visibility/) | Getting cited by ChatGPT Search, Perplexity, Google AI Overviews, Copilot and Gemini: the founding GEO research, how generative engines retrieve and rank, optimisation techniques, measurement tools, an audit checklist, entity GEO for local service businesses. | `geo`, `ai visibility`, `llms.txt`, `audit <url>` |
+| [`pricing-and-sales-negotiation`](./skills/pricing-and-sales-negotiation/) | Pricing and selling for freelancers and small studios: value-based pricing, cost bids, option ladders, discovery calls, objections and discounts, retainers, raising rates, when to walk away. | `quote`, `proposal`, `too expensive`, `raise rates` |
+| [`freelance-designer-ops`](./skills/freelance-designer-ops/) | Running a freelance design practice: scoping and timing, a buildable Notion workspace with hour-tracker formulas, time blocking, winning and onboarding clients, presenting work, portfolio and content. | `freelance`, `notion workspace`, `hour tracker`, `find clients` |
+
+### Image, video and motion
+
+| Skill | What it covers | Typical triggers |
+|---|---|---|
+| [`image-gen-prompts`](./skills/image-gen-prompts/) | Prompt engineering for the major image models (Midjourney, GPT Image, FLUX, SDXL, Seedream, Imagen, Ideogram). 40+ templates, 20 edit-repair recipes, routing by the model named. Mined from about 19,000 public prompts. | `image prompt`, `midjourney`, `flux`, `mockup` |
+| [`seedance-prompts`](./skills/seedance-prompts/) | Prompt templates for ByteDance Seedance video generation: storyboards, camera-move vocabulary, multi-modal references, identity locks, POV and found-footage styles. | `seedance`, `text-to-video prompt` |
+| [`video-editor`](./skills/video-editor/) | Software-agnostic decisions for short-form video: hook system, pacing, motion, captions, sound design, transitions. | `reel`, `retention`, `pacing`, `b-roll` |
+| [`ffmpeg`](./skills/ffmpeg/) | FFmpeg CLI reference: codecs, formats, filtergraphs, protocols, capture devices, with the official documentation bundled for grep. | `ffmpeg`, `transcode`, `filtergraph`, `hls`, `nvenc` |
+
+### ArtCraft apps over MCP
+
+Each skill maps the equivalent Adobe workflow to real commands of an [ArtCraft](https://getartcraft.com) app and was checked against the live command catalogue.
+
+| Skill | What it covers | Typical triggers |
+|---|---|---|
+| [`vectorcraft-expert`](./skills/vectorcraft-expert/) | Illustrator-grade vector work in VectorCraft: logos, icons, illustrations, patterns, print files (CMYK, bleed, outlined type), SVG/PDF/PNG export. | `logo`, `icon`, `pathfinder`, `svg`, `pdf/x` |
+| [`photocraft-expert`](./skills/photocraft-expert/) | Photoshop-grade retouching and compositing in PhotoCraft, raw development in LightCraft: layers and masks, cut-outs, smart-object mockups, export for web, social and print. | `retouch`, `cut-out`, `mask`, `mockup` |
+| [`effectcraft-expert`](./skills/effectcraft-expert/) | After Effects-grade motion graphics in EffectCraft: animated text and logos, easing, masks, tracking, 3D camera, templates, Lottie and social renders. | `motion graphics`, `keyframes`, `animated logo`, `lottie` |
+| [`filmcraft-expert`](./skills/filmcraft-expert/) | Premiere-grade editing in FilmCraft: rough to fine cut, 9:16 reels from 16:9, audio ducking and loudness, colour, chroma key, captions, export presets. | `video edit`, `subtitles`, `color grading`, `export` |
+| [`designcraft-expert`](./skills/designcraft-expert/) | InDesign-grade layout in DesignCraft: parent pages, threaded text, paragraph and table styles, preflight, PDF/X and EPUB export, interactive PDF through PdfCraft. | `brochure`, `catalog`, `paragraph styles`, `preflight` |
+
+### Code, docs and knowledge
+
+| Skill | What it covers | Typical triggers |
+|---|---|---|
+| [`coding-with-agents`](./skills/coding-with-agents/) | Building software with AI coding agents: when AI helps or hurts, the working loop (context, specs, task shaping), reviewing and testing AI output, complexity, and how LLMs work for practitioners. | `coding agent`, `ai code review`, `token cost` |
+| [`awesome-readme`](./skills/awesome-readme/) | GitHub READMEs that read as written by a person: 8 templates, badge and GIF recipes, and an anti-slop audit pass on every draft. | `readme`, `github profile readme`, `humanize readme` |
+| [`llm-wiki`](./skills/llm-wiki/) | An LLM-maintained knowledge base in an Obsidian vault (compile, don't retrieve): ingest, query and lint operations with hallucination spot-checks. | `obsidian`, `llm wiki`, `second brain` |
+| [`jev`](./skills/jev/) | Sends typed yes/no, choice and score questions to TypeSafe's Jev model through OpenRouter, so the agent doesn't spend a full LLM turn on each: triage, routing, reranking, diff review. Needs `OPENROUTER_API_KEY`. | `classify`, `triage`, `rerank`, `yes/no gate` |
+
+### People
+
+| Skill | What it covers | Typical triggers |
+|---|---|---|
+| [`depth-psychology`](./skills/depth-psychology/) | A psychoanalytic lens on motives and relationships: ego and false ego, repression and projection, fears and addictions as symptoms, family dynamics, manipulation red flags, dreams. Separates the model's claims from mainstream psychology; not clinical advice. | `projection`, `inner child`, `manipulation`, `dream meaning` |
+
+The ArtCraft apps ship updates almost daily, so every "not available" list in those five skills is a dated snapshot and the agent re-checks the live command catalogue before calling something missing. They are independent write-ups: no text from the Adobe Press books is reproduced. Adobe, Illustrator, Photoshop, After Effects, Premiere and InDesign are trademarks of Adobe; this repo isn't affiliated with Adobe or ArtCraft.
+
+More coming when I build one that earns its place.
 
 ---
 
@@ -96,7 +141,7 @@ Prefer just one skill? Use the manual method below and symlink/copy only that fo
 
 ### Manual (symlink or copy)
 
-Pick one. Replace `<skill>` with the skill name (`seedance-prompts`, `image-gen-prompts`, `awesome-readme`, `llm-wiki`, `social-algorithm`, `creative-director`, `art-director`, `graphic-designer`, `ffmpeg`, `video-editor`, `public-speaking-persuasion`, `marketing-mba`, `ux-ui-expert`, `geo-ai-visibility`, `jev`, `presentation-design`, `slide-software-techniques`, `freelance-designer-ops`, `depth-psychology`, `pricing-and-sales-negotiation`, `workshop-facilitation`, `brand-strategy-storytelling`, `coding-with-agents`, or one of the `*craft-expert` skills).
+Pick one. Replace `<skill>` with a folder name from [`skills/`](./skills/).
 
 Commands below target Claude Code's default skills dir (`~/.claude/skills/`). Other agents: swap the destination for whatever path your tool reads (commonly `~/.config/<agent>/skills/` or `.agent/skills/` in a project root).
 
@@ -178,9 +223,9 @@ skills/<skill-name>/
     └── examples.md
 ```
 
-Some skills carry extra on-demand files alongside or instead of `references/`: a `glossary.md` / `patterns.md` / `cheatsheet.md` trio (`creative-director`, `ffmpeg`, `pricing-and-sales-negotiation`, `workshop-facilitation`, `brand-strategy-storytelling`), a `chapters/` directory (`ffmpeg`), or `roles/` + `books/` (`creative-director`). Same idea: depth loaded only when the agent needs it.
+The book- and theory-based skills use `chapters/` plus a `cheatsheet.md` / `patterns.md` / `glossary.md` trio instead of `references/`; `creative-director` uses `roles/` and `books/`. Same idea: depth loaded only when the agent needs it. Every file is linked from `SKILL.md`, so nothing sits in the folder unreachable.
 
-The frontmatter `description` field is the matcher. Keep it specific and keyword-dense; the agent uses it to decide whether to load the skill at all.
+The frontmatter `description` field is the matcher: it says what the skill covers and when to use it, in at most 1024 characters. The agent reads only that to decide whether to load the skill.
 
 The whole repo also ships as one installable plugin; see [Install](#install). The plugin manifests live in `.claude-plugin/` (`plugin.json` bundles every skill, `marketplace.json` lists it). For Codex CLI, `.agents/skills/<skill>` at the repo root is a symlink to the matching `skills/<skill>` folder — same content, no duplication, just a second, Codex-scanned path to the same files.
 
@@ -190,13 +235,25 @@ The whole repo also ships as one installable plugin; see [Install](#install). Th
 
 The pattern is consistent across every skill in this repo:
 
-1. **Mine a real corpus.** Community awesome-lists, vendor docs, internal notes. Several hundred examples minimum. I don't write skills from imagination.
+1. **Mine a real corpus.** Community awesome-lists, vendor docs, books, study notes. I don't write skills from imagination.
 2. **Cluster what actually recurs.** Templates, anti-patterns, category-specific moves. Things a real prompter or writer reaches for ten times a week.
 3. **Write `SKILL.md` short.** Frontmatter, when-to-use, quick rules, pointers into references. The agent reads this at load time; every extra paragraph costs context.
 4. **Push depth into `references/`.** Topical files. Loaded on demand when the agent follows a link.
-5. **Cite sources.** When a template or pattern came from a specific public repo, it gets named in `examples.md` or the frontmatter `analyzed_repos` list.
+5. **Credit public sources, keep the rest as theory.** Open repos, papers, books and official docs are named. Material from private study notes is distilled into plain theory, in English, with no names attached.
 
 If you're writing your own agent skills, those five steps are the only ones that have mattered for me. Everything else is decoration.
+
+---
+
+## Checks
+
+`scripts/validate.py` runs on every push and pull request. It fails the build when a `SKILL.md` has broken frontmatter, a name that doesn't match its folder, a description over 1024 characters, a relative link that points nowhere, a missing Codex symlink, manifest versions that disagree, or a skill missing from this README. It also warns about files no other file in the skill links to.
+
+```sh
+python3 scripts/validate.py
+```
+
+Release notes are in [CHANGELOG.md](CHANGELOG.md).
 
 ---
 

@@ -1,56 +1,56 @@
 # GEO Cheatsheet
 
-## Struttura contenuto
-- [ ] Blocco di risposta diretta (40-60 parole) vicino all'inizio di ogni pagina/sezione
-- [ ] Heading in forma di domanda per sezioni Q&A
-- [ ] Ogni sezione self-contained (comprensibile isolata, come chunk)
-- [ ] Entità nominate esplicite invece di pronomi nei passaggi chiave
-- [ ] Naming del brand/prodotto coerente in tutto il sito
-- [ ] Terminologia tecnica di settore dove appropriato
-- [ ] Fluency/leggibilità della prosa curata
-- [ ] Nessun keyword stuffing
-- [ ] Revisione trimestrale di freshness dei contenuti
-- [ ] dateModified aggiornato quando si aggiorna sostanzialmente un contenuto
+## Content structure
+- [ ] Direct-answer block (40-60 words) near the start of every page/section
+- [ ] Headings phrased as questions for Q&A sections
+- [ ] Every section self-contained (understandable in isolation, like a chunk)
+- [ ] Explicit named entities instead of pronouns in key passages
+- [ ] Consistent brand/product naming across the whole site
+- [ ] Technical industry terminology where appropriate
+- [ ] Fluent, readable prose
+- [ ] No keyword stuffing
+- [ ] Quarterly freshness review of content
+- [ ] dateModified updated whenever content is substantially revised
 
 ## Structured data
-- [ ] Schema FAQPage su pagine Q&A (facoltativo: da maggio 2026 Google non mostra più i rich result FAQ; conta il testo Q&A)
-- [ ] Schema Article/BlogPosting con autore (Person) e dateModified
-- [ ] Schema Organization coerente su tutto il sito
-- [ ] JSON-LD (non microdata) come formato preferito
+- [ ] FAQPage schema on Q&A pages (optional: since May 2026 Google no longer shows FAQ rich results; the Q&A text is what counts)
+- [ ] Article/BlogPosting schema with author (Person) and dateModified
+- [ ] Consistent Organization schema across the whole site
+- [ ] JSON-LD (not microdata) as the preferred format
 
-## Citabilità
-- [ ] Statistiche/dati numerici inseriti dove pertinente
-- [ ] Citazioni di fonti autorevoli nel testo
-- [ ] Quotazioni di esperti con attribuzione chiara
+## Citability
+- [ ] Statistics/numerical data added where relevant
+- [ ] Citations of authoritative sources in the text
+- [ ] Expert quotations with clear attribution
 
-## Segnali di autorità
-- [ ] Digital PR / menzioni su fonti terze indipendenti (Wikipedia/Wikidata, testate di settore)
-- [ ] Co-occurrence brand + keyword categoria su siti esterni autorevoli
-- [ ] Copertura del topic cluster completo (non solo keyword principale)
+## Authority signals
+- [ ] Digital PR / mentions on independent third-party sources (Wikipedia/Wikidata, trade publications)
+- [ ] Co-occurrence of brand + category keyword on authoritative external sites
+- [ ] Coverage of the full topic cluster (not only the main keyword)
 
-## Entità e business locale (vedi chapter 08)
-- [ ] Nome completo e non ambiguo usato in title, schema, profili e directory (non la forma corta generica)
-- [ ] Frase-definizione sotto l'H1 della homepage: entità + categoria + luogo + servizi
-- [ ] Mini-descrizione dell'entità + link ai servizi nel footer di ogni pagina
-- [ ] Una pagina forte per ogni query "servizio + città" (title/H1/prima frase espliciti), nessuna doorway duplicata
-- [ ] Sezioni per città solo dove c'è una sede o presenza reale
-- [ ] Sottotipo `LocalBusiness` più specifico (o Organization) in homepage con `@id` unico, `alternateName`, `address`, `sameAs`; `Service` con `provider` → stesso `@id`; `BreadcrumbList`
-- [ ] NAP e descrizione identici su sito, Google Business Profile, Bing Places, LinkedIn, directory (Clutch, Sortlist, DesignRush…)
-- [ ] Case study testuali (cliente → problema → intervento → servizi → risultato) linkati da e verso le pagine servizio
-- [ ] Pagine autore/team con bio, competenze, progetti e link esterni
-- [ ] Contenuti informativi a supporto di ogni money page
-- [ ] Credit/menzioni sui siti di clienti e partner; recensioni autentiche
-- [ ] Verticale di nicchia presidiata dove si hanno credenziali reali
-- [ ] Nessuna classifica "migliori X" che mette sé stessi al primo posto
+## Entity and local business (see [chapter 8](chapters/ch08-entity-geo-for-local-service-businesses.md))
+- [ ] Full, unambiguous name used in titles, schema, profiles and directories (not the generic short form)
+- [ ] Definition sentence under the homepage H1: entity + category + place + services
+- [ ] Entity mini-description + links to the services in the footer of every page
+- [ ] One strong page for each "service + city" query (explicit title/H1/first sentence), no duplicated doorway pages
+- [ ] City sections only where there is a real office or presence
+- [ ] Most specific `LocalBusiness` subtype (or Organization) on the homepage with a single `@id`, `alternateName`, `address`, `sameAs`; `Service` with `provider` → same `@id`; `BreadcrumbList`
+- [ ] Identical NAP and description on the site, Google Business Profile, Bing Places, LinkedIn, directories (Clutch, Sortlist, DesignRush…)
+- [ ] Textual case studies (client → problem → intervention → services → result) linked to and from the service pages
+- [ ] Author/team pages with bio, skills, projects and external links
+- [ ] Informational content supporting every money page
+- [ ] Credits/mentions on client and partner sites; authentic reviews
+- [ ] A niche vertical owned where the business has real credentials
+- [ ] No "best X" ranking that puts its own author in first place
 
-## Tecnico / llms.txt
-- [ ] robots.txt non blocca crawler AI (GPTBot, PerplexityBot, ClaudeBot, Google-Extended)
-- [ ] Contenuto critico non dipende da client-side rendering
-- [ ] Velocità di caricamento e crawlability solide
-- [ ] llms.txt presente e sincronizzato con i contenuti reali
-- [ ] Sitemap.xml aggiornata
+## Technical / llms.txt
+- [ ] robots.txt does not block AI crawlers (GPTBot, PerplexityBot, ClaudeBot, Google-Extended)
+- [ ] Critical content does not depend on client-side rendering
+- [ ] Solid load speed and crawlability
+- [ ] llms.txt present and in sync with the real content
+- [ ] Up-to-date sitemap.xml
 
-## Note per piattaforma
-- [ ] Tool AI-visibility attivo (Otterly/Peec/Profound/AthenaHQ)
-- [ ] Monitoraggio per piattaforma separata (ChatGPT, Perplexity, Google AIO hanno domini diversi)
-- [ ] Tracking sentiment e non solo presenza/frequenza della menzione
+## Per-platform notes
+- [ ] An active AI-visibility tool (Otterly/Peec/Profound/AthenaHQ)
+- [ ] Separate monitoring per platform (ChatGPT, Perplexity and Google AIO cite different domains)
+- [ ] Sentiment tracking, not only presence/frequency of the mention

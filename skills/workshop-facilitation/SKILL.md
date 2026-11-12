@@ -49,6 +49,7 @@ This skill is the **facilitator and workshop designer**: it owns the process by 
 | Actions, owners, follow-up, deliverables, pricing a workshop | ch10 |
 | Quick agenda or exercise picker | cheatsheet.md |
 | "What do I do when ..." | patterns.md |
+| Unfamiliar term | [glossary.md](glossary.md) |
 
 ## Core Principles
 

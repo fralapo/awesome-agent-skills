@@ -1,10 +1,10 @@
 ---
 name: social-algorithm
-description: "Knowledge base for organic personal brand systems and Instagram algorithm dynamics. Use for indirect selling, IG content strategy, client acquisition funnels without ADV, creator delegation systems, and personal brand scaling."
+description: "Organic personal-brand growth and Instagram algorithm dynamics: indirect selling, interest-based distribution and the interaction loop, the three pillar metrics and a performance diagnostic matrix, hooks, Stories, reposts, bio anatomy, six acquisition funnels without ads, awareness levels, delegation and content systems, dynamic video techniques, scaling principles, plus YouTube positioning, on-camera energy and content-first channels. Use when the user plans Instagram or YouTube content, asks why a post or reel underperformed, wants clients from social without advertising, writes hooks, a bio or a funnel, builds a personal brand, or sets up a content routine, even if they never say 'algorithm'."
 allowed-tools:
   - Read
   - Grep
-argument-hint: [topic, framework name, or ch01-ch07]
+argument-hint: [topic, framework name, or ch01-ch12]
 ---
 
 # Social Algorithm & Personal Brand — Organic System
@@ -177,7 +177,7 @@ Replace clichéd formulas with specific framing:
 
 **Constancy over years is the actual mechanism**: the payoff (showcase credibility, consulting clients, sponsors) is gated by surviving a multi-year, low-feedback middle period (~2 videos/week sustained for 5 years in the documented case) — not a slogan, the literal precondition.
 
-### YouTube's Content-First Shift & the documentary Method (Ch 12)
+### YouTube's Content-First Shift & the Documentary Method (Ch 12)
 **Channel-first → content-first**: YouTube shifted from subscriber-gated distribution (2019-2023) to per-video, interest-matched distribution — the same structural move Ch 2 documents for IG. A new **Hype Score** feature now actively promotes small/mid channels (~500-500,000 subscribers).
 
 **The documentary method (4 steps)**: (1) target ONE named viewer persona, not a demographic bracket; (2) document your own lived process, don't assemble AI-suggested generic content ("document, don't create" — a content-sourcing point, distinct from Ch 9's production-logistics "document, don't overproduce"); (3) educate the audience inside the documentation; (4) state your own vision/mission/point of view repeatedly to build a "micro-cult brand" rather than a generic info channel.
@@ -203,7 +203,7 @@ Replace clichéd formulas with specific framing:
 | [ch09](references/ch09-why-a-personal-brand-now.md) | Why a Personal Brand Now — AI-Era Case & Documentation Mindset | AI favors the human, "no time" excuse, immortality/long-term asset, exposure not tech, document don't overproduce, content ≠ personal brand |
 | [ch10](references/ch10-the-loop-and-movement.md) | The Loop — Movement, Trust Windows, Differentiation | The Loop mechanic, attraction/authority cadence, provide more elements, trust as currency, movement, 3 differentiation errors, circle/square/star content |
 | [ch11](references/ch11-youtube-energy-and-longevity.md) | YouTube — Energy, Character vs Authenticity, and the Long Game | On-camera energy vs performed character, audience feedback reshaping positioning, YouTube as showcase, sponsor-readiness, multi-year constancy |
-| [ch12](references/ch12-youtube-content-first-and-documentary-method.md) | YouTube's Content-First Shift & the documentary Method | Channel-first vs content-first, Hype Score, 4-step method (target/document/educate/vision), unscripted delivery |
+| [ch12](references/ch12-youtube-content-first-and-documentary-method.md) | YouTube's Content-First Shift & the Documentary Method | Channel-first vs content-first, Hype Score, 4-step method (target/document/educate/vision), unscripted delivery |
 
 ## Topic Index
 
@@ -299,7 +299,7 @@ Replace clichéd formulas with specific framing:
 - **Language and positioning (tone shift from audience feedback)** → ch11
 - **Channel-first vs content-first (YouTube algorithm shift)** → ch12
 - **Hype Score (YouTube feature)** → ch12
-- **documentary method (4 steps)** → ch12
+- **Documentary method (4 steps)** → ch12
 - **Target persona (named, specific) / "Antonio" example** → ch12
 - **Document, don't create (AI slop vs lived process)** → ch12
 - **Micro-cult brand** → ch12

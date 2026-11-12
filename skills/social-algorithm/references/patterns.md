@@ -323,7 +323,7 @@ With both in place the CTA is optional; people reach the link and act unprompted
 5. Sustain output (~2x/week) for years, through the discouraging middle period, before expecting any of the above to compound
 **Trade-off**: the payoff (showcase credibility, sponsor deals) is gated by multi-year constancy; there is no shortcut past the low-feedback period
 
-## 42. The documentary Method (4 Steps)
+## 42. The Documentary Method (4 Steps)
 **When**: starting or relaunching a YouTube channel in the content-first era, unsure what to post or who to post it for
 **How**:
 1. **Target** — name ONE specific viewer persona (age, job, needs, what they want to see), not a demographic bracket; you need the right few, not the most

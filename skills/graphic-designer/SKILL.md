@@ -1,6 +1,6 @@
 ---
 name: graphic-designer
-description: "The Graphic Designer role: hands-on craft of visual communication. Grids and layout (column and modular grids, A4 setup, image-text composition), typography fundamentals (size ratios, weight contrast, alignment, rivers, widows), experimental typography (outline surgery, blending, constraints, physical experiments), poster languages (brutalism, grunge, texture, threshold, displacement), logo construction (types, shape psychology, vectorising, stress tests, delivery), logo ideation and reproduction tests, monoline and custom lettering, craft critique method and feedback language, layout and type refinement rules (near-tangents, scale contrast), composition reading paths and key-art review, packaging and print craft, portfolio review, space and white-space systems (macro/micro, spacing scale), grid construction from the brief with column maths and layout workflows, hierarchy and contrast (three levels, nine forms of contrast, balance, isolation), movement and flow (six levels, L-I-F-T, repetition, rhythm), colour craft (value contrast, harmony schemes, palette roles and output maps, print checks), logo rules (logotype, shape map, negative space, redesign audit), the amateur-to-pro fix list with type ramps, decision budget and redesign procedure, and file handover hygiene. Use when executing or critiquing the craft of a poster, layout, cover, typographic piece or logo, picking type, a grid or a palette, setting spacing, explaining why a layout looks amateur, redesigning a weak piece, critiquing or giving feedback on a design, reviewing a logo or a portfolio, preparing a pack or a printed booklet, or refining a layout that is almost right. Works inside a direction set by the art director and a concept set by the creative director; hands UX/UI screens to ux-ui-expert."
+description: "The Graphic Designer role: hands-on craft of visual communication. Covers grids and layout, typography fundamentals and experimental type, poster languages (brutalism, grunge, texture), logo construction, ideation, rules and reproduction tests, custom lettering, critique method and feedback language, layout refinement, reading paths and key art, packaging and print craft, portfolio review, white space and spacing systems, grid maths, hierarchy, contrast and balance, movement and rhythm, colour craft (value, harmony, palette roles, print checks), the amateur-to-pro fix list and file handover. Use when executing or critiquing a poster, layout, cover, typographic piece or logo, picking type, a grid or a palette, setting spacing, explaining why a layout looks amateur, redesigning a weak piece, reviewing a logo or portfolio, or preparing print files. Works inside the direction set by art-director and the concept set by creative-director; hands screens to ux-ui-expert."
 allowed-tools:
   - Read
   - Grep
@@ -87,3 +87,30 @@ The graphic designer **makes the work**: grids, type, composition, image treatme
 17. Logo: audience, voice and one-sentence brief written; ownability grid; kerned by hand; anchor audit; redesign heritage and colour equity checked?
 18. Decision budget and 10-second test passed; type ramp by ratio; real copy; four-scale test?
 If the problem is the idea or the visual direction rather than the craft, hand off instead of fixing it here.
+
+## Chapter Index
+
+Read only the chapters the task needs.
+
+| # | Chapter |
+|---|---|
+| [ch01](chapters/ch01-craft-process-and-handover.md) | Chapter 01: Craft Process and File Handover |
+| [ch02](chapters/ch02-layout-grids-composition.md) | Chapter 02: Layout, Grids and Composition |
+| [ch03](chapters/ch03-typography-fundamentals.md) | Chapter 03: Typography Fundamentals |
+| [ch04](chapters/ch04-experimental-typography.md) | Chapter 04: Experimental Typography |
+| [ch05](chapters/ch05-posters-brutalism-grunge-texture.md) | Chapter 05: Poster Languages: Brutalism, Grunge, Texture and Digital Effects |
+| [ch06](chapters/ch06-logo-construction.md) | Chapter 06: Logo Construction and Delivery |
+| [ch07](chapters/ch07-design-critique-method-and-feedback-language.md) | Chapter 07: Design Critique: Method and Feedback Language |
+| [ch08](chapters/ch08-logo-ideation-critique-tests-and-presentation.md) | Chapter 08: Logo Ideation, Critique, Tests and Presentation |
+| [ch09](chapters/ch09-monoline-and-custom-lettering-construction.md) | Chapter 09: Monoline and Custom Lettering Construction |
+| [ch10](chapters/ch10-layout-and-type-refinement-rules.md) | Chapter 10: Layout and Type Refinement Rules |
+| [ch11](chapters/ch11-composition-reading-paths-contrast-and-key-art.md) | Chapter 11: Composition: Reading Paths, Contrast and Key Art |
+| [ch12](chapters/ch12-packaging-brochure-and-print-production-craft.md) | Chapter 12: Packaging, Brochure and Print Production Craft |
+| [ch13](chapters/ch13-portfolio-and-case-study-review.md) | Chapter 13: Portfolio and Case-Study Review |
+| [ch14](chapters/ch14-space-white-space-and-spacing-systems.md) | Chapter 14: Space: White Space, Negative Space and Spacing Systems |
+| [ch15](chapters/ch15-grid-construction-and-layout-workflows.md) | Chapter 15: Grid Construction from the Brief and Layout Workflows |
+| [ch16](chapters/ch16-hierarchy-contrast-balance-and-isolation.md) | Chapter 16: Hierarchy, Contrast, Balance and Isolation |
+| [ch17](chapters/ch17-movement-flow-rhythm-and-repetition.md) | Chapter 17: Movement, Flow, Rhythm and Repetition |
+| [ch18](chapters/ch18-colour-craft-value-schemes-and-palette-maps.md) | Chapter 18: Colour Craft: Value, Harmony Schemes, Palette Building and Output Checks |
+| [ch19](chapters/ch19-logo-rules-shape-psychology-and-redesign-audit.md) | Chapter 19: Logo Rules, Logotype Craft, Shape Psychology and the Redesign Audit |
+| [ch20](chapters/ch20-amateur-to-pro-fix-list-and-redesign-process.md) | Chapter 20: Amateur to Pro: The Fix List, Systems and the Redesign Process |

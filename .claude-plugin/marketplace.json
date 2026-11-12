@@ -6,15 +6,18 @@
   },
   "metadata": {
     "description": "Marketplace for awesome-agent-skills — one plugin bundling all skills.",
-    "version": "1.19.0"
+    "version": "1.21.0"
   },
   "plugins": [
     {
       "name": "awesome-agent-skills",
       "source": "./",
-      "description": "All skills in one install: seedance-prompts, image-gen-prompts (incl. GPT Image 2.5), awesome-readme, llm-wiki, social-algorithm, creative-director, art-director, graphic-designer, ffmpeg, video-editor, public-speaking-persuasion, marketing-mba, ux-ui-expert, geo-ai-visibility, jev, vectorcraft-expert, photocraft-expert, effectcraft-expert, filmcraft-expert, designcraft-expert (ArtCraft apps over MCP), presentation-design, slide-software-techniques, freelance-designer-ops, depth-psychology, pricing-and-sales-negotiation, workshop-facilitation, brand-strategy-storytelling. Also discoverable by OpenAI Codex CLI via .agents/skills/.",
-      "version": "1.19.0",
-      "author": { "name": "fralapo", "url": "https://github.com/fralapo" },
+      "description": "28 agent skills in one plugin: design roles (creative director, art director, graphic designer, UX/UI), presentations and public speaking, marketing, brand, pricing and freelance practice, AI image and video prompting, FFmpeg, ArtCraft apps over MCP, coding with agents, README writing and more. Also discoverable by OpenAI Codex CLI via .agents/skills/.",
+      "version": "1.21.0",
+      "author": {
+        "name": "fralapo",
+        "url": "https://github.com/fralapo"
+      },
       "homepage": "https://github.com/fralapo/awesome-agent-skills"
     }
   ]

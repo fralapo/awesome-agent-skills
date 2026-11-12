@@ -1,6 +1,6 @@
 ---
 name: public-speaking-persuasion
-description: "Knowledge base on public speaking, persuasion theory, storytelling, argumentation, and cognitive bias. Use when structuring a speech or pitch, applying persuasion frameworks, handling objections or a hostile audience, writing persuasively, or referencing named techniques like the 3 Pillars of Persuasion, the 5-Line Story Structure, or logical fallacy/bias catalogs."
+description: "Public speaking and persuasion: persuasion fundamentals, storytelling and attention, argumentation and logical fallacies, cognitive biases, voice and delivery, speech structure and openings, stage anxiety, audience analysis, objection handling, persuasive writing, sales pitching, calls to action, leadership communication and client conversations. Use when the user prepares a speech, talk, pitch or presentation script, wants to open or close strongly, needs to handle objections or a hostile audience, asks how to persuade someone, wants a text or argument checked for fallacies or bias, is nervous about speaking, or prepares questions for a client conversation."
 allowed-tools:
   - Read
   - Grep

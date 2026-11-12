@@ -1,6 +1,6 @@
 ---
 name: art-director
-description: "The Art Director role: turning a concept into a coherent visual direction and keeping it consistent. One-emotion method, emotion-to-palette/type/imagery mapping, research and moodboards, presenting about three routes and locking one early, describing styles by palette/typography/texture/layout with a catalogue of contemporary styles, identity systems and visual-language rules, the three-format and stress tests, touchpoint priorities, briefing and reviewing designers, presenting to clients, strategy-to-direction translation, client taste discovery, stylescape fit checks and motion style frames, redesign/rebrand and set cohesion, product material and finish direction, ethical borrowing of references, judging design on five quality levels with perception tests, visual psychology for direction (colour layers, palette roles, accent budget, shape hypotheses, recognition cues), and brief expansion, judging criteria and winning approval. Use when setting or judging the look and feel of a campaign, brand or series, building a moodboard or style references, reviewing work against a direction, deciding between visual routes, translating a strategy into a look, finding out what a client really likes, judging a redesign or rebrand, analysing a reference, deciding whether a piece is good enough, choosing colour or shape by audience, expanding a thin brief, or getting a direction approved. Receives the concept from the creative director, directs the graphic designer, aligns with ux-ui-expert on screens."
+description: "The Art Director role: turns a concept into a coherent visual direction and keeps it consistent. Covers the one-emotion method, moodboards and references, presenting about three routes and locking one, a catalogue of styles, identity systems with stress tests, briefing and reviewing designers, strategy-to-direction translation, client taste discovery, stylescapes and motion style frames, redesign and rebrand analysis, product material and finish, ethical borrowing of references, five quality levels with perception tests, visual psychology (colour layers, palette roles, accent budget, shape cues) and brief expansion and approval. Use when setting or judging the look and feel of a campaign, brand or series, building a moodboard, choosing between visual routes, reviewing work against a direction, judging a rebrand, deciding whether a piece is good enough, or getting a direction approved. Receives the concept from creative-director, directs graphic-designer, aligns with ux-ui-expert on screens."
 allowed-tools:
   - Read
   - Grep
@@ -113,3 +113,22 @@ Concept (from creative director) · Core emotion · Audience · Strategy keyword
 13. Are the judging words agreed, and does each claim in the presentation have proof in the work?
 
 Problem framing, kickoff questions, root cause and concept formulas → `creative-director` (references on discovery and conceptual patterns). Craft critique method, logo reproduction tests, portfolio review → `graphic-designer` ch07, ch08, ch13. Persuasion levers, concept generation methods and visual-communication message craft → `creative-director` (references on persuasion and on concept generation methods).
+
+## Chapter Index
+
+Read only the chapters the task needs.
+
+| # | Chapter |
+|---|---|
+| [ch01](chapters/ch01-from-concept-to-visual-direction.md) | Chapter 01: From Concept to Visual Direction |
+| [ch02](chapters/ch02-moodboards-references-directions-styles.md) | Chapter 02: Moodboards, References, Directions and Styles |
+| [ch03](chapters/ch03-identity-systems-and-consistency.md) | Chapter 03: Identity Systems and Consistency |
+| [ch04](chapters/ch04-directing-reviewing-presenting.md) | Chapter 04: Directing, Reviewing and Presenting |
+| [ch05](chapters/ch05-strategy-to-direction-and-client-discovery.md) | Chapter 05: Strategy to Direction and Client Discovery |
+| [ch06](chapters/ch06-stylescapes-style-frames-and-moodboard-translation.md) | Chapter 06: Stylescapes, Style Frames and Moodboard-to-Design Translation |
+| [ch07](chapters/ch07-redesign-rebrand-and-set-cohesion-analysis.md) | Chapter 07: Redesign, Rebrand and Set-Cohesion Analysis |
+| [ch08](chapters/ch08-studying-references-and-ethical-borrowing.md) | Chapter 08: Studying References and Ethical Borrowing |
+| [ch09](chapters/ch09-product-material-and-finish-direction.md) | Chapter 09: Product, Material and Finish Direction |
+| [ch10](chapters/ch10-judging-design-levels-and-perception-tests.md) | Chapter 10: Judging Design: Levels, Two-Axis Audit and Perception Tests |
+| [ch11](chapters/ch11-visual-psychology-for-direction.md) | Chapter 11: Visual Psychology for Direction: Meaning, Colour Layers, Shape, Accent and Recognition |
+| [ch12](chapters/ch12-process-brief-expansion-and-winning-approval.md) | Chapter 12: Process, Brief Expansion and Winning Approval |
