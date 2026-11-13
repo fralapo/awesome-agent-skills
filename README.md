@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/fralapo/awesome-agent-skills/stargazers"><img src="https://img.shields.io/github/stars/fralapo/awesome-agent-skills?style=for-the-badge" alt="Stars"></a>
   <a href="https://github.com/fralapo/awesome-agent-skills/commits/main"><img src="https://img.shields.io/github/last-commit/fralapo/awesome-agent-skills?style=for-the-badge" alt="Last commit"></a>
-  <img src="https://img.shields.io/badge/skills-28-2ea44f?style=for-the-badge" alt="Skills count">
+  <img src="https://img.shields.io/badge/skills-29-2ea44f?style=for-the-badge" alt="Skills count">
   <img src="https://img.shields.io/badge/agent%20skills-SKILL.md-5A67D8?style=for-the-badge" alt="Agent skills format">
   <a href="https://github.com/fralapo/awesome-agent-skills/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/fralapo/awesome-agent-skills/validate.yml?style=for-the-badge&label=checks" alt="Checks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/fralapo/awesome-agent-skills?style=for-the-badge" alt="License"></a>
@@ -44,7 +44,7 @@
 
 ## What's in here
 
-28 skills. Each is one folder with a `SKILL.md` (frontmatter plus workflow) and deeper material next to it (`references/`, or `chapters/` with a cheatsheet, patterns and glossary). The agent matches the `description` field against what you ask and loads a skill only when it is relevant, then opens only the chapters the task needs.
+29 skills. Each is one folder with a `SKILL.md` (frontmatter plus workflow) and deeper material next to it (`references/`, or `chapters/` with a cheatsheet, patterns and glossary). The agent matches the `description` field against what you ask and loads a skill only when it is relevant, then opens only the chapters the task needs.
 
 ### Design roles
 
@@ -103,6 +103,7 @@ Each skill maps the equivalent Adobe workflow to real commands of an [ArtCraft](
 | Skill | What it covers | Typical triggers |
 |---|---|---|
 | [`coding-with-agents`](./skills/coding-with-agents/) | Building software with AI coding agents: when AI helps or hurts, the working loop (context, specs, task shaping), reviewing and testing AI output, complexity, and how LLMs work for practitioners. | `coding agent`, `ai code review`, `token cost` |
+| [`software-architecture`](./skills/software-architecture/) | System design and architecture reasoning: requirements and estimates, consistency and consensus, high availability and cascading failures, storage engines, sharding and geohash, caching, messaging, studies of real large-scale systems, chat/delivery/video case studies, RAG and agentic systems. | `system design`, `consistency`, `sharding`, `rag architecture` |
 | [`awesome-readme`](./skills/awesome-readme/) | GitHub READMEs that read as written by a person: 8 templates, badge and GIF recipes, and an anti-slop audit pass on every draft. | `readme`, `github profile readme`, `humanize readme` |
 | [`llm-wiki`](./skills/llm-wiki/) | An LLM-maintained knowledge base in an Obsidian vault (compile, don't retrieve): ingest, query and lint operations with hallucination spot-checks. | `obsidian`, `llm wiki`, `second brain` |
 | [`jev`](./skills/jev/) | Sends typed yes/no, choice and score questions to TypeSafe's Jev model through OpenRouter, so the agent doesn't spend a full LLM turn on each: triage, routing, reranking, diff review. Needs `OPENROUTER_API_KEY`. | `classify`, `triage`, `rerank`, `yes/no gate` |

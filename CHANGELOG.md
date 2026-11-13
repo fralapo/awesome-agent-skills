@@ -2,6 +2,10 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.24.0 (2026-11-13)
+
+- New skill `software-architecture`: system design reasoning with 11 chapters (senior method and estimates, consistency and consensus, availability and overload, storage engines, partitioning and geospatial indexes, caching and delivery, messaging and pipelines, studies of real systems, chat/delivery/video cases, RAG, agentic systems), plus cheatsheet, glossary and 30 patterns.
+
 ## 1.23.0 (2026-11-13)
 
 - social-algorithm: three new chapters (predictable revenue and channel mix, paid live events as a conversion layer, starting from zero in phases); extended acquisition, algorithm, psychology and delegation chapters; patterns 46-55.
