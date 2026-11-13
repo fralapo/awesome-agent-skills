@@ -1,7 +1,7 @@
-# Chapter 09: Case Studies - Chat, Delivery Matching, Short Video
+# Chapter 09: Case Studies - Chat, Delivery Matching, Video, Links, Rate Limits
 
 ## Core Idea
-Three worked designs, each presented as: **requirements -> estimate -> key decision -> alternatives rejected -> cost accepted**. They reuse the mechanisms from earlier chapters; the point is the order of reasoning. A news-feed case is not part of this material; for it, apply ch06 (cache/fan-out), ch05 (fan-out limits, hot keys) and ch07 (batching).
+Six worked designs (9.1-9.3 first, then 9.5-9.7 added later), each presented as: **requirements -> estimate -> key decision -> alternatives rejected -> cost accepted**. They reuse the mechanisms from earlier chapters; the point is the order of reasoning. A news-feed case is not part of this material; for it, apply ch06 (cache/fan-out), ch05 (fan-out limits, hot keys) and ch07 (batching).
 
 ## 9.1 Chat service (one-to-one, groups, receipts, last seen)
 - **Requirements**: one-to-one messages; group messages (cap a few hundred); sent/delivered/read marks; last seen; history temporary or permanent (a policy question: privacy and storage vs compliance).
@@ -47,8 +47,23 @@ Three worked designs, each presented as: **requirements -> estimate -> key decis
 - **Review feedback pattern**: give cost estimates and the transport choice early.
 - **Does not apply when**: live streaming or editing after upload is required (files are immutable here).
 
-## 9.4 Reasoning template distilled from the three cases
+## 9.4 Reasoning template distilled from the cases
 - **Thesis**: the same eight questions solve most new problems.
 - **Mechanism**: (1) scope; (2) numbers; (3) read:write; (4) access path; (5) keys and shards; (6) transport; (7) failure and overload; (8) accepted costs. Then name what you would revisit if the numbers grew ten times.
 - **Trade-off**: a template can hide problem-specific traps.
 - **Does not hold when**: the problem is mostly algorithmic, not architectural.
+
+## 9.5 URL shortener
+- **Requirements and numbers**: 100 million new links per day is over a thousand writes per second; reads outnumber writes, so about ten thousand redirects per second; ten years is about 365 billion links, tens of terabytes for the mappings alone.
+- **Design**: the short code uses 62 symbols (digits and both letter cases); 62^7 is about 3.5 trillion, comfortably more than 365 billion, so seven characters. Two ways to produce it: (a) hash the long URL and keep seven characters: simple but collides, needing a lookup and retry for each new link; (b) take the next number from a unique counter and encode it in base 62 (repeated division by 62, remainders read backwards): no collisions and no existence check, but the counter must be generated uniquely across servers and codes are guessable in order (add a permutation or random offset if enumeration matters). Redirect path: cache first, then database, then fill the cache; return a permanent redirect (the browser may skip the service next time, which hides later analytics and edits) or a temporary one if clicks must be counted. Scale: replicas for reads (about ten thousand lookups per second per database server), then shard by code. Extras: rate limiting, analytics, malicious-link blocking.
+- **Does not apply when**: links must expire, be editable or counted per click (choose temporary redirects and an event stream).
+
+## 9.6 Rate limiter
+- **Requirements**: configurable rules (for example 100 per minute per user, different tiers), reject with 429 and headers showing remaining quota and reset time, check under a few milliseconds at the 95th percentile, highly available and shared by many servers.
+- **Algorithms**: a fixed window counter is simplest but lets a user spend two windows' quotas around a boundary (200 requests in 20 seconds). The token bucket (capacity = burst size, refill rate = sustained rate) allows bursts after quiet periods without exceeding the average; sliding-window and leaky-bucket variants also exist. Placement: client side cannot be trusted; inside each service mixes limits with business logic; a middleware or gateway centralises policy (best default, ch16 16.6). State lives in a shared in-memory store (ch04 4.13), not the database (too slow) and not per server (limits multiply by server count). Two servers reading then writing a counter lose updates; make the read-check-decrement atomic with a server-side script. Open questions to settle: fail open or closed when the store is down, multi-region latency, hot keys from a few heavy users, live rule updates.
+- **Does not apply when**: capacity limits are enforced by upstream providers, or the limit is global to one shared resource (then use admission control, ch04 4.8).
+
+## 9.7 Video platform: direct uploads, a workflow graph and adaptive streaming
+- **Requirements**: very large uploads (minutes of 4K video range from a couple of gigabytes compressed to tens of gigabytes uncompressed) that are resumable; playback that adapts when bandwidth falls from tens of megabits to a few.
+- **Design**: (1) Upload: the API server issues a time-limited signed URL and the client sends chunks (a few megabytes each, each with a content hash, several in parallel) straight to object storage, so application servers do not carry gigabytes of pass-through traffic and a failed chunk is retried alone. (2) Processing: one upload becomes 15 to 20 files (resolutions from very small to 4K, several codecs trading bandwidth against device support, containers for compatibility). Model it as a directed acyclic graph: split at key frames (independently decodable frames every few seconds) into segments; segment, audio, thumbnail and subtitle tasks run in parallel on a worker farm; stages feed the next. (3) Streaming: the player reads a master manifest listing formats, then a media manifest per format listing segment URLs, measures download speed on recent segments and picks the next segment's quality; range requests allow seeking; segments are served from a CDN near the viewer. (4) Open topics: viral videos (metadata caching, hot rows), cost (transcode popular formats first, others on demand, tiering to cold storage), pipelining processing while the upload is still arriving.
+- **Does not apply when**: live streaming (segments are produced in real time) or private files (skip the ladder).

@@ -74,3 +74,15 @@ Splitting data across nodes is easy; splitting it **so that the common request t
 - **Mechanism**: couriers send their position every few seconds; the service converts to a cell, writes to the right shard and removes them from the old one; entries expire after a time-to-live (for example ten minutes without update means offline). When a courier is matched they leave the pool and a separate real-time channel starts. Stale-by-seconds data is fine because the food takes minutes to prepare.
 - **Trade-off**: simplicity (one task at a time per courier) versus lost optimisations (queueing the next job).
 - **Does not hold when**: matching latency is sub-second and positions must be exact.
+
+## 5.13 Why modulo placement fails and how virtual nodes fix the ring
+- **Thesis**: placing a key by hash modulo the number of servers is perfect until the number changes, then almost every key moves.
+- **Mechanism**: with N servers, key placement is hash mod N; adding or removing one server changes N and remaps nearly all keys, causing a storm of cache misses or data moves. On a ring, servers and keys are hashed into the same space and each key goes to the first server clockwise; adding a server takes only the arc between it and its predecessor, removing one hands its arc to the next. Random points make arcs uneven (one server may take most keys, and after a removal a neighbour's arc doubles), so each server is hashed at many points (virtual nodes) and owns many small arcs; more virtual nodes give better balance at the cost of more metadata. Replication places copies on the next distinct servers clockwise. Used for data partitioning in key-value stores, for spreading content across edge servers and for pinning persistent connections to backends.
+- **Trade-off**: balance versus metadata and lookup structure.
+- **Does not hold when**: the node set is fixed (modulo is fine) or range queries need ordered partitions.
+
+## 5.14 Spreading a hot key with a compound partition key
+- **Thesis**: if the natural key concentrates events on one partition, add a second component that spreads them while keeping order where it matters.
+- **Mechanism**: in a partitioned log, messages with the same key land on one partition and stay ordered; partitioning by a popular item makes one partition hot on release night. Use item id plus a hash of the user id: events for the item spread across partitions while each user's events stay ordered. Time-based partitions make retention easy but concentrate current writes. Global ordering means one partition, which removes parallelism (accept partial order).
+- **Trade-off**: per-item aggregation now needs a merge across partitions.
+- **Does not hold when**: per-key volume is small.

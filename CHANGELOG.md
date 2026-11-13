@@ -2,6 +2,12 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.25.0 (2026-11-13)
+
+- software-architecture extended from 11 to 20 chapters and 60 patterns: operating-system cost, networking and protocols, database internals and transactions, post-mortems of real incidents, proxies and timeouts, pragmatic domain modeling, boundaries and modular monolith, event-driven and messaging patterns, workflows and sagas.
+
+- New skill `software-engineering-practice`: 9 chapters (continuous delivery foundations, continuous integration vs feature branching, test-driven development, test design and reliable tests, coupling and complexity, design vs architecture and incremental design, engineering vs craft and quality, productivity metrics / ownership / cognitive load, quality and TDD with AI agents), plus cheatsheet, glossary and 28 patterns.
+
 ## 1.24.0 (2026-11-13)
 
 - New skill `software-architecture`: system design reasoning with 11 chapters (senior method and estimates, consistency and consensus, availability and overload, storage engines, partitioning and geospatial indexes, caching and delivery, messaging and pipelines, studies of real systems, chat/delivery/video cases, RAG, agentic systems), plus cheatsheet, glossary and 30 patterns.

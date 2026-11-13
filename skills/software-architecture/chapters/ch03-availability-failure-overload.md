@@ -85,3 +85,10 @@ Availability is bought with redundancy, but redundancy adds parts that can fail.
 - **Mechanism**: in a chat system during a festival, stop computing "last seen" and read/delivered receipts, but always acknowledge the send. Keep the rule written in advance.
 - **Trade-off**: reduced features at the moment of highest attention.
 - **Does not hold when**: the secondary feature is the main business.
+
+## 3.14 Self-inflicted overload: retries, ejection and automated scaling
+- **Thesis**: the most dangerous load is the one your own components generate while reacting to trouble.
+- **Mechanism**: (a) retries: when a shared link or dependency degrades, every client retries, the original work is still running, and load multiplies; use exponential back-off with jitter, a retry budget, circuit breakers and idempotent operations. (b) Ejection: health checks over a degraded network remove healthy servers from the pool, shrinking capacity and concentrating load; cap the fraction that can be ejected and probe before trusting a "down" verdict; expire negative caches. (c) Autoscaling is a client of provisioning, cloud APIs and configuration services; limit its rate and concurrency, add nodes to the pool only when fully ready, and never let a partial node take traffic. (d) Restart everything together and the surge returns; stage starts. (e) Keep monitoring and the runbook off the path that may fail.
+- **Trade-off**: slower reaction to real capacity loss.
+- **Does not hold when**: the dependency has hard capacity that retries cannot exceed (rare).
+- **See also**: ch15 for four worked incidents and a checklist.

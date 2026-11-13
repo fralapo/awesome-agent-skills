@@ -83,6 +83,31 @@ Copies of data protect against loss and spread reads, but every copy creates a q
 
 ## 2.14 Retries need idempotency
 - **Thesis**: any retry (queue redelivery, client retry) can duplicate work, so operations should be safe to repeat.
-- **Mechanism**: deleting a cache key is naturally repeatable; a "send message" needs an id so duplicates are dropped (details in the source are referenced, not given).
+- **Mechanism**: deleting a cache key is naturally repeatable; a "send message" needs an id so duplicates are dropped (details in the source are referenced, not given; for duplicates caused by calls to external systems see ch20 20.3).
 - **Trade-off**: ids and dedupe state to store.
 - **Does not hold when**: the operation is already naturally idempotent.
+
+## 2.15 Partition tolerance in practice: choose, then reconcile
+- **Thesis**: with replicas on several machines and a network that can fail, a store must choose per operation between refusing requests (consistency) and serving possibly stale data (availability); most web products choose availability and reconcile.
+- **Mechanism**: a bank-like balance refuses rather than shows a wrong value; a shopping cart serves an old version rather than none. Eventual consistency means copies converge if writes stop. Two replicas that accepted different writes need a conflict rule: tag versions with a vector of per-node counters to detect concurrent updates, then merge automatically (a union of cart items), ask the user, or take the latest write (and accept losing one). Failure detection avoids all-to-all pings (nearly a million connections for a thousand servers): each node gossips its member list to a few random peers, so news of a dead node spreads through the cluster.
+- **Trade-off**: merge logic is yours; last-write-wins silently drops data.
+- **Does not hold when**: one writer owns each key, in which case ordering is simple.
+
+## 2.16 Atomic commit across nodes
+- **Thesis**: a transaction that spans machines cannot rely on one machine's memory and locks; the choices are two-phase commit, a single writer per entity, or compensation.
+- **Mechanism**: see ch14 14.9 for prepare/commit, the blocking window when the coordinator dies, and the comparison with sagas (2.6 above). Keep the rule: sharding a relational database gives up cross-shard transactions unless you pay for a protocol.
+- **Trade-off**: strong atomicity versus availability and latency.
+- **Does not hold when**: the entities fit in one shard.
+
+## 2.17 Eventual consistency is a problem of context
+- **Thesis (position)**: stale data hurts mainly when the reader is the writer, when the read enforces a business rule, or when the decision is irreversible; elsewhere it is fine.
+- **Mechanism**: after a write the same person is shown a replica or a projection that has not caught up. Cheapest fixes: read from the primary after that write, do not send the user to a view that must reflect the change, or hand back a log position or version that the read can compare against. A stale copy of another boundary's data used to approve a command (a credit check) lets concurrent requests both pass. Full treatment: ch19 19.9.
+- **Trade-off**: primary load or write latency in return for fresh reads of the writer's own data.
+- **Does not hold when**: no one acts on the data within the lag (reports, analytics), or the system already guarantees read-your-writes (2.11).
+
+## 2.18 A time-bound reservation as a weaker alternative to atomic commit
+- **Thesis (mechanism)**: a record with an expiry gives a guarantee across services for a limited time, without holding locks while participants coordinate.
+- **Mechanism**: reserve a unique resource (a name, the last item, an authorized amount), complete the process, then confirm; if the process is abandoned, the reservation expires and the resource is released. See ch20 20.4, and compare with the prepare phase of two-phase commit (2.16).
+- **Trade-off**: the reservation holder is a dependency; the lifetime is a business decision.
+- **Does not hold when**: one database can hold the constraint for the whole process.
+

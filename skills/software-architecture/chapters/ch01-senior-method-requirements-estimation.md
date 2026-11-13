@@ -82,3 +82,10 @@ Each concept uses four fields: **Thesis** (the claim), **Mechanism** (how it wor
 - **Mechanism**: learn the basic vocabulary of LLM systems, apply it to a real project, and keep the habit of tests and measurement for claims ("the bridge cannot fall"). Experience supplies the context that tools lack.
 - **Trade-off**: a forecast, not a fact.
 - **Does not hold when**: the work is purely mechanical and already specified.
+
+## 1.14 A repeatable estimation recipe and sanity checks
+- **Thesis**: a fixed recipe turns a vague brief into a request rate in a minute, and the result is judged by what it implies, not by its precision.
+- **Mechanism**: rate = daily active users x share of users who do the action x actions per user x peak factor / 86,400 seconds. If only monthly users are known, take a fraction as daily. The peak factor is the ratio of busiest hour to average (a map service at commute time can be several times the average; a ride service on weekend nights about twice). Convert to powers of ten, group the powers, multiply the small numbers, and round 86,400 to 10^5. Example with invented inputs: 150 million daily users, half a post per user per day, peak factor 2 gives about 1,500 posts per second. Storage = events x share with media x average size x retention x copies (a 3-way replica triples it); if videos are a thousand times larger than pictures but a tenth as frequent, they cost about a hundred times more. Interpret: if one server handles about 10,000 requests per second and the peak is a million, you need roughly a hundred servers and a balancer; if the database sees ten queries per second at peak, one server lasts for a long time and sharding or caching is premature.
+- **Trade-off**: an order of magnitude is enough; false precision hides assumptions.
+- **Does not hold when**: the load is dominated by a hot key or a burst (see ch03 3.8); averages will mislead.
+- **See also**: ch12 12.1 for latency orders of magnitude to attach to each hop.

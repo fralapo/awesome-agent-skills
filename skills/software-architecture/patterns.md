@@ -181,3 +181,183 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: connect only what the task needs; remember definitions are resent each call. [ch11]
 **Cost**: reduced convenience.
 **Not when**: few tools.
+
+## 31. Latency rises but CPU is idle
+**When**: slow responses, no resource pressure.
+**Move**: count connections per host, ports and file descriptors; look for a connection created per request; add a pool or multiplexing; set timeouts. [ch13, ch15]
+**Cost**: pool tuning.
+**Not when**: the delay is in a slow dependency (trace it).
+
+## 32. Choose a protocol path
+**When**: many small requests from browsers or mobile.
+**Move**: HTTP/2 or HTTP/3 end to end; layer-4 balancer unless content routing is needed; TLS 1.3; check every proxy supports the version. [ch13, ch16]
+**Cost**: UDP and proxy compatibility.
+**Not when**: few large downloads.
+
+## 33. Proxy timeouts
+**When**: a reverse proxy or balancer fronts backends.
+**Move**: set idle, whole-request, connect and per-endpoint response timeouts; shrink them along the chain; give uploads their own route. [ch16]
+**Cost**: some slow legitimate calls fail.
+**Not when**: the operation is async.
+
+## 34. Cache failure modes
+**When**: a hot key, missing keys or a restart sends load to the database.
+**Move**: per-key lock or stale-while-refresh, placeholders or Bloom filter, jittered expiry, redundant cache, pre-warm, circuit breaker. [ch06]
+**Cost**: extra parts.
+**Not when**: the database absorbs the full load.
+
+## 35. Fan-in on hot reads
+**When**: thousands of clients read the same item at once.
+**Move**: coalesce identical requests in a data-access layer and route them by consistent hash of the entity. [ch16, ch05]
+**Cost**: hot instance, in-flight state.
+**Not when**: requests are personalised.
+
+## 36. Database slows down over time
+**When**: queries degrade, disk grows.
+**Move**: find the oldest open transaction, check dead rows and cleaner progress, read the plan for index use, check lock queues. [ch14]
+**Cost**: operational attention.
+**Not when**: load simply grew (capacity).
+
+## 37. Atomic change across systems
+**When**: two databases or services must change together.
+**Move**: keep it in one partition; otherwise two-phase commit if blocking is acceptable, or a saga with compensation. [ch14, ch02]
+**Cost**: latency, blocking window, visible intermediate states.
+**Not when**: eventual consistency with reconciliation is acceptable.
+
+## 38. Self-inflicted overload
+**When**: partial failure triggers retries, ejection and autoscaling.
+**Move**: back-off with jitter and a retry budget, cap ejected fraction, rate-limit autoscaling, nodes join only when ready, stage restarts. [ch03, ch15]
+**Cost**: slower reaction to real loss.
+**Not when**: no automation exists.
+
+## 39. Design the recovery path
+**When**: reviewing a system or writing an incident follow-up.
+**Move**: ask whether tooling, DNS, access and monitoring work when the primary network or identity is down; keep an out-of-band path and a rehearsed procedure. [ch15]
+**Cost**: duplicate infrastructure.
+**Not when**: outage cost is low.
+
+## 40. Short links or ids
+**When**: you need compact unique codes.
+**Move**: counter encoded in base 62 (no collisions) or hash plus collision check; cache the read path; temporary redirects if counting clicks. [ch09]
+**Cost**: a unique counter service; guessable codes.
+**Not when**: random unguessable ids are required.
+
+## 41. Rate limiter
+**When**: protect an API.
+**Move**: token bucket in a shared in-memory store, atomic update, enforced at a gateway; decide fail-open or closed. [ch09, ch04]
+**Cost**: an extra hop and a dependency.
+**Not when**: capacity is limited upstream.
+
+## 42. Large uploads and playback
+**When**: big media files.
+**Move**: signed URL and chunked parallel upload to object storage; workflow graph for transcoding; adaptive streaming with manifests from a CDN. [ch09, ch07]
+**Cost**: many derived files.
+**Not when**: live streaming.
+
+## 43. Platform upgrade or process model change
+**When**: OS, kernel or runtime update; process-per-connection database.
+**Move**: benchmark before and after, read default changes, use huge pages, pool connections, consider threads. [ch12, ch14]
+**Cost**: benchmark time.
+**Not when**: stateless, low-load services.
+
+## 44. CRUD or capability
+**When**: a screen edits a record, but the real activity is a workflow (dispatch, load, cancel).
+**Move**: ask what the user is trying to do; keep reference data as CRUD; give each capability an explicit command with its rules and a named outcome; record reason and actor. (Position.) [ch17]
+**Cost**: more types and screens.
+**Not when**: no behavior exists, or an external system owns it.
+
+## 45. Rule over a huge collection
+**When**: an invariant such as a maximum member count, with millions of children.
+**Move**: enforce the rule, not the relationship: counter in the aggregate, indexed count in a transaction script, a separate membership model, or an application-layer check on a projection (stale). [ch17]
+**Cost**: rules in several places; stale option can overshoot.
+**Not when**: the collection is small, or a strict limit needs a strongly consistent option.
+
+## 46. Same word, two meanings
+**When**: a shared model keeps breaking other modules on change.
+**Move**: split by reason to change and language; each boundary owns its concept; link by id; integrate through a contract. (Position.) [ch18]
+**Cost**: duplicated data and integration work.
+**Not when**: the data is truly identical and changes for one reason.
+
+## 47. Abstraction or direct dependency
+**When**: deciding to hide a library, SDK or data access behind an interface.
+**Move**: count usages and volatility; abstract hundreds of usages of a volatile dependency or when several implementations exist; use it directly in a handful of places. (Position.) [ch18]
+**Cost**: indirection when abstracted; wider change when not.
+**Not when**: a shared template or regulation requires the layer.
+
+## 48. How far to decouple
+**When**: a procedural flow (save, charge, e-mail) seems "too coupled".
+**Move**: pick the step that the business needs: direct call, interface, queue, events; change user-facing wording to "accepted" when going asynchronous. [ch18]
+**Cost**: complexity moves, not removed.
+**Not when**: the flow is simple and must succeed or fail together.
+
+## 49. Pain after adopting events
+**When**: debugging, ordering, stale screens, cost complaints.
+**Move**: check the boundaries and event naming first: business facts, not CRUD; user's own changes synchronous; policy for out-of-order workflow events; HA and outbox for the broker; events can run inside a monolith. (Position.) [ch19]
+**Cost**: modeling and redesign effort.
+**Not when**: the system is request-response CRUD that needs no events.
+
+## 50. Publishing state and an event together
+**When**: a state change must reliably announce a fact.
+**Move**: outbox in the same transaction; relay publishes; idempotent consumers. [ch19, ch07]
+**Cost**: table, relay latency, at-least-once duplicates.
+**Not when**: best-effort telemetry, or the log is the state.
+
+## 51. Event contract design
+**When**: other boundaries consume your events.
+**Move**: publish integration events as summaries, not the schema or every internal step; avoid leaking internal codes; include what consumers need to react; add a new event when the concept differs. (Position.) [ch19]
+**Cost**: a mapping step.
+**Not when**: one team, stable event; or a fat event feeding reports.
+
+## 52. Stale screen after a save
+**When**: the user does not see their own change.
+**Move**: read the primary, route elsewhere, add the new id locally, wait for lag or update the projection in the command, or pass a log position; push or poll. [ch19, ch02]
+**Cost**: latency or primary load.
+**Not when**: the reader is someone else or a report.
+
+## 53. Heavy read composition
+**When**: queries join many sources at runtime.
+**Move**: CQRS as separate read path: materialized view in the same transaction (consistent) or async projection; do not confuse with read replicas. [ch19]
+**Cost**: two code paths; projection lag if async.
+**Not when**: one model is enough.
+
+## 54. Data needed from another boundary
+**When**: a service wants another's data for display or for a decision.
+**Move**: display: compose in the UI or build a purpose-shaped projection; decision: let the deciding boundary own the data it needs, from events. Do not copy the other schema. (Position.) [ch18]
+**Cost**: eventual consistency, composition latency.
+**Not when**: reporting into a warehouse (replicate freely).
+
+## 55. Multi-tenant isolation choice
+**When**: tenants share a system.
+**Move**: list what to isolate (data, compute, deploy, schema changes, performance, failure); try per-tenant rate limits and pools before splitting; pool by tenant size; isolate for blast radius, compliance, dedicated capacity or safer rollouts. [ch18]
+**Cost**: N times the operations when dedicated.
+**Not when**: few similar tenants (shared is fine).
+
+## 56. Double charge despite a unique constraint
+**When**: a handler calls a payment or other external system and also dedupes messages.
+**Move**: provider idempotency key; lookup by reference; lock per business key; pending state plus outbox; reconcile or compensate; aim at effectively once. [ch20, ch14]
+**Cost**: throughput or complexity per layer.
+**Not when**: the provider already guarantees idempotency for the call.
+
+## 57. Pending forever with a third party
+**When**: a timeout leaves an order "payment pending" though the provider charged.
+**Move**: saga timeout triggers reconciliation: read the provider's truth, then confirm or cancel; also a user button and a polling fallback. [ch20]
+**Cost**: provider query API, polling calls.
+**Not when**: you own the truth in one database.
+
+## 58. Guarantee across services over time
+**When**: a unique name, last item or amount must be held during a multi-step process.
+**Move**: reservation with reserve, confirm and expire; or move the data to the deciding boundary so one transaction suffices. [ch20, ch02]
+**Cost**: reservation service is a dependency; choose lifetime.
+**Not when**: one database constraint covers the process.
+
+## 59. Nightly batch job
+**When**: a scan finds items to expire, remind or refund.
+**Move**: at the triggering event send a delayed message; on arrival re-read state and exit early if done; reschedule if recurring. (Position.) [ch20, ch07]
+**Cost**: message per item; broker-specific delay limits.
+**Not when**: set-based work (reporting, ETL) or enormous item counts.
+
+## 60. Event sourcing in a legacy system
+**When**: wanting history and domain events in an old code base.
+**Move**: define a boundary, extract it as a service behind a contract, then experiment inside; do not weave it through the old code. (Position.) [ch17, ch19]
+**Cost**: interface between old and new.
+**Not when**: the system is small enough to rebuild, or has no value in history.

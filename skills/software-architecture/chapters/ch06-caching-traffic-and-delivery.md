@@ -68,3 +68,12 @@ A cache is a bet on the access pattern. In this model the best caches are simple
 - **Mechanism**: caching a profile picture for an hour is harmless; caching an authentication outcome could let a changed-password attacker through.
 - **Trade-off**: speed versus freshness and security.
 - **Does not hold when**: the data is public or very slow-changing.
+
+## 6.12 Three cache failure modes: stampede, penetration, avalanche
+- **Thesis**: the cache protects the database only while it works; each failure mode sends the whole load to the database in a different way.
+- **Mechanism**: **Stampede**: one hot entry expires and many requests recompute it at once. Mitigate with a per-key lock (others wait, get a not-found with client back-off, or are served a stale copy), with a separate refresher process, or with probabilistic early refresh (each request has a small, growing chance to refresh before expiry). **Penetration**: requests for keys that do not exist miss the cache and the database every time; cache a placeholder with a short time-to-live, or check a Bloom filter of existing keys first (a negative answer is definite; false positives only cost a miss). **Avalanche** (or crash): many different keys expire together, or the cache restarts empty or fails, and everything lands on the database; stagger expiry with random jitter, run a redundant cache cluster, pre-warm before taking traffic, and add a circuit breaker so the database is not buried while it recovers (users who refresh make it worse).
+- **Trade-off**: locks and refreshers are extra parts; placeholders use memory.
+- **Does not hold when**: the backing store can absorb the full miss load (ch03 3.9 constant work).
+
+## 6.13 Balancing
+- **See** ch16 16.4 for static and dynamic balancing algorithms and ch16 16.5 for request coalescing with hash routing.

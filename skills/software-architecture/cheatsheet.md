@@ -99,3 +99,92 @@ Figures are rules of thumb or values stated in the material; re-test. "Position"
 
 ## Estimation Formulas
 Events/day = users x actions. Rate = events/day / 86,400. Storage/day = events x size x copies (formats x resolutions x replicas). Burst credit = provisioned rate x seconds of bucket (200 x 300 = 60,000). Fan-out = members of the largest group x messages.
+
+## Protocol and Connection Choices [ch13, ch16]
+| Situation | Choice | Watch out |
+|---|---|---|
+| Many small requests, one host | HTTP/2 end to end | Every proxy must speak it; avoid blind server push |
+| Lossy or mobile network | HTTP/3 (UDP-based, connection ids) | UDP must pass firewalls |
+| Need path/header routing | Layer-7 balancer | Must preserve the protocol version |
+| Keep protocol end to end, minimal logic | Layer-4 balancer | No content routing |
+| Secure channel | TLS 1.3 (one round trip, forward secrecy) | Termination points see plaintext |
+| Short-lived connections | Reuse (keep-alive, pool, multiplex) | Slow start and handshakes on each new one |
+| Latency rises, CPU idle | Count connections, ports, descriptors | Ephemeral port range is only about 28,000 |
+| Server must accept many connections | Several listeners (address reuse) or request-level dispatch | Binding to all interfaces exposes admin ports |
+
+## Timeout Map for a Reverse Proxy [ch16]
+| Hop | Timer | Typical rule |
+|---|---|---|
+| Client to proxy | idle, send/ack, whole-request read, keep-alive | Bound the whole request (slow-send defence); longer only on upload routes |
+| Proxy to backend | connect | Short (backend is near) |
+| Proxy to backend | response | Measured maximum plus margin, per endpoint |
+| Chain | caller > callee | Inner timeouts shrink; no work for abandoned requests |
+
+## Cache Failure Modes [ch06 6.12]
+| Mode | Cause | Fix |
+|---|---|---|
+| Stampede | One hot key expires, many recompute | Per-key lock, stale copy, refresher, early probabilistic refresh |
+| Penetration | Keys that do not exist | Placeholder with short time-to-live, Bloom filter |
+| Avalanche | Many keys expire together, or cold/failed cache | Jittered expiry, redundant cluster, pre-warm, circuit breaker |
+
+## Database Operations Checklist [ch14]
+| Question | Why |
+|---|---|
+| Oldest open transaction? | Pins dead row versions, causes bloat |
+| Which lock mode does this migration take, and who is it queued behind? | A queued strong lock blocks all later queries |
+| Index used? (read the plan on production-size data) | Low selectivity, function on column, wrong column order, OR |
+| Log flushed at commit? Checkpoint spikes? | Durability versus occasional latency |
+| Connections per process vs limit | Process-per-connection costs memory and page tables |
+| Update order consistent across code paths? | Prevents deadlocks |
+
+## Incident Questions [ch15]
+Smallest change that removes the health signal? Does recovery depend on the failed system? Which automatic action is catastrophic when correlated (withdraw, eject, scale, retry, restart)? Which shared choke point lacks a capacity alarm? Can everything restart together? Did the alert fire on the cause?
+
+## CRUD or Task-Driven? [ch17] (position)
+| Signal | Lean |
+|---|---|
+| Users maintain reference data, no rules | CRUD |
+| Users perform a capability with order, validation, outcomes | Task-driven commands, named facts |
+| External system owns the behavior, you map data | CRUD |
+| Downstream needs to know why (cancelled vs not used) | Capture intent at the action |
+| Collection is huge and the rule is a count | Enforce the rule, not the relationship (17.3) |
+
+## Decoupling Spectrum [ch18 18.6]
+| Step | Gain | Cost |
+|---|---|---|
+| Direct call | Call stack, order | Shared availability |
+| Interface | Seam | Indirection (worse with one implementation) |
+| Queue | Time decoupling, spikes | Retries, duplicates, dead letters, lost stack, "accepted" not "done" |
+| Events | Fan-out, extensibility | Invisible behavior, contracts to version |
+
+## Four Meanings of "Event" [ch19 19.1]
+| Use | Boundary |
+|---|---|
+| Event sourcing | Internal, state storage |
+| Event-carried state transfer | Data distribution; stale copy |
+| Notification (domain/integration) | Fact; integration event is the contract |
+| Workflow step | Between participants; commands have one handler |
+
+## Stale Read After a Write [ch19 19.9]
+| Try first | Then |
+|---|---|
+| Read from the primary; send the user elsewhere; add the new id locally | Wait out the lag; update projection in the command |
+| Return log position or version at write; read compares | Push update or poll |
+| Read enforces a rule on another boundary's copy | Move the decision to the data owner |
+
+## Calling an External System Safely [ch20, ch14 14.10]
+| Layer | Note |
+|---|---|
+| Provider idempotency key | Same key on retry; offer one in your own API |
+| Lookup by reference id | Race remains unless provider enforces uniqueness |
+| Lock per granular business key | Lowers throughput; a timeout is not a failure |
+| Pending state plus outbox, separate handler | Better state; can still double charge |
+| Reconciliation or compensation | Last line; goal is effectively once |
+
+## Multi-Tenant Isolation Menu [ch18 18.9]
+| Resource | Shared | Pooled | Dedicated |
+|---|---|---|---|
+| Data | Tenant id column | Schema or database per group | Database per tenant |
+| Compute | Same instances | Instances per tier | Instances per tenant |
+| Cheaper levers first | Per-tenant rate limit, per-tenant connection pool | | |
+
