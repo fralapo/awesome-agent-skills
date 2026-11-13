@@ -27,6 +27,8 @@ Writing is not the record of thinking, it is thinking: putting an idea into a st
 - **Reflection**: The deliberate act of reviewing past experience (via journaling) to extract lessons, distinct from simply having the experience.
 - **Action-forcing subject line**: An email subject that states the message's substance so the reader can triage without opening.
 
+- **Classic style (emerging position)**: start by modelling the communication scenario between writer and reader. Classic style aims to help the reader see something real: focus on the thing being shown, not on the activity of studying it; avoid clichés and metaconcepts (concepts about concepts). The contrast is self-conscious style, which apologises and hedges. Use it as a diagnostic when a draft talks about the topic instead of showing it.
+
 ## Mental Models
 - Treat every piece of writing as an act of persuasion aimed at a specific reader's decision, not a self-expression exercise.
 - Separate generation from evaluation in any creative task — judging while producing kills both.

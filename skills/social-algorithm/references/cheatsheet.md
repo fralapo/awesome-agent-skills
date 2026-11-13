@@ -231,6 +231,35 @@ ROI = €_generated_from_the_channel / hours_invested
 3. Generic content that says nothing new
 > If none of the 3 apply and content still flops → likely a positioning / market-sophistication problem (Ch 4)
 
+## Profile Funnel Components (Ch 4)
+| Element | Rule |
+|---------|------|
+| Bio | Specific, clear, positioned differently from the industry |
+| Link 1 | Direct contact, simplest option for the audience |
+| Link 2 | Gated free resource; the link must always lead somewhere |
+| Link 3 (optional) | Event / hiring / portfolio / reviews as an assist |
+| Pinned posts | Authority + who you are + on-target free resource |
+| Stories | Active, with social proof; first thing a visitor sees |
+| Welcome DM | Audio or message ending in a question that fits the moment |
+
+## Audience Stage → Content (Ch 4)
+| Stage | Content |
+|-------|---------|
+| Unaware / problem-aware | Start from the situation they live in (trigger line, quiz) |
+| Solution-aware | Show the work: process, cases, results |
+| New (~0-15 days) | Profile, useful content, active Stories, second channel |
+| Middle (~15-60 days) | Social proof, transformations, say what you sell, vertical resources, indirect selling |
+| Veterans | Very specific PDFs/videos, live events, case studies; no scarcity |
+
+## Ranking Priorities and Carousels (Ch 7)
+| Item | Rule |
+|------|------|
+| Originality | Original content favoured; recycled videos pushed less (not fully verified) |
+| Breakout | Every video gets tested; no distribution = fix categorisation, stand-out, target fit |
+| Timeliness | Industry-current topics/formats, not meme trends |
+| Carousels | Natural, photos underneath, slides 1 and 2 both hook, test weekly |
+| Long-form | A few in-app sales letters, one per awareness level, fed by Reels |
+
 ## External References
 - turboscribe.ai — video transcription (3 free / incognito)
 - school.com / circle.so — private community platforms

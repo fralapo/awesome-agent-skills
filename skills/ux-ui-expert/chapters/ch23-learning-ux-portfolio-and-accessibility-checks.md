@@ -21,6 +21,7 @@ Narrative shell: outcome-hook title, three-part summary (client's challenge, you
 - Simulate impairment (blur, vignette, low contrast) as a first pass, then validate with real users; imagination is not evidence.
 - For low-vision readers, desaturate very bright colours and pick out forms with high-contrast outlines; both fully saturated images and full black-and-white conversions performed worse than this middle ground.
 - Research instruments for such audiences: large recommended typefaces, high-contrast colours, and answers given by marking a line on a 1-to-5 scale rather than precise circling.
+- One-size-fits-all design systematically favours some users: motor ability, colour perception and subjective taste (what looks pleasing) all change who succeeds (emerging position). One proposed remedy is interfaces that adapt automatically to the person, but adaptation must stay transparent and reversible (ch31).
 - Numeric thresholds (contrast ratios, sizes) are in ch21 and ch22.
 
 ## Working With the Other Design Roles

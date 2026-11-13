@@ -2,6 +2,11 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.22.0 (2026-11-13)
+
+- social-algorithm: profile-funnel components, content by awareness level and audience stage, late-era ranking priorities and long-form integration (patterns 43-45, new glossary terms).
+- ux-ui-expert, public-speaking-persuasion, marketing-mba, depth-psychology: short additions on nudges and choice architecture, human-centred AI, classic style, identified-person effect, trust and dignity at work, frictionless companionship.
+
 ## 1.21.0 (2026-11-12)
 
 Repo maintenance, no new skills.

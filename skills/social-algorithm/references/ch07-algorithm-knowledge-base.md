@@ -169,6 +169,30 @@ Know the audience + what they want + what they expect. Reply to comments with **
 - Carousel + audio enters the Reels tab = format revival
 - Long-form explainers work (high watch time)
 - Repost becomes a survival strategy
+- Long-form video integrated with Reels; originality, breakout chance and timeliness named as ranking priorities; natural photo carousels return (see section 7b)
+
+---
+
+## 7b. Late-Era Update — Long-Form Integration and Ranking Priorities
+
+### Long-form video arrives on Instagram
+- **Context**: video platforms are all pushing longer videos (the long-form platform keeps growing, the short-video app added long uploads), and the data suggest people will watch long content. The stated reason is not just time spent: long-form is the way into the **living-room screen** and entertainment, where the long-form platform grew strongly.
+- **Why it matters for selling services**: the platform's weak spot is awareness. With interest-based distribution every piece reaches new people, so building awareness and loyalty *inside* the app is hard; today people are sent to free resources or external videos, or must follow and consume for a long time. There is no in-app funnel covering attraction → awareness → readiness to buy.
+- **Integration**: short videos are expected to drive viewers to long-form (a few pieces of content can be linked to one long video), far more tightly than on the competing long-form platform, where short and long run as parallel worlds.
+- **Use in this model**: treat the long video as an in-app **sales letter / masterclass** that explains the method or service (the job a landing page does today). Mirror the decoy-videos → one macro-video funnel: Reels attract, a few strategic long videos build awareness, then the discovery call. Do **not** copy a full long-form channel strategy: make a handful of well-thought pieces, **one per awareness level** of the target (see Ch 4), pointed to directly from Reels. Not a podcast-style entertainment play.
+
+### Ranking priorities the platform has stated
+1. **Originality** — original content is prioritised; reusing the same video over and over is recognised and pushed less (not fully verified; clients report re-posted old videos performing worse than the first time).
+2. **Breakout chance** — every video gets a chance, as on the short-video app; a small profile can reach very large audiences. Consequence: if content is not distributed, the cause is in the content, not "the platform doesn't distribute". Three causes to check:
+   - **Not categorised / wrong topic** — the system cannot read the interest, usually because you make content on topics nobody searches or watches. Join existing conversations in your own way; niche topics nobody covers do not go viral.
+   - **Does not stand out** — weak start, low quality, poor audio or light; a buyer expects baseline professionalism.
+   - **Not speaking to the target** — a fit-and-awareness problem between what you say and what they want.
+3. **Timeliness** — current-events content is being pushed. Few people (roughly one in thirty) can do news-based content and still sell. Safer use: content on **topics currently circulating in your industry** that your buyer cares about, or an industry-wide format of the moment (not a dance or a shared-audio meme); relevance raises distribution. It costs no extra production time, only more market research on data you already have.
+
+### Carousels are back (as a natural format)
+- Carousels re-started driving profiles in the last months after a year of avoidance; excellent for **attraction**.
+- The 2022-style carousel (uniform, text-heavy graphics, big titles) works only if you are already well known. Reason for the push: with music added they also appear in the Reels section (double distribution), and the feed shows the cover first and then the **second slide again** — two chances to stop the scroll, so **both slide 1 and slide 2 must grab attention**.
+- Test a **natural carousel at least once a week**: photos underneath the text (any professional-fitting photos), more elements than pure text, and visuals that are distinct, not the identical template look you get from generic AI-generated graphics.
 
 ---
 
@@ -200,6 +224,7 @@ A knowledge base synthesized from a time-based archive of algorithm observations
 - **New hooks** → sect. 4 (8 patterns)
 - **Defending organic vs ADV** → sect. 5
 - **Studying big brands** → sect. 6 (3 levers)
+- **Long-form video, ranking priorities, carousel revival** → sect. 7b
 - **What NOT to do anymore** → sect. 8 (historical anti-patterns by era)
 
 For details on a specific era, jump directly to sect. 7.
@@ -215,6 +240,8 @@ For details on a specific era, jump directly to sect. 7.
 6. **Brand pattern**: adapted trends + recognizable identity + active social listening
 7. **Carousel + audio** enters the Reels tab → format revival
 8. **Tactical timeline from 2018 onward**: each era replaces the previous tactics
+9. **Ranking priorities**: originality, breakout chance (every video gets tested), timeliness; if not distributed, check categorisation, standing out, and target fit
+10. **Long-form on IG**: use a few long videos as in-app sales letters, one per awareness level, fed by Reels
 
 ## Connects To
 - **Ch 1** — indirect selling + diagnostic matrix to optimize conversion

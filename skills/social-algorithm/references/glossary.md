@@ -243,3 +243,17 @@ Key terms from the organic personal brand system + IG algorithm archive.
 **Document, don't create** — sourcing content from your own lived process instead of AI-assembled generic advice ("AI slop"); distinct from Ch 9's "document, don't overproduce" (a production-logistics point, not a content-sourcing one) (Ch 12)
 
 **Micro-cult brand** — a small, tightly positioned channel built around a consistent personal point of view rather than broad appeal or trend-chasing (Ch 12)
+
+**Content by time in orbit** — splitting the audience into new (~0-15 days), middle (~15-60 days, most conversions) and veterans (long-time followers who have not bought) and giving each its own content job (Ch 4)
+
+**Veterans** — long-term followers who interact and attend events but have not bought; they buy when their own need arises, so keep them warm with vertical resources and live events, not scarcity (Ch 4)
+
+**Colander profile** — a profile that takes in lots of traffic and converts none because bio, links, pinned posts and Stories are not set up as a funnel (Ch 4)
+
+**Link roles (direct / indirect / assist)** — the three bio-link jobs: direct contact, gated free resource that always leads somewhere, optional event/portfolio/reviews (Ch 4)
+
+**Breakout (ranking)** — stated platform principle that every video gets a distribution chance regardless of profile size; non-distribution points to the content (Ch 7)
+
+**Timely content (industry-current)** — content on topics or formats currently circulating among the target, not generic meme trends; relevance helps distribution (Ch 7)
+
+**In-app sales letter (long-form IG)** — a long video used as the masterclass/VSL step inside Instagram, one per awareness level, linked from Reels (Ch 7)

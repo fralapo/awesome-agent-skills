@@ -27,6 +27,12 @@ Rule: decide case by case whether the system acts or asks. Mark high-stakes deci
 ## Related Restraint
 Do not hyper-personalise every visitor until it feels intrusive; prioritise clarity and fast task completion for the majority. Small human imperfections and inconsistency are acceptable if they do not block tasks. One figure for daily decision counts is widely cited but unsourced; do not rely on it.
 
+## Emerging Positions on Human-Centred AI
+Drawn from talks summarised in short descriptions only; treat as positions, not frameworks.
+- **Comprehensible, predictable, controllable**: one design position for systems that can fail with serious consequences. Pair it with independent oversight at three moments: planning, continuous monitoring, and retrospective analysis after failures. Clarifying who is responsible for a failure is argued to improve design thinking.
+- **Test across user groups**: AI systems have been shown to fail or mischaracterise some faces, notably dark-skinned ones. Include varied users in testing and treat an accuracy gap between groups as a defect, not an edge case.
+- **Do not do the user's thinking where thinking is the goal**: in learning products, concern is that generative tools may do the thinking for the user. Prefer designs that enhance learning over designs that replace it.
+
 ## Mistakes
 - Silently booking or adding items from incomplete data; calendar entries appearing with no explanation.
 - Recommendation modules users read as sales pitches.

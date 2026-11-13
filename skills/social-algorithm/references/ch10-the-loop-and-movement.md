@@ -65,7 +65,7 @@ Counter-view (see `brand-strategy-storytelling` ch07): chasing viral spikes erod
 
 Picture the content your target is already watching, enjoying, and acting on as **circle content** — the handful of topics that currently dominate in your market. Your own output can be circle content (latching onto what's proven to get shown), square content, or star content (off-topic, random); the point of circle content is that it gets you shown to the same cluster of potential clients your competitors are also reaching. The failure mode isn't making circle content — it's making it indistinguishably like everyone else's. Three concrete errors explain why "I made content on the right topic and it still didn't work":
 
-1. **Weak communication / ethos** — the content is on-topic but delivered flatly: no personality, no asides, no point of view audible in the delivery. Reading a script kills ethos even when the information is excellent. Fix: bring the same personality you have in person to the camera — it is trainable, it just takes deliberate repetition, not more time.
+1. **Weak communication / ethos** — the content is on-topic but delivered flatly: no personality, no asides, no point of view audible in the delivery. Reading a script kills ethos even when the information is excellent. Fix: bring the same personality you have in person to the camera — it is trainable, it just takes deliberate repetition, not more time. Practical rule: publish for **60-90 days without expectations** to learn what to post, how to be yourself on video, and to train voice and presence.
 2. **No real market analysis** — the content "feels" aimed at the target but was never checked against what the target is actually watching, saving, and acting on. Without that grounding the platform has no signal for who to show it to, so it gets no distribution regardless of quality.
 3. **Generic content that says nothing** — technically correct, on-topic, but adds nothing beyond what's already been said a hundred times. In a saturated, noisy market this is invisible, not just underperforming. (Cross-reference: this is the content-level symptom of the market-sophistication problem in Ch 4 — a generic promise/content doesn't land once the market has heard it before.)
 
@@ -108,5 +108,6 @@ In markets with a very fast purchase process (weddings, design, agencies), it's 
 - **Ch 4** — "3 errors" sits upstream of the 5 market-sophistication stages and the "I See You / I Validate You / I Associate You" triangle; purchase speed maps to "purchase process" and "purchase window"
 - **Ch 6** — attraction vs sales content distinction, now with an explicit weekly cadence and a loop-based reason for the split
 - **Ch 9** — ethos/personality on camera is the same "stay human" argument applied to delivery, not just to the decision to post
+- **Ch 4** (audience stages) — new / middle / veteran content split extends the attraction-vs-authority cadence
 - **glossary.md** — Loop, Movement, Circle/Square/Star content, Trust as currency
 - **patterns.md** — "The Loop", "3-Error Content Diagnostic"

@@ -80,6 +80,13 @@
 - **A "free market" is a well-designed one, not an unregulated one**: efficient, freely operating markets rest on a dense layer of rules (anti-fraud, standardized grading, disclosure requirements) that make free exchange possible — deregulation and good market design are not the same thing.
 - **Commoditization is a designed artifact**: turning a heterogeneous good into a standardized, gradeable "commodity" (via inspection/grading standards) is what allows a matching-market problem to become a simple, liquid price-driven commodity market — and reliable grading can change upstream production behavior (producers invest in quality once it's reliably measured and rewarded).
 
+## Trust, Dignity and Bias at Work (emerging positions)
+Each point below rests on a short talk description, not a consolidated framework.
+- **Dignity and meaningfulness**: people whose dignity feels injured lose the sense of meaningful work most easily. Meaning (what work signifies) and meaningfulness (how much it matters to the person) are distinct, and barriers differ by type of employee.
+- **Micro-moments of connection**: managers who create small moments of recognition build trust and well-being, and the organisation benefits with them.
+- **Gossiping success**: one firm's practice of talking about small positive things colleagues did, as the opposite of negative gossip, to build trust and team performance.
+- **Implicit stereotypes**: in one study, teachers' measured gender-science stereotypes went with girls underperforming in maths and choosing less demanding schools, partly via lower self-confidence. Stereotype threat has been linked to disengagement among professional women, with an intervention that buffered it. Both support measuring and designing against bias in feedback, selection and promotion rather than assuming meritocracy.
+
 ## Connects To
 - **Ch3** (Pricing, Distribution & Promotion): the labor illusion and underdog effect extend the psychology of perceived value in promotion.
 - **Ch6** (Startup Execution): risk/failure tolerance and the 10X Rule extend founder-readiness material.

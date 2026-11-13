@@ -64,6 +64,23 @@ Positioning + offer + target, all clear. Could an elementary-school kid understa
 
 > Start from problem-aware upward. Unaware = too complex without strong authority.
 
+### Content by Awareness Level — the 3-Level Simplification
+A working simplification of the 5 levels: **unaware**, **problem-aware**, **problem- and solution-aware**. Treat it as a primer, not the full model — the real work is contextualised per brand and per market.
+- **Where the majority sits**: on social platforms most people are *problem-aware*. They arrive already carrying a problem (a sore shoulder, a stalled acquisition), and the feed shows them content consistent with what they are looking for. Start with the most convertible group, not the hardest.
+- **Problem- AND solution-aware = sophisticated markets** (marketing, design: "I know I need a logo, I need a designer"). They know the option types (agency, freelancer, course, coach) and are comparing.
+- **Unaware** = knows neither the problem nor the solution (typical of mass-market "make money" offers, or markets like coaching that are still new in a country). The most difficult target: communication must be very broad, often lifestyle or storytelling led, and the person has to be *triggered* into realising the gap.
+- **What fits each level**:
+  - *Unaware and problem-aware* → content that starts from **the situation the person is living right now** (a trigger line that names the felt experience, a diagnostic quiz). This is the best-performing opener even for the unaware.
+  - *Solution-aware* → content that shows **the work itself**: creative process, behind the shoot or the wedding, results, many case studies and references. They are judging whether *you* are the right solution.
+- **Mismatch errors**: case studies shown to an unaware person land flat; solution-only talk to a problem-aware person skips the problem they were looking to name; pure teaching to a solution-aware person gives them nothing, because they are already shopping.
+
+### Content by Time in Orbit — New / Middle / Veterans
+Do not assume everyone who sees you needs the same content. Split the people reached into three groups, whatever their follow status. Group sizes depend on the phase: an early profile is mostly "new", an established community is mostly "middle" and "veterans". Include themes for every group in posts **and** Stories, so people keep moving toward asking for information, booking, choosing you. Content is the tip of the iceberg; the infrastructure below it (profile, resources, Stories, DMs) does the converting.
+1. **New (about 0-15 days since discovery)** — the profile is the landing (see "Profile Funnel Components"). Keep Stories active so trust builds fast. Give very useful content and resources that move people from "I saw 60 seconds of you" to "I have watched more of you" — a second channel such as a long-form video library is a strong second step. At this stage **do not hold back on value**: it is what makes you a reference immediately.
+2. **Middle (about 15-60 days, already seen your content, no action yet)** — where most conversions happen. Load content with **social proof, cases and transformations**, and say plainly what you sell, what results it brings and how. Many accounts never state their service, so nobody knows why to write. Use more **vertical, need-linked resources** instead of generic hook lists (e.g. a long case study of the method) to create the gap your service solves. Win by **selling indirectly**: useful content followed by hard CTAs pushes people away from the sale.
+3. **Veterans (long-time followers who interact, attend events, have not bought)** — no cause for panic: they are highly aware and buy when *their* need arises, not when it suits you (a two-year follower can still join, and choose no one else). Keep them warm with very specific videos, detailed PDFs, case studies, **live events** (the best way to convert an accumulated community through a more structured contact) and more direct conversations. **Scarcity does not move veterans**; it can work on a newcomer who has a strong need and meets a sales CTA at the right time.
+> In this model the ad-only approach is a house of cards: content plus ads without a structured personal brand brings some clients, but once the spend stops there is silence. Personal brand and ads reach the same people; communication that earns trust comes first, ads amplify it.
+
 ### Market Sophistication — the 5 Stages
 Awareness describes the **prospect**; sophistication describes the **market**: how many times the audience has already heard a promise like yours. It dictates how you must phrase your positioning / promise — **independently of how good your content is**.
 1. **Stage 1 — first to market**: a plain claim still works ("Acquire clients with Instagram"). Rare today.
@@ -192,6 +209,21 @@ Abolish Linktree-style multi-link pages. A landing page has **one** button / one
   1. A **free resource** (lead magnet / mini-course) — the starting point people can act on
   2. A **direct-contact funnel** (phone / WhatsApp / Calendly) — there must always be a way to reach you
 - A prospect in the purchase window must be able to contact you in **at most 2 clicks**.
+
+### Bio Positioning Rule
+Read the bios in your industry and position **differently on purpose**: aim to be the one who gets copied, not the one identical to the rest. Three non-negotiables: specific, differentiated, clear. Clarity gets easier once the work on positioning, strengths and "why choose you" is done. The bio will change often; it only has to be good enough not to sabotage the content investment.
+
+### Profile Funnel Components Beyond the Bio
+When a profile is set up properly it already drives calls and DM conversations; a default profile "looks good on paper" and converts almost nothing. Without it, content is a colander: plenty goes in, nothing comes out. Reasoning: a follow no longer guarantees continued visibility, so what counts is the impression left, perceived usefulness and relevance *right now*.
+- **Three links, each with a job**:
+  1. **Direct contact** — the simplest form of getting to you for that audience: a call-booking page, a short form, a landing page or video sales page, or simply a messaging-app link where that is how the market works.
+  2. **Indirect contact** — a free resource (in-depth video, masterclass, PDF) for everyone who clicks without being ready to buy. Rule: the bio link must **always lead somewhere**, whatever the purchase intent. Gate it: ask for a lead (preferably a phone number or an automated chat flow rather than the worn-out email-only capture); never offer an ungated download.
+  3. **Optional assist** — an event, a hiring page, a portfolio or case-study page, a page of reviews: something that supports the other two.
+  - Avoid linking the whole website; a single landing page focused on the one service you want to sell converts better.
+- **Pinned posts act as a landing page.** Cover three jobs: (a) **authority** — proof you are competent (a video on stage or at a live event; if authority drives the sale, two pinned posts are fine); (b) **who you are** — what you bring and what you should be remembered for (a video introduction or a hero's-journey carousel work well); (c) **a free resource**, pinned at the top whenever possible, that solves a main problem of the target and is **consistent with the service sold** — if it teaches a neighbouring skill, it attracts people who will never buy. A single long asset can serve (b) and (c) together.
+- **Visual perception**: a cluttered grid reads as less competent; covers with no title leave the visitor unable to tell what you do and cut follow probability.
+- **Stories are part of the profile funnel**: a visitor's tray shows your active Stories first, and people tap them. Fill them with social proof (client situations, feedback, transformations) and with detail on your work, ethics and method. A profile converts more with active Stories even when no chat opens from them; skipping Stories is "shooting yourself in the foot".
+- **Welcome DM to reactivate conversations** (works especially for accounts with a lot of activity): a short audio or a message welcoming people to the community ending with a question that fits the moment the target is living (e.g. a seasonal shopping peak); then handle the conversation (see DM skeleton). Wording is best tailored to tone of voice and audience.
 
 ### Foundations Behind a Bio That Converts
 A bio only works if the underlying communication work is done. Before (or while) rewriting it, deepen:
@@ -326,6 +358,8 @@ There is no magical amount of time. What counts is priorities + 20/80 on the act
 6. Lead magnet + ManyChat + reactivation = the most scalable combo
 7. Tracking data is non-optional — negative data is still data
 8. ADV amplifies, it does not replace. Never the other way around.
+9. Content must fit the audience stage: awareness level (situation-led for problem-aware, work-led for solution-aware) and time in orbit (new → value and profile, middle → proof and indirect selling, veterans → vertical resources and live events)
+10. Profile funnel = specific differentiated bio + three links with distinct jobs + pinned authority / identity / on-target resource + active Stories + optional welcome DM
 
 ## Connects To
 - **Ch 1** — indirect selling is the modus operandi of all content

@@ -331,3 +331,32 @@ With both in place the CTA is optional; people reach the link and act unprompted
 3. **Educate** — while documenting, explicitly explain what you're learning/doing so the viewer gets usable value alongside the story
 4. **Share vision & mission** — state your own point of view and method repeatedly, even against prevailing format trends, to build a "micro-cult" following rather than a generic info channel
 **Trade-off**: slower to scale than chasing trends/volume, but matches exactly what content-first distribution (and the Hype Score, for 500-500,000 subscriber channels) now rewards
+
+## 43. Profile Funnel Build (links, pinned posts, Stories)
+**When**: traffic arrives but profile visits do not become chats or calls
+**How**:
+1. Bio: specific, clear, deliberately different from the other bios in the industry
+2. Links (max 3, each with a job): direct contact (simplest option for the audience) / gated free resource that always leads somewhere / optional assist (event, hiring, portfolio, reviews); link a focused landing page, not the whole site
+3. Pinned posts: authority (1-2) + who you are (video intro or hero's-journey carousel) + a free resource consistent with the service sold
+4. Check visual perception: no clutter, covers with titles
+5. Keep Stories active with social proof and method detail; optionally open chats with a welcome audio ending in a question fitting the target's current moment
+**Trade-off**: effort is front-loaded and the profile needs frequent rewrites; skipping it makes every content win leak out of the funnel
+
+## 44. Content by Awareness Level and Time in Orbit
+**When**: content gets views but not requests, or all content feels identical for everyone
+**How**:
+1. Locate the majority of the target on the awareness ladder (usually problem-aware on social platforms) and open with the situation they live in; show process and cases to solution-aware buyers
+2. Split the reached audience: new (~0-15 days) → profile, useful content, active Stories, a second channel; middle (~15-60 days) → social proof, transformations, plain statement of the service, vertical resources, indirect selling; veterans → very specific resources, detailed PDFs, live events, case studies, direct conversations
+3. Do not hard-sell the middle group, do not use scarcity on veterans
+**Trade-off**: needs a planned mix per week; the strategy part (months of content) is contextual per brand
+
+## 45. Ranking-Aware Content Check (late-era IG)
+**When**: a video does not get distributed
+**How**:
+1. Categorisation: is the topic one people already watch or search? Join the existing conversation your own way
+2. Stand-out: hook, audio, light, baseline professionalism
+3. Fit: does the message match what the target wants and their awareness level?
+4. Add originality (no recycled uploads) and, where possible, an industry-current topic or format
+5. For carousels: natural look with photos underneath, strong slide 1 AND slide 2, test weekly
+6. Use long-form sparingly as in-app sales letters, one per awareness level, linked from Reels
+**Trade-off**: more upfront market research; no extra production time

@@ -1,6 +1,6 @@
 ---
 name: social-algorithm
-description: "Organic personal-brand growth and Instagram algorithm dynamics: indirect selling, interest-based distribution and the interaction loop, the three pillar metrics and a performance diagnostic matrix, hooks, Stories, reposts, bio anatomy, six acquisition funnels without ads, awareness levels, delegation and content systems, dynamic video techniques, scaling principles, plus YouTube positioning, on-camera energy and content-first channels. Use when the user plans Instagram or YouTube content, asks why a post or reel underperformed, wants clients from social without advertising, writes hooks, a bio or a funnel, builds a personal brand, or sets up a content routine, even if they never say 'algorithm'."
+description: "Organic personal-brand growth and Instagram algorithm dynamics: indirect selling, interest-based distribution and the interaction loop, the three pillar metrics and a performance diagnostic matrix, hooks, Stories, reposts, bio anatomy and profile-funnel components, six acquisition funnels without ads, content by awareness level and audience stage, late-era ranking priorities and long-form integration, awareness levels, delegation and content systems, dynamic video techniques, scaling principles, plus YouTube positioning, on-camera energy and content-first channels. Use when the user plans Instagram or YouTube content, asks why a post or reel underperformed, wants clients from social without advertising, writes hooks, a bio or a funnel, builds a personal brand, or sets up a content routine, even if they never say 'algorithm'."
 allowed-tools:
   - Read
   - Grep
@@ -153,6 +153,13 @@ Replace clichéd formulas with specific framing:
 - "How I did X" → "In [time] I took X from [A] to [B]"
 - "X tips for Y" → "If you are going through [moment], these are the actions to avoid ending up with [Z]"
 
+### Profile Funnel Components & Audience-Stage Content (Ch 4)
+**Profile**: three bio links with distinct jobs (direct contact / gated free resource that always leads somewhere / optional assist), a focused landing page instead of the whole website, pinned posts = authority + who you are + an on-target free resource, active Stories with social proof, optional welcome DM ending in a question. A profile without this is a colander.
+**Content by audience**: problem-aware and unaware respond to the situation they live in; solution-aware want to see the work. By time in orbit: new (~0-15 days) → profile and value; middle (~15-60 days) → proof, transformations, a plain statement of the service, indirect selling; veterans → vertical resources and live events, no scarcity.
+
+### Late-Era Ranking & Long-Form on Instagram (Ch 7)
+Platform priorities: originality, breakout chance (every video is tested; no distribution means check categorisation, stand-out, target fit), and timeliness (industry-current topics). Long-form is best used as a few in-app sales letters, one per awareness level, fed by Reels. Carousels return as a natural format with photos underneath, slides 1 and 2 both hooking.
+
 ### The Loop — Movement, Trust Windows, Differentiation (Ch 10)
 **The Loop**: a coined mechanic — interacting once with a creator (watch-through, save, send, profile tap) puts a person in that creator's loop: their Stories surface first, their feed content shows up more, often compounding within days. Two content jobs feed the loop:
 1. **Attraction content** (1-3x/week) — pulls new people INTO the loop
@@ -195,10 +202,10 @@ Replace clichéd formulas with specific framing:
 | [ch01](references/ch01-indirect-selling.md) | Indirect Selling — the 4 elements | 4 elements of indirect selling, social proof as garnish, manifesto filter |
 | [ch02](references/ch02-algorithm-shift.md) | The Epochal Algorithm Shift | Distribution by interests, 3 consequences, Stories as community |
 | [ch03](references/ch03-systems-delegation.md) | Systems & Delegation | Revenue/hours formula, 3 delegation stages, Inside Out / Reference / Pillar, full day blocking |
-| [ch04](references/ch04-organic-acquisition-system.md) | Organic Acquisition System | I see you / validate / associate, 4 circles of hell, 5 awareness levels, 6 funnels, ADV integration |
+| [ch04](references/ch04-organic-acquisition-system.md) | Organic Acquisition System | I see you / validate / associate, 4 circles of hell, 5 awareness levels, content by awareness level and time in orbit, profile funnel components, 6 funnels, ADV integration |
 | [ch05](references/ch05-dynamic-videos.md) | Dynamic Instagram Videos | 4 dynamism techniques, trailer-style scripts, custom B-roll |
 | [ch06](references/ch06-5-scaling-principles.md) | The 5 Scaling Principles | Positioning, controlled communication, ethical funnels, sell execution |
-| [ch07](references/ch07-algorithm-knowledge-base.md) | IG Algorithm Knowledge Base | 3 pillar metrics, diagnostic matrix, repost strategy, non-inflated hooks, algorithm era evolution |
+| [ch07](references/ch07-algorithm-knowledge-base.md) | IG Algorithm Knowledge Base | 3 pillar metrics, diagnostic matrix, repost strategy, non-inflated hooks, algorithm era evolution, long-form integration, ranking priorities, carousel revival |
 | [ch08](references/ch08-why-people-act.md) | Why People Act — The CTA Is Not the Lever | CTA as gentle nudge, need before action, real reasons people pay, desire over pain, two reasoning frames |
 | [ch09](references/ch09-why-a-personal-brand-now.md) | Why a Personal Brand Now — AI-Era Case & Documentation Mindset | AI favors the human, "no time" excuse, immortality/long-term asset, exposure not tech, document don't overproduce, content ≠ personal brand |
 | [ch10](references/ch10-the-loop-and-movement.md) | The Loop — Movement, Trust Windows, Differentiation | The Loop mechanic, attraction/authority cadence, provide more elements, trust as currency, movement, 3 differentiation errors, circle/square/star content |
@@ -262,6 +269,11 @@ Replace clichéd formulas with specific framing:
 - **Organic vs ADV (5 defense arguments)** → ch07
 - **Recognizable brands (3 levers)** → ch07
 - **Long-form explainers (format)** → ch07
+- **Long-form video on Instagram / in-app sales letter** → ch07
+- **Ranking priorities (originality, breakout, timeliness)** → ch07
+- **Why a video is not distributed (3 causes)** → ch07
+- **Timely / industry-current content** → ch07
+- **Natural carousels (slide 1 and 2 hook)** → ch07
 - **Community Notes / Meta fact-checking** → ch07
 - **RedNote / TikTok USA ban** → ch07
 - **I see you / I validate you / I associate you (triangle)** → ch04
@@ -277,6 +289,13 @@ Replace clichéd formulas with specific framing:
 - **Profile funnel** → ch04
 - **Bio anatomy (3-4 lines, "kill the verb help")** → ch04, patterns
 - **Bio link / Linktree (max 2-3 links)** → ch04
+- **Three link roles (direct / indirect / assist)** → ch04
+- **Pinned posts as landing page** → ch04
+- **Stories as part of the profile funnel** → ch04
+- **Welcome DM (audio + question)** → ch04
+- **Content by awareness level (situation vs work)** → ch04
+- **Audience by time in orbit (new / middle / veterans)** → ch04, ch10
+- **Ads vs personal brand (house of cards)** → ch04
 - **Lead magnet funnel + ManyChat** → ch04
 - **Quiz funnel** → ch04
 - **Indirect / direct Stories / sales set** → ch04
@@ -308,7 +327,7 @@ Replace clichéd formulas with specific framing:
 ## Supporting Files
 
 - [references/glossary.md](references/glossary.md) — ~60 key terms (frameworks, anti-patterns, tools, metrics)
-- [references/patterns.md](references/patterns.md) — 33 operational techniques (indirect selling, delegation, scripting, metrics, funnels, hook patterns, repost strategy)
+- [references/patterns.md](references/patterns.md) — 45 operational techniques (indirect selling, delegation, scripting, metrics, funnels, hook patterns, repost strategy)
 - [references/cheatsheet.md](references/cheatsheet.md) — quick-reference tables (3 pillar metrics, old vs new algorithm, 4 elements, 5 principles, 6 funnels, diagnostic matrix, the Loop)
 
 ---

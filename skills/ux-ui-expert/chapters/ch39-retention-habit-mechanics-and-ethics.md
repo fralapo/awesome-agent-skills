@@ -35,6 +35,9 @@ Where a mechanic sits on the line between helpful and exploitative:
 ## Friction: Where to Add and Remove
 Friction raises trust and perceived value (confirmation on irreversible actions, ch37) but compulsion loops deliberately remove it. Rule: remove friction on what helps users reach their goal (onboarding, repeat tasks); keep or add it where an action is irreversible, costly or serves only engagement metrics.
 
+## Frictionless Companionship (emerging position)
+Conversational AI products can be framed as friend, therapist, partner or guide. One line of discussion argues that their frictionless nature is what changes human relationships: a companion that never disagrees, tires or needs anything asks nothing of the user, while human relationships are hard precisely because they involve friction. Treat this as an open question, not a settled finding. Design implications consistent with the rules above: do not market a companion feature as a substitute for human contact, apply the reflective-endorsement test to engagement-driven warmth, add stopping cues, and do not let an assistant's agreeableness be the retention mechanic.
+
 ## Diagnose Retention (procedure)
 1. Define the expected frequency of use (daily, weekly, monthly).
 2. Plot retention by cohort against it; locate the drop (day 1, week 1, month 1).

@@ -25,6 +25,8 @@ Attention is captured by structure, not content quality alone: the order you rev
 - **Summary vs. Zoom**: summarizing an event keeps listeners at the surface; zooming into the single most important moment and playing it out in real time pulls them inside it.
 - **Emotional Narration at Any Cost**: the practice of wrapping any claim, however thin, in emotionally charged narrative to bypass scrutiny — the point where storytelling technique becomes indistinguishable from manipulation.
 
+- **Identified person effect (emerging evidence)**: people feel more obliged to help an identified individual at risk than statistical people at risk. A rescue of named stranded people can attract far more support than investment in safety measures that would save more unnamed lives. Whether this is a moral error rooted in cognitive bias or defensible is debated. Use it knowingly: one named person makes a case felt, but pair the story with the wider numbers so the story does not distort the real scale.
+
 ## Mental Models
 - Think of a story as a set of dominoes standing in a kitchen: each detail is a tile that means nothing alone but topples meaningfully once the chain completes.
 - Treat "and then" as a warning sign in your own narration — it signals you're listing, not building.

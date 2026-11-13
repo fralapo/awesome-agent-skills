@@ -34,6 +34,8 @@ UI/UX design decisions work by deliberately engaging the senses (sight, touch, h
 - **Sensory channels available to digital product design**: sight, touch (haptics), and hearing are directly influenceable through a screen/device; smell and taste are not (a hard boundary on what interface design can currently manipulate).
 - **Genetic set point**: a baseline level of happiness/satisfaction an individual tends to return to regardless of temporary positive or negative circumstances — the underlying reason hedonic adaptation occurs.
 
+- **Choice architecture and nudges (emerging position)**: small changes in how options are presented can shift behaviour without removing any option. Debate centres on legitimacy, especially when institutions use them. Practical reading for UI: the layout, order and defaults of a choice are never neutral, so decide them on purpose, test the effect, and apply the ch39 reflective-endorsement test so a nudge serves the user's own goal and not only the metric.
+
 ## Mental Models
 - Treat "why does this look/feel more premium with less on the page?" as processing fluency at work — perceived quality is often inversely related to information density, not directly related to it.
 - When an interface feels compulsively checkable, look first for an intermittent-reinforcement loop (unpredictable rewards) rather than assuming it's simply "engaging content."
