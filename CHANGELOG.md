@@ -2,6 +2,13 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.26.0 (2026-11-13)
+
+- New skill `ai-ml-concepts`: 12 chapters (essential mathematics, probability and Bayes, information, learning as optimization, generalization, architectures, transformers and attention, LLM training and scaling, evaluation and benchmarks, failure modes, safety and interpretability, research principles).
+- New skill `economics-finance`: 9 chapters on money creation, central banks and rates, inflation, public debt, exchange rates, financial crises, housing and rent, and how economists disagree.
+- New skill `scientific-thinking`: 12 chapters on method, statistics, Bayes, cognition and belief, calibration, research failures, prediction and chaos, game theory, limits of mathematics, discovery, wellbeing and a claim-checking checklist.
+- New skill `history-geopolitics`: 8 chapters on analysing collapse and resilience (environment, trade, elites, case sheets, limits of historical analogy).
+
 ## 1.25.0 (2026-11-13)
 
 - software-architecture extended from 11 to 20 chapters and 60 patterns: operating-system cost, networking and protocols, database internals and transactions, post-mortems of real incidents, proxies and timeouts, pragmatic domain modeling, boundaries and modular monolith, event-driven and messaging patterns, workflows and sagas.

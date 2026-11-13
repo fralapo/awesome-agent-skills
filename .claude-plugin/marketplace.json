@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Marketplace for awesome-agent-skills — one plugin bundling all skills.",
-    "version": "1.25.0"
+    "version": "1.26.0"
   },
   "plugins": [
     {
       "name": "awesome-agent-skills",
       "source": "./",
-      "description": "30 agent skills in one plugin: design roles (creative director, art director, graphic designer, UX/UI), presentations and public speaking, marketing, brand, pricing and freelance practice, AI image and video prompting, FFmpeg, ArtCraft apps over MCP, coding with agents, software architecture and engineering practice, README writing and more. Also discoverable by OpenAI Codex CLI via .agents/skills/.",
-      "version": "1.25.0",
+      "description": "34 agent skills in one plugin: design roles (creative director, art director, graphic designer, UX/UI), presentations and public speaking, marketing, brand, pricing and freelance practice, AI image and video prompting, FFmpeg, ArtCraft apps over MCP, coding with agents, software architecture and engineering practice, AI and ML concepts, economics, scientific thinking, history, README writing and more. Also discoverable by OpenAI Codex CLI via .agents/skills/.",
+      "version": "1.26.0",
       "author": {
         "name": "fralapo",
         "url": "https://github.com/fralapo"

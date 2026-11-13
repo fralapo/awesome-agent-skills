@@ -1,0 +1,109 @@
+---
+name: economics-finance
+description: "Macroeconomics and finance reasoning for analysts, students and decision makers: how banks create money; what central banks do with policy rates, forward guidance, balance sheets, QE and monetary finance; why inflation happens (measurement, demand pull, supply push, money, expectations, wages and profits, and where the schools of thought disagree); when public debt is sustainable (debt-to-GDP, interest rate versus growth, austerity, doom loops); exchange rates, pegs, currency boards and dollarization; banking, sovereign, property and currency crises; why housing is expensive; rent control versus building and social housing; and how to reason like an economist (incentives, trade-offs, evidence versus theory). Use when the user asks why prices, rents, rates, debt or a currency move, wants a macro, housing or monetary policy evaluated, is reading a crisis or central bank story, or wants the strongest case on each side. Separates mechanism from contested position. No investment advice or market forecasts."
+allowed-tools:
+  - Read
+  - Grep
+argument-hint: [question, policy, mechanism, or chapter number]
+---
+
+# Economics and Finance
+**Chapters**: 9 | **Corpus**: ~15 theoretical topics | **Generated**: 2026-11-13
+
+## Role and Boundaries
+
+This skill **decides how to reason about money, prices, public finance, exchange rates, crises and housing**: which mechanism is operating, who gains and pays, what the evidence shows, which parts are settled and which are contested between schools. It gives causal chains, comparison tables and checklists; the user owns the judgment and any decision.
+
+| This skill decides | This skill hands off |
+|---|---|
+| Mechanism and causal chain of a monetary, fiscal, external or housing claim | Buying, selling or timing any asset, portfolio or tax advice |
+| Trade-offs and who bears the cost; what the rival school says | Legal, accounting or compliance advice |
+| How strong a piece of evidence is and how old a figure is | Statistical method and study design in depth → `scientific-thinking` |
+| Where economists agree and where they dissent | Political history and geopolitics behind a crisis → `history-geopolitics` |
+| Reading a crisis, a central bank move or a housing policy as a trade-off study | Company valuation, pricing strategy and deals → `pricing-and-sales-negotiation` |
+
+**Stay in lane.** No investment advice, no market or price forecasts, no recommendation to buy or sell. Figures are labelled with their date or as snapshots; where a point is unclear the chapter says so. General textbook background is marked as such.
+
+## Facts vs Positions
+
+- **Mechanism / settled fact**: a bank lending creates a deposit; QE swaps bonds for reserves; the equation of exchange holds by definition; a rent cap lowers rents for covered tenants.
+- **Position**: written "(position)" or "In this model...". Examples: how much of the post-pandemic inflation is demand versus supply, whether QE caused it, MMT-type claims about the price level, whether dollarization is wise, whether public housing at scale can be copied. Each carries the rival view.
+- Every concept in the chapters has four fields: **Thesis**, **Mechanism** (the causal chain), **Trade-off**, **Counter-view** (or **Does not hold when**). Use the last field before recommending a policy.
+
+## How to Use This Skill
+
+Diagnose before prescribing: which country and date, which variable (level or change), what the data actually measure, and which actor decides.
+
+| Task | Start with | Then |
+|---|---|---|
+| "How do banks create money? Is the multiplier a myth?" | [ch01](chapters/ch01-money-banks-and-money-creation.md) | ch02 |
+| What do central banks do; QE; "money printing"; monetary finance | [ch02](chapters/ch02-central-banks-rates-qe-and-monetary-finance.md) | ch03 |
+| Why is inflation high or low; which theory is right; CPI quirks | [ch03](chapters/ch03-inflation-measurement-causes-and-schools.md) | ch02, ch09 |
+| Is this debt sustainable; austerity; the interest-growth gap | [ch04](chapters/ch04-public-debt-and-fiscal-sustainability.md) | ch02, ch06 |
+| Exchange rate, devaluation, peg, dollarization, currency union | [ch05](chapters/ch05-exchange-rates-currency-regimes-and-external-position.md) | ch04, ch06 |
+| Bank failure, sovereign default, property bust, currency crash | [ch06](chapters/ch06-financial-crises-banking-sovereign-property-currency.md) | ch01, ch04, ch05 |
+| Why houses are expensive; NIMBY, upzoning, mortgage credit | [ch07](chapters/ch07-housing-prices-and-affordability.md) | ch08, ch03 |
+| Rent control, filtering, social housing, Vienna | [ch08](chapters/ch08-rents-rent-control-and-social-housing.md) | ch07, ch09 |
+| Judging any claim; incentives; consensus map; reading evidence | [ch09](chapters/ch09-how-to-reason-in-economics.md) | any |
+| Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
+
+## The Core Principles (recurrence order)
+
+1. **Name the issuer and the promise.** Money is accepted debt; ask who issues it and what redeems it.
+2. **Banks create deposits when they lend**; central banks set prices (rates) and reserves, not the total money stock.
+3. **Central bank tools work through finance.** Rates, guidance and balance sheet change credit and asset prices first; goods prices follow, partly.
+4. **QE is bonds for reserves, not cheques to households**; its clearest effect is on asset prices.
+5. **Inflation has several routes**: demand, supply, money, expectations, wages and profits, exchange rate, sector shifts. Check each against data before choosing a school.
+6. **Debt sustainability is r versus g and the path**, not a magic ratio; the currency of issue matters.
+7. **A government is not a household**: cutting its spending can cut its income.
+8. **An exchange-rate regime is a trade of credibility for flexibility**; giving up the currency tames inflation and costs buffers.
+9. **Crises have slow causes and fast triggers**; direction is knowable, timing is not.
+10. **Housing is both consumption and investment**; test shortage, speculation and credit separately.
+11. **Price caps protect insiders and shift costs to outsiders**; the supply response decides the outcome.
+12. **Theory proposes, evidence disposes**; label every contested claim as a position and give the rival view.
+
+## Chapter Index
+
+1. [Money, banks and money creation](chapters/ch01-money-banks-and-money-creation.md)
+2. [Central banks, interest rates, QE and monetary finance](chapters/ch02-central-banks-rates-qe-and-monetary-finance.md)
+3. [Inflation: measurement, causes and schools of thought](chapters/ch03-inflation-measurement-causes-and-schools.md)
+4. [Public debt and fiscal sustainability](chapters/ch04-public-debt-and-fiscal-sustainability.md)
+5. [Exchange rates, currency regimes and the external position](chapters/ch05-exchange-rates-currency-regimes-and-external-position.md)
+6. [Financial crises: banking, sovereign, property and currency](chapters/ch06-financial-crises-banking-sovereign-property-currency.md)
+7. [Housing prices and affordability](chapters/ch07-housing-prices-and-affordability.md)
+8. [Rents, rent control and social housing](chapters/ch08-rents-rent-control-and-social-housing.md)
+9. [How to reason in economics](chapters/ch09-how-to-reason-in-economics.md)
+
+## Topic Index
+
+- **Asset price inflation, financialisation** → ch02, ch06, ch07
+- **Austerity, fiscal multiplier** → ch04
+- **Balance of payments (textbook outline)** → ch05
+- **Bank run, deposit insurance, moral hazard, lender of last resort** → ch01, ch02, ch06
+- **Base effects, CPI basket, owner's equivalent rent** → ch03
+- **Central bank history** → ch02
+- **Currency board, peg, dollarization, seigniorage** → ch05
+- **Debt-to-GDP, doom loop, r versus g, financial repression** → ch04
+- **Exchange rate determination (parity, interest, expectations)** → ch05
+- **Expectations, adaptive versus forward-looking** → ch03, ch02
+- **Filtering, luxury building** → ch08
+- **Forward guidance, quantitative tightening** → ch02
+- **Hyperinflation** → ch06, ch02
+- **Insiders and outsiders** → ch08, ch09
+- **Monetary finance, QE versus money printing** → ch02
+- **Money multiplier, credit money, quantity theory** → ch01, ch03
+- **MMT, fiscal theory of the price level, profit-led inflation** → ch03
+- **NIMBY, upzoning, collective action** → ch07, ch09
+- **Property bust channels (investment, consumption, sentiment)** → ch06
+- **Rent control evidence, public housing, Vienna** → ch08
+- **Zero lower bound** → ch02
+
+## Related Skills
+
+- `scientific-thinking`: reading studies, evidence quality and causal inference in more depth.
+- `history-geopolitics`: the political and historical context behind crises, sanctions and currency blocs.
+- `pricing-and-sales-negotiation`: microeconomic pricing at firm level.
+
+## Scope & Limits
+
+Practical theory about money and banking, central banking, inflation theory, public debt, exchange-rate regimes, crises (banking, sovereign, property, currency), housing prices and rent policy, mostly opinion-led and then marked as position with a rival view. Not covered in depth: the balance of payments and global imbalances (outline only), international financial architecture, derivatives and market microstructure, tax design, labour economics, development and growth theory, formal macro modelling, and country statistics beyond the dated snapshots quoted. Figures (rates, ratios, counts of studies, projections) are snapshots tied to the dates given and change; re-check before relying on them. The skill gives no investment, tax, legal or forecasting guarantee.
