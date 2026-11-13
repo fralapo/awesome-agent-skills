@@ -73,7 +73,7 @@ Interests, not positions → objective standards for residual conflict → optio
 | [ch05](references/ch05-value-proposition-business-model.md) | Value Proposition & Business Model Design | Four U's, BLAC, Three D's, CORE, MVS, Multipliers vs. Levers |
 | [ch06](references/ch06-startup-execution-team-fundraising.md) | Startup Execution, Team, Culture & Fundraising | Founder readiness, the Ungame, hiring frameworks, MAT, fundraising stages |
 | [ch07](references/ch07-sales-negotiation-persuasion.md) | Sales, Negotiation & Persuasion | B2B pipeline, 4 Pillars, Getting to Yes, 10/20/30 pitch rule, CENTER |
-| [ch08](references/ch08-psychology-leadership-effectiveness.md) | Consumer Psychology, Leadership & Personal Effectiveness | Compromise Effect, P/M/O framework, Netflix culture, 10X Rule, matching markets |
+| [ch08](references/ch08-psychology-leadership-effectiveness.md) | Consumer Psychology, Leadership & Personal Effectiveness | Compromise Effect, P/M/O framework, Netflix culture, 10X Rule, matching markets, dignity and meaningful work, stereotype threat and evaluation bias, identified victim effect, social networks, decision timing |
 | [ch09](references/ch09-inbound-social-product-marketing.md) | Inbound Marketing, Social Growth & Product Marketing | Inbound loop, SEO/content tactics, social-media growth, product marketing/PM careers, customer success ops |
 
 ## Topic Index
@@ -86,6 +86,9 @@ Interests, not positions → objective standards for residual conflict → optio
 - **Branding / brand architecture** → ch02
 - **Business model design** → ch05
 - **Consumer psychology (Compromise Effect, reviews)** → ch08
+- **Dignity, trust and meaningful work; stereotype threat and evaluation bias** → ch08
+- **Story vs statistics (identified victim effect); network structure and influence** → ch08
+- **Decision timing** → ch08
 - **Customer success operations** → ch09
 - **Distribution / channel strategy** → ch03
 - **Five Forces / industry analysis** → ch04

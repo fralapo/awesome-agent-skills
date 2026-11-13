@@ -23,6 +23,9 @@ A story persuades not because of what happened but because of the specific, sens
 - **Emotional stickiness**: the retention advantage stories have over raw facts — facts without narrative framing are forgotten within minutes; the same facts embedded in a story are recalled with far higher accuracy.
 - **Story as doorway**: the narrative gets attention; the meaning is what the audience actually leaves with.
 
+- **Story, not opinion, when collecting stories (emerging position)**: opinions are shared, stories are unique, and asking for an opinion makes the person perform a position. To reach a story, circle strong emotions (when were you most afraid, angriest, saddest, guilty?), then follow with detail questions (where was everyone sitting, what were you wearing). A prepared message shows as squared shoulders; steer to something mundane and concrete. People clam up in front of friends, so approach them alone. Ask afterwards whether it was a good experience, remove on request, and never alter someone's words later.
+- **Rescue twist (emerging position)**: a plot twist that exists because the writer was stuck (a sudden spaceship) is escape from the hard decision. The story really begins at that moment, with its consequences. Characters act from what they want and what blocks them, and shift with the setting. The opening also teaches the reader how to read everything after it.
+
 ## Mental Models
 - Think of a story as a **launchpad, not the whole talk** — the 5-line core is scaffolding you build sensory detail onto, not a rigid script.
 - Treat detail as a **budget, not an obligation** — spend it at the emotional peak, not in the setup.

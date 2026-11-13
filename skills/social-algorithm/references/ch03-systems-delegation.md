@@ -86,6 +86,21 @@ You think, script, record. Someone else edits and publishes.
 
 ---
 
+### Running the Creative Director Role (operating detail)
+- **Not an SMM**: in this model the person next to the personal brand is a *direction and strategy* role with real marketing and content knowledge, not an operator who sends scripts. An SMM or agency with many clients cannot hold the mental space of one personal brand (spotting a reference and thinking "this could be replicated with this person"). Operational editing alone only removes hours; it does not produce strategy, sales or results.
+- **Why it adds more than time**: an outside eye who knows the person and the business extracts what the founder alone cannot (warm-up questions before an unscripted take). The founder is often a technician all day and lacks the mental space to be creative; a content director frees that part of the brain.
+- **Seniority**: junior profiles rarely fit; the role needs trained judgment (marketing, content structure, funnel awareness). Start with one full-time, committed person who also edits, later adding an operator and keeping the director on direction.
+- **Alignment kickoff**: sit down first and agree the direction: references, tone, revenue goals, where the company is going. Expect a rebrand of the content style when taking over a personal brand. Plan **about three months of run-in** (the early share of accepted inputs may be about 1 in 10, later nearly all).
+- **Weekly touchpoint**: at least one call a week (more at the start); in-person time speeds comprehension.
+- **Reference flow**: a shared chat (any app) where both people send references and ideas all year; the director builds the next session's **input document** from three sources: shared references, a target file (what the ideal client wants, feels and fears) and the founder's own concepts. The founder reviews and develops the document alone or in a short joint session (about two hours can define two months of content).
+- **Recording day**: one or two blocked days per batch; the director holds responsibility for actually getting the material shot, even when the founder is not in the mood. Group takes by **location**; decide per input the orientation, setting and format (raw horizontal for personal takes; vertical with room for overlays for technical ones) so no time is lost improvising on set. In this model one or two focus days can cover one or two months of publishing.
+- **Afterwards**: sort files by orientation, upload to a shared asset space, build the publishing calendar and leave editing notes for the editor.
+- **Founder role**: the founder is the bottleneck for approval only: is this aligned with me, can it go out? Everything else is delegated.
+- **AI**: useful for context (a model loaded with the founder's calls and style); scripts remain written by humans, with a human filter on every reference.
+- **Fit**: the person must also be able to travel with and fit in the founder's contexts; human compatibility matters.
+
+---
+
 ## 4. Delegation Anti-Patterns
 
 ### Never delegate YOURSELF

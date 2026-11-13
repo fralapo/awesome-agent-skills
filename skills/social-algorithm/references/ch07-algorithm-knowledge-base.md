@@ -196,6 +196,15 @@ Know the audience + what they want + what they expect. Reply to comments with **
 
 ---
 
+### Categorisation Check and Trial Reels as a Training Tool (reported tactic)
+Two signals decide whether small accounts break out: **categorisation** (the system classifies you as an active creator in a topic and as a producer, not only a consumer) and **dwell time** (people stay and finish, more than they stop).
+- **Check categorisation**: scroll your Explore and Reels feed on the professional account; if what it suggests is unrelated to your positioning, the account is probably mislabelled. Some profiles also show a "creators" subset inside the followers list.
+- **Re-run best performers as Trial Reels** (never to the feed): pull the reels of the last year that brought the most views *and* followers and republish them repeatedly through the trial feature. In this account's reported experience there was no visible frequency limit and no penalty, in contrast with the deduplication caution in Ch 4; treat the platform behaviour as changeable and watch for it.
+- **Test hooks**: record the central body once and three different intros, then compare in trial mode before publishing the winner officially.
+- **Watch who arrives**: check that the new viewers are in target; stop content that pulls the wrong audience.
+- **Catch cold traffic**: attach a keyword automation (free guide) to trial content; a cold viewer who does not follow is otherwise lost.
+- Run the routine for several weeks so the system learns the right audience.
+
 ## 8. Documented Historical Anti-Patterns
 - **Follow / unfollow** (2018-2019) → soft ban
 - **Engagement bots** → recurring ban waves

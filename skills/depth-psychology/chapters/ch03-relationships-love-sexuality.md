@@ -57,7 +57,7 @@ When to use: to frame the difference between wanting a partner and needing one.
 - **Homophobia as a symptom:** intense hostility toward homosexuality is read as a sign that the theme "touches" the person inside: fear of being dominated or "passive", tied to the supposed superiority of masculine over feminine. An intrusive "you are gay" inner voice is distinguished from actual orientation. (The causal attributions are flagged in Caveats.)
 - **Value as arbitrary:** no sex, race or species is worth more. One can only say a person is *destructive* because they harm others. Equality is a social right, while evolution lies in diversity.
 
-- **Frictionless relationships with machines (emerging position, outside the psychoanalytic model):** chatbots can be offered as friend, therapist, partner or guide. A current line of discussion asks what is lost when human connection is replaced by something frictionless, and how that affects real relationships. Treat it as an open question; do not use it to diagnose or judge a person who uses such tools.
+- **Chatbots as companions:** a sycophantic, always-available system offers connection without friction; the evidence on loneliness, attachment and exit manipulation is summarised in ch09 (outside the psychoanalytic model) and in `ux-ui-expert` ch39. Do not use it to diagnose or judge a person who uses such tools.
 
 ## Mental Models
 - **Present reaction = past wound + present trigger.** Before reading a reaction as a judgement on the current situation, ask how much of it is out of scale. The model treats the excess as the historical part.

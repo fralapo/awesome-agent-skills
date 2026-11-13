@@ -63,6 +63,15 @@ Ask customers about 20 questions to find what matters most; define attributes, n
 ### 11. Direct outreach formula
 Be specific (show you studied their work), ask an open question, build the relationship before any request, find the right person, make the gesture personal: something they would like + personality + evidence you know them. A handwritten, physical, unexpected item beats a branded mailer.
 
+### 12. Commit to a structure of time and craft, not to a perfect idea
+A durable content brand can start from a commitment ("I will arrange my life so I can do this every day") rather than from a finished concept. Iterate toward what is rarer: from generic images to people, from people to a spoken line, from a line to a story. The defensible edge is the repeated skill competitors with more resources have not practised thousands of times (approaching strangers, drawing out a story). Keep the format narrow: a storytelling brand that is not assigned a mission is easier to trust, because the maker is listening instead of waiting for opinions that fit an agenda.
+
+### 13. Culture of the space
+A comment space becomes what it rewards. Content that does not feed judgment or mockery makes those visitors bored and they leave, leaving supportive people; a few explicit etiquette posts and visible care from the maker reinforce it. Protect subjects: remove on request and never edit their words afterwards, because the people in the work are the asset.
+
+### 14. Social is a tool, not a strategy
+"We need a social media strategy" is not a goal. Start from what the organisation is trying to do and the brand promise; then choose channels. Assume attention is scarce (people sift, not search), causes compete for the same care, and the audience starts from zero (curse of knowledge): give the big picture first. See `marketing-mba` ch09 for channel economics.
+
 ## How to Apply (step by step)
 1. Name the smallest viable audience and test it (crowd test).
 2. Set a rhythm you can keep for 90 days; choose the lowest-friction platform.

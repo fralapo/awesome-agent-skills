@@ -1,6 +1,6 @@
 ---
 name: depth-psychology
-description: "Depth-psychology knowledge base (psychoanalytic lens): ego vs. false ego, the conditioned mind vs. the soul, inner child, repression and projection, fear/anxiety/addiction read as symptoms of childhood experience, partner-as-parent dynamics, family and parenting, psychotherapy and dream reading, power, manipulation and coercive control, group conformity, workplace respect, and myths/religion read as psychological projection. Use when you need to understand why a person, character, team or audience behaves a certain way, read the motive behind hostility, jealousy, insecurity or blind loyalty, write psychologically credible characters or brand stories with archetypes, spot manipulation red flags, frame feedback without triggering defences, or reflect on one's own patterns — even if the user just says 'psychology', 'why does he act like this', 'inner child', 'ego', 'projection', 'manipulation' or 'what does this dream mean'. Separates this model's own claims from mainstream psychology; not clinical advice."
+description: "Depth-psychology knowledge base (psychoanalytic lens): ego vs. false ego, the conditioned mind vs. the soul, inner child, repression and projection, fear, anxiety and addiction read as childhood symptoms, partner-as-parent dynamics, family and parenting, psychotherapy and dream reading, power, manipulation and coercive control, group conformity and myths/religion read as psychological projection, plus a short empirical chapter (loneliness, perfectionism, regret, memory). Use to understand why a person, character, team or audience behaves a certain way, read the motive behind hostility, jealousy or blind loyalty, write psychologically credible characters or brand stories with archetypes, spot manipulation red flags, frame feedback without triggering defences, or reflect on one's own patterns — even if the user just says 'psychology', 'why does he act like this', 'inner child', 'projection' or 'what does this dream mean'. Separates this model's own claims from mainstream psychology; not clinical advice."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [topic, concept name, or chapter number]
 ---
 
 # Depth Psychology
-**Chapters**: 8 | **Corpus**: ~185 theoretical transcripts on depth psychology | **Generated**: 2026-11-05
+**Chapters**: 9 | **Corpus**: ~185 theoretical transcripts on depth psychology | **Generated**: 2026-11-05
 
 ## How to Use This Skill
 
@@ -58,6 +58,7 @@ argument-hint: [topic, concept name, or chapter number]
 | [ch06](chapters/ch06-psychotherapy-unconscious-dreams.md) | Psychotherapy, the Unconscious and Dreams | effective therapy, good-analyst checklist, personality integrators, dream symbols |
 | [ch07](chapters/ch07-power-manipulation-society.md) | Power, Manipulation, Violence and Society | idealisation/demonisation, staying on the line, coercive-control red flags, respect ladder |
 | [ch08](chapters/ch08-myths-symbols-belief.md) | Myths, Symbols and Belief | God as projected parent, belief package, just-world belief, myth templates |
+| [ch09](chapters/ch09-experimental-psychology-complements.md) | Experimental-Psychology Complements (outside the psychoanalytic model) | loneliness kinds and spiral, perfectionism and mattering, regret vs remorse, reveal/conceal two-by-two, reconstructed memory, adult change |
 
 ## Topic Index
 
@@ -69,6 +70,10 @@ argument-hint: [topic, concept name, or chapter number]
 - **Brand / audience insight** → ch01, ch02, ch07 (Applications sections)
 - **Bullying, violence, war** → ch07
 - **Children, parenting, siblings, school** → ch04
+- **Loneliness, belonging, companion chatbots** → ch09, ch03
+- **Perfectionism, mattering, psychological safety** → ch09, ch01
+- **Regret, remorse, disclosure** → ch09
+- **Memory (reconstructed), change in adults** → ch09
 - **Dreams** → ch06
 - **Ego, self-esteem, insecurity, narcissism** → ch01, ch05
 - **Feedback, hostile people, team climate** → ch01, ch07

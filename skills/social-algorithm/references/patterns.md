@@ -360,3 +360,71 @@ With both in place the CTA is optional; people reach the link and act unprompted
 5. For carousels: natural look with photos underneath, strong slide 1 AND slide 2, test weekly
 6. Use long-form sparingly as in-app sales letters, one per awareness level, linked from Reels
 **Trade-off**: more upfront market research; no extra production time
+
+## 46. Funnel Flow Tracking and Backward Planning
+**When**: monthly revenue swings, no clue why a month was weak, or a revenue goal with no plan
+**How**:
+1. List the steps and count survivors per touchpoint: profile traffic, follow conversion, chats opened, chats in target, chats moved forward, booking link sent, call booked, call closed
+2. Work backwards from the goal: clients needed ÷ closing rate = calls; calls ÷ chat-to-call rate = chats; chats = Stories, resources, outreach and content volume needed
+3. Translate unrealistic goals into capacity (clients that can be served at once) before pushing harder
+4. Keep several flows alive; test one new flow about every three months
+**Trade-off**: needs tracking discipline and a few months of data; ratios differ strongly by niche, so measure your own instead of copying anyone's
+
+## 47. Five-Trigger Check on Sales Communication
+**When**: content or Stories are correct "on paper" but no one writes
+**How**: check for at least one of: (1) self-reference (opens from the felt situation), (2) similarity (a stated belief or recurring payoff line), (3) information gap (current vs desired situation plus "you know something I don't"), (4) distinctiveness (a recurring detail others cannot copy), (5) authority (lived-experience delivery, visible context, results with the story behind the number)
+**Trade-off**: a conscious design step per piece; improves conversion more than adding CTAs
+
+## 48. Directional Content Brief (alarm bell, reasoning, goals)
+**When**: views arrive but not the right people
+**How**:
+1. Describe the alarm-bell situation in which the target feels they need help
+2. Describe their reasoning and where they look for a solution (alone, a book, a professional)
+3. Describe goals and desire (not only pain)
+4. For each piece: what should they know, do or think to leave that situation, and how can you start helping now?
+5. Add at least one conversion element: security + competence from experience, or validation with client results
+**Trade-off**: slower topic choice; stops "viral but off-target" pieces from diluting the profile
+
+## 49. Creative Director Operating Cycle
+**When**: delegating content strategy and recording to one person beside the founder
+**How**:
+1. Kickoff: align direction, tone, references and revenue goals; plan about three months of run-in
+2. Shared reference channel all year; weekly call
+3. Build an input document from references + target file + founder concepts; founder reviews alone or in a short joint session
+4. Recording: blocked day(s), group by location, decide orientation and format per input, the director is responsible for getting the material shot
+5. After: sort files, calendar, editor notes; founder only approves alignment
+**Trade-off**: heavy at the start, then light; requires a senior, committed person (not an agency with many clients)
+
+## 50. Paid Multi-Evening Workshop as Conversion Layer
+**When**: a warm audience plus a high-touch offer and a team able to run a project
+**How**:
+1. Separate event profile; waitlist ads about a month earlier; official funnel 3-4 weeks before to a landing page with a short video
+2. Price ladder and an upgrade tier; email nurture and a messaging community
+3. Five ~90-minute evenings, each building on the last; pitch only at the end of the last two; bonuses instead of discounts
+4. Plan sales capacity, delivery slots, slides and rehearsal; keep access rules simple
+**Trade-off**: heavy workload and emotional load; first-event figures flatter repeats
+
+## 51. Starting-From-Zero Sequence
+**When**: a small or new account with no acquisition
+**How**: (1) offer and positioning: specific, priced to the market, unique angle; (2) four to six directional pieces a week in series and varied formats; (3) proactive conversations: service talk, soft Stories polls, new-follower outreach with a resource; (4) then the sales structure; read the cause if no clients after about four months (positioning, communication, proactivity)
+**Trade-off**: front-loaded effort and no early data; boost accelerates only what already works
+
+## 52. Lead Magnet Design
+**When**: a free resource gets downloads but no conversations, or conversations but no clients
+**How**: choose its job (movement: practical and solution-giving; sales: awareness of what must change, solution inside the service); outcome-and-proof title; topic from the target's top problems; a follow-up (chat flow or email) that turns it into conversations; alternate with indirect and direct need-creating content
+**Trade-off**: more design work per resource; the magnet alone never converts
+
+## 53. Angle and Nesting-Doll Positioning
+**When**: a bio or promise reads like everyone else's
+**How**: confirm the offer is competitive; find a reading key (angle); make the promise progressively more specific until it describes only you; match tone (direct vs welcoming) to the market and to your real self; end videos with an extra resource instead of the stock "like, comment, follow"
+**Trade-off**: narrows the audience on purpose
+
+## 54. Trial Reels Categorisation Routine
+**When**: views are stuck for months or the account looks mis-categorised
+**How**: check Explore for alignment; republish last year's best reels (most views and followers) as Trial Reels only; test three intros on one body; verify the incoming audience is in target; attach a keyword automation; run for several weeks
+**Trade-off**: platform behaviour is reported, changeable and may carry limits not yet visible
+
+## 55. Moving From Word of Mouth to an Owned System
+**When**: clients arrive only by referral, price is stuck and timing is out of control
+**How**: ask clients what they value; rebuild services into a few standardised packages; make every content piece experiential using the offline history; build touchpoints and tracking
+**Trade-off**: initial reorganisation of the offer; a head start rather than a restart

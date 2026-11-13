@@ -22,6 +22,8 @@ Good UI design rests on a compact set of transferable fundamentals — affordanc
 - **Ghost button**: a button with no visible background until an interaction state (hover) reveals it.
 - **Component state set**: the minimum required visual states for an interactive element — default, hover, active/pressed, disabled, and often loading.
 
+- **Words beside the thing they name (emerging evidence)**: in explanatory screens, onboarding and diagrams, labels placed inside or next to the part they describe beat legends and bottom captions by a wide margin; matching words and visuals should appear together; decoration unrelated to the task and duplicated text-plus-voice both add effort the user needs for the task. Break dense diagrams into steps. Full rules and effect sizes: `presentation-design` ch13.
+
 ## Mental Models
 - Treat contrast (in size, color, or position) as the actual mechanism of visual hierarchy — hierarchy isn't a style choice, it's a function of how different elements are from each other.
 - In dark mode, think in terms of "what creates depth without shadows" (lighter surfaces) rather than trying to port light-mode depth cues directly.

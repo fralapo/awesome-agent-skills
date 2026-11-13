@@ -2,6 +2,13 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.23.0 (2026-11-13)
+
+- social-algorithm: three new chapters (predictable revenue and channel mix, paid live events as a conversion layer, starting from zero in phases); extended acquisition, algorithm, psychology and delegation chapters; patterns 46-55.
+- presentation-design: new chapter on words, pictures and multimedia learning; perception and honesty in data display.
+- depth-psychology: new chapter of experimental-psychology complements.
+- public-speaking-persuasion, brand-strategy-storytelling, ux-ui-expert, marketing-mba, pricing-and-sales-negotiation, freelance-designer-ops: additions on clear writing, storytelling, nudges and their limits, human oversight of AI, bias and stereotype threat, trust and dignity at work, negotiation under ambiguity.
+
 ## 1.22.0 (2026-11-13)
 
 - social-algorithm: profile-funnel components, content by awareness level and audience stage, late-era ranking priorities and long-form integration (patterns 43-45, new glossary terms).

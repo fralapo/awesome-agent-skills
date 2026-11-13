@@ -69,6 +69,12 @@ A fast test that a position is really different.
 - "For everyone" is not a position; it is the absence of one.
 - Niching with an AI assistant: after the binary narrowing in section 5, ask it to draft an ideal customer profile, telling it to ask clarifying questions first, then to rank that customer's problems by pain and by willingness to pay. Treat the draft as a hypothesis to test with real buyers (ch02).
 
+### 9. White space: who is the category not talking to?
+When revisiting a tired or divested brand, look for the audience the category's advertising ignores rather than for a cleverer message to the same people. Delisted does not mean finished: reposition by reframing what the category is for and who it serves.
+- Order of work: empathy (who, what pains and ambitions), then strategy (a written, narrow definition), then prototype and iterate. Strategy precedes design because it guides every design decision after it.
+- Slides and boards in this process are visual arguments: choose what to show and what to cut, because the audience gives seconds, not hours.
+- Brand = promise. For campaigns and non-profits differentiation matters more, not less, since they compete for attention and donations in a crowded space. A promise that is simple and short is roughly ten times harder to write than a long worthy one.
+
 ## Where teachers disagree
 - **Narrow specialist vs hybrid/T-shaped.** Narrow works best when the market is large and generalists compete on price; hybrid works when the combination itself is rare and nameable. In both cases the market must be able to *name* you in a few words; "multidisciplinary" with no nameable specialty fails.
 - **"Different, not better" vs "good first."** Both agree difference earns the premium; the matrix reconciles them: ignore a gimmick, fix a commodity.

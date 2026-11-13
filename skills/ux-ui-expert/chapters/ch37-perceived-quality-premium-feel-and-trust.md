@@ -27,6 +27,13 @@ Packaging and branding research shows the same levers raise willingness to pay o
 - Premium-looking items in blind comparisons were often not distinguishable from plain ones, and the better-looking one was expected to be better, often wrongly. Perception sets the expectation; the experience then confirms or breaks it.
 - Decision rule: use these levers to communicate real quality that exists, never to cover its absence. A premium look on a weak product produces refunds and one-star reviews, because the gap between expectation and reality is what users remember (ch20 peak-end).
 
+## Aesthetic Judgement: Fast, Linked to Trust, Not Universal
+- **Half a second is enough.** After a half-second glimpse people form a stable judgement of how pleasing a page is and whether they would trust it enough to pay. Treat the first screen as the trust test.
+- **Pleasing designs perform better.** In two comparisons of functionally identical interfaces, the more attractive one was used faster with fewer errors. A proposed mechanism: positive mood makes people more exploratory and more likely to recover from an error by trying something new; a negative mood makes them repeat the same failing action.
+- **Preferences are not shared.** In a very large online study (tens of thousands of participants, tens of millions of ratings), average appeal peaked at medium visual complexity and moderate colourfulness, but liking differed by country, education and gender. Educational platforms styled to appeal to well-educated Western viewers risk quietly deterring the learners they are meant to reach; coding-reference sites rated higher by men can send a small signal of who belongs.
+- **Design also tells people who it is for.** A look can signal that the team shares the visitor's background, or that it does not. It can be deliberate to design for who the audience aspires to be, but test it rather than assume.
+- Rule: test the visual direction with the real audience before polishing, and keep clarity first (ch18).
+
 ## Ten Trust Levers
 Trust is what makes someone enter a card number or upload an ID. Check each lever for any flow that involves money, identity or commitment.
 1. **People in front**: name, photo, rating and a short story. People buy from people.

@@ -22,6 +22,9 @@ Delivery skill is built, not born: a powerful voice is a set of five controllabl
 - **Intensity** — the combination of precise words and real, measured emotion that makes a message land as something the speaker genuinely cares about.
 - **Deliberate repetition** — short, frequent, self-observed practice reps (not passive study or occasional big performances) as the mechanism of skill growth.
 
+- **Play the person, not the role (emerging position)**: speakers who put on a "presidential" or "executive" voice go stiff. Redirect them from the role to an actable situation: who you are to this room and what you want from it. Ease appears when the speaker stops performing the title.
+- **Unscripted tells (emerging position)**: audiences judge most when the speaker is off script, and a small repeated gesture (glancing at a watch while someone describes personal hardship) can outweigh the content. When a question is really about lived experience, acknowledge the experience before the policy.
+
 ## Mental Models
 - Think of your voice as an instrument: breathing is the bellows, the chest is the amplifier — power comes from mechanics, not from trying harder to "sound confident."
 - Treat a slide deck as a tool, not a crutch: ask "do I even need it?" before opening the software; a tool used wrong (crowded slides, reading off them) actively damages a talk that would have worked better delivered directly to the room.

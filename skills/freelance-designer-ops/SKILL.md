@@ -60,7 +60,7 @@ argument-hint: [topic or chapter number]
 |---|---|---|
 | [ch01](chapters/ch01-what-a-freelance-designer-does.md) | What a Freelance Designer Actually Does | organise vs. design, freelance dimension, niche, scoping, service formats, criticism, Italy notes |
 | [ch02](chapters/ch02-notion-workspace-for-creatives.md) | A Notion Workspace for Creatives | Learn → Schematise → Apply, 4 questions, Projects/Clients/Notes, views, CRM, hour tracker formulas, invoices, content calendar |
-| [ch03](chapters/ch03-time-management.md) | Time Management for Freelance Creatives | calendars as labels, block + goal, batching, energy mapping, notebook triage, good-enough loop |
+| [ch03](chapters/ch03-time-management.md) | Time Management for Freelance Creatives | calendars as labels, block + goal, batching, energy mapping, notebook triage, good-enough loop, focused sprints, perfectionism |
 | [ch04](chapters/ch04-tools-workspace-and-growth.md) | Tools, Workspace, Content and Long-Term Growth | tool split, paper first, inspiration hygiene, workspace setup, content "why", yearly review |
 | [ch05](chapters/ch05-winning-clients.md) | Winning Clients: Routes, Outreach and the Prospect Pipeline | five routes, prospect list, free-audit play, platform tactics, rejection audit, intensive-light-intensive model |
 | [ch06](chapters/ch06-onboarding-contracts-and-project-hygiene.md) | Onboarding, Contracts and Project Hygiene | four-phase process, pre-kickoff questions, contract minimum, deposit and files, file structure, QA report |

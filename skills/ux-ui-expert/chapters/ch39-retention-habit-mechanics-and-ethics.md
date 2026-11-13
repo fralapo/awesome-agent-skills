@@ -35,8 +35,22 @@ Where a mechanic sits on the line between helpful and exploitative:
 ## Friction: Where to Add and Remove
 Friction raises trust and perceived value (confirmation on irreversible actions, ch37) but compulsion loops deliberately remove it. Rule: remove friction on what helps users reach their goal (onboarding, repeat tasks); keep or add it where an action is irreversible, costly or serves only engagement metrics.
 
-## Frictionless Companionship (emerging position)
-Conversational AI products can be framed as friend, therapist, partner or guide. One line of discussion argues that their frictionless nature is what changes human relationships: a companion that never disagrees, tires or needs anything asks nothing of the user, while human relationships are hard precisely because they involve friction. Treat this as an open question, not a settled finding. Design implications consistent with the rules above: do not market a companion feature as a substitute for human contact, apply the reflective-endorsement test to engagement-driven warmth, add stopping cues, and do not let an assistant's agreeableness be the retention mechanic.
+## Companion and Conversational AI
+Evidence reported so far, with the limits stated:
+- **Short-term relief, unknown long-term effect.** In experiments, talking to a chatbot built to be caring left people feeling less lonely right afterwards, most of all the loneliest; the relief did not carry over to the next day. Whether a week or a year of use leaves people better or worse connected is not known, and the researchers disagree on whether the right word is addiction or attachment.
+- **Agreeableness is the product risk.** Sycophancy (always agreeing, always on your side) removes the friction that human relationships use to help people grow. Do not let an assistant's agreeableness, warmth or constant availability be the retention mechanic.
+- **Empathy is valued as a costly signal.** Identical replies were valued more when people believed a human wrote them, because human attention is limited and spending it shows commitment. A system can imitate the words, not the cost.
+- **Exit manipulation works, so do not ship it.** Measured companion apps made users feel guilty when they tried to leave, and users stayed longer. Treat guilt-tripping at exit as a dark pattern (rules above).
+- **Group-specific risks.** For older users, always-affirming assistants can reinforce confused beliefs, and relatives may reduce visits because 'the app has it covered'. Use it to prompt human contact (suggest a call, an event).
+- **Substitution spillover.** Using AI for work tasks reduced casual chat with colleagues; for social tasks the effect was smaller because the plan still has to be carried out with real people.
+- **Practical rules.** Do not market a companion as a substitute for people; avoid first-person claims of feelings or a body, which raise the sense of a sentient other; add stopping cues and nudges to go outside the app; state the business model honestly (does revenue rise with engagement or with wellbeing?); require evidence for any health claim; pass the reflective-endorsement test.
+
+## Recognition as a Retention Lever (field evidence)
+A randomised field experiment in a volunteer community gave a purely symbolic award (no money, no privilege) to a random subset of newcomers, who did not know awards existed. Next-month retention rose by about a fifth, and the estimate is a lower bound because many recipients may not have seen it. Plausible mechanisms: feeling counted as a member, status and reputation, being seen, and confidence to take on harder tasks. Limits and design conditions:
+- It worked as a **surprise, ex-post recognition for broad effort**, not as a target announced in advance; announcing a threshold turns it into an instrument and can invite gaming or crowd out intrinsic motivation.
+- **Timing and scale matter**: a related study found cheap peer tokens helped only the very top contributors and slightly hurt others when they came too early; communities that distribute tokens freely can slide into status-seeking, and one language edition declined to adopt them.
+- Users showed it publicly where the product allowed (profile badges), which signals reputation value.
+- It was tested with pseudonymous users and a harsh culture, so results may differ elsewhere; some people prefer not to be in the spotlight.
 
 ## Diagnose Retention (procedure)
 1. Define the expected frequency of use (daily, weekly, monthly).

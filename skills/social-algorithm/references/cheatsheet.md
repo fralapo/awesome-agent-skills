@@ -260,6 +260,50 @@ ROI = €_generated_from_the_channel / hours_invested
 | Carousels | Natural, photos underneath, slides 1 and 2 both hook, test weekly |
 | Long-form | A few in-app sales letters, one per awareness level, fed by Reels |
 
+## Funnel Math (Ch 13)
+| Step | Rule |
+|------|------|
+| Track | Survivors per step per touchpoint (traffic → follow → chat → in target → link → call → close) |
+| Plan | Goal ÷ closing rate = calls; calls ÷ chat-to-call = chats; chats = actions needed |
+| Spread | Several flows; test a new one about quarterly |
+| Boost | Data tool for small accounts, not acquisition |
+| Capacity | Translate big goals into clients served at once |
+
+## 5 Psychological Triggers (Ch 8)
+| Trigger | Practice |
+|---------|----------|
+| Self-reference | Open from the felt situation |
+| Similarity | State beliefs, repeat payoff lines |
+| Information gap | Current vs desired + "you know what I don't" |
+| Distinctiveness | Recurring detail others cannot copy |
+| Authority | Lived delivery, visible context, results with story |
+
+## Starting From Zero (Ch 15)
+| Step | Rule |
+|------|------|
+| 1 | Offer and positioning: specific, market-priced, unique |
+| 2 | 4-6 directional pieces a week, series, varied formats |
+| 3 | Proactive chats: service talk, Stories polls, follower outreach |
+| 4 | Sales structure after movement and conversations |
+| Check | No clients after ~4 months → positioning, communication, proactivity |
+
+## Paid Workshop Skeleton (Ch 14)
+| Item | Rule |
+|------|------|
+| Profile | Separate event profile |
+| Timeline | Waitlist ~1 month, funnel 3-4 weeks |
+| Format | 5 evenings ~90 min; pitch at the end of the last two |
+| Offer | Bonuses, no discounts |
+| Risks | Sales capacity, slides, access rules, emotional load |
+
+## Lead Magnet Design (Ch 4)
+| Job | Content |
+|-----|---------|
+| Movement | Practical, solution-giving, widely downloaded |
+| Sales | Awareness of what to change; solution is the service |
+| Title | Outcome + proof |
+| Follow-up | Chat flow or email, never "wait and hope" |
+
 ## External References
 - turboscribe.ai — video transcription (3 free / incognito)
 - school.com / circle.so — private community platforms

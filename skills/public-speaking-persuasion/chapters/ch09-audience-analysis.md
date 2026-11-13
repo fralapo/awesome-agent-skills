@@ -23,6 +23,8 @@ An audience's starting attitude toward you determines the strategy, not the cont
 - **Criteria-first move**: with an uninformed audience, teach them what to evaluate before advocating a conclusion.
 - **Resistance-to-correction**: the near-universal reflex to reject being told your facts or decisions are wrong, regardless of evidence.
 
+- **Seekers became sifters (emerging position)**: audiences now face more content than they can read, so they sift rather than search, and carry compassion fatigue for causes competing for the same care. Combined with the curse of knowledge (ch11), assume the audience starts from zero: give the big picture of you before the specifics, and make the promise simple even if the work is not.
+
 ## Mental Models
 - Treat audience type as a diagnosis, not a guess — the four categories are attitudes, not demographics, and the same room can shift between them mid-speech.
 - Think of a hostile audience's past decision as a variable to reframe (new information available now) rather than a verdict to overturn (you were wrong).

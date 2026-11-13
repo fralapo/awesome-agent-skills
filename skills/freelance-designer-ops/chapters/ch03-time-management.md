@@ -87,6 +87,13 @@ Example morning routine (5 habits kept for about a year):
 3. Produce a bounded number of new versions.
 4. Choose the version that best serves the client's audience and stop.
 
+**Run a focused sprint (practitioner method; evidence is self-reported)**
+1. Pick the hardest task of the day first and remove distractions (phone muted, email and social off).
+2. Reframe it as an opportunity to grow, settle your attention for a minute, then set a clear challenge: a defined amount of work with a deadline slightly above what you normally do (set the bar just above your personal best; too low gives no effort, too high gets no attempt).
+3. Work with full focus until the deadline, then stop. Do not let it drift into a long low-intensity 'marathon' where you check messages and switch tasks.
+4. Take about ten minutes off (quiet, a walk, music), then start the next sprint. Aim for at least one such block a day and add more when it works.
+Caveat: the support is a mentoring programme in which participants rated their own habits weekly (average about 60% at the start, about 76% after five sessions, with no control group). Treat it as a useful routine, not as proof of effect size.
+
 **Estimate a new project's time**
 1. Look up similar past projects and their logged hours in the tracker.
 2. Set Total hours from the budget and from the time you actually have available.
@@ -116,6 +123,8 @@ Example morning routine (5 habits kept for about a year):
 - Periods differ: weeks immersed in one big project alternate with days of a thousand small things; the system must handle both.
 - High and low workload phases are predictable after a few years; learn to schedule around them and to enjoy the quiet ones.
 - The client's audience, not the designer's perfectionism, is the quality bar.
+- Perfectionism is a stance, not a quality level: self-worth is tied to flawless work, so people avoid anything they might not do well, procrastinate, hide the mess and find it hard to ask for help. Keep the high standard but separate worth from output; treat a failed attempt as information (teams that review failures openly learn faster); think 'both/and' (capable and sometimes wrong); asking for help is an act of trust, not weakness; and showing a little of the process helps people connect with you.
+- Judge your own readiness with care: people are poor judges of how impaired they are when short of sleep, and tiredness raises emotional reactivity and weakens decision-making and ethical judgement. Protect the hours before a pitch or a negotiation. This is a performance mechanism, not medical advice.
 
 ## Examples
 - A Monday content block 8:00–12:00 recurring every two weeks, with tasks "record 2/3 long-form pieces" and "record Instagram/TikTok pieces if scripts are ready".

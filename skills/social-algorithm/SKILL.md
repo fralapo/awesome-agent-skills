@@ -1,24 +1,28 @@
 ---
 name: social-algorithm
-description: "Organic personal-brand growth and Instagram algorithm dynamics: indirect selling, interest-based distribution and the interaction loop, the three pillar metrics and a performance diagnostic matrix, hooks, Stories, reposts, bio anatomy and profile-funnel components, six acquisition funnels without ads, content by awareness level and audience stage, late-era ranking priorities and long-form integration, awareness levels, delegation and content systems, dynamic video techniques, scaling principles, plus YouTube positioning, on-camera energy and content-first channels. Use when the user plans Instagram or YouTube content, asks why a post or reel underperformed, wants clients from social without advertising, writes hooks, a bio or a funnel, builds a personal brand, or sets up a content routine, even if they never say 'algorithm'."
+description: "Organic personal-brand growth and Instagram algorithm dynamics: indirect selling, interest-based distribution and the interaction loop, the three pillar metrics and a performance diagnostic matrix, hooks, Stories, reposts, bio anatomy and profile-funnel components, six acquisition funnels without ads, content by awareness level and audience stage, late-era ranking priorities and long-form integration, awareness levels, delegation and content systems, dynamic video techniques, scaling principles, plus YouTube positioning, on-camera energy and content-first channels, revenue predictability and funnel tracking, paid live events as a conversion layer, and a phased playbook for accounts starting from zero. Use when the user plans Instagram or YouTube content, asks why a post or reel underperformed, wants clients from social without advertising, writes hooks, a bio or a funnel, builds a personal brand, or sets up a content routine, even if they never say 'algorithm'."
 allowed-tools:
   - Read
   - Grep
-argument-hint: [topic, framework name, or ch01-ch12]
+argument-hint: [topic, framework name, or ch01-ch15]
 ---
 
 # Social Algorithm & Personal Brand — Organic System
-**Chapters**: 12
+**Chapters**: 15
 
 ## How to Use This Skill
 - **No args** → read the Core Frameworks below
 - **Topic** → "explain indirect selling", "how to write a video script", "algorithm metrics" → load the relevant chapter
-- **Chapter** → "ch01" or "ch12" → load that specific chapter
+- **Chapter** → "ch01" or "ch15" → load that specific chapter
 - **Why a personal brand / AI-era case / documentation mindset** → ch09
 - **Algorithm lookup** → algorithm knowledge base (era evolution, diagnostic matrix, hook patterns, repost strategy) → ch07
 - **The Loop / movement / content differentiation** → ch10
 - **YouTube / on-camera energy / sponsors / long-term constancy** → ch11
 - **YouTube algorithm shift / Hype Score / documentary method / target persona** → ch12
+- **Revenue predictability / funnel tracking / channel mix / word of mouth to online** → ch13
+- **Paid live events / workshops as conversion** → ch14
+- **Starting from zero / small account / first clients** → ch15
+- **Psychological triggers behind selling** → ch08
 
 Source language: English. Keep original framework names (indirect selling, hero's journey, social proof as garnish, etc.) — they are proper names of frameworks.
 
@@ -193,6 +197,18 @@ Platform priorities: originality, breakout chance (every video is tested; no dis
 
 **Delivery**: work from a rough outline and react genuinely, don't script lines; reserve AI for editing/research, never for the content or opinions themselves.
 
+### Predictable Revenue and Channel Mix (Ch 13)
+Erratic revenue = missing structure. Track the loss between steps per touchpoint, plan backwards from the goal (clients ← calls ← chats ← actions), keep several flows and test a new one about quarterly, validate the offer before building the machine, treat small paid boosts as a data tool rather than acquisition, make one simple social funnel work before diversifying, and when moving from word of mouth to online standardise the offer and make every piece experiential.
+
+### Five Psychological Triggers Behind Selling (Ch 8)
+Self-reference (feeling understood), similarity (alignment and recurring payoff lines), information gap (curiosity from current vs desired), Von Restorff (a distinctive recurrence), authority (lived delivery, visible context, results with their story). Directional content briefs start from the target's alarm-bell situation, reasoning and goals (Ch 4).
+
+### Paid Live Events (Ch 14)
+A multi-evening paid workshop converts through value first, pitch last; separate event profile, waitlist ads, price ladder, bonuses instead of discounts; heavy on team capacity. Figures are one operator's first-event orders of magnitude.
+
+### Starting From Zero (Ch 15)
+Order: offer and positioning, movement (4-6 directional pieces a week), proactive conversations, then sales structure; first clients typically in 3-4 months when phases are done properly.
+
 ---
 
 ## Chapter Index
@@ -211,6 +227,9 @@ Platform priorities: originality, breakout chance (every video is tested; no dis
 | [ch10](references/ch10-the-loop-and-movement.md) | The Loop — Movement, Trust Windows, Differentiation | The Loop mechanic, attraction/authority cadence, provide more elements, trust as currency, movement, 3 differentiation errors, circle/square/star content |
 | [ch11](references/ch11-youtube-energy-and-longevity.md) | YouTube — Energy, Character vs Authenticity, and the Long Game | On-camera energy vs performed character, audience feedback reshaping positioning, YouTube as showcase, sponsor-readiness, multi-year constancy |
 | [ch12](references/ch12-youtube-content-first-and-documentary-method.md) | YouTube's Content-First Shift & the Documentary Method | Channel-first vs content-first, Hype Score, 4-step method (target/document/educate/vision), unscripted delivery |
+| [ch13](references/ch13-predictable-revenue-and-channel-mix.md) | Predictable Revenue — Funnel Metrics, Touchpoints and Channel Mix | Water-flow tracking, backward planning, several flows, offer validation, end-to-end funnel, boost as data tool, diversification, word of mouth to online |
+| [ch14](references/ch14-paid-live-events-as-conversion-layer.md) | Paid Live Events as a Conversion Layer | Multi-evening paid workshop, separate event profile, funnel and timeline, bonuses not discounts, reported numbers, lessons |
+| [ch15](references/ch15-starting-from-zero-phased-playbook.md) | Starting From Zero — A Phased Playbook | Offer/positioning, movement, proactive conversations, sales structure, content mix by account state, diagnosis at four months |
 
 ## Topic Index
 
@@ -324,10 +343,28 @@ Platform priorities: originality, breakout chance (every video is tested; no dis
 - **Micro-cult brand** → ch12
 - **Unscripted delivery / rough outline** → ch12, ch11
 
+- **Funnel tracking / water-flow model / backward planning** → ch13
+- **Stable monthly revenue / several flows / new flow each quarter** → ch13
+- **Boost as a data tool for small accounts** → ch13, ch15
+- **Word of mouth to an online system** → ch13
+- **Diversifying channels (share of revenue from other channels)** → ch13
+- **Five psychological triggers (self-reference, similarity, information gap, Von Restorff, authority)** → ch08
+- **Directional content brief (alarm bell, reasoning, goals)** → ch04
+- **Problem / pain / objective / desire layers** → ch04
+- **Content mix by account state** → ch04, ch15
+- **Lead magnet design (movement vs sales)** → ch04
+- **Offer angle / nesting-doll specificity** → ch04
+- **Creative director role / recording-session cycle** → ch03
+- **Trial Reels as a categorisation routine** → ch07
+- **Paid workshop / live event** → ch14
+- **Starting from zero / first clients in 3-4 months** → ch15
+- **Time, wasted time, comparison (three blocks)** → ch09
+- **Attention vs trust / aggression vs memorability** → ch09
+
 ## Supporting Files
 
-- [references/glossary.md](references/glossary.md) — ~60 key terms (frameworks, anti-patterns, tools, metrics)
-- [references/patterns.md](references/patterns.md) — 45 operational techniques (indirect selling, delegation, scripting, metrics, funnels, hook patterns, repost strategy)
+- [references/glossary.md](references/glossary.md) — ~80 key terms (frameworks, anti-patterns, tools, metrics)
+- [references/patterns.md](references/patterns.md) — 55 operational techniques (indirect selling, delegation, scripting, metrics, funnels, hook patterns, repost strategy)
 - [references/cheatsheet.md](references/cheatsheet.md) — quick-reference tables (3 pillar metrics, old vs new algorithm, 4 elements, 5 principles, 6 funnels, diagnostic matrix, the Loop)
 
 ---

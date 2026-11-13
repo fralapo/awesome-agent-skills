@@ -1,6 +1,6 @@
 ---
 name: presentation-design
-description: "Complete guidelines for designing effective, beautiful presentations: message-first process (audience, goal, script, storyboard, slide count), deck structure and slide types (cover, index, break, focus, content, back cover with CTA), layout (margins, grids, alignment, proximity, hierarchy, focus by dimming), a type scale for 1920×1080 slides, message titles, bullets and their alternatives, color palettes and roles, images, icons, backgrounds, shadows and text-on-photo, charts, tables, big numbers and timelines, animation and morph principles with timings, contexts (school, thesis, corporate, pitch deck, product launch, portfolio, training, talks, webinars), a before→after redesign method, templates, brand and AI. Use this skill whenever you create, generate, review, redesign or critique a presentation, slide deck, pitch deck, PowerPoint, Keynote, Google Slides or Canva deck (including generating .pptx with code or DeckCraft), or advise on slides, even if the user only says 'make me a ppt'."
+description: "Complete guidelines for designing effective, beautiful presentations: message-first process (audience, goal, script, storyboard, slide count), deck structure and slide types (cover, index, break, focus, content, back cover with CTA), layout (margins, grids, alignment, proximity, hierarchy, focus by dimming), a type scale for 1920×1080 slides, message titles, bullets and their alternatives, color palettes and roles, images, icons, backgrounds, shadows, text-on-photo, charts, tables, numbers, timelines, animation timings, multimedia learning rules, contexts (school, thesis, corporate, pitch deck, product launch, portfolio, training, talks, webinars), a before→after redesign method, templates, brand and AI. Use this skill whenever you create, generate, review, redesign or critique a presentation, slide deck, pitch deck, PowerPoint, Keynote, Google Slides or Canva deck (including generating .pptx with code or DeckCraft), or advise on slides, even if the user only says 'make me a ppt'."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [task, topic, or chapter number]
 ---
 
 # Presentation Design
-**Chapters**: 12 | **Corpus**: ~300 theoretical transcripts on presentation design, distilled | **Generated**: 2026-11-05
+**Chapters**: 13 | **Corpus**: ~300 theoretical transcripts on presentation design, distilled | **Generated**: 2026-11-05
 
 The *what and why* of good slides. For click-level how-to in PowerPoint, Keynote, Google Slides, Canva or Figma Slides, use the companion skill `slide-software-techniques`.
 
@@ -101,6 +101,7 @@ When generating files programmatically (python-pptx, DeckCraft, etc.), encode th
 | [ch10](chapters/ch10-redesign-playbook.md) | The Redesign Playbook (Before → After) | 5-area audit, keep/kill/change, split vs squeeze, rebuild pasted content, redesign cases |
 | [ch11](chapters/ch11-templates-brand-ai-resources.md) | Templates, Brand, AI and Resources | when to use templates, recoloring by roles, corporate template build, brand rules, AI tools, asset sites |
 | [ch12](chapters/ch12-presenting-design-work-to-clients.md) | Presenting Design Work to Clients | walk-through sequence, direction round, 3 options x 5 slides, targeted questions, reference-based pitch language |
+| [ch13](chapters/ch13-words-pictures-multimedia-learning.md) | Words, Pictures & Multimedia Learning | select-organize-integrate, extraneous/essential/generative load, coherence, signalling, redundancy, contiguity, segmenting, pre-training, modality, personalization |
 
 ## Topic Index
 
@@ -128,6 +129,7 @@ When generating files programmatically (python-pptx, DeckCraft, etc.), encode th
 - **Icons** → ch06
 - **Images, photos, text on photo** → ch06
 - **Inspiration (websites, moodboard)** → ch01, ch11
+- **Multimedia learning, explainers, narrated slides, e-learning** → ch13
 - **Number of slides** → ch01
 - **Pitch deck (investors, startup)** → ch09 (slide design), ch07 (numbers, tables), `public-speaking-persuasion` ch12 (content sequence)
 - **Market size, traction, business model numbers** → ch07 (big numbers, charts, highlighting)
@@ -136,6 +138,7 @@ When generating files programmatically (python-pptx, DeckCraft, etc.), encode th
 - **School, thesis, internship (PCTO)** → ch09
 - **Shadows, glass, 3D, effects** → ch06
 - **Storyboard, script** → ch01
+- **Chart perception, colour scales, honest data** → ch07
 - **Tables** → ch07
 - **Talks, TEDx, webinars, training** → ch09
 - **Templates (using / building)** → ch11

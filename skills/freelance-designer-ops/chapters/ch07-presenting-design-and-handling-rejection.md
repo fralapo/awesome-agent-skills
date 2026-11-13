@@ -44,6 +44,7 @@ When to use: self-review once a quarter; pick the weakest one and practise it on
 
 ### Handling rejection and criticism
 - Separate feedback on the work from a personal attack; apply what is needed and accept the rest without changing.
+- A rejected pitch is not a verdict on your worth. Relationships rest on what you do every day, not on one result; after a clumsy conversation, go back and check in, because the second conversation is often the deeper one.
 - Ask: priority level, expected evolution, what to avoid, differences per user, what success looks like. A "simple" feature often has much more underneath.
 - Treat a reaction ("feels like a credit score, sterile") as information about what the client is reaching for (playful, warm) and test that against the real goal.
 - Show early low-fidelity structural concepts to test direction before investing in finish.

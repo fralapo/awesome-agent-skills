@@ -34,6 +34,10 @@ The first and last words of a speech carry disproportionate weight, and a speech
 - **Story vs. object**: a persuasive story is about people and what they sacrificed, not about the product, software, or mechanism itself.
 - **Trust before benefits**: audiences need to trust and care about the speaker as a person before the listed benefits/features land — the rational case (in the deck) only works after the emotional connection is made.
 
+- **Through-line over soundbite (emerging position)**: a speech lands because it tells one story from beginning to end, with the speaker's argument fitted into a larger story the audience already holds, not because of a quotable line. A line placed early to please reporters bends the structure around it. Fix the argument's structure first (A, B, C), then write the lines.
+- **Distil when the message swells (emerging position)**: a talk repeated for months tends to grow; a short, fixed slot (ten minutes, memorised) forces the real message out. When two options agree on substance, differentiate on a felt quality (urgency, care) shown in delivery rather than in a longer list of points.
+- **Build the speech from the speaker's own talk (emerging position)**: a writer helping a speaker listens first (twenty to thirty minutes of the speaker talking through intent, typed live), then structures, then debriefs after each delivery. A voice emerges over many such cycles; it cannot be bolted on.
+
 ## Mental Models
 - Think of a speech opening as a doorway test: the first 10 seconds decide whether the audience mentally reaches for their phone or leans forward — treat the opening as the single highest-leverage sentence you write.
 - Think of your slide as a stage, not a document: anything a viewer could read silently and understand without you talking is a slide that has replaced you, not supported you.

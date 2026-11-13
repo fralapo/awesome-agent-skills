@@ -26,6 +26,8 @@ Anxiety is not something to eliminate — it is something to manage, tolerate, o
 - **Perceived effort**: the subjective sense of how hard a task is, which can be inflated purely by labeling the task "difficult."
 - **Presence in the moment**: narrowing attention to only the next immediate action, rather than the full scale of the challenge ahead.
 
+- **Weighted-bat rehearsal (emerging position)**: prepare on three fronts: knowledge (your position and the other side's), strategy (what you will do in the room) and mental readiness. For the third, rehearse against conditions harder than the real ones (a hostile mock questioner, interruptions, the worst question), the way a batter swings a weighted bat on deck, so the real event feels lighter.
+
 ## Mental Models
 - Think of anxiety as a spectrum of responses, not a single problem — the goal is to move up the ladder from avoidance toward tolerance and enjoyment, not to make the feeling disappear.
 - Use the "run it like a horse" model for endurance under pressure: focus only on whether you can do one more step, not on the entire distance remaining.

@@ -69,7 +69,7 @@ Pick the row that matches the situation, read the chapter, then adapt. Always **
 | [ch06](chapters/ch06-sales-conversation-and-closing.md) | The Sales Conversation and Closing | meeting anatomy, serve-ask-listen-empathise-summarise, retreat and follow, risk reversal |
 | [ch07](chapters/ch07-proposals-bids-and-pitches.md) | Proposals, Bids, RFPs and Pitches | bid vs proposal vs pitch, one-page proposal, prioritisation grid, RFP, outreach |
 | [ch08](chapters/ch08-objections-discounts-and-budget.md) | Objections, Discounts and Budget Gaps | embrace and pivot, raise it first, effort-vs-result, concession script, charity triage |
-| [ch09](chapters/ch09-negotiation-conduct-and-scope-control.md) | Negotiation Conduct and Scope Control | feeling-thought-reaction, three barriers, concession rules, change orders |
+| [ch09](chapters/ch09-negotiation-conduct-and-scope-control.md) | Negotiation Conduct and Scope Control | feeling-thought-reaction, three barriers, concession rules, change orders, ambiguity and the cost of asking |
 | [ch10](chapters/ch10-positioning-niche-and-getting-found.md) | Positioning, Niche and Getting Found | room and distance tests, escaping commodity, ERRC, funnel, referrals |
 | [ch11](chapters/ch11-packaging-offers-and-retainers.md) | Packaging, Productised Offers and Retainers | offer design sequence, tension map, tiers, guarantees, sprint package |
 | [ch12](chapters/ch12-raising-rates-client-mix-and-red-flags.md) | Raising Rates, Client Mix and Red Flags | rule of three, capacity check, red-flag table, referral and exit |
@@ -79,6 +79,7 @@ Pick the row that matches the situation, read the chapter, then adapt. Always **
 - **Anchoring, brackets, three options** → ch04
 - **Bid build-up, markup, profit, contingency** → ch03
 - **Budget conversation (when and how)** → ch05, ch04
+- **Ambiguity, norms, asking for yourself, relational accounts** → ch09
 - **Change orders, scope creep** → ch09, ch02
 - **Charity, exposure, trade for services** → ch08
 - **Closing, next step, risk reversal** → ch06

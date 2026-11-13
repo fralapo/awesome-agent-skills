@@ -257,3 +257,49 @@ Key terms from the organic personal brand system + IG algorithm archive.
 **Timely content (industry-current)** — content on topics or formats currently circulating among the target, not generic meme trends; relevance helps distribution (Ch 7)
 
 **In-app sales letter (long-form IG)** — a long video used as the masterclass/VSL step inside Instagram, one per awareness level, linked from Reels (Ch 7)
+
+**Water-flow model** — picturing the purchase process as water falling through steps and measuring the loss at each (Ch 13)
+
+**Backward planning** — turning a revenue target into clients, calls, chats and actions using step ratios (Ch 13)
+
+**Touchpoint testing cadence** — adding a new acquisition flow about every three months to avoid reliance on one lever (Ch 13)
+
+**Boost as data tool** — tiny paid tests on small accounts to gather data faster; a traffic instrument, not acquisition (Ch 13, 15)
+
+**Self-reference effect** — people remember and trust what refers to themselves; open from the felt situation (Ch 8)
+
+**Similarity effect / parasocial relationship** — trust in people who feel aligned and seen repeatedly; follow for alignment, not information (Ch 8)
+
+**Information gap** — curiosity born from the distance between what one knows and wants to know; the engine of a DM (Ch 8)
+
+**Von Restorff (distinctiveness) effect** — the different is remembered; build a distinctive recurrence (Ch 8)
+
+**Alarm-bell situation** — the moment in which the target senses they need outside help; start point of directional content (Ch 4)
+
+**Problem / pain / objective / desire** — four layers of target inputs: rational and emotional sides of the negative and positive (Ch 4)
+
+**Awareness content (what, not how)** — shows direction and what to change without practical steps, so people realise they need help (Ch 4)
+
+**Green lights** — competence, continuous optimisation, concrete knowledge of the target: the three conditions before the machine works (Ch 4)
+
+**Angle** — the distinct reading key that makes a common promise memorable (Ch 4)
+
+**Nesting-doll exercise** — making a promise more specific step by step until it describes only you (Ch 4)
+
+**Movement lead magnet vs sales lead magnet** — one gives solutions to be downloaded widely; the other builds awareness of what must change (Ch 4, 13)
+
+**Creative director (in-house)** — direction and strategy role beside the founder, distinct from social-media manager and editor (Ch 3)
+
+**Input document** — session brief built from references, a target file and founder concepts (Ch 3)
+
+**Paid workshop (multi-evening)** — a live, paid event of several evenings used as a conversion layer (Ch 14)
+
+**Waitlist ads** — paid lead collection a month before a launch to test the ground (Ch 14)
+
+**Positioning on the problem** — choosing a specific problem solved across groups instead of a niche of people (Ch 15)
+
+**Phased playbook** — offer → movement → conversations → sales structure (Ch 15)
+
+**Categorisation (account)** — how the platform classifies an account as a creator in a topic (Ch 7)
+
+**Attention vs trust (currency)** — over a long horizon trust, not attention, is the currency (Ch 9)

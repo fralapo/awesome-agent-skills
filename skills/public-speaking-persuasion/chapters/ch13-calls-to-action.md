@@ -26,6 +26,10 @@ A persuasive speech that only informs or entertains fails at its real job — mo
 - **Analysis paralysis**: the state of endlessly weighing pros and cons without ever committing, caused by a broken link between evaluation and emotional commitment.
 - **Comfortable inaction**: the default state individuals and organizations drift toward absent a structural push to act.
 
+- **Action-message skeleton (emerging position)**: for an email or post meant to move people, go straight to the crisis-and-opportunity of the moment (no preamble; "write it, delete the first paragraph"); then give a reader-focused theory of change (why this reader's action matters now); then one clear ask with its link; supporting detail; the ask again with a second link; a larger-meaning line for the committed few; thanks; a postscript (often among the most-read lines). Most readers scan for a few seconds and decide on the part above the first link, so brief them as if they were a busy executive. Keep emphasis sparse so the message stays scannable, and test images against plain text because they can lower the action rate.
+- **Test on a sample before the full send (emerging position)**: send to a random slice first and read the action rate; if it is below a threshold set in advance, do not send to the rest. This protects the audience's time and the trust that keeps them subscribed. Appetite depends on usefulness, so ask leavers why they left and watch open and unsubscribe trends. Take benchmarks from your own samples, not from lore.
+- **Bad news with confidence (emerging position)**: when the audience must hear that things will get worse, state the scale honestly first, then land on resolve, then return to specifics; the two registers are alternated, not blended.
+
 ## Mental Models
 - Use the direct close when you need an unambiguous, low-friction yes; use the indirect close when the audience needs to feel what continuing to do nothing actually costs them.
 - Treat "they agree but won't act" as an emotion problem, not a logic problem — more evidence rarely closes that gap.

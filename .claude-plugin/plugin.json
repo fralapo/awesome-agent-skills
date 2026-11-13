@@ -1,6 +1,6 @@
 {
   "name": "awesome-agent-skills",
-  "version": "1.22.0",
+  "version": "1.23.0",
   "description": "28 agent skills in one plugin: design roles (creative director, art director, graphic designer, UX/UI), presentations and public speaking, marketing, brand, pricing and freelance practice, AI image and video prompting, FFmpeg, ArtCraft apps over MCP, coding with agents, README writing and more. Also discoverable by OpenAI Codex CLI via .agents/skills/.",
   "author": {
     "name": "fralapo",

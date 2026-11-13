@@ -77,6 +77,20 @@ This is much harder than producing content, and it is the whole point.
 
 ---
 
+## 7. The Three Content Blocks (time, wasted time, comparison)
+- **Time** — depends on the state of the business. *If the business is working*, there is budget to delegate editing and posting, but not scripting or thinking; keep the scarce hours for the mental work (delivery, message). *If the business is not working*, "no time" is a priority problem: the actions that unblock the situation pass through communication and marketing. The goal is a stable revenue level that lets you delegate the operational part.
+- **Feeling of wasting time** — the guilt of "I could build a funnel in this half hour" is a framing error. Strategic content compounds (each piece sits on the previous one); content made "by feel" restarts from zero every time, so the feeling of waste is partly justified: the missing ingredient is context and a plan, which also makes it natural to protect time in the calendar. Reputation is the asset that survives platform and marketing changes; channels and tactics come and go.
+- **Comparison and fear of judgment** — unavoidable, even with experience; the hidden cost of a personal brand is emotional more than technical. Technical problems are always solvable; the personal work is continuous. Exposure is repeated until it becomes normal.
+
+## 8. Long-Horizon Switches (attention, aggression, philosophy)
+- **From attention to relationship** — reaching people is the easiest thing; the currency over a 1-5 year horizon is **trust**. Attention that does not become a relationship is dead. Capture, do not just reach.
+- **People sense intent** — viewers feel whether a piece exists because the person wants to say something or because it is a calendar task; they feel fully delegated scripts and imitation. Trust is not built on technical information but on what they feel while consuming the content.
+- **Tell your story, bring reflections, bring the journey** — context shapes perceived authority; bring a point of view, especially on topics "everyone covers". Documenting every step (including setbacks) is what lets people follow you through the whole path.
+- **From inflating the chest to being remembered** — as noise grows, the reflex is louder promises ("results in two days", unconditional guarantees). Escalating aggression works in the short term and burns the market in the long term. The alternative is to decide *what you want to be remembered for* — a recurring philosophy expressed through payoff lines and details. Distinction comes from a puzzle of small details, not from a novel idea.
+- **Do not scroll competitors obsessively as "market research"** — it makes you feel inferior without making you better; look deliberately, not compulsively.
+- **Narrow the gap between on-camera self and real self** — assurance in front of the camera is trainable and often matters more than hook or editing.
+- **One problem, one target, one solution** — a direction chosen on purpose; avoid several targets and a menu of packages; the personal brand converts when it is directional.
+
 ## Anti-Patterns
 - **Delegating content wholesale to AI** → output identical to everyone's; the person and the experience disappear → no trust, no brand
 - **"I don't have time"** → almost always a mask for the exposure difficulty; time is not the real constraint
@@ -94,6 +108,7 @@ This is much harder than producing content, and it is the whole point.
 6. **Document, don't overproduce** — you already have the material; enter the forma mentis "what I do, I communicate"; no studio required
 7. **Making content ≠ having a personal brand** — the latter means giving people the pieces that let them know you and bringing yourself
 8. Starting move: block **one hour of focus** and answer *"how do I want to be remembered in this market in 2–3–5 years?"*
+9. Over a long horizon the currency is trust, not attention; do not chase escalating promises; define a philosophy and recurring payoff lines
 
 ## Connects To
 - **Ch 1** — Element 1 (direct experience) and Element 3 (hero's journey / revealing who you are) are the "bringing yourself" this chapter argues is the real brand

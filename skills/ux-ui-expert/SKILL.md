@@ -144,10 +144,10 @@ argument-hint: [task, topic, framework name, or chapter number]
 | [ch17](chapters/ch17-beginner-ui-mistakes.md) | Common Beginner UI Mistakes & Fixes | 7+1 mistakes checklist |
 | [ch18](chapters/ch18-visual-interaction-fundamentals.md) | Visual & Interaction Fundamentals | Affordances, hierarchy, grids, typography, color, dark mode, shadows, states, micro-interactions |
 | [ch19](chapters/ch19-designing-around-user-intent.md) | Designing Around User Intent | Start-with-intent, conventions, progressive disclosure, design systems |
-| [ch20](chapters/ch20-psychology-of-ux.md) | The Psychology Behind UI/UX | Cognitive/choice overload, fluency, conditioning, variable reward, goal gradient, peak-end, labor illusion, Von Restorff |
+| [ch20](chapters/ch20-psychology-of-ux.md) | The Psychology Behind UI/UX | Cognitive/choice overload, fluency, conditioning, variable reward, goal gradient, peak-end, labor illusion, Von Restorff, choice architecture and nudges (with limits), reconstructed memory |
 | [ch21](chapters/ch21-typography-laws-ux-writing.md) | Typography Laws, UX Writing, Micro-Typography | 9 typography laws, 3 C's, UX writer role, widows/orphans |
 | [ch22](chapters/ch22-color-systems-60-30-10.md) | Color Systems | 60-30-10, color wheel, micro-palettes, HSL, design tokens, free tools, EAA |
-| [ch23](chapters/ch23-learning-ux-portfolio-and-accessibility-checks.md) | Learning UX, Case Studies, First Accessibility Checks | informational interviews, self-initiated project, case-study contents, low-vision checks, working with other design roles |
+| [ch23](chapters/ch23-learning-ux-portfolio-and-accessibility-checks.md) | Learning UX, Case Studies, First Accessibility Checks | informational interviews, self-initiated project, case-study contents, low-vision checks, ability-based and equitable access, working with other design roles |
 | [ch24](chapters/ch24-ux-portfolio-and-case-study-narrative.md) | The UX Portfolio and Case-Study Narrative | narrative first, claim then proof, deck vs site, case-study skeleton |
 | [ch25](chapters/ch25-ux-job-search-and-career-skills.md) | The UX Job Search and Career Skills | 5-step search, role landscape, neglected skills |
 | [ch26](chapters/ch26-winning-research-buy-in-minimum-viable-research.md) | Winning Research Buy-In, Minimum Viable Research | MVR sequence, five benefits, what vs why, bookends |
@@ -155,15 +155,15 @@ argument-hint: [task, topic, framework name, or chapter number]
 | [ch28](chapters/ch28-personas-archetypes-and-mental-modeling.md) | Personas, Archetypes, Mental Modeling | research-based personas, first questions, mental-model workshop |
 | [ch29](chapters/ch29-workshops-feature-prioritisation-and-website-process.md) | Workshops, Feature Prioritisation, Website Process | goal scoring, basket weaving, value/difficulty, MoSCoW, build order |
 | [ch30](chapters/ch30-prototyping-early-and-design-sprints.md) | Prototyping Early and Design Sprints | fidelity by audience, storyboard, sprint intake and test day |
-| [ch31](chapters/ch31-anticipatory-design-and-automation.md) | Anticipatory Design and Automation | 3 cautions, 5 principles, kill switch |
+| [ch31](chapters/ch31-anticipatory-design-and-automation.md) | Anticipatory Design and Automation | 3 cautions, 5 principles, kill switch, human control with automation, three-moment oversight, AI in learning products |
 | [ch32](chapters/ch32-transactional-flows-and-gesture-design.md) | Transactional Flows and Gesture Design | frequency hierarchy, codes to outcomes, gesture rules |
 | [ch33](chapters/ch33-atomic-design-component-library.md) | Atomic Design | atoms to pages, 6-step extraction |
 | [ch34](chapters/ch34-interface-audit-and-redesign-method.md) | Interface Audit and Redesign Method | 3 redesign goals, audit order, merge duplicates, navigation fixes |
 | [ch35](chapters/ch35-interface-craft-and-context-of-use.md) | Interface Craft and Context of Use | meaningful shadow/colour/shape, translucent contrast, status and range, low-attention controls |
 | [ch36](chapters/ch36-content-modelling-and-ux-content-strategy.md) | Content Modelling and UX Content Strategy | content model, audit, design for variance, editors as users |
-| [ch37](chapters/ch37-perceived-quality-premium-feel-and-trust.md) | Perceived Quality, Premium Feel and Trust | 8 premium traits, detail audit, perceived value, 10 trust levers |
+| [ch37](chapters/ch37-perceived-quality-premium-feel-and-trust.md) | Perceived Quality, Premium Feel and Trust | 8 premium traits, detail audit, perceived value, aesthetic judgement and trust, 10 trust levers |
 | [ch38](chapters/ch38-onboarding-permissions-paywall-and-cancellation.md) | Onboarding, Permissions, Paywall and Cancellation | 3 failure points, pre-permission screens, paywall models, honest cancel flow |
-| [ch39](chapters/ch39-retention-habit-mechanics-and-ethics.md) | Retention and Habit Mechanics, with Ethics | 5 tactics, loop model, cohort diagnosis, ethics rules |
+| [ch39](chapters/ch39-retention-habit-mechanics-and-ethics.md) | Retention and Habit Mechanics, with Ethics | 5 tactics, loop model, cohort diagnosis, ethics rules, companion-AI evidence, recognition as retention |
 | [ch40](chapters/ch40-ai-assisted-ui-workflow-and-design-to-code-handoff.md) | AI-Assisted UI, Design-to-Code Handoff, Design QA | 5 generation rules, PRD-first build, file structure, QA issue fields |
 | [ch41](chapters/ch41-shipping-vs-polishing-and-results-driven-ux-audit.md) | Shipping vs Polishing, Results-Driven UX Audit | ship/polish rules, closed beta, 5-step audit, 5 lenses, impact-effort |
 
@@ -188,6 +188,10 @@ argument-hint: [task, topic, framework name, or chapter number]
 - **Alignment (text)** → ch21
 - **Anticipated use** → ch12
 - **Anticipatory design / automation** → ch31
+- **AI oversight, human control, AI in learning** → ch31
+- **Companion / chatbot AI** → ch39
+- **Ability-based and adaptive interfaces** → ch23
+- **Aesthetic-usability, first impressions** → ch37
 - **Archetype / persona** → ch28
 - **Atomic design** → ch33
 - **Auto-layout** → ch17
@@ -200,6 +204,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 - **Case study / portfolio (relevance filter, cover letter)** → ch23, ch24
 - **Charts (overdesigned)** → ch17
 - **Choice overload** → ch20
+- **Choice architecture / nudges / defaults** → ch20
 - **Chunking (Miller's Law)** → ch21
 - **Classical conditioning (notifications)** → ch20
 - **Cognitive overload** → ch20
