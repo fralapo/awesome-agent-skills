@@ -2,6 +2,10 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.28.0 (2026-11-14)
+
+- New skills: `exercise-science-and-programming` (evidence reasoning, hypertrophy and strength mechanisms, volume, frequency, intensity, progression, periodization, fatigue, fundamentals) and `biomechanics-and-rehab-reasoning` (clinical reasoning, pain science, load and healing, regional functional anatomy, lifting biomechanics, imaging, myths). Educational only, not medical advice.
+
 ## 1.27.0 (2026-11-14)
 
 - New skills (7): `computer-science-fundamentals`, `ai-futures-and-intelligence`, `investing-and-financial-history`, `physics-and-math-ideas`, `institutions-and-geopolitics`, `philosophy-ideas`, `behavior-and-decision-science`.

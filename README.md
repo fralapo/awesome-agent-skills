@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/fralapo/awesome-agent-skills/stargazers"><img src="https://img.shields.io/github/stars/fralapo/awesome-agent-skills?style=for-the-badge" alt="Stars"></a>
   <a href="https://github.com/fralapo/awesome-agent-skills/commits/main"><img src="https://img.shields.io/github/last-commit/fralapo/awesome-agent-skills?style=for-the-badge" alt="Last commit"></a>
-  <img src="https://img.shields.io/badge/skills-41-2ea44f?style=for-the-badge" alt="Skills count">
+  <img src="https://img.shields.io/badge/skills-43-2ea44f?style=for-the-badge" alt="Skills count">
   <img src="https://img.shields.io/badge/agent%20skills-SKILL.md-5A67D8?style=for-the-badge" alt="Agent skills format">
   <a href="https://github.com/fralapo/awesome-agent-skills/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/fralapo/awesome-agent-skills/validate.yml?style=for-the-badge&label=checks" alt="Checks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/fralapo/awesome-agent-skills?style=for-the-badge" alt="License"></a>
@@ -44,7 +44,7 @@
 
 ## What's in here
 
-41 skills. Each is one folder with a `SKILL.md` (frontmatter plus workflow) and deeper material next to it (`references/`, or `chapters/` with a cheatsheet, patterns and glossary). The agent matches the `description` field against what you ask and loads a skill only when it is relevant, then opens only the chapters the task needs.
+43 skills. Each is one folder with a `SKILL.md` (frontmatter plus workflow) and deeper material next to it (`references/`, or `chapters/` with a cheatsheet, patterns and glossary). The agent matches the `description` field against what you ask and loads a skill only when it is relevant, then opens only the chapters the task needs.
 
 ### Design roles
 
@@ -116,6 +116,8 @@ Each skill maps the equivalent Adobe workflow to real commands of an [ArtCraft](
 | [`institutions-and-geopolitics`](./skills/institutions-and-geopolitics/) | Reasoning about how institutions, economies, geography and strategy shape political outcomes: how electoral rules, party systems, campaign finance and central banks generate or constrain results; capitalism, socialism. | `institutions`, `geopolitics`, `state failure`, `colonialism`, `strategy` |
 | [`philosophy-ideas`](./skills/philosophy-ideas/) | Philosophical ideas and reasoning: how to build and test an argument (premises, dilemmas, regress, thought experiments, relativism), epistemology (rationalism vs empiricism, testimony, experts, misinformation. | `philosophy`, `ethics`, `free will`, `consciousness`, `argument analysis` |
 | [`behavior-and-decision-science`](./skills/behavior-and-decision-science/) | Behavioural and decision science for everyday judgment and performance: biases and judgment (experiencing versus remembering self, peak-end, focusing illusion, scout versus soldier mindset. | `decision bias`, `emotion`, `habits`, `flow`, `conflict` |
+| [`exercise-science-and-programming`](./skills/exercise-science-and-programming/) | Exercise science and resistance-training programming for lifters and coaches: reasoning about evidence (average versus individual effects, study limits), mechanisms of hypertrophy and strength, weekly volume and landmarks (MEV. | `hypertrophy`, `training volume`, `periodization`, `RPE`, `strength programming` |
+| [`biomechanics-and-rehab-reasoning`](./skills/biomechanics-and-rehab-reasoning/) | Mechanisms and reasoning for musculoskeletal rehab and lifting claims, educational only: clinical reasoning (pre-test probability, sensitivity, specificity, likelihood ratios, limits of special tests, reading studies). | `pain science`, `biomechanics`, `rehab reasoning`, `special tests`, `posture myths` |
 | [`awesome-readme`](./skills/awesome-readme/) | GitHub READMEs that read as written by a person: 8 templates, badge and GIF recipes, and an anti-slop audit pass on every draft. | `readme`, `github profile readme`, `humanize readme` |
 | [`llm-wiki`](./skills/llm-wiki/) | An LLM-maintained knowledge base in an Obsidian vault (compile, don't retrieve): ingest, query and lint operations with hallucination spot-checks. | `obsidian`, `llm wiki`, `second brain` |
 | [`jev`](./skills/jev/) | Sends typed yes/no, choice and score questions to TypeSafe's Jev model through OpenRouter, so the agent doesn't spend a full LLM turn on each: triage, routing, reranking, diff review. Needs `OPENROUTER_API_KEY`. | `classify`, `triage`, `rerank`, `yes/no gate` |
