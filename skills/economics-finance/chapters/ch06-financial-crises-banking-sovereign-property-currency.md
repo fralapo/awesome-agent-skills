@@ -67,7 +67,15 @@ Crises happen where promises to pay on demand meet assets that cannot be sold qu
 - **Trade-off**: more detail brings more uncertainty about timing.
 - **Does not hold when**: policy changes the rules mid-crisis; rescue design (who is paid, who is wiped out) is itself a policy choice with distribution effects.
 
+## 6.11 Uninsured deposits and the 2023 US bank failures (a dated case)
+- **Thesis**: a bank with a few very large deposits is run-prone even in a system with deposit insurance.
+- **Mechanism**: the failed banks served niche clients (crypto firms, technology start-ups) with very large accounts (average account over one million in one bank, versus a national median near 5,300 in the 2019 data). Deposit insurance covered only the first 250,000, so most balances were uninsured and depositors had an incentive to run on any rumour; insurance had made runs by ordinary households a thing of the past. The backdrop was high rates, high inflation and falling bond values.
+- **Trade-off**: unlimited insurance would calm large depositors but expands moral hazard and leaves the bank with many insured liabilities and high leverage.
+- **Counter-view**: the case for and against removing the cap is a trade-off between panic risk and moral hazard; this trade-off has always existed in deposit-insurance design.
+- *Whether such failures cause recessions is not settled here; chapter 13.6 shows a case where a collapse was followed by fast recovery.*
+
 ## Checklist
 - What promise to pay on demand is at risk, and what backs it?
 - Is there a currency or maturity mismatch?
 - Which loss-sharing rule applies, and who decided it?
+- For any bank failure, check size of deposits, share insured and how fast losses are shared.

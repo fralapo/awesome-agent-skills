@@ -56,3 +56,33 @@ A transformer turns text into vectors, lets the vectors exchange information (at
 - **Mechanism**: the text of a hypothetical dialogue is the prompt; the model predicts the assistant's next word, appends it, and repeats. Behaviour such as helpfulness is added afterwards by training on preferences (chapter 8).
 - **Trade-off**: simple and general; the model has no state between calls except the text you supply.
 - **Does not hold when**: tools and memory are wrapped around the model, in which case the system is more than the bare predictor.
+
+## 7.10 Attention replaced recurrence by shortening paths
+- **Thesis**: instead of squeezing a sequence through a hidden state updated step by step, let every position look directly at every earlier position.
+- **Mechanism**: a recurrent network reads tokens one at a time, each step combining the previous hidden state with the current input; training the whole sentence is one long chain of backpropagation, and information from far back must survive many updates. With attention each output token is one training example, the computation per step is a fixed number of projections, and the path length between any two positions is one. Because there is no step order, position is injected: sinusoids at several frequencies give each position a code like a continuous binary counter, letting the network compare which of two tokens comes first or how far apart they are. Keys act as addresses into a memory of values; queries ask. Encoder-decoder models add cross-attention where the decoder's queries read the encoder's keys and values.
+- **Trade-off**: parallel training and short paths against quadratic cost (7.3).
+- **Does not hold when**: sequences are so long that memory, not modelling power, limits you (7.12).
+
+## 7.11 Query-key scoring is a low-rank bilinear form
+- **Thesis**: scoring how well two vectors match can use a learned matrix between them, and splitting that matrix saves parameters.
+- **Mechanism**: an early attention score multiplied the two vectors with a full matrix in the middle, letting the score weight some coordinates more than others. Write the matrix as a product of two low-rank matrices, apply one to each vector and take a dot product, and you obtain the same score with far fewer parameters and cheaper computation; this is the query and key projection of the modern block (an account given by a researcher involved in the early work; the history of such ideas is diffuse).
+- **Trade-off**: parameter efficiency against a rank limit on the kinds of relations expressible per head; many heads compensate.
+- **Does not hold when**: you need a score that is not well approximated by a bilinear form.
+
+## 7.12 The key-value cache: compute becomes memory
+- **Thesis**: generating one token at a time can reuse earlier keys and values, making per-token attention cost linear, at the price of memory.
+- **Mechanism**: with a causal mask, when token n+1 arrives the first n rows of keys and values are unchanged and only the new row of queries is needed, so the keys and values are stored (queries are not). Storage is 2 times tokens times head size times heads times layers numbers. For a configuration with 128 heads and 61 layers in 16-bit numbers, that is on the order of four megabytes per token, hundreds of gigabytes read per new token at a 100,000-token context (illustrative, as reported). The bottleneck is memory bandwidth.
+- **Trade-off**: speed for memory; very long contexts become a hardware problem, not a model-quality problem.
+- **Does not hold when**: the prompt is short, where the cache is small and compute dominates.
+
+## 7.13 Sharing keys and values: multi-query, grouped-query, latent attention
+- **Thesis**: compressing the cache by letting heads share or compress their keys and values trades some specialisation for memory.
+- **Mechanism**: multi-query attention uses a single key and value matrix for all heads (cache shrinks by the number of heads, quality drops since heads cannot specialise); grouped-query attention lets groups of heads (for example eight) share (cache shrinks by the group size, smaller drop). Multi-head latent attention projects the input into one compressed latent shared across heads and caches only that, then up-projects with per-head matrices to keys and values; a linear-algebra rearrangement absorbs the up-projection into the query and output weights, so no extra compute is paid at inference. In one developer report the cache fell from roughly four megabytes to about seventy kilobytes per token (a 57-fold reduction), with generation more than six times faster and quality not worse (a developer-reported result; re-check).
+- **Trade-off**: cache size, speed and quality; each scheme changes what each head can store.
+- **Does not hold when**: you treat the numbers as universal: they hold for one architecture and one implementation.
+
+## 7.14 Selective state-space models: a fixed-size memory that chooses what to keep
+- **Thesis**: a recurrent state with input-dependent update rules gives linear cost in sequence length while recovering some of attention's ability to select.
+- **Mechanism**: attention can address any past token but costs the square of the length; a classic recurrent net keeps a fixed-size hidden state but only sees the last state and the current input. Linear state-space models update h = A h + B x with parameters fixed for the whole sequence, which allows the unrolled form to be computed as a convolution and is efficient, but cannot decide per token what to remember, and did poorly on language. The selective variant makes the step size and the input and output maps functions of the current token, so it can choose to propagate or forget; that breaks the convolution shortcut, so a hardware-aware scan limits memory traffic. A block is: input projection, short convolution, nonlinearity, selective recurrence, gate, output projection.
+- **Trade-off**: linear time and constant memory against a bounded state that cannot hold arbitrary past tokens exactly (general knowledge: exact recall of far-back items stays an attention strength).
+- **Does not hold when**: tasks need exact lookup in very long inputs; hybrids that keep some attention layers address this.

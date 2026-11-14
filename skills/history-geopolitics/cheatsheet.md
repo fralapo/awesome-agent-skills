@@ -62,9 +62,42 @@ A multiple physical agree; B one strong physical; C interested document; D infer
 |---|---|
 | "The record shows" | Physical find |
 | "This suggests" | Inference with named steps |
-| "According to the account" | Narrative |
+| "According to the chronicle" | Narrative |
 | "Historians disagree on" | Debated; name positions |
 | "Unclear" | Evidence gave no clear answer |
 
 ## Analogy Check [ch07]
 Name mechanism; match variables; list 3 disanalogies; give a test; say what history cannot tell.
+
+## Where to Start: War, Republics, Systemic War
+| Situation | First move |
+|---|---|
+| Won every battle, lost the war | Supply radius, critical lane, return on holding ground [ch09.1 to 9.4] |
+| Capital taken, war goes on | Is the state centralised; other seats or tribes [ch09.7] |
+| Army split in command | Who can overrule; political orders [ch09.8] |
+| Long war, no decisive battle | Who replaces losses and buys inputs; patron, creditor [ch09.9, ch11] |
+| Republic eroding | Written versus customary rules; enforcement; emergency powers; army loyalty [ch10] |
+| Blockade claim | Split into blockade, home policy, supplier loss, neutrals; ranges [ch11.3] |
+| Peace treaty blamed | Terms, debts, circular flows; label chain as hypothesis [ch11.6] |
+| Why did a regional crisis become a world war | Layer table; schools; aims after the fact are not causes [ch12] |
+
+## Additional Case Sheets at a Glance
+| Case | Shape | Main contested point | Best-supported element |
+|---|---|---|---|
+| Athens vs Sparta [13.1] | War of 27 years | Which factor decided | Grain route cut; rich patron |
+| British decline [13.2] | Decades, negotiated | Chosen or forced | War debt; rising rivals |
+| Yugoslavia [13.3] | A decade of drift, then split | Leader's role | Succession gap, paralysis |
+| Roman Republic [ch10] | A century of erosion | Moral decline vs structure | Norm breaches, army loyalty |
+| Third-century Rome [13.5] | Fifty-year crisis | Order of events | Civil war, debasement |
+| Steppe empire [13.6] | Decades to centuries | Fall at founder's death? | Succession disputes |
+| Imjin War [14.2] | Six years | Navy vs winter | Lane denial, supply |
+| Iran-Iraq [14.1] | Eight years | Attacker's motive | Prepared defences, isolation |
+| Eastern Front 1941 [14.6] | Weeks | Role of moved industry | Logistic gaps, armour in marsh |
+| Irish famine [14.10] | Years | Policy vs blight | Staple dependence, harsh relief |
+
+## Blockade Quick Checks [ch11]
+Share of food and fat imported; neutral neighbours; substitutes; occupied territory; price caps; labour loss; supplier wars; army fed first; excess-death range; military effect; who tells the story.
+
+## Systemic War Layer Table [ch12]
+Long fuse (nationalism, inequality, empire) / medium term (blocs, naval race, crises) / trigger / July decisions (ultimatum, guarantee, mobilisation) / later aims (not causes).
+

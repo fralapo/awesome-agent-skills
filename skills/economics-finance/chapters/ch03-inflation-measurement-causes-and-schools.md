@@ -75,7 +75,18 @@ Inflation is a simultaneous rise of prices on average. In this model there is **
 - **Challengers**: monetary revival, government-centred theories, profit-led accounts, cost-push accounts.
 - **Position of the model**: "all of these theories are partly right"; inflation is like war, with many routes. The practical advice is to hold a list of channels (government spending, money creation, expectations, supply disruption, demand shifts, labour market, exchange rate) and check each against data.
 
+## 3.13 Price indexes, real GDP and the quantity-theory arithmetic
+- **Thesis**: three measurement ideas underlie most inflation discussions: the price index, the real versus nominal distinction, and the equation of exchange.
+- **Mechanism**:
+  1. *Price index*: a weighted average of the price of a large basket, set to 100 in a base period (1982 to 1984 in the US case); inflation is the percentage change over a year. In the reported series the index went from 44.4 to 49.3 between 1973 and 1974, an inflation rate of 11 percent; the US rate peaked a little over 14 percent near 1980 and was about 2.5 percent on average in the decades after. Index values near 330 in early 2026 mean prices more than tripled since the base period, which does not mean people are worse off if wages rose faster. Other countries have seen far higher rates (annual rate in the hundreds of percent in one recent year; monthly rates in the billions of percent at the extreme).
+  2. *Real versus nominal GDP*: nominal GDP can rise because prices rise, so real GDP re-values output at the prices of a fixed year. In the reported series nominal GDP grew about 96 times from 1950 to 2025, but real GDP only about 9.5 times; per person the standard of living rose about 4.4 times. A fall in real GDP defines a recession and tends to come with a rise in unemployment.
+  3. *Quantity theory in growth form*: money growth plus velocity growth equals inflation plus real growth. Velocity and real output are fairly stable in the short run, so large sustained price changes must come from money growth; in a sample of about 110 countries over 1960 to 1990 one extra point of money growth went with about one extra point of inflation, and in a hyperinflation case money and prices rose together by thousands of percent a year.
+  4. *Aggregate demand curve*: all combinations of inflation and real growth consistent with a given growth of nominal spending (money plus velocity); more spending growth shifts the curve outward.
+- **Trade-off**: the long-run neutrality of money is a strong claim that sits uneasily with short-run effects on output.
+- **Counter-view**: for moderate inflation in the short run, velocity and credit money break the one-to-one link; the schools in 3.3 to 3.8 disagree on how much of 2021-type inflation this arithmetic explains.
+
 ## Checklist
 - Is the figure headline or core, current or base-affected?
 - Which channel (demand, supply, money, expectations, profits, exchange rate, sector shift)? Which school's evidence fits?
 - Is "inflation" meant as consumer prices or asset prices?
+- Convert any nominal series into real and per-person terms before comparing eras.

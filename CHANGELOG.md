@@ -2,6 +2,11 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.27.0 (2026-11-14)
+
+- New skills (7): `computer-science-fundamentals`, `ai-futures-and-intelligence`, `investing-and-financial-history`, `physics-and-math-ideas`, `institutions-and-geopolitics`, `philosophy-ideas`, `behavior-and-decision-science`.
+- Extended: `software-architecture` (25 chapters), `software-engineering-practice` (14), `ai-ml-concepts` (16), `economics-finance` (13), `scientific-thinking` (17), `history-geopolitics` (14).
+
 ## 1.26.0 (2026-11-13)
 
 - New skill `ai-ml-concepts`: 12 chapters (essential mathematics, probability and Bayes, information, learning as optimization, generalization, architectures, transformers and attention, LLM training and scaling, evaluation and benchmarks, failure modes, safety and interpretability, research principles).

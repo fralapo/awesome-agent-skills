@@ -63,5 +63,19 @@ In this model, published science is a **filtered sample**, and the filter select
 - **Trade-off**: slower and more expensive.
 - **Does not hold when**: not applicable.
 
+## 6.10 Worked case: a famous effect that shrank under replication
+- **Thesis**: a viral finding from a small, flexible study can survive in public opinion long after replications fail.
+- **Mechanism**: an early study with 42 participants claimed that holding an expansive posture for about a minute changes hormones, risk-taking and the feeling of power; a popular talk spread it. A later study with about 200 participants, blinded experimenters and a longer pose found support for the feeling of power only (hormones and risk did not clear the threshold). It coincided with a large effort to replicate 100 published psychology studies, which reproduced fewer than half (39 by one count). Common problems named in the field: small, underpowered samples; recruiting until the result turns positive; selective reporting of outcomes and analyses; and a bias to publish significant results. A critical blog re-analysed the supporting studies and found no collective effect on the physiological outcomes. The first author later said she did not believe in the effects and listed methodological flaws. Later preregistered studies found a small effect on the self-reported feeling of power and little else. A missing neutral control pose left open whether the effect came from the expansive pose or from the contractive one.
+- **Trade-off**: public correction is slow, and personal conflict between camps (accusations of bullying) distorts the discussion.
+- **Does not hold when**: a result has been replicated in preregistered, adequately sized studies.
+- **Use**: for a "simple trick changes your life" claim, check the sample size, who measured what, whether outcomes were chosen in advance, and whether there is a neutral control.
+
+## 6.11 "In mice": translating animal results to people
+- **Thesis**: a result in an animal model has a substantial chance of failing in humans, and reports should say which animal.
+- **Mechanism**: animal models resemble a human disease in some respects and differ in others. A mouse engineered with an inherited-Alzheimer's gene variant developed plaques and a drug targeting them looked promising, but failed in people; scientists do not know why, and one candidate reason is the difference in brains beyond the cellular level. A protein thought to help in multiple sclerosis worked in mice and worsened patients because mouse and human immune systems differ; the standard mouse model has symptoms like the human disease but works differently in cells and misses some phases. An antiviral drug that looked safe in several animal models acts on the DNA of cellular power plants (mitochondria) as well as viruses; the animal tests did not show that. Models also cannot capture everything for infectious diseases.
+- **Trade-off**: models allow experiments that cannot be done in people and have produced real progress; the issue is overclaiming.
+- **Does not hold when**: the pathway is highly conserved across species and the effect has been shown in more than one model and in early human data.
+- **Use**: treat "cures X in mice" as the start of a long list of steps, and ask whether the model reproduces the mechanism, not only the symptoms.
+
 ## Cross-references
-Chapter 02 for the statistics behind 6.1 to 6.3; chapter 12 for how to apply the red flags to a specific claim; chapter 05 for experts working without feedback.
+Chapter 02 for the statistics behind 6.1 to 6.3; chapter 12 for how to apply the red flags to a specific claim; chapter 05 for experts working without feedback. Chapter 15 and 17 for how simple models of life and matter are checked against measurements.

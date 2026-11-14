@@ -68,3 +68,21 @@ A benchmark number is a measurement of a model under one setup on one set of ite
 - **Mechanism**: collect real tasks; write the correct answers and the failure cases in advance; fix the prompt format; run several samples; grade blind (human or a separate model checked against humans); report intervals; re-run when the model version changes; keep items out of public view.
 - **Trade-off**: maintenance effort.
 - **Does not hold when**: the use case is one-off.
+
+## 9.12 Templated variants: testing robustness and contamination at once
+- **Thesis**: turning each benchmark item into a template with placeholders (names, numbers, ranges) lets you measure how fragile a score is, but the template itself can add confounds.
+- **Mechanism**: sample many variants of the same problem. In one study changing only names barely changed accuracy while changing numbers lowered it and widened the spread across variants; adding clauses made problems harder in steps (one fewer condition, one more, two more) and accuracy fell with each; appending an irrelevant clause that seems relevant caused large drops even after several demonstrations of ignoring such clauses. The authors concluded the models pattern-match rather than reason and that the original set was probably contaminated.
+- **Trade-off**: exposes brittleness and memorisation; synthetic sampling can generate implausible scenarios (a huge number of items for a small purchase) that lie outside the human-written distribution models know, so part of the drop may reflect distribution shift; "two clauses harder" can mean a different kind of problem rather than twice as hard; and humans would also fail under time pressure on the hardest variants (position of a critical reader).
+- **Does not hold when**: used as a verdict on "reasoning" without defining it (chapter 9.10, 16.7).
+
+## 9.13 Error analysis: count the categories, read off the ceiling
+- **Thesis**: before spending months on a fix, tally what the errors actually are.
+- **Mechanism**: take about a hundred misclassified development examples and put them in a spreadsheet with a column per suspected cause (for example one animal confused for another, blurry images, filters), adding columns as new causes appear. If a cause accounts for 5 percent of errors, perfect handling lowers a 10 percent error to 9.5 percent (a ceiling); if it accounts for 50 percent, the ceiling is 5 percent. A few hours of counting can decide where to invest.
+- **Trade-off**: cheap and decisive against a small sample and subjective categories; it gives priorities, not a formula.
+- **Does not hold when**: errors interact (fixing one exposes another) or the labels themselves are wrong, which needs a separate check.
+
+## 9.14 One number for iteration, several numbers for constraints
+- **Thesis**: day-to-day model comparison needs a single real-valued metric; secondary needs become constraints.
+- **Mechanism**: precision (of items called positive, how many are) and recall (of true positives, how many were found) trade off, so two models can each win on one; a combination such as the harmonic mean (F1) allows an immediate ranking, and an average across regions turns four error numbers into one. Dozens of experiments can then be sorted quickly.
+- **Trade-off**: speed against hiding what matters; choose the single metric to reflect the real goal and add hard thresholds (latency, per-group floor) as constraints.
+- **Does not hold when**: the single number is optimised until the model overfits it (chapter 15.10).

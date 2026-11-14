@@ -56,3 +56,9 @@ Trade lets societies specialise and survive local shortfalls; it also turns a lo
 - **Mechanism**: a cargo list shows goods in transit on one ship in one year; diplomatic letters show requests for grain, physicians, craftsmen; a foreign comb or ship rivet in a native site shows contact. They do not by themselves show that a society could not survive without the trade. Quote the specific find and what it establishes.
 - **Trade-off**: finds are concrete; their interpretation is not.
 - **Does not hold when**: large repeated quantities of an essential good (tons of metal) show systemic demand.
+
+## 4.10 Import dependence in wartime: blockade and neutrals
+- **Thesis (position)**: a belligerent that imports a fifth to a quarter of its food and much of its fat and fertiliser is vulnerable to a blockade, but the effect depends on neutral intermediaries, substitutes and home policy.
+- **Mechanism**: see chapter 11: neutral re-exports, a chemical substitute for fertiliser, occupied territory, price controls and the decision to fight the main suppliers. An earlier siege-economy case: a sea power survived annual devastation of its land because of overseas grain; its fall followed the cut in that route (ch09.2).
+- **Trade-off**: an import-dependent economy is efficient in peace and exposed in war.
+- **Does not hold when**: the exposed state has secure overland supply or the blockader cannot control the neutrals.

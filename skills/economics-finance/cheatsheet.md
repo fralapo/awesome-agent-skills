@@ -67,6 +67,25 @@ Figures are dated snapshots; re-check. "Position" = judgment, not fact. Chapter 
 | Rent control helps | Covered rent, supply, mobility, quality, new building | Covered rent down; supply, mobility, quality, building worse [ch08] |
 | Build more | Rezoning case | Rents stabilised relative to comparator [ch08] |
 
+## Micro, Growth and Trade
+| Item | Rule of thumb | Watch for |
+|---|---|---|
+| Demand shifters | Income, population, tastes, related goods, expectations [ch10] | Move along a curve versus shift |
+| Supply shifters | Technology, input prices, taxes, entry, opportunity cost, expectations [ch10] | Short-run fixed supply |
+| Equilibrium | Maximises consumer plus producer surplus [ch10] | Ignores fairness and bystanders |
+| Externality | Price too low if costs fall on others; tax equal to external cost [ch10] | Measurement of the cost |
+| Coase | Low transaction costs plus clear rights gives efficient bargains [ch10] | Many parties, unclear rights |
+| Commons | Rival and non-excludable gets overused; quotas or norms repair [ch10] | Cross-border stocks |
+| Monopoly | Price above marginal cost; patents trade static for dynamic gain [ch10] | Rents from political favour |
+| Adverse selection | Informed side self-selects; pool unravels [ch10] | Propitious selection |
+| Comparative advantage | Specialise by lowest opportunity cost [ch12] | Losers inside each country |
+| Tariff versus quota | Same price and quantity; rent goes to government, licence holders or foreign firms [ch12] | Rent seeking |
+| Sanctions | Political restriction; costs to sender and third parties [ch12] | Evasion channels |
+| Institutions | Rules and norms set incentives for capital and talent [ch11] | Reverse causality |
+| Resource curse | Dutch disease, rentier state, price-tracking spending [ch11] | Funds and rules as counter-example |
+| Aid | Modest growth effect; better for specific harms [ch11] | Lags, reverse causality |
+| Fertility | Replacement about 2.1 to 2.3 births per woman [ch11] | Projections date |
+
 ## Dated Figures Worth Knowing (snapshots)
 | Figure | Context |
 |---|---|
@@ -79,3 +98,9 @@ Figures are dated snapshots; re-check. "Position" = judgment, not fact. Chapter 
 | 31 / 26 / 33 / 10 (percent) | Vienna renters: city / non-profit / controlled private / free market |
 | About 3.8% average interest, 14% of spending | US government debt service (2026 reading) |
 | 2.15% real | Implied future real rate from inflation-protected bonds (2026 reading) |
+| About 600 trillion; 5.4 times GDP | World net worth, 2024-25 reading (peak 6.1 in 2020) |
+| About 2.9 times GDP (about 322 trillion) | Total world debt, 2024 reading |
+| 75 percent | Share of net worth growth since 2000 from price rises |
+| About 3 versus 10 | Typical versus textbook money multiplier (US, reported) |
+| 96 times versus 9.5 times | Nominal versus real US GDP, 1950 to 2025 |
+| Over 80 percent loss | Reported output fall of one oil-rich economy over about a decade (estimate) |

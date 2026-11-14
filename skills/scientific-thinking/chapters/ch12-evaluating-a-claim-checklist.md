@@ -13,7 +13,7 @@ In this model, evaluating a claim is a **short sequence of questions** that catc
 7. **Effect size and uncertainty.** Variance explained, interval, practical size. A small p-value is not a large effect. (ch02)
 8. **Surprise and replication.** The more surprising, the more independent reproductions are needed. Single group, single lab: low weight. (ch06)
 9. **Incentives along the chain.** Researcher, institution, press office, outlet, platform, seller. Who gains from this being true? (ch06)
-10. **Source of the confidence.** Is the speaker an expert in a valid, feedback-rich environment, or a fluent generalist? Has their record been scored? (ch05)
+10. **Source of the confidence.** Is the claimant an expert in a valid, feedback-rich environment, or a fluent generalist? Has their record been scored? (ch05)
 11. **My own reaction.** Do I like the conclusion? Does it flatter my group? Does it feel obvious because it is repeated? Am I substituting an easier question? (ch04)
 12. **Mechanism and alternatives.** Is there a plausible causal pathway, and what third factor could produce the association? Is the vivid story hiding an aggregate that points elsewhere? (ch04, ch02)
 13. **Search for refutation.** Search for the claim plus "debunked", "failed to replicate", "criticism", not only for support. (ch11)
@@ -34,6 +34,10 @@ In this model, evaluating a claim is a **short sequence of questions** that catc
 | "Everyone is wrong about Y" | which version of Y; steelman; evidence base | myth that is itself a myth |
 | "Rational choice implies Z" | level (individual vs group), one-shot vs repeated | confusing the levels |
 | "Math proves democracy/markets/science is impossible/inconsistent" | exact theorem statement and its conditions | stretching a theorem beyond its conditions |
+| "It worked in mice" | model fidelity, mechanism, human data | animal result presented as a human one |
+| "We are probably living in X / aliens would doom us" | list the assumptions; which are testable | conclusion stated without its conditions |
+| "This everyday effect defies physics" | which two quantities are conflated | hidden term; energy not counted |
+| "Everyone's mind works like mine" | different strategies, self-report validity | projection of one's own inner experience |
 
 ## 12.3 Worked case: common misconceptions about the climate
 This case shows how to separate a robust consensus from a rhetorical trick. The claims below are common ones; figures are dated.
@@ -62,6 +66,15 @@ Apply step 4: was the change measured against a comparison? Regression to the me
 
 ## 12.7 Worked case: "democracy is mathematically impossible"
 Apply step 1 and the table: what does the theorem state, what conditions? Ranked ballots with three or more options and five conditions. Escape routes: rated ballots, single-peaked preferences. The headline overstates.
+
+## 12.8 Worked case: "we are probably in a simulation"
+Apply the far-scenario rules in ch16: write the assumptions (consciousness can be simulated, technology continues, civilisations survive, they choose to simulate, many simulations exist), mark which are testable (none cleanly), and state the conclusion conditionally. The headline drops the conditions.
+
+## 12.9 Worked case: "a posture trick changes your hormones and your life"
+Apply steps 3 and 4: sample size, replication, preregistration, control pose. See ch06, section 6.10: the fuller replications supported only a small change in a self-report.
+
+## 12.10 Worked case: "a spool/lever/siphon video shows physics is wrong"
+Apply ch17, section 17.14: which two quantities are merged? Is energy conserved? Compute the idealised number, measure it, and chase the difference.
 
 ## Cross-references
 All chapters; use [cheatsheet.md](../cheatsheet.md) for a one-page version and [patterns.md](../patterns.md) for situation-to-move entries.

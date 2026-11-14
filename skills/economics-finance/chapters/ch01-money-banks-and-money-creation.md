@@ -45,7 +45,14 @@ Most of the money people use is **bank debt that the public accepts as payment**
 - **Trade-off**: reserves and fee income against reputational and legal risk.
 - **Counter-view (position)**: economists differ on how much of the business was legitimate; tax evasion is often named as the main driver.
 
+## 1.8 The textbook money multiplier (and why it is a simplification)
+- **Thesis**: the classic account says banks hold a fraction of deposits as reserves and lend the rest, so a new unit of reserves supports a multiple of deposits.
+- **Mechanism**: with a reserve ratio of 10 percent, 1,000 of cash deposited lets the bank lend 900; that loan is deposited, 810 is lent on, and so on; the multiplier is 1 divided by the reserve ratio (10 here), so 1 in new reserves supports 10 of deposits in M1 or M2. Withdrawn cash only creates new money in this account if it comes from outside the banking system (cash under a mattress, or new reserves from the central bank); a cheque between accounts creates no new reserves. The central bank's control is therefore indirect.
+- **Trade-off**: simple and teachable, but in practice banks can hold more than the required reserves and the public holds cash, so the real multiplier is far below the ceiling (about 3 in ordinary times in the reported US case) and falls further in a recession when banks hold more and the public hoards cash.
+- **Counter-view**: the credit-money account in 1.1 to 1.3 says lending comes first and reserves follow, so the multiplier is not a causal mechanism; in this model both accounts are shown so the reader can see which one a claim relies on.
+
 ## Checklist
 - Name the issuer, the redemption promise and what happens if many holders ask at once.
 - Ask whether new credit funds new output or existing assets.
 - Separate the money-creation point (settled mechanics) from the regulation point (contested).
+- Check whether a claim uses the textbook multiplier or the credit-money account before relying on its numbers.

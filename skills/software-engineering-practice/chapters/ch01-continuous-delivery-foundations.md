@@ -17,7 +17,7 @@ In this model, continuous delivery is a way of working in which the software is 
 
 ## 1.3 Cycle time as the driver
 - **Thesis**: measure the time from idea to working software in users' hands (cycle time or lead time) and reduce it relentlessly; it exposes every bottleneck.
-- **Mechanism**: a short cycle forces small teams, little coordination, automation of testing, configuration and deployment, and waste removal. Two contrasting cases from the material: an order-management system where the smallest change took 103 days to reach production (effectively no feedback), and a far more complex low-latency exchange system where any change produced a verdict on releasability in about 57 minutes (stated as roughly 56 to 57 minutes in different places). The aim is releasability within a day, ideally within an hour.
+- **Mechanism**: a short cycle forces small teams, little coordination, automation of testing, configuration and deployment, and waste removal. Two contrasting cases: an order-management system where the smallest change took 103 days to reach production (effectively no feedback), and a far more complex low-latency exchange system where any change produced a verdict on releasability in about 57 minutes (stated as roughly 56 to 57 minutes in different places). The aim is releasability within a day, ideally within an hour.
 - **Trade-off**: the cycle is only as short as its slowest manual step; shortening it requires investment first.
 - **Does not hold when**: you optimise the metric instead of the outcome (see ch08).
 

@@ -49,5 +49,26 @@ Slow builds (build time as a physical measure of coupling; one extreme example c
 - **Trade-off**: autonomy is not a purity test; teams still need contact points as interfaces change.
 - **Does not hold when**: the problem is small enough for one team.
 
+## 5.9 Coupling kinds at code level
+The five kinds above describe components and teams. At function and class level, a second vocabulary names the same assumptions more finely (repairs in ch10.7):
+| Kind | Meaning | Example |
+|---|---|---|
+| **Global** | Code reads shared module-level state | A function using module constants for a token and an account id |
+| **Data** | Code needs many values passed in | A function with five or six arguments every caller must supply |
+| **Stamp** | A whole structure is passed although only some fields are used | A logging function receiving an entire transaction record |
+| **Content** | One module reaches into another's internals | A helper changing an account's balance field directly |
+| **Structural** | Many steps know the same piece of data | A reference id threaded through email, analytics and invoicing |
+| **Temporal** | Steps must run in a fixed order | Reserve, then save, then invoice, then notify |
+- **Thesis**: each of these is a lesser or greater form of the same hidden assumption, and removing one usually replaces it with a milder kind; none is free.
+- **Law of Demeter**: do not reach through an object's structure (a chain of attribute accesses); ask the owner a question through a method or property so its internals can change.
+- **Connascence** (a 1990s concept) is a ruler: if changing A forces changing B, they are connected; measure how far and how strongly. Prefer weak and local over strong and distant.
+- **Does not hold when**: the code is a short script; the cost of tracing kinds exceeds the benefit.
+
+## 5.10 Cohesion at function and module level
+- **Thesis**: cohesion is the degree to which the elements of a function or class belong together; a function with one clear task (a single mathematical operation) is cohesive, a function that generates an id, a licence number, a price, a tax and prints a report is not.
+- **Mechanism**: group by **reason to change**, not by size; low cohesion usually comes with high coupling to the helper's internals. You cannot compute a number for either property; it is a judgment trained by practice, analysing a piece of code for what changes together. In a layered workflow, extract steps only when they clarify behaviour; cutting code into many tiny pieces optimises smallness, not cohesion (ch10.6).
+- **Trade-off**: raising cohesion (split responsibilities) usually adds coupling between the pieces; say which you accept.
+- **Does not hold when**: the unit is a tiny one-off.
+
 ## Cross-references
-Chapter 06 for design vs architecture; chapter 08 for cognitive load as the human face of the same problem; `software-architecture` for service boundaries, messaging and resilience mechanics.
+Chapter 06 for design vs architecture; chapters 10 and 11 for repairing code-level coupling (parameter objects, value objects, boundaries, composition, injection); chapter 08 for cognitive load as the human face of the same problem; `software-architecture` for service boundaries, messaging and resilience mechanics.

@@ -66,4 +66,4 @@ In this model, three popular topics each illustrate how evidence can be strong i
 - **Does not hold when**: overloaded working memory; too many new items at once, as in some lectures.
 
 ## Cross-references
-Chapter 02 for correlation sizes and subgroup analysis; chapter 04 for working memory and chunking; chapter 06 for how to read single studies; chapter 12 for the checklist.
+Chapter 02 for correlation sizes and subgroup analysis; chapter 04 for working memory and chunking; chapter 06 for how to read single studies; chapter 12 for the checklist. Chapter 15 for intelligence as a toolbox and for biological clocks; chapter 13 for time perception.

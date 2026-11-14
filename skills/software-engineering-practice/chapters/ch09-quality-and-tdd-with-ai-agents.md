@@ -5,7 +5,7 @@ In this model, agents do not remove the need for engineering discipline; they mo
 
 ## 9.1 Two kinds of quality, now both at risk
 - **Thesis**: external quality (works, responsive, data safe) is unchanged; internal quality (code a human or agent meets) still matters even if humans read less of it.
-- **Mechanism**: poor code makes agents consume more tokens, take longer and make more mistakes; names in code should carry the domain language because the agent cannot translate silently the way a human does. Whether agents need different quality attributes from humans is unclear in source (no strong evidence); for now what helps humans also seems to help agents.
+- **Mechanism**: poor code makes agents consume more tokens, take longer and make more mistakes; names in code should carry the domain language because the agent cannot translate silently the way a human does. Whether agents need different quality attributes from humans is unverified (no strong evidence); for now what helps humans also seems to help agents.
 - **Trade-off**: organisations at a higher abstraction level may care about operational and external quality and look less at the code; others still read everything.
 - **Does not hold when**: the code is a throwaway.
 
@@ -17,7 +17,7 @@ In this model, agents do not remove the need for engineering discipline; they mo
 
 ## 9.3 Example-first workflow
 - **Thesis**: concrete examples work better than prose descriptions, for humans and for agents; TDD and its relatives (behaviour-driven, acceptance-test-driven, specification by example) can be viewed as example-guided development.
-- **Mechanism**: a reported workflow: (1) a collaborative human step of **example mapping** with stakeholders to build shared understanding; (2) turn it into a **test list**, with the agent checking for missing obvious permutations; (3) an inner loop, one item at a time, of red, green, refactor, with **predictive TDD**, that is, predicting the result and failure message before each step (which also keeps the agent aligned with reality, perhaps because the prediction brings the problem to the front of the context). Compared with giving prose rules to the agent, adding example mapping raised correctness by a large margin in their tests (reported as 60 to 80% in some cases; exact baseline unclear in source). Compared with plain "do TDD" prompts, the structured workflow gave lower complexity, shorter functions and higher mutation scores (test quality) at higher token cost.
+- **Mechanism**: a reported workflow: (1) a collaborative human step of **example mapping** with stakeholders to build shared understanding; (2) turn it into a **test list**, with the agent checking for missing obvious permutations; (3) an inner loop, one item at a time, of red, green, refactor, with **predictive TDD**, that is, predicting the result and failure message before each step (which also keeps the agent aligned with reality, perhaps because the prediction brings the problem to the front of the context). Compared with giving prose rules to the agent, adding example mapping raised correctness by a large margin in their tests (reported as 60 to 80% in some cases; exact baseline unverified). Compared with plain "do TDD" prompts, the structured workflow gave lower complexity, shorter functions and higher mutation scores (test quality) at higher token cost.
 - **Trade-off**: more tokens and more human involvement upfront. A dedicated refactoring sub-agent with fresh context helped on an earlier model generation and less on a later one (benefit shrinks as models improve; re-test).
 - **Does not hold when**: you work alone on a tiny, exploratory problem; or when the requirements are already unambiguous executable specifications.
 
@@ -27,7 +27,7 @@ In this model, agents do not remove the need for engineering discipline; they mo
 - **Does not hold when**: the change is small and checked by strong gates (9.5).
 
 ## 9.5 Gates instead of reading everything
-- **Thesis (position)**: one team's reported approach is to define what a good change looks like and let changes that pass automated gates (tests, lint, static analysis, size limit) skip human review, requiring review above a size threshold (an illustrative threshold of about 500 lines was mentioned, with the speaker unsure of the number).
+- **Thesis (position)**: one team's reported approach is to define what a good change looks like and let changes that pass automated gates (tests, lint, static analysis, size limit) skip human review, requiring review above a size threshold (an illustrative threshold of about 500 lines was mentioned, approximate and unverified).
 - **Mechanism**: incentivises small changes, reduces blast radius, makes tacit standards explicit for agents and new people alike.
 - **Trade-off**: you need strong gates first.
 
@@ -37,7 +37,7 @@ In this model, agents do not remove the need for engineering discipline; they mo
 - **Does not hold when**: tests are used only as a regression net on existing behaviour (characterisation).
 
 ## 9.7 Does TDD still matter when the agent writes the code?
-Two positions in the material: (a) the inner loop of fine-grained TDD has largely gone to the agent, so its design value is smaller; (b) low-level internal quality still matters and a tight red-green-refactor loop with sub-agents, hooks or checks that force frequent refactoring keeps it. Both authors treat the question as open. TDD also remains a teaching and thinking aid for humans. For tests as feedback, an argument in the material is that even superintelligent agents would need feedback loops from outputs, so continuous delivery would persist (speculative position).
+Two positions: (a) the inner loop of fine-grained TDD has largely gone to the agent, so its design value is smaller; (b) low-level internal quality still matters and a tight red-green-refactor loop with sub-agents, hooks or checks that force frequent refactoring keeps it. Both authors treat the question as open. TDD also remains a teaching and thinking aid for humans. For tests as feedback, one argument is that even superintelligent agents would need feedback loops from outputs, so continuous delivery would persist (speculative position).
 
 ## 9.8 Agents and abstraction
 Writing detailed English instructions can approach programming at a higher abstraction level, but without version control and repeatability ("an incremental compiler that gives a different answer each time"). Specification through acceptance tests reinforces executable specification thinking. Developers' value is deciding what the problem is, not typing code; pairing with a stronger human remains something agents do not replace.

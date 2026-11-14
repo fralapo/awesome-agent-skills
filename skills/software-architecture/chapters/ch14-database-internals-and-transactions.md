@@ -64,3 +64,12 @@ A database is a program with design decisions, and each decision (where old row 
 - **Trade-off**: more moving parts around an external call.
 - **Does not hold when**: the handler touches only your own database in one transaction.
 
+
+## 14.11 Optimistic concurrency at the instruction level: compare-and-swap
+- **Thesis**: the cheapest "lock" is an atomic instruction that makes one of several competing writers win and tells the others they lost.
+- **Mechanism**: pessimistic locking wraps the critical section with acquire and release; all other threads wait, so one hot section caps throughput however many cores you have. **Compare-and-swap** sets a variable to a new value only if it still holds the expected old value, and reports success or failure; it is a single atomic hardware instruction (a locked compare-exchange), so the processor cannot be interrupted in the middle. A counter increment becomes: read old, compute new, compare-and-swap; on failure the code decides: retry, ignore or surface an error. The same shape appears in databases as a version column checked at update time (14.6) and across machines as an epoch or token check (ch21 21.8).
+- **Trade-off**: high throughput when conflicts are rare and the section is a single variable; code is more verbose than a mutex; retries spin when contention is high.
+- **Does not hold when**: the work is large (calls to other systems, several statements) or conflicts are frequent; take a lock or serialise the writers (14.6).
+
+## 14.12 Distributed commit variants
+- **See** ch21 21.10 (two-phase commit versus consensus), ch23 23.2 (client-driven two-phase commit with a primary lock and roll-forward) and 23.3 (replicated participants).

@@ -1,7 +1,7 @@
 # Chapter 07: Engineering, Craft and the Meaning of Software Quality
 
 ## Core Idea
-In this model software development is a design discipline whose production cost is near zero, so the right analogy is **one-off design engineering** (a vehicle designer), not a production line or bridge-building. Craft supplies skill; engineering adds constraints, measurement and accumulated guide rails. The material argues "engineering is the stuff that works" (positions, not evidence).
+In this model software development is a design discipline whose production cost is near zero, so the right analogy is **one-off design engineering** (a vehicle designer), not a production line or bridge-building. Craft supplies skill; engineering adds constraints, measurement and accumulated guide rails. The position here is that "engineering is the stuff that works" (positions, not evidence).
 
 ## 7.1 Craft is necessary but not sufficient
 - **Thesis (position)**: craft values (skill, responsibility, steady value, community) are good, but they are not unique to craft and need guidance on what "good" looks like.
@@ -20,10 +20,10 @@ Production-line and civil-engineering thinking comes from domains where producti
 
 ## 7.4 A quality definition you can use
 Order of priority: (1) it works; (2) it is easy and safe to change, because that is how performance, security and everything else improve when you learn more; (3) the properties that preserve changeability (modular, cohesive, separated, abstracted, loosely coupled). Test of a choice: imagine two versions of your system, one with the properties and one without (behaviour spread everywhere, changes break distant things); which would you add a feature to?
-- **Internal vs external quality** (a conversation in the material): external is what users perceive (works, responsive, safe data); internal is what developers meet in code, and splits into operational quality and developer experience. The user's definition of quality has not changed with agents; how you assess it has (ch09).
+- **Internal vs external quality** : external is what users perceive (works, responsive, safe data); internal is what developers meet in code, and splits into operational quality and developer experience. The user's definition of quality has not changed with agents; how you assess it has (ch09).
 
 ## 7.5 Safety-critical work, speed and quality
-- **Thesis (position)**: there is no trade-off between speed and quality; survey research in the material supports this; slow process does not equal safe process.
+- **Thesis (position)**: there is no trade-off between speed and quality; survey research supports this; slow process does not equal safe process.
 - **Mechanism**: the first software engineers on a crewed-flight programme became obsessed with how things could go wrong, designed to fail safe, and kept the crew alive when overload alarms fired. The engineering mindset is: for any scale, how can this go wrong, and how do I mitigate or eliminate it. Contrast: a car-maker's runaway-acceleration case where reportedly expert review found enormous functions (stated as 10,000 lines), and an anecdote of a lighting switch changing engine behaviour in a car, showing a claimed separation of subsystems did not hold. Coverage by control-flow can be gamed; a data-driven defect can slip through.
 - **Trade-off**: heavy compliance tends to rely on extra late-stage testing and traditional slowness, not necessarily better engineering. One survey statistic cited: having a change-approval board correlates negatively with quality, "worse software slower" (correlation, from survey data; treat as indicative).
 - **Does not hold when**: a regulation mandates a specific process; satisfy it, but apply small verifiable steps within it.
@@ -36,3 +36,4 @@ Successful agent-assisted engineering was reported by already-skilled people who
 
 ## Cross-references
 Chapter 01 for the engineering process (pipeline), chapter 05 for the quality properties, chapter 08 for measurement.
+Chapters 10 to 12 for function-level design and error handling; chapter 13 for tool mastery and benchmarks as craft habits.

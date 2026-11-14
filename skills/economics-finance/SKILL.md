@@ -1,6 +1,6 @@
 ---
 name: economics-finance
-description: "Macroeconomics and finance reasoning for analysts, students and decision makers: how banks create money; what central banks do with policy rates, forward guidance, balance sheets, QE and monetary finance; why inflation happens (measurement, demand pull, supply push, money, expectations, wages and profits, and where the schools of thought disagree); when public debt is sustainable (debt-to-GDP, interest rate versus growth, austerity, doom loops); exchange rates, pegs, currency boards and dollarization; banking, sovereign, property and currency crises; why housing is expensive; rent control versus building and social housing; and how to reason like an economist (incentives, trade-offs, evidence versus theory). Use when the user asks why prices, rents, rates, debt or a currency move, wants a macro, housing or monetary policy evaluated, is reading a crisis or central bank story, or wants the strongest case on each side. Separates mechanism from contested position. No investment advice or market forecasts."
+description: "Macro, micro and finance reasoning for analysts, students and decision makers: how banks create money; central banks, rates, QE and monetary finance; inflation (measurement, money, demand, supply, schools of thought); public debt sustainability; exchange rates, pegs, gold standard, dollarization; banking, sovereign, property and currency crises; housing and rent control; market basics (demand and supply, surplus, externalities, commons, monopoly, asymmetric information); growth and development (institutions, resource curse, aid, demography); international trade (comparative advantage, tariffs versus quotas, sanctions); dated country case sheets. Use when the user asks why prices, rents, rates, debt, a currency or a country move, wants a policy evaluated, is reading a crisis or development story, or wants the strongest case on each side. Separates mechanism from contested position. No investment advice or forecasts."
 allowed-tools:
   - Read
   - Grep
@@ -8,11 +8,11 @@ argument-hint: [question, policy, mechanism, or chapter number]
 ---
 
 # Economics and Finance
-**Chapters**: 9 | **Corpus**: ~15 theoretical topics | **Generated**: 2026-11-13
+**Chapters**: 13 | **Generated**: 2026-11-13
 
 ## Role and Boundaries
 
-This skill **decides how to reason about money, prices, public finance, exchange rates, crises and housing**: which mechanism is operating, who gains and pays, what the evidence shows, which parts are settled and which are contested between schools. It gives causal chains, comparison tables and checklists; the user owns the judgment and any decision.
+This skill **decides how to reason about money, prices, public finance, exchange rates, crises, housing, markets, trade and development**: which mechanism is operating, who gains and pays, what the evidence shows, which parts are settled and which are contested between schools. It gives causal chains, comparison tables and checklists; the user owns the judgment and any decision.
 
 | This skill decides | This skill hands off |
 |---|---|
@@ -44,6 +44,10 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 | Bank failure, sovereign default, property bust, currency crash | [ch06](chapters/ch06-financial-crises-banking-sovereign-property-currency.md) | ch01, ch04, ch05 |
 | Why houses are expensive; NIMBY, upzoning, mortgage credit | [ch07](chapters/ch07-housing-prices-and-affordability.md) | ch08, ch03 |
 | Rent control, filtering, social housing, Vienna | [ch08](chapters/ch08-rents-rent-control-and-social-housing.md) | ch07, ch09 |
+| Demand, supply, surplus, elasticity, price ceilings; externalities, Coase, commons, monopoly, information gaps | [ch10](chapters/ch10-microeconomic-foundations-markets-externalities-and-information.md) | ch08, ch09 |
+| Why some countries are poor; institutions, resource curse, aid, ageing, brain drain | [ch11](chapters/ch11-growth-and-development-institutions-resources-aid-and-demography.md) | ch13, ch12 |
+| Comparative advantage, tariffs versus quotas, sanctions, export bans, "trade kills jobs" | [ch12](chapters/ch12-international-trade-comparative-advantage-tariffs-and-sanctions.md) | ch05, ch10 |
+| One country's rise or fall (oil states, banking collapse, stagnation, hyperinflation) | [ch13](chapters/ch13-country-case-sheets.md) | ch11, ch06 |
 | Judging any claim; incentives; consensus map; reading evidence | [ch09](chapters/ch09-how-to-reason-in-economics.md) | any |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
@@ -61,6 +65,10 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 10. **Housing is both consumption and investment**; test shortage, speculation and credit separately.
 11. **Price caps protect insiders and shift costs to outsiders**; the supply response decides the outcome.
 12. **Theory proposes, evidence disposes**; label every contested claim as a position and give the rival view.
+13. **Price is a signal; efficiency ignores bystanders and fairness**; an externality or a missing property right is where markets fail, and each repair has its cost.
+14. **Comparative, not absolute, advantage drives trade**; gains are aggregate, so name the losers and who captures a barrier's rent.
+15. **Institutions and incentives sit under growth**; a resource, a loan or an aid grant helps only where rules turn it into capital.
+16. **A country story is a case sheet, not a proof**: facts, proposed causes, evidence, contested points.
 
 ## Chapter Index
 
@@ -73,6 +81,10 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 7. [Housing prices and affordability](chapters/ch07-housing-prices-and-affordability.md)
 8. [Rents, rent control and social housing](chapters/ch08-rents-rent-control-and-social-housing.md)
 9. [How to reason in economics](chapters/ch09-how-to-reason-in-economics.md)
+10. [Microeconomic foundations: markets, externalities, monopoly and information](chapters/ch10-microeconomic-foundations-markets-externalities-and-information.md)
+11. [Growth and development: institutions, resources, aid and demography](chapters/ch11-growth-and-development-institutions-resources-aid-and-demography.md)
+12. [International trade: comparative advantage, tariffs, quotas and sanctions](chapters/ch12-international-trade-comparative-advantage-tariffs-and-sanctions.md)
+13. [Country case sheets](chapters/ch13-country-case-sheets.md)
 
 ## Topic Index
 
@@ -97,6 +109,24 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 - **Property bust channels (investment, consumption, sentiment)** → ch06
 - **Rent control evidence, public housing, Vienna** → ch08
 - **Zero lower bound** → ch02
+- **Adverse selection, propitious selection, group insurance** → ch10
+- **Aid, big push, poverty traps** → ch11
+- **Brain drain, fertility, ageing** → ch11
+- **Case sheets (oil states, island recovery, stagnation, dollarisation)** → ch13
+- **Coase theorem, Pigouvian tax, tradable permits** → ch10
+- **Comparative advantage, trade and jobs, child labour argument** → ch12
+- **Demand and supply shifters, equilibrium, surplus, elasticity** → ch10
+- **Dutch disease, rentier state, sovereign wealth fund** → ch11, ch13
+- **Gold standard, currency devaluation as protection** → ch05
+- **Institutions, colonial extraction, Solow model, catching up** → ch11
+- **Monopoly, patents, deadweight loss** → ch10
+- **Money multiplier (textbook)** → ch01
+- **Rent seeking, quota rents, voluntary export restraint** → ch12
+- **Sanctions, export bans** → ch12
+- **Tragedy of the commons, individual transferable quotas** → ch10
+- **2023 bank failures, uninsured deposits** → ch06
+- **Real versus nominal GDP, price index arithmetic** → ch03
+- **Global net worth versus GDP** → ch04, ch13
 
 ## Related Skills
 
@@ -106,4 +136,4 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 
 ## Scope & Limits
 
-Practical theory about money and banking, central banking, inflation theory, public debt, exchange-rate regimes, crises (banking, sovereign, property, currency), housing prices and rent policy, mostly opinion-led and then marked as position with a rival view. Not covered in depth: the balance of payments and global imbalances (outline only), international financial architecture, derivatives and market microstructure, tax design, labour economics, development and growth theory, formal macro modelling, and country statistics beyond the dated snapshots quoted. Figures (rates, ratios, counts of studies, projections) are snapshots tied to the dates given and change; re-check before relying on them. The skill gives no investment, tax, legal or forecasting guarantee.
+Practical theory about money and banking, market basics, development and trade, country case sheets, central banking, inflation theory, public debt, exchange-rate regimes, crises (banking, sovereign, property, currency), housing prices and rent policy, mostly opinion-led and then marked as position with a rival view. Not covered in depth: the balance of payments and global imbalances (outline only), international financial architecture, derivatives and market microstructure, tax design, labour economics, elasticity and market structures beyond monopoly (price discrimination, oligopoly, game theory), formal growth and macro modelling, trade models beyond one-factor comparative advantage, and country statistics beyond the dated snapshots quoted. Figures (rates, ratios, counts of studies, projections) are snapshots tied to the dates given and change; re-check before relying on them. The skill gives no investment, tax, legal or forecasting guarantee.

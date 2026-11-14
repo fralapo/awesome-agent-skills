@@ -62,3 +62,15 @@ Language models fail in patterned ways that follow from how they are built: next
 - **Mechanism**: post-training changes shift behaviour; the same prompt may behave differently (formatting, refusal, length).
 - **Trade-off**: pinning versions delays gains.
 - **Does not hold when**: you have regression tests that run on every upgrade.
+
+## 10.11 Fragility under surface changes and irrelevant detail
+- **Thesis**: accuracy on a problem family often drops when numbers, extra conditions or distractor sentences change, though the underlying logic is unchanged.
+- **Mechanism**: models were trained on human-written text where relevant details are used; a distractor clause that looks like an instruction becomes part of the computation, and numbers outside the usual ranges push the problem out of the familiar distribution. Variance across variants of the same item is itself a signal of non-robust behaviour.
+- **Trade-off**: tells you where to add checks, tools or retrieval; it does not by itself prove or refute "reasoning" (chapters 9.10, 16.7).
+- **Does not hold when**: a verifier or a tool performs the exact step; then the model's role is translation, not calculation.
+
+## 10.12 Long-horizon planning and rare irreversible mistakes
+- **Thesis**: systems that react step by step are strong where each step has quick feedback, weak where reward is distant.
+- **Mechanism**: a learned value function from pixels excelled at games where precise timing pays off immediately and failed at those requiring many steps of preparation; later systems use explicit search or a learned world model (chapter 14).
+- **Trade-off**: reactive policies are simple and fast; planning costs inference compute.
+- **Does not hold when**: the environment is fully observed and short-horizon.

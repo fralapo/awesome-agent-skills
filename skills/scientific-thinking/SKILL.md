@@ -1,6 +1,6 @@
 ---
 name: scientific-thinking
-description: "Reasoning about evidence and uncertainty: falsifiability; statistics (regression to the mean, p-values, multiple comparisons, effect size) and Bayes (base rates, updating); cognitive ease, illusion of truth, motivated reasoning, anecdotes versus data, post-truth; overconfidence, calibration and real expertise; why published research and science headlines fail (replication, incentives, p-hacking, forensic techniques without validation); prediction, chaos and markets; game theory, Newcomb-type problems, voting and impossibility theorems; limits of mathematics (undecidability, conjectures, Markov chains); how discoveries and prizes work; evidence on happiness, IQ and learning; a claim-evaluation checklist. Use when the user must judge a study, statistic, forecast, expert or headline, design a test, reason under uncertainty, or explain why smart people are fooled. Separates mechanism from position and flags contested findings."
+description: "Reasoning about evidence and uncertainty: falsifiability, phantom entities, how well a theory is tested; statistics (regression to the mean, p-values, multiple comparisons) and Bayes; cognitive ease, motivated reasoning, post-truth; calibration and real expertise; why research and headlines fail (replication, p-hacking, animal-to-human translation); prediction, chaos, randomness, markets; game theory and voting; limits of mathematics (undecidability, P versus NP, computer-assisted proof); infinity and paradoxes; emergence and complex systems; intuition, illusions, categories; far scenarios (simulation, Great Filter, collapse, automation) with caveats; everyday physics paradoxes; discoveries; wellbeing, IQ, learning; a claim checklist. Use when the user must judge a study, statistic, forecast or headline, reason under uncertainty, or explain a counterintuitive result. Hands off theoretical physics to physics-and-math-ideas."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [claim, study, statistic, forecast, or chapter number]
 ---
 
 # Scientific Thinking
-**Chapters**: 12 | **Corpus**: ~30 theoretical topics | **Generated**: 2026-11-13
+**Chapters**: 17 | **Generated**: 2026-11-14
 
 ## Role and Boundaries
 
@@ -22,6 +22,7 @@ This skill **decides how to evaluate and reason about evidence**: whether a resu
 | Persuasion, framing, story-led communication | `public-speaking-persuasion`, `marketing-mba` |
 | UX research design and sample sizes for product work | `ux-ui-expert` |
 | Architecture-level resilience, incident reasoning | `software-architecture` |
+| Theoretical physics and advanced mathematics themselves (Standard Model, relativity, quantum computing, number theory) | `physics-and-math-ideas` |
 
 **Stay in lane.** The chapters hold practitioner-level theory not a literature review. Figures are dated and context-bound, and several rest on studies that have been challenged. Where a finding is contested in the literature the text says "contested" and gives the reason. Where a point is unclear the text says "unclear".
 
@@ -49,6 +50,11 @@ Diagnose before prescribing: ask what the claim is, who made it and why, what th
 | What proof can and cannot do; conjectures; Markov chains and simulation | [ch09](chapters/ch09-mathematics-power-and-limits.md) | ch01, ch07 |
 | How discoveries happen, credit, prizes, dual use | [ch10](chapters/ch10-discoveries-credit-and-prizes.md) | ch01, ch09 |
 | Happiness, income, IQ, learning styles, how learning works | [ch11](chapters/ch11-wellbeing-intelligence-and-learning.md) | ch02, ch04 |
+| Why intuition fails, time perception, imagery differences, colour, what counts as an object | [ch13](chapters/ch13-intuition-illusions-and-categories.md) | ch04, ch14 |
+| Infinity, supertasks, paradoxes of geometry, dimension, fractals, fluid equations | [ch14](chapters/ch14-infinity-paradox-and-strange-objects.md) | ch09, ch13 |
+| Emergence, ant colonies, free will by layers, life and entropy, evolution, intelligence, power laws, universality | [ch15](chapters/ch15-emergence-and-complex-systems.md) | ch07, ch13 |
+| Simulation argument, Great Filter, far future, collapse, automation, ageing, time as a block | [ch16](chapters/ch16-reasoning-about-far-scenarios.md) | ch03, ch12 |
+| Everyday physics paradoxes: pressure, weight, springs, spools, siphons, resonance, decay | [ch17](chapters/ch17-everyday-phenomena-and-basic-physics.md) | ch01, ch13 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -65,6 +71,10 @@ Diagnose before prescribing: ask what the claim is, who made it and why, what th
 10. **Incentives shape output.** Funding, publication, press and clicks select for bold claims; read the chain, not just the claim.
 11. **Rational individuals can make irrational groups, and the reverse.** Check the level at which a strategy or rule is being judged.
 12. **Proof has limits; ignorance can be productive.** Some truths are unprovable, and not knowing a problem is "impossible" sometimes helps.
+13. **Intuition has a trained range.** Outside everyday sizes, durations and minds, name the assumption that fails and reason from definitions and counts.
+14. **Find the conflated quantity.** Paradoxes of everyday physics usually merge two terms (force and pressure, series and parallel); check energy and limiting cases.
+15. **Conclusions of far scenarios are conditional.** Write the assumptions, mark which are testable, and keep the conditions in the summary.
+16. **Whole-level properties are real.** Emergent behaviour comes from local rules and feedback; explain it at the right layer.
 
 ## Chapter Index
 
@@ -80,8 +90,26 @@ Diagnose before prescribing: ask what the claim is, who made it and why, what th
 10. [Discoveries, credit and prizes](chapters/ch10-discoveries-credit-and-prizes.md)
 11. [Wellbeing, intelligence and learning](chapters/ch11-wellbeing-intelligence-and-learning.md)
 12. [Evaluating a claim: checklist and worked cases](chapters/ch12-evaluating-a-claim-checklist.md)
+13. [Intuition, illusions and the categories we impose](chapters/ch13-intuition-illusions-and-categories.md)
+14. [Infinity, paradox and strange mathematical objects](chapters/ch14-infinity-paradox-and-strange-objects.md)
+15. [Emergence and complex systems](chapters/ch15-emergence-and-complex-systems.md)
+16. [Reasoning about far-off scenarios, with caveats](chapters/ch16-reasoning-about-far-scenarios.md)
+17. [Explaining everyday phenomena with basic physics](chapters/ch17-everyday-phenomena-and-basic-physics.md)
 
 ## Topic Index
+
+- **80/20 rule, Zipf's law, heavy tails** -> ch15
+- **Aphantasia, imagery, colour perception** -> ch13
+- **Automation, collapse, ageing, far-future arguments** -> ch16
+- **Brachistochrone, supertasks, Banach-Tarski, napkin ring** -> ch14
+- **Busy beaver, P versus NP, four-colour proof, cryptography worlds** -> ch09
+- **Eclipses, randomness of coins** -> ch07
+- **Emergence, ant colonies, entropy and life, evolution** -> ch15
+- **Great Filter, simulation argument, block universe, information paradox** -> ch16
+- **Hydrostatic paradox, spool, lever, siphon, spring, resonance** -> ch17
+- **Phantom entities, how well tested** -> ch01
+- **Power pose, animal models ("in mice")** -> ch06
+- **Time perception, periodisation, objects and boundaries** -> ch13
 
 - **Adaptive strategies, tournaments** -> ch08
 - **Approval voting, ranked choice, spoiler effect** -> ch08
@@ -113,7 +141,8 @@ Diagnose before prescribing: ask what the claim is, who made it and why, what th
 - `depth-psychology`: motives, relationships and self-deception beyond cognitive bias.
 - `public-speaking-persuasion`: how stories and framing move audiences (the other side of ch04).
 - `software-architecture`: failure analysis and incident reasoning in systems.
+- `physics-and-math-ideas`: theoretical physics and advanced mathematics themselves (this skill covers the reasoning around them).
 
 ## Scope & Limits
 
-Practical theory about the scientific method, statistics, probability, cognitive science, research practice, forecasting, game theory, voting, the foundations of mathematics, the history of discoveries, and studies of wellbeing, intelligence and learning. Not covered: formal statistical derivations, domain-specific methods (clinical trial regulation, epidemiology), laboratory technique, and legal doctrine. Many findings are single studies or contested syntheses; the skill gives no medical, legal, financial or policy guarantee.
+Practical theory about the scientific method, statistics, probability, cognitive science, research practice, forecasting, game theory, voting, the foundations and curiosities of mathematics (infinity, paradox, complexity), emergence, far-scenario reasoning, everyday physics explanations, the history of discoveries, and studies of wellbeing, intelligence and learning. Not covered: formal statistical derivations, domain-specific methods (clinical trial regulation, epidemiology), laboratory technique, and legal doctrine. Many findings are single studies or contested syntheses; the skill gives no medical, legal, financial or policy guarantee.

@@ -52,5 +52,12 @@ In this model, discoveries are produced by **persistence in a neglected corner, 
 - **Trade-off**: the "impossible" label also saves effort in truly impossible cases (perpetual motion).
 - **Does not hold when**: the impossibility is a theorem (see ch09).
 
+## 10.9 Origin stories get simplified
+- **Thesis**: the version of a famous discovery that is told in textbooks is usually cleaner than the documented record.
+- **Mechanism**: a foundational paper on different sizes of infinity is celebrated as the work of a single genius; newly discovered letters between two colleagues have been presented as showing a more complicated history, including a collaborator whose contribution was left out so the paper could be published (as reported; the details and how widely the claim is accepted are unclear). A related pattern: two people often reach the same idea independently, and recognition goes to the one who publishes. Resistance to the new idea was real, and it came as much from philosophy as from error.
+- **Trade-off**: myths motivate and teach, and they also hide the roles of editors, rivals and collaborators.
+- **Does not hold when**: contemporary records agree with the simple story.
+- **Use**: when citing "who discovered X", add "published first" or "credited with" unless you have the record.
+
 ## Cross-references
-Chapter 01 for theory choice and anomalies; chapter 09 for mathematical discovery; chapter 06 for incentive distortions; chapter 05 for deliberate practice.
+Chapter 01 for theory choice and anomalies; chapter 09 for mathematical discovery; chapter 06 for incentive distortions; chapter 05 for deliberate practice. Chapter 14 for the underlying mathematics of infinity.

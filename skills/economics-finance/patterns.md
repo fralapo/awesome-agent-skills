@@ -73,3 +73,57 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: say what is knowable (direction, vulnerabilities), what is not (timing), offer scenarios and what would have to be true; give no investment advice. [ch09]
 **Cost**: less quotable.
 **Not when**: never.
+
+## 13. A shortage after a price cap
+**When**: a cap is set below equilibrium (rent, fuel, bread) and queues appear.
+**Move**: list the non-price rationing rule (queues, favouritism, side payments), the quality response, the supply response over years, and who is outside the cap. [ch10, ch08]
+**Cost**: weakens a popular measure.
+**Not when**: the cap is set above equilibrium (not binding).
+
+## 14. A cost falls on bystanders
+**When**: a product harms or benefits people who are not part of the deal.
+**Move**: separate private, external and social cost; ask if rights are clear and bargaining cheap (Coase), else weigh a tax, a rule or a tradable allowance, and the measurement burden. [ch10]
+**Cost**: needs an estimate of the external cost.
+**Not when**: the affected parties are few, known and can contract.
+
+## 15. A resource nobody owns
+**When**: a shared stock (fish, forest, grazing, a common kitchen) is thinning.
+**Move**: compare rules on inputs, local norms and tradable quotas; check whether the stock can be bounded and monitored and whether it crosses borders. [ch10]
+**Cost**: setting up rights takes time and conflict.
+**Not when**: the group is small and stable and norms already work.
+
+## 16. A trade barrier is proposed
+**When**: a tariff, quota or ban is justified by jobs, security or leverage.
+**Move**: name who bears the cost, who captures the rent (tariff revenue, licence holders, foreign exporters), the retaliation risk, and whether the stated aim is narrower than the barrier. [ch12]
+**Cost**: slower political victory.
+**Not when**: a narrow security need is explicit and costed.
+
+## 17. Comparative advantage question
+**When**: a richer or more productive partner seems to have nothing to gain from trade.
+**Move**: compute opportunity costs of each good in each place; gains exist wherever the ratios differ; then ask who loses within each country. [ch12]
+**Cost**: ignores adjustment frictions.
+**Not when**: no input is mobile and no price can adjust.
+
+## 18. Resource-rich but poor
+**When**: a country with large reserves is struggling.
+**Move**: test for Dutch disease, rent-based politics, spending that tracks price, weak property rights and absence of a savings rule; compare with a resource exporter that held a fund and spending cap. [ch11, ch13]
+**Cost**: single-case comparisons are weak.
+**Not when**: the shock was purely external and short.
+
+## 19. Does aid work?
+**When**: a programme or a budget line is defended or attacked.
+**Move**: distinguish aid for a harm (health, food) from aid for national growth; ask about lags, reverse causality, the delivery chain and conditions. [ch11]
+**Cost**: modest answers.
+**Not when**: emergency relief is the aim.
+
+## 20. Reading a country case sheet
+**When**: a popular story explains a whole country's rise or fall in one cause.
+**Move**: split facts, proposed causes, evidence and contested points; tag shock versus structure; ask what rival cause predicts the same facts. [ch13]
+**Cost**: less dramatic.
+**Not when**: the facts alone are needed.
+
+## 21. A market that is unravelling from information gaps
+**When**: prices rise, good buyers or sellers leave, quality falls (insurance, used goods).
+**Move**: identify who knows more, the adverse-selection loop, and the repair (inspection, group pooling, mandate, signals) with its distributional cost. [ch10]
+**Cost**: repairs rearrange who pays.
+**Not when**: information is symmetric or the stakes are small.

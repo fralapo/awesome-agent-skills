@@ -36,10 +36,15 @@ Design and architecture are the same kind of thinking (decisions that map needs 
 - **Thesis (position)**: all development is incremental, but feedback often is not; the hard question is how thin the slices are and in what order you eat them.
 - **Mechanism**: size the feedback loop to match the change loop (a new line every ten seconds suggests feedback every ten seconds as the ideal). Many sequences produce the same result; consciously shaping the *unfolding* of the program, not only its final structure, gives more options. Practise by re-implementing the same exercise with different test orders to learn which test teaches most. Question to ask: why can't we release today's change today, and what stands in the way?
 - **Trade-off**: finding the sequence that maximises learning can be hard, and is rarely discussed.
-- **Does not hold when**: the predicted value is nearly all the value and little will be learned (then big chunks are fine); in the material's view this is rarely the case, because revealed value can exceed predicted value by orders of magnitude.
+- **Does not hold when**: the predicted value is nearly all the value and little will be learned (then big chunks are fine); in this view it is rarely the case, because revealed value can exceed predicted value by orders of magnitude.
 
 ## 6.7 Options and reversibility
 Every line of code creates or collapses future options. Deleting a bad attempt quickly (a few minutes of work) is better than defending it. Technology and delivery practices have made once-hard changes cheaper (for example a hosting-region move reported as a few lines of infrastructure code). Constraints that used to be review boards can be run as automated checks in the pipeline (fitness functions).
 
+## 6.8 Where to put abstraction while designing incrementally
+- **Thesis (position)**: abstraction pays when it sits where variation or volatility really is, and costs when it is added by checklist or pattern catalogue.
+- **Mechanism**: start simple, look for coupling and responsibilities that do too many things, extract functions, then introduce an interface only where it reduces coupling and matches what you expect to change; recognised patterns will then appear. Tests becoming easy is the confirmation. Put the first abstractions at the boundary between your logic and infrastructure (external services, storage, messaging); inside the domain direct coupling is cheaper. Repairs and patterns in ch10 and ch11.
+- **Does not hold when**: you already know the variants that are coming (6.4).
+
 ## Cross-references
-`software-architecture` for the architecture decisions themselves. Chapter 05 for coupling vocabulary; chapter 03 for design driven by tests.
+Chapters 10 and 11 for function-level design, duplication and patterns. `software-architecture` for the architecture decisions themselves. Chapter 05 for coupling vocabulary; chapter 03 for design driven by tests.

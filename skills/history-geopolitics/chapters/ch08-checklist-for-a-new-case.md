@@ -31,6 +31,18 @@ A fixed sequence prevents the usual mistakes: starting from the ending, choosing
 | Records | Whose voice survives; what perishable records are lost? |
 | Aftermath | What continued; where did people go? |
 
+### 8.2b Extra questions for wars and republics
+| Theme | Questions |
+|---|---|
+| Logistics | What is the supply radius; which lane is critical; who controls it (ch09.1, 9.2)? |
+| Return | What does holding the ground yield; what lever does the attacker have (9.4)? |
+| Command | Who commands; who can overrule; what is the political order (9.8)? |
+| Replacement | Can each side replace losses and buy inputs; who is the patron or creditor (9.9, 11.5)? |
+| Norms and enforcement | Which rules are customary; who enforces; what is the emergency rule (ch10)? |
+| Armed force | Whose loyalty; how paid; what happens to an official who leaves office (10.8)? |
+| Origin of a war | Layer table: long fuse, medium term, trigger, decisions, aims after the fact (ch12) |
+| Peace and economy | What did the settlement do to debts and trade; what is the counterfactual (ch11.6)? |
+
 ## 8.3 Evidence grading
 | Grade | Meaning | Example form |
 |---|---|---|

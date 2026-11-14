@@ -77,5 +77,42 @@ In this model, mathematics gives two things that must not be confused: **proof**
 - **Trade-off**: "random enough" depends on the use.
 - **Does not hold when**: a method has structure that preserves part of the order.
 
+## 9.13 Busy beaver: a bounded slice of the halting problem
+- **Thesis**: a game that asks "what is the longest a small program can run before stopping" turns undecidability into a concrete ladder of hard problems.
+- **Mechanism**: for a fixed number of rules there is a finite group of tape machines; run each from a blank tape; some stop quickly, some never. The number of steps of the longest that does stop is the busy beaver value for that size. Values are known for the smallest sizes (1, 6, 21 and 107 steps for one to four rules) and the next size was settled by a large online collaboration of amateurs, faster than expected. To prove a value, every machine in the group must be classified as halting or not, and some machines behave like unsolved mathematical conjectures. In general knowledge, the values grow faster than any computable function, which is why only a few are known.
+- **Trade-off**: the game gives measurable progress on an undecidable question; each new size is enormously harder.
+- **Does not hold when**: you only need to know if one specific program halts, which can be easy.
+
+## 9.14 Finding versus checking: P versus NP
+- **Thesis**: it is unknown whether every problem whose solution can be checked quickly can also be solved quickly.
+- **Mechanism**: complexity theory studies how the time or memory needed grows with problem size. A puzzle that is hard to solve but easy to verify (factoring, scheduling, route planning, logic puzzles with many branching choices) is the typical case. If checking were as easy as finding, many hard problems would be quickly solvable, with large consequences: some forms of encryption would fail, and many optimisation tasks would become easy. Nobody has a proof either way; many specialists expect the two to differ (position, general knowledge).
+- **Trade-off**: working algorithms exist for many instances; the theory concerns worst cases and growth.
+- **Does not hold when**: a particular instance has special structure that makes it easy.
+
+## 9.15 Cryptography runs on assumed hardness
+- **Thesis**: secure communication rests on problems that are hard on average, not just in the worst case, and none is proven hard.
+- **Mechanism**: a five-way classification of possible worlds ranges from one where every problem is easy (no cryptography), through worlds where hard instances exist but are rare, or are hard but uselessly so, to a world with minimal cryptographic tools, to one where shared secrets can be established between strangers, which is how current systems work. As far as is known, we live in the last, but that depends on a small number of long-standing methods whose hardness is assumed. Cryptographers are, unusually, hoping that problems are hard.
+- **Trade-off**: practical security relies on assumptions that have survived scrutiny, which is empirical, not a proof.
+- **Does not hold when**: a new algorithm or computing model changes the cost; quantum computers are the best-known candidate for factoring-based schemes (general knowledge).
+
+## 9.16 Computer-assisted proof
+- **Thesis**: a proof that depends on exhaustive machine checking changes what "proof" means without making the result false.
+- **Mechanism**: the claim that any map can be coloured with four colours so that neighbours differ was posed in the 19th century; maps are turned into graphs (regions as points, shared borders as lines). A first accepted proof contained an error that was found years later (general knowledge); the eventual proof reduced the problem to a large but finite list of configurations checked by computer, the first major proof to depend heavily on one. This raised a long debate about whether a proof no human can fully read counts, and about what mathematicians do. The related practical problems are the same: timetables, frequency assignment, seating plans.
+- **Trade-off**: machine checking is reliable for what it checks and is not human-surveyable; independent re-implementation helps.
+- **Does not hold when**: the program or specification is wrong.
+
+## 9.17 Conditional mathematics: results that assume an unproven statement
+- **Thesis**: an unproven hypothesis can carry large amounts of mathematics and practice, and the discipline records which results depend on it.
+- **Mechanism**: prime numbers seem to appear at random, but their counting follows a very good approximate law, and the finer deviations are tied to an unproven hypothesis about the zeros of a particular function. Many theorems in areas from cryptography to quantum physics are conditional on it: if it were false, those results would fall. It has resisted proof for over 150 years. This differs from the heuristic evidence in 9.1: here a whole network of derived results is built over a single unproven statement.
+- **Trade-off**: conditional theorems are useful and risk collapse together.
+- **Does not hold when**: a result has an unconditional proof.
+
+## 9.18 Quantum computing changes the rules of probability, not the clock speed
+- **Thesis**: a quantum computer is a different kind of device, not a faster supercomputer, and its advantage is specific.
+- **Mechanism**: it was proposed because simulating quantum systems on classical machines grows exponentially expensive with the number of particles. Quantum mechanics replaces probabilities with amplitudes, which can add and cancel; algorithms arrange for wrong answers to cancel. Devices are fragile and need isolation near absolute zero.
+- **Trade-off**: large speed-ups are known only for some problems.
+- **Does not hold when**: the task has no amplitude structure to exploit; a classical machine remains the right tool.
+- **Handoff**: for quantum theory proper, see `physics-and-math-ideas`.
+
 ## Cross-references
-Chapter 01 for theory as compression; chapter 07 for chaos; chapter 02 and 03 for probability in practice.
+Chapter 01 for theory as compression; chapter 07 for chaos; chapter 02 and 03 for probability in practice. Chapter 14 for infinity, measure, dimension and fluid equations; chapter 15 for universality and complex systems; chapter 16 for far scenarios.

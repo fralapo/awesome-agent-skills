@@ -58,7 +58,14 @@ A government's debt is sustainable not when the number is small but when it can 
 - **Trade-off**: savers lose; it works only when the debt is in a currency the government controls.
 - **Does not hold when**: investors can move capital freely and the debt is short-dated or indexed.
 
+## 4.10 Reading the global balance sheet (a dated case)
+- **Thesis**: public debt sits in a world where every financial liability is someone else's asset; the net worth of the world is its real assets.
+- **Mechanism**: in the reported accounts, world net worth was about 600 trillion (about 5.4 times GDP; peak 6.1 in 2020), debt about 2.9 times GDP, households owned about 95 percent of wealth, real estate over two thirds of real assets. Net-saver countries lend to deficit countries through safe government bonds, which lowers rates and raises asset prices in the borrower. About 75 percent of net worth growth since 2000 came from price rises rather than investment, so borrowing can chase the same assets. Case study: chapter 13.9.
+- **Trade-off**: low rates ease debt service and inflate asset values; the gains accrue unevenly to asset owners.
+- **Counter-view**: the claim that financial instruments net to zero is accounting only; solvency of each debtor still matters (4.1 to 4.4).
+
 ## Checklist
 - Ratio, but also: interest bill as a share of revenue, real rate against growth, currency of issue, maturity, who holds it.
 - Is the problem a stock (level), a flow (deficit) or a path (rising rate)?
 - Check the denominator: did the ratio rise because debt grew or because output stalled?
+- Remember that globally one party's debt is another's asset; ask who holds it and in which currency.

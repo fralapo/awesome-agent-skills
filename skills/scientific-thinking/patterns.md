@@ -4,7 +4,7 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 
 ## 1. A claim that fits every outcome
 **When**: a theory explains success and failure alike.
-**Move**: ask for the observation that would make the speaker drop it; if none, treat as story. [ch01]
+**Move**: ask for the observation that would make the claimant drop it; if none, treat as story. [ch01]
 **Cost**: awkwardness, slower agreement.
 **Not when**: values, definitions or math statements.
 
@@ -139,3 +139,76 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: define sharing and ownership up front; consider misuse and access controls. [ch10]
 **Cost**: legal and design effort.
 **Not when**: no commercial or safety stakes.
+
+## 24. A mouse result in the headline
+**When**: a drug or therapy "works" in animals.
+**Move**: ask whether the model reproduces the mechanism, not only symptoms; wait for human data. [ch06]
+**Cost**: patience.
+**Not when**: the pathway is conserved and replicated in humans.
+
+## 25. A viral effect from a small study
+**When**: a catchy finding rests on a few dozen participants.
+**Move**: look for replications, preregistration, a neutral control; keep the claim small. [ch06]
+**Cost**: less shareable.
+**Not when**: well-powered preregistered replications exist.
+
+## 26. "It feels obvious" in an unfamiliar domain
+**When**: intuition is applied to infinity, many dimensions, long durations or others' inner life.
+**Move**: name the assumption from everyday scale that fails; reason from definitions and a small count. [ch13, ch14]
+**Cost**: slower.
+**Not when**: the case is in the trained range.
+
+## 27. A dispute about whether X is a Y
+**When**: people argue whether something is an object, an era, a death.
+**Move**: ask which decision depends on the answer; define the term for that purpose. (position) [ch13]
+**Cost**: less rhetorical drama.
+**Not when**: a physical boundary exists.
+
+## 28. "After infinitely many steps, what is the state?"
+**When**: a supertask or limit is discussed.
+**Move**: ask whether the steps converge; add an explicit limit rule or say the question has no answer. [ch14]
+**Cost**: none.
+**Not when**: partial sums converge.
+
+## 29. A whole that no part explains
+**When**: a team, colony or market behaves in ways no member intends.
+**Move**: find the local rule and feedback; intervene on the rule or signal, not on individuals. [ch15]
+**Cost**: slow feedback.
+**Not when**: coordination must be centralised and fast.
+
+## 30. One shape in many places
+**When**: the same skewed curve appears in unrelated data.
+**Move**: use it for prioritisation; do not infer a shared mechanism. [ch15]
+**Cost**: none.
+**Not when**: the mechanism is shown separately.
+
+## 31. A far-future or cosmic argument with a big conclusion
+**When**: a simulation, filter, doom or utopia argument is presented.
+**Move**: list assumptions, mark testable ones, state conditionally, use base rates, find the weakest link. [ch16]
+**Cost**: dampens drama.
+**Not when**: premises are all established.
+
+## 32. "This time is different"
+**When**: someone claims an old pattern ends.
+**Move**: ask which mechanism changed and whether the old mechanism still works at scale. [ch16]
+**Cost**: effort.
+**Not when**: a mechanism has demonstrably broken.
+
+## 33. A derivation that makes free energy
+**When**: a chain of plausible steps ends in more energy out than in.
+**Move**: search for the hidden term (heat, vibration, elasticity); if none, suspect a step. [ch17]
+**Cost**: time.
+**Not when**: the system is open and the input is counted.
+
+## 34. "Twice the input, twice the result"
+**When**: effort is expected to scale linearly.
+**Move**: check if the process is proportional or logarithmic (decay, saturation). [ch17]
+**Cost**: little.
+**Not when**: the process is truly linear.
+
+## 35. A model gives a number that is slightly off
+**When**: idealised value and measurement disagree.
+**Move**: treat the gap as data; look for the missing term (vapour pressure, friction). [ch17]
+**Cost**: extra measurement.
+**Not when**: the gap is within measurement error.
+

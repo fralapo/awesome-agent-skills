@@ -27,7 +27,7 @@ Published system descriptions are most useful as **worked examples of constraint
   - The log streams to object storage and to a stream service for backups, indexes and change capture; global secondary indexes are eventually consistent copies built from the stream.
   - Transactions are offered with a serializable isolation level; strong and eventual reads are both available.
   - Throughput is metered in capacity units with a token bucket (five-minute burst) and admission across replicas (ch04 4.8).
-  - The replication protocol is formally verified (tool name unclear in source).
+  - The replication protocol is formally verified (tool name unverified).
 - **Accepted costs**: consistency lag in global indexes; data duplicated; no joins; extra constant load for stability.
 - **Lessons**: culture of predictability over peak speed; hide complexity behind a simple key model.
 - **Does not generalise when**: the application needs ad-hoc relational queries.
@@ -71,3 +71,6 @@ Published system descriptions are most useful as **worked examples of constraint
 - **Mechanism**: write down your read:write ratio, key access path, latency target, availability target and consistency tolerance; find the study with the closest answers; list its accepted costs and check each is acceptable to you.
 - **Trade-off**: studies are from large scales; at small scale the same decisions may be over-engineering.
 - **Does not hold when**: your domain differs (batch analytics, interactive analysis, time-series monitoring and tracing were not covered in this material).
+
+## 8.7 More studies
+- **See** ch22 (leaderless store, wide-column store, large-file store, lock service, managed-service hot-partition evolution) and ch23 (entity-group consensus, multi-row transactions on a single-row store, globally distributed SQL, log-based cloud SQL, blob store without consensus); mechanics of time and ordering in ch21; log replication, exactly-once and stream processing in ch07 7.17 to 7.19.

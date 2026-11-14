@@ -81,3 +81,11 @@ Past collapses give mechanisms worth testing against modern systems; they do not
 - **Mechanism**: (1) name the mechanism and the case evidence; (2) name the variables in the present system that play the same roles; (3) list at least three differences that matter; (4) give a test that could show the mechanism is absent today; (5) state what the history cannot tell you (probabilities, timing).
 - **Trade-off**: the answer is more qualified.
 - **Does not hold when**: the user only wants a metaphor; then label it as one.
+
+## 7.12 Lessons from war cases, with their limits
+- **Radius and return** (ch09): what an organisation can supply and what holding a position yields are different questions from whether it can win a contest.
+- **Unity of command and its absence** (ch09.8): split authority is a standing cost.
+- **Replacement rate** (ch09.9, ch11): a long contest rewards whoever replaces losses and keeps access to inputs; check the share of external supply and of external financing.
+- **Norms without enforcement** (ch10): a system run on restraint is safe only while restraint is costless.
+- **A blockade or a punitive peace is a claim to test** (ch11): ask who benefits from the story.
+- **Disanalogies**: modern states differ in finance, communication and nuclear weapons; the cases are about ancient and early-modern logistics and early-twentieth-century industrial war; no forecast follows.

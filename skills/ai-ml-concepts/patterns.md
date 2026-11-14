@@ -91,3 +91,52 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: learn what low confidence signals; do not treat all regions equally; confirm key claims experimentally. [ch12.9]
 **Cost**: calibration study.
 **Not when**: the confidence is uncalibrated and cannot be tested.
+
+## 16. Network gets worse as it gets deeper
+**When**: training error rises with depth.
+**Move**: add skip connections; check initialisation and learning rate; do not call it overfitting. [ch06.8]
+**Cost**: architecture change.
+**Not when**: test error alone rises (then regularise, ch05).
+
+## 17. Test error rose during training
+**When**: the curve turns up after a minimum.
+**Move**: check whether more training or a larger model passes the interpolation threshold; keep evaluation going for a while before stopping, with label noise in mind. [ch05.9]
+**Cost**: extra compute.
+**Not when**: labels are clean and the model is small.
+
+## 18. Which way to spend inference compute
+**When**: a model sometimes solves the task.
+**Move**: estimate difficulty per item by pass rate; majority vote for easy, verifier-guided search for medium, more pre-training for hard or high-volume use. [ch08.14]
+**Cost**: difficulty estimation.
+**Not when**: no verifier exists.
+
+## 19. Choosing an image generator
+**When**: you need images, audio or trajectories.
+**Move**: adversarial for fast single pass if instability is acceptable; diffusion or flow matching for stability and diversity; add guidance for fidelity; count steps. [ch13]
+**Cost**: sampling steps.
+**Not when**: faithful world state is required.
+
+## 20. Representation without labels
+**When**: abundant data, few labels.
+**Move**: pick the objective (masked, contrastive, self-distillation, joint embedding); name the collapse guard; test with a probe and on data unlike the pre-training set. [ch14]
+**Cost**: compute and augmentations.
+**Not when**: labels are cheap.
+
+## 21. Giving an agent memory
+**When**: the agent forgets between sessions.
+**Move**: decide semantic, episodic, procedural; distil rather than dump; persist with timestamps and one record per entity; choose when to retrieve; reconcile conflicts; keep logs separately. [ch15.3-15.6]
+**Cost**: extra calls and latency.
+**Not when**: a single session suffices.
+
+## 22. Testing an agent before release
+**When**: the agent takes actions.
+**Move**: bucket failures from a task set; trace tool calls; run in a simulated environment with difficult users; red-team; validate with scripts per requirement; test model, harness and task set separately. [ch15.10-15.14]
+**Cost**: build effort.
+**Not when**: actions are trivially reversible.
+
+## 23. Judging a paper
+**When**: a result drives a decision.
+**Move**: read in layers; find the claim, what would refute it, ablations, contamination check, samples, error bars, defined terms, who ran it. [ch16]
+**Cost**: reading time.
+**Not when**: you can replicate the result cheaply.
+

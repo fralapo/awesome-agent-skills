@@ -1,7 +1,7 @@
 # Chapter 02: Continuous Integration vs Feature Branching
 
 ## Core Idea
-Continuous integration (CI) is about **integrating changes with everybody else's, at least once per day**. It is not a server product. In this model, long-lived branches delay the moment you learn whether changes work together, and the cost of that delay grows with the size of the divergence. The material presents this as a reasoned position backed by survey data, and also as an emotionally contentious one.
+Continuous integration (CI) is about **integrating changes with everybody else's, at least once per day**. It is not a server product. In this model, long-lived branches delay the moment you learn whether changes work together, and the cost of that delay grows with the size of the divergence. This is a reasoned position backed by survey data, and also as an emotionally contentious one.
 
 ## 2.1 What integration means
 - **Thesis**: integration is a technical activity that precedes delivery; delivery has business meaning, integration is its prerequisite.
@@ -41,7 +41,7 @@ Continuous integration (CI) is about **integrating changes with everybody else's
 ## 2.7 Why it is contentious (positions)
 - It challenges the self-image of the lone developer working uninterrupted; version control is a communication tool and CI means communicating more.
 - A reported pattern in talks: roughly half the audience thinks daily trunk integration is impossible, the other half thinks it is obvious.
-- Survey data cited in the material says CI correlates with better outcomes than feature branching; the correlation is not a controlled experiment. Feature branching can work and "even do a good job"; the claim is it is not the best job and its failure mode is severe.
+- Survey data says CI correlates with better outcomes than feature branching; the correlation is not a controlled experiment. Feature branching can work and "even do a good job"; the claim is it is not the best job and its failure mode is severe.
 
 ## 2.8 Making CI work
 Small steps; keep trunk always releasable; feature toggles and branch by abstraction for unfinished work; fast reliable commit-stage tests (ch01, ch04); revert or fix immediately when the build breaks. For tightly coupled code CI is the defensive tool (ch05).

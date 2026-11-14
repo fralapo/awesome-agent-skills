@@ -154,3 +154,6 @@ Four cases, each as a sheet: **proposed causes**, **evidence** (what was found o
 | External force | Rival cities | Siam, Cham | Sea Peoples, neighbours | Indigenous neighbours, pirates |
 | Continuity | Commoners stay | Court moves, monks stay | Two states survive | Unclear |
 | Main uncertainty | Role of drought | Order of cause and effect | Identity of attackers | Why adaptation stopped |
+
+## 6.6 More sheets
+Further sheets are in chapter 13 (states, empires and institutions: Athens and Sparta, British decline, Yugoslavia, the Roman Republic, the third-century crisis, a steppe empire and its successors, the Inca, the Ottoman rise, Iranian administration, slavery and serfdom) and chapter 14 (wars and strategy: Iran-Iraq, the Imjin War, a river siege, Rome and its two frontiers, the Eastern Front in 1941, the central Pacific, the naval race, the Great Northern War, the Irish famine). The outbreak of the First World War is chapter 12.

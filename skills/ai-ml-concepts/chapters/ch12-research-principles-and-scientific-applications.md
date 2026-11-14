@@ -68,3 +68,15 @@ Two threads close the skill. First, how AI research makes progress and where it 
 - **Mechanism**: cross-entropy (chapter 3), next-token prediction (chapter 8), learned simulators (chapter 6) and structure prediction (chapter 12.8) are instances.
 - **Trade-off**: prediction is not explanation; interpretation needs separate tools (chapter 11).
 - **Does not hold when**: the target is causal intervention that the data cannot identify.
+
+## 12.12 Theory trails practice, and how to hold both
+- **Thesis**: empirical laws (scaling) and tools (interpretability) run ahead of theory; keep predictive results separate from explanations.
+- **Mechanism**: power laws predicted loss over many orders of magnitude, and several explanatory theories (data manifolds, memorisation versus algorithm learning) match parts of the evidence (chapters 8.15, 11.13); capability emergence on specific tasks is not predicted. Many researchers drawing on physics look for unifying principles, which is a research style (position), not proof of unification.
+- **Trade-off**: act on empirical regularities, label theories as hypotheses.
+- **Does not hold when**: the regularity is extrapolated beyond its measured range or to a different quantity (a behaviour rather than a loss).
+
+## 12.13 Real science under hype: a field's dominoes
+- **Thesis**: progress in deep learning came as a chain of discoveries, each reconceptualising the previous one, not one invention.
+- **Mechanism**: gradient training of single units, a smooth activation, backpropagation, large labelled data plus graphics processors, residual connections, attention, scale; physics offers an analogy of a few decades in which a small hack to fit data led to a rewritten theory. A hack that works (a shortcut around layers) can turn out to define the architecture.
+- **Trade-off**: respect for incremental ideas against the risk of narrating history backwards.
+- **Does not hold when**: you assume the last domino has fallen or that the next one is predictable (position: it is not).

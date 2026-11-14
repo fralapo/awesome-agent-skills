@@ -45,6 +45,14 @@ A story of collapse is built from two very different layers: what the ground and
 - **Trade-off**: ignoring them loses context; trusting them imports legend.
 - **Does not hold when**: a detail in the story is corroborated by the ground (a described settlement type is found where the story says).
 
+### Further cautions from war and empire cases
+- **Reputation for terror is a weapon.** Accounts of mass killing by a steppe empire include figures larger than the whole population of the region, piles of skulls that are almost certainly fiction, and a single physical description of a ruler by a later chronicler who had never seen him. The empire itself spread such stories to induce surrender. Census records are used to argue for large population declines, but whether they show deaths, flight or lost registration is a separate question (general knowledge). Treat a terror story as a message first and a count second.
+- **Speed claims**: a "lightning" conquest becomes a measured march of about 24 km a day on average, about 27 km at best, in a calculation from dated route data; slower in rough country, with months of halts (9.1).
+- **Ancient moralising**: Roman authors explained the fall of their republic by moral decline because blaming the system would have criticised the ideals they honoured (10.9). A moral explanation from a participant is a position, not a finding.
+- **Rulers' replies and edicts**: an imperial reply to a trade mission, written as if to a tributary, shows how the ruler wished to be seen (1.2), not the balance of power.
+- **Narrative smoothing in retellings**: a popular retelling may fill small details "for flow" (a candle on a table) while keeping the main facts; use it for outline, not for detail.
+- **Source with a side**: a post-war claim that a blockade or a peace treaty was the cause of defeat or of the next war served a political purpose in both camps (11.3).
+
 ## 1.8 Numbers about the past are models
 - **Thesis**: populations, army sizes, tax yields and city areas are estimates built on assumptions.
 - **Mechanism**: city populations come from house counts times assumed household size; claims such as "one in a thousand people lived there" or "half a million in the empire" depend on the density assumed for unexcavated areas. Chronicle figures for dead or ships may be rhetorical. Quote ranges and the basis, and prefer ratios and trends (monuments per year, skeleton health, share of marine food) over absolute totals.

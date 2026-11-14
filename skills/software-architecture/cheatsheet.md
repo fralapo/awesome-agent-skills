@@ -1,6 +1,6 @@
 # Software Architecture: Cheatsheet
 
-Figures are rules of thumb or values stated in the material; re-test. "Position" = judgment, not fact. Chapter references in brackets.
+Figures are rules of thumb or values stated at the time; re-test. "Position" = judgment, not fact. Chapter references in brackets.
 
 ## Where to Start
 | Situation | First move |
@@ -188,3 +188,60 @@ Smallest change that removes the health signal? Does recovery depend on the fail
 | Compute | Same instances | Instances per tier | Instances per tenant |
 | Cheaper levers first | Per-tenant rate limit, per-tenant connection pool | | |
 
+## Time, Order and "Exactly One" [ch21]
+| Need | Use | Watch out |
+|---|---|---|
+| Elapsed time | Monotonic clock | Time-of-day clock jumps on sync |
+| Order concurrent writes, keep both | Version vectors (siblings) | Size grows with replicas |
+| Order concurrent writes, pick one | (counter, node id) logical timestamp | One write lost; order known only afterwards |
+| One lock holder or leader | Majority decision plus fencing token checked by the resource | Pauses make a holder wrong without knowing it |
+| Strong single-object consistency | Linearizable store via consensus log | Cost on every write; not the same as serializable |
+| Real-time order across machines | Bounded clock error plus commit wait | Needs specialised time infrastructure |
+| Atomic commit over partitions | Two-phase commit with replicated participants | Blocks if coordinator dies unreplicated |
+
+## Approximate Structures [ch24]
+| Question | Structure | Error shape |
+|---|---|---|
+| Is X in the set? | Bloom filter | No false negatives; some false positives; no delete |
+| How many distinct items? | Trailing-bit estimator (HyperLogLog-style) | A few percent either way |
+| How often was X seen? | Logarithmic probabilistic counter | Precise at small counts, coarse at large |
+| Which key to evict? | Sample, keep worst in a small pool | Sometimes not the exact worst |
+| Scan flushes my cache | Young/old lists, insert at the old head | Slower warm-up of new hot pages |
+
+## Eviction Policy Choice [ch24 24.6]
+| Access pattern | Policy |
+|---|---|
+| Recency predicts reuse | LRU (approximate by sampling) |
+| A few keys stay popular through quiet spells | LFU with decay |
+| Uniform access | Random (no bookkeeping) |
+| Keys carry a time to live | Evict nearest expiry; apply only to keys with expiry to protect permanent keys |
+| Memory fits the data | No eviction |
+
+## Picking a Database [ch04 4.15]
+| Need | Lean towards |
+|---|---|
+| Transactions across rows, correctness over speed | Relational (B-tree) |
+| Data read and written as one nested unit | Document store |
+| Huge write rate, tunable consistency, loss of a rare write acceptable | Leaderless wide-column (log-structured merge) |
+| Mergeable counters and sets with leaderless writes | Conflict-free data types |
+| Hot small data, no ranges | In-memory key-value |
+| Full-text search | Inverted index |
+
+## Log Durability and Exactly-Once [ch07 7.17-7.18]
+| Setting | Effect |
+|---|---|
+| Acknowledge none / leader / all in-sync | Loss risk vs latency |
+| Minimum in-sync size | Refuse writes when the set shrinks |
+| All in-sync down: wait or resume anywhere | Outage vs possible loss |
+| Idempotent producer | Drops repeated batches (sequence numbers) |
+| Transactional id + epoch | Fences zombie producers |
+| Atomic read-process-write | Exactly once inside the log only |
+
+## Serving a Model You Host [ch25]
+| Step | Note |
+|---|---|
+| Weight memory = parameters x bytes | 1B parameters at 4 bytes is 4 GB before cache |
+| Quantize weights offline | Quantizing weights at serving time saves nothing |
+| Quantize the cache on the fly | Its vectors are produced while serving |
+| Apply the scale once per dot product | Keeps the inner loop integer |
+| Verify on your task | Rounding errors mostly cancel, but not always |

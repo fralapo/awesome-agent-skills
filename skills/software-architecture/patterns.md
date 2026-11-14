@@ -361,3 +361,93 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: define a boundary, extract it as a service behind a contract, then experiment inside; do not weave it through the old code. (Position.) [ch17, ch19]
 **Cost**: interface between old and new.
 **Not when**: the system is small enough to rebuild, or has no value in history.
+
+## 61. Last-write-wins is losing data
+**When**: replicas resolve conflicts by wall-clock timestamp.
+**Move**: accept it only for idempotent or single-writer keys; otherwise use version vectors with siblings, mergeable data types, or one leader per key range. [ch21, ch22]
+**Cost**: read-before-write or merge logic.
+**Not when**: losing one of two near-simultaneous writes is acceptable.
+
+## 62. A lock holder that was paused
+**When**: a lease or lock protects a shared resource and a process can stall (garbage collection, migration).
+**Move**: issue a monotonically increasing token with each grant; the resource rejects lower tokens. If it cannot check tokens, add a delay after release and keep operations idempotent. [ch21, ch22]
+**Cost**: the resource keeps one number.
+**Not when**: the work is safely repeatable.
+
+## 63. Exactly one of something
+**When**: unique name, leader, lock.
+**Move**: linearizable store on a consensus log, or a single owner per key; weaker consistency cannot enforce uniqueness at write time. [ch21, ch02]
+**Cost**: write latency, availability only with a majority.
+**Not when**: a later rollback of a duplicate is acceptable.
+
+## 64. Atomic write over partitions without a coordinator single point
+**When**: two partitions must commit together.
+**Move**: two-phase commit where each participant is a replicated group and the decision is logged first; or put the commit point in one cell and roll forward or back from it. [ch21 21.10, ch23]
+**Cost**: extra round trips, locks held.
+**Not when**: one partition holds the data or a saga fits.
+
+## 65. Availability first, repair later
+**When**: reads and writes must never refuse (carts, sessions).
+**Move**: leaderless replicas, sloppy quorum with hinted handoff, read repair, background hash-tree comparison, siblings merged by the application. [ch22]
+**Cost**: conflicts and stale reads.
+**Not when**: money or uniqueness is involved.
+
+## 66. Hot partition in a metered service
+**When**: one key or range takes more than its share.
+**Move**: bank unused capacity (bursting), let a controller rebalance limits, hand out tokens in proportion to observed load, move other partitions off the node; do not split a partition that is hot because of one key. [ch22 22.3]
+**Cost**: accounting layer.
+**Not when**: load is uniform.
+
+## 67. Skip the lookup that cannot succeed
+**When**: most queries hit absent keys or absent files.
+**Move**: Bloom filter in front of the store or file; confirm "maybe" against the source of truth; rebuild larger when it fills. [ch24 24.2]
+**Cost**: false positives, no deletion, rebuild for growth.
+**Not when**: a false positive is harmful and unchecked.
+
+## 68. A table scan wiped my cache
+**When**: a one-off scan evicts hot pages.
+**Move**: split the recency list into young and old; insert at the head of the old list; promote on re-reference. [ch24 24.7]
+**Cost**: one more tuning knob.
+**Not when**: scans are rare.
+
+## 69. Eviction without a linked list
+**When**: memory is better spent on data than on list pointers.
+**Move**: coarse per-object clock, sample a few keys, keep the worst in a small sorted pool; for frequency use a logarithmic probabilistic counter with decay at access time. [ch24 24.4-24.5]
+**Cost**: approximate choice.
+**Not when**: exact order has business meaning.
+
+## 70. Count distinct at scale
+**When**: unique visitors or items in a stream.
+**Move**: hash, record trailing-bit pattern in small registers, combine estimates; keep exact counts only where money or law needs them. [ch24 24.3]
+**Cost**: a few percent error, no member list.
+**Not when**: exact value required.
+
+## 71. Exactly-once between two topics
+**When**: read, process, write to another topic.
+**Move**: idempotent producer, transactional id with epoch, atomic commit of outputs and input offsets; for external stores use an idempotent write instead. [ch07 7.18]
+**Cost**: coordination latency.
+**Not when**: the consumer is idempotent already.
+
+## 72. Stream job that must survive a node loss
+**When**: stateful operators over replayable inputs.
+**Move**: checkpoint barriers injected into inputs, align at multi-input operators, durable snapshots, replay after the barrier; do not depend on cross-partition order; use event time with watermarks. [ch07 7.19]
+**Cost**: alignment stalls, storage.
+**Not when**: state can be recomputed cheaply from the log.
+
+## 73. Replicas placed by count, not by failure domain
+**When**: three replicas on three machines in one zone, or quorum sizes chosen only for overlap.
+**Move**: spread across zones, make W more than half of N, size repair units small so repair is far faster than the next fault. [ch02 2.20, ch23 23.4]
+**Cost**: more copies.
+**Not when**: data is rebuildable.
+
+## 74. Hosting a model with too little memory
+**When**: weights plus cache do not fit.
+**Move**: quantize weights offline to a lower bit width, quantize the cache, measure quality on your own task, keep the high-precision original as reference. [ch25]
+**Cost**: some quality, a conversion step.
+**Not when**: memory is not the bottleneck.
+
+## 75. Immutable blocks, no consensus
+**When**: storing huge immutable objects cheaply.
+**Move**: content-hash naming, append-only buckets, synchronous write to every replica of a volume, retry on another volume after a failure, a generation number as the commit point, erasure coding once a bucket closes. [ch23 23.5]
+**Cost**: wasted partial writes until cleaned.
+**Not when**: objects are mutable or need transactions.

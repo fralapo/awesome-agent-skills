@@ -68,3 +68,15 @@ Environment and trade set the stress; institutions decide how it is absorbed. Th
 - **Mechanism**: Maya commoners moved carved stones upside down because reading was lost; after the Spanish suppressed the written tradition, later texts survive but their references are no longer understood. The Angkor stone-building tradition ends, and perishable books vanish. Without writers, craftsmen or engineers, even a revived population cannot rebuild the old systems.
 - **Trade-off**: oral traditions carry stories; they do not carry engineering.
 - **Does not hold when**: skills move with people to a new site.
+
+## 5.12 Armies, kingmakers and the loyalty of the armed force
+- **Thesis (position)**: when the army's pay, land or promotion depends on a commander or a faction, not on the state, it becomes a political actor.
+- **Mechanism**: salaried household troops that decided a succession by revolt and then asked for more pay; veterans needing land grants that required legislation their commander could not obtain; a conquering governor with an army and an expiring immunity; soldiers who made rulers in a century of short reigns (ch10.8, ch13.5, ch13.8).
+- **Trade-off**: a loyal professional army protects the state and creates a power centre.
+- **Does not hold when**: the state settles veterans, pays on time and controls promotion.
+
+## 5.13 Administration as a source of continuity
+- **Thesis (position)**: a layered administration with training, fixed taxation, inspectors and separated civil and military posts can outlive dynasties.
+- **Mechanism**: several successive conquerors kept the system and used its personnel (ch13.9). Its tolerance of local customs lowered cost; corruption, over-taxation and elite luxury eroded it.
+- **Trade-off**: a durable bureaucracy preserves order and conservative habits.
+- **Does not hold when**: the claims about its efficiency come only from admiring accounts (13.9).

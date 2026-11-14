@@ -66,7 +66,7 @@ Splitting data across nodes is easy; splitting it **so that the common request t
 ## 5.11 Other spatial structures
 - **Thesis**: a 2D space is split either into smaller regions or traversed by a curve.
 - **Mechanism**: quadtrees split regions recursively; a space-filling curve (Hilbert) maps 2D to 1D keeping nearness more faithfully; some systems use hexagonal cells. A geospatial extension of a relational database may already do this.
-- **Trade-off**: complexity versus accuracy; details beyond these names are unclear in source.
+- **Trade-off**: complexity versus accuracy; details beyond these names are unverified.
 - **Does not hold when**: a built-in extension is enough.
 
 ## 5.12 Location pool lifecycle
@@ -86,3 +86,12 @@ Splitting data across nodes is easy; splitting it **so that the common request t
 - **Mechanism**: in a partitioned log, messages with the same key land on one partition and stay ordered; partitioning by a popular item makes one partition hot on release night. Use item id plus a hash of the user id: events for the item spread across partitions while each user's events stay ordered. Time-based partitions make retention easy but concentrate current writes. Global ordering means one partition, which removes parallelism (accept partial order).
 - **Trade-off**: per-item aggregation now needs a merge across partitions.
 - **Does not hold when**: per-key volume is small.
+
+## 5.15 Sharding and partitioning: two words, one scaling path
+- **Thesis**: vertical scaling hits a hardware ceiling; past it you split the data across machines.
+- **Mechanism**: a single leader with read replicas absorbs growing read load, and a bigger machine absorbs growing writes, until the largest machine is reached (for example 1,500 writes per second wanted where one node tops out at 1,000). Splitting the data over two nodes at half each lets the pair serve more than either can alone, provided traffic is spread evenly. **Partition** is about the data (mutually exclusive subsets); **shard** is about the server holding one or more partitions (several partitions can live on one server, and one partition can move). A partitioning strategy decides the subsets (hash, range, ring, 5.3 and 5.13); uneven access breaks the arithmetic (5.6, 5.14).
+- **Trade-off**: cross-shard queries and transactions become hard (ch14 14.9); operations multiply.
+- **Does not hold when**: one node already meets the need with replicas.
+
+## 5.16 Moving ring positions instead of adding nodes
+- **See** ch22 22.2 for a store in which nodes shift their position on the ring in small steps to relieve a loaded neighbour, and for rack- and data-centre-aware placement.

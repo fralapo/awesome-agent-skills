@@ -35,7 +35,7 @@ Copies of data protect against loss and spread reads, but every copy creates a q
 
 ## 2.6 Distributed transaction options
 - **Thesis**: coordinating many nodes costs time; choose the weakest protocol the business accepts.
-- **Mechanism**: two-phase commit is popular but slow; three-phase commit exists (details unclear in source). Multi-version concurrency control keeps several versions of a record so readers choose isolation (older version for dirty reads, stronger isolation up to serializable at higher cost). A **saga** is a long transaction broken into small steps with compensation: reserve funds on an order, charge on completion; for a long phone call, reserve a little each minute and settle at the end.
+- **Mechanism**: two-phase commit is popular but slow; three-phase commit exists (details unverified). Multi-version concurrency control keeps several versions of a record so readers choose isolation (older version for dirty reads, stronger isolation up to serializable at higher cost). A **saga** is a long transaction broken into small steps with compensation: reserve funds on an order, charge on completion; for a long phone call, reserve a little each minute and settle at the end.
 - **Trade-off**: stronger isolation = slower; sagas allow intermediate states to be visible and need compensating actions.
 - **Does not hold when**: the operation fits one node or one partition (then a local transaction is enough).
 
@@ -53,7 +53,7 @@ Copies of data protect against loss and spread reads, but every copy creates a q
 
 ## 2.9 Leader election and coordination services
 - **Thesis**: someone must decide who the leader is; use a proven agreement protocol rather than inventing one.
-- **Mechanism**: the key-value store elects leaders with a Paxos variant; the cluster manager keeps five in-memory replicas of its master with election; configuration and process state sit in a lock service built on a consensus protocol. Coordination services (examples named: ZooKeeper-style, etcd-style) also trigger failover via heartbeats. Gossip between nodes is an alternative for membership, but is eventually consistent. Internals of the protocols are unclear in source.
+- **Mechanism**: the key-value store elects leaders with a Paxos variant; the cluster manager keeps five in-memory replicas of its master with election; configuration and process state sit in a lock service built on a consensus protocol. Coordination services (examples named: ZooKeeper-style, etcd-style) also trigger failover via heartbeats. Gossip between nodes is an alternative for membership, but is eventually consistent. Internals of the protocols are unverified.
 - **Trade-off**: consensus is slow and has few nodes; gossip is fast but converges late.
 - **Does not hold when**: you can re-derive state quickly after a node loss.
 
@@ -111,3 +111,18 @@ Copies of data protect against loss and spread reads, but every copy creates a q
 - **Trade-off**: the reservation holder is a dependency; the lifetime is a business decision.
 - **Does not hold when**: one database can hold the constraint for the whole process.
 
+
+## 2.19 What CAP really says, and where partitions happen (position)
+- **Thesis**: the theorem is about **100% availability during a partition**; real designs ask how high availability can be made while keeping consistency, and how often a partition actually occurs.
+- **Mechanism**: a partition is a network cut that leaves two groups unable to talk. Inside one local data centre it is rare enough that a system can be both consistent and (very nearly) available; over a wide area it is treated as inevitable. During a partition you either refuse some requests (consistency kept, partial outage) or answer from possibly stale data (availability kept). A single standalone database has no partition at all, so it is consistent, but it has no availability when the machine dies. A globally distributed SQL store that is consistent *and* looks always-on does not break the theorem: it makes partitions very rare (a private, controlled network, specialised time hardware, ch21 21.11) and lets the rare outage be so small that users never notice. A majority-quorum write during a partition succeeds on the larger side while the smaller side keeps an old copy and must time out or refuse; every network call needs a timeout so a request does not wait forever on the unreachable side.
+- **Trade-off**: engineering effort and infrastructure cost buy fewer and shorter forced choices; latency rises because distributed commit needs coordination.
+- **Does not hold when**: you cannot control the network; then decide per feature (2.13) which side loses during a cut and reconcile afterwards (2.15).
+
+## 2.20 Quorum conditions: overlap is not enough, and placement matters
+- **Thesis**: R + W > N guarantees that a read set overlaps the latest write set, but **two writes** can still both succeed on disjoint sets unless W is more than half of N; and equal-sized quorums on nodes that fail together protect nothing.
+- **Mechanism**: with N = 10, W = 2 and R = 9, reads overlap writes, yet two conflicting writes can be acknowledged by two disjoint pairs, so the final value is undefined. Requiring W > N/2 forces every two write quorums to share a node, so later writes see earlier ones. Placement: three replicas in one zone die with that zone; two zones with an uneven split lose quorum when the larger zone fails; three replicas in three zones survive one zone loss but a second, independent node fault during that outage breaks the majority. At large fleet size some machine is always failing (a fleet of 365 machines, each failing about once a year, has a failure almost daily), so the double fault is likely. One studied design uses six copies, two per zone, writes to four and reads from three: a zone loss plus one more fault leaves reads available and writes unavailable; a zone loss alone leaves both available. Small repair units keep the repair time far below the time between faults (ch23 23.4).
+- **Trade-off**: more copies and more storage for tolerance of correlated faults.
+- **Does not hold when**: data is rebuildable or replicated by a stronger outer layer.
+
+## 2.21 Time and ordering
+- **See** ch21 for unreliable clocks, last-write-wins losses, logical clocks, linearizability, total order broadcast, fencing tokens, Raft and commit-wait with bounded clock error.

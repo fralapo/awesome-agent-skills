@@ -80,3 +80,6 @@ A language model is a probabilistic component whose context you control. In this
 - **Mechanism**: (a) use another model as a judge to check that retrieved documents are relevant to the query and that the answer uses them (grounding); a practitioner reported 5-10% of results flagged; (b) sit with a domain expert to write the system prompt; (c) avoid piling ad-hoc "never do X" rules into prompts, which moves problems around; automated prompt optimisation is described as not yet practical; (d) conversations grow: store long-term and short-term memory with a saver rather than resending all turns, which raises tokens and latency.
 - **Trade-off**: evaluation has its own cost and can be wrong.
 - **Does not hold when**: stakes are low and errors cheap.
+
+## 10.14 Serving the model itself
+- **See** ch25 for weight memory arithmetic, quantization (symmetric, asymmetric, scale factor), where to quantize and how the cache is handled when serving a model yourself.

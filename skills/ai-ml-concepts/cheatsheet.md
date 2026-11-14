@@ -11,6 +11,11 @@ Figures are dated reported values or rules of thumb; they are dated snapshots, s
 | A headline claims a breakthrough | Nine questions: human-designed task? general or specialised? hardest failure? other metrics? [ch09] |
 | Answer needs exact arithmetic or long procedure | Give a tool; do not trust unaided generation [ch08, ch10] |
 | Which model for my task? | Test on your own items; domain post-training breaks rankings [ch09] |
+| Training error rises as the network gets deeper | Add skip connections; it is degradation, not overfitting [ch06.8] |
+| Test error falls again with a bigger model | Double descent: effective complexity, not parameter count [ch05.9] |
+| Need many label-free features | Pick an objective plus an anti-collapse guard [ch14] |
+| Agent works in demo, fails in use | Trace whole runs; bucket failures; test model, harness and task set [ch15.10] |
+| A paper claims an advance | Ablations, samples, error bars, definitions [ch16] |
 
 ## Maths in One Line Each
 | Idea | Plain meaning | Chapter |
@@ -38,6 +43,36 @@ Figures are dated reported values or rules of thumb; they are dated snapshots, s
 | Process reward (per step) | Good working | Costly labels, subjective steps [ch08] |
 | Self-generated chains + checker | Scalable reasoning where checkable | Open-ended tasks without grader [ch08] |
 
+## Generative Families (ch13)
+| Family | Trains | Sampling | Typical risk |
+|---|---|---|---|
+| Adversarial pair | Generator versus discriminator | One pass | Mode collapse, unstable training |
+| Denoising diffusion | Predict noise at random step | Many small steps (about 25 with a deterministic sampler, thousands originally, as reported) | Cost per sample |
+| Flow matching | Regress a velocity field to a per-sample path | Integrate an ODE; straight paths need few steps | Path choice, less mature tooling |
+| Guidance | Classifier gradient on noisy images | Weight raises fidelity | Lower diversity |
+
+## Label-Free Objectives and Their Guards (ch14)
+| Objective | Guard against collapse | Cost |
+|---|---|---|
+| Skip-gram with negative sampling | Random negatives | Sampling noise |
+| Masked bidirectional prediction | Reconstruction of real tokens | Needs fine-tuning |
+| Image-text contrastive | In-batch negatives | Huge pair sets, prompt sensitivity |
+| Moving-average teacher | Centering plus sharpening, stop-gradient | Needs augmentations |
+| Joint-embedding predictive | Variance and decorrelation regularisers | Needs decoder only for inspection |
+
+## Agent Building Blocks (ch15)
+| Need | Mechanism | Watch for |
+|---|---|---|
+| Facts, past cases, rules | Semantic, episodic, procedural memory | Unreconciled conflicts [15.4] |
+| Durable simple memory | Files plus a short skill document | No transactions [15.7] |
+| Multi-document questions | Agentic search loop | Latency [15.8] |
+| Intent across sessions | Constitution plus feature specs | Spec versioning [15.9] |
+| Pre-production confidence | Simulation, red teaming, script validators | False confidence [15.12-15.14] |
+| Crash recovery | Workflow plus retryable activities | Non-idempotent side effects [15.16] |
+
+## Paper-Reading Checklist (ch16)
+1. What would have shown the claim wrong? 2. Do ablations separate method from scale? 3. How was contamination checked? 4. Do samples agree with the rising score? 5. Error bars and scope? 6. Are key words defined? 7. Position paper or experiment? 8. Who ran the result?
+
 ## Regularisation and Generalisation
 | Tool | Effect | Watch for |
 |---|---|---|
@@ -64,6 +99,8 @@ Figures are dated reported values or rules of thumb; they are dated snapshots, s
 | Rank samples with a step-level judge | Highest in the reported study | Needs a trained judge [ch08] |
 | Tools / code | Exact results | Sandbox, latency [ch08] |
 | Longer context | Domain material in prompt | Quadratic attention cost, recall limits [ch07] |
+| Pick the method by difficulty and budget | Compute-optimal allocation | Needs a difficulty estimate [ch08.14] |
+| Share or compress keys and values | Smaller cache, faster decoding | Some head specialisation lost [ch07.13] |
 
 ## Headline Checklist (ch09, 9.9)
 1. Task human-written with known answers, or open research?
@@ -91,3 +128,9 @@ Figures are dated reported values or rules of thumb; they are dated snapshots, s
 | Hamming block | 247 data + 9 redundancy bits in 256 | ch03 |
 | Process-reward study (math subset) | ~42% base to ~78% (as reported) | ch08 |
 | Monte Carlo error | falls like 1 over square root of samples | ch12 |
+| Group-relative RL | Advantage = (reward minus group mean) over group standard deviation; no value network | ch08 |
+| Cache per token, three schemes | about 4 MB, about 500 KB, about 70 KB (one reported config) | ch07 |
+| Scaling exponent, language | about 0.095 in magnitude; implied intrinsic dimension at least about 42 vs about 100 measured | ch08 |
+| Plain 74-layer vs 8-layer net | worse; skip connections lifted one toy net from under 40% to about 73% | ch06 |
+| Error ceiling | If a cause is 5% of errors, perfect fix takes 10% error to 9.5% | ch09 |
+| Zero-shot image-text classifier | Competitive with a supervised ResNet-50 linear probe on 16 sets (as reported) | ch14 |

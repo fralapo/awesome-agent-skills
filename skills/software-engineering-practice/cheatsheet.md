@@ -1,6 +1,6 @@
 # Software Engineering Practice: Cheatsheet
 
-Figures are rules of thumb or values stated in the material; re-test. "Position" = practitioner judgment, not evidence. Chapter references in brackets.
+Figures are rules of thumb or approximate values; re-test. "Position" = practitioner judgment, not evidence. Chapter references in brackets.
 
 ## Where to Start
 | Situation | First move |
@@ -14,6 +14,15 @@ Figures are rules of thumb or values stated in the material; re-test. "Position"
 | Over- or under-engineering | YAGNI plus modularity from day one [ch06] |
 | Measuring improvement | Hypothesis plus 2-3 balanced metrics [ch08] |
 | Agent output untrusted | Examples, test list, predicted TDD, gates [ch09] |
+| Many parameters | Parameter object for orchestration; plain values for helpers [ch10] |
+| Flags and branches pile up | One policy per rule, composed; config-driven switches [ch10] |
+| Primitives with hidden rules | Value object validated at construction [ch10] |
+| Third-party SDK everywhere | Boundary with own results and errors [ch11] |
+| Duplicated code | Remove duplicated rules; keep cheap look-alikes; no flag-driven merges [ch11] |
+| Inheritance tangle | Compose; small interfaces; data for variations [ch11] |
+| Error handling clutter | Fail fast; catch only where you can recover [ch12] |
+| Slow benchmark claim | Real conditions, medians, prefer built-ins [ch13] |
+| Motivation or burnout | Feeling versus action; look for causes, not holidays [ch14] |
 
 ## CD in One Table
 | Stage | Question | Tests | Target |
@@ -53,9 +62,19 @@ Satisfaction | Performance | Activity | Communication | Efficiency and flow. Use
 ## DORA Four
 Deployment frequency | Lead time | Change failure rate | Time to restore. Indirect indicators; signal, not action; no value measure.
 
+## Code-Level Coupling
+Global | Data | Stamp | Content | Structural | Temporal. Every fix trades one for a milder one; measure how far a change propagates (ch05.9, ch10.7).
+
+## Abstraction Rule
+Abstract when the pieces mean the same and change for the same reason; prefer duplication to the wrong abstraction; the pattern appears after the analysis (ch11).
+
 ## Do Not
 - Call a CI server on a branch continuous integration.
 - Rerun failures until green.
 - Test after the fact and call it TDD.
 - Use delivery metrics as individual targets.
 - Drift into strong coupling with slow feedback.
+- Remove duplication with a function full of flags.
+- Return a provider's objects or errors from a wrapper.
+- Catch everything just in case.
+- Trust a micro-benchmark as production performance.

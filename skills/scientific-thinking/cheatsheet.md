@@ -17,6 +17,12 @@ Figures are rules of thumb or values from the chapters; many come from single or
 | Choosing a voting rule | Name which fairness property you give up [ch08] |
 | "Mathematics proves it can't be done" | Exact theorem and conditions [ch09, ch12] |
 | Using IQ, a style test, or a happiness result | Effect size, sample, causation, misuse history [ch11] |
+| A result that "feels wrong" in a strange domain | In the trained range? Reason from definitions and a small count [ch13] |
+| Infinity or geometry paradox | Which finite assumption fails; consistent vs realisable vs useful [ch14] |
+| Collective behaviour from simple parts | Local rule plus feedback; explain at the right layer [ch15] |
+| Far scenario (simulation, filter, collapse, automation) | List assumptions, mark testable, state conditionally, use base rates [ch16] |
+| Everyday physics "paradox" | Find the conflated quantity; check energy and a limiting case [ch17] |
+| "Worked in mice" | Does the model reproduce the mechanism? Human data? [ch06] |
 
 ## Statistics in One Table
 | Idea | One line | Number/example |
@@ -71,6 +77,45 @@ Figures are rules of thumb or values from the chapters; many come from single or
 | Flynn effect | about 2 to 3 points per decade |
 | Learning-style matching | no credible support; multimodal and active learning help everyone |
 
+## Infinity and Strange Objects [ch14]
+| Item | Value |
+|---|---|
+| Countable infinities | counting numbers, evens, odds, fractions all pair one to one; infinity plus one is the same size |
+| Bigger infinity | power set of any set (2^n members for n members); diagonal construction |
+| Cardinal vs ordinal | size vs order position; a later ordinal is not a larger amount |
+| Supertask | converging (halving distances) fine; oscillating (lamp) has no defined end state |
+| Equal cross-sections | equal volumes; napkin rings of equal height have equal volume |
+| Least time | cycloid, not the straight line |
+| Zero area | can still have positive dimension |
+
+## Emergence and Heavy Tails [ch15]
+| Item | Value |
+|---|---|
+| Zipf's law | frequency proportional to 1/rank; straight line on log-log |
+| 80/20 | rule of thumb (position), not a law |
+| Local rule + feedback | ant job switching by encounter counts; no planner |
+| Evolution | random variation, non-random selection |
+| Entropy | total never decreases; life exports heat and waste |
+
+## Far Scenarios [ch16]
+| Item | Value |
+|---|---|
+| Simulation argument | five assumptions; premise on motives is weakest |
+| Great Filter | behind us (lucky) or ahead (bad); finding simple life elsewhere is bad news in this model |
+| Collapse | common; worst recorded global drop about a tenth of population, recovered in about two centuries |
+| Automation | test whether the job-creating mechanism still works at scale |
+| Time | moving present, frozen block, growing block: all interpretations |
+
+## Everyday Physics [ch17]
+| Item | Value |
+|---|---|
+| Hydrostatic | pressure depends on height above, not volume |
+| Siphon/straw | about 10.3 m ideal; about 10.07 m with water vapour pressure at room temperature |
+| Series vs parallel springs | cutting a joining rope can raise the load |
+| Exponential decay | doubling the start adds one half-life, not twice the time |
+| Equator | apparent weight about half a percent lower |
+| Debug rule | conflated quantity, limiting case, energy, control, measured gap |
+
 ## Red Flags in Science News
 Single group; no replication; surprising; jump far above previous record; data inside the paper contradict headline; press release stronger than abstract; conclusion flatters a group.
 
@@ -81,3 +126,7 @@ Single group; no replication; surprising; jump far above previous record; data i
 - Do not quote the "Mount Stupid" curve as data.
 - Do not treat "democracy is impossible" or "math is broken" headlines as literal.
 - Do not assume one best strategy in a game; check the opponents.
+- Do not read "in mice" as "in people".
+- Do not drop the conditions of a far-scenario argument in the summary.
+- Do not treat "80/20" as an exact law or a shared mechanism.
+- Do not answer "after infinitely many steps" without a limit rule.

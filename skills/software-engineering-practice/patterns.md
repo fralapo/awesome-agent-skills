@@ -169,3 +169,81 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: define gates (tests, static checks, size limit); require review above the limit; make good-change criteria explicit. [ch09]
 **Cost**: building strong gates first.
 **Not when**: gates are weak.
+
+## 29. A group of values travels through many functions
+**When**: every signature carries the same four or five arguments; adding an option touches them all.
+**Move**: introduce an immutable parameter object that validates itself at construction and owns derived values; use it in high-level orchestration; pass plain values to small helpers. [ch10]
+**Cost**: one more concept to name.
+**Not when**: the helper needs one field (stamp coupling) or a split of responsibilities removes the need.
+
+## 30. One function grows a flag or branch for every new rule
+**When**: boolean flags interact in non-obvious ways; each requirement edits the same body.
+**Move**: one policy per rule; compose them (list or pipeline); optionally build the list from configuration so rules switch on and off without conditionals. [ch10]
+**Cost**: more code, more up-front thinking.
+**Not when**: a throwaway script or a rule set that stays tiny.
+
+## 31. Bare numbers and strings carry hidden rules
+**When**: a price, discount or email is a primitive and every function re-validates it; units and ranges are ambiguous.
+**Move**: value object, immutable, validated once at construction; behaviour lives with the data. [ch10, ch12]
+**Cost**: more types and conversions at the edges.
+**Not when**: the primitive has no rule or meaning.
+
+## 32. A third-party SDK leaks through the codebase
+**When**: provider objects, error classes and vocabulary appear in business logic.
+**Move**: build a boundary: domain operations, your own result and error types, a fake for tests; avoid pass-through and god wrappers; expose behaviour callers need to know. [ch11]
+**Cost**: a layer to maintain.
+**Not when**: one call in one place with no change expected.
+
+## 33. A small change breaks unrelated features
+**When**: adding a field to one step breaks analytics and invoicing.
+**Move**: split the workflow into phases; keep orchestration separate from domain rules; collect shared data in the owning record; stop reaching through object chains; place interfaces at the infrastructure edge; ask "how far does a change propagate?". [ch10, ch05]
+**Cost**: refactoring effort.
+**Not when**: a short script one person owns.
+
+## 34. Removing duplication made the code harder to read
+**When**: a merged "generic" function needs flags and a misleading name.
+**Move**: undo; split by responsibility (filter versus normalise); remove duplicated rules, keep cheap similar loops; keep duplication that protects a boundary; abstract when meaning and reason to change match. [ch11]
+**Cost**: some visible repetition.
+**Not when**: the copies must stay in lockstep (a rule); remove that duplication.
+
+## 35. Patterns and tiny classes outweigh the problem
+**When**: a strategy hierarchy and factory for one string; a container and interface with a single implementation.
+**Move**: replace with functions and a dictionary; group settings that change together; make the pipeline explicit; add an interface only where variation really is (typically provider-specific details); let the pattern emerge. [ch10, ch11, ch06]
+**Cost**: unlearning the checklist.
+**Not when**: many variants are certain.
+
+## 36. Inheritance used for reuse
+**When**: a class inherits two parents for one method each; subclasses per value or per feature combination; read-only subtype that fails on write.
+**Move**: compose; model values as data; separate capability interfaces; keep inheritance for true is-a. [ch11]
+**Cost**: wiring and delegation.
+**Not when**: the subtype honours every guarantee of the parent.
+
+## 37. Try-blocks wrap every line
+**When**: nested handlers, catch-all clauses, errors printed and ignored.
+**Move**: fail fast; catch only where you can recover; one top-level handler; scoped resources; a library exception hierarchy; specific messages; logs without secrets. [ch12]
+**Cost**: crashes are visible; needs monitoring.
+**Not when**: serious consequences or real-time constraints.
+
+## 38. Return null or raise?
+**When**: lookups and optional parameters leave callers to test for absence.
+**Move**: by identifier, raise not-found; many results, empty list; optional parameters only when absence has meaning. [ch12, ch10]
+**Cost**: exceptions in flow.
+**Not when**: absence is an ordinary outcome.
+
+## 39. Stuck on one tool, afraid of the hard task
+**When**: only the comfortable editor and stack; avoiding tasks you might fail.
+**Move**: become great at the tools in use; try a different one on purpose; recall solved problems; say yes to unfamiliar work with a pause rather than a reflex. [ch13, ch14] (position)
+**Cost**: slower at first.
+**Not when**: hard deadline or unsafe workload.
+
+## 40. "My version is faster" from a micro-benchmark
+**When**: a timing loop on a developer machine drives a decision.
+**Move**: measure under real conditions with a clean state, many runs, medians then averages, and margins of error; prefer the platform's built-in where one exists. [ch13]
+**Cost**: slow experiments.
+**Not when**: the path is proven hot in your own profile; measure there.
+
+## 41. Flat, unmotivated or burnt out
+**When**: dread, avoidance, malaise.
+**Move**: separate feeling from action for ordinary reluctance (start, momentum follows); for persistent dread look for causes: boredom, validation placed in the job, outside circumstances; a holiday alone treats the symptom; change environment or workload; seek help for health symptoms. [ch14, ch08] (position)
+**Cost**: honest reflection.
+**Not when**: symptoms point to a health issue; seek professional help.

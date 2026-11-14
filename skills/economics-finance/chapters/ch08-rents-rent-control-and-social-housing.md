@@ -59,7 +59,14 @@ Rent control is popular with tenants and unpopular with most economists. In this
 - **Trade-off**: speed against restrictions on the building programme.
 - **Counter-view**: some jurisdictions exempt new construction from controls for this reason.
 
+## 8.9 Price-ceiling mechanics applied to rent (a dated case)
+- **Thesis**: a binding cap on rents is a price ceiling; its effects run through shortage, lower quality, search costs, discrimination and misallocation.
+- **Mechanism**: in the short run supply is nearly fixed (buildings exist), so most of the shortage arises from higher quantity demanded when the rent falls; in the long run supply is more elastic: fewer apartments are built, more run down, some are converted to ownership or other uses. In one reported case new rental starts fell from 30,000 to 40,000 a year to fewer than 10,000 after the cap, and began falling even before it was enacted, because a building must pay for itself over decades and an expected cap lowers returns; non-controlled construction hardly changed, which points to the cap, not the cycle. Quality falls because owners with a queue of tenants need not maintain (repairs slowed, amenities dropped). Search costs rise (queues, networks). Discrimination gets cheaper, because landlords can choose among many applicants. Side payments appear (extra charges for furnishings). Misallocation: tenants stay in apartments larger or smaller than they would choose (21 percent in one reported city), or keep a unit they rarely use.
+- **Trade-off**: protection of current tenants versus new supply and access for newcomers.
+- **Counter-view**: these effects describe strong, broad caps; moderate, well-designed schemes with exemptions for new buildings differ (8.3 to 8.8). The reported cases are one-city snapshots.
+
 ## Checklist
 - Which tenants are inside the controlled group, and who is outside?
 - Does the plan add supply, or only cap the price of existing supply?
 - Is the vacancy rate high enough for landlords to compete?
+- For a rent cap, check what happens to new supply, maintenance and who is outside.

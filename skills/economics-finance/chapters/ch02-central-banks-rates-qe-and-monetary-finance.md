@@ -64,7 +64,14 @@ A central bank is a bank for the government and for other banks that also issues
 - **Trade-off**: credibility is built by acting firmly even at a cost.
 - **Counter-view**: a school of thought emphasises that profit margins, supply shocks and fiscal policy matter more than rates; mainstream economists answer that rates still lower demand and so cut inflation, as the doctor-and-smoking analogy goes: probable, not certain.
 
+## 2.10 The post-crisis toolkit: interest on reserves and repos (one central bank, dated)
+- **Thesis**: when rates are near zero and reserves are abundant, a central bank needs tools that act on the demand for reserves rather than on their supply.
+- **Mechanism**: (1) *Broader asset purchases* (QE): buying mortgage securities and longer-dated bonds, not only bills, targets long rates and specific markets such as housing finance; reserves in the system rose from about 2 billion to about 2.7 trillion after 2008 in the reported case. (2) *Interest paid on reserves*: raising it increases banks' demand for reserves and puts a floor under short rates, because banks will not lend below what the central bank pays them. It made policy tightening possible with a huge balance sheet. (3) *Repurchase and reverse repurchase agreements*: overnight swaps of reserves for bills (repo) or the opposite (reverse repo), which drain or add liquidity; they extend to non-bank intermediaries so that the tools reach beyond narrowly defined banks. With so many excess reserves the old market for lending reserves between banks became small, so open market operations lost bite.
+- **Trade-off**: paying interest on reserves is a cost to the budget when rates rise; large reserves change what the balance sheet is for.
+- **Counter-view**: why rates stayed so low for years is debated and unresolved. A swap of zero-interest cash for near-zero-interest bills has little macro effect by itself, which is why balance-sheet policy works through longer maturities and risk assets.
+
 ## Checklist
 - Which of the three tools is being used and by what channel?
 - Is the change a supply shock the bank cannot reach, or demand it can?
 - Does the story confuse QE (reserves for bonds) with giving money to households?
+- Ask which tool acts on the price of reserves (interest on reserves) and which on their quantity (QE).

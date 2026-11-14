@@ -56,3 +56,21 @@ Models are lenses, not laws. Each lens in this chapter explains some cases well 
 - **Mechanism**: a ruler's raid on a former ally turned a low-level ritual war into a total war and the loss of a capital for a century; a monarch's unsuccessful invasions drained the treasury and left no heir; a pacifist prince refused to fight and let civil war run. Such choices explain timing and who fell first; structure explains why the consequences were so heavy.
 - **Trade-off**: personal stories are vivid and can overshadow structure.
 - **Does not hold when**: the same outcome occurs in many polities with different rulers; then structure carries the case.
+
+## 2.10 Overextension and the second front
+- **Thesis (position)**: a state commits resources beyond what it can replace and then meets a second opponent or a creditor.
+- **Mechanism**: an overseas expedition that loses nearly all its forces; an empire that spends more on defence per taxpayer than its rivals and then borrows for two wars; an offensive that burns its best units. The sign is not defeat itself but the gap between commitments and replacement (ch09.5, ch11.5, ch13.2).
+- **Trade-off**: a model that fits many cases risks fitting all after the fact.
+- **Does not hold when**: the opponent's collapse came from internal causes; then overextension is not the explanation.
+
+## 2.11 Design of succession and trust
+- **Thesis (position)**: where the rule for succession is unclear or fratricidal, the system builds paranoia, and each change of ruler is a risk of civil war.
+- **Mechanism**: a rule that every prince has an equal claim and the winner kills his brothers gave stability in a period and made civil wars at every death certain; a federation with a collective presidency but no clear successor broke when the single strong ruler died. Systems that give a deputy a legitimate wait (a fixed term, an agreed order) reduce the incentive to conspire.
+- **Trade-off**: clear rules cost flexibility; open rules invite contest.
+- **Does not hold when**: legitimacy rests on a different base (a sacral line, a party) where the contest is not about the rule.
+
+## 2.12 Norm-based systems and their enforcement gap
+- **Thesis (position)**: a system held together by customary restraint works until a powerful actor breaks the custom at no cost; then the equilibrium shifts.
+- **Mechanism**: mutual veto, alternation of power, annual terms and ritual calendars; chapter 10 describes how a republic eroded by repeated breaches, emergency decrees and army loyalty.
+- **Trade-off**: customs adapt without amendment; they cannot punish.
+- **Does not hold when**: courts or armed forces independent of the actors enforce the rule at once.

@@ -56,7 +56,7 @@ In this model, test-driven development (TDD) is first a **design discipline** an
 - **Trade-off**: fast feedback and low effort vs weaker specification. Practitioners disagree whether it counts as TDD (position).
 - **Does not hold when**: you can state the expected result before implementing.
 
-## 3.9 Objections and what the material answers
+## 3.9 Objections and answers
 | Objection | Answer in this model |
 |---|---|
 | It limits creativity | Tests are tools like a ruler: they explore, not dictate |
@@ -68,3 +68,11 @@ In this model, test-driven development (TDD) is first a **design discipline** an
 
 ## 3.10 Behaviour-driven roots
 Behaviour-driven development began as a better way to teach TDD by focusing on words: tests specify what software should do, not test what it already does. A related framing calls it example-guided development (see ch09 for why this suits AI agents).
+
+## 3.11 A conventional five-step framing and test hygiene
+- **Thesis**: the cycle can be stated as five steps and a few hygiene rules protect it from decay.
+- **Mechanism**: (1) write tests that pass only if the feature specification is met (this forces thinking about requirements and interface first); (2) run them and **confirm they fail**, which proves they test the new behaviour; (3) write the simplest code that passes, without polishing; (4) run the **whole** suite, old tests included; (5) refactor with the suite green. Repeat in small steps with frequent commits. Hygiene: do not share one mutable fixture between tests (each test builds its own state through set-up and tear-down, so one test cannot change another's result); do not test the standard library; compare with **fixed expected values**, never with a copy of the implementation inside the test (that only checks the copy against itself); money and other exact quantities need exact types, not floats, and floating comparisons need a tolerance.
+- **Trade-off**: more code and upkeep. In an early-stage product that may be discarded, heavy testing can be wasted; coverage numbers make the trade-off explicit, so do not chase a percentage.
+- **Watch for**: a **false sense of security** (many passing unit tests may reduce effort on integration and end-to-end checks, ch04); **blind spots** when one person writes both the tests and the code and misreads the specification the same way twice (position: separate the roles where a team allows, or pair on the specification).
+- **Does not hold when**: exploring with no expected value (3.7).
+

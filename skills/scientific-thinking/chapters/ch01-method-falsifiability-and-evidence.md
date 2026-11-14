@@ -43,7 +43,21 @@ In this model, science is a way of **compressing observations into theories that
 - **Thesis**: "we do not know" is a valid and often exciting scientific answer.
 - **Mechanism**: open problems point to the work still to do. A culture that treats ignorance as failure pushes people to overclaim; a culture that records the size of the gap (an error of many orders of magnitude, an unproven conjecture) directs effort to it.
 - **Trade-off**: a stream of "we do not know" messages can undermine public trust if not framed as progress.
-- **Does not hold when**: the question has a known answer that the speaker simply has not checked.
+- **Does not hold when**: the question has a known answer that the claimant simply has not checked.
+
+## 1.8 Phantom entities: when a new "substance" is invented for an odd reading
+- **Thesis**: an unexpected measurement is more often an effect of the apparatus or of a known process than a new substance.
+- **Mechanism**: an older theory treated heat as an invisible fluid; a mirror experiment then showed a thermometer dropping near a container of snow, and this led to a proposal that "cold" is a thing of its own, carried by rays from space. The modern account needs no new entity: everything radiates, a thermometer exchanges radiation with all its surroundings, and a mirror replaces a large part of what it receives from the room with radiation from the focal spot. If the focus is cold, it receives less than it emits and cools. Both the heat-fluid and the cold-ray ideas explained some observations, and both were replaced when a kinetic account (heat as motion of particles) accounted for more with less.
+- **Trade-off**: new entities sometimes turn out to be real (a missing planet, a new particle); the rule is not "never posit", but "first rule out the apparatus and known processes".
+- **Does not hold when**: the new entity predicts something new that is then confirmed.
+- **Use**: when a measurement looks like a new substance, list what else exchanges with the sensor.
+
+## 1.9 How well tested: quantity, quality and the limit of a claim
+- **Thesis**: "well tested" means many independent tests across varied conditions, with high precision, and a statement of where the theory stops.
+- **Mechanism**: a simple generalisation (the sun rises) has been tested an enormous number of times (on the order of a quadrillion human observations, a rough figure) at low precision; the most successful theory of matter has been tested a comparable number of times in a single collider in one year, at very high precision, and in some quantities to precision unmatched in science. Precision grows with better instruments: clocks based on atomic transitions are accurate to about a second in hundreds of millions of years, and optical clocks to about a second over times longer than the age of the universe; they are sensitive enough to test whether time ticks at different rates at different heights. A navigation system would drift by hundreds of metres if its clocks were off by a millionth of a second. The equality of inertial and gravitational mass has also passed tests for centuries. At the same time a successful theory states its own boundary: that theory omits gravity, because gravity is extremely weak at the scale of single particles and no accepted way exists to combine the two frameworks; and it is written in terms of fields, not particles.
+- **Trade-off**: a theory can be very well tested within its domain and silent outside it; precision does not imply completeness.
+- **Does not hold when**: tests are not independent (the same assumption repeated), or when precision is high and the domain is narrow.
+- **Handoff**: details of particle theory and gravity belong to `physics-and-math-ideas`.
 
 ## Cross-references
-Chapter 02 and 03 give the quantitative tools for testing claims; chapter 06 shows how the procedure fails in practice; chapter 09 covers proof and its limits; chapter 12 gives a checklist.
+Chapter 02 and 03 give the quantitative tools for testing claims; chapter 06 shows how the procedure fails in practice; chapter 09 covers proof and its limits; chapter 12 gives a checklist. Chapter 13 for intuition failures and categories; chapter 17 for worked everyday cases where a model is refined by a measured gap.

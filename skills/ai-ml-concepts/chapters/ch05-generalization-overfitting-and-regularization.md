@@ -50,3 +50,21 @@ Good training results prove little; the question is performance on data the mode
 - **Mechanism**: a digit classifier shown random noise may output a confident digit, because its cost never rewarded saying "none of the above"; it recognises digits but cannot draw them.
 - **Trade-off**: adding an abstain option or calibration costs accuracy or data.
 - **Does not hold when**: the deployment inputs are guaranteed to stay in-distribution.
+
+## 5.9 Double descent: error can fall again after the interpolation threshold
+- **Thesis**: the textbook U-shaped test-error curve is the first half of the story; past the point where a model just fits the training data exactly, test error can drop again.
+- **Mechanism**: with polynomial fits to noisy points, test error falls, rises as the model starts fitting noise, peaks where the model has just enough freedom to interpolate the data (only one fitting solution, extremely sensitive to the noise), then falls as many interpolating solutions appear and the solver picks the smoothest, smallest-norm one. The same shape has been seen for transformers and vision networks, both as a function of model size and as a function of training time: continuing after test error starts to rise can bring it back down, sometimes lower than before, and a small amount of label noise makes the bump more pronounced (as reported at the time). Stochastic gradient descent tends toward small-norm solutions under certain conditions.
+- **Trade-off**: bigger models and longer training can generalise better, but early stopping on the first rise may cut off the second descent.
+- **Does not hold when**: the setting is the toy one: in the polynomial example the effect depends on the basis in which the polynomial is written (a numerically stable orthogonal basis shows it, the plain monomial basis with minimum norm does not), so "number of parameters" is a poor proxy for complexity. Later textbooks treat double descent as consistent with the bias-variance idea once complexity is measured as effective flexibility (position).
+
+## 5.10 Bias, variance and what can actually be measured
+- **Thesis**: test error decomposes into bias squared, variance and irreducible noise, but computing bias requires knowing the true function.
+- **Mechanism**: refit the same model class on many random samples of the same process; the average fit's distance from the truth is bias, the spread of fits is variance. A too-simple model has high bias; a flexible model fitted to few noisy points has high variance. Because the truth is unknown in real problems, the U-shaped curve is a conceptual tool, not a quantity you can plot.
+- **Trade-off**: a clean vocabulary for diagnosing under- and overfitting against limited practical measurability.
+- **Does not hold when**: models sit at or past the interpolation threshold (5.9), where variance and bias still decompose but the classic trade-off no longer predicts the shape.
+
+## 5.11 First-generation anti-overfitting kit and data as a sample
+- **Thesis**: the first very deep image classifier relied on augmentation, dropout and weight decay, and every dataset is a sample of a process, not the process.
+- **Mechanism**: random shifts, flips and colour changes make the label independent of exact appearance; dropout switches off random units so no single pathway is required; weight decay penalises large weights. An observation such as "three hours of sleep and five of study gave a score of 75" is one draw: other variables and luck matter, so a model that reproduces it exactly has learned noise. A hold-out set tells which learned pattern survives.
+- **Trade-off**: robustness against slower training and tuned hyperparameters.
+- **Does not hold when**: the augmentation changes the label (flipping text, rotating digits that are rotation-sensitive).

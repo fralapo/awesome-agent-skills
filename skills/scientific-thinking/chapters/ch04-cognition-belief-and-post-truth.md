@@ -55,4 +55,4 @@ In this model, belief is driven by **ease, identity and stories** at least as mu
 - **Does not hold when**: the new claim is simply asserted more loudly; the swap rule applies to better evidence, not to repetition.
 
 ## Cross-references
-Chapter 05 covers overconfidence, which feeds on these effects. Chapter 06 shows institutions with the same biases. Chapter 12 turns the defences into steps.
+Chapter 05 covers overconfidence, which feeds on these effects. Chapter 06 shows institutions with the same biases. Chapter 12 turns the defences into steps. Chapter 13 for intuition, categories and differences between minds.

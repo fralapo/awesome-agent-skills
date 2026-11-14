@@ -58,7 +58,20 @@ An exchange rate is the price of one currency in another, set by supply and dema
 - **Trade-off**: deficits finance investment when returns are high; they leave the country exposed to sudden stops when lenders retreat.
 - **Counter-view**: economists disagree about whether persistent deficits matter for a country that issues a reserve currency, and whether surplus countries share responsibility for global imbalances. Skill coverage of this topic is thin; check a primary source.
 
+## 5.9 Devaluing a currency as hidden protection (the large-exporter case)
+- **Thesis**: a deliberately weaker currency favours exporters and import-competing firms and substitutes for tariffs.
+- **Mechanism**: if the home currency halves in value, foreign goods cost twice as much at home and home goods half as much abroad, so domestic industry gains without a tariff. The nominal rate is not the same as purchasing power: over time prices adjust, and a sustained gap requires central-bank reserve purchases. Analogy: a share split multiplies the units and divides the unit price without changing the wealth held.
+- **Trade-off**: helps exporters; costs consumers and requires accumulating foreign assets.
+- **Counter-view**: whether a given country's rate is "manipulated" is contested (measure, intervention and intent are hard to separate); the trade chapter (12.4) lists retaliation risk.
+
+## 5.10 The gold standard and the loss of the fixed link
+- **Thesis**: a fixed link to gold or another currency gives stable prices for trade but removes the exchange rate's self-correcting role.
+- **Mechanism**: a floating currency falls in a bad economy (helping exports) and rises in a good one. In a system where the key currency was pegged to gold and to others, an overvalued reserve currency let partners buy dollars cheaply, and when its borrowing rose, partners swapped dollars for gold. A *full-reserve* standard holds enough gold to redeem all notes; a *fractional* standard holds only a fraction and, like fractional banking (chapter 01), is vulnerable to a run. When gold outflows exceeded what could be honoured, convertibility was suspended and then ended. Gold is fungible, so a fixed standard makes trade between participants easy and removes exchange-rate risk.
+- **Trade-off**: simplicity and discipline versus loss of flexibility.
+- **Counter-view (position)**: whether dropping gold was a mistake is contested: one view is that a gold link is not a mere relic and has real uses, but is vulnerable when the anchor cannot be defended.
+
 ## Checklist
 - Is the question about level, change or regime?
 - Does the regime match the country's debts (currency of denomination), openness and institutions?
 - Is a cause being assigned to the exchange rate when it is also an effect?
+- Ask what the regime anchors, what it backs, and who runs if the backing is doubted.

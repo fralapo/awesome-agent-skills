@@ -71,7 +71,7 @@ A database is a data structure with a durability layer. In this model you choose
 
 ## 4.12 Treat aggregates as a first-class goal
 - **Thesis (source claim)**: document and NoSQL stores are built to compute aggregates such as averages and totals over large data.
-- **Mechanism**: the mechanism is partitioned storage scanning many records; details beyond this are unclear in source.
+- **Mechanism**: the mechanism is partitioned storage scanning many records; details beyond this are unverified.
 - **Trade-off**: column-wise reads are more efficient in a column layout than in whole-record blocks.
 - **Does not hold when**: workload needs fast columnar scans across few fields (use a column-oriented store).
 
@@ -86,3 +86,34 @@ A database is a data structure with a durability layer. In this model you choose
 - **Mechanism**: flash cannot overwrite; the controller writes new data, invalidates the old and later erases whole blocks, moving still-valid pages first (garbage collection), so one logical update can cost several physical writes; page splits in a B-tree add more. A log-structured merge engine writes to a log and an in-memory table, flushes sorted immutable files, and treats updates and deletes as new records (deletes are markers called tombstones). The costs: reads may consult the memory table and many files (Bloom filters skip files that cannot hold the key), and background compaction must keep up or latency grows; heavily deleted partitions fill with tombstones that slow reads until compacted. A B-tree serves a freshly written hot page straight from the buffer pool, which suits read-after-write on hot keys; an engine that must go to files for just-written data suffers on hot partitions.
 - **Trade-off**: write throughput and drive wear versus read amplification and compaction tuning.
 - **Does not hold when**: workload is read-mostly with in-place updates on small data (a B-tree is simpler).
+
+## 4.15 Choosing a database by access pattern (one page)
+- **Thesis**: choose from the data model, the write path and the failure behaviour you need, not from a product name; most engines are one of two index structures (B-tree, log-structured merge) plus a replication style.
+- **Mechanism**:
+  - **Relational** (B-tree, ACID): normalised rows, joins, multi-row transactions; best when correctness beats speed (money, status tables, schedulers); writes spanning tables on different machines need distributed commit (ch14 14.9), so keep related rows together or shard by the transaction boundary.
+  - **Document store**: nested documents give locality when parts are read and written together; denormalised copies can drift apart.
+  - **Wide-column, leaderless** (log-structured merge, quorum, timestamp conflict resolution): very high write throughput, tunable consistency, last-write-wins loss unless conflicts are mergeable (ch22 22.2); suits chat history keyed by conversation with timestamp as the sort key.
+  - **Conflict-free data types** on a leaderless store: counters and sets that merge deterministically instead of clobbering.
+  - **Wide-column on a distributed file system** (single leader, log-structured merge, described as column-wise storage; verify before relying on it): no write conflicts, slower writes, strong for scans of one column (large media metadata, image thumbnails stored by column); reads of a whole column are local and compress well.
+  - **In-memory key-value store**: a hash map, no ordered index, poor for range queries; for hot, small, constantly updated data (caches, live driver locations).
+  - Replication style: single leader (no conflicts, write ceiling), multi-leader and leaderless (more write capacity, conflicts), see ch02.
+- **Trade-off**: each choice moves cost between write path, read path, consistency and operations.
+- **Does not hold when**: your team already masters one engine and the workload fits it (ch01 principle 9); stay on it.
+
+## 4.16 Log-structured hash store with an in-memory key directory
+- **Thesis**: the simplest fast key-value store is an append-only set of files plus a complete in-memory index, with exactly one disk read per lookup.
+- **Mechanism**: one **active** data file receives all writes; when it reaches a size limit it becomes immutable and a new one starts. Each record is `checksum, timestamp, key size, value size, key, value`; fixed-width headers let you read the header, then exactly the right number of bytes (a delimiter scan would be unsafe because the delimiter may appear in the value); a checksum mismatch after a crash means truncate the tail, since a partially written record cannot be trusted. A **key directory** in memory maps every key to file, offset and timestamp: it is a **dense** index (every key present), so a missing key is answered "absent" without touching disk, and a hit needs one random read. A delete appends a tombstone record and removes the key from the directory. Immutable files accumulate stale and deleted records, so a background **merge** rewrites live records (compaction, 4.4). Recovery rebuilds the directory by scanning the files.
+- **Trade-off**: the entire key set must fit in memory; no range queries; merge I/O.
+- **Does not hold when**: keys are too many for memory or ordered scans are needed (use a sorted-file engine, 4.4).
+
+## 4.17 Inverted index
+- **Thesis**: search over text is a set intersection of precomputed lists, not a scan of documents.
+- **Mechanism**: a naive search checks every document for a word (linear). An **inverted index** maps each **term** to its **posting list** (document ids, kept sorted); the set of terms is the **dictionary**. Building: split text into tokens (on white space, with other strategies possible), lower-case, remove punctuation, **stem** (strip suffixes to a root; cheap and widely used) or **lemmatise** (map to a grammatical root; slower), drop **stop words** (very common words that do not discriminate). A posting entry can also hold the term's **position** (for proximity and ranking) and **offset** (for snippets and highlighting). A query "a and b" intersects two sorted lists in linear time; ranking happens afterwards. Optimisations: keep lists sorted, compress ids (delta and variable-length encoding), keep the top documents of each list in memory and the rest on disk (a tiered or "champion" list), index word pairs or triples for phrase queries.
+- **Trade-off**: index size, build time and update cost against fast queries.
+- **Does not hold when**: the corpus is tiny or queries are exact-key lookups.
+
+## 4.18 Why B+ trees: a file of rows has linear operations
+- **Thesis**: a plain file of rows costs linear time for find, update and delete, because rows are packed and a longer row cannot overwrite its neighbour; grouping rows into page-sized nodes keeps the index shallow.
+- **Mechanism**: in a flat file, updating a row to a longer width means rewriting the file; finding a row needs a scan, though a range query is cheap once the first row is found. A B+ tree packs many rows into one node the size of a disk page (a 4 KB node holds about a hundred 40-byte rows), so a search touches a few pages and range scans follow leaf links. (Treated briefly here; see 4.1 for the engine view.)
+- **Trade-off**: in-place page updates and splits against the append-only options in 4.3 and 4.4.
+- **Does not hold when**: writes dominate and updates can be appends (4.4).

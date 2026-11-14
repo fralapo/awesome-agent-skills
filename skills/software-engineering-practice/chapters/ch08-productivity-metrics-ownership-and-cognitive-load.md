@@ -12,7 +12,7 @@ In this model developer productivity is not a single number: it is a set of **ba
 ## 8.2 Metrics escape to management
 - **Thesis (position)**: team-level use of delivery metrics is healthy; once they leave the team without an enlightened audience, they introduce dysfunction.
 - **Mechanism**: almost all hard metrics measure output (throughput, deployment frequency), not outcome. Lean metrics in particular come from factory thinking: concepts such as a linear board with no going backwards, or rework as waste, do not fit agile development in which loops inside loops are normal. A short recovery time may be a sign of healthy experimentation rather than failure.
-- **Counter-position in the material**: the four are a set, balancing throughput against stability, and they are a useful picture precisely because they are indirect; value measures must be defined contextually per experiment.
+- **Counter-position**: the four are a set, balancing throughput against stability, and they are a useful picture precisely because they are indirect; value measures must be defined contextually per experiment.
 - **Does not hold when**: the audience understands lean and agile; rare.
 
 ## 8.3 SPACE: a framework for choosing your own metrics
@@ -54,3 +54,4 @@ AI tools can raise load: another toolset, context switching, new pipelines, fati
 
 ## Cross-references
 Chapter 01 and chapter 02 for the practices the metrics reflect; chapter 05 for coupling between teams; `software-architecture` for reliability and observability design.
+Chapter 14 for the individual side of load: motivation, burnout causes and sustainable effort.

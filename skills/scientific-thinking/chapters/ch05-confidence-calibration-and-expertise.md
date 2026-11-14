@@ -67,4 +67,4 @@ In this model, confidence and accuracy are different quantities, and the world r
 - **Does not hold when**: the manager exploits a measurable, repeatable inefficiency and discloses a method that survives out-of-sample testing.
 
 ## Cross-references
-Chapter 03 for substitution and base rates; chapter 04 for the illusions that sustain confidence; chapter 07 for markets and forecast limits; chapter 06 for expertise inside institutions that never test its validity.
+Chapter 03 for substitution and base rates; chapter 04 for the illusions that sustain confidence; chapter 07 for markets and forecast limits; chapter 06 for expertise inside institutions that never test its validity. Chapter 16 for far-scenario forecasts and chapter 15 for intelligence as a toolbox.

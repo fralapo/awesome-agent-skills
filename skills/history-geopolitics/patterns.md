@@ -103,3 +103,64 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: run the ten-step checklist and state that no sheet exists. [ch08]
 **Cost**: slower.
 **Not when**: a sheet exists; start from it.
+
+## 18. "They won every battle but lost the war"
+**When**: an army wins in the field and still fails to hold ground.
+**Move**: compute the supply radius, name the critical lane (sea, river, rail), check who controls it and what the ground yields. [ch09.1, ch09.2, ch09.4]
+**Cost**: slower than a battle narrative.
+**Not when**: the attacker has cheap transport and a rich countryside.
+
+## 19. Border drawn as a line
+**When**: a map shows a hard frontier between two empires.
+**Move**: ask what the zone looked like: inner and outer frontier, client rulers, hostages, markets on both sides, supply limits. [ch09.3]
+**Cost**: a vaguer map.
+**Not when**: a treaty text fixes a boundary.
+
+## 20. Origin story of a systemic war
+**When**: a one-sentence cause for a great-power war.
+**Move**: fill the layer table (long fuse, medium term, trigger, decisions, later aims); give each school with its evidence; do not use stated aims as causes. [ch12]
+**Cost**: no clean villain.
+**Not when**: a document shows a single dated decision.
+
+## 21. Customary restraint holds the system
+**When**: a republic or council runs on vetoes and conventions.
+**Move**: list unwritten rules; who enforces; what happens when one actor ignores a veto; what emergency powers exist; whose army it is. [ch10]
+**Cost**: more questions before judgment.
+**Not when**: an independent court or guard enforces the rules promptly.
+
+## 22. "The blockade starved them"
+**When**: a blockade is offered as the cause of defeat or famine.
+**Move**: split the effect into blockade, home policy (price caps, slaughter, labour), supplier loss, transport and neutrals; ask for excess-death ranges and the military effect; note who gains from the story. [ch11.3]
+**Cost**: a muddier story.
+**Not when**: the blockade is total and the home economy is not at fault.
+
+## 23. "The peace caused the next war"
+**When**: a settlement is blamed for a later conflict.
+**Move**: separate the terms, the debts, the circular flows of money and the domestic politics; state the counterfactual; label the chain a hypothesis. [ch11.6]
+**Cost**: no easy lesson.
+**Not when**: the same actors, terms and sequence are documented step by step.
+
+## 24. Capture of the capital
+**When**: a plan assumes the war ends when the capital falls.
+**Move**: ask whether the state is centralised, whether legitimacy sits in the capital, whether other seats or tribes can carry on. [ch09.7]
+**Cost**: longer planning.
+**Not when**: the state is a single-core, centralised polity.
+
+## 25. Terror reputation as evidence
+**When**: huge killing numbers or skull piles are cited.
+**Move**: compare with regional population, look for propaganda motive and later-chronicler source, check censuses and archaeology. [ch01]
+**Cost**: duller story.
+**Not when**: bodies or burial pits are found and dated.
+
+## 26. Moral decline explains the fall
+**When**: an author says the elite lost its virtue.
+**Move**: ask who is speaking, whether the moral code was aspiration, and what structural factors (land, debt, voting weights, incentives) are missing. [ch10.9]
+**Cost**: loses a satisfying frame.
+**Not when**: evidence shows measurable change in conduct tied to measurable change in outcomes.
+
+## 27. Commander faces expiring protection
+**When**: a leader with an army must leave office and faces prosecution or loss.
+**Move**: check veterans' reward, legal immunity, available rules, who else has been exempt from them. [ch10.8]
+**Cost**: sympathy for no actor.
+**Not when**: the state settles veterans and shields officials.
+

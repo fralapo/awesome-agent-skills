@@ -60,5 +60,18 @@ In this model, **being deterministic does not make a system predictable**. Chaos
 - **Does not hold when**: price jumps, volatility changes, liquidity vanishes, or hedging cannot be done continuously; model assumptions fail under stress.
 - **Use**: an early failure in applying math to money is a reminder that skill with equations does not remove exposure to crowd behaviour: a very accomplished calculator of planetary motion lost about a third of his wealth by buying into a bubble and averaging down.
 
+## 7.10 What is predictable: eclipses and the three-body problem
+- **Thesis**: some motions are predictable far ahead because they repeat, even when the underlying problem has no neat solution.
+- **Mechanism**: long records of the Moon and Sun showed three nearly periodic cycles: the phase cycle (about 29.5 days), the cycle in which the Moon crosses the plane of the Sun's apparent path (about 27.2 days), and the cycle of its apparent size (about 27.5 days). After 6585 days and 8 hours (about 18 years, the saros) the three nearly realign, so an eclipse similar to an earlier one occurs. The cycle predicts roughly when, not where. Prediction to within a second or two, for centuries ahead, needs a model of the Earth, Moon and Sun with their gravitational pulls (the three-body problem, which has no general closed-form solution), solved numerically with accumulated corrections. In this model, the lesson is that empirical cycles can predict without mechanism, and that numerical models can predict a regular system well even when no formula exists.
+- **Trade-off**: the cycle needs no theory but gives limited detail; the numerical model gives detail but needs good data and a correct model.
+- **Does not hold when**: the system is chaotic over the horizon of interest (see 7.2 and 7.3); eclipse prediction works because the relevant motions are well behaved over centuries.
+
+## 7.11 Randomness: ignorance, intrinsic chance and camouflage
+- **Thesis**: a process can look random because of ignorance, because of intrinsic chance or because we have not found its pattern.
+- **Mechanism**: a coin toss is deterministic: a machine can control it to land as desired. Practical biases exist: a coin thrown in a standard way tends to land with the face that was up at the start slightly more often (about 51% in one study), spinning a coin on its edge gives larger biases because of the weight distribution (a heavier side down, as often as 80% for some coins), and a thick enough coin occasionally lands on its edge (about once in several thousand throws for one coin). Dice are made to tolerances of a few micrometres, which can show as small biases. Intrinsic randomness is a different thing: quantum events such as the time of a particular radioactive decay cannot be predicted even with full knowledge, only their probabilities. A random process can generate readable patterns by chance, and is easier to rule out than to confirm.
+- **Trade-off**: assuming randomness simplifies models; assuming determinism calls for the full state.
+- **Does not hold when**: a "random" sequence has been designed; test it and use a certified generator.
+- **Use**: to be fair with a coin, catch it in the hand instead of letting it bounce and spin.
+
 ## Cross-references
-Chapter 05 for pundits and low-validity environments; chapter 09 for Markov chains and simulation; chapter 03 for risk.
+Chapter 05 for pundits and low-validity environments; chapter 09 for Markov chains and simulation; chapter 03 for risk. Chapter 13 for the everyday sense of "random"; chapter 16 for time, randomness and the future.

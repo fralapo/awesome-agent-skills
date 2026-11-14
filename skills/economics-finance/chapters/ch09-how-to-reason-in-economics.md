@@ -78,7 +78,20 @@ Economics gives a way of checking claims: follow the incentives, name the trade-
 - **Trade-off**: pretending the choice is technical hides it.
 - **Counter-view**: some economists say they should recommend, others that they should lay out options and costs.
 
+## 9.12 Opportunity cost, trade-offs and who bears the cost
+- **Thesis**: every choice excludes another, and a rule's real cost includes the foregone alternative.
+- **Mechanism**: ask for each proposal what is given up (money, time, activity that is priced out), compare with the next best alternative, and then ask who bears the cost: price is a signal; who pays is a separate question. Costs that fall on third parties are externalities (chapter 10.8); costs that are hidden in quality, queues or rents are still costs.
+- **Trade-off**: more careful analysis delays decisions.
+- **Counter-view**: not every decision should be priced; the point is to name what is traded off, not to monetise everything.
+
+## 9.13 Mechanism, case and shock: reading a country story
+- **Thesis**: a country narrative mixes a shock, a structure and a mechanism; separate them.
+- **Mechanism**: use the case-sheet format of chapter 13: dated facts, proposed causes, evidence for each, contested points, lessons. Check whether a comparator (a resource-rich country that did well) differs in one variable or many.
+- **Counter-view**: a single comparison cannot isolate causes.
+
 ## Checklist
 - Did I tag every contested claim as a position and give the rival view?
 - Did I separate nominal from real, level from path, stock from flow, average from distribution?
 - Did I avoid giving investment advice or forecasting a market move?
+- Ask who bears the cost and what the next best alternative was.
+- Put a country story into the case-sheet format before drawing lessons.

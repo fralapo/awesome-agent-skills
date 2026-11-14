@@ -47,7 +47,7 @@ A cache is a bet on the access pattern. In this model the best caches are simple
 
 ## 6.8 The CDN
 - **Thesis**: put copies of static content close to users; it cuts latency and removes a regional single point of failure.
-- **Mechanism**: store files in object storage, replicate to regions, front with a CDN; edge caches keep popular files. The video-serving service chooses the right file variant by device, format, bandwidth and region and returns links; the device streams from the CDN. Use a provider unless scale justifies building one (ch01 1.10). Whether a provider offers an API to push or purge cache entries is unclear in source.
+- **Mechanism**: store files in object storage, replicate to regions, front with a CDN; edge caches keep popular files. The video-serving service chooses the right file variant by device, format, bandwidth and region and returns links; the device streams from the CDN. Use a provider unless scale justifies building one (ch01 1.10). Whether a provider offers an API to push or purge cache entries is unverified.
 - **Trade-off**: vendor service levels and cost; purge control.
 - **Does not hold when**: content is dynamic and personalised.
 
@@ -77,3 +77,12 @@ A cache is a bet on the access pattern. In this model the best caches are simple
 
 ## 6.13 Balancing
 - **See** ch16 16.4 for static and dynamic balancing algorithms and ch16 16.5 for request coalescing with hash routing.
+
+## 6.14 Throttling and rate limiting: five reasons, two placements
+- **Thesis**: a limiter decides which requests to serve when everything cannot be served, and should drop rather than buffer excess.
+- **Mechanism**: reasons: prevent **abuse** (one rogue client), serve only **traffic you can handle** (a legitimate viral surge; better to serve some users than to fail for all), **control cost** (each request spins up expensive compute, such as a model on a GPU), and prevent **cascading failure** (stop the first overloaded component from taking down its callers). Placement: **external** limiters at the public edge (a denial-of-service flood, a graceful surge: rules keyed by address, user or token, surplus dropped, ideally with a clear "slow down, try later" instead of a generic outage) and **internal** limiters between services or per tenant tier (a build service with tiered plans gives each tier its own capacity so a low tier cannot starve a high one; also protection of a downstream store). Algorithms and token buckets: ch04 4.8 and ch09.
+- **Trade-off**: some legitimate requests are refused; limits need tuning and a fairness rule.
+- **Does not hold when**: capacity is elastic and the cost of serving everything is acceptable.
+
+## 6.15 Eviction policy and approximate structures
+- **See** ch24 for eviction policies, approximate LRU and LFU, scan-resistant lists, and probabilistic filters that avoid cache penetration.
