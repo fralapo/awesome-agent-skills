@@ -42,7 +42,7 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 | Is this debt sustainable; austerity; the interest-growth gap | [ch04](chapters/ch04-public-debt-and-fiscal-sustainability.md) | ch02, ch06 |
 | Exchange rate, devaluation, peg, dollarization, currency union | [ch05](chapters/ch05-exchange-rates-currency-regimes-and-external-position.md) | ch04, ch06 |
 | Bank failure, sovereign default, property bust, currency crash | [ch06](chapters/ch06-financial-crises-banking-sovereign-property-currency.md) | ch01, ch04, ch05 |
-| Why houses are expensive; NIMBY, upzoning, mortgage credit | [ch07](chapters/ch07-housing-prices-and-affordability.md) | ch08, ch03 |
+| Why houses are expensive; NIMBY, upzoning, mortgage credit; mortgage payment, fixed vs variable, rent vs buy, net rental yield | [ch07](chapters/ch07-housing-prices-and-affordability.md) | ch08, ch03 |
 | Rent control, filtering, social housing, Vienna | [ch08](chapters/ch08-rents-rent-control-and-social-housing.md) | ch07, ch09 |
 | Demand, supply, surplus, elasticity, price ceilings; externalities, Coase, commons, monopoly, information gaps | [ch10](chapters/ch10-microeconomic-foundations-markets-externalities-and-information.md) | ch08, ch09 |
 | Why some countries are poor; institutions, resource curse, aid, ageing, brain drain | [ch11](chapters/ch11-growth-and-development-institutions-resources-aid-and-demography.md) | ch13, ch12 |
@@ -106,6 +106,7 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 - **Money multiplier, credit money, quantity theory** → ch01, ch03
 - **MMT, fiscal theory of the price level, profit-led inflation** → ch03
 - **NIMBY, upzoning, collective action** → ch07, ch09
+- **Mortgage amortisation, fixed vs variable, lender switch, rent vs buy, net rental yield** → ch07
 - **Property bust channels (investment, consumption, sentiment)** → ch06
 - **Rent control evidence, public housing, Vienna** → ch08
 - **Zero lower bound** → ch02

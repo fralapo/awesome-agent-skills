@@ -18,7 +18,7 @@ Why some countries are rich and others poor is the largest question in economics
 
 ## 11.3 Colonial extraction and inherited rules (position)
 - **Thesis**: where colonial rule was built to extract, the rules about land, courts and voting outlast the empire.
-- **Mechanism**: in one account, regions with the highest historical land concentration still show lower income and weaker state capacity; a leftover shell of institutions is easy for a strongman to seize and use for extraction rather than for new economic activity. A sudden handover (almost no trained nationals in the civil service at independence, in the reported case) can start a spiral of chaos, conflict and weak investment.
+- **Mechanism**: (position) regions with the highest historical land concentration still show lower income and weaker state capacity; a leftover shell of institutions is easy for a strongman to seize and use for extraction rather than for new economic activity. A sudden handover (almost no trained nationals in the civil service at independence, in the reported case) can start a spiral of chaos, conflict and weak investment.
 - **Trade-off**: explanations by history are hard to test and can sound fatalistic.
 - **Counter-view**: countries with similar histories diverged (see the South American case in chapter 13); this account needs a mechanism for the exceptions.
 

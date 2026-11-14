@@ -42,7 +42,7 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 
 | Task | Start with | Then |
 |---|---|---|
-| "Why did I decide that?" biases, regret, "was the holiday good?", future-self promises | [ch01](chapters/ch01-decisions-and-judgment.md) | ch02, ch05 |
+| "Why did I decide that?" biases, regret, "was the holiday good?", future-self promises, investor mistakes (FOMO, timing, anchoring, overconfidence) | [ch01](chapters/ch01-decisions-and-judgment.md) | ch02, ch05 |
 | Overwhelm, many tasks, a crisis, an emergency plan | [ch02](chapters/ch02-decisions-under-stress.md) | ch06, ch04 |
 | "What is an emotion?", reading faces, emotion AI, reinterpreting arousal | [ch03](chapters/ch03-how-emotions-are-made.md) | ch04 |
 | Stress, reframing, control versus acceptance, Stoic exercises, news overload | [ch04](chapters/ch04-stress-and-regulation.md) | ch03, ch07 |
@@ -104,6 +104,7 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 - **False memory, misinformation effect** -> ch05
 - **Flow, triggers, focus blocks** -> ch06
 - **Focusing illusion, peak-end, two selves** -> ch01
+- **Investor errors: FOMO, market timing, anchoring, disposition effect, overconfidence, product overload** -> ch01 (1.8)
 - **Habit loop, keystone habit** -> ch07
 - **Introversion, the new groupthink** -> ch09
 - **Looping for understanding, understory, high conflict** -> ch09

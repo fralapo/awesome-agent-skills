@@ -56,6 +56,8 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Cost**: each measure has losers.
 **Not when**: demand is falling (population decline).
 
+For an individual household: compare yearly cash flows (rent vs owner costs plus opportunity cost) and the maximum possible mortgage payment. [ch07 7.10-7.13]
+
 ## 10. Rent control proposal
 **When**: rents are out of control and a cap is popular.
 **Move**: list the seven effects (rents, sales, supply, mobility, spillovers, quality, new building); ask who is outside; pair with a building plan; check design (exemptions, vacancy rules). [ch08]

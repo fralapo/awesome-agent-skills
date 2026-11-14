@@ -97,3 +97,51 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: count the business as part of the exposure; size down using expected-utility logic. [ch04, ch11]
 **Cost**: weaker signal to investors.
 **Not when**: control matters more to you, knowingly.
+
+## 17. A backtest with a striking result
+**When**: a rule or fund "beat the market" in a chart or study.
+**Move**: count independent observations, check survivorship, price versus total return, costs, currency; ask how many rules were tried and compare effect size with fees. [ch13]
+**Cost**: fewer exciting conclusions.
+**Not when**: the rule has a stated mechanism, was fixed before testing and replicates across markets.
+
+## 18. A return quoted without a base or horizon
+**When**: "4.6% a year", "up 70%" or an average coupon is offered as the yield.
+**Move**: rebuild the figure as annualised IRR on dated, net cash flows over the same horizon; state the base. [ch12, ch06]
+**Cost**: some arithmetic.
+**Not when**: horizons are a few days (use the absolute gain after costs).
+
+## 19. A yield far above the comparable
+**When**: a bond, deposit-like platform or certificate pays much more than its peers.
+**Move**: ask which risk is being paid (credit, currency, call, subordination, platform insolvency, issuer risk); price scenarios in money, not only the good case. [ch06, ch07, ch10]
+**Cost**: the "bargain" is usually gone.
+**Not when**: short, high-grade bonds with a transient mispricing.
+
+## 20. A leveraged or structured product
+**When**: "3x", "protected capital", "monthly coupon with barrier".
+**Move**: find the wipe-out day, the barrier cliff, the issuer's solvency, the forgone dividends and the cost against a frictionless replica; test on rolling windows. [ch07, ch13]
+**Cost**: less leverage or no product.
+**Not when**: a specific hedge of a known exposure over a few days.
+
+## 21. Money needed on a known date
+**When**: tuition, tax bill, house deposit within 1-10 years.
+**Move**: match the outflow to an instrument maturing on that date (single bond, deposit) rather than a fund with constant duration; keep equities for money not needed for ten years. [ch04, ch06]
+**Cost**: lower expected return, concentration in issuers.
+**Not when**: the wealth is so large that no outflow forces a sale.
+
+## 22. Planning withdrawals from a portfolio
+**When**: retirement or early-retirement spreadsheets use an average return.
+**Move**: use real net return, a horizon-dependent rate, block-resampled history and the left tail; test a bad first decade. [ch14, ch12]
+**Cost**: a larger required capital or flexible spending.
+**Not when**: a guaranteed income covers the spending.
+
+## 23. A message from a famous person or a "recovery service"
+**When**: an advertisement, chat or call promises gains or recovers lost funds.
+**Move**: do not pay any fee to release funds; hang up and call a number you found yourself; check the domain and the register. [ch10]
+**Cost**: some missed offers.
+**Not when**: you initiated contact with a firm you verified.
+
+## 24. Rebalancing or switching on a rule
+**When**: a portfolio drifts or a better allocation appears.
+**Move**: use contributions and withdrawals before selling; act only after a weight has doubled or tripled; do not buy an asset that is failing. [ch04]
+**Cost**: some drift.
+**Not when**: taxes and fees are nil and the assets oscillate in small swings.

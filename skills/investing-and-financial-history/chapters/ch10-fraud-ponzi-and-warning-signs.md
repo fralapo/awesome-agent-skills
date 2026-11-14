@@ -61,9 +61,35 @@ In this model, fraud works by **exploiting the shortcuts that make trade possibl
 - A common principle is to hold investments whose structure can be explained in a sentence.
 - A common principle is to size positions so that any single failure is survivable (ch04).
 
+## 10.9 Impersonation, fake endorsements and deepfakes
+- **Thesis**: modern scams borrow a trusted face rather than build trust slowly.
+- **Mechanism**: the usual chain is a fake endorsement (a cloned profile, a group chat, an advertisement with a synthetic voice or face of a public figure), then a platform that shows invented gains, then withdrawals that require "tax", "fee" or "verification" payments that escalate until the victim stops. Sunk-cost thinking makes the victim pay one more fee; later waves target the same person with "recovery services" asking an advance fee. Mass messages are written badly on purpose: they filter for the naive, whose time is cheap to exploit. Romance variants invest months because attacker time is cheap. Real withholding is deducted from a payout, never prepaid; a payout released by paying first is a tell.
+- **Mechanism, cheap checks**: nobody seeks you out to offer a profitable investment; urgency is the lever; call back on a number you found yourself; read the real domain backwards from the first single slash; two confirmations arriving through the same channel count as one; caller names and display names can be spoofed; a transfer is not checked against the account holder's name. Realistic guaranteed returns track the low-risk rate of the day, so a promised "guaranteed" return far above it (a figure around 10% is a heuristic threshold) cannot be sustained. Prefer intermediaries listed in an official register.
+- **Does not hold when**: you initiated contact with an authorised firm through channels you verified.
+
+## 10.10 Pyramid and referral structures, including in digital assets
+- **Thesis**: a structure that pays members for recruiting members fails by arithmetic.
+- **Mechanism**: with 5 recruits per member, level 10 needs 5^10, about 9.8 million people, so most late joiners lose. Variants (general knowledge) present themselves as staking, trading bots, "membership" tokens or yield programmes with daily returns and referral bonuses; in the digital-asset form, value is the token itself, which the operator can print, so the story that "it is not a pyramid because there is a token" does not change the flow of money. Smart contracts can keep paying while the token underneath collapses: the contract does not fail, the currency does.
+- **Does not hold when**: a bonus for a genuine referral is a small, capped marketing cost and income does not depend on recruiting.
+
+## 10.11 Yield, platforms and counterparty risk
+- **Thesis**: a yield far above the market is the price of a risk, and a platform adds its own risk to the underlying one.
+- **Mechanism**: a platform promising 8-10% on deposited stable assets must lend or deploy the funds; clients bear the underlying risk plus the platform's insolvency, mismatches between the currency of liabilities and assets, and a split of creditors across related entities. In a reported failure (illustrative), liabilities of about 377 million units against assets mostly in risky positions implied a recovery near a quarter, with administrator costs paid by creditors (uncertain figures). In credit the upside is capped at coupons and principal while the loss can be total; a typical recovery in default was about 10% of principal (illustrative), so a 58% fall on a bond can hurt more than a 90% fall on a single share because a fixed income was expected. Small-ticket lending and crowdfunding carry the same risk with strong information asymmetry: a platform's guarantee is not independent of the platform; diversifying across look-alike borrowers does not remove it (10 defaults in 100 loans is 10% of capital, often the whole promised return); that others have joined is not due diligence; and a return that looks guaranteed is a warning sign (position). Funds blocked at a platform may not be recognised as a loss for tax purposes (jurisdiction-specific).
+- **Does not hold when**: collateral is segregated, audited and held outside the platform.
+
+## 10.12 Additional red flags
+- A product that cannot be explained in a sentence or whose returns cannot be traced to a counterparty.
+- A deposit asked into a third party's account.
+- Platforms where only the operator can freeze withdrawals, or where withdrawal needs a fresh payment.
+- A fee ladder: layered entry charges, fund-of-fund costs and surrender penalties that consume a large share of expected return (ch04, 4.12).
+- Frequent switching proposed by a seller (more than about once a year) and a mixed product that trails a mix of indices by its costs.
+- Authority borrowed from a regulator's logo, a bank's name in a testimonial or a famous backer.
+
 ## Common mistakes
 - Treating a credible name as due diligence.
 - Believing that fraud only happens in obscure places.
+- Paying a "release fee" to recover money already lost.
+- Confusing a working smart contract with a sound asset.
 
 ## Links
-- ch04 position sizing, ch08 biases, ch09 booms hide fraud (it surfaces when money stops flowing), ch11.
+- ch04 position sizing, ch08 biases, ch09 booms hide fraud (it surfaces when money stops flowing), ch11, `economics-finance`; a deeper treatment of digital-asset custody and exchange failures is in `crypto-and-digital-assets` where installed.

@@ -30,6 +30,8 @@ Figures are rules of thumb or values from the chapters; many come from single or
 | Regression to the mean | Extremes drift back; no cause needed | Top 10 scorers on a luck test fall to 50 |
 | p-value | P(data this extreme given no effect), not P(hypothesis) | 0.05 is a convention |
 | Multiple comparisons | More tries, more false positives | Four flexible tactics together push false positives above 60% |
+| Overlapping windows | Count non-overlapping periods, not rows | 4,800 daily 5-year windows from 25 years = about 5 independent samples [ch02 2.9] |
+| Significance vs size | Ask "by how much", compare with costs | r = 0.003 can give p near 10^-14 [ch02 2.9] |
 | Published false share | Depends on prior, power, bias | 1,000 hypotheses, 10% true, 80% power: 80 true vs 45 false positives |
 | Correlation squared | Variance explained | r = 0.2 is about 4% |
 | Proportions | Compare ratios within rows | Largest cell misleads |

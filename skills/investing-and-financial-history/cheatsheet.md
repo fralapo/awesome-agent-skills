@@ -17,6 +17,12 @@ Educational concepts and history, not advice or forecasts. Figures are dated sna
 | Why did the crash happen? | Ingredients, trigger, proposed causes, rival account [ch09] |
 | Is this a Ponzi or fraud? | Verify independently, run the checklist [ch10] |
 | Was the decision good? | Judge at decision time: risk, reason, expected outcome [ch11] |
+| How do I compare two returns? | Same horizon, net of costs and tax, IRR on dated flows, annualised correctly [ch12] |
+| Is this backtest reliable? | Count independent observations; survivorship; costs; effect size; how many rules tried [ch13] |
+| How is a bond priced and what hurts it? | Present value at required yield; duration for rate risk; credit and call for the rest [ch06] |
+| What is a leveraged or structured product really? | Daily reset and wipe-out threshold; barrier cliff and issuer risk [ch07] |
+| How long will a withdrawal plan last? | Real net return, horizon-dependent rate, sequence risk, left tail [ch14] |
+| Is a high yield or promised return real? | Name the risk paid; trace the counterparty; check for new-money dependence [ch06, ch10] |
 
 ## Figures to Keep in Mind (dated, context-bound)
 | Statistic | Value | Where |
@@ -35,6 +41,12 @@ Educational concepts and history, not advice or forecasts. Figures are dated sna
 | 1987 one-day fall | about 22.6% | ch09 |
 | Portfolio insurance share of sell volume on the day | about 19% (one estimate) | ch09 |
 | House price rise 1998-2006 (US) | about 124% | ch09 |
+| Recovery needed after a fall of 20% / 50% | +25% / +100% | ch12 |
+| Non-overlapping five-year periods in 4,787 overlapping windows (25 years of data) | about 5 | ch13 |
+| Cost of exit rules in one 25-year sample (5-year windows) | about 8-12 points of mean return | ch13 |
+| Wipe-out day for a daily-reset product x2 / x3 / x5 | fall of 50% / 33% / 20% | ch07 |
+| Duration 6, yield +1 point | price about -5.8% | ch06 |
+| Initial withdrawal rate calibrated to 30 years / to 50 years (this model) | about 4% / about 2% or somewhat more | ch14 |
 
 ## Option Greeks
 | Greek | Measures | Note |
@@ -45,5 +57,17 @@ Educational concepts and history, not advice or forecasts. Figures are dated sna
 | Vega | sensitivity to expected volatility (general knowledge) | |
 | Rho | sensitivity to interest rates (general knowledge) | |
 
+## Formulas
+| Quantity | Formula | Where |
+|---|---|---|
+| Annualised return | `(1+R)^(1/years) - 1` | ch12 |
+| Log return | `ln(final/initial)`; simple = `e^r - 1` | ch12 |
+| Recovery after loss p | `1/(1-p) - 1` | ch12 |
+| Modified duration | Macaulay duration / (1 + yield) | ch06 |
+| Accrued interest | coupon x days since last payment / days in period | ch06 |
+| Rights value | ex-rights price - subscription price | ch12 |
+| Portfolio variance (2 assets) | `w1^2 V1 + w2^2 V2 + 2 w1 w2 Cov` | ch12 |
+| Required capital | spending / withdrawal rate | ch14 |
+
 ## Fraud Quick Signs
-Smooth high returns; opaque revenue; non-standard adjusted metrics; critics attacked; authority instead of evidence; urgency and secrecy; one person controls trading and settlement; dependence on new money.
+Smooth high returns; opaque revenue; non-standard adjusted metrics; critics attacked; authority instead of evidence; urgency and secrecy; one person controls trading and settlement; dependence on new money; a fee to release funds; a famous face in an advertisement; a token that pays referrals.

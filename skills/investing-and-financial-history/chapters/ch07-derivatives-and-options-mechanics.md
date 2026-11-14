@@ -41,10 +41,59 @@ In this model, an **option** is a contract that separates the *right* to act fro
 - **Mechanism**: credit default swaps insure against a borrower's default; if many contracts are written on the same mortgages, notional exposure can exceed the insured assets by a large factor (an account from the 2008 case cites growth from about 0.9 trillion to over 60 trillion dollars of insured credit; a dated popular figure). A seller with insufficient capital turns a tool for hedging into a concentrated bet (ch09).
 - **Does not hold when**: collateral, clearing and capital rules limit the stack.
 
+## 7.6 Payoff and price decomposition; simple combinations
+- **Thesis**: an option's price is intrinsic value plus a time-and-volatility component; the buyer's maximum loss is the premium.
+- **Mechanism**: call payoff `max(0, S - K)`, put payoff `max(0, K - S)`; premium = intrinsic + expectation component (days left, volatility). European options exercise only at expiry, American any time (worth more, harder to price); settlement is in cash or by delivery. Worked case: underlying 6.11, strike 6, premium 0.31 (0.11 intrinsic + 0.20 time): break-even 6.31. A move to 7.23 is +18% for the share and about +296% for the call; below 6 the call loses 100%. Wide quoted spreads are normal where many strikes and expiries barely trade.
+- **Mechanism, combinations**: a **protective put** on a held asset caps the maximum loss at `price - strike + premium` (minimum profit and loss = `strike - price - premium`) and lowers upside by the premium; its price rises with implied volatility, so insurance bought after a scare is expensive. A **straddle** (call plus put, same strike) profits only from large moves; because most days the market moves little, short-dated straddles tend to lose. A **vertical spread** (buy one call, sell a higher one) caps loss at the net cost and gain at the strike gap minus cost.
+- **Trade-off**: lower cost than a naked option, in exchange for giving up part of the payoff.
+- **Does not hold when**: the asset is liquid and can simply be sold (insurance is mainly a tool for assets that are hard to sell).
+
+## 7.7 Futures, margin, shorts and contracts for difference
+- **Thesis**: symmetric obligations create loss potential beyond the capital.
+- **Mechanism**: a future has no upfront price; the daily difference is settled against a margin deposit. A margin call asks for more cash and, if unmet, the broker closes the position. A margin loan, a contract for difference and a short sale behave like a position at the current price with collateral posted (e.g. about 3% on a major currency pair). A purchase loses at most the amount invested; a short has a theoretically unlimited loss, and a lender can recall borrowed shares, forcing purchases that push the price up (a squeeze). Compute returns on blocked margin, not on notional; fees on both sides can erase tiny gains.
+- **Does not hold when**: used for hedging, its original purpose, against an offsetting real exposure.
+
+## 7.8 Daily-reset leverage and volatility drag
+- **Thesis**: a daily-leveraged product does not deliver leverage times the multi-day return.
+- **Mechanism**: each day the return is multiplied by `L` and compounding restarts. Since `(1 + x)(1 - x) = 1 - x^2`, each up-down pair loses `(Lx)^2`. An index going 100 to 110 to 100 leaves 2x near 98 and 3x near 94.5; 100 to 90 to 100 leaves 2x near 97.8 and 3x near 93. In sideways markets capital decays day by day; in strong low-volatility trends it multiplies. Leverage drifts for a margin loan instead of resetting, so the rule does not describe loans.
+- **Mechanism, wipe-out**: a single daily fall of `1/L` ends the product; there is no recovery whatever follows.
+
+| Leverage | Fall of the underlying in one day that wipes out |
+|---|---|
+| x2 | 50% |
+| x3 | 33% |
+| x4 | 25% |
+| x5 | 20% |
+| x10 | 10% |
+
+- **Mechanism, cost**: the expense ratio understates the true cost. Compare the real product with a frictionless replica (index x `L`, day by day) over rolling N-year windows, never cumulatively since launch: the gap estimates financing, swap and tracking costs, and grows with volatility (in a dated backtest, about 7 points a year for 3x on a volatile growth index and about 1 point for 2x on a broad index). A short history without such a move is weak evidence for a decade-long hold.
+- **Does not hold when**: held for a single day, or the real product beats the replica through data errors or favourable tracking.
+
+## 7.9 Other forms of leverage and temporary hedges
+- **Thesis**: borrowing against a portfolio avoids a daily reset and adds margin-call risk.
+- **Mechanism**: with securities pledged and a line capped at a share of their value (60% in one example), a margin call triggers when usage reaches roughly 70-75%; interest is a short-term rate plus a spread. Using the line for temporary liquidity avoids realising gains. In this model (position) a sensible maximum is around 1.5x, because interest is certain and returns are not; historical simulations favour leverage in most windows but losses cluster in crises with high rates. A fund holding shares with a cash margin and bond futures on top (say 90% shares, 10% margin, 60% notional in futures) is implicitly about 6x on the bond sleeve; the rough gain is `60% x bond yield - 10% x equity return`, and a rule of thumb says complex strategies need about 20 years of data.
+- **Mechanism, hedging**: covering a position for a few days with a fixed-leverage short product (notional about `V/L`) can be cheaper than selling and re-entering, but decays with oscillation, has financing and spread costs, and a 13-14% adverse move nearly wipes out 7x.
+- **Does not hold when**: collateral is concentrated or illiquid, or the holder starts from financial fragility.
+
+## 7.10 Structured certificates
+- **Thesis**: coupons and repayment depend on thresholds, so payoffs have cliffs.
+- **Mechanism, autocallable**: on observation dates a coupon is paid if all underlyings are above a coupon threshold (a *memory* feature recovers missed coupons); if all are above a trigger the product redeems early (the trigger often steps down); at maturity, above the barrier the nominal is repaid, below it the worst performer sets repayment. With a barrier at 60%, a worst performer at 59.9% repays 59.9, a cliff against 100. Correlation among underlyings concentrates the tail. *Cash-collect* products (general knowledge) pay conditional periodic coupons with a barrier at maturity but no early redemption; the same logic applies.
+- **Mechanism, capital protection**: the certificate tracks the unadjusted price, so the holder receives no dividends, and the issuer hedges by keeping them; participation is calibrated to expected dividends (participation 1.45 on +80% gives 216, but a share paying 6% a year rises far less unadjusted). Protection holds only at maturity and subject to issuer solvency; market value before then may be below nominal.
+- **Mechanism, issuer**: the issuer sets terms, makes the market and earns the spread; costs sit in the price (entry about 1%, exit up to about 2% in one product). If the issuer fails the certificate can be lost whatever the underlying did.
+- **Trade-off**: high coupon against tail risk and issuer risk; wins in a deep crisis, loses in rising or high-dividend markets.
+- **Does not hold when**: the product is bought at a price above nominal, or underlyings are uncorrelated.
+
+## 7.11 Replaying a payoff on history
+- **Thesis**: a distribution of outcomes can stand in for closed-form pricing as a diagnostic.
+- **Mechanism**: replay every historical start date with barriers and triggers rescaled to today's levels; keep sequence and correlation (resample in blocks, not single days); use unadjusted prices if the product pays no dividends. Early redemptions create enormous annualised returns that distort averages. Resampling daily log returns gives many paths, a payoff per path, and the share of paths paying zero. The result is a historical expectation, not a signal (ch13).
+- **Does not hold when**: volatility regimes shift or the history is back-filled or short.
+
 ## Common mistakes
 - Believing a yield from selling options is "extra".
 - Ignoring that selling options without cover has unlimited loss.
 - Treating delta as a certain probability.
+- Reading "3x" as "three times the multi-day return".
+- Judging a certificate by its coupon without the barrier and the issuer.
 
 ## Links
-- ch05 valuation, ch09 crises, ch11 decisions.
+- ch05 valuation, ch09 crises, ch11 decisions, ch12 compounding, ch13 backtests.

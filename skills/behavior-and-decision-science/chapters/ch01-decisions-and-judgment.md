@@ -52,12 +52,36 @@ In this model, human judgment is shaped by three systematic distortions: **what 
 - **Trade-off**: matching style can drift into manipulation; the test is whether you would be willing to say what you are doing.
 - **Does not hold when**: the decision needs a calculation (dose, budget). Then the logic route is the only valid one.
 
+## 1.8 Typical investor errors: mechanism and antidote
+> Educational concepts, not investment, tax or legal advice.
+
+The errors of this chapter have a well-known home in money decisions, where feedback is slow and noisy and the price moves every day. The table gives each error a mechanism and a pre-commitment antidote; none is a prediction or a recommendation.
+
+| Error | Mechanism | Antidote |
+|---|---|---|
+| **FOMO (fear of missing out)** | Rising prices and stories of gains make the cost of staying out vivid; urgency is manufactured ("last chance"); social proof replaces analysis | A cooling-off rule decided in advance; "if a stranger offered this, would I pay?"; another opportunity will come |
+| **Market timing** | Waiting for a dip or exiting on a scare requires two correct calls (out and back in); the best days cluster near the worst ones, so missing a few of them costs much of the total return (position: illustrative historical computations, regime-dependent) | Decide the entry and exit rule in advance, based on need for the cash, not on news |
+| **Anchoring on prices** | The purchase price or the previous peak becomes the reference; "I will sell when I am back to even" confuses the market's reference with the holder's | Ask "would I buy this today at this price?"; compare against alternatives, not against cost |
+| **Disposition effect** | Selling winners quickly (to lock in a pleasant gain) and holding losers (to avoid realising a loss); realising a loss feels like admitting error | Rules by purpose of the money and by review date, not by gain or loss; separate the decision from the memory of cost |
+| **Overconfidence** | A few good outcomes in a rising market are read as skill; confidence grows with information, not accuracy; more trading follows and lowers net results through costs | Record predictions with dates and probabilities; compare with a plain benchmark after costs |
+| **Product overload and over-diversification by count** | Many products give a feeling of diversification and activity; overlapping holdings, layered costs and complexity hide what is actually owned (choice overload, ch01 hand-offs) | List what each item does that the others do not; cut duplicates; prefer few, understandable instruments |
+| **Recency and extrapolation** | The last year feels like the next ten (the illusion of continuity of 1.6 applied to markets) | Look at long, multi-regime histories; accept that regimes change |
+| **Loss aversion and panic selling** | A fall feels worse than an equal rise feels good; selling ends the discomfort but crystallises the loss, especially if the horizon was long | Match money to horizon beforehand: money needed soon in safe assets, long-horizon money not forced to sell |
+
+- **Thesis**: most losses come from a mismatch between the horizon of the money and the horizon of the product, plus emotion at the wrong moment, not from instrument choice.
+- **Mechanism**: selling a ten-year product after three years crystallises a loss; forecasting does not work systematically because followers would remove the edge, and good news is already in prices; an investment pitched with urgency is a sales technique, not information.
+- **Evidence**: behavioural-finance literature on disposition, overconfidence and trading volume is sizeable but effect sizes vary with sample and period; the market-timing numbers depend on the historical window (general knowledge, treat as illustrative).
+- **Trade-off**: staying still can miss a rally and can also hold a failing asset; pre-commitment rules reduce impulsive errors at the price of flexibility.
+- **Does not hold when**: a company or issuer has actually failed, or the money is needed sooner than planned; then selling is a decision about the facts, not an emotional error.
+- **Hand-offs**: market and return arithmetic -> `investing-and-financial-history`; reading backtests -> `scientific-thinking` ch02 (2.9).
+
 ## Decision Checklist
 1. Which self is deciding, and which self will pay?
 2. What is the ending and what is the peak?
 3. Which detail am I overweighting because I am thinking about it?
 4. If this conclusion were false, what would I expect to see?
 5. Would my future self, with different circumstances, resent this rule?
+6. Is this money-decision driven by urgency, a past price or a recent run, rather than by the horizon of the money (1.8)?
 
 ## Hand-offs
 Scientific method, falsification and statistical judgment -> `scientific-thinking`. Unconscious motives and defence mechanisms -> `depth-psychology`. Choice overload and UX applications -> `ux-ui-expert`.

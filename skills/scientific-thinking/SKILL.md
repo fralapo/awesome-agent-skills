@@ -40,7 +40,7 @@ Diagnose before prescribing: ask what the claim is, who made it and why, what th
 |---|---|---|
 | "Is this claim / study / headline believable?" | [ch12](chapters/ch12-evaluating-a-claim-checklist.md) | ch06, ch02 |
 | What makes a claim scientific; falsifiability; consensus vs speculation | [ch01](chapters/ch01-method-falsifiability-and-evidence.md) | ch06, ch09 |
-| Odd statistic, "it improved after we intervened", p-value, correlation | [ch02](chapters/ch02-statistics-and-inference.md) | ch03, ch06 |
+| Odd statistic, "it improved after we intervened", p-value, correlation, backtest or financial-data claim | [ch02](chapters/ch02-statistics-and-inference.md) | ch03, ch06 |
 | Test or screening result, updating beliefs, risk appetite | [ch03](chapters/ch03-probability-bayes-and-risk.md) | ch02, ch05 |
 | Why people believe false things, polarisation, repetition, stories | [ch04](chapters/ch04-cognition-belief-and-post-truth.md) | ch05, ch12 |
 | Overconfidence, when to trust an expert, forecasting | [ch05](chapters/ch05-confidence-calibration-and-expertise.md) | ch07, ch03 |
@@ -130,6 +130,7 @@ Diagnose before prescribing: ask what the claim is, who made it and why, what th
 - **Newcomb's problem, pre-commitment** -> ch08
 - **p-hacking, replication, registered reports** -> ch06
 - **Regression to the mean** -> ch02
+- **Backtests, overlapping windows, survivorship bias, sign test, effect size** -> ch02 (2.9)
 - **Science headlines, hype** -> ch06
 - **Story vs statistics, anecdotes** -> ch04
 - **Wellbeing studies, income and happiness** -> ch11

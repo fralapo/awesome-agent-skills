@@ -66,6 +66,9 @@ Figures are dated snapshots; re-check. "Position" = judgment, not fact. Chapter 
 | Cheap credit | Mortgage credit/GDP, real rates | Strong in Australia, Canada |
 | Rent control helps | Covered rent, supply, mobility, quality, new building | Covered rent down; supply, mobility, quality, building worse [ch08] |
 | Build more | Rezoning case | Rents stabilised relative to comparator [ch08] |
+| Fixed or variable mortgage | Maximum possible payment; can the loan move lender at no penalty | Fixed with a switching right is a one-sided option [ch07] |
+| Rent or buy | Yearly cash flows incl. renovation, return on capital not spent | Close to a draw; driven by mortgage rate and appreciation [ch07] |
+| Rental yield | Gross to net: tax, vacancy, service charges, renovation | Net often 1-3% before appreciation [ch07] |
 
 ## Micro, Growth and Trade
 | Item | Rule of thumb | Watch for |

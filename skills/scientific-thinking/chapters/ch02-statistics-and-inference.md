@@ -51,5 +51,24 @@ In this model, statistics is the discipline of **not being fooled by chance and 
 - **Trade-off**: checking definitions takes time; most disputes between numbers are definitional.
 - **Does not hold when**: both sources use the same documented method.
 
+## 2.9 Case study: backtests and financial data
+> Educational concepts, not investment, tax or legal advice.
+
+Financial histories are a good training ground because the data are abundant, the samples look large and almost every trap of this chapter appears at once. Figures below are illustrative.
+
+- **Thesis**: a backtest can have thousands of rows and almost no independent evidence.
+- **Mechanism (overlapping windows)**: take a 5-year return computed every day. Successive windows share almost all their days, so 4,800 windows from 25 years contain only about five non-overlapping 5-year samples (25 years divided by 5). Computing 23-day returns daily multiplies the apparent sample about 23 times and shrinks p-values falsely. The honest sample size is the number of non-overlapping periods; a standard fix is non-overlapping windows or methods that model the dependence.
+- **Thesis**: with few independent samples, "not significant" means "cannot conclude", not "no difference".
+- **Mechanism (p-value and power)**: a paired t-test on five or ten independent periods has little power; a p-value of 0.2 is mostly a statement about sample size. A **sign test** (count how often strategy A beats B, compare with a binomial with p = 0.5) needs almost no assumptions: 3,230 wins in 6,534 trials gives a cumulative probability near 18%, not significant, while 54 wins in 90 gives about 3.6%, significant at 5%. A rank-based test compares medians without assuming normality, which suits skewed returns. Rule of thumb: mean if you will live through many periods, median if you will draw one.
+- **Thesis**: significance is not importance.
+- **Mechanism (effect size)**: with a very large sample a correlation of 0.003 can reach p near 10^-14 and explain nothing; conversely a sizeable average edge can be unproven. Ask "by how much", then compare the effect with the costs it would have to beat (fees, taxes, spreads). A correlation of 0.29 does not mean 29% explained (the square is about 8%) and says nothing about cause.
+- **Thesis**: a handful of coinciding events is not a relationship.
+- **Mechanism (correlation without causation in short event series)**: if a recession occurs about every 5-6 years and a given indicator flips about every 6-7 years, the two will line up at times by chance. Counting hits and false alarms is more honest than a correlation coefficient: a signal with as many false positives as true positives has no predictive value. A statistically detectable predictor can still be unusable: if the conditional expected return stays positive after a "bad" signal, acting against the market loses money on average.
+- **Thesis**: the data set can manufacture the result.
+- **Mechanism (survivorship and construction bias)**: using today's index constituents drops failed firms and inflates history; price indices omit dividends; a series in another currency embeds exchange-rate moves; vendors repeat the last price on non-trading days, producing flat segments that look like calm. Testing many rules and reporting the best is the multiple-comparisons trap of 2.5: about 1 in 20 skill-less strategies passes at 5%. Fixing a bias that removes only some candidates (dropping failed banks but not failed miners) still skews the comparison.
+- **Trade-off**: longer, messier histories have more regimes and more windows; shorter, cleaner ones are easier to audit but may show only one regime.
+- **Does not hold when**: the rule is fixed before looking, tested on data not used to build it, and judged on a distribution across many markets and periods. Even then, "worst case in the data" is not "worst possible case".
+- **Cross-reference**: ch06 (publication and selection), ch07 (markets as random walks), ch12 (checklist).
+
 ## Cross-references
 Chapter 03 adds base rates and updating. Chapter 06 covers how these errors reach print. Chapter 12 turns them into a checklist.

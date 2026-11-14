@@ -2,6 +2,12 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.29.0 (2026-11-14)
+
+- New skills: `personal-finance-italy` (Italian savings products, bonds and their taxation, ETF and fund taxation, capital losses, tax filings for foreign brokers, pensions, mortgages and property taxes, inheritance, PIR, scams, how to verify a rule; figures are dated snapshots, not tax advice) and `crypto-and-digital-assets` (ledger models, Bitcoin issuance and mining, wallets and custody, Lightning, counterparty failures, DeFi, why price-cycle claims are weak, reporting concepts, scams). Educational only.
+- `investing-and-financial-history` grows to 14 chapters: new ch12 (financial mathematics and uncertainty of estimates), ch13 (backtesting and historical evidence), ch14 (retirement saving and decumulation); extended bonds, derivatives and structured products, diversification and rebalancing, and fraud chapters.
+- Extended: `economics-finance` ch07 (mortgage mechanics, rent versus buy), `scientific-thinking` ch02 (backtests as a statistics case study), `behavior-and-decision-science` ch01 (typical investor errors).
+
 ## 1.28.0 (2026-11-14)
 
 - New skills: `exercise-science-and-programming` (evidence reasoning, hypertrophy and strength mechanisms, volume, frequency, intensity, progression, periodization, fatigue, fundamentals) and `biomechanics-and-rehab-reasoning` (clinical reasoning, pain science, load and healing, regional functional anatomy, lifting biomechanics, imaging, myths). Educational only, not medical advice.
