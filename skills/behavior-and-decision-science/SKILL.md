@@ -8,7 +8,7 @@ argument-hint: [behaviour, decision, conversation, or chapter number]
 ---
 
 # Behavior and Decision Science
-**Chapters**: 11 | **Generated**: 2026-11-14
+**Chapters**: 12 | **Generated**: 2026-11-14
 
 ## Role and Boundaries
 
@@ -53,6 +53,7 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 | Hard conversations, debate, bad-faith arguers, introversion at work | [ch09](chapters/ch09-communication-conflict-and-introversion.md) | ch01, ch10 |
 | Maturity, values, relationships, partner choice | [ch10](chapters/ch10-emotional-maturity-and-love.md) | ch09, ch07 |
 | Mistakes, experiments, postmortems, fear of failing | [ch11](chapters/ch11-failure-and-learning.md) | ch06, ch08 |
+| Procrastination, avoiding effort, AI and phone dependence, feeling late, guilt when resting, too many interests, exam routines | [ch12](chapters/ch12-effort-rest-time-and-the-attention-economy.md) | ch07, ch05, ch04 |
 | Evaluate a pop-psychology claim | [cheatsheet.md](cheatsheet.md) (evidence table) | ch01, ch03 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
@@ -87,6 +88,7 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 9. [Communication, listening, argument and introversion](chapters/ch09-communication-conflict-and-introversion.md)
 10. [Relationships, emotional maturity and love as a skill](chapters/ch10-emotional-maturity-and-love.md)
 11. [Failure and learning](chapters/ch11-failure-and-learning.md)
+12. [Effort, procrastination, rest, time pressure and the attention economy](chapters/ch12-effort-rest-time-and-the-attention-economy.md)
 
 ## Topic Index
 
@@ -113,6 +115,11 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 - **Stress mindset, reappraisal** -> ch04
 - **Task saturation, subtract two** -> ch02
 - **Language, caregivers and saving** -> ch05
+- **Procrastination as emotion, safe work, if-then plans** -> ch12
+- **Attention economy, infinite scroll, digital detox, AI reliance** -> ch12 (and ch07)
+- **Explore vs exploit, algorithmic sameness** -> ch12
+- **Time pressure, rebound effect, fresh-start effect, real rest** -> ch12
+- **Many interests, study routine for exams** -> ch12
 
 ## Related Skills
 

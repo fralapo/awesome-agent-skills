@@ -2,6 +2,11 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.30.0 (2026-11-15)
+
+- `behavior-and-decision-science` grows to 12 chapters: new ch12 (procrastination as an emotion problem, re-training effort, attention economy and digital detox, explore/exploit and algorithmic sameness, time pressure, rest without a goal, many interests, exam-period study).
+- `social-algorithm` grows to 16 chapters: new ch16 (essay-style YouTube series structure and reading comments as audience research).
+
 ## 1.29.0 (2026-11-14)
 
 - New skills: `personal-finance-italy` (Italian savings products, bonds and their taxation, ETF and fund taxation, capital losses, tax filings for foreign brokers, pensions, mortgages and property taxes, inheritance, PIR, scams, how to verify a rule; figures are dated snapshots, not tax advice) and `crypto-and-digital-assets` (ledger models, Bitcoin issuance and mining, wallets and custody, Lightning, counterparty failures, DeFi, why price-cycle claims are weak, reporting concepts, scams). Educational only.

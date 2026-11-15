@@ -4,16 +4,16 @@ description: "Organic personal-brand growth and Instagram algorithm dynamics: in
 allowed-tools:
   - Read
   - Grep
-argument-hint: [topic, framework name, or ch01-ch15]
+argument-hint: [topic, framework name, or ch01-ch16]
 ---
 
 # Social Algorithm & Personal Brand — Organic System
-**Chapters**: 15
+**Chapters**: 16
 
 ## How to Use This Skill
 - **No args** → read the Core Frameworks below
 - **Topic** → "explain indirect selling", "how to write a video script", "algorithm metrics" → load the relevant chapter
-- **Chapter** → "ch01" or "ch15" → load that specific chapter
+- **Chapter** → "ch01" or "ch16" → load that specific chapter
 - **Why a personal brand / AI-era case / documentation mindset** → ch09
 - **Algorithm lookup** → algorithm knowledge base (era evolution, diagnostic matrix, hook patterns, repost strategy) → ch07
 - **The Loop / movement / content differentiation** → ch10
@@ -22,6 +22,7 @@ argument-hint: [topic, framework name, or ch01-ch15]
 - **Revenue predictability / funnel tracking / channel mix / word of mouth to online** → ch13
 - **Paid live events / workshops as conversion** → ch14
 - **Starting from zero / small account / first clients** → ch15
+- **Essay-style video series / comment section as research / audience objections** → ch16
 - **Psychological triggers behind selling** → ch08
 
 Source language: English. Keep original framework names (indirect selling, hero's journey, social proof as garnish, etc.) — they are proper names of frameworks.
@@ -230,6 +231,7 @@ Order: offer and positioning, movement (4-6 directional pieces a week), proactiv
 | [ch13](references/ch13-predictable-revenue-and-channel-mix.md) | Predictable Revenue — Funnel Metrics, Touchpoints and Channel Mix | Water-flow tracking, backward planning, several flows, offer validation, end-to-end funnel, boost as data tool, diversification, word of mouth to online |
 | [ch14](references/ch14-paid-live-events-as-conversion-layer.md) | Paid Live Events as a Conversion Layer | Multi-evening paid workshop, separate event profile, funnel and timeline, bonuses not discounts, reported numbers, lessons |
 | [ch15](references/ch15-starting-from-zero-phased-playbook.md) | Starting From Zero — A Phased Playbook | Offer/positioning, movement, proactive conversations, sales structure, content mix by account state, diagnosis at four months |
+| [ch16](references/ch16-essay-video-series-and-audience-signals.md) | The Essay-Video Series & Reading Audience Comments | Series structure (thesis, carrying metaphor, honest evidence, moves, closing question), comments as research, genre ethics |
 
 ## Topic Index
 
