@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/fralapo/awesome-agent-skills/stargazers"><img src="https://img.shields.io/github/stars/fralapo/awesome-agent-skills?style=for-the-badge" alt="Stars"></a>
   <a href="https://github.com/fralapo/awesome-agent-skills/commits/main"><img src="https://img.shields.io/github/last-commit/fralapo/awesome-agent-skills?style=for-the-badge" alt="Last commit"></a>
-  <img src="https://img.shields.io/badge/skills-45-2ea44f?style=for-the-badge" alt="Skills count">
+  <img src="https://img.shields.io/badge/skills-46-2ea44f?style=for-the-badge" alt="Skills count">
   <img src="https://img.shields.io/badge/agent%20skills-SKILL.md-5A67D8?style=for-the-badge" alt="Agent skills format">
   <a href="https://github.com/fralapo/awesome-agent-skills/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/fralapo/awesome-agent-skills/validate.yml?style=for-the-badge&label=checks" alt="Checks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/fralapo/awesome-agent-skills?style=for-the-badge" alt="License"></a>
@@ -44,7 +44,7 @@
 
 ## What's in here
 
-45 skills. Each is one folder with a `SKILL.md` (frontmatter plus workflow) and deeper material next to it (`references/`, or `chapters/` with a cheatsheet, patterns and glossary). The agent matches the `description` field against what you ask and loads a skill only when it is relevant, then opens only the chapters the task needs.
+46 skills. Each is one folder with a `SKILL.md` (frontmatter plus workflow) and deeper material next to it (`references/`, or `chapters/` with a cheatsheet, patterns and glossary). The agent matches the `description` field against what you ask and loads a skill only when it is relevant, then opens only the chapters the task needs.
 
 ### Design roles
 
@@ -114,6 +114,7 @@ Each skill maps the equivalent Adobe workflow to real commands of an [ArtCraft](
 | [`investing-and-financial-history`](./skills/investing-and-financial-history/) | Conceptual and historical investing knowledge, not advice: risk and return, market efficiency, factors, diversification and rebalancing, bonds, options and structured products, bubbles and fraud, financial mathematics, how to read a backtest, retirement decumulation. | `risk and return`, `diversification`, `bubble`, `options`, `fraud` |
 | [`personal-finance-italy`](./skills/personal-finance-italy/) | Concepts and tax mechanics of Italian personal finance, not advice: savings vehicles and bank products, government and corporate bonds and their taxation, ETF and fund taxation, capital losses, tax filings for foreign brokers, pension products, mortgages and property taxes, inheritance, PIR and flat regimes, scams, how to verify a rule. | `BTP`, `capital losses`, `730`, `mortgage`, `pension funds` |
 | [`crypto-and-digital-assets`](./skills/crypto-and-digital-assets/) | Conceptual knowledge of crypto-assets, not advice: blockchain and UTXO, Bitcoin issuance and mining, wallets and custody, Lightning, exchange failures, DeFi and staking, why price-cycle claims are statistically weak, reporting concepts, scams and security hygiene. | `bitcoin`, `wallet`, `custody`, `DeFi`, `crypto scams` |
+| [`trading-methods-and-technical-analysis`](./skills/trading-methods-and-technical-analysis/) | How trading and market analysis reason, not advice and not signals: market structure, support and resistance, what moving averages and oscillators measure, Ichimoku, seasonality statistics, COT positioning, strategy families with rules and invalidation, risk and position sizing, trader psychology, how to read claimed results, fundamental screens, and the mechanics and risks of options, certificates and leveraged products. | `technical analysis`, `trading strategy`, `position sizing`, `Ichimoku`, `certificates` |
 | [`physics-and-math-ideas`](./skills/physics-and-math-ideas/) | How physics and mathematics reason, and what they do and do not know: models, effective theories, symmetry and Noether's theorem, the action principle; relativity and curved spacetime. | `relativity`, `quantum`, `entropy`, `infinity`, `computability` |
 | [`institutions-and-geopolitics`](./skills/institutions-and-geopolitics/) | Reasoning about how institutions, economies, geography and strategy shape political outcomes: how electoral rules, party systems, campaign finance and central banks generate or constrain results; capitalism, socialism. | `institutions`, `geopolitics`, `state failure`, `colonialism`, `strategy` |
 | [`philosophy-ideas`](./skills/philosophy-ideas/) | Philosophical ideas and reasoning: how to build and test an argument (premises, dilemmas, regress, thought experiments, relativism), epistemology (rationalism vs empiricism, testimony, experts, misinformation. | `philosophy`, `ethics`, `free will`, `consciousness`, `argument analysis` |

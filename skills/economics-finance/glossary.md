@@ -78,3 +78,5 @@
 **Upzoning** - changing rules to allow denser building (ch07)
 **Voluntary export restraint** - exporter-imposed quota under pressure, giving the rents to the exporter (ch12)
 **Zero lower bound** - the floor near zero on policy rates because cash pays nothing (ch02)
+**Reserve-currency privilege** - cheaper borrowing and imports for the issuer of a currency foreign holders want as a safe asset, with the cost borne by its tradable sectors (position) (ch05.11)
+**Wealth levy rate (arithmetic)** - required rate = annual cost / taxable base; check the base's valuation and liquidity (ch04.11)

@@ -97,6 +97,9 @@ Diagnose before prescribing: ask what exactly is to be explained, over what time
 - **Duverger, spoiler effect, plurality** → ch02.1
 - **Electoral college, popular-vote gap** → ch02.5
 - **Energy exporters and importers** → ch07.5, ch07.6
+- **Pipeline versus liquefied gas dependence** → ch07.10
+- **Drone versus interceptor cost asymmetry** → ch07.11
+- **Chip and critical-mineral chokepoints (production nodes)** → ch07.12
 - **Failed states, juridical statehood, coups** → ch05.1 to ch05.5
 - **Fragmentation inviting invasion** → ch10.8
 - **Geography: river core, mountains, islands, two-halves** → ch06

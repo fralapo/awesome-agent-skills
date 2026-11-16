@@ -107,3 +107,4 @@ Figures are dated snapshots; re-check. "Position" = judgment, not fact. Chapter 
 | About 3 versus 10 | Typical versus textbook money multiplier (US, reported) |
 | 96 times versus 9.5 times | Nominal versus real US GDP, 1950 to 2025 |
 | Over 80 percent loss | Reported output fall of one oil-rich economy over about a decade (estimate) |
+| 180 / 11,400 = about 1.58 percent | Illustrative rate for a wealth levy funding a 300-a-month transfer (dated snapshot; ch04.11) |

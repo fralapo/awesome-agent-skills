@@ -79,6 +79,14 @@ Each card: what happened, ingredients, proposed causes, rival account, lesson. D
 - **Proposed causes**: rate risk management, supervision, social-media-speed runs.
 - **Lesson**: for a bank, confidence is part of capital; runs can be fast when depositors are few and informed.
 
+### Card I: An AI infrastructure build-out (2023-2026, dated and unsettled)
+- **What**: a surge in spending on chips, data centres and model training by model developers, cloud providers and chip makers, accompanied by very large share-price gains and, at times, sharp single-day moves (one cloud provider rose about 30 percent in a day on contract news; another fell about 10 percent in one session when its backlog was found to depend heavily on one customer; dated snapshots, unverified here).
+- **Mechanism**: (1) circular financing: a chip maker invests in a model developer, the developer buys cloud capacity, and the cloud provider buys the chips, so one dollar can be counted as revenue by several parties; (2) backlog and contracted-revenue figures (remaining performance obligations) count signed contracts not yet delivered or paid, so their value depends on the buyer's ability to fund them; (3) the useful life assumed for the chips determines reported profit (5.6); (4) the builders of an infrastructure are not necessarily the firms that capture its profits (the networking-equipment boom of 2000, whose leader took over 20 years to regain its peak); (5) subscription software was sold off on the fear that AI could replace it.
+- **Proposed causes of valuation**: real demand and productivity gains, scarcity of advanced chips, competition among giants not to be left behind.
+- **Rival account**: some hold that each major technology had a bubble without disappearing (railways, radio, internet; an online retailer lost 95 percent in 2000 and survived), that only second-tier startups are overvalued, and that the established firms are funded by cash flow; others hold that circularity, long asset lives and unfunded contracts are the 1990s pattern (9.2 steps 4 and 6). Whether the firms' spending earns a return is not yet known.
+- **Signs of euphoria (not predictions)**: firms changing business to the fashionable theme and gaining several hundred percent on the announcement; no profit but a story (compare Card F).
+- **Lesson**: real innovation and a bubble are not exclusive; list who pays whom, check cash against reported profit, and keep direction and timing separate.
+
 ## 9.3 Reading a boom (checklist, educational)
 - Is the price being justified by cash flow or by the next buyer?
 - Is new issuance financing the old price?

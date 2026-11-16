@@ -138,6 +138,71 @@ Deduplicated synthesis of 19 expert transcripts. Software-agnostic. Each area li
 
 ---
 
+## V. Motion graphics, compositing and tool hand-offs (program-independent techniques)
+Items marked **version-dependent / verify** change with software version; check the current menu, effect name and defaults before relying on them.
+
+### Expressions for bounce and oscillation
+- **Wiggle**: `wiggle(frequency, amplitude)`; frequency = shakes per second, amplitude = size in the property's own units. Low frequency + small amplitude = handheld drift (e.g. about 0.2 and 5 on a camera-controlling null); high amplitude on a rotation or position = shake. Test values by eye: transcribed example values are approximate.
+- Apply wiggle to a **null that parents the camera** so the whole shot shakes without touching the camera's own keyframes. The shake is visible only if the content has depth (3D layers); on flat layers it reads as a plain slide.
+- **Time-driven motion** (`time * N`): bind a property to elapsed time for constant drift or evolution (noise evolution, slow rotation). Bigger N = faster; typical use ranges from about 0.5 for slow background objects to about 100+ for turbulent evolution; a value that is too large looks like flicker. Version-dependent / verify exact property names.
+- **Bounce/overshoot expression**: a decaying sine applied after the last keyframe (amplitude x sin(frequency x t) / exp(decay x t)). The parameters to expose are amplitude, frequency and decay; tune decay first (too low = endless wobble). The original code is not reproduced here; write it from this description and verify. Soften the incoming keyframe with an ease-out so the approach is not abrupt.
+- Prefer a **preset with an overshoot** over hand-keying when you need many entrances: overshoot curves are hard to key by hand; set entrance/exit length with in/out markers.
+
+### Easing and curves
+- Select keyframes, apply an easy ease, then open the **speed graph**: pull handles inward for a slow start, a peak, and a soft stop. Longer duration = softer. Works on every property, not only position.
+- Make easing differences visible in the speed graph, not only in the preview (section U).
+
+### Multi-pass chroma key
+1. **Shoot for the key**: three ingredients = colour separation between subject and background, a smooth even surface, good lighting. The subject must not wear the background colour. Use one uniform background (different greens are not all removed in one pass). Light the background evenly, then the subject (key, fill, back).
+2. **Camera**: Full HD or better; a webcam is not equal to a camera; manual focus checked on a zoomed preview; wide-open aperture is fine for a key; fast shutter for crisp edges; keep ISO as low as the light allows; fix white balance with a neutral card.
+3. **Pull the matte**: sample the background colour near the subject, then switch to the matte view and push to clean black/white (set clip black and clip white). Shrink/grow edges; add edge softness for hair; pre-blur stabilises noisy footage but costs sharpness and render time.
+4. **Second pass**: spill suppression for the colour cast on skin and hair; a second keyer or garbage mask for leftover areas.
+5. **Integrate**: colour-match the subject to the new background (per-channel levels or a colour tool), match light direction and softness, add a matching depth of field. For a subject and a background to share a camera move, make both 3D (version-dependent / verify).
+- A better shot beats better key settings; fix background and light before touching parameters. If low light forces compromises, open aperture and lower shutter speed before raising ISO.
+
+### Reusable animated templates
+- Build a title or lower-third once in the compositor, expose only what changes (text, colours, sometimes one number) as named controls in a template panel, and export it as a template for the editing program. Rename the controls so editors know what they do; one template can be dropped on the timeline many times with different text.
+- Keep logos and swappable elements in a **precomposition** so replacing one asset updates everything; this is the same subject-swap idea as section U.
+- Template/file compatibility across versions is limited (version-dependent / verify).
+
+### Linking an editor and a compositor (dynamic link)
+- Both programs must be compatible versions (same family, matching release; version-dependent / verify). Send a clip to the compositor as a linked composition, not as an exported file, so changes appear in the editor without re-rendering.
+- For independent animations use a coloured matte layer instead of the clip itself; duplicate the clip before sending and use it as a **guide layer** for reference only, so previews stay fast.
+- Trim the linked composition to the work area before returning; a green render bar in the editor means the preview is rendered.
+
+### Stabilisation and the gimbal
+- Prefer stabilising at capture: balance a 3-axis gimbal with the power off (if it sags left, slide the mount right until it holds any pose), then power on and wait for the ready indicator. Follow modes change what stays level: disabling vertical or horizontal follow locks that axis; re-centre with the re-align gesture. Device mode gestures differ per model (verify).
+- In post, stabilise only footage that needs it; warp-style stabilisers crop and can add jelly on fast pans; a locked tripod shot needs none.
+- Use a tripod for time-lapse and panorama modes; a motion time-lapse needs at least two saved positions.
+
+### Motion tracking and camera tracking
+- Track one point to move one element: create a null as the tracker, track position only, apply the result to the null, then parent the element (an eye texture, a label). Correct errors by hand or track backwards.
+- Camera tracking solves a 3D camera and scene points from 2D footage: track at full resolution, solve, then create a null or text/solid at a chosen point. To place 3D objects, copy the null's position; to occlude them behind scene elements, rotoscope or use an inverted matte. Rotoscoping is slow (keyframe the mask path, change to "none" mode while moving points). Do not scale a mask by double-clicking.
+- Add realism last: rough edges, tint, curves, a matching grain, and add particle clouds as depth cues. Tracker features are version-dependent / verify.
+
+### Audio mix levels (starting points, not rules)
+- Peak the main track between roughly -12 and -6 dB; any peak above 0 dB clips. Sit effects and soundtrack far lower (to about -30 dB under speech), then adjust by ear.
+- Auto-sync separate audio and video by waveform. Use a music remix/duration tool to fit a track to the cut: its resulting length is known only after processing; check the seams.
+- Export bitrate should not exceed the source bitrate (30 Mbit/s footage gains nothing at 50); 20 Mbit/s is often enough at HD. Efficient codecs are slower to export (version-dependent / verify).
+
+### Editing workflow hygiene
+- Template project folders (video: base/B-roll; audio: voice/soundtrack/effects; images), reusable assets in one external folder, colour labels by clip type.
+- A transparent **adjustment layer** applies one colour or effect to a whole run of clips. Use ripple delete to close gaps; use ripple edit for trims.
+- Preview heavy effects at half or quarter resolution; turn draft previews off before the final render.
+- Use the render queue, not RAM-preview saves; set the work area to the range you need.
+
+### Recurring mistakes
+- Putting two unrelated effects on one layer (a glow meant for a planet also hits the asteroids): separate layers per object.
+- Applying an effect to the wrong layer or forgetting that an adjustment layer affects everything below it.
+- Leaving draft or fast-preview modes on during render.
+- Mixing versions between editor and compositor, then losing the link.
+- Keying a patchy background: fix the light, not the sliders.
+- Exporting at a higher bitrate than the source and expecting higher quality.
+- Moving heavy scenes with every motion-blur and 3D switch on at once; lower preview resolution first.
+- Shortcuts that silently fail (an insert key bound to nothing): check the keyboard shortcut list.
+
+---
+
 ## Contradictions resolved (context rules)
 - **Grade timing:** early (look-driven / consistent LUT / fast client work) vs late (per-clip precision). Both valid.
 - **Anticipation vs cut-to-climax:** who supplies context decides — borrowed/known → open hot; original/unknown → build then pay off late.

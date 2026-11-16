@@ -128,6 +128,9 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 - **2023 bank failures, uninsured deposits** → ch06
 - **Real versus nominal GDP, price index arithmetic** → ch03
 - **Global net worth versus GDP** → ch04, ch13
+- **Reserve currency, trade deficit, overvaluation argument, frozen reserves** → ch05.11
+- **Tariffs as leverage, relocation arithmetic, counter-levers** → ch12.9
+- **Wealth levy arithmetic (rate = cost / base)** → ch04.11
 
 ## Related Skills
 

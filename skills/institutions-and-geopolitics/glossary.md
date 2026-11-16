@@ -49,3 +49,6 @@
 **Surrogate representation** - donating to a candidate outside one's own district (ch02)
 **Winner-take-all** - the leader in a unit gets all its electors or seats (ch02)
 **Undemarcated border** - frontier never marked or legally fixed (ch07)
+**Cost-exchange ratio** - cost of the defender's interceptor relative to the attacker's weapon, times the numbers fired (ch07.11)
+**Production node** - a single cluster or processing step on which a whole supply chain depends (chips, rare-earth processing) (ch07.12)
+**Pipe gas versus liquefied gas** - rigid, cheap, mutual dependence versus flexible, dearer, market-priced supply (ch07.10)

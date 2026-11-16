@@ -129,3 +129,15 @@ For an individual household: compare yearly cash flows (rent vs owner costs plus
 **Move**: identify who knows more, the adverse-selection loop, and the repair (inspection, group pooling, mandate, signals) with its distributional cost. [ch10]
 **Cost**: repairs rearrange who pays.
 **Not when**: information is symmetric or the stakes are small.
+
+## 22. Checking a "tax X funds benefit Y" proposal
+**When**: a policy is sold as self-financing by one division.
+**Move**: recompute rate = cost / base; test the base (valuation, liquidity, mobility); compare with the stated rate and with experience elsewhere; give the rival view. [ch04.11]
+**Cost**: the proposal looks less tidy.
+**Not when**: the funding is a one-off grant, not a recurring flow.
+
+## 23. A tariff threat as a bargaining move
+**When**: tariffs are announced and described as a bluff or as lasting policy.
+**Move**: compare each side's exposure (trade share of GDP, market dependence), relocation arithmetic (wage gap versus tariff, time to rebuild supply chains), margins, and the counter-levers (export restrictions on inputs, bond sales). Treat "it will be reversed" as a prediction, not a fact. [ch12.9, ch05.11]
+**Cost**: no clean verdict.
+**Not when**: the question is only who pays at the border (ch12.2).

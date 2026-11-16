@@ -91,3 +91,9 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: use the checklist; describe each side's stated position and constraints with dates; do not rank parties; flag unverified recent claims. [ch11, ch01.5]
 **Cost**: no verdict.
 **Not when**: the user asks for a factual summary of a documented ruling or treaty.
+
+## 16. Mapping a dependency before judging a supply shock
+**When**: a story says a country, region or industry is "dependent" on a supplier, route or factory.
+**Move**: separate the form (pipeline versus shipped, one fab cluster versus many), the switching time and cost, who is also dependent on whom, and the cost-exchange ratio if the threat is a cheap weapon. Quote figures as dated orders of magnitude. [ch07.10 to ch07.12, ch07.6]
+**Cost**: no single villain.
+**Not when**: the question is about intentions or blame rather than structure.

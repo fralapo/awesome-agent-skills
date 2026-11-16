@@ -34,6 +34,14 @@
 
 **Micro-Palette** — a section-scoped application of the 60-30-10 rule, where each page section gets its own dominant/secondary/accent trio rather than one palette for the whole page (Ch22)
 
+**Raw / Semantic / Component Tokens** — three token layers: the value (`lime-500`), its role (`color-accent`) and its use (`button-bg`); components read only the component layer (Ch33)
+
+**Variant Matrix** — the full set of variants x sizes x states of a component, defined once (e.g. 3x3x5 = 45) (Ch33)
+
+**Headless Component Library** — unstyled components that supply accessible behaviour (keyboard, focus, roles) while you apply your own look (Ch33)
+
+**Decoy Effect** — presenting a deliberately weaker option so a preferred one looks better; use honestly (Ch42)
+
 **Design Token** — a semantic variable (e.g. `--color-tertiary`) storing a color's role rather than its raw value, referenced by components by role so a palette change stays a one-line edit (Ch22)
 
 **European Accessibility Act (EAA)** — EU directive making digital accessibility mandatory for private businesses (exempting only micro-enterprises under 10 employees or €2M revenue); non-compliance carries fines (€5,000–€40,000 per violation in Italy) (Ch22)

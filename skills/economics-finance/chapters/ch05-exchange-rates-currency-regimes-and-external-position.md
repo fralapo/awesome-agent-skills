@@ -70,6 +70,16 @@ An exchange rate is the price of one currency in another, set by supply and dema
 - **Trade-off**: simplicity and discipline versus loss of flexibility.
 - **Counter-view (position)**: whether dropping gold was a mistake is contested: one view is that a gold link is not a mere relic and has real uses, but is vulnerable when the anchor cannot be defended.
 
+## 5.11 A reserve currency, the trade deficit and the overvaluation argument (position)
+- **Thesis (position)**: one reading holds that persistent foreign demand for a reserve currency keeps it stronger than trade balance alone would justify, and that this strength is a cause of the issuer's goods deficit, not only a reward.
+- **Mechanism**: the rest of the world wants safe, liquid assets and buys the issuer's government bonds (and therefore its currency) for reasons unrelated to trade. The extra demand raises the exchange rate, which makes imports cheap and exports dear, which widens the current-account deficit (5.8); the deficit is financed by the same foreign buying, so the loop closes. Offshoring of production and consumer-goods imports are the visible side of the loop. The issuer enjoys cheaper borrowing and cheap imports; its tradable-goods industries (manufacturing) bear the cost, and the capacity lost is slow to rebuild.
+- **Policy menu that follows from this reading**: tariffs (12.9), a deliberately weaker currency (5.9), or coordinated currency agreements; each carries the risk of reducing the very demand that gives the currency its privilege, because the safe-asset role rests on trust, depth and rule of law.
+- **Rival view**: a deficit is the mirror of saving and investment choices (low saving, high public borrowing, strong investment opportunities), not of the currency's status; the reserve role is a benefit rather than a burden; and tariffs mostly raise import prices without shifting the balance. Both sides agree on the accounting identity (5.8); they differ on the direction of causation and on whether the deficit is a problem to be solved.
+- **Related claims, each with a rival**: (position) freezing a country's foreign reserves held in the reserve currency lowers other holders' appetite for it and encourages alternatives; rival: no alternative yet matches the depth and legal predictability, so shifts are slow and partial. Gold buying by central banks is read both as a hedge against that risk and as ordinary reserve diversification (a dated price level is not evidence for either reading).
+- **Trade-off**: reserve-currency privilege (cheap funding) versus hollowing out of tradable sectors.
+- **Does not hold when**: the issuer's deficit is driven mostly by its own budget (4.5, 4.8) rather than by foreign demand for its safe assets; or the surplus partners keep their currencies weak by intervention (5.9), which is a separate cause.
+- **Caution**: a trade deficit (goods and services with the world) and a budget deficit (government spending over revenue) are different quantities that often move together but are not the same fact; never use one figure for the other.
+
 ## Checklist
 - Is the question about level, change or regime?
 - Does the regime match the country's debts (currency of denomination), openness and institutions?

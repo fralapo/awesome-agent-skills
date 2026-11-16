@@ -64,6 +64,14 @@ A government's debt is sustainable not when the number is small but when it can 
 - **Trade-off**: low rates ease debt service and inflate asset values; the gains accrue unevenly to asset owners.
 - **Counter-view**: the claim that financial instruments net to zero is accounting only; solvency of each debtor still matters (4.1 to 4.4).
 
+## 4.11 A wealth levy to fund a transfer: the arithmetic and the design questions (position)
+- **Thesis (position)**: proposals to fund a universal transfer from a recurring tax on net wealth rest on a simple division, and the division is the part that can be checked; the hard questions are elsewhere.
+- **Mechanism, the arithmetic**: required rate = annual cost of the transfer divided by the taxable base. Illustration: a monthly payment of 300 to each of about 50 million adults costs about 180 billion a year; a household net wealth of about 11,400 billion (dated snapshot of national accounts) gives 180 / 11,400 = about 1.58 percent a year. Check proposals by recomputing: a stated rate of about 1.5 percent would not quite cover the cost, and any rate has to be applied to the whole base, including assets that are hard to value or move. For comparison, some countries levy recurring wealth taxes of well under 1 percent in some regions.
+- **Mechanism, design questions**: valuation (housing, private firms, art and pensions are not marked to market); liquidity (owners with illiquid assets must sell or borrow to pay); avoidance and flight of capital or residence; a recurring tax on a stock versus a one-off levy; and whether the transfer is restricted (vouchers, spending limits) which changes its effect on demand and on freedom of choice.
+- **Trade-off**: redistribution and a stable funding source versus compliance cost, valuation disputes and possible capital flight.
+- **Counter-view**: many countries that had wealth taxes repealed them because revenue was low relative to cost; supporters reply that broad bases and exit taxes address this. A transfer of this scale is also compared with simply reforming existing welfare spending.
+- **Does not hold when**: the base excludes a large share of wealth (so the real rate on the rest is much higher than the headline) or the assets are mostly illiquid.
+
 ## Checklist
 - Ratio, but also: interest bill as a share of revenue, real rate against growth, currency of issue, maturity, who holds it.
 - Is the problem a stock (level), a flow (deficit) or a path (rising rate)?

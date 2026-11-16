@@ -62,6 +62,7 @@ Figures are dated estimates unless marked. "Position" = judgement, not fact. Cha
 - Strait widths: about 21 miles (Gulf), about 28 km (Red Sea), about 1.5 miles (southeast Asia) [ch07.1].
 - Canal: about 5% of seaborne trade; the alternative route adds about 8,000 nautical miles and 18 days [ch07.3].
 - Population line: about 94% of people on about 43% of land in one country [ch06.5].
+- Cost-exchange: a drone in the tens of thousands of dollars versus an interceptor above a million (dated, unverified) [ch07.11].
 
 ## Forecasts: How to Write Them
 "(position, as of 2026-11) A deadline X is a stated concern, not evidence. Indicators that would change this view: A, B, C."

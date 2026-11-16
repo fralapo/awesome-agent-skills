@@ -303,3 +303,7 @@ Key terms from the organic personal brand system + IG algorithm archive.
 **Categorisation (account)** — how the platform classifies an account as a creator in a topic (Ch 7)
 
 **Attention vs trust (currency)** — over a long horizon trust, not attention, is the currency (Ch 9)
+
+**RPM (revenue per mille)** — creator earnings per 1,000 views; a dated, niche-dependent order of magnitude (Ch 17)
+
+**Interest graph vs social graph** — distribution by predicted interest versus by who follows whom (Ch 17)

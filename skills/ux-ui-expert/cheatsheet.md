@@ -248,6 +248,12 @@ Do not invade | keep control | be transparent | curate with context | trust befo
 ## Atomic Design Levels
 Atoms > molecules > organisms > templates > pages; extract after 10-20 page variants (ch33).
 
+## Token Layers and Component Matrix (ch33)
+Raw (`lime-500`) > semantic (`color-accent`) > component (`button-bg`); components read only their own layer. Matrix example: 3 variants x 3 sizes x 5 states = 45 combinations, defined once in the component. Build concepts with real content; start accessible behaviour from a headless library.
+
+## Professional Page Signals (ch42)
+One goal per surface | CTA above the fold and sticky | accent reserved for the action | real content | restrained effects | honest option comparison.
+
 ## Redesign Audit Order (ch34)
 Purpose > hierarchy > consistency > navigation (one path per action) > colour meaning > layout/grouping > platform guidelines. Goal first: design, strategy or usability.
 

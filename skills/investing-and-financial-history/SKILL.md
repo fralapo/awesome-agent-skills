@@ -105,6 +105,8 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 - **Bond price and yield, seniority, junk bonds** -> ch06
 - **Bond funds vs single bonds, target-maturity funds** -> ch06
 - **Bubble anatomy, reflexivity** -> ch09
+- **AI build-out, circular financing, backlog contracts (case card)** -> ch09
+- **Margins, buybacks, dilution, asset lives; private stake by comparables** -> ch05.6, ch05.7
 - **CAPE, valuation ratios as forecasts** -> ch12, ch13
 - **Compounding, annualising, log returns, IRR, NPV** -> ch12
 - **Covered calls, delta, gamma, theta** -> ch07

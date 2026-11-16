@@ -8,7 +8,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 ---
 
 # UX/UI Research & Design Expert
-**Chapters**: 41 | **Supporting files**: cheatsheet, patterns, glossary
+**Chapters**: 42 | **Supporting files**: cheatsheet, patterns, glossary
 
 **Role boundary.** This skill is the UX/UI designer: screens, flows, interaction, usability evidence. Concept and insight → `creative-director`; visual direction and identity rules → `art-director`; print, poster, logo and layout craft → `graphic-designer`. Adapt their direction to interfaces and report back when it fails on screen (ch23, ch29 mood board handoff). Workshops, design sprints and group alignment exercises (agenda, timing, voting, facilitation) → `workshop-facilitation`.
 
@@ -16,7 +16,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 
 1. **Match the task to a workflow** below and open only the chapters it names. Don't load them all.
 2. **Use the Core Frameworks** for quick answers; read the chapter before going beyond them.
-3. **Quick lookups**: [cheatsheet.md](cheatsheet.md) (tables: sample sizes, typography laws, 60-30-10, states, psychology), [patterns.md](patterns.md) (When / How / Trade-offs for 53 techniques), [glossary.md](glossary.md).
+3. **Quick lookups**: [cheatsheet.md](cheatsheet.md) (tables: sample sizes, typography laws, 60-30-10, states, psychology), [patterns.md](patterns.md) (When / How / Trade-offs for 56 techniques), [glossary.md](glossary.md).
 4. **Ground recommendations in evidence**: cite the rule or number (e.g. "line length 45-75 chars, ch21") and never blame the user.
 
 ---
@@ -57,7 +57,9 @@ argument-hint: [task, topic, framework name, or chapter number]
 
 **Redesign a transaction, kiosk or gesture**: frequency hierarchy, outcomes over codes, one gesture one meaning (ch32).
 
-**Build a component library**: atomic design from page patterns (ch33).
+**Build a component library**: atomic design from page patterns, three-layer tokens, variant x size x state matrix, real content, headless accessible base (ch33).
+
+**Make a site look professional or structure a page for conversion**: one goal per surface, colour discipline, above-the-fold, sticky CTA, honest option comparison (ch42, with ch22).
 
 **Audit or redesign an existing interface (app, kiosk, site)**: name the goal, one purpose per screen, merge duplicates, rank by frequency (ch34); check signals, contrast and context of use (ch35).
 
@@ -157,7 +159,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 | [ch30](chapters/ch30-prototyping-early-and-design-sprints.md) | Prototyping Early and Design Sprints | fidelity by audience, storyboard, sprint intake and test day |
 | [ch31](chapters/ch31-anticipatory-design-and-automation.md) | Anticipatory Design and Automation | 3 cautions, 5 principles, kill switch, human control with automation, three-moment oversight, AI in learning products |
 | [ch32](chapters/ch32-transactional-flows-and-gesture-design.md) | Transactional Flows and Gesture Design | frequency hierarchy, codes to outcomes, gesture rules |
-| [ch33](chapters/ch33-atomic-design-component-library.md) | Atomic Design | atoms to pages, 6-step extraction |
+| [ch33](chapters/ch33-atomic-design-component-library.md) | Atomic Design | atoms to pages, 6-step extraction, 3-layer tokens, variant x size x state matrix, real content, headless base |
 | [ch34](chapters/ch34-interface-audit-and-redesign-method.md) | Interface Audit and Redesign Method | 3 redesign goals, audit order, merge duplicates, navigation fixes |
 | [ch35](chapters/ch35-interface-craft-and-context-of-use.md) | Interface Craft and Context of Use | meaningful shadow/colour/shape, translucent contrast, status and range, low-attention controls |
 | [ch36](chapters/ch36-content-modelling-and-ux-content-strategy.md) | Content Modelling and UX Content Strategy | content model, audit, design for variance, editors as users |
@@ -166,6 +168,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 | [ch39](chapters/ch39-retention-habit-mechanics-and-ethics.md) | Retention and Habit Mechanics, with Ethics | 5 tactics, loop model, cohort diagnosis, ethics rules, companion-AI evidence, recognition as retention |
 | [ch40](chapters/ch40-ai-assisted-ui-workflow-and-design-to-code-handoff.md) | AI-Assisted UI, Design-to-Code Handoff, Design QA | 5 generation rules, PRD-first build, file structure, QA issue fields |
 | [ch41](chapters/ch41-shipping-vs-polishing-and-results-driven-ux-audit.md) | Shipping vs Polishing, Results-Driven UX Audit | ship/polish rules, closed beta, 5-step audit, 5 lenses, impact-effort |
+| [ch42](chapters/ch42-professional-look-and-page-conversion-structure.md) | Professional Look and Page Conversion Structure | goal first, colour discipline, above the fold, sticky CTA, honest decoy use |
 
 ## Topic Index
 
@@ -193,7 +196,7 @@ argument-hint: [task, topic, framework name, or chapter number]
 - **Ability-based and adaptive interfaces** → ch23
 - **Aesthetic-usability, first impressions** → ch37
 - **Archetype / persona** → ch28
-- **Atomic design** → ch33
+- **Atomic design / variant matrix / component documentation / headless accessible base** → ch33
 - **Auto-layout** → ch17
 - **Basket weaving / feature prioritisation / MoSCoW / value-difficulty** → ch29
 - **Belmont Report / ethics** → ch09
@@ -225,6 +228,8 @@ argument-hint: [task, topic, framework name, or chapter number]
 - **Design sprint** → ch30
 - **Design system** → ch19
 - **Design tokens (semantic color)** → ch22
+- **Design tokens in three layers (raw, semantic, component)** → ch33
+- **Professional-looking site / above the fold / sticky CTA / decoy effect** → ch42
 - **Desire path** → ch12
 - **Diary studies** → ch08
 - **Discussion guide (interview)** → ch27

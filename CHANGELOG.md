@@ -2,6 +2,13 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.31.0 (2026-11-16)
+
+- New skill `trading-methods-and-technical-analysis` (10 chapters, cheatsheet, patterns, glossary): market structure, support and resistance, moving averages and oscillators, Ichimoku, seasonality and its statistics, COT positioning, strategy families with rules and invalidation, risk and position sizing, trader psychology, how to read claimed results, fundamental screens, and the mechanics and risks of options, certificates and leveraged products. Educational only: no signals, no recommendations.
+- `ux-ui-expert` grows to 42 chapters: ch33 extended (three-level design tokens, variant x size x state matrices, real content in concepts, isolated component documentation, accessible headless foundations, starting on an existing site); new ch42 (professional look and page conversion structure).
+- `video-editor` knowledge base: new section on software-agnostic motion, compositing and editing techniques (wiggle and bounce expressions, easing, multi-pass chroma key, reusable templates, editor-to-compositor links, stabilisation, tracking, audio levels).
+- Extended: `economics-finance` (reserve currency and trade deficits, tariffs as negotiating leverage, wealth tax arithmetic), `institutions-and-geopolitics` (pipeline gas versus LNG, drone-to-interceptor cost ratio, chips and critical minerals), `investing-and-financial-history` (margins, buybacks and dilution, private stake estimation, AI build-out case card), `social-algorithm` (new ch17 on creator revenue layers and platform distribution).
+
 ## 1.30.0 (2026-11-15)
 
 - `behavior-and-decision-science` grows to 12 chapters: new ch12 (procrastination as an emotion problem, re-training effort, attention economy and digital detox, explore/exploit and algorithmic sameness, time pressure, rest without a goal, many interests, exam-period study).

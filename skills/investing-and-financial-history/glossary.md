@@ -82,3 +82,7 @@
 **Yield curve** - yields plotted against maturity (ch06)
 **Yield to maturity** - single rate discounting all flows to the price paid (ch06)
 **Yield** - income as a percentage of price (ch06)
+**Circular financing** - an investor funds a customer that uses the money to buy from the investor (ch09, Card I)
+**Remaining performance obligations (RPO)** - signed but not yet delivered or recognised contract revenue (ch09, Card I)
+**Useful-life assumption** - years over which an asset is depreciated; a longer life raises reported profit (ch05.6)
+**Buyback (share repurchase)** - firm cancels shares, raising earnings per share on the same profit (ch05.6)

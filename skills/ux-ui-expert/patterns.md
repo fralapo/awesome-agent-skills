@@ -220,6 +220,21 @@
 **How**: design 2-3 pages and 10-20 variants, find recurring patterns, extract and build bottom-up, replace instances with the component.
 **Trade-offs**: governance overhead for small teams.
 
+## Three-Layer Design Tokens
+**When to use**: a palette or style change should be one edit, or components need per-component restyling.
+**How**: raw tokens hold values, semantic tokens hold roles, component tokens hold usage; components read only component tokens (ch33).
+**Trade-offs**: more naming work up front; unnecessary layers in a tiny project add noise.
+
+## Variant x Size x State Matrix
+**When to use**: defining a button, input or card in a library.
+**How**: list variants, sizes and states, multiply (3x3x5 = 45), build once as component properties, drop combinations that will never exist (ch33).
+**Trade-offs**: each added option multiplies the matrix; add options only for real screens.
+
+## Page Structure for Conversion
+**When to use**: a landing or store page with one goal.
+**How**: pick narrative or selling; primary CTA above the fold and sticky; accent colour reserved for it; real content; honest comparison of options (ch42).
+**Trade-offs**: steering toward one option can become manipulation; show real differences.
+
 ## Interface Audit and Redesign
 **When to use**: an existing app, kiosk or site feels cluttered or confusing.
 **How**: name the goal (design, strategy or usability); list screens with one purpose each; merge duplicate pages and menu entries; rank actions by frequency with one primary per view; keep profile items in the profile; then apply a shared component set and check platform guidelines (ch34).

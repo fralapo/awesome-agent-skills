@@ -1,19 +1,19 @@
 ---
 name: social-algorithm
-description: "Organic personal-brand growth and Instagram algorithm dynamics: indirect selling, interest-based distribution and the interaction loop, the three pillar metrics and a performance diagnostic matrix, hooks, Stories, reposts, bio anatomy and profile-funnel components, six acquisition funnels without ads, content by awareness level and audience stage, late-era ranking priorities and long-form integration, awareness levels, delegation and content systems, dynamic video techniques, scaling principles, plus YouTube positioning, on-camera energy and content-first channels, revenue predictability and funnel tracking, paid live events as a conversion layer, and a phased playbook for accounts starting from zero. Use when the user plans Instagram or YouTube content, asks why a post or reel underperformed, wants clients from social without advertising, writes hooks, a bio or a funnel, builds a personal brand, or sets up a content routine, even if they never say 'algorithm'."
+description: "Organic personal-brand growth and Instagram algorithm dynamics: indirect selling, interest-based distribution and the interaction loop, the three pillar metrics and a performance diagnostic matrix, hooks, Stories, reposts, bio anatomy and profile-funnel components, six acquisition funnels without ads, content by awareness level and audience stage, late-era ranking priorities and long-form integration, awareness levels, delegation and content systems, dynamic video techniques, scaling principles, plus YouTube positioning, on-camera energy and content-first channels, revenue predictability and funnel tracking, paid live events, a phased playbook for accounts starting from zero, and creator revenue layers with interest-graph distribution. Use when the user plans Instagram or YouTube content, asks why a post or reel underperformed, wants clients from social without advertising, writes hooks, a bio or a funnel, builds a personal brand, or sets up a content routine, even if they never say 'algorithm'."
 allowed-tools:
   - Read
   - Grep
-argument-hint: [topic, framework name, or ch01-ch16]
+argument-hint: [topic, framework name, or ch01-ch17]
 ---
 
 # Social Algorithm & Personal Brand — Organic System
-**Chapters**: 16
+**Chapters**: 17
 
 ## How to Use This Skill
 - **No args** → read the Core Frameworks below
 - **Topic** → "explain indirect selling", "how to write a video script", "algorithm metrics" → load the relevant chapter
-- **Chapter** → "ch01" or "ch16" → load that specific chapter
+- **Chapter** → "ch01" or "ch17" → load that specific chapter
 - **Why a personal brand / AI-era case / documentation mindset** → ch09
 - **Algorithm lookup** → algorithm knowledge base (era evolution, diagnostic matrix, hook patterns, repost strategy) → ch07
 - **The Loop / movement / content differentiation** → ch10
@@ -23,6 +23,7 @@ argument-hint: [topic, framework name, or ch01-ch16]
 - **Paid live events / workshops as conversion** → ch14
 - **Starting from zero / small account / first clients** → ch15
 - **Essay-style video series / comment section as research / audience objections** → ch16
+- **Creator revenue layers / RPM / interest graph vs social graph / channel business plan** → ch17
 - **Psychological triggers behind selling** → ch08
 
 Source language: English. Keep original framework names (indirect selling, hero's journey, social proof as garnish, etc.) — they are proper names of frameworks.
@@ -232,6 +233,7 @@ Order: offer and positioning, movement (4-6 directional pieces a week), proactiv
 | [ch14](references/ch14-paid-live-events-as-conversion-layer.md) | Paid Live Events as a Conversion Layer | Multi-evening paid workshop, separate event profile, funnel and timeline, bonuses not discounts, reported numbers, lessons |
 | [ch15](references/ch15-starting-from-zero-phased-playbook.md) | Starting From Zero — A Phased Playbook | Offer/positioning, movement, proactive conversations, sales structure, content mix by account state, diagnosis at four months |
 | [ch16](references/ch16-essay-video-series-and-audience-signals.md) | The Essay-Video Series & Reading Audience Comments | Series structure (thesis, carrying metaphor, honest evidence, moves, closing question), comments as research, genre ethics |
+| [ch17](references/ch17-creator-revenue-layers-and-platform-distribution.md) | Creator Revenue Layers and Platform Distribution Models | Revenue layers and RPM orders of magnitude, interest graph versus social graph, growth mechanics, channel business-plan questions |
 
 ## Topic Index
 
@@ -333,6 +335,7 @@ Order: offer and positioning, movement (4-6 directional pieces a week), proactiv
 - **Circle / square / star content model** → ch10
 - **Fast-purchase markets (profile action without a follow)** → ch10, ch04
 - **YouTube (on-camera energy, character vs authenticity)** → ch11
+- **Revenue layers, RPM arithmetic, interest graph vs social graph** → ch17
 - **YouTube as showcase / revenue diversification** → ch11
 - **Sponsors / sponsor-readiness** → ch11
 - **Constancy over years (YouTube longevity)** → ch11
