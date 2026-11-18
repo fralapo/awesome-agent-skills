@@ -63,6 +63,13 @@ Gamified problem solving when young; a text language once reading and writing ar
 - Forecasts about job losses are opinions. Separate worry about safety nets from adopting the technology.
 - Stay calm; avoid "too clever" long-term career bets on a single specialisation assumed immune to AI; re-evaluate every few months.
 
+## 9. Desirable Difficulty, Deskilling and Weak Signals (positions plus cited studies)
+- **Mechanism**: effort that builds understanding (environmental obstacles are useless, educational ones are the point) is what delegation removes. In one reported maths study, free use of a chat model improved scores on practice problems but lowered the unaided exam result, while a tutor configured not to give the answer avoided the harm. A widely quoted study of "cognitive debt" had very few participants and no long-term follow-up; meta-analyses were more positive but methodologically weak. Read both as hypotheses.
+- **Practice rule (position)**: study means struggling; people who write software should hand-write small projects regularly to keep skill. AI speeds up people who already have the basics and needs domain knowledge to supervise.
+- **Apprenticeship problem (open question)**: if agents do the junior work, how do juniors become seniors? Teams should plan deliberate practice and review for them.
+- **Signal inflation (position)**: when a polished CV or cover letter costs seconds, it says little; costly, hard-to-copy signals (a shipped project, a public track record, a live problem-solving session) count more.
+- **Judgment**: a person's comparative advantage is taste, ethics and intuition; the move from creator to curator to orchestrator is a role change, not a loss of skill need.
+
 ## Common Mistakes
 - Believing you must have written a platform to direct an AI on it.
 - Seeking a mentor instead of building competence.

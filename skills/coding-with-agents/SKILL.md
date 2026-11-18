@@ -1,6 +1,6 @@
 ---
 name: coding-with-agents
-description: "Practical theory for building software with AI coding agents (automatic programming), written for designer-developers and product builders. Use whenever the user builds, reviews, tests or maintains code with an agent or chat model, decides how much to delegate or read, writes a spec or instructions file for an agent, asks how to verify AI-generated code (differential and random testing, invariants, observability, agentic QA), worries about software quality, complexity, dependencies, rewrites or technical debt, asks what skills or career moves matter in the AI era (juniors, seniors, learning methods, mentoring, fatigue), or needs to understand how LLMs behave (sampling and temperature, reasoning, token cost, model and vendor choice, local versus hosted, tool use, basic security of generated code such as authentication). Separates technical facts from positions and forecasts. Works with ux-ui-expert, workshop-facilitation and pricing-and-sales-negotiation."
+description: "Practical theory for building software with AI coding agents (automatic programming), written for designer-developers and product builders. Use whenever the user builds, reviews, tests or maintains code with an agent or chat model, decides how much to delegate or read, writes a spec or instructions file for an agent, asks how to verify AI-generated code (differential and random testing, invariants, observability, agentic QA), worries about software quality, complexity, dependencies, rewrites or technical debt, asks what skills or career moves matter in the AI era (juniors, seniors, learning methods, mentoring, fatigue), or needs to understand how LLMs behave (sampling and temperature, reasoning, token cost, caching, model and vendor choice, local versus hosted, tool use, unattended-agent safety, basic security of generated code such as authentication). Separates technical facts from positions and forecasts. Works with ux-ui-expert, workshop-facilitation and pricing-and-sales-negotiation."
 allowed-tools:
   - Read
   - Grep
@@ -45,6 +45,7 @@ Diagnose before prescribing: ask what is being built, how critical it is, whethe
 | Code getting messy, too many dependencies, rewrite or port | ch04 | ch03 (equivalence) |
 | What to hand-code, how to learn, junior/senior, tiredness | ch05 | ch01, ch02 section 8 |
 | Pick a model, temperature, estimate token cost, local vs hosted | ch06 | ch02 section 7 |
+| Get better answers from a chat model; run agents unattended safely | ch06 sections 10-11 | ai-ml-concepts ch15 |
 | Add AI features to a product | ch04 section 8 (invisible AI) | ch06, `ux-ui-expert` |
 | Authentication or session code from an agent | ch06 section 7 | ch03 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
@@ -79,7 +80,10 @@ Diagnose before prescribing: ask what is being built, how critical it is, whethe
 - **Authentication, sessions, hashing** → ch06
 - **Code coverage, test strategy, random testing** → ch03
 - **Complexity, simplicity, technical debt** → ch04
-- **Cost of tokens, subscriptions** → ch05, ch06
+- **Cost of tokens, subscriptions, prompt caching, Jevons effect, kill switch** → ch05, ch06 (sections 4, 11)
+- **Habits for chat models (dossier, questions, red team, two models)** → ch06 section 10
+- **Backups, isolation and approval points for unattended agents** → ch06 section 11
+- **Deskilling, desirable difficulty, signal inflation** → ch05 section 9
 - **Dependencies, vendoring** → ch04
 - **Fatigue, flow, parallel agents** → ch02, ch05
 - **Instructions file, spec file** → ch02

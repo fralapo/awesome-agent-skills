@@ -75,6 +75,13 @@ The errors of this chapter have a well-known home in money decisions, where feed
 - **Does not hold when**: a company or issuer has actually failed, or the money is needed sooner than planned; then selling is a decision about the facts, not an emotional error.
 - **Hand-offs**: market and return arithmetic -> `investing-and-financial-history`; reading backtests -> `scientific-thinking` ch02 (2.9).
 
+## 1.9 Social comparison, selective display and the rosy past
+- **Thesis (position)**: feeds widen the comparison group to the whole world and show only selected parts of other lives, so the comparison is rigged before it starts; and what is displayed with insistence may serve to quiet an unpleasant feeling in the person displaying it.
+- **Mechanism**: comparison needs a reference group; an online feed replaces a handful of neighbours with a curated global sample (the same logic as the survivor filter: you see the visible, not the rest). Where identity is built on rankings (marks, followers, titles), worth becomes contingent on the latest score. A related move is "do things in order to be, not in order to be more": a goal framed as being more than someone else has no end point. Looking back, memory edits the past kindly (rosy retrospection), and a larger volume of news makes the present look worse than it is; "the world is not getting worse, we are more informed" is a position about exposure, not a measured trend.
+- **Evidence**: social comparison is Experimental in the lab (general knowledge); the claim that heavy feed use causes lower well-being is Contested (mixed, small effects); rosy retrospection and availability effects are Experimental; the "displayed to silence a feeling" reading is Position (see `depth-psychology`).
+- **Trade-off**: comparison also informs (norms, standards, role models); the goal is to choose the reference group, not to abolish it.
+- **Does not hold when**: the comparison is against a concrete, fair benchmark you chose (a published standard, a peer doing the same job); or when conditions really did worsen (prices, rents, services), which is a factual question.
+
 ## Decision Checklist
 1. Which self is deciding, and which self will pay?
 2. What is the ending and what is the peak?
@@ -82,6 +89,7 @@ The errors of this chapter have a well-known home in money decisions, where feed
 4. If this conclusion were false, what would I expect to see?
 5. Would my future self, with different circumstances, resent this rule?
 6. Is this money-decision driven by urgency, a past price or a recent run, rather than by the horizon of the money (1.8)?
+7. Whom am I comparing myself to, and what did they choose to show (1.9)?
 
 ## Hand-offs
 Scientific method, falsification and statistical judgment -> `scientific-thinking`. Unconscious motives and defence mechanisms -> `depth-psychology`. Choice overload and UX applications -> `ux-ui-expert`.

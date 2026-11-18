@@ -126,6 +126,8 @@ Caveat: the support is a mentoring programme in which participants rated their o
 - Perfectionism is a stance, not a quality level: self-worth is tied to flawless work, so people avoid anything they might not do well, procrastinate, hide the mess and find it hard to ask for help. Keep the high standard but separate worth from output; treat a failed attempt as information (teams that review failures openly learn faster); think 'both/and' (capable and sometimes wrong); asking for help is an act of trust, not weakness; and showing a little of the process helps people connect with you.
 - Judge your own readiness with care: people are poor judges of how impaired they are when short of sleep, and tiredness raises emotional reactivity and weakens decision-making and ethical judgement. Protect the hours before a pitch or a negotiation. This is a performance mechanism, not medical advice.
 
+Decision speed, a four-week time audit and priority cuts: ch10.
+
 ## Examples
 - A Monday content block 8:00–12:00 recurring every two weeks, with tasks "record 2/3 long-form pieces" and "record Instagram/TikTok pieces if scripts are ready".
 - A 2-hour block for a training outline with the goal "at least halfway", and a design block whose goal is "share the draft with the client at the end".

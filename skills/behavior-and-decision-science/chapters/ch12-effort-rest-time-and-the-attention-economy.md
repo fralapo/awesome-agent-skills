@@ -58,6 +58,13 @@ Young adults today describe the same cluster: a feed that never ends, AI that re
 ## 12.8 Study that survives the exam period
 Practitioner synthesis (see ch05 for memory mechanisms): do about two thirds of the work during the term; attend the sessions that are active; review notes before the next class; schematise logical steps instead of copying; small frequent exercises even when not 100 percent ready; bring doubts to the teacher; mark your own errors; self-test (a quiz, recall aloud) because until you test whether you understood, you do not know; in the last days run **timed past-paper simulations**, then review and sleep. Presence, practice, pace: attend, practise without an AI answering for you, treat it as a marathon.
 
+## 12.9 Low drive as information, and compulsive doing
+- **Thesis (position)**: what looks like laziness is often a symptom of chronic stress, overload or suppressed feeling rather than a defect of will; and constant doing can be a way not to sit with something.
+- **Mechanism**: keeping feelings out of awareness costs energy; chronic stress lowers drive; the person is then labelled lazy, which adds shame. At the other pole, compulsive work, training or travel can cover a lack, and "ten minutes alone with your own head can be harder than adding ten hours of work". The model's move is to ask before judging, reduce load first, and let small amounts of unoccupied time exist before filling them. Comparing yourself with extreme athletes or "a push-up is better than zero" slogans makes the person who needs rest feel deficient.
+- **Evidence**: stress and fatigue effects on motivation are Observational (general knowledge); "laziness is always suppressed feeling" is a Position, not a finding; the claim that children called lazy are suppressing feelings is untested here.
+- **Trade-off**: reading all inertia as emotion can excuse avoidance; check sleep, health and workload first.
+- **Does not hold when**: low drive persists for weeks with low mood or loss of interest; that is clinical territory, refer out. For the unconscious-motive reading see `depth-psychology` ch02 and ch05.
+
 ## Quick use
 | Situation | Start with |
 |---|---|

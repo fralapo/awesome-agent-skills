@@ -44,6 +44,8 @@ Descriptive vocabulary for intensity. **Never a diagnostic scale.**
 | "Perfect childhood" | Insisting childhood was perfect to protect someone | Interpretive; risky if applied to real people |
 | Personal importance / supremacy desire | Feeling special to escape feeling like nothing and to deny death | Interpretive |
 | Black-and-white thinking | Filing people into fixed good/bad drawers | Recognised cognitive distortion (dichotomous thinking) |
+| Discharge or distraction instead of processing | Venting, scrolling, training or working to avoid feeling; calms arousal, leaves the question unasked | This model's emphasis; catharsis research supports that venting alone does not reduce anger |
+| Unexamined defence that generalises | A defence formed after a hurt spreads to unrelated relationships ("leaving first") | Resembles avoidant attachment patterns; interpretive when applied to a person |
 | Imposed forgiveness | In this model, a form of repression that covers anger | Contested; many therapists disagree |
 
 ## Manipulation and Coercive-Control Red Flags (Ch2, Ch7, Ch8)

@@ -82,3 +82,6 @@
 - **Overview-Steps-Outro**: cold open 5-10 s -> 3-5 steps (result first) -> recap + one small action + one specific next step
 - **Good question**: open, neutral, concise, single; no binary or leading
 - **Pause rule**: count about 3 seconds before replying; say "I need to collect my thoughts" when needed
+- **Hostile challenge (ch16)**: pause -> common ground -> concede the true part -> principle -> admit errors -> show -> coalition
+- **Feedback (ch16)**: specific compliment -> role -> behaviour not person -> aspiration -> private self-analysis -> opposite lever
+- **7-step talk (ch16)**: who I help -> problem -> my story -> old vs new -> framework -> 3 do / 3 do not -> call to action

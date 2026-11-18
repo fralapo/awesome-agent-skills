@@ -33,3 +33,9 @@ In this model, two different things get called "intensity": how *heavy* the load
 - Harder sets reduce the volume you can recover from; easier sets raise it. This trade is why failure policies and volume targets must be chosen together (see [ch03](ch03-volume.md)).
 - A block-level pattern (position): begin at about 3 RIR and move to 0-1 RIR over a mesocycle as volume rises (see [ch08](ch08-periodization-and-deloads.md)).
 - A very low-effort, casual programme (several sets of ten-ish reps with plenty left in the tank) is a valid choice if goals are modest or time is scarce; it simply gives less stimulus than the above.
+
+## 5.5 Skill and impact work: leave a buffer (position)
+- **Thesis (position)**: when the activity is technical or lands with impact (jumps, vaults, landings, balance and handstand skills), failure is a poor target: leave a reserve and stop while quality is still high.
+- **Mechanism**: at failure the technique degrades, and a degraded landing or catch costs more than a degraded curl; a buffer relative to the maximum keeps each rep a clean practice of the skill. A common practitioner framing is a "perceived" recovery check (could I repeat the quality of my best reps?) rather than counting to failure. Strong muscles are said to help protect joints that take repeated impact, which is why athletes in technical sports also do strength work (position; the protective effect is plausible but not shown in the sources).
+- **Trade-off**: less stimulus per set than near-failure work; more reliable quality and fewer sessions lost.
+- **Does not hold when**: the set is a stable, low-skill movement where failure is safe (supported push-ups, machine work); there, see 5.2.

@@ -8,7 +8,7 @@ argument-hint: [topic or chapter number]
 ---
 
 # Freelance Designer Ops
-**Chapters**: 9 | **Corpus**: ~35 theoretical notes on freelance design practice and productivity, extended with notes on client acquisition, portfolios, content, rejection handling and designer-founder projects | **Generated**: 2026-11-05 (extended 2026-11-12)
+**Chapters**: 10 | **Corpus**: ~35 theoretical notes on freelance design practice and productivity, extended with notes on client acquisition, portfolios, content, rejection handling and designer-founder projects | **Generated**: 2026-11-05 (extended 2026-11-18)
 
 ## How to Use This Skill
 
@@ -50,7 +50,11 @@ argument-hint: [topic or chapter number]
 
 **Portfolio and content (ch08)**: a portfolio follows the user path (want, problem, solution, CTA), shows only the best work with context, one result or testimonial and a CTA per project; content runs on 3-4 pillars, a monthly idea dump and a weekly 4-hour writing session; reach content and proof content are different jobs; log the source of every enquiry.
 
+**Getting paid (ch06)**: tell hardship from habit, prevent with selection, a contract and instalments, match your own supplier terms to your receivable terms, escalate in steps, watch cash rather than invoices.
+
 **Career and side products (ch09)**: one scary skill per year, fundamentals, a written goal sentence, feedback as free education; for a side product, time-box, spend design depth only where traffic exists, do the uncomfortable marketing first, track from day one and keep expectations realistic.
+
+**Decisions, delegation and career moves (ch10)**: sort decisions by reversibility (fast for reversible ones, slow for one-way ones); a decision memo with alternatives, scenarios and a pre-mortem; a four-week time audit before reorganising; few priorities and a "not now" list; delegation in seven steps with a paid test; attract work with costly signals instead of only applying; a cash cushion and a financial check before changing job. Cash collection and late-payer handling sit in ch06.
 
 ---
 
@@ -67,11 +71,17 @@ argument-hint: [topic or chapter number]
 | [ch07](chapters/ch07-presenting-design-and-handling-rejection.md) | Presenting Design and Handling Rejection | 8-beat presentation, long mockup document, reject-and-recover loop, stubborn/too-simple three-step, ten skills |
 | [ch08](chapters/ch08-portfolio-and-content-that-convert.md) | Portfolio and Content That Convert | user path, value proposition formula, checkpoints, content pipeline, trust ladder, content mix, email, attribution |
 | [ch09](chapters/ch09-career-habits-and-designer-founder-projects.md) | Career Habits and Designer-Founder Side Projects | six habits, time-boxed experiment, lifecycle email, growth loop, realistic expectations |
+| [ch10](chapters/ch10-decisions-delegation-and-career-moves.md) | Decisions, Delegation and Career Moves | reversibility test, decision memo, time audit, few priorities, 7-step delegation, costly signals, job-loss sequence, cushion |
 
 ## Topic Index
 
 - **Backups, files, handoff structure** → ch06
 - **Contracts, deposit, revisions (operational)** → ch06
+- **Late payers, collecting payment, cash vs invoices** → ch06, `pricing-and-sales-negotiation` ch03
+- **Decisions (reversible vs irreversible), pre-mortem** → ch10
+- **Delegating to freelancers or an assistant** → ch10, ch01
+- **Losing or leaving a job, cash cushion** → ch10
+- **Time audit, priorities** → ch10, ch03
 - **Design QA** → ch06 (`ux-ui-expert` ch40)
 - **Email sequences, newsletter** → ch08, ch09
 - **Free work, spec work (decision rule)** → ch05, `pricing-and-sales-negotiation` ch08

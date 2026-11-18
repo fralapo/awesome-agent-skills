@@ -23,6 +23,8 @@ Figures are rules of thumb or approximate values; re-test. "Position" = practiti
 | Error handling clutter | Fail fast; catch only where you can recover [ch12] |
 | Slow benchmark claim | Real conditions, medians, prefer built-ins [ch13] |
 | Motivation or burnout | Feeling versus action; look for causes, not holidays [ch14] |
+| Team celebrates lines or tokens produced | Measure what reaches users safely; verification is the bottleneck [ch8.9] |
+| Generated code piling up | Small gated changes, refactor step, human-owned architecture, deliberate deletion [ch9.9] |
 
 ## CD in One Table
 | Stage | Question | Tests | Target |

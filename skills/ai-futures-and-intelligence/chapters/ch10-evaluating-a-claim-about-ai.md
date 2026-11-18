@@ -55,6 +55,11 @@ Do not let evidence for the first stand in for the third.
 4. Name the falsifier.
 5. Say which camp the evidence currently favours, how strongly, and why; mark anything not established as general knowledge.
 
+## 10.8 Reading studies of AI use, productivity and learning
+- **Questions**: how many participants and for how long? Was use self-reported, logged or measured? Is the data from one product only? Which tasks (practice problems or an unaided exam)? Does the result separate people who already had the skill from beginners? Was the model configured to give answers or to guide?
+- **Typical traps**: usage data show what people chose to do, not what is feasible; classification of conversations depends on the category scheme; self-reported speed can diverge from measured time; a small, short study can be vivid and wrong. Evidence from exposure indices (which tasks a model could do) differs from evidence of adoption (which tasks are delegated).
+- **Template**: "In this study, with N people over T, using tool X for task Y, the measured outcome was Z; it does not show W."
+
 ## Checklist for this chapter
 1. Can the claim be written in the six fields?
 2. Is each part mechanism, capability or prediction?

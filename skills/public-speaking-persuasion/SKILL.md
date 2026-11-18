@@ -8,7 +8,7 @@ argument-hint: [topic, framework name, or chapter number]
 ---
 
 # Public Speaking & Persuasion
-**Chapters**: 15 | **Generated**: 2026-07-15
+**Chapters**: 16 | **Generated**: 2026-07-15
 
 ## How to Use This Skill
 
@@ -43,6 +43,8 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 
 **Client conversations are fit checks.** Frame a pitch or discovery call as "are we a good fit?" so the pressure shifts to the listener; ask first, answer later. Good questions are open, neutral, concise and single; use **PROACT** (Problem, Objective, Alternatives, Consequences, Trade-offs) to frame a problem. Pause about three seconds before replying, say so when you need time to think, and answer a question with a curious question. A 30-second intro runs Problem, Solution, Proof (ch12 additions).
 
+**Criticism is answered with a sequence, not a defence.** Pause, find common ground, concede the true part, move to a principle, show evidence (ch16). Give feedback privately, about behaviour, tied to the person's aspiration; learn the pressure patterns of influence as warning signs, not as tools.
+
 **Closing requires emotion, not just logic.** Every close is **Direct** (name the action) or **Indirect** (dramatize the cost of inaction) — pick one. Logic produces agreement; emotion produces commitment. Make inaction structurally harder than acting (**Institutional Yes**).
 
 ---
@@ -66,6 +68,7 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 | [ch13](chapters/ch13-calls-to-action.md) | Calls to Action & Commitment | 2 Ways to Call to Action, Emotion-to-Commitment |
 | [ch14](chapters/ch14-leadership-communication.md) | Leadership Communication & Mentoring | 4 Steps to Great Communication, Mentee Onboarding Structure |
 | [ch15](chapters/ch15-client-conversations-questions-pacing.md) | Client Conversations: Questions, Pacing and Fit | Fit-Assessment Frame, PROACT, Good-Question Rules, 3-Lesson Confidence Sequence |
+| [ch16](chapters/ch16-criticism-feedback-and-reading-influence.md) | Handling Criticism, Giving Feedback and Reading Influence | Hostile-challenge sequence, constructive-feedback moves, 7-step persuasive presentation, trust inversion, defensive catalogue of influence techniques |
 
 ## Topic Index
 
@@ -76,6 +79,11 @@ When you ask about a topic not covered in Core Frameworks below, I will read the
 - **Call to action / closing** → ch13
 - **Clarity of thought** → ch11
 - **Client meetings / discovery calls** → ch15, ch12
+- **Criticism (answering hostile challenges)** → ch16, ch10
+- **Feedback (giving constructive criticism)** → ch16, ch14
+- **Manipulation red flags / rhetoric analysis** → ch16, ch01
+- **Expectation effect (Pygmalion / Golem)** → ch16
+- **Presentation structure (7 steps)** → ch16, ch07
 - **Delivery / voice** → ch06
 - **Elevator pitch (30 s)** → ch12 (Problem-Solution-Proof), ch07
 - **Email writing** → ch11

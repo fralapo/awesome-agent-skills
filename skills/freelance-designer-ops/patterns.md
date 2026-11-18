@@ -221,3 +221,18 @@ Concrete, repeatable techniques. Each entry: When to use / How / Trade-offs.
 **When**: a product's content gets views but no downloads.
 **How**: define two personas, one account or series per persona, built on real pain points; add a source question in onboarding. See ch09.
 **Trade-offs**: smaller reach, higher intent.
+
+## Reversibility Triage
+**When**: a small choice has eaten days of research.
+**How**: ask if it can be undone cheaply; if so set a deadline, decide with partial information and note a review date; if not, write a decision memo with alternatives, scenarios and a pre-mortem. See ch10.
+**Trade-offs**: some reversible choices will be wrong; the cost of inaction is usually higher.
+
+## First Paid Delegation Test
+**When**: you want to hand off a recurring task (admin, editing, research).
+**How**: write the steps and the report format, shortlist three, give a paid test of about ten days, review against the list. See ch10.
+**Trade-offs**: the first helper often fails; you pay for the test.
+
+## Payment Ladder for a Late Client
+**When**: an invoice is overdue.
+**How**: separate hardship from habit; negotiate a schedule; send written reminders; weigh the legal route against cost and time; next time use instalments and matched supplier terms. See ch06.
+**Trade-offs**: firm handling can end the relationship; not legal advice.

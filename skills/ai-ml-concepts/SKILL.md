@@ -1,6 +1,6 @@
 ---
 name: ai-ml-concepts
-description: "Concepts behind AI and machine learning, from the maths to the frontier: linear algebra, calculus, probability, entropy; loss, gradient descent, backpropagation, the perceptron, double descent, regularization; dense, convolutional, residual and vision networks; transformers, attention, KV cache, state-space models, superposition; pre-training, preferences, group-relative RL, test-time search, scaling laws; generative models (adversarial, diffusion, flow matching); self-supervised learning, embeddings, world models; agents with memory, evaluation, simulation, red teaming; benchmarks and headlines; failure modes; safety, interpretability (circuits, sparse autoencoders, grokking, subliminal learning); reading papers critically; Monte Carlo. Use when the user wants to understand, explain, judge or teach how a model works, why it fails, whether a benchmark, paper or AI claim holds, or how to evaluate an agent. Separates mechanism from position."
+description: "Concepts behind AI and machine learning, from the maths to the frontier: linear algebra, calculus, probability, entropy; loss, gradient descent, backpropagation, the perceptron, double descent, regularization; dense, convolutional, residual and vision networks; transformers, attention, KV cache, state-space models, superposition; pre-training, preferences, group-relative RL, test-time search, scaling laws; generative models (adversarial, diffusion, flow matching); self-supervised learning, embeddings, world models; agents with memory, evaluation, red teaming, security, token budgets; benchmarks and headlines; failure modes (hallucination, sycophancy, poisoning); safety, interpretability (circuits, sparse autoencoders, grokking, subliminal learning); reading papers critically; Monte Carlo. Use when the user wants to understand, explain, judge or teach how a model works, why it fails, whether a benchmark, paper or AI claim holds, or how to evaluate an agent. Separates mechanism from position."
 allowed-tools:
   - Read
   - Grep
@@ -45,12 +45,12 @@ Diagnose before explaining: ask who the learner or decision-maker is, what they 
 | Attention, embeddings, KV cache, where facts live, superposition | [ch07](chapters/ch07-transformers-attention-and-fact-storage.md) | ch11 |
 | Image or video generation: adversarial, diffusion, flow matching, guidance | [ch13](chapters/ch13-generative-models-adversarial-diffusion-and-flow-matching.md) | ch06.5, ch14 |
 | Self-supervised learning, embeddings, CLIP-style models, joint embedding, world models, robot policies | [ch14](chapters/ch14-self-supervised-learning-representations-and-world-models.md) | ch13, ch07 |
-| Building or evaluating an agent: memory, files, search, simulation, red teaming, durability | [ch15](chapters/ch15-agents-with-memory-evaluation-and-operations.md) | ch09, ch10 |
+| Building or evaluating an agent: memory, files, search, simulation, red teaming, durability, agent security, token budgets | [ch15](chapters/ch15-agents-with-memory-evaluation-and-operations.md) | ch09, ch10 |
 | "Is this paper's claim solid?" | [ch16](chapters/ch16-reading-ai-papers-critically.md) | ch09 |
-| Pre-training, preferences, process rewards, group-relative RL, test-time search, scaling laws | [ch08](chapters/ch08-llm-training-reasoning-and-scaling.md) | ch09, ch10 |
+| Pre-training, preferences, process rewards, group-relative RL, test-time search, scaling laws, fine-tuning vs retrieval, prompt practice | [ch08](chapters/ch08-llm-training-reasoning-and-scaling.md) | ch09, ch10 |
 | "Is this benchmark or headline reliable?" Error analysis, one metric | [ch09](chapters/ch09-evaluating-models-benchmarks-and-headlines.md) | ch08.8, ch10, ch16 |
-| Why a model fails (hallucination, reversal, arithmetic, gaming) | [ch10](chapters/ch10-limits-and-failure-modes.md) | ch08, ch09 |
-| Safety, alignment, control, interpretability (circuits, sparse autoencoders, grokking, subliminal learning), risk claims | [ch11](chapters/ch11-safety-alignment-control-and-interpretability.md) | ch10 |
+| Why a model fails (hallucination, reversal, arithmetic, gaming, sycophancy loop, grounded-answer errors, AI-text detectors) | [ch10](chapters/ch10-limits-and-failure-modes.md) | ch08, ch09 |
+| Safety, alignment, control, interpretability (circuits, sparse autoencoders, grokking, subliminal learning, emergent misalignment, poisoning, steering), risk claims | [ch11](chapters/ch11-safety-alignment-control-and-interpretability.md) | ch10 |
 | Research strategy, scaling debates, Monte Carlo, rendering, protein structure | [ch12](chapters/ch12-research-principles-and-scientific-applications.md) | ch06, ch03 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
@@ -100,6 +100,7 @@ Diagnose before explaining: ask who the learner or decision-maker is, what they 
 ## Topic Index
 
 - **Activation functions (sigmoid, ReLU)** → ch04, ch07
+- **Agent security, prompt injection, least privilege, token budgets, Jevons effect** → ch15 (15.18-15.19)
 - **Agent evaluation, tracing, simulation sandboxes, red teaming** → ch15
 - **Agent memory (semantic, episodic, procedural), CRUD, retrieval timing** → ch15
 - **AND gate in a feed-forward block, fact storage** → ch07
@@ -124,6 +125,13 @@ Diagnose before explaining: ask who the learner or decision-maker is, what they 
 - **Gradient descent, local minima, SGD** → ch04
 - **Grokking, circuit tracing, sparse autoencoders, subliminal learning** → ch11
 - **Group-relative policy optimisation, sharpening, pass at k** → ch08
+- **Fine-tuning vs retrieval vs prompting, low-rank adapters** → ch08 (8.17)
+- **Emergent misalignment, data poisoning, activation steering, refusal removal** → ch11 (11.16-11.18)
+- **pass-at-k vs pass-to-the-k, reliability, cost-aware comparison, model judges** → ch09 (9.15-9.16)
+- **Jagged capability, verifiability, circular benchmarks** → ch08 (8.18)
+- **Retrieval-grounded answer errors, sycophancy loop, AI-text detectors** → ch10 (10.13-10.15)
+- **Tokenizer, vocabulary trade-off, language token cost** → ch07 (7.15)
+- **Prompt practice (few-shot, format, delimiters)** → ch08 (8.19)
 - **Hallucination, reversal asymmetry, syntax over semantics** → ch10
 - **Interpretability, round-trip translation of activations** → ch11
 - **Joint embedding, world models, planning, robot policies** → ch14

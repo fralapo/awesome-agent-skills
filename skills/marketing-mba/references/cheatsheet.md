@@ -68,3 +68,12 @@ PIII (Passion, Intelligence, Integrity, Initiative) · 3A+3+ (Aptitude, Ability,
 
 ## R&D vs. S&M Spend Over Company Life
 Founding: ~100% product/engineering → Mature: R&D ~2–10% of revenue, S&M a much larger multiple. Budget go-to-market at ~2x product-development cost from day one.
+
+## Perceived Value and Revenue Architecture (Ch3)
+| Lever | Note |
+|---|---|
+| Price as signal | A premium product at a low price loses credibility; seller sets price from value, context, positioning |
+| Segment by experience | Premium minority can carry most revenue on a shared core; low-cost models monetise ancillaries |
+| Durable + repeat purchase | Machine and consumables, or hardware plus subscription, move margin and lock in |
+| Subscription | Low churn = predictable revenue; CAC vs LTV; monthly lowers barrier, annual prepay improves cash |
+| Free | Over-chosen because no felt cost; freemium conversion about 1-5% (illustrative); attracts bargain hunters |

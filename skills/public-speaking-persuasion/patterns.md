@@ -106,3 +106,13 @@ Concrete, repeatable techniques. Each entry: When to use / How / Trade-offs.
 **When**: networking, 30-second self-presentation.
 **How**: "You know how [problem]..." / "We solve that by..." / one concrete result.
 **Trade-offs**: shorter than the 7-element pitch; omits competition and business model.
+
+## Hostile-Challenge Reply
+**When**: a sharp public question or criticism.
+**How**: pause; find common ground; concede what is right; move to the principle (the experience of the person served); admit errors; show evidence; bring in allies. See ch16.
+**Trade-offs**: slower than a rebuttal; the concession must be sincere.
+
+## Seven-Step Persuasive Talk
+**When**: a talk that must change behaviour.
+**How**: who I help; the problem they recognise; my story with failures; old versus new; the framework; three do and three do not; call to action. See ch16.
+**Trade-offs**: longer than a pitch; needs an honest personal story.

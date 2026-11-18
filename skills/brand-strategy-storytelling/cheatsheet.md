@@ -84,3 +84,13 @@
 - Vanity metric (reach, likes) used as the only success measure.
 - Persona who is "everyone".
 - Copy tested on colour before message.
+
+## Different, Own a Word, Customer vs Fan (Ch03, Ch05, Ch06, Ch07)
+| Item | Note |
+|---|---|
+| Different is easier than better | Differ on price, area, situation, demographic, business model, packaging or narrative; if not first, create a category |
+| Own a word | Pick a word no competitor holds in the customer's mind |
+| Two journeys | Outer (what happens) and inner (what the hero feels or learns) |
+| Credibility | Authenticity + honesty → credibility → community → inbound → monetisation (not the reverse) |
+| Customer vs fan | Customer sees what the product does, a fan what it represents |
+| Teach vs sell | Mostly educational; ratios like 90/10 or 98/2 are heuristics to test |

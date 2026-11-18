@@ -73,5 +73,19 @@ In this model, a good life and a good relationship come from **practice and valu
 - **Trade-off**: romanticises the past.
 - **Does not hold when**: not applicable to everyone.
 
+## 10.11 Bonding, urgency and blame in couples (position)
+- **Thesis (position)**: partners attach and detach according to how the other makes them feel, so a pair is held together less by chemistry than by emotional presence, compromise and shared values (interests matter less than values), and it is maintained like a field, not found.
+- **Mechanism**: urgency and over-intensity early ("love bombing") tend to push the other away; binding quickly after a break may signal difficulty being alone rather than readiness; assigning the whole fault to the other after a split protects the self but blocks learning; early chemistry fades, so the relevant question is what is built after it. Apps and feeds add continuous comparison and an always-open "option B", which lowers commitment to repair work. A partner cannot supply unconditional, parental love; expecting it is a script (10.8).
+- **Evidence**: couple-communication research supports presence, repair and shared values (general knowledge); the claims about apps, the pandemic and weaker in-person skills are Observational and contested; the rest is Position.
+- **Trade-off**: "work on it" can become tolerance of a bad situation.
+- **Does not hold when**: abuse, coercion or fear; then the question is safety, not effort.
+
+## 10.12 Adult friendship and being alone
+- **Thesis (position)**: adult friendships form where life is actually shared (regular contexts, repeated contact), and a good friend is someone you can "be" with, not only "do" things with, who can say no to you.
+- **Mechanism**: chat and notifications lower the push to meet in person; chosen solitude and feeling alone in company are different states, and the second tends to worsen when sufferers hide it, because showing pain is judged as weakness; opening up to trusted people or a professional discharges it. Isolation is not a form of health.
+- **Evidence**: friendship formation by proximity and repeated contact is Experimental (general knowledge); the rest is Position/Practitioner. For kinds of loneliness and the withdrawal spiral see `depth-psychology` ch09.
+- **Trade-off**: more contexts take time and tolerate awkwardness.
+- **Does not hold when**: persistent low mood or withdrawal; refer to a professional.
+
 ## Hand-offs
 Defences, family roles, attachment depth -> `depth-psychology`. Habit and values practice -> ch07. Listening during conflict -> ch09. Career and freelance practice -> `freelance-designer-ops`.

@@ -70,4 +70,11 @@ In this model many musculoskeletal problems are **mismatches between load and cu
 - **Counter-argument (general knowledge)**: modifications can become a way to avoid challenging a fear (ch03).
 - **Does not hold when**: the pain pattern is unexplained or worsening; see ch03 on red flags.
 
+## 5.11 Capacity as a buffer for passive structures (model, position)
+- **Thesis (position)**: when the muscles around a joint have low capacity, a larger share of a given load is said to fall on the passive structures (ligaments, menisci, cartilage, discs), so building capacity is a way of sharing load, and joint pain is not automatically a sign that a structure needs repair.
+- **Mechanism**: the knee is cited as a joint that is poorly adapted to upright posture, where weak muscle leaves cartilage and ligaments to take the load, and where strengthening around the whole joint (not only the muscles trained by a squat or hinge) is the logic. Avascular tissues such as cartilage and disc are understood to take up nutrients through cycles of loading and unloading, which is why very low activity is not neutral (general knowledge, mainstream in outline). Tendon tissue remodels slowly: the model emphasises progressive loading with a slow lowering phase and tolerable symptoms, and treats rest alone, ice and anti-inflammatory drugs as limited for persistent tendon pain (compare 5.5 and the healing-phase caveats in 5.3).
+- **Counter-argument (general knowledge)**: the precise share of load carried by the knee is not given in a verified form here; evidence that slow-lowering protocols beat other progressive loading is mixed; ice and drugs have short-term uses for symptoms; structural findings and symptoms are only loosely related (ch08).
+- **Trade-off**: a capacity frame risks under-treating a mechanical problem; a structural frame risks fear (ch02).
+- **Does not hold when**: instability after trauma, a locked joint, suspected rupture or atypical pain; those need assessment (ch03.4).
+
 See ch02 for pain, ch06 for regions, ch08 for imaging, ch10 for myths and a checklist.

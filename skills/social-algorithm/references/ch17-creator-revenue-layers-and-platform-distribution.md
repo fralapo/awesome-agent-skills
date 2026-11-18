@@ -42,3 +42,4 @@ Platform ad revenue is the smallest and least controllable layer of a creator's 
 ## 5. Limits
 - Rates, share percentages and ranking claims are snapshots; platform policies change every year.
 - This chapter gives no income guarantee. Cases that quote earnings from a small channel are single, self-reported and often tied to a paid course.
+- Platform life cycle, rented attention, zero-click search and the mean-versus-median trap in earnings statistics: Ch 18.

@@ -21,6 +21,7 @@ Educational, not medical or coaching advice. Figures are dated rules of thumb fr
 |---|---|
 | "No gains" | Check hard-set quality, progression logs, food, sleep; then add a few sets if recovered [ch03, ch09] |
 | Run down, performance falling | Look for leading indicators; reduce volume or deload; fix sleep [ch09] |
+| Only floor, table or door available | Choose by pattern; tune leverage, base, unilateral, tempo; ladder of variants [ch06, ch07] |
 | Plateau on a main lift | Verify it is a real stall (3-4 weeks, like for like, recent anchor) [ch07] |
 | Beginner stops adding weight every session | Add volume, slow the progression to weekly [ch11] |
 | Cannot decide between two options | Equal on average; pick by preference, joints, time; test for weeks [ch01] |

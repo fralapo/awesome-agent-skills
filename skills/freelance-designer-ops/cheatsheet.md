@@ -219,3 +219,16 @@ Cold water on the face → glass of water → 5 min breathing → stretching + 1
 | Ads | Only after organic content shows the converting message |
 | Tracking | "Where did you find us?" from day one |
 | Lifecycle email | Day 0-13 onboarding every ~2 days → purchase flow → win-back every 2 days for a week → ongoing nurture |
+
+## Decisions, Delegation and Career Moves (Ch10)
+| Item | Value (illustrative, to test) |
+|---|---|
+| Reversible decision | Decide fast with partial information (about 70% is a common heuristic) |
+| Irreversible decision | Slow; alternatives, scenarios, pre-mortem, weighted score |
+| Time audit | Log real time for about 4 weeks; plan from free hours |
+| Focus block | About 90 min, break about 20 min |
+| Priorities | Long list (e.g. 25) → few (e.g. 5); the rest is "not now" |
+| Delegation | 7 steps: accept failures, want growth, find, shortlist 3, paid test ~10 days, task list + report, expect an end |
+| Late payer | Hardship vs habit; instalments (e.g. 40/40/20); match supplier terms; escalate in steps (ch06) |
+| Job loss | Steady yourself → runway check → action burst (hiring firms, B2B, case study) |
+| Leaving a job | Cushion 3 months minimum, 6-12 safer; find the real cause; small experiments |

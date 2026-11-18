@@ -4,16 +4,16 @@ description: "Organic personal-brand growth and Instagram algorithm dynamics: in
 allowed-tools:
   - Read
   - Grep
-argument-hint: [topic, framework name, or ch01-ch17]
+argument-hint: [topic, framework name, or ch01-ch18]
 ---
 
 # Social Algorithm & Personal Brand — Organic System
-**Chapters**: 17
+**Chapters**: 18
 
 ## How to Use This Skill
 - **No args** → read the Core Frameworks below
 - **Topic** → "explain indirect selling", "how to write a video script", "algorithm metrics" → load the relevant chapter
-- **Chapter** → "ch01" or "ch17" → load that specific chapter
+- **Chapter** → "ch01" or "ch18" → load that specific chapter
 - **Why a personal brand / AI-era case / documentation mindset** → ch09
 - **Algorithm lookup** → algorithm knowledge base (era evolution, diagnostic matrix, hook patterns, repost strategy) → ch07
 - **The Loop / movement / content differentiation** → ch10
@@ -24,6 +24,7 @@ argument-hint: [topic, framework name, or ch01-ch17]
 - **Starting from zero / small account / first clients** → ch15
 - **Essay-style video series / comment section as research / audience objections** → ch16
 - **Creator revenue layers / RPM / interest graph vs social graph / channel business plan** → ch17
+- **Platform life cycle / organic reach decay / volume vs quality / editorial review by objective / creator as a company** → ch18
 - **Psychological triggers behind selling** → ch08
 
 Source language: English. Keep original framework names (indirect selling, hero's journey, social proof as garnish, etc.) — they are proper names of frameworks.
@@ -208,6 +209,9 @@ Self-reference (feeling understood), similarity (alignment and recurring payoff 
 ### Paid Live Events (Ch 14)
 A multi-evening paid workshop converts through value first, pitch last; separate event profile, waitlist ads, price ladder, bonuses instead of discounts; heavy on team capacity. Figures are one operator's first-event orders of magnitude.
 
+### Platform Life Cycle and Content Volume (Ch 18)
+Platforms move from young and light to professional and paid; reach that was free narrows, so keep owned assets. Publish first and let the audience judge quality; one objective per piece, then review past posts by objective. Rules of thumb here are single-practitioner hypotheses.
+
 ### Starting From Zero (Ch 15)
 Order: offer and positioning, movement (4-6 directional pieces a week), proactive conversations, then sales structure; first clients typically in 3-4 months when phases are done properly.
 
@@ -234,6 +238,7 @@ Order: offer and positioning, movement (4-6 directional pieces a week), proactiv
 | [ch15](references/ch15-starting-from-zero-phased-playbook.md) | Starting From Zero — A Phased Playbook | Offer/positioning, movement, proactive conversations, sales structure, content mix by account state, diagnosis at four months |
 | [ch16](references/ch16-essay-video-series-and-audience-signals.md) | The Essay-Video Series & Reading Audience Comments | Series structure (thesis, carrying metaphor, honest evidence, moves, closing question), comments as research, genre ethics |
 | [ch17](references/ch17-creator-revenue-layers-and-platform-distribution.md) | Creator Revenue Layers and Platform Distribution Models | Revenue layers and RPM orders of magnitude, interest graph versus social graph, growth mechanics, channel business-plan questions |
+| [ch18](references/ch18-platform-life-cycle-content-volume-and-editorial-review.md) | Platform Life Cycle, Content Volume and Editorial Review | Platform life cycle, rented attention, lookalikes, quantity-first publishing, own format, objective-per-piece review, mean vs median, owned assets |
 
 ## Topic Index
 
@@ -336,6 +341,8 @@ Order: offer and positioning, movement (4-6 directional pieces a week), proactiv
 - **Fast-purchase markets (profile action without a follow)** → ch10, ch04
 - **YouTube (on-camera energy, character vs authenticity)** → ch11
 - **Revenue layers, RPM arithmetic, interest graph vs social graph** → ch17
+- **Lookalike audiences, zero-click search, platform ecosystem** → ch18
+- **Quantity vs quality, one objective per post** → ch18
 - **YouTube as showcase / revenue diversification** → ch11
 - **Sponsors / sponsor-readiness** → ch11
 - **Constancy over years (YouTube longevity)** → ch11
@@ -368,8 +375,8 @@ Order: offer and positioning, movement (4-6 directional pieces a week), proactiv
 
 ## Supporting Files
 
-- [references/glossary.md](references/glossary.md) — ~80 key terms (frameworks, anti-patterns, tools, metrics)
-- [references/patterns.md](references/patterns.md) — 55 operational techniques (indirect selling, delegation, scripting, metrics, funnels, hook patterns, repost strategy)
+- [references/glossary.md](references/glossary.md) — ~85 key terms (frameworks, anti-patterns, tools, metrics)
+- [references/patterns.md](references/patterns.md) — 56 operational techniques (indirect selling, delegation, scripting, metrics, funnels, hook patterns, repost strategy)
 - [references/cheatsheet.md](references/cheatsheet.md) — quick-reference tables (3 pillar metrics, old vs new algorithm, 4 elements, 5 principles, 6 funnels, diagnostic matrix, the Loop)
 
 ---

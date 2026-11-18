@@ -308,3 +308,14 @@ ROI = €_generated_from_the_channel / hours_invested
 - turboscribe.ai — video transcription (3 free / incognito)
 - school.com / circle.so — private community platforms
 - gemini meet — automatic transcription for client calls
+
+## Platform Life Cycle and Volume (Ch 18)
+| Item | Note (dated or single-source) |
+|---|---|
+| Cycle | Young and light → early adopters → professionals and ads; organic reach narrows |
+| Mature page | Treat as a paid channel and a targeting database |
+| Zero-click | A reported share of searches ends without a click: be present on several channels |
+| Volume | Quantity is the starting point, quality the arrival point; the audience judges quality |
+| Ratio | About 98/2 or 90/10 teach/sell: practitioner heuristics, test them |
+| Review | One objective per piece; label past posts and compare best vs worst per group |
+| Earnings stats | Mean far above median; own assets outside the algorithm |

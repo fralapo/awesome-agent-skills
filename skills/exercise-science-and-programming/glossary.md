@@ -14,6 +14,7 @@
 **Hard set** - working set near failure, with good technique, in roughly 5-30 reps (ch03)
 **Interference effect** - reduced strength gains when endurance training is combined with lifting (ch11)
 **Junk volume** - sets past the point where quality and stimulus fall (ch03)
+**Leverage (bodyweight)** - changing the lever arm of the body against the support to tune difficulty (ch06)
 **Linear progression** - adding load each session or week; typical for beginners (ch07)
 **Maintenance volume (MV)** - dose that holds size without growth (ch03)
 **Maximum adaptive volume (MAV)** - productive middle band of volume (ch03)
@@ -39,4 +40,5 @@
 **Technical failure** - technique breaks down so another good rep is impossible (ch05)
 **Two-for-two rule** - raise load if you get two extra reps on the last set for two weeks (ch07)
 **Undulating periodization** - variables rise and fall across days or weeks (ch08)
+**Variant ladder** - ordered easier-to-harder versions of a movement pattern used to progress without added weight (ch07)
 **Volume load (tonnage)** - sets x reps x load; a weaker proxy than hard sets for hypertrophy (ch03)

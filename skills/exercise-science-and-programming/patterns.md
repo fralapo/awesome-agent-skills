@@ -91,3 +91,9 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: separate sessions when possible; same-session combinations cost more strength in trained people. [ch11]
 **Cost**: schedule.
 **Not when**: untrained, for whom interference is small.
+
+## 16. Progressing bodyweight work
+**When**: no equipment or loads that cannot be added in small steps.
+**Move**: build a ladder of variants per pattern; double-progress reps, then step up a variant; fill gaps with tempo, pauses or shorter rests; judge by RIR. [ch06, ch07]
+**Cost**: uneven steps and feel-based effort.
+**Not when**: external load can be added in small increments.

@@ -29,6 +29,8 @@ Four parts: **origin** (background and history) → **defining moment** (the cat
 - A list of achievements is not a story.
 - Fuller version (the full ordinary-world-to-return journey): ordinary world, call, refusal, mentor, threshold, trials, setback and resurrection, return with the lesson. Use it for long-form founder stories.
 
+- **Two journeys, outer and inner**: a brand story has an external journey (what the hero does and the obstacles met) and an internal one (what the hero feels, fears or learns). Brand stories that carry only the outer journey tend to fail to move people; add the inner one. A series that follows the format "I did this, here is the result" is a hero journey in small form.
+
 ### 4. Story formula and binary critique
 Formula: **personal story + emotional response + one clear takeaway**. Check with four yes/no questions:
 1. Is it personal (could someone else have written it)?

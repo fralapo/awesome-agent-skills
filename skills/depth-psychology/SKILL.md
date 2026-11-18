@@ -50,21 +50,25 @@ argument-hint: [topic, concept name, or chapter number]
 
 | # | Title | Key frameworks |
 |---|---|---|
-| [ch01](chapters/ch01-ego-false-self-identity.md) | Ego, False Self and Identity | ego vs. false ego, primary mirror, secondary identity, "can I change my mind?" |
+| [ch01](chapters/ch01-ego-false-self-identity.md) | Ego, False Self and Identity | ego vs. false ego, primary mirror, secondary identity, "can I change my mind?", "be yourself" as conditional advice, display as silencing |
 | [ch02](chapters/ch02-awareness-mind-soul-instinct.md) | Awareness: Mind, Soul and Instinct | conditioned vs. reasoning mind, Mind Matrix, escapes from reality, mind vs. soul speaking |
 | [ch03](chapters/ch03-relationships-love-sexuality.md) | Relationships, Love, Sexuality and the Sexes | partner-as-parent, exogenous/endogenous jealousy, reciprocity, affective dependency |
 | [ch04](chapters/ch04-family-parents-children.md) | Family, Parents, Children and Childhood | siding with the child, hidden parent, no duty to forgive, parenting programme |
-| [ch05](chapters/ch05-fears-anxiety-addictions.md) | Fears, Anxiety, Addictions and Disorders | symptom-as-container, fear gradient, false target, split parent |
+| [ch05](chapters/ch05-fears-anxiety-addictions.md) | Fears, Anxiety, Addictions and Disorders | symptom-as-container, fear gradient, false target, split parent, distract/discharge/process, information does not move a need, time-blind feelings |
 | [ch06](chapters/ch06-psychotherapy-unconscious-dreams.md) | Psychotherapy, the Unconscious and Dreams | effective therapy, good-analyst checklist, personality integrators, dream symbols |
 | [ch07](chapters/ch07-power-manipulation-society.md) | Power, Manipulation, Violence and Society | idealisation/demonisation, staying on the line, coercive-control red flags, respect ladder |
 | [ch08](chapters/ch08-myths-symbols-belief.md) | Myths, Symbols and Belief | God as projected parent, belief package, just-world belief, myth templates |
-| [ch09](chapters/ch09-experimental-psychology-complements.md) | Experimental-Psychology Complements (outside the psychoanalytic model) | loneliness kinds and spiral, perfectionism and mattering, regret vs remorse, reveal/conceal two-by-two, reconstructed memory, adult change |
+| [ch09](chapters/ch09-experimental-psychology-complements.md) | Experimental-Psychology Complements (outside the psychoanalytic model) | loneliness kinds and spiral, adult friendship, perfectionism and mattering, regret vs remorse, reveal/conceal two-by-two, reconstructed memory, adult change |
 
 ## Topic Index
 
 - **Abandonment, jealousy, dependency** → ch03
 - **Addictions, smoking, gambling, insomnia** → ch05
 - **Anger, aggression, revenge** → ch05, ch07
+- **Venting versus processing emotion, distraction, compulsive busyness** → ch05, ch02
+- **"Be yourself", display and status signals, critics as signal** → ch01
+- **Pain that follows you, repeating a pattern after a change of scene** → ch05
+- **Adult friendship, showing pain** → ch09
 - **Archetypes / storytelling with myths** → ch08, ch02
 - **Authority, leaders, politics, fandom** → ch07
 - **Brand / audience insight** → ch01, ch02, ch07 (Applications sections)

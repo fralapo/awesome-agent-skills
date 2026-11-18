@@ -61,3 +61,14 @@ Price first and no buying intent in 30-60 days · not the decider · commodity m
 
 ## Hand-offs
 Time tracking, CRM, invoices → `freelance-designer-ops` · delivery and persuasion craft → `public-speaking-persuasion` · segmentation, pricing strategy, BATNA → `marketing-mba` · concept → `creative-director` · contracts, tax → professionals.
+
+## Price Filter, Client Mix and Late Payers (Ch03, Ch05, Ch11, Ch12)
+| Item | Rule of thumb (illustrative, test it) |
+|---|---|
+| Low price | Attracts buyers who value the work less and demand more; selling effort is similar at any ticket size |
+| "Too expensive" | Check perceived value (proof, position, packaging) before cutting |
+| New price | Must be announced; accept losing some clients |
+| Client mix | About a fifth of clients cause most problems: review them for exit |
+| Late payer | Hardship vs habit; instalments, advance payment, pause on non-payment; match supplier terms to receivable terms |
+| Post-sale question | "What almost stopped you from buying?" |
+| Scarcity | Capped intake with selection works only if the cap is real |

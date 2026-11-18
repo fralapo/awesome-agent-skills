@@ -32,6 +32,8 @@ Knowing a few mechanics changes how you prompt, how you set up agents and what y
 - **Single-token identifiers** are cheaper than random multi-token tags (a random tag costs about 2.5 tokens); in edit tools send a range plus new code, not the old text, when generation is costly.
 - Recomputing a file checksum per edit is negligible next to inference cost.
 - Governance and plan choice: ch05 section 6. **Position**: pay-per-token API prices at the frontier are expensive for routine work; flat subscriptions are more economical for individuals; test low-cost open models early to know what top models add.
+- **Prompt caching**: the provider stores the computed key/value state of a prompt prefix, so unchanged beginnings are billed and processed far cheaper (a provider-reported saving of up to about 90% on cached input). Practical rules: keep the system prompt, tool list and memory at the top and stable, put what changes at the end, and do not switch model in the middle of a conversation (the cache belongs to one model). Plan mode (agree the plan before the edits) saves tokens by avoiding wrong runs.
+- **Jevons effect (position)**: the price per token falls, yet total spend rises because cheaper tokens lead to more agents and longer runs. Treat tokens as a budget line, with usage monitoring and a kill switch (section 11).
 - Result per token is the metric: misaligned instructions to many parallel agents waste work; do not point an "army" at trivial problems.
 
 ## 5. Model Choice
@@ -82,6 +84,25 @@ Models rarely volunteer these. Add them to the instructions file and check them 
 ## 9. Writing for the Model
 Clear, patient, well-modelled description of the problem is the same skill as writing specs, documentation, comments and technical emails; fast typing helps keep flow. Give enough context and hooks; poor questions yield poor help. Use the model close to vanilla ("do this"); elaborate rituals give an illusion of skill.
 
+## 10. Habits That Make a Chat Model Useful (positions, cheap to try)
+1. **Give a context dossier** (who you are, goal, constraints, material); missing context causes more bad answers than hallucination does.
+2. **Ask it to ask you questions first**, one at a time, before it proposes anything.
+3. **Ask which assumptions it made**; wrong assumptions hide in fluent text.
+4. **Push past the first, lazy answer** ("what else", "what is the strongest objection") and ask for the **simplest solution** that would work.
+5. **Have the plan attacked**: ask it to play a sceptical reviewer (red team) against your own idea.
+6. **Use two different models** on important questions; agreement is a hint, not a proof, because models share training habits.
+7. **Open a fresh chat** when a conversation gets long; long contexts degrade reasoning and old text keeps steering.
+8. **Verify sources and numbers**: demonstrations repeatedly showed forgotten cost lines and wrong charts in confident output ("trust, but verify"). One position: you can delegate knowledge but not understanding.
+Distrust sellers of "secret prompt techniques"; chapter 6 section 9 applies.
+
+## 11. Running Agents Unattended: Budget, Backups, Access
+- **Budget and kill switch**: set a spending cap per agent and alert on anomalies; one reported loop burned a few hundred dollars in a single day.
+- **Backups the agent cannot lie about**: an agent may report a backup it never made. Keep backups on more than one storage, test a restore on a schedule and measure the recovery time. Never give an agent budget or write access to production (advertising accounts, databases) without staged access and a backup.
+- **Isolation**: run always-on assistants on a separate machine or server, with a dedicated email account, API keys never exposed in prompts or repositories, rotated on a schedule, and no connected services for the first week. Open-source always-on assistants are immature and unsuitable for non-technical users (position).
+- **Approval points**: keep a human gate on anything sent to customers, spending money or hard to undo; use a second, different agent to review the first one's work and distrust an assertive tone.
+- **What differentiates now (position)**: harness, method and process, not the model; models are interchangeable.
+- See `ai-ml-concepts` ch15 sections 15.18-15.19 for the mechanisms.
+
 ## Common Mistakes
 - Using temperature or repetition penalties to cure loops in a weak model.
 - Asking the model to rank its own samples on hard questions.
@@ -96,6 +117,7 @@ Clear, patient, well-modelled description of the problem is the same skill as wr
 - [ ] Hash, session, cookie and error rules checked in auth code?
 - [ ] Hosted vs local decided by data sensitivity and cost?
 - [ ] Output made checkable?
+- [ ] Cap, alerts and tested backups before any unattended run?
 
 ## Connects To
 - ch02 (harness and cost), ch03 (verification), ch04 (invisible AI in products).

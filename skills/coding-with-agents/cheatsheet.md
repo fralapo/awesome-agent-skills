@@ -35,10 +35,17 @@ Code/facts: temperature 0 (greedy) · creative on RL-heavy models: raise it · l
 ## Cost (positions)
 Flat subscriptions beat per-token API for routine work (quoted range 150-300 USD/month per developer) · two vendors as hedge · review usage after a few months · single-token identifiers · result per token.
 
+## Chat Habits (ch06 s10)
+Dossier of context · ask it to ask questions · ask its assumptions · push past first answer · simplest solution · red-team the plan · two different models (agreement is a hint) · fresh chat when long · verify numbers and sources.
+
+## Unattended Agents (ch06 s11)
+Spending cap + alert + kill switch · backups on more than one storage, restore tested · separate host and dedicated account · keys never in prompts, rotated · no production write access · human gate on customer-facing or irreversible steps · stable prompt prefix, same model per conversation.
+
 ## Auth Checklist
 Length 8+ (10-12 better), no composition rules · Argon2 (bcrypt ok), per-user CSPRNG salt, 100 ms-1 s · same error for unknown user/wrong password · exponential backoff then CAPTCHA/email · session 128+ bits, server-side, invalidated on logout/reset, timeouts · HttpOnly + Secure + SameSite lax · reset email = separate path · 2FA · idempotent payments.
 
 ## Learning
+Write by hand to keep skill (tutor that withholds answers beats free answer-giving in one study) · cheap signals (CV, letter) are inflated; costly ones count.
 6-12 months for a jump · one language by heart · plain chat first · hand-write toy programs (interpreter, database, game) · reread hard material many times · publish and join better peers · skill returns in about a week after a break.
 
 ## Hand-offs

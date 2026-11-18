@@ -44,9 +44,10 @@ Diagnose before prescribing: goal (size, strength, both, health), training histo
 | How often to train a muscle, split choice | [ch04](chapters/ch04-frequency.md) | ch03 |
 | Reps, load, failure, RIR / RPE, effective reps | [ch05](chapters/ch05-intensity-proximity-to-failure-and-effective-reps.md) | ch07 |
 | Exercise choice, variations, range of motion, mind-muscle | [ch06](chapters/ch06-exercise-selection-specificity-and-range-of-motion.md) | ch10 |
+| No equipment or calisthenics: patterns, levers, adjusting difficulty | [ch06](chapters/ch06-exercise-selection-specificity-and-range-of-motion.md) (6.7) | ch07 (7.8), ch05 (5.5) |
 | Rest times, tempo, adding weight, linear progression, e1RM, stalls | [ch07](chapters/ch07-rest-tempo-and-progression.md) | ch08, ch11 |
 | Periodization, blocks, taper, when and how to deload | [ch08](chapters/ch08-periodization-and-deloads.md) | ch09 |
-| Fatigue, sleep, overtraining, "CNS fatigue", monitoring load | [ch09](chapters/ch09-fatigue-recovery-sleep-and-overtraining.md) | ch08 |
+| Fatigue, sleep, overtraining, "CNS fatigue", monitoring load, weight versus fat and appetite (concepts) | [ch09](chapters/ch09-fatigue-recovery-sleep-and-overtraining.md) | ch08 |
 | Deadlift / squat / bench mechanics, bar path, is "form" a myth | [ch10](chapters/ch10-mechanics-of-the-big-lifts-and-when-form-matters.md) | `biomechanics-and-rehab-reasoning` |
 | Beginner versus advanced, strength versus size, cardio and lifting | [ch11](chapters/ch11-novices-advanced-trainees-strength-vs-size-and-cardio.md) | ch07, ch08 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
@@ -85,6 +86,9 @@ Diagnose before prescribing: goal (size, strength, both, health), training histo
 
 - **Autoregulation, RIR, RPE** -> ch05, ch07
 - **Barbell mechanics, form** -> ch10
+- **Bodyweight and calisthenics: movement patterns, leverage, variant ladders** -> ch06 (6.7), ch07 (7.8)
+- **Body weight versus body fat, satiety, energy balance (concepts only)** -> ch09 (9.8)
+- **Buffer from failure in skill and impact work** -> ch05 (5.5)
 - **Cardio interference** -> ch11
 - **CNS fatigue, overtraining** -> ch09
 - **Deloads** -> ch08, ch09
@@ -108,4 +112,4 @@ Diagnose before prescribing: goal (size, strength, both, health), training histo
 
 ## Scope & Limits
 
-Practical theory on resistance-training programming: volume, frequency, effort, rep ranges, exercise selection, rest, progression, periodization, fatigue, novice versus advanced, strength versus size and cardio interference. Not covered: diagnosis, injury treatment, medication, nutrition and supplement protocols, performance-enhancing drugs or sport-specific coaching. This skill summarises practitioner commentary: some chapters report positions held by one coaching camp and each is paired with its objection. Evidence figures are single-study or rule-of-thumb snapshots and may be superseded. The skill gives no medical or safety guarantee; anyone with symptoms should see a qualified clinician.
+Practical theory on resistance-training programming: volume, frequency, effort, rep ranges, exercise selection, rest, progression, periodization, fatigue, novice versus advanced, strength versus size and cardio interference. Not covered: diagnosis, injury treatment, medication, diet, calorie, macro and supplement protocols (only concepts about body weight and appetite appear in ch09), performance-enhancing drugs or sport-specific coaching. This skill summarises practitioner commentary: some chapters report positions held by one coaching camp and each is paired with its objection. Evidence figures are single-study or rule-of-thumb snapshots and may be superseded. The skill gives no medical or safety guarantee; anyone with symptoms should see a qualified clinician.

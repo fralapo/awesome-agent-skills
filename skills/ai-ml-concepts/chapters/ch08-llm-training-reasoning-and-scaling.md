@@ -98,3 +98,21 @@ A language model is built in stages: predict the next token on a vast corpus (pr
 - **Mechanism**: a value function estimates the total future reward of taking an action in a state; it satisfies a recursion (the value now equals reward plus the best value next), which turns into a regression target as play proceeds; the agent plays with the current network and trains on its own experience. With raw pixels and no per-game tuning, the original system beat earlier methods on six of seven games and a human expert on three (as reported at the time); it did worst on games that need long-horizon planning, which stayed hard for years.
 - **Trade-off**: general and simple against sample hunger and weak long-term planning.
 - **Does not hold when**: rewards are sparse and far in the future, or one mistake is irreversible.
+
+## 8.17 Adapting a model: prompt, retrieval or fine-tuning
+- **Thesis**: three ways to adapt a model change different things; choosing by what is missing (knowledge, behaviour, or format) avoids expensive mistakes.
+- **Mechanism**: *prompting* changes the context only. *Retrieval* inserts text fragments found by semantic similarity into the prompt: it updates easily, is inspectable (you can see what was retrieved) and has a running cost in tokens and latency. *Fine-tuning* changes weights, often through small low-rank adapters kept separate from the base weights: it teaches tasks, style and output format well, adds knowledge poorly, is opaque, must be redone to update facts and has an upfront cost. They can be combined. The delicate part of fine-tuning is the dataset; to judge a style change, run base and tuned models on the same prompts and compare. Behaviour learned from a narrow set can spread beyond it (chapter 11.16).
+- **Trade-off**: retrieval pays per query and depends on what is found; fine-tuning pays once and ages.
+- **Does not hold when**: the knowledge is small enough to sit permanently in the prompt (then neither is needed), or the model is closed and cannot be tuned.
+
+## 8.18 Verifiability decides where capability grows (jagged profile)
+- **Thesis (position)**: reinforcement on checkable answers makes progress fast where an exact verifier exists and slow where it does not, so capability is uneven ("jagged") rather than uniformly rising.
+- **Mechanism**: mathematics, code and puzzles have automatic checks, many examples and quick feedback; legal reasoning, campaign design, clinical triage or strategy have answers that cannot be checked quickly, or feedback arrives months later. Benchmarks are then built on what is verifiable, those get optimised until saturated, and unverifiable problems stay out of the tables: the evidence about progress is circular. Whether the chains of thought found by this training were already latent in the base model (visible at large k in pass-at-k, chapter 8.13) or whether long runs create new capacity is disputed.
+- **Trade-off**: verifiable domains gain quickly and measurably; other domains need slower proxies such as expert grading.
+- **Does not hold when**: a domain acquires a cheap trustworthy verifier (a simulator, a formal checker), or a generalisation from verified to unverified domains is demonstrated.
+
+## 8.19 Prompt practice: what tends to help and what does not
+- **Thesis**: prompting is empirical craft, not an exact science; a few habits are stable.
+- **Mechanism**: helpful: a few examples of the desired output, a role or audience, the relevant context, an explicit output format, delimiters between instructions and data, and a structured template such as context, objective, style, tone, audience, response. Unhelpful: long prompts padded with irrelevant detail; placing the expected answer in the question (the model tends to agree); "think step by step" on models already trained to reason, which adds nothing; secret formulas sold as techniques. Automatic prompt optimisation can search wordings against a metric.
+- **Trade-off**: more structure costs effort and tokens; the gain depends on the model and must be measured.
+- **Does not hold when**: the task is simple enough that a plain request works; ritual then adds noise.

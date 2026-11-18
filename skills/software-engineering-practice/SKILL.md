@@ -43,8 +43,8 @@ Diagnose before prescribing: ask about team size, release frequency, current bra
 | Everything depends on everything, hard to change | [ch05](chapters/ch05-coupling-cohesion-and-complexity.md) | ch06, ch02 |
 | Over-engineering vs mess, "design vs architecture", YAGNI | [ch06](chapters/ch06-design-architecture-and-incremental-design.md) | ch05, ch03 |
 | Craft vs engineering, what is quality, safety-critical talk | [ch07](chapters/ch07-engineering-craft-and-software-quality.md) | ch05, ch01 |
-| DORA, SPACE, productivity, on-call, team overload | [ch08](chapters/ch08-productivity-metrics-ownership-and-cognitive-load.md) | ch01, ch05 |
-| Quality, TDD and review with AI agents | [ch09](chapters/ch09-quality-and-tdd-with-ai-agents.md) | ch03, ch04 |
+| DORA, SPACE, productivity, output-volume metrics, on-call, team overload | [ch08](chapters/ch08-productivity-metrics-ownership-and-cognitive-load.md) | ch01, ch05 |
+| Quality, TDD, debt and review with AI agents | [ch09](chapters/ch09-quality-and-tdd-with-ai-agents.md) | ch03, ch04 |
 | Too many parameters, flags, primitives, brittle functions, data threaded through steps | [ch10](chapters/ch10-function-and-module-level-design.md) | ch05, ch11 |
 | DRY, wrong abstraction, patterns, third-party SDKs, inheritance vs composition, SOLID, injection | [ch11](chapters/ch11-duplication-abstraction-patterns-and-composition.md) | ch10, ch06 |
 | Exceptions, fail fast, raise vs return nothing | [ch12](chapters/ch12-error-handling-and-failing-fast.md) | ch10 |
@@ -94,6 +94,8 @@ Diagnose before prescribing: ask about team size, release frequency, current bra
 - **Benchmarks, micro-benchmarks** -> ch13
 - **Burnout, motivation, first job** -> ch14
 - **Cognitive load, platforms** -> ch08
+- **Lines of code and token counts as metrics, verification bottleneck** -> ch08 (8.9)
+- **Debt growth with generated code, deliberate deletion** -> ch09 (9.9)
 - **Composition over inheritance, six OO mistakes** -> ch11
 - **Connascence, Law of Demeter, stamp coupling** -> ch05, ch10
 - **Custom exceptions, fail fast** -> ch12

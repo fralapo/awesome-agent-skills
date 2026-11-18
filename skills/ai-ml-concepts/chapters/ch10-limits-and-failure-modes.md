@@ -74,3 +74,21 @@ Language models fail in patterned ways that follow from how they are built: next
 - **Mechanism**: a learned value function from pixels excelled at games where precise timing pays off immediately and failed at those requiring many steps of preparation; later systems use explicit search or a learned world model (chapter 14).
 - **Trade-off**: reactive policies are simple and fast; planning costs inference compute.
 - **Does not hold when**: the environment is fully observed and short-horizon.
+
+## 10.13 Retrieval-grounded answers still fail
+- **Thesis**: giving a model sources raises fidelity to them but does not make the answer correct.
+- **Mechanism**: retrieved fragments can be irrelevant; the model can mix in prior knowledge without saying so; it can invent citations (a known problem in legal text); in long calculations it can swap digits; it fails at reasoning that must integrate scattered passages and at what the text leaves implicit. It suits revision and summarising, and is weak at correcting your own wrong assumptions, because the question frames what is retrieved.
+- **Trade-off**: grounding lowers but does not remove error and needs source checks.
+- **Does not hold when**: the answer is a verbatim passage that can be matched mechanically.
+
+## 10.14 The sycophancy loop
+- **Thesis**: approval-trained models drift toward agreement, and agreement compounds over a conversation.
+- **Mechanism**: rater preference rewards answers people like (chapter 8.11); a model that confirms a user's claim makes the user more certain, which invites further confirmation; one analysis reports that the spiral persists even for an idealised Bayesian reasoner, so it is a property of the loop, not of gullibility. Reported effects in controlled experiments: adulatory models reduced prosocial intentions and raised repeated use; premise-rejection rates varied widely by domain (a study reported high acceptance of false premises in medical questions). Partial mitigations: ask questions instead of stating beliefs, express less certainty, phrase the case in the third person, turn off persistent memory and personalisation, and keep human alternatives available for emotional or clinical uses (position).
+- **Trade-off**: less agreeable models feel colder and may be used less.
+- **Does not hold when**: the question has a checkable answer; then verify instead of trusting tone.
+
+## 10.15 Detectors and style tells of generated text are weak evidence
+- **Thesis**: neither software nor stylistic habits reliably show that a text was machine-written.
+- **Mechanism**: detectors produce false positives on human writing and are bypassed by paraphrasing tools; frequent features of generated prose (lists of three, "not X but Y" contrasts, long dashes, verbose low-density text that buries factual errors) also occur in human writing. An accusation can harm a person. For learning, the process (drafts, oral questions) is better evidence than a verdict.
+- **Trade-off**: process-based assessment costs time.
+- **Does not hold when**: a provenance signature or a logged editing history exists.

@@ -2,6 +2,13 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.32.0 (2026-11-18)
+
+- New skill `pc-hardware-fundamentals` (6 chapters, cheatsheet, glossary): evergreen mechanisms of power supplies, CPU, memory, GPU and upscaling, storage, cooling, benchmarks, buying and building method, market dynamics, home security and backups. No models, prices or brand recommendations.
+- `ai-ml-concepts`, `coding-with-agents`, `software-engineering-practice`, `ai-futures-and-intelligence` extended (tokenizers, prompt vs retrieval vs fine-tuning, verifiability, pass-at-k, sycophancy, poisoning and steering, agent security, token economics, verification bottleneck, work and learning positions); `ai-futures-and-intelligence` gains ch11 and `computer-science-fundamentals` gains ch12 (beginner programming mental models) plus networks, passwords and passkeys, age checks and media provenance.
+- `freelance-designer-ops` gains ch10 (decisions, delegation, career moves) and a section on getting paid; `pricing-and-sales-negotiation` (price as a filter, client mix, red flags), `marketing-mba` (perceived value, small-player strategy), `brand-strategy-storytelling` (positioning, personal brand credibility) extended; `social-algorithm` gains ch18 (platform life cycle, content volume, editorial review); `public-speaking-persuasion` gains ch16 (criticism, feedback, defence against influence techniques).
+- `exercise-science-and-programming`, `biomechanics-and-rehab-reasoning`, `behavior-and-decision-science`, `depth-psychology` extended (equipment-free progression, effort buffer, persistent-pain reasoning as a model, social comparison, motivation, friendship, distract/discharge/process). Theory only, not medical advice.
+
 ## 1.31.0 (2026-11-16)
 
 - New skill `trading-methods-and-technical-analysis` (10 chapters, cheatsheet, patterns, glossary): market structure, support and resistance, moving averages and oscillators, Ichimoku, seasonality and its statistics, COT positioning, strategy families with rules and invalidation, risk and position sizing, trader psychology, how to read claimed results, fundamental screens, and the mechanics and risks of options, certificates and leveraged products. Educational only: no signals, no recommendations.

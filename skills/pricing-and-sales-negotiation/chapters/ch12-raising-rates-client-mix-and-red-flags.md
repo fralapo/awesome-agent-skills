@@ -27,8 +27,12 @@ If nearly every proposal is accepted, your price is too low. Rates should rise i
 - Higher profitability fixes mistakes early and builds loyalty; clients hire for good service and fire for bad service, and underpricing creates the resentment behind bad service.
 - Fees are a share of value created.
 - Becoming the person who merits the price matters more than the number itself. Do not feel guilty about earning more.
+- **Price as a selection filter**: in this model, low prices attract buyers who value the service less and tend to be more demanding, while the effort of selling and delivering is similar at a low or a high ticket. A common heuristic: when in doubt, test a higher price before adding more work.
+- **"Too expensive" can mean "too cheap to be credible"**: when prospects do not buy, check perceived value (proof, positioning, packaging) before assuming the price is the problem. Three common errors: confusing your own means with the market's, confusing cost with return, and misjudging what the buyer is really buying (access, status, credibility as well as utility).
+- **Nobody volunteers a higher price**: a new price has to be announced, and some clients will leave. The advice fits only if you control the price lever, the client can afford it and there is real, distinct value underneath.
 
 ## 3. Low-Paying Work and Capacity
+- **Client-mix heuristic (80/20)**: roughly a fifth of clients create most of the problems, and another fifth most of the revenue and satisfaction; review the first group for exit. Work with poor-fit clients is a stopgap when cash is very tight, not a plan; select as soon as capacity allows.
 - **Capacity check**: track demand against capacity over time. If demand for full-price capacity regularly exceeds supply, stop selling the lowest tier.
 - Low-paid jobs tie up staff so better work has to be turned down. Cash need is a valid reason only as a short, deliberate exception.
 - If a competitor can deliver the same thing cheaper, let the price-only client go. Do not panic and discount when one client objects.
@@ -48,6 +52,11 @@ If nearly every proposal is accepted, your price is too low. Rates should rise i
 | Refuses to discuss strategy or discovery fee | Fit test failed | Walk away; they want the old you (ch05) |
 | Free work framed as a favour or "exposure" | Commercial client seeking free work | Value-equivalence or decline (ch08) |
 | Unrealistic demand (guaranteed outcomes you do not control) | You carry all the risk | Restate, offer a milestone guarantee on what you control (ch11) |
+| Disparages previous suppliers | Likely to do the same about you | Note it as a pattern; protect scope and payment terms |
+| Wants custom changes to the offer, then does not buy; habitual "I'll let you know" | Time sink, no commitment | Set a decision date and a deposit step (ch06) |
+| Dictates how the service must be delivered, then blames you when advice is ignored | Risk without authority | Put advice and its refusal in writing; decline if the pattern repeats |
+| Leaves for a small saving, or haggles over tiny amounts | Price-only buyer | Hold the price; do not match |
+| Chronically late or non-paying (a pattern, not a one-off hardship) | Cash risk | Instalments, advance payment, pause on non-payment (ch03; `freelance-designer-ops` ch06) |
 | Poor fit by personality or values | Resentment risk | Decline even when money is tight |
 | Asks you to prove you are bigger than you are | Pressure to pretend | Tell the truth about size and experience |
 

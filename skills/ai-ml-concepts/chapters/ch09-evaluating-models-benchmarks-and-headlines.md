@@ -86,3 +86,15 @@ A benchmark number is a measurement of a model under one setup on one set of ite
 - **Mechanism**: precision (of items called positive, how many are) and recall (of true positives, how many were found) trade off, so two models can each win on one; a combination such as the harmonic mean (F1) allows an immediate ranking, and an average across regions turns four error numbers into one. Dozens of experiments can then be sorted quickly.
 - **Trade-off**: speed against hiding what matters; choose the single metric to reflect the real goal and add hard thresholds (latency, per-group floor) as constraints.
 - **Does not hold when**: the single number is optimised until the model overfits it (chapter 15.10).
+
+## 9.15 Reliability metrics: pass-at-k versus pass-to-the-k
+- **Thesis**: "can it ever solve this?" and "does it solve this every time?" are different questions with different metrics.
+- **Mechanism**: pass-at-k counts a task as solved if any of k attempts succeeds, which measures capability with retries and rises with k. Pass-to-the-k counts it only if all k attempts succeed, which measures reliability and falls as k grows. If one attempt succeeds with probability p, all k succeed with probability p to the power k, so a model at 90% per attempt is at about 59% over five required successes (arithmetic, not a measured result). Agentic tasks are repeated in production, so the second metric is the one customers feel. Accuracy tends to improve faster than reliability.
+- **Trade-off**: the strict metric needs many runs per task and punishes rare failures heavily.
+- **Does not hold when**: a verifier picks the winner among attempts and a failed attempt costs nothing.
+
+## 9.16 Comparing models fairly: setup, effort, cost and judges
+- **Thesis**: a leaderboard row is a setup, not a model; compare cost to reach a result, not list price.
+- **Mechanism**: tables mix different numbers of attempts, example shots and reasoning effort ("table crimes"); more effort does not always help (a medium setting sometimes matches or beats the maximum); two models with the same list price can use very different numbers of reasoning tokens, so cost per solved task is the figure to compare. Arenas (people choose between two anonymous answers, scores computed like chess ratings) are closer to real preferences but less controlled than fixed datasets; model judges favour outputs in their own style. Fixing errors in a dataset has reordered published rankings. A third-party evaluator is a reasonable prior; a small private benchmark of your real task (define task and metric, build new realistic items, run through one API gateway with automatic or judged grading, analyse errors, cost and time, iterate) is better, and cheap (a reported order of magnitude: tens of dollars).
+- **Trade-off**: private benchmarks cost effort and go stale with each model version.
+- **Does not hold when**: the choice is low-stakes and reversible.

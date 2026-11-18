@@ -42,5 +42,11 @@ Two positions: (a) the inner loop of fine-grained TDD has largely gone to the ag
 ## 9.8 Agents and abstraction
 Writing detailed English instructions can approach programming at a higher abstraction level, but without version control and repeatability ("an incremental compiler that gives a different answer each time"). Specification through acceptance tests reinforces executable specification thinking. Developers' value is deciding what the problem is, not typing code; pairing with a stronger human remains something agents do not replace.
 
+## 9.9 Debt can grow faster with generated code (position)
+- **Thesis**: when producing code is cheap, internal quality decays unless something pushes back, and fluent code hides its complexity.
+- **Mechanism**: generated code tends to add more lines and branches than needed and varies by model; a team that cannot read what it ships loses the ability to change it. Pushback is structural: small changes, automated gates, a tight refactoring step after each green test, architecture decisions kept by humans, and periodic deliberate deletion. Skills the human must keep: architecture and system design, judging a design, and reading tests for intent (9.6).
+- **Trade-off**: slower than accepting everything, cheaper than a rewrite.
+- **Does not hold when**: the code is disposable (a throw-away script, a prototype to be discarded).
+
 ## Cross-references
 `coding-with-agents` for working loop, context and reviewing agent output; `software-architecture` for agent architecture; chapter 03 for the TDD loop; chapter 04 for test properties.

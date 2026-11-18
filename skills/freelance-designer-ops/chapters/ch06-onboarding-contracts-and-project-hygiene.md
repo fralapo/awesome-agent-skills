@@ -45,6 +45,13 @@ When to use: sent with the proposal or at onboarding; it raises client confidenc
 - A vanishing client: send polite reminders, check their activity, then stop. Do not spend much time chasing.
 - Charge for added time. A logo is "finished" when the client says so, but the contract decides what changes beyond the agreed deadline or budget cost.
 
+### Getting paid on time
+- **Tell the type of late payer apart.** A client in real difficulty can be met with a plan; a habitual late payer is a pattern. Large organisations with slow procedures delay by design because they can; some clients do not pay on principle, counting on slow litigation. Do not mix the cases.
+- **Prevent at the source**: choose clients, use a written contract, take payment in instalments (a common illustrative split is 40/40/20: start, midway, delivery) and avoid acting as the client's bank. Package the service like a product with advance payment and a stated pause if payment stops.
+- **Match your own terms**: if you are paid at long terms, set the payment terms to your suppliers to the same length.
+- **Escalate in steps**: negotiate a schedule, send persistent written reminders, then weigh the legal route against its cost and time. Legal wording and enforcement: a lawyer.
+- **Watch cash, not invoices**: revenue is not profit and neither is cash in the bank. Check the account, not the invoices issued, and settle tax questions early with an accountant.
+
 ### Scope and communication
 - When a client pushes something you know will fail, be the professional: explain why, propose the alternative, politely and with reasons. Always explain why you do things (ch07 gives the full routine).
 - Offer multiple solutions with the benefit of each to shorten the discussion.

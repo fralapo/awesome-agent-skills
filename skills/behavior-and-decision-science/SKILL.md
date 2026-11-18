@@ -51,9 +51,11 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 | Habits, willpower, phone use, boredom, meaning | [ch07](chapters/ch07-habits-boredom-and-attention.md) | ch04, ch10 |
 | Creative blocks, constraints, solitude versus brainstorming | [ch08](chapters/ch08-creativity-and-constraints.md) | ch06, ch11 |
 | Hard conversations, debate, bad-faith arguers, introversion at work | [ch09](chapters/ch09-communication-conflict-and-introversion.md) | ch01, ch10 |
-| Maturity, values, relationships, partner choice | [ch10](chapters/ch10-emotional-maturity-and-love.md) | ch09, ch07 |
-| Mistakes, experiments, postmortems, fear of failing | [ch11](chapters/ch11-failure-and-learning.md) | ch06, ch08 |
+| Maturity, values, relationships, partner choice, bonding and blame in couples, adult friendship | [ch10](chapters/ch10-emotional-maturity-and-love.md) | ch09, ch07 |
+| Mistakes, experiments, postmortems, fear of failing, "never give up" and survivorship | [ch11](chapters/ch11-failure-and-learning.md) | ch06, ch08 |
 | Procrastination, avoiding effort, AI and phone dependence, feeling late, guilt when resting, too many interests, exam routines | [ch12](chapters/ch12-effort-rest-time-and-the-attention-economy.md) | ch07, ch05, ch04 |
+| Social comparison, curated feeds, "things were better before" | [ch01](chapters/ch01-decisions-and-judgment.md) (1.9) | ch10, ch12 |
+| Motivation that fades, discipline, fear of starting, what to do on bad days | [ch07](chapters/ch07-habits-boredom-and-attention.md) (7.9) | ch11 (11.8), ch12 |
 | Evaluate a pop-psychology claim | [cheatsheet.md](cheatsheet.md) (evidence table) | ch01, ch03 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
@@ -120,6 +122,11 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 - **Explore vs exploit, algorithmic sameness** -> ch12
 - **Time pressure, rebound effect, fresh-start effect, real rest** -> ch12
 - **Many interests, study routine for exams** -> ch12
+- **Social comparison, selective display, rosy retrospection** -> ch01 (1.9)
+- **Motivation: intrinsic versus extrinsic, loss framing, first small step, discipline as habit** -> ch07 (7.9)
+- **Survivorship bias in persistence advice, quitting well** -> ch11 (11.8)
+- **Love bombing, bonding after a break, blame as alibi, adult friendship** -> ch10 (10.11, 10.12)
+- **Low drive as information, compulsive doing** -> ch12 (12.9)
 
 ## Related Skills
 

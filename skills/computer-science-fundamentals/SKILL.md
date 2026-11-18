@@ -1,6 +1,6 @@
 ---
 name: computer-science-fundamentals
-description: "Computer-science fundamentals as reasoning tools: Turing and counter machines, undecidability, incompleteness, busy beaver, P vs NP, Big-O; binary search, quicksort, Dijkstra, A*, Monte Carlo tree search, annealing and other algorithms; arrays vs linked lists, B-trees, Bloom filters, Huffman and Reed-Solomon codes; CPU caches, DRAM, page tables, TLB; mutexes, races, deadlock; garbage collection, compiler division trick, OS concepts; TCP slow start and AIMD, Ethernet line coding, DNS; RSA, square-and-multiply, AES, hashes; protocol flaws, double ratchet, blockchain, sessions vs tokens; REST, GraphQL, design patterns. Use when the user asks how a machine, algorithm, protocol or cipher works, why code is slow, what cannot be computed, or which structure or algorithm fits a workload. Separates facts from positions and says when each rule stops applying."
+description: "Computer-science fundamentals as reasoning tools: Turing and counter machines, undecidability, incompleteness, busy beaver, P vs NP, Big-O; binary search, quicksort, Dijkstra, A*, Monte Carlo tree search, annealing and other algorithms; arrays vs linked lists, B-trees, Bloom filters, Huffman and Reed-Solomon codes; CPU caches, DRAM, page tables, TLB; mutexes, races, deadlock; garbage collection, compiler division trick, OS concepts; TCP slow start and AIMD, Ethernet line coding, DNS; RSA, square-and-multiply, AES, hashes; protocol flaws, double ratchet, blockchain, sessions vs tokens; REST, GraphQL, design patterns; ports and HTTP, password and passkey threat models, beginner programming mental models. Use when the user asks how a machine, algorithm, protocol or cipher works, why code is slow, what cannot be computed, or which structure or algorithm fits a workload. Separates facts from positions and says when each rule stops applying."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [concept, problem, or chapter number]
 ---
 
 # Computer Science Fundamentals
-**Chapters**: 11 | **Corpus**: ~37 theoretical transcripts | **Generated**: 2026-11-14
+**Chapters**: 12 | **Corpus**: ~37 theoretical transcripts | **Generated**: 2026-11-14
 
 ## Role and Boundaries
 
@@ -41,10 +41,11 @@ Diagnose before prescribing: ask the size of the input, the access pattern, what
 | Slow loops, cache misses, page faults, TLB, why layout matters | [ch04](chapters/ch04-cpu-caches-and-memory.md) | ch03, ch06 |
 | Race, lock, deadlock, livelock, retry storms | [ch05](chapters/ch05-concurrency-and-shared-state.md) | ch06 |
 | Memory leaks, garbage collection, compiler tricks, OS internals | [ch06](chapters/ch06-runtimes-compilers-and-operating-systems.md) | ch04, ch05 |
-| TCP speed, congestion, Ethernet signalling, DNS | [ch07](chapters/ch07-networks-and-transport.md) | ch09 |
+| TCP speed, congestion, Ethernet signalling, DNS, addresses, ports, the path of a web request | [ch07](chapters/ch07-networks-and-transport.md) | ch09 |
 | RSA, AES, hashes, signatures, fast exponentiation, side channels | [ch08](chapters/ch08-cryptographic-building-blocks.md) | ch09 |
-| Protocol attacks, secure messaging, ledgers, sessions vs tokens | [ch09](chapters/ch09-protocols-trust-and-secure-messaging.md) | ch08 |
+| Protocol attacks, secure messaging, ledgers, sessions vs tokens, passwords and passkeys, age-check schemes, media authenticity | [ch09](chapters/ch09-protocols-trust-and-secure-messaging.md) | ch08 |
 | REST, GraphQL, design patterns, paradigms | [ch10](chapters/ch10-interfaces-patterns-and-application-layer.md) | ch11 |
+| Teach or learn programming basics (variables, loops, lists, references, classes, APIs) | [ch12](chapters/ch12-learning-to-program-mental-models.md) | ch03, ch06 |
 | "How should I think about this?" | [ch11](chapters/ch11-reasoning-in-computer-science.md) | the matching chapter |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
@@ -76,10 +77,16 @@ Diagnose before prescribing: ask the size of the input, the access pattern, what
 9. [Protocols, trust and secure messaging](chapters/ch09-protocols-trust-and-secure-messaging.md)
 10. [Interfaces, design patterns and programming paradigms](chapters/ch10-interfaces-patterns-and-application-layer.md)
 11. [How to reason in computer science](chapters/ch11-reasoning-in-computer-science.md)
+12. [Learning to program: mental models that make code predictable](chapters/ch12-learning-to-program-mental-models.md)
 
 ## Topic Index
 
 - **A*, heuristics, admissible estimate** → ch02
+- **IPv4, address translation, ports, TCP vs UDP, HTTP request path** → ch07 (7.8)
+- **Credential stuffing, offline cracking, passkeys** → ch09 (9.8)
+- **Age verification, double anonymity, attribute tokens** → ch09 (9.9)
+- **Content provenance, watermarks, deepfake detectors** → ch09 (9.10)
+- **Off-by-one, loops, lists vs dictionaries vs sets, shared references, input casting** → ch12
 - **AES, S-box, rounds, finite field** → ch08
 - **Array vs linked list, locality** → ch03, ch04
 - **AIMD, slow start, congestion window** → ch07

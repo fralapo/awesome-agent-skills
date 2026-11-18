@@ -111,3 +111,9 @@
 **Verbal toolbox**: words, tone and how the brand wants to be described (ch01).
 
 **Wedge**: one specialty claimed first, with adjacent disciplines around it (ch03).
+
+**Different is easier than better** — differentiating on another axis instead of out-performing a leader (Ch03)
+**Own a word** — claiming one word in the customer's mind that no competitor holds (Ch03)
+**Two journeys** — the outer (events) and inner (feeling and learning) strands of a brand story (Ch05)
+**Credibility formula** — authenticity plus honesty yields credibility, then community, inbound work and monetisation (Ch06)
+**Customer versus fan** — a customer sees what the product does, a fan what it represents (Ch07)

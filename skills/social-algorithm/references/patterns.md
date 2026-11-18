@@ -428,3 +428,8 @@ With both in place the CTA is optional; people reach the link and act unprompted
 **When**: clients arrive only by referral, price is stuck and timing is out of control
 **How**: ask clients what they value; rebuild services into a few standardised packages; make every content piece experiential using the offline history; build touchpoints and tracking
 **Trade-off**: initial reorganisation of the offer; a head start rather than a restart
+
+## 56. Objective-Labelled Editorial Review
+**When**: the editorial plan is guesswork and results look random
+**How**: give each new piece one objective (growth, awareness, community, positioning, sales); label past posts by objective; compare the best and worst within each group; keep what the best share; check engagement, not only reach
+**Trade-off**: needs a few weeks of labelled data; objectives that overlap blur the comparison

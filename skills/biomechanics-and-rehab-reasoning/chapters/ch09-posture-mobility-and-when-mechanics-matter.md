@@ -48,4 +48,11 @@ In this model the contested question is not "does mechanics matter?" (nobody arg
 - Treat "corrections" as experiments, with a clear comparison and a reason to expect benefit.
 - Keep language neutral: avoid "dysfunction", "weak", "out of place" unless they describe a measured, relevant fact.
 
+## 9.8 Posture as an automatic control, not a held position (model, position)
+- **Thesis (position)**: posture is largely regulated outside voluntary control, so being told to "stand straight" works briefly and then fades.
+- **Mechanism**: in this model voluntary movement is driven through conscious pathways while posture is kept by automatic pathways; a corrected posture is held for minutes and then slips back, which is why willpower is a poor posture tool. A person's usual posture is read as an adaptation shaped by genetics, environment, emotion and habit, and it is distinguished from a painful postural syndrome: a posture that differs from textbook pictures does not imply pain (9.1). Approaches that fit the model use sensory reference (a wall, a mirror, a touch cue) and varied positions ("the best posture is the next one", compare 9.6), and treat strengthening of the neck, trunk, hips and feet as general capacity rather than as a cure for existing pain.
+- **Counter-argument (general knowledge)**: the pathway account is a simplification; there is little controlled evidence that postural exercise prevents pain; the claim that a strong posture makes a person more attractive or confident is a social-perception opinion, not tested here; scapular "humps" in weight-bearing positions such as quadrupedal work are described by practitioners as functional protraction, not a defect, which is a position.
+- **Trade-off**: reassurance reduces nocebo (ch02) but can dismiss a person who feels a specific position provokes symptoms.
+- **Does not hold when**: a specific posture reliably provokes pain or a neurological sign appears; see 9.1 and ch03.
+
 See ch01 for association and causation, ch02 for nocebo, ch05 for load, ch07 for lifting positions, ch10 for the checklist.

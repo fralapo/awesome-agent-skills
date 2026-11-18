@@ -168,3 +168,8 @@ All lenses are hypotheses for empathy, communication, research and fiction. None
 **When**: being interrupted, belittled or taken for granted at work (Ch7).
 **How**: Level 1: when interrupted, stop, look, hold two seconds of silence, resume from the exact word, no apologetic fillers. Level 2: if it repeats, one short private question ("is it because you want me to change how I work, or does it just happen?"), then silence. Level 3: remove the extras (overtime, off-hours availability, favours), not the contractual work. Keep an alternative open. Rule: what you let pass becomes the new normal; add friction, not walls.
 **Trade-offs**: personal opinion and experience, not research, and it assumes the worker has options. Harassment or legal risk needs specialist or legal support.
+
+## Distract, Discharge or Process?
+**When**: someone (or you) vents, scrolls, trains or works hard after a conflict and the feeling returns (Ch5, Ch2).
+**How**: name which of the three is happening. To process: pause, ask "what did this wake up in me?" without blaming, tolerate a few quiet minutes, write it down. With another person in a habit, ask what the habit does for them rather than listing harms.
+**Trade-offs**: venting and distraction give real, short relief and are sometimes the right first aid; the lens is a hypothesis, and loss of control or persistent distress needs a professional.

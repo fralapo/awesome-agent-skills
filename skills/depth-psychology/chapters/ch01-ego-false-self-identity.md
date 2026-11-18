@@ -32,6 +32,12 @@ When to use: when explaining learned passivity and dependence on rules or extern
 **The conscious mask (persona)**: Everyone builds a mask in childhood to be accepted. To know oneself one takes it off, then puts it back on *knowingly* for social life. You can tell you are unfulfilled when every criticism wounds the character. The advice: ask why the other person is speaking, not what they say about you.
 When to use: when separating a brand's or person's public tone from inner authenticity.
 
+**"Be yourself" is conditional advice.** In this model the current self may be a product of wounds and defences, so "be yourself" can mean "stay as defended as you are". Spontaneity is not sincerity and does not license aggression; the advice is sound only when it goes with growth and awareness of one's own limits in relationships. A purpose is not given at birth: it is built in relation to other people, and the relationships that matter most are often the ones that test us.
+When to use: when a person or brand defends a harsh style as "just being authentic".
+
+**What is shown with insistence may be shown to quiet something.** The model reads ostentation (a perfect relationship, constant fitness, follower counts, being always busy, travel, wealth) as compulsive display that silences an unpleasant sensation; in the same spirit, someone who criticises first and loudest is read as having a problem with themselves, and a person who judges has usually been judged. Boredom, by contrast, is where ideas and awareness arise. Changing one's mind is hard because it means negating what one believed, and those who listen least are read as the most insecure.
+When to use: to read hostile comments or status display as information about the sender, without confronting them (see the caveat on diagnosing real people).
+
 ## Key Concepts
 
 - **Ego / io**: in this model, the healthy self, made of the body and the person one has to look after, self-respect, and the capacity to see others. Not to be destroyed.
@@ -77,6 +83,7 @@ When to use: when separating a brand's or person's public tone from inner authen
 
 ## Caveats
 
+- **Reading display, harsh critics and "be yourself".** Interpreting someone's display or hostility as a hidden wound is a hypothesis about a person you cannot examine; people also display or criticise for ordinary reasons (work, enjoyment, disagreement). Use it as a prompt for curiosity or as a self-question, never to dismiss an argument or label a person.
 - **Status of the material**: this is a psychoanalytically oriented interpretive model. Everything above is *the model's thesis*, not clinical evidence, and nothing here is clinical advice.
 - **Aligned with mainstream psychology**: early attachment and caregiver responsiveness shape self-worth (attachment theory). Defensive reactions to criticism, the self-blame of maltreated children, and projection are recognised ideas, though psychoanalytic concepts are debated. Empathy as non-judgmental listening, the costs of emotional armouring, the value of separating observation from judgment, and confirmation bias and attachment to one's own schemas are also on solid ground.
 - **This model's own or contested claims**: that self-esteem depends *only* on the parents and that no later relationship or therapy can compensate (mainstream research recognises later experiences and therapy); that *most* parents "could not love" or are "monsters"; that shyness and insecurity are *never* innate (only introversion/extraversion is accepted as innate, while temperament research is more nuanced); that the mother is the base and the father only reinforces; that the foetus perceives acceptance; that forgiveness is harmful or a mere schema; that "Incels" are sons of abusive mothers; the claim that someone who loses their I eventually commits suicide.

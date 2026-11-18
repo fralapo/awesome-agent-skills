@@ -60,5 +60,12 @@ Much of behaviour is automatic. Changing it works better by **redesigning the lo
 - **Trade-off**: pursuing meaning can feel like pressure.
 - **Does not hold when**: a person is in acute distress; meaning talk is not a treatment. Seek care.
 
+## 7.9 Motivation that lasts: value, first step, cost of not acting
+- **Thesis (position)**: motivation fed from outside (substances, pep talks, rewards) fades quickly; motivation tied to a broad value outlasts one tied to a single goal, because a reached goal stops pulling ("fall in love with the path, not the result").
+- **Mechanism**: a value ("being someone who moves every day") can be acted on today, a goal (a visible stomach, a rank) is an end point that loses its charge when reached or when it recedes. Fear is not switched off but **modulated by a small first step**: acting changes the felt size of the task. In this model, picturing what you lose by not acting moves people more than picturing success; the loss framing is loss aversion put to use. Discipline is described as a habit rather than a trait, and the day-to-day move is a small step on days without desire; motivation then follows action more often than it precedes it. Disciplined behaviour is also tested in situations you did not choose, so adaptability belongs in the definition.
+- **Evidence**: extrinsic versus intrinsic motivation is Experimental (including crowding-out, see 7.2); mental-contrasting research (general knowledge) finds that purely positive fantasy can lower effort, which is consistent with, but not proof of, the loss framing; the specific claims about brain regions growing with hard tasks and the share of discipline in unchosen situations are Position and unverified.
+- **Trade-off**: loss framing can slide into anxiety and guilt; use it once, to start, not as a daily whip. Do not read a bad day as a failure of character; it is data (see 12.9).
+- **Does not hold when**: the person is depleted by illness, grief or overload; then lowering load comes first (12.2, 12.6).
+
 ## Hand-offs
 Mood, addiction, compulsion -> a qualified clinician. Attention design in products -> `ux-ui-expert`. Evidence reading -> `scientific-thinking`.

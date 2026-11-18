@@ -71,11 +71,11 @@ The brand strategist **decides what the brand stands for, to whom, and how it sa
 |---|---|---|
 | [ch01](chapters/ch01-brand-foundations-and-measurement.md) | Brand Foundations & Measurement | Identity vs branding vs brand, brand ladder, promise-behaviour gap, brand platform |
 | [ch02](chapters/ch02-discovery-and-brand-definition.md) | Discovery & Brand Definition | Discovery sequence, symptom vs root cause, personas as hypotheses, attribute pair, positioning sentence |
-| [ch03](chapters/ch03-positioning-differentiation-niche.md) | Positioning, Differentiation & Niche | Owned claim, three-circle fit, wedge, good-and-different matrix, brand core, niche tests, attribute slider |
+| [ch03](chapters/ch03-positioning-differentiation-niche.md) | Positioning, Differentiation & Niche | Owned claim, three-circle fit, wedge, good-and-different matrix, brand core, niche tests, attribute slider, different-not-better axes, owning a word |
 | [ch04](chapters/ch04-brand-voice-and-messaging.md) | Brand Voice & Messaging | Brand POV, voice sequence, tone filter, message layers, known-unknown twist, two-word descriptor, naming tests |
-| [ch05](chapters/ch05-brand-story-arcs-and-craft.md) | Brand Story Arcs & Craft | Want-obstacle-gap, normal-explosion-new normal, hero arc, emotion audit, point-first, binary critique, repeatable-story test, four components, story set, story circle, plot types |
-| [ch06](chapters/ch06-personal-brand-building.md) | Personal Brand Building | Character model, origin excavation, authenticity gap, "too much" reframe, endorsement, stance, searchable headline |
-| [ch07](chapters/ch07-audience-trust-and-content-engine.md) | Audience, Trust & Content Engine | Smallest viable audience, true fans, gift economy, touchpoints, iteration loop, 30-30-30 |
+| [ch05](chapters/ch05-brand-story-arcs-and-craft.md) | Brand Story Arcs & Craft | Want-obstacle-gap, normal-explosion-new normal, hero arc, outer and inner journey, emotion audit, point-first, binary critique, repeatable-story test, four components, story set, story circle, plot types |
+| [ch06](chapters/ch06-personal-brand-building.md) | Personal Brand Building | Character model, origin excavation, authenticity gap, "too much" reframe, endorsement, stance, searchable headline, credibility formula, what a personal brand is for |
+| [ch07](chapters/ch07-audience-trust-and-content-engine.md) | Audience, Trust & Content Engine | Smallest viable audience, true fans, gift economy, touchpoints, iteration loop, 30-30-30, audience first, customer vs fan, teach-vs-sell ratio |
 | [ch08](chapters/ch08-portfolio-and-case-study-storytelling.md) | Portfolio & Case-Study Storytelling | Inverted pyramid, three audiences, case-study anatomy, process-heavy case structure, imagination-gap proof, asset return, submission checklist, outreach formula |
 | [ch09](chapters/ch09-copy-that-sells.md) | Copy That Sells | Diagnose first, four dissection questions, ADAP, promise formula, problem-before-solution, A/A test |
 

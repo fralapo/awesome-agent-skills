@@ -47,6 +47,13 @@ Arguments about whether models "understand" are often arguments about what the w
 - **Observation (position)**: optimisers take the short route; with a limited dataset and a limited objective, a network has no reason to learn the robust features we want, so adversarial vulnerability is unsurprising.
 - **Falsified by**: a demonstration of a general system with robust, human-aligned features obtained under a narrow objective without extra structure.
 
+## 4.8 The conversation illusion and the human tendency to see a person (mechanism + position)
+- **Mechanism**: a chat is simulated. At each turn the whole transcript is resent to one of many identical copies of the model; the model keeps no state between turns, and the "memory" feature is a list of facts about the user copied to the top of the prompt (visible and removable). Weights are frozen after training.
+- **Position**: humans see humanity everywhere (the effect first reported with a 1960s scripted program), and knowing the mechanism does not immunise people. Design choices strengthen it: a conversational format, a voice mode, human names, avatars and executives' language. Calling errors "hallucinations" and calling flattery "warmth" are framing choices that can be avoided.
+- **Use**: describe behaviour ("the model produces text consistent with X"), not inner states; disable memory and personalisation when objectivity matters.
+- **Against**: plain mechanical language may understate real capabilities (4.6).
+- **Falsified by**: evidence that users who learn the mechanism calibrate their trust better than those who do not.
+
 ## Checklist for this chapter
 1. Is "understands" being used functionally (passes tests) or experientially (has experience)?
 2. Which reply to the Chinese room is being assumed (systems, robot, substrate)?

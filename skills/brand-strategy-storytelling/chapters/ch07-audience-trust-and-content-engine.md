@@ -72,6 +72,14 @@ A comment space becomes what it rewards. Content that does not feed judgment or 
 ### 14. Social is a tool, not a strategy
 "We need a social media strategy" is not a goal. Start from what the organisation is trying to do and the brand promise; then choose channels. Assume attention is scarce (people sift, not search), causes compete for the same care, and the audience starts from zero (curse of knowledge): give the big picture first. See `marketing-mba` ch09 for channel economics.
 
+### 15. Audience first, and from customer to fan
+- **Audience before product**: do not look for customers for a product; look for products for the customers you already serve. Start from a problem the community expresses, pre-sell before building, and use the reputation for work, partners and funding. Rank requests by what the community actually asks for.
+- **Customer versus fan**: a customer looks at what the product does; a fan looks at what it represents. Fans appear with a critical mass, an emotional response and a place to gather; physical contact and a shared identity deepen it. A small share of super-fans can generate a large share of revenue (compare the arithmetic in section 3).
+- **Teach more than you sell**: in this model most content is educational and useful and only a small part sells (a ratio around 90/10 or 98/2 is quoted by practitioners; a heuristic to test). The community is the protagonist; content serves it.
+- **Know your reason for being followed**: ask whether people follow the person or the method; it decides which assets (a book, a course, a members' area) fit.
+- **Book as a marketing step**: for a professional a book is mostly visibility and the start of a funnel, not a main income; build the audience first, then write from what it asks.
+- **Stay close to the customer**: avoid being disintermediated; prefer channels where you keep the relationship.
+
 ## How to Apply (step by step)
 1. Name the smallest viable audience and test it (crowd test).
 2. Set a rhythm you can keep for 90 days; choose the lowest-friction platform.

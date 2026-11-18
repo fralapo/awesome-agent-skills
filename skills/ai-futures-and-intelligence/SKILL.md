@@ -1,6 +1,6 @@
 ---
 name: ai-futures-and-intelligence
-description: "Analysis of debates about AI and intelligence, one thesis at a time with position, arguments for, arguments against and what would make it false: what intelligence is and how it is measured (adaptation to novelty, specialised vs general, collective), generalisation, abstraction and reasoning, limits of statistical models and symbolic, neurosymbolic and world-model hybrids, understanding and the Chinese room, creativity and open-ended search, compute, chips, memory and power as bottlenecks, inference arithmetic, AI economics and labour share, brains vs models, timelines, growth and intelligence-explosion scenarios, governance, cultural evolution and history as analogies, and a checklist for judging any claim about AI. Predictions are always dated positions. Use when the user compares schools of thought on AI, judges a claim about AGI, scaling, timelines, understanding, creativity or AI economics, or needs the strongest counterargument. For mechanisms and benchmarks see ai-ml-concepts."
+description: "Analysis of debates about AI and intelligence, one thesis at a time with position, arguments for, arguments against and what would make it false: what intelligence is and how it is measured (adaptation to novelty, specialised vs general, collective), generalisation, abstraction and reasoning, limits of statistical models, symbolic and world-model hybrids, understanding and the Chinese room, creativity and open-ended search, compute, chips, memory and power as bottlenecks, inference arithmetic, AI economics and labour share, brains vs models, timelines, growth and intelligence-explosion scenarios, governance, cultural evolution, history as analogies, and work and learning effects, digital rights, and a checklist for judging any claim about AI. Predictions are dated positions. Use when the user compares schools of thought on AI, judges a claim about AGI, scaling, timelines, understanding, creativity or AI economics, or needs the strongest counterargument. For mechanisms and benchmarks see ai-ml-concepts."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [claim, debate, bottleneck, forecast, or chapter number]
 ---
 
 # AI Futures and Intelligence
-**Chapters**: 10 | **Corpus**: ~29 theoretical transcripts | **Generated**: 2026-11-14
+**Chapters**: 11 | **Corpus**: ~29 theoretical transcripts | **Generated**: 2026-11-14
 
 ## Role and Boundaries
 
@@ -44,6 +44,7 @@ This skill **analyses debates**: what is being claimed, under which definition, 
 | Inference cost, batching, in-context learning, superposition, brain vs model | [ch07](chapters/ch07-scaling-training-serving-and-what-models-do-inside.md) | ch06 |
 | Timelines, intelligence explosion, growth, governance | [ch08](chapters/ch08-timelines-growth-scenarios-and-governance.md) | ch06, ch07, ch09 |
 | Cultural evolution, history as analogy | [ch09](chapters/ch09-cultural-evolution-and-history-as-analogies.md) | ch08 |
+| Effects on jobs, schooling, information, who may limit a model, age checks, training data and likeness | [ch11](chapters/ch11-work-learning-information-and-digital-rights.md) | ch10, ch08 |
 | Judge any AI claim, compare sources that disagree | [ch10](chapters/ch10-evaluating-a-claim-about-ai.md) | cheatsheet, patterns |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
@@ -74,13 +75,18 @@ This skill **analyses debates**: what is being claimed, under which definition, 
 8. [Timelines, growth scenarios and governance](chapters/ch08-timelines-growth-scenarios-and-governance.md)
 9. [Cultural evolution and technological history as analogies](chapters/ch09-cultural-evolution-and-history-as-analogies.md)
 10. [A checklist for evaluating a claim about AI](chapters/ch10-evaluating-a-claim-about-ai.md)
+11. [Work, learning, information and digital rights](chapters/ch11-work-learning-information-and-digital-rights.md)
 
 ## Topic Index
 
 - **ARC-style novelty benchmark, memorisation resistance** → ch01 1.6, ch10
 - **Abstraction as analogy; distance vs structure** → ch02 2.3
 - **Algebraic generalisation, universally quantified mappings** → ch02 2.5, ch03 3.6
-- **Anthropomorphism, simulator/mask description** → ch04 4.6
+- **Anthropomorphism, simulator/mask description, conversation illusion** → ch04 4.6, 4.8
+- **Age verification, deepfakes, likeness, training-data compensation** → ch11 11.5-11.7
+- **Reading studies of AI use and learning** → ch10 10.8
+- **Jobs as tasks, exposure vs adoption** → ch11 11.1
+- **Who may limit a model: suppliers vs states** → ch11 11.4
 - **Batching economics, roofline, KV cache** → ch07 7.1-7.2
 - **Bottleneck shifts (power, chips, memory, packaging)** → ch06 6.4-6.5
 - **Chain of thought, self-consistency, verifiers** → ch02 2.6, ch03 3.10

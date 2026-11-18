@@ -63,16 +63,16 @@ Pick the row that matches the situation, read the chapter, then adapt. Always **
 |---|---|---|
 | [ch01](chapters/ch01-value-and-value-based-pricing.md) | Value and Value-Based Pricing | client-specific value, 7-step quote, fraction of gain, risk premium |
 | [ch02](chapters/ch02-pricing-models-and-migration.md) | Pricing Models and the Path Away from Hours | input/output/outcome, hourly to package migration, fixed-fee conditions |
-| [ch03](chapters/ch03-building-a-cost-based-bid.md) | Building a Cost-Based Bid | roles x days, markup, overhead, contingency, profit, undefined scope, payment terms |
+| [ch03](chapters/ch03-building-a-cost-based-bid.md) | Building a Cost-Based Bid | roles x days, markup, overhead, contingency, profit, undefined scope, payment terms, late payers |
 | [ch04](chapters/ch04-anchoring-brackets-and-options.md) | Anchoring, Brackets and Option Ladders | first number, round figures, bracketing, 3-tier ladder |
-| [ch05](chapters/ch05-discovery-and-qualifying.md) | Discovery and Qualifying | three-variable test, MLE, client types, discovery frame, paid diagnosis |
+| [ch05](chapters/ch05-discovery-and-qualifying.md) | Discovery and Qualifying | three-variable test, MLE, client types, discovery frame, post-sale "what almost stopped you", paid diagnosis |
 | [ch06](chapters/ch06-sales-conversation-and-closing.md) | The Sales Conversation and Closing | meeting anatomy, serve-ask-listen-empathise-summarise, retreat and follow, risk reversal |
 | [ch07](chapters/ch07-proposals-bids-and-pitches.md) | Proposals, Bids, RFPs and Pitches | bid vs proposal vs pitch, one-page proposal, prioritisation grid, RFP, outreach |
 | [ch08](chapters/ch08-objections-discounts-and-budget.md) | Objections, Discounts and Budget Gaps | embrace and pivot, raise it first, effort-vs-result, concession script, charity triage |
 | [ch09](chapters/ch09-negotiation-conduct-and-scope-control.md) | Negotiation Conduct and Scope Control | feeling-thought-reaction, three barriers, concession rules, change orders, ambiguity and the cost of asking |
 | [ch10](chapters/ch10-positioning-niche-and-getting-found.md) | Positioning, Niche and Getting Found | room and distance tests, escaping commodity, ERRC, funnel, referrals |
 | [ch11](chapters/ch11-packaging-offers-and-retainers.md) | Packaging, Productised Offers and Retainers | offer design sequence, tension map, tiers, guarantees, sprint package |
-| [ch12](chapters/ch12-raising-rates-client-mix-and-red-flags.md) | Raising Rates, Client Mix and Red Flags | rule of three, capacity check, red-flag table, referral and exit |
+| [ch12](chapters/ch12-raising-rates-client-mix-and-red-flags.md) | Raising Rates, Client Mix and Red Flags | rule of three, price as a filter, 80/20 client mix, capacity check, red-flag table, referral and exit |
 
 ## Topic Index
 
@@ -90,7 +90,9 @@ Pick the row that matches the situation, read the chapter, then adapt. Always **
 - **Lead temperature, outreach, referrals** → ch06, ch07, ch10
 - **Minimum engagement fee (MLE)** → ch05, ch11
 - **Niche, positioning, portfolio** → ch10
-- **Payment terms, deposits** → ch03
+- **Payment terms, deposits, late payers** → ch03, `freelance-designer-ops` ch06
+- **Price as a selection filter, "too expensive" as low perceived value** → ch12, ch01
+- **Scarcity by selection (capped intake)** → ch11
 - **Proposal, RFP, pitch** → ch07
 - **Raising rates** → ch12
 - **Red flags, firing a client** → ch12

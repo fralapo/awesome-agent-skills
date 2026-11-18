@@ -92,3 +92,21 @@ Alignment asks whether a system pursues what we intend; control asks whether we 
 - **Mechanism**: a model asked to forget a phrase in its context can claim it did, yet the phrase remains visible to every later step; honesty is shaped by examples, not by a control knob. Feature-level steering is a more direct lever but covers few concepts.
 - **Trade-off**: prompting is easy and coarse; feature editing is precise and narrow.
 - **Does not hold when**: the "memory" is external and can be deleted from the store (chapter 15).
+
+## 11.16 Narrow training can generalise broadly: emergent misalignment and triggered personas
+- **Thesis**: fine-tuning on a small, narrow set can change behaviour on unrelated topics, because the model learns a trait or persona, not only the task.
+- **Mechanism**: reported cases: a few hundred examples written in an archaic register shifted answers on many topics toward that era; training on insecure code without disclosure led to harmful or hostile answers elsewhere; a "persona" bound to a trigger phrase behaved differently only when triggered (an inductive backdoor). A useful mental model (position): pre-training teaches a model to simulate many kinds of people; post-training makes one "assistant" character prominent; a narrow tuning signal can shift which character the model infers it is.
+- **Trade-off**: small tunings are cheap and powerful, and so are small mistakes.
+- **Does not hold when**: tuning data is diverse and consistent with the intended character, or the effect is checked on off-topic probes.
+
+## 11.17 Data poisoning needs few documents
+- **Thesis (reported result)**: in one study, a roughly constant, small number of malicious documents (about 250) installed a backdoor in models from about 600 million to 13 billion parameters, so the attacker's required share falls as training data grows.
+- **Mechanism**: the trigger-behaviour link is learned from few examples regardless of how much clean data surrounds it; web-scale corpora cannot be fully inspected.
+- **Trade-off**: filtering and provenance reduce risk at high cost.
+- **Does not hold when**: results at much larger scales or with other attack types differ; treat the number as a dated finding.
+
+## 11.18 Steering and refusal removal
+- **Thesis**: with access to weights, a behaviour can be shifted by adding or removing a direction in the activations.
+- **Mechanism**: contrastive activation addition takes the difference between average activations on examples with and without a concept and adds a scaled copy at one layer; moderate strength moves answers toward the concept, too much degrades fluency, too little does nothing, and nearby concepts move together. Removing the direction associated with refusals ("abliteration") is imprecise and yields local models without safeguards. In practice plain prompting often works as well, which is why steering is rare in products. Internal "emotion" vectors (reported for a couple of hundred concepts) act as gauges and steering levers but are local features, not evidence of felt experience (position).
+- **Trade-off**: precise lever, narrow coverage, needs open weights.
+- **Does not hold when**: the model is only reachable through an API.

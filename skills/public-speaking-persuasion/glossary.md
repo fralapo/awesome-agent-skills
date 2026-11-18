@@ -63,3 +63,7 @@
 **Zooming in** — staying inside one physical moment of a story instead of summarizing a stretch of time (Ch2)
 
 See [cheatsheet.md](cheatsheet.md) for the full cognitive-bias and logical-fallacy catalogs (18 biases, 16 fallacies) — kept separate here to avoid duplication.
+**Baseline setting** — making an extreme first claim so that the next claim sounds moderate (Ch16)
+**Expectation effect** — authority's expectations shaping performance: Pygmalion when high, Golem when low (Ch16)
+**Hostile-challenge sequence** — pause, common ground, concede, principle, admit errors, show, coalition (Ch16)
+**Trust inversion** — asking about the buyer's priorities and giving real choice instead of arguing why they should buy (Ch16)

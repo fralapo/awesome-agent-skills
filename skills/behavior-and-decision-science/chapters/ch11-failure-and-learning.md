@@ -53,5 +53,12 @@ Not all failure is equal. In this model, failure comes in three kinds, and only 
 5. Were the stakes coded correctly, before and after?
 6. What is the next, smaller, experiment?
 
+## 11.8 Persistence advice and survivorship
+- **Thesis (position)**: "never give up" is too generic: it ignores that stories of persistence are told by those who made it, and it makes the person who stops feel weak.
+- **Mechanism**: survivorship bias hides everyone who worked just as hard and did not arrive; luck and starting conditions are invisible in the stories that get told. Stopping a harmful relationship, a dead-end plan or a sunk cost can be the healthy choice; paths are not linear, and what matters is consistency in what is worth continuing and love for the activity, not endurance for its own sake. A slogan like "improve by one per cent a day" fails because difficult days break the compounding arithmetic; motivation follows action, and bad days can be lived without forcing positivity.
+- **Evidence**: survivorship bias is a well-described general effect; the one-per-cent compounding claim is a metaphor, not a measured law; the rest is Position.
+- **Trade-off**: permission to quit can become a way out of every discomfort; use the failure checklist (11.7) to tell a dead end from a hard stretch.
+- **Does not hold when**: the goal is genuinely valuable and the obstacle is temporary and learnable; then persistence is correct.
+
 ## Hand-offs
 Reading experiments and evidence -> `scientific-thinking`. Habits and persistence -> ch07. Pressure -> ch06. Emotional reaction to failure -> ch03 and ch04; deeper patterns -> `depth-psychology`. Engineering practice on failure and testing -> `software-engineering-practice`.

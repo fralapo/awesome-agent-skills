@@ -48,3 +48,6 @@
 **Value-based pricing** — fee as a fraction of the client's measurable gain (ch01)
 **Value-equivalence exercise** — pricing non-cash offers in money before accepting a trade (ch08)
 **Win-both test** — sales advantage and price premium at the same time (ch10)
+
+**Price as a filter** — the idea that the price you set selects which clients you attract (Ch12)
+**Scarcity by selection** — a capped, selective intake that creates urgency and manageable growth (Ch11)

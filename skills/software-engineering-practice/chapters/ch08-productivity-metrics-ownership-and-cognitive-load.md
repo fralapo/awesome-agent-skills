@@ -52,6 +52,12 @@ Treat improvements as experiments: state a hypothesis (investing in automated te
 ## 8.8 AI and load
 AI tools can raise load: another toolset, context switching, new pipelines, fatigue, feeling devalued, and individuals working alone with their own assistant. Gains are real but not a magic multiplier; coordinate the workflow and clarify what humans do.
 
+## 8.9 Output volume is not outcome: lines, tokens and the verification bottleneck
+- **Thesis (position)**: counting lines of code, generated pull requests or tokens consumed measures activity, not delivered value, and generated code moves the bottleneck to verification.
+- **Mechanism**: more lines do not mean more code in production; code that is generated faster than it can be understood, reviewed and tested accumulates unverified behaviour. The scarce resource becomes human attention to check it, so a useful measure sits at the end of the pipeline (changes reaching users safely, ch8.1) and not at the keyboard. Some organisations reward token consumption without measuring usefulness, which rewards waste. There is no accepted benchmark for the quality or maintainability of generated code, so control must come from gates (ch9.5), architecture review and tests; one summary is to control the ideas more than the lines.
+- **Trade-off**: output metrics are easy to collect and easy to game; outcome metrics are slower and noisier.
+- **Does not hold when**: output is a small, well-gated change and the metric is used only as a diagnostic.
+
 ## Cross-references
 Chapter 01 and chapter 02 for the practices the metrics reflect; chapter 05 for coupling between teams; `software-architecture` for reliability and observability design.
 Chapter 14 for the individual side of load: motivation, burnout causes and sustainable effort.

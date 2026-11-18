@@ -41,13 +41,13 @@ Clarify the claim first: what is asserted, in whom, based on what comparison. Th
 | "Does this test prove it?", likelihood ratio, sensitivity, base rate | [ch01](chapters/ch01-clinical-reasoning-and-evidence.md) | ch08, ch10 |
 | Reading a study or a headline finding | [ch01](chapters/ch01-clinical-reasoning-and-evidence.md) | ch10 |
 | Why does pain persist? Central sensitisation, nociplastic pain, nocebo | [ch02](chapters/ch02-pain-science.md) | ch03 |
-| Biopsychosocial frame, red flags, yellow flags, what guidelines agree on | [ch03](chapters/ch03-biopsychosocial-flags-and-guidelines.md) | ch02, ch08 |
+| Biopsychosocial frame, red flags, yellow flags, what guidelines agree on, capacity-and-fear model of persistent back pain | [ch03](chapters/ch03-biopsychosocial-flags-and-guidelines.md) | ch02, ch08 |
 | Torque, levers, joints, spine, gait basics | [ch04](chapters/ch04-biomechanics-basics.md) | ch06, ch07 |
-| Overload, "too much too soon", healing time, tendon pain, stretching | [ch05](chapters/ch05-load-capacity-and-healing.md) | ch10 |
+| Overload, "too much too soon", healing time, tendon pain, stretching, muscle capacity versus passive structures | [ch05](chapters/ch05-load-capacity-and-healing.md) | ch10 |
 | Why the shoulder dislocates, what the ACL restrains, windlass, disc herniation stages | [ch06](chapters/ch06-regional-functional-anatomy.md) | ch04, ch08 |
 | Squat depth, butt wink, rounded back in the deadlift, neutral spine | [ch07](chapters/ch07-lifting-biomechanics.md) | ch09, ch04 |
 | MRI findings, "bone on bone", ultrasound therapy | [ch08](chapters/ch08-imaging-and-passive-modalities.md) | ch01, ch03 |
-| Posture, flat feet, anterior pelvic tilt, "does mechanics matter?" | [ch09](chapters/ch09-posture-mobility-and-when-mechanics-matter.md) | ch05, ch07 |
+| Posture, flat feet, anterior pelvic tilt, "does mechanics matter?", why corrected posture fades | [ch09](chapters/ch09-posture-mobility-and-when-mechanics-matter.md) | ch05, ch07 |
 | A claim to evaluate, myths, checklist | [ch10](chapters/ch10-myths-and-claim-checklist.md) | ch01 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
@@ -84,6 +84,9 @@ Clarify the claim first: what is asserted, in whom, based on what comparison. Th
 - **Base rate, pre-test probability** -> ch01
 - **Biceps and supination** -> ch06
 - **Bone density and loading** -> ch05
+- **Chronic back pain as capacity, stiffness and fear (model)** -> ch03 (3.7)
+- **Muscle capacity sharing load with passive structures, joint nutrition by movement** -> ch05 (5.11)
+- **Posture as automatic control, variation** -> ch09 (9.8)
 - **Butt wink** -> ch07
 - **Central sensitisation, nociplastic pain** -> ch02
 - **Disc herniation stages** -> ch06, ch08

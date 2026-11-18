@@ -121,3 +121,15 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: classify (basic, complex, intelligent); check hypothesis and size; code the stakes honestly; design the next smaller experiment. [ch11]
 **Cost**: review time.
 **Not when**: the harm is serious; then it is an incident, not an experiment.
+
+## 21. Comparison check
+**When**: envy, feeling late or inferior after a feed or a ranking.
+**Move**: name the reference group; ask what was selected for display and who is missing; compare with a chosen concrete benchmark; do things to be, not to be more. [ch01]
+**Cost**: gives up easy status signals.
+**Not when**: conditions truly worsened; that is a factual question.
+
+## 22. Motivation that outlasts a goal
+**When**: energy fades or a goal feels empty once close.
+**Move**: tie the habit to a value, take one small first step, picture the cost of not acting once, treat a bad day as data and do the minimum. [ch07, ch12]
+**Cost**: slower, less dramatic.
+**Not when**: illness or overload; reduce load first.

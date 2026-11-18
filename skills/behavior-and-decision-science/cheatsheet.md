@@ -7,6 +7,8 @@ Figures are approximate and not verified; re-test. "Position" = interpretation, 
 |---|---|
 | Judging how good an experience was | Separate lived moments from the remembered story; check ending and peak [ch01] |
 | Predicting your future happiness | Imagine a normal week, not the standout feature [ch01] |
+| Feeling behind or inferior after scrolling | Ask who the reference group is and what they chose to show [ch01] |
+| Motivation gone after a few weeks | Tie action to a value, take a small first step, treat bad days as data [ch07] |
 | Making a long promise or rule | Expect your future self to differ; add humility and an exit [ch01] |
 | Feeling certain | Ask what you would expect to see if you were wrong [ch01] |
 | Overloaded, too many tasks | Accept you will not finish; do the next fastest useful task [ch02] |
@@ -48,6 +50,10 @@ Figures are approximate and not verified; re-test. "Position" = interpretation, 
 | Introverts do better in school or lead better | Observational, single source | Hypothesis [ch09] |
 | 5 positives per negative in couples | Contested | Over-precise [ch09] |
 | Romantic culture fails couples | Position | [ch10] |
+| Feeds cause lower well-being through comparison | Contested | Small, mixed effects [ch01] |
+| Loss framing motivates more than success imagery | Position | Mental-contrasting work is consistent but not proof [ch07] |
+| "Never give up" is sound advice | Position | Survivorship bias; quitting can be healthy [ch11] |
+| Laziness is suppressed feeling or chronic stress | Position | Check sleep, health, load first [ch12] |
 | Three types of failure | Practitioner framework | [ch11] |
 
 ## The Saturation Routine (ch02)

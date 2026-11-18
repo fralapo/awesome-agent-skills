@@ -33,6 +33,15 @@ When to use: in negotiation and conflict, to separate "I have a right" from "thi
 
 **Understand, neither forgive nor condemn.** Understanding is not approval. Dutiful forgiveness is described as presumption (placing oneself on a higher plane) that blocks anger. The model also distinguishes two kinds of peace: with one's own feelings, or with the authority that orders forgiveness.
 
+**Distract, discharge or process (three fates of an unfelt emotion).** In this model an emotion that is not felt is distracted (phone, scrolling, training, work, games, drink), which postpones it and tends to send it out onto other people, or discharged (hitting a bag, shouting), which calms arousal but does not ask what was touched. Processing means pausing, asking what the other person or event woke up in me without assigning blame, tolerating boredom and silence, and often writing it down. Anger and negativity are read as natural mechanisms to be expressed without harming anyone.
+When to use: when explaining why venting or keeping busy brings only temporary relief; in reflection after a conflict ("what did this touch in me?").
+
+**Information does not move a need.** People who drink, smoke, game or use compulsive content generally know it harms them. In this model the behaviour answers an emotional need, so repeating the damage list adds shame and changes nothing, and "putting a finger on the wound" with a person who is dependent backfires; the lever is the need underneath. Apparent inertia can be read the same way: as a sign of chronic stress or unexpressed feeling rather than a defect of will, which is a reason to ask before judging.
+When to use: in communication with someone stuck in a habit (ask what it does for them); in audience insight (health warnings alone rarely work).
+
+**Feelings are time-blind.** The mind is described as not dating its feelings: childhood sensations come back as present ones, so the hurt does not fade with age, a new job or a new partner, and moving far away does not remove it, only awareness does. A related point: a defence formed after a hurt (for example a betrayal) that is never examined spreads to unrelated relationships, for example "leaving first" before being left.
+When to use: to explain why a change of scene or partner repeats the same pattern; to write a character whose old wound runs the present.
+
 ## Key Concepts
 
 - **Rimozione (repression).** Freud's defense, treated here as universal. The child erases what it cannot bear, sometimes whole years, and the terror stays and resurfaces later (panic, depression, obsessions). "Nobody can say 'I remember everything'": whoever has a repression does not know it.
@@ -68,6 +77,9 @@ When to use: in negotiation and conflict, to separate "I have a right" from "thi
 7. **Proximity to authority amplifies anxiety.** The more a person embodies a parental role (rank, fame, judge), the more the child-adult script activates.
 8. **Victim selection.** The model claims bullies pick the psychologically, not physically, fragile, projecting onto them the weak part they hate in themselves, and that a person who does not accept the victim role is chosen less often. This is a claim of the model and risks victim-blaming if applied to real cases.
 9. **Comparison is a trap.** Being good at something is a quality, not the worth of the person. Ranking people by social role puts the other back in the parent's seat.
+
+10. **Ask what the habit is for before asking how to stop it.** Warnings and willpower leave the need in place; look at what the behaviour soothes or avoids (a private hypothesis or a self-question, never a verdict on someone).
+11. **Calming is not processing.** Relief after venting or distraction is real and temporary; the question that processes is "what did this wake up in me?".
 
 ## Applications
 
@@ -121,4 +133,5 @@ When to use: in negotiation and conflict, to separate "I have a right" from "thi
 - **Recovered memories.** Retrieving repressed memories through dreams is psychoanalytic theory and scientifically controversial: memories can be constructed or suggested.
 - **Ideology mixed in.** Opinions on patriarchy and matriarchy, religion and the Church, vegetarianism, free will, drug legalization, politics and gender differences ("men rationalize, women are open to interiority") are interpretations and should not be presented as psychology.
 - **Esoteric content (excluded).** Esoteric beliefs associated with this tradition (the "black/negative astral", entities, reincarnation, chakras, "evolutionary magic", real possession) are excluded here as non-psychological.
+- **Catharsis, information and "laziness".** Mainstream research finds that venting by itself does not reduce anger, which supports the model's point, but information and brief interventions do help some people with substance use, and low drive has many causes (sleep, illness, depression). Loss of control, withdrawal, persistent low mood or intrusive thoughts need a professional. "Time-blind feelings" and "the pain follows you" are interpretive; leaving a harmful situation can genuinely help.
 - **No clinical use.** This chapter is not clinical advice and supports no diagnosis or treatment. Anyone with real symptoms (persistent insomnia, panic, compulsions, disordered eating, substance problems, depression) should see a qualified professional: GP, psychiatrist or licensed psychotherapist.

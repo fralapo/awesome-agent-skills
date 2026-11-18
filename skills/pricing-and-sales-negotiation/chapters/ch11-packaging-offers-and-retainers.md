@@ -27,6 +27,9 @@ Reduce pain while increasing gains. Four tensions:
 - **Replace discounts with bonuses**: low-cost extras (a half-day strategy session) rather than a lower fee.
 - Do not put a nice wrapper on a weak product; the packaging must reflect real difference.
 
+### Scarcity by Selection
+Limited intake windows with a selection step, or a deliberately capped client list, can create urgency and keep growth manageable. Use it only if the limit is real: invented scarcity damages trust. A stable position helps too: build a situation in which you can say no without anything changing for you, and wait for the right proposal.
+
 ## 4. Guarantees and Risk Reversal
 - Use a guarantee at the *end of a hesitant sale* to secure the decision, not as a lead hook.
 - Tie it to a **measurable milestone within a set period**, written into the contract; promise only what you control.

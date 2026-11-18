@@ -61,6 +61,7 @@ LR+ = sens / (1 - spec); LR- = (1 - sens) / spec. Probability -> odds (p/(1-p)) 
 ## Contested Positions
 | Topic | One side | Other side |
 |---|---|---|
+| Persistent back pain | Capacity, fear and inactivity loop; chronic = duration, not irreversible [ch03] | Overstates inactivity; analgesics and surgery have roles [ch03, ch08] |
 | Posture and pain | Weak association; tissues adapt [ch09] | Sustained loads and specific tasks can matter [ch09] |
 | Biomechanics | Findings secondary to pain [ch09] | Movement is the means to change load [ch09] |
 | Imaging | Poor predictor; harmful if routine [ch08] | Needed for specific questions [ch08] |

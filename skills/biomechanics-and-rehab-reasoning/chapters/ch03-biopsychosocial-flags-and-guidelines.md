@@ -54,4 +54,11 @@ In this model a musculoskeletal problem is understood on three levels at once: *
 - **Counter-argument**: some argue that delaying challenge allows harmful beliefs to continue; others that the relationship is itself the intervention. Both can be right in different people.
 - **Does not hold when**: a belief is actively harmful and imminent (for example a person about to undergo an unnecessary procedure) which may justify earlier discussion.
 
+## 3.7 A conceptual model of persistent back pain: capacity, stiffness and fear (position)
+- **Thesis (position)**: in one practitioner model, long-lasting back pain is better read as a mismatch between what the back is asked to do and the capacity it has, plus the fear and avoidance that grow around pain, than as a structure to be repaired.
+- **Mechanism**: "chronic" means lasting beyond about three months, not irreversible. The model proposes that a back that moves little and is little loaded loses capacity (joints and discs are said to depend on movement for their nutrition, and long inactivity is likened to rust), that pain then inhibits movement and fear of movement deepens the loss, and that a gradual return to varied movement within tolerable limits reverses the loop. Imaging shows structure, not function, and abnormalities are common in people without pain (ch08), so a finding does not by itself locate the problem. The model also stresses that medication can lower the pain signal without changing capacity, so relief and recovery are different questions.
+- **Counter-argument (general knowledge)**: analgesics can legitimately make activity possible and are sensible for some people; "inactivity is the main cause" is an over-simplification (pain has many contributors, ch02, ch03.1); the cited proportions of back pain that are "functional" and of cases that resolve are unsourced and are not repeated here; surgery has clear indications (ch06.4, ch08.5).
+- **Trade-off**: a capacity frame is empowering but can sound like blame; pacing and reassurance matter (ch03.6).
+- **Does not hold when**: red flags (ch03.4) or progressive neurological signs; those are for a clinician. This is a reasoning model, not a treatment plan, and gives no exercises or doses.
+
 See ch02 for pain mechanisms, ch08 for imaging, ch10 for the checklist.

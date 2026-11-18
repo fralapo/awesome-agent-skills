@@ -68,8 +68,8 @@ Interests, not positions → objective standards for residual conflict → optio
 |---|-------|----------------|
 | [ch01](references/ch01-marketing-fundamentals.md) | Marketing Fundamentals, Planning & Product Lifecycle | 4Ps, AIDA, mission/vision/values, BCG Matrix, PLC, Diffusion of Innovation, NPD process |
 | [ch02](references/ch02-segmentation-positioning-branding.md) | Segmentation, Targeting, Positioning & Branding | Segmentation criteria, perceptual maps, points of parity/difference, brand architecture, MVS |
-| [ch03](references/ch03-pricing-distribution-promotion.md) | Pricing, Distribution & Promotion | Skimming/penetration/prestige, break-even, distribution intensity, IMC, CPM, media scheduling |
-| [ch04](references/ch04-strategy-competitive-analysis.md) | Strategy vs. Planning & Competitive Analysis | Strategy-as-theory-of-winning, Five Forces, SWOT |
+| [ch03](references/ch03-pricing-distribution-promotion.md) | Pricing, Distribution & Promotion | Skimming/penetration/prestige, break-even, perceived value and revenue architecture, "free", distribution intensity, IMC, CPM, media scheduling |
+| [ch04](references/ch04-strategy-competitive-analysis.md) | Strategy vs. Planning & Competitive Analysis | Strategy-as-theory-of-winning, Five Forces, SWOT, competing as the small player |
 | [ch05](references/ch05-value-proposition-business-model.md) | Value Proposition & Business Model Design | Four U's, BLAC, Three D's, CORE, MVS, Multipliers vs. Levers |
 | [ch06](references/ch06-startup-execution-team-fundraising.md) | Startup Execution, Team, Culture & Fundraising | Founder readiness, the Ungame, hiring frameworks, MAT, fundraising stages |
 | [ch07](references/ch07-sales-negotiation-persuasion.md) | Sales, Negotiation & Persuasion | B2B pipeline, 4 Pillars, Getting to Yes, 10/20/30 pitch rule, CENTER |
@@ -101,6 +101,8 @@ Interests, not positions → objective standards for residual conflict → optio
 - **Negotiation** → ch07
 - **New product development** → ch01
 - **Pricing strategy** → ch03
+- **Perceived value, price signal, "free", subscriptions (churn, CAC vs LTV)** → ch03
+- **Competing against a bigger rival** → ch04
 - **Product life cycle / diffusion of innovation** → ch01
 - **Product marketing / PM careers** → ch09
 - **Product-to-company gap / MVP / CORE** → ch05, ch06

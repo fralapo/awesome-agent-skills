@@ -65,6 +65,11 @@ Dig with the **five whys** (3 to 5 times). Use a hypothetical ("if we removed th
 - Check the client's own numbers (qualified leads, close rate, delivery cost share) so the value is in their terms (ch01).
 - See `public-speaking-persuasion` ch12 for the four levels of question (fact, opinion, impact, change).
 
+### Learning From Buyers After the Sale
+- Ask clients who bought: "What almost stopped you from buying?" The answer exposes the real obstacles in your process and wording.
+- An open post-purchase question (what would you change if you ran this?) can feed offer and product ideas.
+- A pitch should answer, in this order: who the offer is for (and who it is not for), why it is different, what benefits it gives, and why the buyer should give it attention. Being in love with the offer without being able to explain it is a common error.
+
 ### Paid Diagnosis ("Embrace and Pivot")
 Charge for diagnosis, as other professions do. Script: thank the client and acknowledge the request; say you have an approach that helps clients grow and ask if they are curious; ask scaffolding questions (customers, pain points, why they buy from competitors; 20-30 minutes); make the first session free and say so; make the next engagement paid. Strategy can be a value-add for 2-3 iterations and then a separate line item. Do not give away discovery without a case-study or testimonial agreement. If the budget is far below the scope, propose a discovery phase with a smaller fee to define scope and budget together (ch07).
 

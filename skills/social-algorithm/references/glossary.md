@@ -307,3 +307,11 @@ Key terms from the organic personal brand system + IG algorithm archive.
 **RPM (revenue per mille)** — creator earnings per 1,000 views; a dated, niche-dependent order of magnitude (Ch 17)
 
 **Interest graph vs social graph** — distribution by predicted interest versus by who follows whom (Ch 17)
+
+**Platform life cycle** — recurring sequence in which young and light content arrives first, then early adopters, then professionals and ads, while free organic reach narrows (Ch 18)
+
+**Lookalike audience** — a platform-built audience resembling existing customers, reducing the need for a detailed persona (Ch 18)
+
+**Zero-click search** — a search that ends on the results page without a visit to any site (Ch 18)
+
+**Objective per piece** — giving each content piece a single goal (growth, awareness, community, positioning or sales) for later review (Ch 18)

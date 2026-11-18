@@ -16,6 +16,10 @@ Figures are dated reported values or rules of thumb; they are dated snapshots, s
 | Need many label-free features | Pick an objective plus an anti-collapse guard [ch14] |
 | Agent works in demo, fails in use | Trace whole runs; bucket failures; test model, harness and task set [ch15.10] |
 | A paper claims an advance | Ablations, samples, error bars, definitions [ch16] |
+| Agent must succeed every time, not once | Judge with pass-to-the-k, not pass-at-k [ch09.15] |
+| Which adaptation: prompt, retrieval, fine-tune? | Missing knowledge: retrieval; missing behaviour or format: fine-tune [ch08.17] |
+| Agent reads web pages or mail | Treat content as data; least privilege, isolation, approval for irreversible steps [ch15.18] |
+| Token bill keeps growing | Budget, kill switch, stable prompt prefix, cheap model for easy steps [ch15.19] |
 
 ## Maths in One Line Each
 | Idea | Plain meaning | Chapter |
@@ -118,6 +122,15 @@ Figures are dated reported values or rules of thumb; they are dated snapshots, s
 - Distinguish developer reports from independent replication.
 - Alignment, monitoring, containment: three layers; each weakens differently.
 - A reasoning trace is evidence, not a guarantee.
+
+## Added Rules of Thumb
+| Item | Rule | Chapter |
+|---|---|---|
+| Repeated success | p per attempt gives p^k over k required successes (0.9 over five is about 0.59) | ch09.15 |
+| Language cost | Rarer languages need more tokens for the same sentence | ch07.15 |
+| Poisoning | A small, roughly constant document count (one study: about 250) sufficed across sizes | ch11.17 |
+| Detectors of generated text | False positives; style tells are weak evidence | ch10.15 |
+| Steering strength | Too little: nothing; too much: broken fluency | ch11.18 |
 
 ## Estimation Numbers Seen (as reported at the time; re-check)
 | Item | Value | Chapter |

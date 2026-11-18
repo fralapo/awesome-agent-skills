@@ -45,4 +45,11 @@ A network moves bits between machines that share nothing but conventions. In thi
 - **Trade-off**: cost metrics encode policy as well as distance.
 - **Does not hold when**: the networks belong to different organisations that negotiate paths by policy rather than cost.
 
+## 7.8 Addresses, ports and the path of a web request
+- **Thesis**: a web page load is a stack of small, separate agreements: an address, a port, a reliable stream, a request, and a way to remember who you are.
+- **Mechanism**: data travels as packets that routers forward independently and the receiver reassembles. A 32-bit address allows 2^32 (about 4.3 billion) hosts, too few, so many devices share one public address behind address translation, and a 128-bit scheme was designed to replace it. Transport chooses reliability or speed: TCP numbers, acknowledges and resends (reliable, slower to start), UDP sends without guarantees (fast, used where late data is useless). A port number names the service on the host (web traffic conventionally uses two ports, plain and encrypted). Over the stream, HTTP sends a request (GET asks for a resource, POST sends data) and receives a status code (200 success, 403 forbidden, 404 not found, 500 server error; ch10.1). HTTP keeps no memory between requests, so a cookie carries an identifier that the server maps to state (ch9.7). A domain is resolved to an address by DNS (7.6), and the service typically sits behind a rate limit that answers too many requests with an error.
+- **Trade-off**: each layer hides detail and enables reuse; each hides a failure mode that you only meet by descending a layer.
+- **Does not hold when**: a modern transport merges layers (encrypted transport over datagrams), so the textbook layer boundaries blur.
+
+
 See also: `software-architecture` ch13 (TCP, TLS, HTTP versions, port exhaustion in services), ch16 (proxies, timeouts, balancers), ch10 of this skill (application protocols), ch9 (encryption on the wire).

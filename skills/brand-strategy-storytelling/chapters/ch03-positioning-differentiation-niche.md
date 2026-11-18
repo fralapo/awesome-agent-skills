@@ -75,6 +75,12 @@ When revisiting a tired or divested brand, look for the audience the category's 
 - Slides and boards in this process are visual arguments: choose what to show and what to cut, because the audience gives seconds, not hours.
 - Brand = promise. For campaigns and non-profits differentiation matters more, not less, since they compete for attention and donations in a crowded space. A promise that is simple and short is roughly ten times harder to write than a long worthy one.
 
+### 10. Different is easier than better
+Competing to be better than a leader invites a fight on the leader's ground; being different changes the ground. In this model a brand can differ on: price, area, situation of use, demographic, business model, packaging or narrative. If you cannot be first in an existing category, create a new one and be first there.
+- **Own a word**: choose a word in the customer's mind that no competitor holds, and make the brand its shorthand. Perception comes before the product: the same product reads differently under different words. Test candidate words against what competitors already claim.
+- **Keep it fresh**: even an identity that has become taken for granted (a technology that now feels ordinary) needs restating; do not assume the audience remembers what you stand for.
+- Use with the wedge and attribute slider above; hand the claim to `creative-director` for the line.
+
 ## Where teachers disagree
 - **Narrow specialist vs hybrid/T-shaped.** Narrow works best when the market is large and generalists compete on price; hybrid works when the combination itself is rare and nameable. In both cases the market must be able to *name* you in a few words; "multidisciplinary" with no nameable specialty fails.
 - **"Different, not better" vs "good first."** Both agree difference earns the premium; the matrix reconciles them: ignore a gimmick, fix a commodity.

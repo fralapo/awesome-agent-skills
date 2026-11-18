@@ -39,6 +39,10 @@ Audiences admire characters for their struggles more than their success.
 - **Social following as credibility** is harder to fake than a résumé (one view; pair it with proof).
 - Pure originality is rare; most novelty is a new application of an old idea. Learn templates exactly as given first, then deviate after enough repetitions.
 
+### 5b. Credibility formula and what a personal brand is for
+In this model, authenticity plus honesty produce credibility; credibility produces a community, spontaneous requests, clients and then monetisation. The common error is to start from the monetisation end. A personal brand is, in one common definition, what people say about you when you are not in the room; fame is a by-product, and intent shows in the words you choose to be associated with. Declared benefits: differentiation, trust, inbound work, a stronger negotiating position and a parachute when a platform or a job disappears.
+Three confidence habits that support it: train strengths rather than compare yourself, do not measure yourself against the strongest in every field, and remember that confidence does not come in separate compartments.
+
 ### 6. Personal brand first, business brand endorsed
 Build the personal brand first and let it *endorse* the business brand: the authority makes selling unnecessary. Decide where the personal brand ends and the business brand begins. Do not pitch constantly in the personal channel; talk about services only occasionally.
 

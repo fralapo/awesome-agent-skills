@@ -76,5 +76,17 @@ Figures are rules of thumb and dated snapshots; re-test. "Position" = judgment, 
 | Proof of work | agreement without authority | hard to find, easy to verify |
 | Session vs token | state on server vs client | revocation vs scaling |
 
+## Web, Passwords and Learning to Code (ch7.8, ch9.8-9.10, ch12)
+| Item | Rule |
+|---|---|
+| 32-bit address | 2^32 hosts (about 4.3 billion): hence address translation and the 128-bit scheme |
+| Status codes | 200 ok, 403 forbidden, 404 missing, 500 server fault; HTTP itself has no memory (cookie) |
+| Password space | 10^8 for eight digits; 62^8 (about 2.2 x 10^14) for eight alphanumerics; reuse beats length |
+| Credential stuffing | Leaked pair replayed elsewhere: unique password per site plus second factor |
+| Passkey | Device keeps private key, site stores public key; bound to site, so no look-alike phishing |
+| Age-check token | Signed "over threshold", issuer does not see site; metadata still leaks |
+| Media authenticity | Signature proves signer, not truth; watermarks removable; detectors fail on unseen generators |
+| Beginner errors | a == x or y; off-by-one from one-based counting; mutating a shared list; input is text |
+
 ## Patterns (one line each)
 Singleton one instance; prototype clone; builder step-by-step; factory chooses type; facade simple front; proxy intercepts; iterator pulls; observer pushes; mediator hubs; state object per state [ch10].

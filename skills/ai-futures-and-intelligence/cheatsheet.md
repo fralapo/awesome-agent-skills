@@ -98,3 +98,13 @@ Statement, definition, evidence, counter, falsifier, date. Missing falsifier: tr
 | "Share" read as "size" | State which |
 | Undated number | Date it or drop it |
 | Analogy used as proof | List relations and breakpoints |
+
+## Work, Learning, Information, Rights [ch11]
+| Question | Position and evidence type | Falsifier |
+|---|---|---|
+| Will models replace jobs? | Tasks, not occupations; usage data from one product; gap between feasible and used | Multi-year hiring and wage data in exposed jobs |
+| Does AI harm learning? | Free answers help practice, may hurt unaided exams; guided tutors avoid harm (one study) | Long-term unaided assessments |
+| Chatbot as main source | More trust, less checking | Measured checking behaviour |
+| Who sets limits on use? | Supplier terms vs state authority (open) | Durable legal framework |
+| Age check | Mechanism can limit data; harm reduction unproven | Exposure and leakage measured |
+| Training data and likeness | Compensation by output resemblance proposed; attribution unsolved | Working licensing market |

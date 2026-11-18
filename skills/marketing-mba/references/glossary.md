@@ -50,3 +50,5 @@
 **White Space** — an underserved position competitors have left open (Ch2, Ch5)
 **10/20/30 Rule** — 10 slides, 20 minutes, 30-point font minimum, for pitching (Ch7)
 **10X Rule** — multiply your target and required effort by 10x rather than extrapolating cautiously (Ch8)
+**Revenue architecture** — how a firm splits customers and offers (premium vs base, durable vs repeat purchase, subscription) to shape revenue and margin (Ch3)
+**Stuck in the middle** — being average, with neither a cost edge nor a distinct brand, in a crowded market (Ch4)
