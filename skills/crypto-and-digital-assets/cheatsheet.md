@@ -17,6 +17,8 @@ Educational concepts, not advice or forecasts. Figures are dated snapshots or wo
 | Note vs fund vs asset? | Issuer risk vs custody vs key risk [ch06] |
 | Where does the yield come from? | Fees, incentives or hidden risk [ch07] |
 | Does this correlation prove anything? | Control for time; non-overlapping windows; few events [ch08] |
+| Does high funding mean the move is over? | No: funding describes crowding, lags and differs by venue [ch11] |
+| What does open interest show? | Commitment; rising with price means new positions; keep coin and currency units apart [ch11] |
 | Is this a taxable event? | Disposal or income receipt, not holding or own-wallet transfers [ch09] |
 | Is this a scam? | Unsolicited, urgent, irreversible, escalating fees [ch10] |
 
@@ -41,6 +43,7 @@ Educational concepts, not advice or forecasts. Figures are dated snapshots or wo
 | Substitute tax rate (Italy, snapshot 2025) | 26% through 2025; 33% scheduled from 2026 | ch09 |
 | Step-up break-even (Italy, snapshot 2025) | price/cost basis > 3.25 | ch09 |
 | Pyramid arithmetic | 5 invitees per member, level 10 = 9,765,625 people | ch10 |
+| Recovery after a 70% fall | about +233% | ch11 |
 
 ## Formulas
 - Liquidation price = loan / (collateral quantity x threshold) [ch07]
@@ -48,6 +51,7 @@ Educational concepts, not advice or forecasts. Figures are dated snapshots or wo
 - Break-even annual-fee product: fee / cost rate. Over 10 years, 2% a year removes about 18% [ch06]
 - Value levy = 0.2% x final value x days/365 [ch09]
 - Leveraged daily-reset fund: +x then -x gives factor 1 - x^2; at leverage 2, 1 - 4x^2 [ch08]
+- Annualised basis = (futures - spot) / spot x (365 / days to expiry) [ch11]
 
 ## Red Flags (any of these: verify before acting)
 - Yield above the risk-free rate with no explanation [ch05, ch07]
@@ -56,3 +60,4 @@ Educational concepts, not advice or forecasts. Figures are dated snapshots or wo
 - Urgency plus a private deal [ch10]
 - Unlimited token approval request [ch07, ch10]
 - "Proof of reserves" without liabilities [ch05]
+- A liquidation map or a cycle date presented as an observed level or as certain [ch11]

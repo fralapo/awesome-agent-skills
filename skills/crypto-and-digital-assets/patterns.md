@@ -73,3 +73,9 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: simplify to a design you can restore from a written procedure; test it. [ch03, ch04]
 **Cost**: fewer protections.
 **Not when**: holdings justify professional help.
+
+## 13. A market metric as a timing call
+**When**: a funding rate, an open-interest change, a liquidation map or an on-chain band is read as a sign that price will move.
+**Move**: write the definition, source, venue and lag; check the reading against an observed event series; state the falsifier before using it. [ch11]
+**Cost**: less immediate answers.
+**Not when**: the metric is used only to describe current positioning, with no timing claim.

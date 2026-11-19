@@ -52,6 +52,13 @@ In this model, an asset is worth the **cash it will give its owner from now on**
 - **Does not hold when**: no listed peer has a similar business model or growth, or the private firm's figures are unaudited.
 - **Caution**: an IPO price is an agreed price in a placement process; implied values of an early stake are only illustrative and depend on the stake size, the rounds in between and share classes.
 
+## 5.8 Results against expectations and guidance
+- **Thesis**: a price already reflects expected results, so the market reacts to the gap between results and expectations, and to guidance, more than to the level of profit.
+- **Mechanism**: the consensus of analyst estimates is the reference point. A beat or a miss is measured against it, and the reaction depends on the size of the gap and on what the price implied before the release. A company can beat and still fall ("sell the news") when the price had already discounted a beat. Guidance, the company's view of future results, often carries more information than the quarter itself; a beat with a cut to guidance can be read as a weaker future. Revisions to estimates after the release, and the record of past surprises, say more than one quarter.
+- **Trailing versus forward**: a trailing multiple uses the last twelve months of reported figures; a forward multiple uses estimates for the next twelve. A forward multiple far below the trailing one implies expected growth. The estimates are the inputs and can be wrong (`trading-methods-and-technical-analysis` ch09 for screens built on these ratios).
+- **Trade-off**: forward multiples depend on analysts' assumptions; trailing multiples lag the business.
+- **Does not hold when**: the company changes its reporting or definitions so that estimates and actuals are no longer comparable, or when one-off items distort the base.
+
 ## Common mistakes
 - Treating a DCF output as a price target.
 - Comparing multiples across industries with different growth and risk.

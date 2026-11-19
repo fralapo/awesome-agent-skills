@@ -18,6 +18,8 @@ Educational concepts, not advice, signals or forecasts. Parameters are conventio
 | Is this track record credible? | Fixed rules, out-of-sample, costs, number of trades, seller's interest [ch08] |
 | Is this company solid? | Ratios and scores as hints, sector-relative, not for banks [ch09] |
 | How does this leveraged product die? | Barrier, reset, margin call or issuer default [ch10] |
+| How do two structured products compare? | Same thresholds, minimum buffer, coupon yield on market price, scenario grid [ch11] |
+| Does a similar past path predict? | Analog statistics are historical frequencies with a sample size, not a forecast [ch04] |
 
 ## Figures to Keep in Mind (conventions and worked examples)
 | Item | Value | Where |
@@ -39,6 +41,7 @@ Educational concepts, not advice, signals or forecasts. Parameters are conventio
 | Piotroski "strong" | above 6 of 9 | ch09 |
 | Fixed 7x, underlying +2% then -2% | underlying 99.96, product 98.04 | ch10 |
 | Binary 81 win / 100 loss | break-even win rate about 55% | ch10 |
+| Coupon 1% a month | 12% a year before losses (simple, no compounding) | ch11 |
 
 ## Formulas
 - Break-even win rate = 1 / (1 + R); expectancy = p x average win - (1 - p) x average loss - costs [ch06]
@@ -51,6 +54,7 @@ Educational concepts, not advice, signals or forecasts. Parameters are conventio
 - Turbo long price = (underlying - strike) / (parity x FX); leverage ≈ 100 / distance-to-barrier % [ch10]
 - Certificate sizing: notional = max loss / accepted move; capital = notional / leverage [ch10]
 - Range binary yield = (10 - price) / price [ch10]
+- Buffer to a level = (price - level) / price, on the worst underlying; the minimum buffer governs [ch11]
 - Present value = amount / (1 + rate)^years [ch09]
 - Shareholder yield = dividend yield + net buyback yield + net debt reduction [ch09]
 
@@ -61,4 +65,5 @@ Educational concepts, not advice, signals or forecasts. Parameters are conventio
 - "Each confirmation adds ten points" [ch08]
 - Seasonal win rate with no count of windows scanned [ch04]
 - Barrier chosen far away "to avoid being stopped" [ch10]
+- Headline coupon compared without thresholds, memory, call terms and issuer [ch11]
 - Performance shown by the seller of the product or indicator [ch08]

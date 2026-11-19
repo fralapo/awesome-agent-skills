@@ -42,6 +42,13 @@ In this model, fundamental screening answers **"what is worth watching"** and te
 - **Mechanism**: in the US, insiders report trades on a standard form within days; open-market purchases with own money (code P) are the most informative; awards, option exercises and sales (often for taxes or personal spending) much less. Clusters of several insiders buying, small capitalisations, a fallen price and growing fundamentals are the combination studies tend to highlight (general knowledge). Screens add minimum capitalisation (liquidity), positive earnings, debt limits and positive margins; a first profitable quarter is a moment to analyse, not a signal. A qualitative ten-question scorecard for intangible-heavy firms (hard to copy, word of mouth, crisis survival, R&D above marketing, low turnover, succession, recurring revenue, pricing power, steady growth, room to grow) addresses the accounting fact that R&D is expensed at once, understating earnings of heavy investors.
 - **Does not hold when**: scores are produced by a tool or a language model without inspection of the inputs.
 
+## 9.9 Growth-adjusted sales multiples for loss-making firms
+- **Thesis**: when earnings are negative, a multiple of sales, compared with the firm's own history and with peers, replaces the earnings ratios that cannot be computed.
+- **Mechanism**: enterprise value = market capitalisation + financial debt - cash. EV/Sales = enterprise value / revenue over the last twelve months (or forward estimates). Read it against a multi-year median and against firms with similar margins. The Rule of 40 adds revenue growth (%) to a profit margin (%, often the free-cash-flow margin); a sum above 40 is a common heuristic for a healthy balance of growth and profit, mostly applied to software and tech. It does not fit low-growth utilities.
+- **Position**: a high sales multiple is justified only by expected growth plus a margin that rises to a level stated in advance. The multiple is therefore a question about what the price assumes, not a verdict. The Rule of 40 has weak empirical backing in this model; use it as a question, not a threshold.
+- **Trade-off**: sales ignore cost structure, so two firms with the same sales multiple can differ widely in what they must earn.
+- **Does not hold when**: the firm is a bank or insurer (enterprise value has no clear meaning for them), or revenue is one-off, grossed up or recognised ahead of delivery (9.2).
+
 ## Common mistakes
 - Treating a threshold from one presentation as a standard.
 - Applying solvency or manipulation scores to banks and insurers.

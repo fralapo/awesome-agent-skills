@@ -1,6 +1,6 @@
 ---
 name: crypto-and-digital-assets
-description: "Conceptual knowledge of crypto-assets, not advice and not forecasts: blockchain, UTXO and account models, Bitcoin issuance, halving, mining and security, wallets and custody (seed phrase, passphrase, derivation paths, recovery testing, custodial versus self-custody), Lightning and payment channels, exchange and lender failures as case cards, notes and funds versus holding the asset, DeFi (stablecoin pegs, automated market makers, liquidation, staking, impermanent loss), price drivers and why cycle and supply claims are statistically weak, tax and reporting concepts with a dated Italy snapshot, and scams and security hygiene (impersonation, deepfakes, phishing, second factors). Use when the user asks how a crypto mechanism works, what a risk is, how to test a claim about cycles or supply, how custody options compare, how a failure happened, or what reporting duties look like in concept. No recommendations, no price forecasts."
+description: "Conceptual knowledge of crypto-assets, not advice and not forecasts: blockchain, UTXO and account models, Bitcoin issuance, halving, mining and security, wallets and custody (seed phrase, recovery testing, custodial versus self-custody), Lightning and payment channels, exchange and lender failures as case cards, notes and funds versus holding the asset, DeFi (stablecoin pegs, automated market makers, liquidation, staking, impermanent loss), derivatives and on-chain descriptors (funding, open interest, liquidations, realised-price bands, flows) with cycle claims as testable hypotheses, risk management for volatile assets, tax concepts (dated Italy snapshot), and scams and security hygiene. Use when the user asks how a crypto mechanism works, what a risk is, how to test a claim about cycles or supply, how custody options compare, how a failure happened, or what a market metric measures. No recommendations, no price forecasts."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [mechanism, risk, claim to test, case, or chapter number]
 ---
 
 # Crypto-Assets and Digital Assets
-**Chapters**: 10 | **Corpus**: a synthesis of theoretical material on crypto-assets and digital finance | **Generated**: 2026-11-14
+**Chapters**: 11 | **Corpus**: a synthesis of theoretical material on crypto-assets and digital finance | **Generated**: 2026-11-14
 
 ## Role and Boundaries
 
@@ -46,6 +46,7 @@ Diagnose first: is the question a mechanism, a risk comparison, a claim to test,
 | Do halvings or cycles predict price? Is waiting for a dip better? Leverage and hedging | [ch08](chapters/ch08-price-drivers-statistics-and-weak-tests.md) | `scientific-thinking` |
 | What is taxable? Reporting duties? Step-up logic? | [ch09](chapters/ch09-taxation-and-reporting-concepts.md) | `personal-finance-italy` |
 | Phishing, deepfakes, pyramid schemes, 2FA | [ch10](chapters/ch10-scams-and-security-hygiene.md) | ch03 |
+| Funding, open interest, liquidation cascades, on-chain holder and realised-price metrics, fund flows, cycle hypotheses, sizing volatile assets | [ch11](chapters/ch11-derivatives-on-chain-descriptors-and-cycle-hypotheses.md) | ch08, ch05 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -62,6 +63,7 @@ Diagnose first: is the question a mechanism, a risk comparison, a claim to test,
 10. **Scams run on urgency and irreversible payment.** Verify through a channel you opened.
 11. **Rehearse with worthless coins.** Untested procedures fail.
 12. **A secret nobody can recover is a loss waiting to happen.** Plan succession.
+13. **Leverage shows up in funding, open interest and liquidations.** Read each with its definition, venue and lag.
 
 ## Chapter Index
 
@@ -75,6 +77,7 @@ Diagnose first: is the question a mechanism, a risk comparison, a claim to test,
 8. [Price drivers, statistics and weak tests](chapters/ch08-price-drivers-statistics-and-weak-tests.md)
 9. [Taxation and reporting concepts](chapters/ch09-taxation-and-reporting-concepts.md)
 10. [Scams and security hygiene](chapters/ch10-scams-and-security-hygiene.md)
+11. [Derivatives and on-chain descriptors, and cycles as hypotheses](chapters/ch11-derivatives-on-chain-descriptors-and-cycle-hypotheses.md)
 
 ## Topic Index
 
@@ -82,6 +85,13 @@ Diagnose first: is the question a mechanism, a risk comparison, a claim to test,
 - **AMM, slippage, impermanent loss** -> ch07
 - **Cost basis, lot matching, step-up** -> ch09
 - **Custodial vs self-custody** -> ch03, ch05
+- **Funding rate, open interest, liquidation cascades, basis, skew** -> ch11
+- **Realised price, MVRV, long-term holders, supply in profit or loss** -> ch11
+- **Exchange balances, stablecoin supply as a proxy (position)** -> ch11
+- **ETF creations and redemptions, cumulative flows, filing lag** -> ch06, ch11
+- **Dominance and rotation (position)** -> ch11
+- **Cycle claims, falsifiers, event lag** -> ch08, ch11
+- **Loss budget, position cap, drawdown planning for volatile assets** -> ch08, ch11
 - **Death spiral, algorithmic stablecoin** -> ch07, ch05
 - **Deepfake, impersonation, phishing** -> ch10
 - **Derivation path, passphrase, seed phrase** -> ch03

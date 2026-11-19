@@ -23,6 +23,8 @@ Educational concepts and history, not advice or forecasts. Figures are dated sna
 | What is a leveraged or structured product really? | Daily reset and wipe-out threshold; barrier cliff and issuer risk [ch07] |
 | How long will a withdrawal plan last? | Real net return, horizon-dependent rate, sequence risk, left tail [ch14] |
 | Is a high yield or promised return real? | Name the risk paid; trace the counterparty; check for new-money dependence [ch06, ch10] |
+| Is this commentary or forecast reliable? | Dated and recorded? Scored record? Base rate? Incentive? [ch15] |
+| Did the results beat the stock? | Against consensus and guidance, not against last year; the price may already discount it [ch05] |
 
 ## Figures to Keep in Mind (dated, context-bound)
 | Statistic | Value | Where |
@@ -47,6 +49,7 @@ Educational concepts and history, not advice or forecasts. Figures are dated sna
 | Wipe-out day for a daily-reset product x2 / x3 / x5 | fall of 50% / 33% / 20% | ch07 |
 | Duration 6, yield +1 point | price about -5.8% | ch06 |
 | Initial withdrawal rate calibrated to 30 years / to 50 years (this model) | about 4% / about 2% or somewhat more | ch14 |
+| Calibration check for a stated 70% | about 7 hits in 10 across many judgements | ch15 |
 
 ## Option Greeks
 | Greek | Measures | Note |
@@ -68,6 +71,7 @@ Educational concepts and history, not advice or forecasts. Figures are dated sna
 | Rights value | ex-rights price - subscription price | ch12 |
 | Portfolio variance (2 assets) | `w1^2 V1 + w2^2 V2 + 2 w1 w2 Cov` | ch12 |
 | Required capital | spending / withdrawal rate | ch14 |
+| Forward versus trailing multiple | forward = price / next-year estimate; trailing = price / last twelve months | ch05 |
 
 ## Fraud Quick Signs
 Smooth high returns; opaque revenue; non-standard adjusted metrics; critics attacked; authority instead of evidence; urgency and secrecy; one person controls trading and settlement; dependence on new money; a fee to release funds; a famous face in an advertisement; a token that pays referrals.

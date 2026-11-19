@@ -1,6 +1,6 @@
 ---
 name: economics-finance
-description: "Macro, micro and finance reasoning for analysts, students and decision makers: how banks create money; central banks, rates, QE and monetary finance; inflation (measurement, money, demand, supply, schools of thought); public debt sustainability; exchange rates, pegs, gold standard, dollarization; banking, sovereign, property and currency crises; housing and rent control; market basics (demand and supply, surplus, externalities, commons, monopoly, asymmetric information); growth and development (institutions, resource curse, aid, demography); international trade (comparative advantage, tariffs versus quotas, sanctions); dated country case sheets. Use when the user asks why prices, rents, rates, debt, a currency or a country move, wants a policy evaluated, is reading a crisis or development story, or wants the strongest case on each side. Separates mechanism from contested position. No investment advice or forecasts."
+description: "Macro, micro and finance reasoning for analysts, students and decision makers: how banks create money; central banks, rates, QE and monetary finance; inflation (measurement, money, demand, supply, schools of thought); public debt sustainability; exchange rates, pegs, gold standard, dollarization; banking, sovereign, property and currency crises; housing and rent control; market basics (demand and supply, surplus, externalities, commons, monopoly, asymmetric information); growth and development (institutions, resource curse, aid, demography); trade (comparative advantage, tariffs versus quotas, sanctions); macro indicators and market transmission (real rates, curve shape, carry unwinds, implied probabilities); dated country case sheets. Use when the user asks why prices, rents, rates, debt, a currency or a market move, wants a policy evaluated, is reading a crisis or development story, or wants the strongest case on each side. Separates mechanism from contested position. No investment advice or forecasts."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [question, policy, mechanism, or chapter number]
 ---
 
 # Economics and Finance
-**Chapters**: 13 | **Generated**: 2026-11-13
+**Chapters**: 14 | **Generated**: 2026-11-13
 
 ## Role and Boundaries
 
@@ -49,6 +49,7 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 | Comparative advantage, tariffs versus quotas, sanctions, export bans, "trade kills jobs" | [ch12](chapters/ch12-international-trade-comparative-advantage-tariffs-and-sanctions.md) | ch05, ch10 |
 | One country's rise or fall (oil states, banking collapse, stagnation, hyperinflation) | [ch13](chapters/ch13-country-case-sheets.md) | ch11, ch06 |
 | Judging any claim; incentives; consensus map; reading evidence | [ch09](chapters/ch09-how-to-reason-in-economics.md) | any |
+| Why did rates, the curve, a currency or an asset move; real rates; carry unwinds; oil and inflation; reading an indicator | [ch14](chapters/ch14-macro-indicators-and-how-shocks-reach-markets.md) | ch02, ch03, ch05 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -69,6 +70,7 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 14. **Comparative, not absolute, advantage drives trade**; gains are aggregate, so name the losers and who captures a barrier's rent.
 15. **Institutions and incentives sit under growth**; a resource, a loan or an aid grant helps only where rules turn it into capital.
 16. **A country story is a case sheet, not a proof**: facts, proposed causes, evidence, contested points.
+17. **Markets react to surprises and to the expected policy path**, not to levels alone; name the channel before the asset.
 
 ## Chapter Index
 
@@ -85,6 +87,7 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 11. [Growth and development: institutions, resources, aid and demography](chapters/ch11-growth-and-development-institutions-resources-aid-and-demography.md)
 12. [International trade: comparative advantage, tariffs, quotas and sanctions](chapters/ch12-international-trade-comparative-advantage-tariffs-and-sanctions.md)
 13. [Country case sheets](chapters/ch13-country-case-sheets.md)
+14. [Macro indicators and how shocks reach markets](chapters/ch14-macro-indicators-and-how-shocks-reach-markets.md)
 
 ## Topic Index
 
@@ -110,6 +113,13 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 - **Property bust channels (investment, consumption, sentiment)** → ch06
 - **Rent control evidence, public housing, Vienna** → ch08
 - **Zero lower bound** → ch02
+- **Carry trade, funding-currency unwind, correlation spikes** → ch14, ch05
+- **Curve steepening (bull and bear), inverted curve** → ch14, ch02
+- **Market-implied probabilities, consensus surprise, tone versus move** → ch14, ch02
+- **Real rates, discount rate, duration of equities, gold and real rates** → ch14
+- **Shock taxonomy, stagflation, oil and inflation chain** → ch14, ch03
+- **Macro indicator families, first print versus revision** → ch14
+- **Dollar as global financial condition** → ch14, ch05
 - **Adverse selection, propitious selection, group insurance** → ch10
 - **Aid, big push, poverty traps** → ch11
 - **Brain drain, fertility, ageing** → ch11

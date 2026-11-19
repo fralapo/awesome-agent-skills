@@ -73,3 +73,9 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: find its death event (barrier, reset, margin call, issuer default), its daily cost, the notional behind it, and its liquidity in stress; read the key information document. [ch10]
 **Cost**: fewer products pass.
 **Not when**: the exposure is a small, defined-loss amount the holder is willing to lose entirely.
+
+## 13. Two structured products on one screen
+**When**: products are compared by coupon, or one is chosen over another.
+**Move**: put thresholds, minimum buffer, coupon yield on market price, call structure and fees in one table; run the same scenario grid for each; compare the grid with a plain holding of the weakest underlying. [ch11]
+**Cost**: slower and less exciting.
+**Not when**: the products have identical terms and issuer and differ only in size.

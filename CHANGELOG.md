@@ -2,6 +2,11 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.33.0 (2026-11-19)
+
+- `coding-with-agents` gains ch07 (context engineering and agent harness design: context as a budget, load/retrieve/externalize/compact/isolate, tool design, sub-agents, memory) and ch08 (evals, observability and production agents: eval design, judge pitfalls, tracing, failure taxonomy, retrieval quality, agent security); `ai-ml-concepts` ch15 and `software-engineering-practice` ch09 extended.
+- `trading-methods-and-technical-analysis` gains ch11 (scanning and comparing structured products) plus extensions to ch04, ch09 and ch10; `crypto-and-digital-assets` gains ch11 (derivatives, on-chain descriptors, cycle hypotheses); `economics-finance` gains ch14 (macro indicators and how shocks reach markets); `investing-and-financial-history` gains ch15 (reading market commentary and forecasts critically) plus ch05 extension. Educational only: no levels, signals or recommendations.
+
 ## 1.32.0 (2026-11-18)
 
 - New skill `pc-hardware-fundamentals` (6 chapters, cheatsheet, glossary): evergreen mechanisms of power supplies, CPU, memory, GPU and upscaling, storage, cooling, benchmarks, buying and building method, market dynamics, home security and backups. No models, prices or brand recommendations.

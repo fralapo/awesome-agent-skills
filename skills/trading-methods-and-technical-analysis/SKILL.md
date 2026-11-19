@@ -1,6 +1,6 @@
 ---
 name: trading-methods-and-technical-analysis
-description: "Conceptual knowledge of how trading and market analysis reason, not advice, not signals, not forecasts: trend and market structure, support and resistance, breakouts, volume, what moving averages and oscillators measure, candlesticks, chart figures, Ichimoku, seasonality and its statistics, COT positioning and sentiment, strategy families with rules and invalidation (trend following, mean reversion, breakout, pair and long-short, momentum, intraday), stops, reward-to-risk, position sizing, leverage, correlation and drawdown, trader psychology, backtest validation and claimed versus verified results, fundamental screening (Z-Score, Piotroski, Beneish, fair value) with inconsistent thresholds flagged, and options, turbos and barrier certificates as mechanisms and risks. Use when the user asks how an indicator or pattern works, what a strategy's rules and failure modes are, how to size a position, whether a backtest or track record is credible, or how a leveraged product pays and fails."
+description: "Conceptual knowledge of how trading and market analysis reason, not advice, not signals, not forecasts: trend and market structure, support and resistance, breakouts, volume, what moving averages and oscillators measure, candlesticks, chart figures, Ichimoku, seasonality and its statistics, COT positioning, analog statistics and composite sentiment readings, strategy families with rules and invalidation (trend, mean reversion, breakout, pair, momentum, intraday), stops, reward-to-risk, sizing, leverage, correlation and drawdown, trader psychology, backtest validation and claimed versus verified results, fundamental screening (Z-Score, Piotroski, Beneish, fair value, EV/Sales) with inconsistent thresholds flagged, and options, turbos and barrier certificates, and a scan of structured products. Use when the user asks how an indicator or pattern works, what a strategy's rules and failure modes are, how to size a position, whether a backtest is credible, or how a leveraged or structured product pays and fails."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [indicator, pattern, strategy, risk calculation, claim to test, p
 ---
 
 # Trading Methods and Technical Analysis
-**Chapters**: 10 | **Corpus**: a synthesis of educational material on trading methods, technical and fundamental screening, and leveraged products | **Generated**: 2026-11-16
+**Chapters**: 11 | **Corpus**: a synthesis of educational material on trading methods, technical and fundamental screening, and leveraged products | **Generated**: 2026-11-16
 
 ## Role and Boundaries
 
@@ -42,13 +42,14 @@ Diagnose first: is the question about a measure, a pattern, a rule, a calculatio
 | "Is it in a trend? Where is support? Is this breakout real?" | [ch01](chapters/ch01-market-structure-trend-and-levels.md) | ch03, ch05 |
 | What RSI, MACD, stochastic, ATR, ADX or a moving average measures; divergences | [ch02](chapters/ch02-moving-averages-oscillators-and-volatility.md) | ch05, ch08 |
 | Candles, head and shoulders, triangles, Ichimoku, cycles, Fibonacci | [ch03](chapters/ch03-candlesticks-chart-patterns-and-ichimoku.md) | ch01, ch08 |
-| Seasonality, COT report, retail sentiment, sector rotation | [ch04](chapters/ch04-seasonality-positioning-and-sentiment.md) | ch08 |
+| Seasonality, COT report, retail sentiment, sector rotation, analog statistics, composite readings | [ch04](chapters/ch04-seasonality-positioning-and-sentiment.md) | ch08 |
 | Rules and invalidation of trend, mean-reversion, breakout, pair, momentum, intraday methods | [ch05](chapters/ch05-strategy-families-rules-and-invalidation.md) | ch06, ch08 |
 | Stops, targets, reward-to-risk, size, leverage, correlation, drawdown | [ch06](chapters/ch06-risk-management-and-position-sizing.md) | ch07, ch10 |
 | Discipline, cutting losses, panic, hindsight, routines | [ch07](chapters/ch07-trader-psychology-and-discipline.md) | ch06 |
 | "Is this backtest or track record credible?" What the evidence says | [ch08](chapters/ch08-validation-backtests-and-claimed-results.md) | `investing-and-financial-history` ch13 |
 | Ratios, Z-Score, Piotroski, Beneish, fair value, shareholder yield, insiders | [ch09](chapters/ch09-fundamental-screening-and-accounting-red-flags.md) | `investing-and-financial-history` ch05 |
 | Options, turbos, fixed leverage, barrier and binary certificates, margin products | [ch10](chapters/ch10-options-certificates-and-leveraged-products.md) | ch06, `investing-and-financial-history` ch07 |
+| Side-by-side scan of structured products: thresholds, buffers, coupon basis, scenario grid, checklist | [ch11](chapters/ch11-scanning-and-comparing-structured-products.md) | ch10, ch06 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -78,13 +79,18 @@ Diagnose first: is the question about a measure, a pattern, a rule, a calculatio
 8. [Validation, backtests and claimed results](chapters/ch08-validation-backtests-and-claimed-results.md)
 9. [Fundamental screening, fair value and accounting red flags](chapters/ch09-fundamental-screening-and-accounting-red-flags.md)
 10. [Options, certificates and leveraged products: mechanism and risk](chapters/ch10-options-certificates-and-leveraged-products.md)
+11. [Scanning and comparing structured products: a reading procedure](chapters/ch11-scanning-and-comparing-structured-products.md)
 
 ## Topic Index
 
 - **ADX, Parabolic SAR, Bollinger bands** -> ch02
 - **Altman Z-Score, Piotroski F-Score, Beneish M-Score** -> ch09
 - **ATR stops and targets** -> ch02, ch06
-- **Autocall, memory, worst-of, airbag, cash collect** -> ch10
+- **Autocall, memory, worst-of, airbag, cash collect** -> ch10, ch11
+- **Analog statistics, pattern matching (position)** -> ch04
+- **Composite oscillators, correlated components** -> ch04
+- **Buffer, coupon basis, record date, quanto, fixing, scenario grid** -> ch11
+- **EV/Sales, Rule of 40 for loss-making firms** -> ch09
 - **Backtest, overfitting, walk-forward, data snooping** -> ch08
 - **Break-even win rate, expectancy** -> ch06, ch08
 - **Breakout, false break, retest** -> ch01, ch05

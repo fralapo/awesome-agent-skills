@@ -1,6 +1,6 @@
 ---
 name: investing-and-financial-history
-description: "Conceptual and historical investing knowledge, not advice: risk and return, market efficiency and price formation, factors and stock picking, diversification and asset allocation (rebalancing, costs), DCF and multiples, bonds (pricing, duration, inflation-linked, callable, credit) and the yield curve and QE, options, leveraged and structured products (mechanism only), behavioural finance, bubbles and crises with case cards, fraud, Ponzi schemes and impersonation, decisions under uncertainty, financial mathematics (compounding, IRR, NPV, drawdown), how to read a backtest (overlapping windows, survivorship, effect size), and retirement saving and decumulation (withdrawal rates, sequence risk). Use when the user asks why a market, bubble, crash or fraud happened, how an instrument works, how to compare returns, whether a study or backtest is reliable, what the evidence says on index funds or value, or wants both sides of a contested claim. No recommendations, no forecasts."
+description: "Conceptual and historical investing knowledge, not advice: risk and return, market efficiency and price formation, factors and stock picking, diversification and asset allocation, DCF, multiples and results against expectations, bonds and the yield curve, options and leveraged or structured products (mechanism only), behavioural finance, bubbles and crises with case cards, fraud and Ponzi schemes, decisions under uncertainty, financial mathematics, how to read a backtest, retirement saving and decumulation, and how to read market commentary and forecasts critically (conflicts, dated claims, track records). Use when the user asks why a market, bubble or fraud happened, how an instrument works, how to compare returns, whether a study or commentary is reliable, what the evidence says on index funds or value, or wants both sides of a contested claim. No recommendations, no forecasts."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [concept, historical case, claim to test, or chapter number]
 ---
 
 # Investing and Financial History
-**Chapters**: 14 | **Corpus**: theoretical transcripts, extended with applied-finance material | **Generated**: 2026-11-14
+**Chapters**: 15 | **Corpus**: theoretical transcripts, extended with applied-finance material | **Generated**: 2026-11-14
 
 ## Role and Boundaries
 
@@ -41,7 +41,7 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 | Value, factors, stock picking, active funds: both sides | [ch03](chapters/ch03-factors-value-and-stock-picking.md) | ch02, ch11 |
 | Diversification, how many stocks, home bias, stock-bond mix | [ch04](chapters/ch04-diversification-and-asset-allocation.md) | ch01, ch03 |
 | Rebalancing, equal vs cap weight, lump sum vs staged entry, hedged funds, fund costs, accumulating vs distributing, buckets by horizon | [ch04](chapters/ch04-diversification-and-asset-allocation.md) (4.7-4.14) | ch12, ch13, ch14 |
-| DCF, P/E, multiples, "is it cheap?" | [ch05](chapters/ch05-valuation-dcf-and-multiples.md) | ch02, ch09 |
+| DCF, P/E, multiples, "is it cheap?", results against consensus and guidance (5.8) | [ch05](chapters/ch05-valuation-dcf-and-multiples.md) | ch02, ch09 |
 | Bonds, yield curve inversion, QE | [ch06](chapters/ch06-bonds-yield-curve-and-qe.md) | `economics-finance` |
 | Bond price and yield, accrued interest, duration, bond funds vs single bonds, inflation-linked, callable and step-up, credit and currency risk | [ch06](chapters/ch06-bonds-yield-curve-and-qe.md) (6.7-6.14) | ch12, ch14 |
 | Options, covered calls, the Greeks (mechanism) | [ch07](chapters/ch07-derivatives-and-options-mechanics.md) | ch09 |
@@ -53,6 +53,7 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 | Compounding, annualising, IRR/NPV, log returns, drawdown, volatility, CAPE, adjusting price series | [ch12](chapters/ch12-financial-mathematics-returns-and-uncertainty.md) | ch05, ch13 |
 | Is this backtest or study reliable? Overlapping windows, survivorship, tests, market timing | [ch13](chapters/ch13-backtesting-and-historical-evidence.md) | ch02, ch03, `scientific-thinking` |
 | FIRE, withdrawal rates, sequence risk, pension fund vs direct investing, annuities | [ch14](chapters/ch14-retirement-saving-and-decumulation.md) | ch04, ch12 |
+| Is this commentary, forecast or promotion reliable? Dated levels, track record, base rates, conflicts, source quality | [ch15](chapters/ch15-reading-market-commentary-and-forecasts-critically.md) | ch11, ch13, `trading-methods-and-technical-analysis` ch08 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -72,6 +73,7 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 13. **A yield above the market is the price of a risk.** Ask which risk before calling it a bargain.
 14. **Count independent observations, not windows.** Overlap, survivorship and many tried rules inflate a backtest.
 15. **Saving is a right-tail problem, withdrawing a left-tail one.** The order of returns matters once money leaves.
+16. **Commentary is evidence about its speaker.** A forecast counts only when it was recorded, dated and scored.
 
 ## Chapter Index
 
@@ -89,6 +91,7 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 12. [Financial mathematics, returns and uncertainty of estimates](chapters/ch12-financial-mathematics-returns-and-uncertainty.md)
 13. [Backtesting and historical evidence: how to read a study](chapters/ch13-backtesting-and-historical-evidence.md)
 14. [Retirement saving and decumulation](chapters/ch14-retirement-saving-and-decumulation.md)
+15. [Reading market commentary and forecasts critically](chapters/ch15-reading-market-commentary-and-forecasts-critically.md)
 
 ## Topic Index
 
@@ -134,6 +137,9 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 - **Sequence-of-returns risk, withdrawal rates, Monte Carlo** -> ch14
 - **Stock skew, catastrophic loss, concentration** -> ch03, ch04
 - **Volatility versus risk** -> ch01, ch12
+- **Commentary, dated claims, conflicts of interest, forecast track record, base rates** -> ch15
+- **Guidance, sell the news, consensus expectations, trailing vs forward multiples** -> ch05, ch15
+- **Source quality, transcription and unit errors in secondary sources** -> ch15, ch13
 
 ## Related Skills
 

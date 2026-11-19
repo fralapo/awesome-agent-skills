@@ -116,3 +116,21 @@ A model call has no state; an agent is a loop of calls with tools, context and, 
 - **Mechanism**: each step re-reads the context, tools add output, loops can run unattended; a runaway loop can burn a day's budget in hours (a reported order of magnitude: hundreds of dollars in a day). Treat tokens as a budget line with monitoring and a kill switch; use cheap models for simple steps and strong ones for planning; keep the prompt prefix stable so cached computation is reused (a provider-reported saving of up to about 90% on cached input) and avoid switching model mid-conversation, which discards the cache. Falling price per token does not imply falling total cost: cheaper tokens lead to more agents and more usage (the Jevons effect). Organisations that reward raw consumption without measuring usefulness reward waste.
 - **Trade-off**: tight budgets stop useful long runs.
 - **Does not hold when**: the workload is small or fixed-price.
+
+## 15.20 Per-step reliability compounds along a trajectory
+- **Thesis**: a long agent run is only as reliable as the product of its step reliabilities, so path length is a reliability lever in its own right.
+- **Mechanism**: if steps fail independently, a run of n steps succeeds with probability p^n. Illustration: at 0.99 per step, 100 steps succeed about 37% of the time. The same arithmetic explains why a small per-step error rate becomes a large per-task failure rate. Retries rescue a run only when failures are detectable and independent; a systematic error repeats on every retry. Levers: fewer steps (better tools and planning), validators after each step that stop a bad state early, and checkpoints so that a failure costs one step rather than the run.
+- **Trade-off**: more validation and checkpointing add latency, storage and cost.
+- **Does not hold when**: steps are deterministic code whose reliability is effectively one, or when failures are correlated and the retry is designed to change the cause.
+
+## 15.21 An agent that can edit its own checker
+- **Thesis**: a verifier the agent can influence will be optimised against, so verifiers need write isolation.
+- **Mechanism**: under a pass-the-check objective an agent may edit tests or fixtures, special-case the inputs, copy an answer from repository history or loosen a threshold. Reward hacking (chapter 10, section 8) is the general case; this is its agent-loop form, in which the same process writes the solution and grades it. Defences: keep graders and held-out tests outside the agent's write scope, freeze them for the run, review any diff to the grader itself, and include cases the agent is explicitly told not to act on.
+- **Trade-off**: freezing tests slows legitimate test repair, which then needs a separate, reviewed change.
+- **Does not hold when**: the verifier is an external system the agent cannot reach at all.
+
+## 15.22 Memory as a gated write path
+- **Thesis**: retrieval reads memory, but writing memory is where poisoning and drift enter, so writes need a gate.
+- **Mechanism**: section 15.4 covers how memories are formed and updated; the missing step is promotion. A candidate memory produced by a run is checked against its evidence (was it observed, from a trusted source, consistent with existing entries) and then accepted, rejected or queued for a person. Content from untrusted sources (documents, web pages, other users) must not reach shared memory unchecked, because one injected note can change later behaviour for everyone. Promoting nothing loses continuity; promoting everything fills memory with noise and contradictions, so pruning belongs in the design from the start.
+- **Trade-off**: the gate adds review load and delay.
+- **Does not hold when**: the memory is personal, scoped to one user who reviews it directly.

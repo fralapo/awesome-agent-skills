@@ -151,3 +151,9 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: compare free cash flow with profit; check asset lives, buybacks versus flat sales, dilution and who funds the customer; then ask what the price already assumes. [ch05.6, ch09 Card I]
 **Cost**: no instant verdict.
 **Not when**: the firm is too small or too new for the accounts to say much.
+
+## 26. A forecast in a commentary
+**When**: a target, a dated call or a "likely" claim is used to justify a view.
+**Move**: check whether it was recorded with date, horizon and probability; score it against the speaker's record; compare the claim with the base rate; note the speaker's incentive; name the observable that would falsify the mechanism. [ch15]
+**Cost**: less quotable.
+**Not when**: the claim is a contract term or an accounting identity, which can be checked directly.

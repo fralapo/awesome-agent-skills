@@ -141,3 +141,9 @@ For an individual household: compare yearly cash flows (rent vs owner costs plus
 **Move**: compare each side's exposure (trade share of GDP, market dependence), relocation arithmetic (wage gap versus tariff, time to rebuild supply chains), margins, and the counter-levers (export restrictions on inputs, bond sales). Treat "it will be reversed" as a prediction, not a fact. [ch12.9, ch05.11]
 **Cost**: no clean verdict.
 **Not when**: the question is only who pays at the border (ch12.2).
+
+## 24. A market moved on a macro release
+**When**: an asset move is attributed to one data release or to one central-bank sentence.
+**Move**: compare the reading with consensus and with its revision; sort the shock family; name the channel (discount rate, policy path, currency); check what was already priced. [ch14]
+**Cost**: a less tidy story.
+**Not when**: the question is about the level of a series, not about a market reaction.

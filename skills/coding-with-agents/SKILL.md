@@ -1,6 +1,6 @@
 ---
 name: coding-with-agents
-description: "Practical theory for building software with AI coding agents (automatic programming), written for designer-developers and product builders. Use whenever the user builds, reviews, tests or maintains code with an agent or chat model, decides how much to delegate or read, writes a spec or instructions file for an agent, asks how to verify AI-generated code (differential and random testing, invariants, observability, agentic QA), worries about software quality, complexity, dependencies, rewrites or technical debt, asks what skills or career moves matter in the AI era (juniors, seniors, learning methods, mentoring, fatigue), or needs to understand how LLMs behave (sampling and temperature, reasoning, token cost, caching, model and vendor choice, local versus hosted, tool use, unattended-agent safety, basic security of generated code such as authentication). Separates technical facts from positions and forecasts. Works with ux-ui-expert, workshop-facilitation and pricing-and-sales-negotiation."
+description: "Practical theory for building software with AI coding agents, for designer-developers and product builders. Use whenever the user builds, reviews, tests or maintains code with an agent or chat model, decides how much to delegate or read, writes a spec or instructions file for an agent, asks how to verify AI-generated code (differential testing, invariants, agentic QA), worries about software quality, complexity, dependencies, rewrites or technical debt, asks what skills or career moves matter in the AI era (juniors, seniors, learning methods, mentoring, fatigue), or needs to understand how LLMs behave (sampling, reasoning, token cost, caching, model choice, local versus hosted, tool use, agent context and harness design, evals and production agents, unattended-agent safety, basic security of generated code such as authentication). Separates technical facts from positions and forecasts. Works with ux-ui-expert, workshop-facilitation and pricing-and-sales-negotiation."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [situation, topic, or chapter number]
 ---
 
 # Coding with Agents
-**Chapters**: 6 | **Corpus**: ~60 practitioner notes on programming with coding agents, reviewing and testing AI code, software quality, learning and careers, and how LLMs work | **Generated**: 2026-11-12
+**Chapters**: 8 | **Corpus**: ~60 practitioner notes on programming with coding agents, reviewing and testing AI code, software quality, learning and careers, and how LLMs work | **Generated**: 2026-11-12
 
 ## Role and Boundaries
 
@@ -48,6 +48,8 @@ Diagnose before prescribing: ask what is being built, how critical it is, whethe
 | Get better answers from a chat model; run agents unattended safely | ch06 sections 10-11 | ai-ml-concepts ch15 |
 | Add AI features to a product | ch04 section 8 (invisible AI) | ch06, `ux-ui-expert` |
 | Authentication or session code from an agent | ch06 section 7 | ch03 |
+| Context budget, tool design, memory, sub-agents, guardrails in the harness | ch07 | ch02, ch06 section 4 |
+| Measure an agent, trace failures, release it safely, retrieval quality, fine-tune or prompt | ch08 | ch07, ai-ml-concepts ch15 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -73,6 +75,8 @@ Diagnose before prescribing: ask what is being built, how critical it is, whethe
 | [ch04](chapters/ch04-software-quality-and-complexity.md) | Software Quality and Complexity | debt vs systemic complexity, indirection, dependencies and vendoring, rewrites, irreversible decisions, product over platform, invisible AI |
 | [ch05](chapters/ch05-learning-talent-and-career.md) | Learning, Talent, Careers and Teams | isolation then access, learning with AI, value concentration, juniors and seniors, cost governance, wellbeing |
 | [ch06](chapters/ch06-how-llms-work-for-practitioners.md) | How LLMs Work for Practitioners | sampling, reasoning and context, tool-use loop, token economics, model choice, local inference, security checklist, trust calibration |
+| [ch07](chapters/ch07-context-engineering-and-agent-harness-design.md) | Context Engineering and Agent Harness Design | context as a budget, load/retrieve/externalise/compact/isolate, tool design, protocol-style tools, sub-agent contracts, memory write gates, workflow vs agent, guardrails in code |
+| [ch08](chapters/ch08-evals-observability-and-production-agents.md) | Evals, Observability and Production Agents | outcome-first evals, calibrated judges, pass@k vs pass^k, regression gates, traces, failure taxonomy, autonomy ladder, agent security, retrieval quality, fine-tuning vs prompting |
 
 ## Topic Index
 
@@ -80,20 +84,24 @@ Diagnose before prescribing: ask what is being built, how critical it is, whethe
 - **Authentication, sessions, hashing** → ch06
 - **Code coverage, test strategy, random testing** → ch03
 - **Complexity, simplicity, technical debt** → ch04
+- **Context budget, compaction, memory, sub-agents** → ch07
 - **Cost of tokens, subscriptions, prompt caching, Jevons effect, kill switch** → ch05, ch06 (sections 4, 11)
 - **Habits for chat models (dossier, questions, red team, two models)** → ch06 section 10
 - **Backups, isolation and approval points for unattended agents** → ch06 section 11
 - **Deskilling, desirable difficulty, signal inflation** → ch05 section 9
 - **Dependencies, vendoring** → ch04
+- **Evals, judges, traces, failure taxonomy, staged rollout** → ch08
 - **Fatigue, flow, parallel agents** → ch02, ch05
 - **Instructions file, spec file** → ch02
 - **Juniors, seniors, hiring, learning to code** → ch05
 - **Local vs hosted models** → ch06
 - **Model and vendor choice** → ch02, ch06
 - **Product, platform, invisible AI** → ch04
+- **Retrieval quality, RAG, fine-tuning vs prompting** → ch08
 - **Rewrites and ports** → ch04, ch03
 - **Sampling, temperature, loops** → ch06
 - **Security of generated code** → ch06, ch03
+- **Tool design, protocol-style tool interfaces** → ch07
 - **Vibe coding vs supervised delegation** → ch01, ch02
 
 ## Related Skills

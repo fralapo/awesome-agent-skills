@@ -9,6 +9,8 @@ Figures are dated snapshots; re-check. "Position" = judgment, not fact. Chapter 
 | A number is quoted | Level or ratio? nominal or real? date? what basket or denominator? [ch03, ch04, ch09] |
 | A policy is proposed | Chain, who pays, who is outside, rival view [ch09] |
 | A crisis is in the news | Promise to pay, backing asset, mismatch, trigger, loss-sharing rule [ch06] |
+| A market moved on data | Surprise versus consensus, which rate channel, which shock family [ch14] |
+| The curve inverted or steepened | Expectations plus term premium; bull or bear steepening; timing unreliable [ch14] |
 
 ## Money and Central Banks
 | Item | Rule of thumb | Watch for |
@@ -88,6 +90,16 @@ Figures are dated snapshots; re-check. "Position" = judgment, not fact. Chapter 
 | Resource curse | Dutch disease, rentier state, price-tracking spending [ch11] | Funds and rules as counter-example |
 | Aid | Modest growth effect; better for specific harms [ch11] | Lags, reverse causality |
 | Fertility | Replacement about 2.1 to 2.3 births per woman [ch11] | Projections date |
+
+## Market Transmission
+| Channel | Mechanism | Watch for |
+|---|---|---|
+| Real rates | Lower the value of distant cash flows; hurt non-yielding assets [ch14] | Estimates depend on the inflation measure |
+| Policy path | Markets price the expected path; probabilities read from futures [ch14] | Probabilities are not certainties |
+| Curve shape | Bull steepening (short rates fall) versus bear steepening (long rates rise) [ch14] | Inversion timing unreliable |
+| Carry | Borrow a low-yield currency; unwinds when it rises fast [ch14] | Correlations jump during unwinds |
+| Dollar | Shapes financial conditions for dollar borrowers and importers [ch14] | Depends on the currency pair |
+| Oil | Direct weight in prices plus second-round effects; supply and demand shocks differ [ch14] | Quantities are needed to tell them apart |
 
 ## Dated Figures Worth Knowing (snapshots)
 | Figure | Context |

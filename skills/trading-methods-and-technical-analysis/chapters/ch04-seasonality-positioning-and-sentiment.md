@@ -53,6 +53,22 @@ In this model, seasonality, positioning data and crowd sentiment are **context f
 ## 4.9 Sector rotation as a risk-appetite gauge (position)
 Comparing a broad index with its sectors: cyclical consumer sectors leading suggest risk appetite, defensive sectors leading suggest caution; an index at new highs not confirmed by cyclical or financial sectors is read as a divergence. Proponents say tops are found more easily than bottoms; the evidence offered is a handful of cases, not a statistical test.
 
+## 4.10 Analog statistics: matching a recent path to history (position)
+- **Thesis**: if the recent path resembles some past windows, the outcomes that followed them describe a distribution of possibilities, not a forecast.
+- **Mechanism**: take a recent pattern (commonly one to three months of daily or weekly returns), normalise it, and search the history of the same instrument, and sometimes of related ones, for windows of similar shape. Record what happened over the following three to six months. Report the number of analogs, the share ending positive, the median and the spread, and how close each analog is to the current pattern. Tools that present such results as "probabilities of a path" are, in this model, conditional historical frequencies, and must be read with their sample size attached.
+- **Robustness criteria (inconsistent)**: a minimum number of analogs (counts vary widely between practitioners); a share above roughly 60-70% in one direction; an outcome that is coherent across analogs rather than driven by one large episode; a close match to the current shape. None of the thresholds is shown to be optimal.
+- **Trade-off**: using the whole history gives more samples, against the risk that the market's structure changed. Overlapping windows mean that ten "analogs" can be one episode seen ten times (4.5; ch08, 8.4).
+- **Does not hold when**: the analogs are few, the instrument's structure changed, or the pattern length was chosen after trying several lengths, which is multiple testing (ch08, 8.3). Analogs chosen after the outcome is known are not analogs.
+- **Rival view**: an analog study is a historical average with no explanation attached. Its value depends on whether the same mechanism repeats, which must be argued separately and cannot be read off the match.
+
+## 4.11 Composite sentiment readings and their components
+- **Thesis**: a composite oscillator averages several readings on different scales, so that one number reads "overbought" or "oversold".
+- **Mechanism**: typical components are a deviation of price from a statistical average, a measure of buyers against sellers taken from bar structure, and the speed of price change. Each is rescaled to a common range and averaged. Zones are set by convention (extremes near plus or minus one hundred, for example). Practitioners often read the composite's trend, and the sign of its momentum, more than its level; a divergence is a disagreement between price and composite.
+- **Pitfalls**: the components are correlated (speed and deviation move together), so the average counts one idea more than once (ch08, 8.4); the rescaling window changes the zones; and zone boundaries are conventions. Two presentations of the same composite that give different zones are inconsistent, not one correct and one wrong.
+- **Trade-off**: a composite smooths noise and hides which component drives the reading. Read the components when the composite and the price disagree.
+- **Does not hold when**: the composite is used as a timing tool inside a trend it does not follow. The single-oscillator limits of ch02 apply in full.
+- **Rival view**: a composite is a rescaled indicator, and its value is no larger than that of its best component unless it has been tested out of sample.
+
 ## Common mistakes
 - Opening a trade because "the season says so".
 - Counting nested horizons (10 inside 20 years) as independent confirmations.

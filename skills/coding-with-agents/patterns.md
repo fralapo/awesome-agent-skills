@@ -56,3 +56,18 @@ Recurring situation → move. Each entry: When / Move / Trade-offs. Chapter in b
 **When**: agent wrote sessions and passwords.
 **Move**: run the auth checklist (slow salted hash, identical errors, backoff, session ID rules, cookie flags, reset path, 2FA); add rules to the instructions file. [ch06]
 **Trade-offs**: review time; avoids classic breaches.
+
+## Agent gets worse late in a long run
+**When**: the task succeeds early and fails late, or the context keeps growing.
+**Move**: measure the quality knee on your task; keep the fixed prefix small; compact to a written summary below the knee, or hand a bounded sub-task to a sub-agent that returns a conclusion. [ch07]
+**Trade-offs**: summaries lose detail; keep the original log for audit.
+
+## Eval says 100%
+**When**: every case passes after a prompt change.
+**Move**: check whether the cases are too easy; add negative cases and the hardest real incidents; raise difficulty until some fail; keep a held-out set. [ch08]
+**Trade-offs**: scores drop, which is the point.
+
+## Agent is ready for real users
+**When**: the demo works on a handful of cases.
+**Move**: repeated runs with pass^k by category; traces with cost per completed task; shadow mode first; staged rollout with thresholds fixed in advance; kill switch and bounded retries. [ch08, ch07]
+**Trade-offs**: a slower launch and fewer surprises.

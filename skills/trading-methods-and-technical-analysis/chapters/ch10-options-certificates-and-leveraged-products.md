@@ -60,4 +60,4 @@ A discount buys the underlying below its price in exchange for a cap: maximum re
 - Using the knock-out as the stop by default.
 
 ## Links
-- ch02 ATR, ch06 sizing, ch08 claims; `investing-and-financial-history` ch07 (options, daily-reset leverage, structured certificates), ch10 (fraud warning signs); `personal-finance-italy` for tax treatment of certificates.
+- ch02 ATR, ch06 sizing, ch08 claims; ch11 for a side-by-side scan of structured products; `investing-and-financial-history` ch07 (options, daily-reset leverage, structured certificates), ch10 (fraud warning signs); `personal-finance-italy` for tax treatment of certificates.

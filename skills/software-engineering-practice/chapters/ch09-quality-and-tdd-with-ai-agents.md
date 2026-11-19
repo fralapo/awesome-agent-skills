@@ -48,5 +48,35 @@ Writing detailed English instructions can approach programming at a higher abstr
 - **Trade-off**: slower than accepting everything, cheaper than a rewrite.
 - **Does not hold when**: the code is disposable (a throw-away script, a prototype to be discarded).
 
+## 9.10 Review debt: measure the gap, not the author
+- **Thesis (position)**: the risk of agent-written code is the gap between what was produced and what someone understands and has reviewed. Measure the gap.
+- **Mechanism**: a deterministic score can track signals such as change size, test coverage of the changed lines, the spread of ownership across the files touched, the share of AI-authored changes, and the absence of a stated rationale. A score without a judge model is stable across runs. The trend matters more than the level: a rising gap is the warning, and the response is to slow the flow (smaller changes, more review), not to write longer reports.
+- **Trade-off**: the signals are proxies. A low score does not prove understanding.
+- **Does not hold when**: the code is disposable and nobody maintains it.
+
+## 9.11 Reviewers must be independent and must act
+- **Thesis (position)**: a review by the same model and context that wrote the change is a rubber stamp.
+- **Mechanism**: use a reviewer from a different model family, or at least a fresh context with a different prompt. Have it list concrete defects tied to past incidents and set style aside. Where the rules allow, let it commit its fixes so the author sees the diff rather than a comment. Treat a comment as valid when it names a logic error, a security or data risk, a performance problem or a behaviour that is wrong; treat requests to add a test or extract a function as optional. Record how often comments are resolved or dismissed, since that shows whether the reviewer is useful.
+- **Trade-off**: more tooling and more model calls.
+- **Does not hold when**: a human with full context reviews a low-risk change.
+
+## 9.12 Freeze the tests and scorers the agent is judged by
+- **Thesis**: a test the agent may edit proves nothing about the change it was meant to check.
+- **Mechanism**: when an agent is asked to make tests pass, it can adapt the test to the code: weaker assertions, deleted cases, mocks that hide the fault. Freeze tests, fixtures and scoring code for the duration of the run. Changes to them go through a separate change that a person reviews. Watch for pull requests that touch only test, mock, fixture or stub files; they need their own rule, for example closed by default unless someone asked for test work. A passing suite is evidence only within the scope the suite actually covers.
+- **Trade-off**: legitimate test repair becomes a two-step process.
+- **Does not hold when**: the tests are fixed by the specification and the agent has no reason to touch them, in which case the same freeze applies without cost.
+
+## 9.13 "Passes the tests" is not "mergeable"
+- **Thesis (position)**: the question "would you merge this?" separates changes that pass from changes that belong in the codebase.
+- **Mechanism**: reviewers who ask this question reject a noticeable share of changes that already passed the suite (practice reports, not a universal rate). Typical reasons: unrelated edits, duplicated logic, a fix that hides the symptom, missing cases the team cares about, drift from conventions. Put the question into the review checklist and into the agent's instructions, and record which reasons recur, so they can become rules (9.14).
+- **Trade-off**: a subjective gate. Keep it a short checklist, not an essay.
+- **Does not hold when**: the change is mechanical and fully produced by a tool, such as formatting or a tool-driven rename.
+
+## 9.14 Turn every correction into an executable rule
+- **Thesis**: a correction given once in conversation is lost at the next context compaction or session; the same correction written as a check survives.
+- **Mechanism**: convert each correction into the cheapest form that enforces it: a type that forbids the impossible state, a linter rule, a structural test (file size, dependency direction), or a hook that runs before commit. Make the error message state the remedy ("use the shared client; see the module note"), because a message that only says what is wrong makes the agent retry blindly.
+- **Trade-off**: rules accumulate. Retire rules that no longer catch anything.
+- **Does not hold when**: the correction is a judgement no tool can express; then it becomes a review checklist item.
+
 ## Cross-references
 `coding-with-agents` for working loop, context and reviewing agent output; `software-architecture` for agent architecture; chapter 03 for the TDD loop; chapter 04 for test properties.
