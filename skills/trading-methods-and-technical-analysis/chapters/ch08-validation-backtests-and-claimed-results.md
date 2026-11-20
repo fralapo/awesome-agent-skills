@@ -56,6 +56,18 @@ In this model, a trading rule is **a hypothesis until it survives a test it coul
 - **Mechanism**: applying a rule bar by bar on past charts, or scanning markets with condition-based screeners, shows how often conditions occur and whether the rule is executable. A screener flags conditions at bar close or on the live bar (which repaints until the close); it is a list of candidates, not a backtest. Demo trading tests execution and psychology but not the edge.
 - **Does not hold when**: the tester knows what happened next on the chart being studied.
 
+## 8.9 Who is paid when you follow
+- **Thesis**: what a seller sells follows from how the seller is paid. Read the revenue line before the performance chart.
+- **Mechanism**: several revenue lines recur around trading products. (1) A referral fee from a broker for each new funded client, often a fixed amount per deposit: earned at the deposit, whatever the client does next. (2) A subscription to signals or a course: earned whether or not the signals make money. (3) A performance fee on copied accounts: paid on profits, while the follower carries the losses; the base (gross or net of losses, with or without a high-water mark) changes the cost. (4) Multi-level referral: a share of what recruited members' referrals earn, whose growth depends on recruiting, not on trading. (5) Copy functions that scale a leader's position into each follower's account, so the follower's leverage and loss scale with the leader's. Illustration: a referral fee equal to half the deposit is earned at sign-up, while the client's expected result is set by the strategy alone.
+- **Trade-off**: a disclosure such as "not financial advice" informs the reader but does not change the incentive. Rival view: well-disclosed, supervised referral arrangements can be legitimate and give cheap access to a broker (position, general knowledge).
+- **Does not hold when**: the seller is paid a fixed fee that does not depend on the client's deposits, trades or product choices, and the fee is disclosed. Check the seller's authorisation with the securities regulator of the client's country (re-check).
+
+## 8.10 Converting promised returns
+- **Thesis**: a promised rate can be compared only after the compounding is applied. Multiplying a periodic rate by the number of periods misstates the annual outcome.
+- **Mechanism**: the annual equivalent of a monthly rate `m` is `(1 + m)^12 - 1`: 10% a month is `1.1^12 - 1`, about 214% a year. The periodic rate needed to multiply capital by `k` in `n` periods is `k^(1/n) - 1`: doubling in three months needs `2^(1/3) - 1`, about 26% a month. One percent a day, compounded over 365 days, is about 3,678% (37.8 times). The result of a path is the product of its period returns, not their average: +100% followed by -90% leaves 0.2 of the starting capital, a net loss of 80% against a peak of +100%; an average of +50% and -50% is zero, but the net result is -25%.
+- **Trade-off**: the arithmetic is simple; the difficulty is the base: which day the account was measured from, and whether deposits and withdrawals were excluded.
+- **Does not hold when**: figures are time-weighted returns on a stated capital base with all flows adjusted, reported by an independent administrator (general knowledge).
+
 ## Common mistakes
 - Reading a claimed return as a measured one.
 - Judging a rule by its hit rate.

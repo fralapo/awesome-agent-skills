@@ -140,3 +140,27 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Cost**: reading time.
 **Not when**: you can replicate the result cheaply.
 
+## 24. "Cheaper per request, so the business is sound"
+**When**: a falling price per token is used to conclude that an AI business is profitable.
+**Move**: separate the cost of one request, the cost of training the next model and the cost of acquiring users; read cash flow next to profit; estimate what the heaviest user costs against the price. [ch17]
+**Cost**: more figures to collect from filings and tests.
+**Not when**: the pricing is disclosed and clearly covers the heaviest user's cost.
+
+## 25. "Is this a bubble?"
+**When**: a market price or funding round is being debated.
+**Move**: run the six tests (revenue against capital, margins at scale, cost per useful output against price, substitutes, price after dependence, falsifiers with dates); state claims so they can be shown wrong; say which facts are unverifiable. [ch17] (position)
+**Cost**: time, and access to disclosures.
+**Not when**: the question is timing; these tests do not predict when a correction comes.
+
+## 26. Can prompt, cannot check
+**When**: outputs are fluent and the reviewer cannot tell good from wrong.
+**Move**: teach the foundations first; have the person explain and defend the output orally or under supervision; ask for sources to read, then check claims against them; classify tasks as throughput or learning and keep effort for the learning ones. [ch18]
+**Cost**: slower output and more supervised time.
+**Not when**: verification is external and cheap (a test suite, a compiler); let the checker decide.
+
+## 27. Assessment or hiring flooded by AI-written work
+**When**: application or submission volume explodes and screens use the same tools.
+**Move**: use work samples the person explains live or in writing; a human reads the work; models organise notes and draft questions, but do not decide. [ch18]
+**Cost**: longer process per candidate.
+**Not when**: a low-stakes first filter with a stated appeal route; say so and do not treat its output as final.
+

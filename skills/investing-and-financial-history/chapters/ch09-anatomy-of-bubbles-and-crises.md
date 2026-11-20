@@ -96,6 +96,12 @@ Each card: what happened, ingredients, proposed causes, rival account, lesson. D
 - If a loop reverses, who is forced to sell?
 - None of this predicts timing.
 
+## 9.4 Testing a "this time is different" claim
+- **Thesis**: the phrase is not wrong in itself; a claim that a regime has changed is testable only if it names the variable that changed and how it would be measured.
+- **Mechanism**: a valid claim of a structural break specifies (1) the mechanism (for example a lower discount rate, a new source of cash flow, a change in the rules of lending or of index membership), (2) an observable that should have moved with it (cash flows, default rates, margins, supply), and (3) what would show the claim to be false. Without those three, the phrase repeats a story that earlier episodes also used. Past booms that were explained as new eras often had a real innovation alongside a financing loop.
+- **Trade-off**: some regime changes are real (the rise of index funds, lower transaction costs). Rejecting every claim of change would miss them.
+- **Does not hold when**: the claim is backed by measured changes in the variable it names and survives the falsification test.
+
 ## Common mistakes
 - Treating the trigger as the cause.
 - Assuming a boom is a bubble because it looks like one: only afterwards is it known.

@@ -157,3 +157,45 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: check whether it was recorded with date, horizon and probability; score it against the speaker's record; compare the claim with the base rate; note the speaker's incentive; name the observable that would falsify the mechanism. [ch15]
 **Cost**: less quotable.
 **Not when**: the claim is a contract term or an accounting identity, which can be checked directly.
+
+## 27. An ETF price that differs from its holdings
+**When**: the market price of a fund moves away from the value of the holdings, or an index fund's results differ from a peer on "the same index".
+**Move**: check the authorised-participant mechanism, whether the underlying market is open, the indicative NAV method, the replication method (physical, sampled, synthetic), the lending policy and the domicile. [ch16]
+**Cost**: more reading of documents.
+**Not when**: the underlying trades continuously and deeply and the gap is within the spread.
+
+## 28. A fee quoted as a percentage
+**When**: an adviser, platform or product states a cost in percent.
+**Move**: convert it to money per year at the balance you would hold, add every layer (entry, ongoing, transaction, exit), and compute the ending-value factor over your horizon. Ask who receives each payment. [ch17]
+**Cost**: an uncomfortable comparison with a cheap alternative.
+**Not when**: the fee buys a specific deliverable with a fixed, written price and no product payments.
+
+## 29. A stable price line in a private or gated product
+**When**: a fund shows low volatility, quarterly or monthly NAV, or a listed price far from NAV.
+**Move**: ask how the value is set, how often, by whom; whether redemptions can be gated; how fees are charged and when; and whether the volatility is smoothed. Compare with a traded proxy. [ch19]
+**Cost**: the product looks less attractive.
+**Not when**: the holdings have a reliable daily market value and redemptions are unrestricted.
+
+## 30. A net return compared across tax regimes
+**When**: two investments are compared after tax, or one quoted return ignores tax timing.
+**Move**: model the same pre-tax return with the actual timing (deferral, annual taxation, distribution), the netting rules, the withholding and the basis; compare on the same horizon. [ch18, ch04]
+**Cost**: needs the regime's rules, which change.
+**Not when**: the holding is in a tax-exempt wrapper for the whole horizon.
+
+## 31. "How much should I save?"
+**When**: a planning question asks about the required saving or retirement date.
+**Move**: start from the saving rate, not the expected return; compute the target from spending and a stated withdrawal assumption; test the result with fewer years and a lower rate. Check reserves by function and the order of operations before investing. [ch20, ch14]
+**Cost**: a larger saving rate or a lower spending target.
+**Not when**: income is so variable that no stable rate can be stated.
+
+## 32. A lottery, a game or a prediction market offered as an investment
+**When**: a product or a game is presented as a way to earn, or a market price is quoted as a probability.
+**Move**: state the expected value per unit staked (return to player, or fees and spreads); check liquidity and who can move the price; budget any game as an expense. [ch11]
+**Cost**: less excitement.
+**Not when**: the question is about the mechanics of a price for information purposes, in a deep and monitored market.
+
+## 33. "This time is different"
+**When**: a claim says a regime has changed and past rules no longer apply.
+**Move**: ask for the named mechanism, the observable that should have moved, and the result that would falsify the claim. Check whether the observable has moved. [ch09]
+**Cost**: slower acceptance of a real change.
+**Not when**: the observable has moved as claimed and the falsification test has been passed.

@@ -1,6 +1,6 @@
 ---
 name: economics-finance
-description: "Macro, micro and finance reasoning for analysts, students and decision makers: how banks create money; central banks, rates, QE and monetary finance; inflation (measurement, money, demand, supply, schools of thought); public debt sustainability; exchange rates, pegs, gold standard, dollarization; banking, sovereign, property and currency crises; housing and rent control; market basics (demand and supply, surplus, externalities, commons, monopoly, asymmetric information); growth and development (institutions, resource curse, aid, demography); trade (comparative advantage, tariffs versus quotas, sanctions); macro indicators and market transmission (real rates, curve shape, carry unwinds, implied probabilities); dated country case sheets. Use when the user asks why prices, rents, rates, debt, a currency or a market move, wants a policy evaluated, is reading a crisis or development story, or wants the strongest case on each side. Separates mechanism from contested position. No investment advice or forecasts."
+description: "Macro, micro and finance reasoning for analysts, students and decision makers: how banks create money; money forms, payment networks and central bank digital currency; central banks, rates, QE and monetary finance; inflation measurement and schools; public debt; exchange rates, pegs and dollarization; banking, sovereign, property and currency crises; housing and rent control; market basics (supply and demand, externalities, commons, monopoly, information gaps, tax incidence); growth and development (institutions, resource curse, aid); inequality and wealth; pensions and demography; trade and sanctions; macro indicators and market transmission; dated country case sheets. Use when the user asks why prices, rents, rates, debt, a currency or a market move, or evaluates a policy or digital-money proposal, or wants the strongest case on each side. Separates mechanism from contested position. No investment advice or forecasts."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [question, policy, mechanism, or chapter number]
 ---
 
 # Economics and Finance
-**Chapters**: 14 | **Generated**: 2026-11-13
+**Chapters**: 17 | **Generated**: 2026-11-20
 
 ## Role and Boundaries
 
@@ -50,6 +50,10 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 | One country's rise or fall (oil states, banking collapse, stagnation, hyperinflation) | [ch13](chapters/ch13-country-case-sheets.md) | ch11, ch06 |
 | Judging any claim; incentives; consensus map; reading evidence | [ch09](chapters/ch09-how-to-reason-in-economics.md) | any |
 | Why did rates, the curve, a currency or an asset move; real rates; carry unwinds; oil and inflation; reading an indicator | [ch14](chapters/ch14-macro-indicators-and-how-shocks-reach-markets.md) | ch02, ch03, ch05 |
+| Stablecoins, payment networks and fees, cash versus digital money, CBDC design, deposit flight from banks | [ch15](chapters/ch15-money-forms-payments-and-central-bank-digital-currency.md) | ch01, ch02, ch06 |
+| Inequality claims: mean versus median, wealth versus income, asset-owner effects of easy money, positional goods, taxing wealth | [ch16](chapters/ch16-inequality-wealth-and-the-positional-competition-trap.md) | ch04, ch07, ch10 |
+| Pay-as-you-go versus funded pensions, dependency ratio, notional accounts, replacement rate, early retirement, the Ponzi analogy | [ch17](chapters/ch17-pensions-pay-as-you-go-and-demographic-funding.md) | ch04, ch11 |
+| Who really pays a tax: statutory versus economic incidence | ch10 (section 10.13) | ch03 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -71,6 +75,8 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 15. **Institutions and incentives sit under growth**; a resource, a loan or an aid grant helps only where rules turn it into capital.
 16. **A country story is a case sheet, not a proof**: facts, proposed causes, evidence, contested points.
 17. **Markets react to surprises and to the expected policy path**, not to levels alone; name the channel before the asset.
+18. **Measure before you moralise.** The statistic, the unit and the denominator set the answer: mean or median, stock or flow, household or person.
+19. **Distribution follows the channel.** Who owns the asset, who holds the claim and who pays the tax decide who gains or loses, not the headline.
 
 ## Chapter Index
 
@@ -88,6 +94,9 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 12. [International trade: comparative advantage, tariffs, quotas and sanctions](chapters/ch12-international-trade-comparative-advantage-tariffs-and-sanctions.md)
 13. [Country case sheets](chapters/ch13-country-case-sheets.md)
 14. [Macro indicators and how shocks reach markets](chapters/ch14-macro-indicators-and-how-shocks-reach-markets.md)
+15. [Money forms, payments and central bank digital currency](chapters/ch15-money-forms-payments-and-central-bank-digital-currency.md)
+16. [Inequality, wealth and the positional competition trap](chapters/ch16-inequality-wealth-and-the-positional-competition-trap.md)
+17. [Pensions, pay-as-you-go and demographic funding](chapters/ch17-pensions-pay-as-you-go-and-demographic-funding.md)
 
 ## Topic Index
 
@@ -141,13 +150,29 @@ Diagnose before prescribing: which country and date, which variable (level or ch
 - **Reserve currency, trade deficit, overvaluation argument, frozen reserves** → ch05.11
 - **Tariffs as leverage, relocation arithmetic, counter-levers** → ch12.9
 - **Wealth levy arithmetic (rate = cost / base)** → ch04.11
+- **Central bank digital currency, retail versus wholesale, holding limits** → ch15
+- **Stablecoins, e-money, bank deposits as money forms** → ch15
+- **Payment networks, two-sided markets, interchange, market power** → ch15, ch10
+- **Cash, privacy and independence** → ch15
+- **Mean versus median, wealth versus income, measurement traps** → ch16
+- **Asset-owner channel of low rates and asset purchases** → ch16, ch02
+- **Positional goods, status competition, upper-middle-class trap** → ch16, ch10
+- **Diminishing marginal value of money, relative status** → ch16
+- **Pay-as-you-go, funded systems, dependency ratio** → ch17
+- **Notional defined-contribution accounts, replacement rate** → ch17
+- **Contributory versus assistance balances, early retirement cohorts** → ch17
+- **Ponzi analogy for public pensions** → ch17
+- **Tax incidence, elasticity, statutory versus economic payer** → ch10
 
 ## Related Skills
 
 - `scientific-thinking`: reading studies, evidence quality and causal inference in more depth.
 - `history-geopolitics`: the political and historical context behind crises, sanctions and currency blocs.
 - `pricing-and-sales-negotiation`: microeconomic pricing at firm level.
+- `investing-and-financial-history`: investor-side mechanics (fees, fund structure, tax timing, pensions as savings, real rates).
+- `personal-finance-italy`: one country's dated tax, pension and savings rules.
+- `crypto-and-digital-assets`: token technology, custody and stablecoin mechanics.
 
 ## Scope & Limits
 
-Practical theory about money and banking, market basics, development and trade, country case sheets, central banking, inflation theory, public debt, exchange-rate regimes, crises (banking, sovereign, property, currency), housing prices and rent policy, mostly opinion-led and then marked as position with a rival view. Not covered in depth: the balance of payments and global imbalances (outline only), international financial architecture, derivatives and market microstructure, tax design, labour economics, elasticity and market structures beyond monopoly (price discrimination, oligopoly, game theory), formal growth and macro modelling, trade models beyond one-factor comparative advantage, and country statistics beyond the dated snapshots quoted. Figures (rates, ratios, counts of studies, projections) are snapshots tied to the dates given and change; re-check before relying on them. The skill gives no investment, tax, legal or forecasting guarantee.
+Practical theory about money and banking, digital money and central bank digital currency, market basics, development and trade, country case sheets, central banking, inflation theory, public debt, exchange-rate regimes, crises (banking, sovereign, property, currency), housing prices and rent policy, inequality and wealth measurement, pension financing and demography, mostly opinion-led and then marked as position with a rival view. Not covered in depth: the balance of payments and global imbalances (outline only), international financial architecture, derivatives and market microstructure, tax design and tax law (tax incidence is covered in ch10; pension actuarial design and country rules are outline only), labour economics, elasticity and market structures beyond monopoly (price discrimination, oligopoly, game theory), formal growth and macro modelling, trade models beyond one-factor comparative advantage, and country statistics beyond the dated snapshots quoted. Figures (rates, ratios, counts of studies, projections) are snapshots tied to the dates given and change; re-check before relying on them. The skill gives no investment, tax, legal or forecasting guarantee.

@@ -1,6 +1,6 @@
 ---
 name: ai-ml-concepts
-description: "Concepts behind AI and machine learning, from the maths to the frontier: linear algebra, calculus, probability, entropy; loss, gradient descent, backpropagation, the perceptron, double descent, regularization; dense, convolutional, residual and vision networks; transformers, attention, KV cache, state-space models, superposition; pre-training, preferences, group-relative RL, test-time search, scaling laws; generative models (adversarial, diffusion, flow matching); self-supervised learning, embeddings, world models; agents with memory, evaluation, red teaming, security, token budgets; benchmarks and headlines; failure modes (hallucination, sycophancy, poisoning); safety, interpretability (circuits, sparse autoencoders, grokking, subliminal learning); reading papers critically; Monte Carlo. Use when the user wants to understand, explain, judge or teach how a model works, why it fails, whether a benchmark, paper or AI claim holds, or how to evaluate an agent. Separates mechanism from position."
+description: "Concepts behind AI and machine learning, from the maths to the frontier: linear algebra, calculus, probability, entropy; loss, gradient descent, backpropagation, double descent, regularization; dense, convolutional, residual and vision networks; transformers, attention, KV cache, state-space models; pre-training, preferences, group-relative RL, test-time search, scaling laws; generative models (diffusion, flow matching); self-supervised learning, world models; agents with memory, evaluation, security, token budgets; benchmarks and headlines; failure modes (hallucination, poisoning); safety, interpretability (circuits, sparse autoencoders, grokking); AI economics (capex, pricing, bubble tests); AI in learning and work (deskilling, verification); reading papers critically. Use when the user wants to understand, explain, judge or teach how a model works, why it fails, whether a benchmark, paper or AI claim holds, how to evaluate an agent, or what AI means for cost and skills. Separates mechanism from position."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [concept, model behaviour, benchmark claim, or chapter number]
 ---
 
 # AI and Machine Learning Concepts
-**Chapters**: 16 | **Corpus**: ~130 theoretical transcripts | **Generated**: 2026-11-14
+**Chapters**: 18 | **Corpus**: ~130 theoretical transcripts | **Generated**: 2026-11-14
 
 ## Role and Boundaries
 
@@ -52,6 +52,8 @@ Diagnose before explaining: ask who the learner or decision-maker is, what they 
 | Why a model fails (hallucination, reversal, arithmetic, gaming, sycophancy loop, grounded-answer errors, AI-text detectors) | [ch10](chapters/ch10-limits-and-failure-modes.md) | ch08, ch09 |
 | Safety, alignment, control, interpretability (circuits, sparse autoencoders, grokking, subliminal learning, emergent misalignment, poisoning, steering), risk claims | [ch11](chapters/ch11-safety-alignment-control-and-interpretability.md) | ch10 |
 | Research strategy, scaling debates, Monte Carlo, rendering, protein structure | [ch12](chapters/ch12-research-principles-and-scientific-applications.md) | ch06, ch03 |
+| Cash flow, capex, data-centre spending, cost per user, pricing and subsidies, ads in answers, "is this a bubble?" tests | [ch17](chapters/ch17-economics-of-ai-capex-pricing-and-bubble-tests.md) | ch15 (15.19), ch08 (8.9) |
+| Does AI make people less skilled? Learning, exams, verifying output, junior roles, AI in hiring, judgement as bottleneck | [ch18](chapters/ch18-ai-in-learning-assessment-and-professional-skill.md) | ch10, ch15 (15.20), ch12 (behaviour skill) |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -77,6 +79,8 @@ Diagnose before explaining: ask who the learner or decision-maker is, what they 
 19. **Generating is repeated small corrections.** Diffusion and flow models trade many steps for stability; guidance trades diversity for fidelity.
 20. **An agent's memory is distilled, scoped and reconciled.** Keep logs, memories and specs separate, retrieve on purpose, and test the whole trajectory, not the last message.
 21. **Read papers as arguments.** Ask what would have shown the claim wrong, then check samples, ablations, noise and definitions.
+22. **Money shapes deployment.** Capital spending, unit cost and pricing decide which capabilities reach users; test bubble claims with falsifiers, not with enthusiasm or alarm.
+23. **Skill needs practice and verification needs knowledge.** Delegating a step can erode the ability to judge it; keep practice where learning is the goal.
 
 ## Chapter Index
 
@@ -96,6 +100,8 @@ Diagnose before explaining: ask who the learner or decision-maker is, what they 
 14. [Self-supervised learning, representations and world models](chapters/ch14-self-supervised-learning-representations-and-world-models.md)
 15. [Agents with memory, evaluation and operations](chapters/ch15-agents-with-memory-evaluation-and-operations.md)
 16. [Reading AI papers critically](chapters/ch16-reading-ai-papers-critically.md)
+17. [Economics of AI: capex, pricing and bubble tests](chapters/ch17-economics-of-ai-capex-pricing-and-bubble-tests.md)
+18. [AI in learning, assessment and professional skill](chapters/ch18-ai-in-learning-assessment-and-professional-skill.md)
 
 ## Topic Index
 
@@ -150,3 +156,13 @@ Diagnose before explaining: ask who the learner or decision-maker is, what they 
 - **Superposition, nearly orthogonal directions** → ch01, ch07, ch11
 - **Test-time search (best-of-N, beam, revision)** → ch08
 - **Tools vs unaided arithmetic** → ch08, ch10
+- **Cash flow versus profit, depreciation of hardware, off-balance-sheet commitments** → ch17 (17.1-17.2)
+- **Cost per user, heavy users, launch pricing, dependence and price rises** → ch17 (17.3-17.4)
+- **Inference cost versus training cost, monetisation (ads, subscriptions, commerce)** → ch17 (17.5-17.6)
+- **Running open-weight models, quantisation and implementation fidelity, gatekeeping** → ch17 (17.7-17.8)
+- **Bubble criterion, falsifiers, energy per task** → ch17 (17.9-17.10)
+- **Deskilling, delegation and skill atrophy** → ch18 (18.1)
+- **Verification needs prior knowledge, productive friction** → ch18 (18.2-18.3)
+- **Assessment redesign, oral and handwritten checks, writing as thinking** → ch18 (18.4-18.5)
+- **Task exposure versus job loss, the junior pipeline question** → ch18 (18.6)
+- **Judgement as bottleneck, AI in hiring screens, creative sparring** → ch18 (18.7-18.9)

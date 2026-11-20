@@ -247,3 +247,39 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: separate feeling from action for ordinary reluctance (start, momentum follows); for persistent dread look for causes: boredom, validation placed in the job, outside circumstances; a holiday alone treats the symptom; change environment or workload; seek help for health symptoms. [ch14, ch08] (position)
 **Cost**: honest reflection.
 **Not when**: symptoms point to a health issue; seek professional help.
+
+## 42. Promotion case built on hours or feelings
+**When**: a person expects promotion because they work long hours or feel ready.
+**Move**: read the written level descriptions; collect dated evidence of decisions, designs, outcomes and people unblocked; ask the manager in writing what is missing for the next level. [ch15] (position)
+**Cost**: documentation time.
+**Not when**: the company has no published levels; then agree the expectations explicitly before the cycle.
+
+## 43. Noisy interview loop
+**When**: rounds disagree, or hires do not work out.
+**Move**: a fixed rubric per round; independent scoring before discussion; questions tied to the job; a work sample where feasible; probe reasoning aloud rather than recall of a known trick. [ch15]
+**Cost**: interviewer preparation and candidate time.
+**Not when**: the job depends on one well-known technique; test that technique directly.
+
+## 44. Freelance income thin despite a good rate
+**When**: a full calendar and a small margin.
+**Move**: track a month of billable and non-billable time; price from the gross week plus self-funded benefits and overhead; cap the share of revenue from any one client or channel; hold a cash buffer. [ch16] (position)
+**Cost**: higher quotes; some price-sensitive clients lost.
+**Not when**: the work is a fixed deliverable with known effort; price the project instead.
+
+## 45. Startup plan with untested assumptions
+**When**: the plan depends on claims nobody has checked with the people who have the problem.
+**Move**: list the assumptions the plan needs; for each, the cheapest test that could prove it wrong; run interviews, a prototype and a request to pay in order of dependence; record the result. [ch16]
+**Cost**: delay that can feel unproductive.
+**Not when**: a regulatory or technical feasibility question must be answered first.
+
+## 46. Shared code and flags with no owner
+**When**: switches accumulate; a shared directory has unclear approval.
+**Move**: owner and removal date per flag; code owners per directory; automated style checks so reviews discuss substance; readability approval only where language idioms matter and enough people hold it. [ch17] (position)
+**Cost**: gates and bookkeeping.
+**Not when**: a small team that knows the code and the language well.
+
+## 47. Legacy code nobody wants to touch
+**When**: changes cause regressions and the original authors have left.
+**Move**: characterisation tests of current behaviour (record known bugs first); find who or which record explains a decision; delete code nobody can explain after checking its use; change in small steps. [ch17, ch03]
+**Cost**: slower first changes.
+**Not when**: the code is short-lived or cheaper to rewrite completely.

@@ -40,6 +40,12 @@ In this model, people economise on thinking: they take **bounded rationality** s
 - **Mechanism**: write the reason for a decision before taking it; separate *decision quality* from *outcome* (ch11); use pre-committed rules (rebalancing, a cap on single positions); run a checklist to look for disconfirming evidence; delay big moves after news; avoid checking prices constantly.
 - **Does not hold when**: you cannot follow the rule when it hurts; then simplify the rule.
 
+## 8.8 Ownership, effort and sunk-cost errors
+- **Thesis**: people value what they built or paid for, and they defend past choices in order to avoid admitting that a cost was lost.
+- **Mechanism**: the **IKEA effect** (labour invested in an asset raises its perceived value above its market value); the **sunk-cost** pattern (keeping a position, or a course, because of what has already been spent, which does not change the expected future result); **break-even anchoring** (refusing to sell below the purchase price, so the price paid, not the current expected value, sets the decision); and **defence of past choices** (a loss is explained away, and new information is read through the old decision). A common form is buying more of a losing product to lower the average cost, which is a new decision that needs its own reason.
+- **Trade-off**: attachment keeps a person committed through a bad patch, which can be a virtue when the reason still holds.
+- **Does not hold when**: the reason for the position is re-tested and still valid, and the new purchase is judged on its own expected value.
+
 ## Common mistakes
 - Believing you are immune because you know the list.
 - Treating hindsight clarity as proof the signal was visible.

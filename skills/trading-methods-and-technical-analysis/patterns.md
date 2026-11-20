@@ -79,3 +79,27 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: put thresholds, minimum buffer, coupon yield on market price, call structure and fees in one table; run the same scenario grid for each; compare the grid with a plain holding of the weakest underlying. [ch11]
 **Cost**: slower and less exciting.
 **Not when**: the products have identical terms and issuer and differ only in size.
+
+## 14. A seller who is paid per client
+**When**: a broker bonus, copy function, signal service or referral scheme is offered as a way to trade.
+**Move**: list every revenue line of the seller (per deposit, per subscriber, performance fee, referral tiers); note which of them are earned before the client's result is known; compare the client's expected result with the seller's. [ch08]
+**Cost**: fewer offers pass.
+**Not when**: the seller is paid a disclosed fixed fee that does not depend on the client's deposits or trades.
+
+## 15. A promised return, expressed per period
+**When**: a monthly or daily rate is quoted as the return of a product or method.
+**Move**: convert to an annual equivalent with compounding; compute the periodic rate needed for a stated multiple; check the base date and the net path, not the average of up and down periods. [ch08]
+**Cost**: the headline weakens.
+**Not when**: the figure is a time-weighted, audited return on a stated base.
+
+## 16. Sizing a repeated edge
+**When**: a trader has an estimated edge and asks how large each bet can be.
+**Move**: write the win probability and the payoff ratio; compute the Kelly fraction and the growth at a fraction of it; check the leverage wipe-out move; then compare with the loss budget and use the smaller size. [ch06]
+**Cost**: smaller positions than the estimate suggests.
+**Not when**: the edge is not estimated at all; then use a fixed small risk per trade (6.5).
+
+## 17. Exiting a large position
+**When**: a position is large against daily volume, or a fund holds a concentrated name.
+**Move**: compute days to liquidate at a stated participation rate; list the events that could force a sale; plan exits in tranches and check the impact; state the price at which the plan is abandoned. [ch12]
+**Cost**: slower execution and some impact.
+**Not when**: the position is a small fraction of volume in a deep market.

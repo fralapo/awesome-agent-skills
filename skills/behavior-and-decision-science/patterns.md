@@ -133,3 +133,27 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: tie the habit to a value, take one small first step, picture the cost of not acting once, treat a bad day as data and do the minimum. [ch07, ch12]
 **Cost**: slower, less dramatic.
 **Not when**: illness or overload; reduce load first.
+
+## 23. Judging a risky choice by its result
+**When**: a decision is praised or blamed because of how it turned out.
+**Move**: write a decision record (question, options, reasons, rough probabilities, review date) and judge the process against it; separate what you could control from luck. [ch13]
+**Cost**: writing time.
+**Not when**: the decision is trivial or reversible within minutes.
+
+## 24. Committing everything to one path
+**When**: a plan puts time, savings or health into one outcome with no reserve.
+**Move**: ask what a run of bad outcomes would do before the first step; size commitments so a bad sequence is survivable; check whether the edge depends on a condition that can disappear. [ch13]
+**Cost**: smaller upside in good runs.
+**Not when**: the stake is small, repeated and absorbable; then the average is the right guide.
+
+## 25. Strong opinion after a quick read
+**When**: a firm view formed from a headline, a short clip or a feed.
+**Move**: state the depth of study reached on a simple scale; read a primary source and one that disagrees; check the denominator and period of any figure; wait for a second source on breaking news; express the view as a probability. [ch14] (position)
+**Cost**: slower, less satisfying conclusions.
+**Not when**: a direct, quick test can settle the question; run it.
+
+## 26. Spending to keep up with peers
+**When**: a purchase is driven by what neighbours or feeds show.
+**Move**: name the reference group; estimate the cost of ownership (time, upkeep, storage, insurance) against uses per month; set in advance what share of any raise goes to savings; say in one sentence what the money is for. [ch15] (position)
+**Cost**: fewer visible signals of status.
+**Not when**: the purchase meets a practical need against a real standard.

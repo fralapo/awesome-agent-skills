@@ -11,6 +11,9 @@ Figures are dated snapshots; re-check. "Position" = judgment, not fact. Chapter 
 | A crisis is in the news | Promise to pay, backing asset, mismatch, trigger, loss-sharing rule [ch06] |
 | A market moved on data | Surprise versus consensus, which rate channel, which shock family [ch14] |
 | The curve inverted or steepened | Expectations plus term premium; bull or bear steepening; timing unreliable [ch14] |
+| A digital money or CBDC is proposed | Name the design (retail or wholesale, holding limits, remuneration) and its effect on bank deposits [ch15] |
+| Inequality is rising, or a rich-poor figure is quoted | Mean or median? stock or flow? which survey, year and denominator? [ch16] |
+| Is the pension system sustainable? | Dependency ratio, replacement rate for the median, which part is assistance [ch17] |
 
 ## Money and Central Banks
 | Item | Rule of thumb | Watch for |
@@ -90,6 +93,29 @@ Figures are dated snapshots; re-check. "Position" = judgment, not fact. Chapter 
 | Resource curse | Dutch disease, rentier state, price-tracking spending [ch11] | Funds and rules as counter-example |
 | Aid | Modest growth effect; better for specific harms [ch11] | Lags, reverse causality |
 | Fertility | Replacement about 2.1 to 2.3 births per woman [ch11] | Projections date |
+
+## Digital Money and Payments
+| Item | Rule of thumb | Watch for |
+|---|---|---|
+| Bank deposit | Bank liability, convertible to cash at par; the main form of money [ch01, ch15] | Insurance limits differ by country |
+| Reserves | Bank deposits at the central bank; settle between banks [ch02, ch15] | Not held by households |
+| Stablecoin | Safe only as far as its reserves are liquid, valued and redeemable [ch15] | Reserve quality and redemption rules |
+| Payment network | Two-sided network effects; concentration raises fees [ch15] | Switching costs and interoperability |
+| Retail CBDC | Central bank claim for the public; a rate or a generous limit makes it a savings product [ch15] | Deposit flight in a stress |
+| Wholesale CBDC | Settlement among banks, as reserves do now [ch15] | Limited direct effect on households |
+| Cash | Only money with no intermediary and no record [ch15] | Handling cost against privacy |
+
+## Inequality, Wealth and Pensions
+| Item | Rule of thumb | Watch for |
+|---|---|---|
+| Mean versus median | Mean is pulled by the top; median is the typical household [ch16] | Quoting one as the other |
+| Stock versus flow | Wealth accumulates from income and gains; income is a flow [ch16] | Comparing them directly |
+| Asset-owner channel | Asset purchases and low discount rates lift owners' assets first [ch16, ch02] | Employment effects work the other way |
+| Positional goods | Fixed supply makes competition zero-sum; spending rises, positions do not [ch16] | Supply expansion is the usual remedy |
+| Pay-as-you-go | Current workers fund current pensions; depends on the dependency ratio [ch17] | Notional balances are not funds |
+| Replacement rate | Pension over earnings; judge the median and short careers [ch17] | Mixed denominators |
+| Assistance versus contributory | Reclassifying spending moves the deficit, not the total [ch17] | Hidden assistance cost |
+| Tax incidence | The less elastic side bears more of a tax, whoever pays it to the state [ch10] | Short-run prices can be sticky |
 
 ## Market Transmission
 | Channel | Mechanism | Watch for |

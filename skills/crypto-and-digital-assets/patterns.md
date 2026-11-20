@@ -79,3 +79,27 @@ Recurring situation -> move. Each entry: When / Move / Cost / Not when. Chapter 
 **Move**: write the definition, source, venue and lag; check the reading against an observed event series; state the falsifier before using it. [ch11]
 **Cost**: less immediate answers.
 **Not when**: the metric is used only to describe current positioning, with no timing claim.
+
+## 14. A fixed daily or monthly return promised
+**When**: an interface or a message advertises a rate per day or per month.
+**Move**: compound the rate to a year and to the target multiple; ask where the payer's cash comes from; check whether the figure is net of losses and measured from a stated base. [ch10]
+**Cost**: the offer disappears from consideration.
+**Not when**: the figure is a simple, one-time return on a fixed amount, verifiable through statements.
+
+## 15. A new token with a large displayed value
+**When**: a recently launched token shows a high market value or a rapid price rise.
+**Move**: check who can create or freeze supply, who holds the pool's liquidity tokens and whether they are locked, how deep the pool is in the base asset, what fees each trade pays, and what the largest holders can sell. [ch13]
+**Cost**: most new tokens are skipped.
+**Not when**: the asset is traded on a deep, independent venue with fixed supply and no concentrated holdings; the other checks still apply to its custody.
+
+## 16. A digital balance called "crypto"
+**When**: a wallet, app or account is described as holding digital money or digital assets.
+**Move**: identify whether the balance is a claim on a company or bank, or bearer value under the holder's keys; check what happens if the provider fails; check the convenience spread on entry and exit. [ch12, ch05]
+**Cost**: sometimes a slower or costlier route.
+**Not when**: the holder already controls the keys and has tested recovery (ch03).
+
+## 17. A price with no anchor
+**When**: an asset with no cash flows is priced or justified by a model, a cycle or a target.
+**Move**: write what the price depends on (expected demand, use, cost basis of holders); run the two tests in 8.11; size the position from a loss budget, not from a target. [ch08, ch11]
+**Cost**: no fair value to quote.
+**Not when**: the asset has a verifiable cash-flow claim; then the discounting logic in `investing-and-financial-history` ch05 applies, with its caveats.

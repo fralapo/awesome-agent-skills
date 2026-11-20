@@ -20,6 +20,12 @@ Educational concepts, not advice, signals or forecasts. Parameters are conventio
 | How does this leveraged product die? | Barrier, reset, margin call or issuer default [ch10] |
 | How do two structured products compare? | Same thresholds, minimum buffer, coupon yield on market price, scenario grid [ch11] |
 | Does a similar past path predict? | Analog statistics are historical frequencies with a sample size, not a forecast [ch04] |
+| How much of my size is too much? | Compare position with the loss budget, and the Kelly fraction with a fraction of it [ch06] |
+| Why do I lose with a 90% win rate? | Check the size of the rare loss against the frequent gain [ch08, ch10] |
+| Does my order move the price? | Yes, less than proportionally to size; compare with daily volume [ch12] |
+| Can I exit this position quickly? | Days to liquidate = position / (volume x participation) [ch12] |
+| Is the same return on a higher price good? | Split returns into earnings growth and change in the multiple [ch13] |
+| Is a rate regime a timing call? | No; define it in advance and test each regime net of costs [ch13] |
 
 ## Figures to Keep in Mind (conventions and worked examples)
 | Item | Value | Where |
@@ -42,6 +48,16 @@ Educational concepts, not advice, signals or forecasts. Parameters are conventio
 | Fixed 7x, underlying +2% then -2% | underlying 99.96, product 98.04 | ch10 |
 | Binary 81 win / 100 loss | break-even win rate about 55% | ch10 |
 | Coupon 1% a month | 12% a year before losses (simple, no compounding) | ch11 |
+| Leverage wipe-out move (about 1 / L) | 10x at -10%; 25x at -4%; 7x at -14.3% | ch06 |
+| Kelly, even money, p = 0.6 | f* = 0.2; growth about +0.020 per bet at 0.2, about -0.034 at 0.5 | ch06 |
+| 10% a month, annual equivalent | about 214% a year, compounded | ch08 |
+| Doubling in three months | about 26% a month, compounded | ch08 |
+| 1% a day, compounded for 365 days | about 3,678% (37.8 times) | ch08 |
+| Premium selling: 19 wins of +1, one loss of 30 | net -11 with a 95% hit rate | ch10 |
+| Square-root impact: 4x the size | about 2x the impact | ch12 |
+| Days to liquidate: 525 / (150 x 20%) | about 17.5 trading days (illustrative) | ch12 |
+| Bond with duration 7, yield +1 point | price about -7% | ch13 |
+| Earnings x2, multiple / 2 | price about flat over the period | ch13 |
 
 ## Formulas
 - Break-even win rate = 1 / (1 + R); expectancy = p x average win - (1 - p) x average loss - costs [ch06]
@@ -57,6 +73,15 @@ Educational concepts, not advice, signals or forecasts. Parameters are conventio
 - Buffer to a level = (price - level) / price, on the worst underlying; the minimum buffer governs [ch11]
 - Present value = amount / (1 + rate)^years [ch09]
 - Shareholder yield = dividend yield + net buyback yield + net debt reduction [ch09]
+- Kelly fraction f* = (b p - (1 - p)) / b; at even money 2p - 1 [ch06]
+- Expected log growth g(f) = p ln(1 + b f) + (1 - p) ln(1 - f) [ch06]
+- Wipe-out move for leverage L is about 1 / L of notional [ch06]
+- Annual equivalent of a monthly rate m = (1 + m)^12 - 1; periodic rate to multiply by k in n periods = k^(1/n) - 1 [ch08]
+- Price impact about c x volatility x sqrt(Q / V) [ch12]
+- Days to liquidate = position / (average daily volume x participation rate) [ch12]
+- Bond price change about -duration x change in yield [ch13]
+- Price return about earnings growth + change in the price-to-earnings multiple [ch13]
+- Rough skill test: t = mean excess return / (tracking error / sqrt(years)) [ch13]
 
 ## Red Flags (any of these: verify before relying on a method)
 - A result from one account, one period or one month [ch08]
@@ -67,3 +92,8 @@ Educational concepts, not advice, signals or forecasts. Parameters are conventio
 - Barrier chosen far away "to avoid being stopped" [ch10]
 - Headline coupon compared without thresholds, memory, call terms and issuer [ch11]
 - Performance shown by the seller of the product or indicator [ch08]
+- Referral fee per deposit, or a copy function that scales a leader's leverage into your account [ch08]
+- Net result quoted from a peak, or an "average" return across up and down periods [ch08]
+- High win rate on a short premium, with the size of the rare loss not shown [ch10]
+- Liquidity that is shown in calm markets but not described for stress [ch12]
+- A known index-rule date presented as an unexplained price event [ch12]

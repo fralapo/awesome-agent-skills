@@ -28,6 +28,10 @@ Figures are approximate and not verified; re-test. "Position" = interpretation, 
 | Partner conflict about small things | Look for the understory [ch09, ch10] |
 | Fear of being disliked | Choose values you control; tolerate disapproval [ch10] |
 | A project failed | Which kind of failure? Hypothesis? Was it small? [ch11] |
+| Big choice with a bad-case fear | Write a decision record; size the bet so a bad run is survivable [ch13] |
+| Too many options, cannot choose | Set criteria before browsing; accept good enough; keep the set small [ch13] |
+| Strong view after a short read | Name your depth of study; read the primary source and one dissenting one [ch14] |
+| Spending keeps rising with income | Name the reference group; fix the share of any raise for savings before it arrives [ch15] |
 
 ## Evidence Table (read before quoting)
 | Claim | Status | Note |
@@ -55,6 +59,13 @@ Figures are approximate and not verified; re-test. "Position" = interpretation, 
 | "Never give up" is sound advice | Position | Survivorship bias; quitting can be healthy [ch11] |
 | Laziness is suppressed feeling or chronic stress | Position | Check sleep, health, load first [ch12] |
 | Three types of failure | Practitioner framework | [ch11] |
+| Ruin in a fair repeated game with finite capital | General knowledge (probability theorem) | Holds against an unlimited opponent; the logic applies to any repeated risk [ch13] |
+| Choice overload lowers satisfaction and raises deferral | Contested | Effect size varies by domain; criteria-first helps regardless [ch13] |
+| Regret surveys by age | Observational, biased | Survivorship bias; regrets are linked and hard to isolate [ch13] |
+| Positional spending drives arms races | Position | Theoretical argument; size of wellbeing effect unclear [ch15] |
+| Income raises lose their effect on mood | Observational, contested | Plateau size disputed [ch15] |
+| Junk information activates reward like useful content | Experimental, partial | Size in real feeds unknown [ch14] |
+| Early news reports are often revised | General knowledge | Wait for the primary source [ch14] |
 
 ## The Saturation Routine (ch02)
 1. Name it: "I am saturated."

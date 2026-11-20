@@ -147,3 +147,39 @@ For an individual household: compare yearly cash flows (rent vs owner costs plus
 **Move**: compare the reading with consensus and with its revision; sort the shock family; name the channel (discount rate, policy path, currency); check what was already priced. [ch14]
 **Cost**: a less tidy story.
 **Not when**: the question is about the level of a series, not about a market reaction.
+
+## 25. A new digital money is proposed
+**When**: a central bank digital currency, a stablecoin or a payment rail is presented as a fix for payments or savings.
+**Move**: name the issuer and the redemption promise; state the design (retail or wholesale, account or bearer, holding limits, remuneration); trace the effect on bank deposits in a stress; ask who runs the rails and earns fees; name the privacy rules; check the project's current status. [ch15]
+**Cost**: a slower verdict.
+**Not when**: the question is only the technical operation of an already-specified and audited system.
+
+## 26. A rich-poor figure in a headline
+**When**: an inequality or wealth statistic is quoted to make a point.
+**Move**: check the statistic (mean or median), the unit (household or person), the stock or flow, the survey and its coverage of the top, and the denominator; find the rival explanation that predicts the same figure. [ch16]
+**Cost**: fewer quotable numbers.
+**Not when**: the source and definitions are stated and consistent with the claim.
+
+## 27. Easy money and the wealth gap
+**When**: a claim says a central bank policy widened inequality, or that a tax on wealth is the cure.
+**Move**: separate the asset-owner channel from the employment and borrowing channels; identify which dominated in the period; state the position and its rival; keep the stability objective separate from the distributional one. [ch16, ch02]
+**Cost**: an untidy answer.
+**Not when**: the policy's distributional effect has been measured directly.
+
+## 28. Everyone spends more to keep their place
+**When**: families or firms raise spending on scarce goods (schools, neighbourhoods, premium services) without a change in relative position.
+**Move**: identify the positional good and its fixed supply; show the collective-action result; ask whether supply can expand; compare the costs with the benefit to the relative outcome. [ch16, ch10]
+**Cost**: policy becomes more complex.
+**Not when**: the good's supply can be expanded at low cost, or position does not matter to the outcome.
+
+## 29. A pension system is called a Ponzi scheme
+**When**: an argument compares a public pension system to a Ponzi scheme, or a reform promises that a notional balance is "yours".
+**Move**: separate the mechanism (PAYG, notional account, funded) from the label; test the dependency ratio, the replacement rate for the median, and which part is assistance; name the rival assumption. [ch17]
+**Cost**: a longer answer.
+**Not when**: the system is fully funded and the claim is about its assets.
+
+## 30. A tax is said to fall on the party that pays it
+**When**: a tax on sellers, employers or importers is presented as burdening only the party that pays it to the state.
+**Move**: sketch the supply and demand response; ask which side is less responsive; estimate the split; then compare with the time horizon and the market structure. [ch10]
+**Cost**: an incidence argument needs data on elasticities.
+**Not when**: the market is effectively a monopoly with fixed prices or there is no response to price.

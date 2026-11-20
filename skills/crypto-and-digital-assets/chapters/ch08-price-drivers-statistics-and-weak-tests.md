@@ -55,6 +55,13 @@ Diversification reduces risk only if added assets are not more volatile than the
 | Retail attention (search interest, lay press) | FOMO | Pro-cyclical (position: contrarian indicator) |
 | Supply schedule | Issuance changes | Small direct effect (ch02, 2.7) |
 
+## 8.11 Valuation without cash flows and bubble dynamics (position)
+- **Thesis**: an asset with no cash flows and no claim on an issuer's profits has no anchor in its own accounts; its price is what the next buyer will pay, supported by use and expectations.
+- **Mechanism**: when an asset pays nothing, price depends on expected future demand. A reflexive loop can form: rising prices attract buyers who expect further rises, and their buying confirms the expectation until it stops. A bubble, in this sense, is a price persistently above any level the holders could justify by use or by the cost of their own holdings. Two tests help without requiring a fair-value model: (1) whether use (transactions, active users, fees paid in the asset) grows at the same pace as price; (2) whether the price falls toward the cost basis of the largest group of holders, a level that can be estimated from on-chain data (ch11). A fall of 90% does not by itself prove that a bubble existed or that it has ended, because a price can remain far above any anchor for a long time.
+- **Trade-off**: without an anchor, valuation gives no fair price, so the tool is the loss budget and the size cap (ch11, 11.9) rather than a target. The cost is that a position can be sized correctly and still lose most of its value.
+- **Position**: some hold that networks with fees or a usage base have a value that can be discounted, and that the discount-rate logic applies to them. The rival view is that the estimated cash flows depend on adoption assumptions that cannot be tested, so the result is a story, not a valuation.
+- **Does not hold when**: the asset distributes a stated cash flow with a verifiable source; then the discounting logic of `investing-and-financial-history` ch05 and the fair-value notes in `trading-methods-and-technical-analysis` ch09 can be applied, with the same caveats about forecasts.
+
 ## Common mistakes
 - Quoting a correlation with no control for time.
 - Presenting a pattern from three events as law.

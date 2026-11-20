@@ -1,6 +1,6 @@
 ---
 name: software-engineering-practice
-description: "Software engineering practice for developers and team leads: continuous delivery and pipelines, continuous integration versus feature branching, test-driven development, test design and flaky tests, coupling, cohesion and complexity (code-level kinds too), design versus architecture and YAGNI, craft versus engineering, productivity metrics (DORA, SPACE), ownership and cognitive load, quality with AI coding agents, function-level design (parameter objects, policies, value objects), duplication, abstraction, patterns, composition over inheritance, SOLID and dependency injection, error handling and failing fast, engineering culture (tools, benchmarks) and career, motivation and burnout. Use when the user sets up a pipeline or branching strategy, learns or teaches TDD, fixes flaky tests, untangles coupling, debates over-engineering or DRY, simplifies a class design, chooses inheritance or composition, decides on error handling, picks metrics, or asks about developer growth. Separates facts from positions."
+description: "Software engineering practice for developers and team leads: continuous delivery and pipelines, continuous integration versus feature branching, test-driven development, test design and flaky tests, coupling, cohesion and complexity, design versus architecture and YAGNI, craft versus engineering, productivity metrics (DORA, SPACE), ownership and cognitive load, quality with AI coding agents, function-level design, duplication, abstraction, patterns, composition over inheritance, error handling and failing fast, engineering culture, careers and levels, hiring and offers, freelancing and startups, large-codebase ownership, motivation and burnout. Use when the user sets up a pipeline or branching strategy, learns or teaches TDD, fixes flaky tests, untangles coupling, debates over-engineering or DRY, simplifies a class design, chooses inheritance or composition, decides on error handling, picks metrics, prepares for a promotion or interview, or plans freelance or startup work. Separates facts from positions."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [practice, problem, or chapter number]
 ---
 
 # Software Engineering Practice
-**Chapters**: 14 | **Generated**: 2026-11-13
+**Chapters**: 17 | **Generated**: 2026-11-13
 
 ## Role and Boundaries
 
@@ -19,10 +19,10 @@ This skill **decides how to work and reason as a software engineer**: how to org
 | Pipeline stages, branching and integration frequency, test strategy, TDD habits, coupling analysis, design-versus-architecture reasoning, metrics choice, ownership model, cognitive load diagnosis | System design of distributed systems (consistency, sharding, caching, messaging, resilience mechanics) and agent/RAG architecture -> `software-architecture` |
 | Engineering discipline around AI-written code (examples, test lists, gates) | Working loop with coding agents, context, prompts, reviewing and token cost -> `coding-with-agents` |
 | Function-level design, duplication, composition, injection, error handling | Architecture-scale styles (layers, hexagonal, boundaries between services, resilience such as circuit breakers) -> `software-architecture` |
-| Career, motivation and burnout reflections | Medical or psychological care; organisational overload -> ch08 |
+| Career, motivation and burnout reflections | Medical or psychological care; organisational overload -> ch08; legal, tax or contract interpretation (ch15-16 give mechanisms only) |
 | How to reason about quality and measurement | Running the workshop that agrees priorities -> `workshop-facilitation`; interface and flows of the product -> `ux-ui-expert` |
 
-**Stay in lane.** The chapters hold practitioner theory, not benchmarks. Figures are dated, context-bound snapshots; many outcome claims come from survey research and show correlation, not controlled proof. Where a point is unverified, the text says "unverified".
+**Stay in lane.** The chapters hold practitioner theory, not benchmarks; ch15-16 give no legal, tax or contract advice and no figures for thresholds or rates. Figures are dated, context-bound snapshots; many outcome claims come from survey research and show correlation, not controlled proof. Where a point is unverified, the text says "unverified".
 
 ## Facts vs Positions
 
@@ -50,6 +50,10 @@ Diagnose before prescribing: ask about team size, release frequency, current bra
 | Exceptions, fail fast, raise vs return nothing | [ch12](chapters/ch12-error-handling-and-failing-fast.md) | ch10 |
 | Tools mastery, learning a language, benchmarks, internals | [ch13](chapters/ch13-engineering-culture-tools-and-benchmarks.md) | ch07 |
 | First job, motivation, burnout | [ch14](chapters/ch14-career-motivation-and-sustainability.md) | ch08, ch13 |
+| Levels, promotion, calibration, team moves, performance reviews | [ch15](chapters/ch15-careers-levels-hiring-and-offers.md) | ch08 (ownership), ch14 |
+| Hiring from either side, interview design, CV signals, offers, contracts, layoffs | [ch15](chapters/ch15-careers-levels-hiring-and-offers.md) | ch14 (first job) |
+| Freelance pricing, client concentration, startup validation, funding terms, exits | [ch16](chapters/ch16-independent-work-startups-and-business.md) | ch15, ch14 |
+| Monorepo, code owners, readability approval, feature flags, legacy code, first design, learning by rebuilding | [ch17](chapters/ch17-large-codebases-ownership-and-team-learning.md) | ch05, ch09, ch13 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -85,6 +89,9 @@ Diagnose before prescribing: ask about team size, release frequency, current bra
 12. [Error handling and failing fast](chapters/ch12-error-handling-and-failing-fast.md)
 13. [Engineering culture, tools, learning and benchmarks](chapters/ch13-engineering-culture-tools-and-benchmarks.md)
 14. [Career, motivation and sustainability](chapters/ch14-career-motivation-and-sustainability.md)
+15. [Careers, levels, hiring and offers](chapters/ch15-careers-levels-hiring-and-offers.md)
+16. [Independent work, startups and building a business](chapters/ch16-independent-work-startups-and-business.md)
+17. [Large codebases, ownership and team learning](chapters/ch17-large-codebases-ownership-and-team-learning.md)
 
 ## Topic Index
 
@@ -113,6 +120,21 @@ Diagnose before prescribing: ask about team size, release frequency, current bra
 - **Test pyramid, test deciderata** -> ch04
 - **YAGNI, succession problem** -> ch06
 - **You build it, you run it, on-call** -> ch08
+- **Calibration, rating budgets, PIP, promotion case** -> ch15
+- **Team matching, internal moves, visibility** -> ch15
+- **Interview loops, structured interviews, work samples, CV screens** -> ch15
+- **Offer comparison, equity risk, negotiation of package** -> ch15
+- **Contracts: IP clauses, NDAs, declaring side projects** -> ch15
+- **Layoffs, restructuring, hours versus impact** -> ch15
+- **Freelance non-billable time, packages, cash buffer** -> ch16
+- **Cash business versus equity business lens** -> ch16
+- **Venture model, funding terms, primary versus secondary, earn-outs** -> ch16
+- **Subscription versus one-off pricing software** -> ch16
+- **Code owners, readability approval, pre-submit style checks** -> ch17
+- **Feature flags as deployment switch, metric ramps** -> ch17
+- **Legacy code, characterisation before change, dependency rot** -> ch17
+- **First design is wrong, when informal coordination stops working** -> ch17
+- **Rebuild a small system, 80/20, framework hopping** -> ch17
 
 ## Related Skills
 
@@ -122,4 +144,4 @@ Diagnose before prescribing: ask about team size, release frequency, current bra
 
 ## Scope & Limits
 
-Practical theory about continuous delivery, integration, testing, TDD, design (function level and incremental), abstraction and patterns, error handling, engineering culture and career, productivity measurement, team ownership and AI-assisted development. Not covered: tool-specific pipeline configuration, language-specific testing frameworks, security and compliance engineering, estimation and project management, medical or psychological advice. Chapters 10 to 12 use a Python-like language for examples; chapters 13 and 14 are practitioner opinion and personal experience, marked as positions. Evidence for several claims is survey correlation or practitioner experience; AI-agent findings are early and model-dependent. The skill gives no legal, compliance or cost guarantee.
+Practical theory about continuous delivery, integration, testing, TDD, design (function level and incremental), abstraction and patterns, error handling, engineering culture and career, productivity measurement, team ownership and AI-assisted development. Not covered: tool-specific pipeline configuration, language-specific testing frameworks, security and compliance engineering, estimation and project management, medical or psychological advice. Chapters 10 to 12 use a Python-like language for examples; chapters 13 to 17 are practitioner opinion and personal experience, marked as positions (ch15-16 on careers and independent work are mechanisms, with no tax, legal or contract advice and no dated figures). Evidence for several claims is survey correlation or practitioner experience; AI-agent findings are early and model-dependent. The skill gives no legal, compliance or cost guarantee.

@@ -1,6 +1,6 @@
 ---
 name: behavior-and-decision-science
-description: "Behavioural and decision science for everyday judgment and performance: biases and judgment (experiencing versus remembering self, peak-end, focusing illusion, scout versus soldier mindset, illusion of continuity of the future self), deciding under stress, how emotions are constructed and regulated, stress mindset, memory (encoding, memory palace, reconstructive and false memory), performance under pressure and flow, habit loops, willpower, boredom and attention, creativity and solitude, listening, argument, conflict and introversion, emotional maturity, love as a skill, Stoic practice, and failure and learning. Use when the user asks why people decide, remember, feel, argue or change as they do, wants to design habits, prepare for pressure, run a hard conversation, evaluate a pop-psychology claim, or learn from failure. Separates experiment from popular opinion and flags contested or non-replicated claims. No clinical or medical advice."
+description: "Behavioural and decision science for everyday judgment and performance: biases and judgment (experiencing versus remembering self, peak-end, scout versus soldier mindset, future self), decisions under uncertainty (luck versus skill, ruin, life choices), deciding under stress, forming opinions and trusting sources, money, status and positional spending, how emotions are constructed and regulated, stress mindset, memory (encoding, reconstruction, false memory), performance under pressure and flow, habit loops, willpower, boredom and attention, creativity and solitude, listening, argument, conflict and introversion, emotional maturity, love as a skill, Stoic practice, and failure and learning. Use when the user asks why people decide, remember, feel, argue or change as they do, wants to design habits, prepare for pressure, run a hard conversation, evaluate a pop-psychology claim, or learn from failure. Separates experiment from popular opinion and flags contested claims. No clinical or medical advice."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [behaviour, decision, conversation, or chapter number]
 ---
 
 # Behavior and Decision Science
-**Chapters**: 12 | **Generated**: 2026-11-14
+**Chapters**: 15 | **Generated**: 2026-11-14
 
 ## Role and Boundaries
 
@@ -57,6 +57,9 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 | Social comparison, curated feeds, "things were better before" | [ch01](chapters/ch01-decisions-and-judgment.md) (1.9) | ch10, ch12 |
 | Motivation that fades, discipline, fear of starting, what to do on bad days | [ch07](chapters/ch07-habits-boredom-and-attention.md) (7.9) | ch11 (11.8), ch12 |
 | Evaluate a pop-psychology claim | [cheatsheet.md](cheatsheet.md) (evidence table) | ch01, ch03 |
+| A risky or big choice, luck versus skill, "what if it goes badly?", where to live or what work to do, too many options | [ch13](chapters/ch13-decisions-under-uncertainty-and-life-choices.md) | ch01, ch11 |
+| "Is this true?", forming a strong opinion fast, viral or outraged content, trusting a source or a voice | [ch14](chapters/ch14-forming-opinions-and-trusting-sources.md) | ch09, ch04, ch12 |
+| Spending to keep up, wants shaped by peers, owning too much, money as freedom, borrowing | [ch15](chapters/ch15-money-status-and-relative-position.md) | ch01 (1.8-1.9), ch10, ch13 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -91,6 +94,9 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 10. [Relationships, emotional maturity and love as a skill](chapters/ch10-emotional-maturity-and-love.md)
 11. [Failure and learning](chapters/ch11-failure-and-learning.md)
 12. [Effort, procrastination, rest, time pressure and the attention economy](chapters/ch12-effort-rest-time-and-the-attention-economy.md)
+13. [Decisions under uncertainty and life choices](chapters/ch13-decisions-under-uncertainty-and-life-choices.md)
+14. [Forming opinions and trusting sources](chapters/ch14-forming-opinions-and-trusting-sources.md)
+15. [Money, status and relative position](chapters/ch15-money-status-and-relative-position.md)
 
 ## Topic Index
 
@@ -127,6 +133,14 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 - **Survivorship bias in persistence advice, quitting well** -> ch11 (11.8)
 - **Love bombing, bonding after a break, blame as alibi, adult friendship** -> ch10 (10.11, 10.12)
 - **Low drive as information, compulsive doing** -> ch12 (12.9)
+- **Luck versus skill, decision record, ruin and bet sizing, fragile edges** -> ch13 (13.1-13.3)
+- **Expected value versus the typical path, neutral prior and updating, life choices as design** -> ch13 (13.4-13.6)
+- **Regret as a guide, survivorship in advice, choice overload (contested)** -> ch13 (13.7-13.9)
+- **Depth of study before an opinion, junk information and reward, Goodhart in content** -> ch14 (14.1-14.2)
+- **Trust when signals are fakeable, source decay and archiving, probabilistic belief** -> ch14 (14.3-14.5)
+- **Checking the first version of a story, denominators** -> ch14 (14.6)
+- **Positional goods and arms races, lifestyle ratchet, income and satisfaction (contested)** -> ch15 (15.2-15.4)
+- **Displayed consumption, cost of ownership, time versus money, borrowing downside** -> ch15 (15.5-15.8)
 
 ## Related Skills
 
@@ -138,4 +152,4 @@ Diagnose before prescribing: what decision or behaviour, how much is at stake, h
 
 ## Scope & Limits
 
-Practical theory on decisions, emotions, learning and performance: judgment and decision science, emotion, stress, memory, habits, communication, relationships and failure. Not covered: choice overload mechanisms, perception as an interface rather than a view of reality, brain-to-brain coupling in communication, general rational-thinking toolkits and creative-on-demand workflows; clinical or medical care; legal advice. Replication status is noted from general knowledge where the field has well-known disputes; it is not a systematic review. Any specific number (percentages, thresholds, ratios) is the figure as stated, treat it as a dated snapshot.
+Practical theory on decisions, emotions, learning and performance: judgment and decision science, emotion, stress, memory, habits, communication, relationships and failure. Not covered: personal financial, tax or investment decisions (ch13-15 give mechanisms only), perception as an interface rather than a view of reality, brain-to-brain coupling in communication, general rational-thinking toolkits and creative-on-demand workflows; clinical or medical care; legal advice. Replication status is noted from general knowledge where the field has well-known disputes; it is not a systematic review. Any specific number (percentages, thresholds, ratios) is the figure as stated, treat it as a dated snapshot.

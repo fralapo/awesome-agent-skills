@@ -21,6 +21,11 @@ Educational concepts, not advice or forecasts. Figures are dated snapshots or wo
 | What does open interest show? | Commitment; rising with price means new positions; keep coin and currency units apart [ch11] |
 | Is this a taxable event? | Disposal or income receipt, not holding or own-wallet transfers [ch09] |
 | Is this a scam? | Unsolicited, urgent, irreversible, escalating fees [ch10] |
+| Is my balance mine? | Only if you hold the keys; otherwise a claim on the provider [ch12] |
+| Can offline digital cash be copied? | Yes; online checks prevent it, offline relies on hardware, limits and later reconciliation [ch12] |
+| Is this promised return real? | Compound it first; a daily rate gives an annual figure no source sustains [ch10] |
+| Is there an anchor for this price? | Without cash flows, none; size the position with a loss budget [ch08] |
+| Who controls this new token? | Mint, freeze and admin rights; pool depth and who holds its liquidity tokens [ch13] |
 
 ## Figures to Keep in Mind (dated, context-bound)
 | Statistic | Value | Where |
@@ -44,6 +49,10 @@ Educational concepts, not advice or forecasts. Figures are dated snapshots or wo
 | Step-up break-even (Italy, snapshot 2025) | price/cost basis > 3.25 | ch09 |
 | Pyramid arithmetic | 5 invitees per member, level 10 = 9,765,625 people | ch10 |
 | Recovery after a 70% fall | about +233% | ch11 |
+| 1% a day, compounded over 365 days | about 3,678% | ch10 |
+| 4,000 to 13,000 in nine days, implied daily growth | about 14% a day | ch10 |
+| Convenience spread, buy +5% and sell -5%, flat market | about -9.5% round trip | ch12 |
+| Creator fee of 5% on each side, flat market | about -9.75% round trip | ch13 |
 
 ## Formulas
 - Liquidation price = loan / (collateral quantity x threshold) [ch07]
@@ -52,6 +61,10 @@ Educational concepts, not advice or forecasts. Figures are dated snapshots or wo
 - Value levy = 0.2% x final value x days/365 [ch09]
 - Leveraged daily-reset fund: +x then -x gives factor 1 - x^2; at leverage 2, 1 - 4x^2 [ch08]
 - Annualised basis = (futures - spot) / spot x (365 / days to expiry) [ch11]
+- Compounded annual figure of a daily rate d = (1 + d)^365 - 1 [ch10]
+- Round-trip loss with a spread s on each side (buy at 1 + s, sell at 1 - s) = 2s / (1 + s) [ch12]
+- Round-trip loss with a creator fee f on each side at a flat price = 1 - (1 - f)^2 [ch13]
+- Displayed market value = price x total supply; realisable only up to what the pool can absorb [ch13]
 
 ## Red Flags (any of these: verify before acting)
 - Yield above the risk-free rate with no explanation [ch05, ch07]
@@ -61,3 +74,6 @@ Educational concepts, not advice or forecasts. Figures are dated snapshots or wo
 - Unlimited token approval request [ch07, ch10]
 - "Proof of reserves" without liabilities [ch05]
 - A liquidation map or a cycle date presented as an observed level or as certain [ch11]
+- A fixed daily or monthly return promised with no source or compounding shown [ch10]
+- A new token with mint or admin rights kept, or a pool holding a small base amount [ch13]
+- Bots buying in the first blocks, with a creator fee on every trade [ch13]

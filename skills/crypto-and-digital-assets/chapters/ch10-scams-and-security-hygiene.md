@@ -65,6 +65,12 @@ Do not pay anyone who promises to recover lost funds for an advance fee. Stop se
 | Medium | Phrase loss, SIM swap, malware | Hardware device, tested backups, app-based 2FA |
 | Large | Targeted attacks, coercion, succession | Multi-signature, geographic spread, legal planning |
 
+## 10.11 Compounding arithmetic in promises
+- **Thesis**: a promised daily or monthly rate, once compounded, produces numbers that no real strategy sustains; the arithmetic is a faster test than any due diligence.
+- **Mechanism**: a daily rate `d` compounds to `(1 + d)^365 - 1` over a year: 1% a day gives about 3,678% (37.8 times the capital). Working back, a claim that 4,000 became 13,000 in nine days implies a daily growth of `3.25^(1/9) - 1`, about 14% a day. Compounded, that rate would turn a small sum into an impossible one within weeks. A claim that gains of a few percent a day are "normal" is therefore a claim about the payer's cash flow, which must come from new deposits (10.4) or from a source that can be checked.
+- **Trade-off**: the arithmetic reveals the promise, not the intention of the promoter, and it does not check whether a real but smaller return exists.
+- **Does not hold when**: the figure is not compounded (a simple one-time gain on a fixed amount, stated as such and verifiable with statements).
+
 ## Common mistakes
 - Believing support staff who contact you first.
 - Trusting a screenshot of "profits".

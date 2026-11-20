@@ -25,6 +25,14 @@ Figures are rules of thumb or approximate values; re-test. "Position" = practiti
 | Motivation or burnout | Feeling versus action; look for causes, not holidays [ch14] |
 | Team celebrates lines or tokens produced | Measure what reaches users safely; verification is the bottleneck [ch8.9] |
 | Generated code piling up | Small gated changes, refactor step, human-owned architecture, deliberate deletion [ch9.9] |
+| Promotion case feels unfair or stuck | Written level, dated evidence per cycle, ask in writing what is missing [ch15] |
+| Interview signal is noisy | Fixed rubric, independent scoring, work sample, reasoning aloud [ch15] |
+| Offer looks good on paper | Net after local tax and living cost; variable pay and equity risk stated [ch15] |
+| Freelance income thin despite a good rate | Price the gross week; cap share from one client or channel [ch16] |
+| Startup plan rests on untested assumptions | List them; cheapest test that could prove each wrong [ch16] |
+| Shared repo, unclear approvals | Code owners per directory, automated style, readability only where idioms matter [ch17] |
+| Flags accumulate | Owner and removal date for each flag [ch17] |
+| Legacy code no one dares to touch | Characterisation tests, find the explanation, delete what no one can explain [ch17] |
 
 ## CD in One Table
 | Stage | Question | Tests | Target |
@@ -80,3 +88,7 @@ Abstract when the pieces mean the same and change for the same reason; prefer du
 - Return a provider's objects or errors from a wrapper.
 - Catch everything just in case.
 - Trust a micro-benchmark as production performance.
+- Judge a promotion by hours worked.
+- Price freelance work from billable hours alone.
+- Leave a feature flag without an owner and a removal date.
+- Sign a contract's IP or confidentiality clause without reading it.

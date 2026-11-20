@@ -1,6 +1,6 @@
 ---
 name: investing-and-financial-history
-description: "Conceptual and historical investing knowledge, not advice: risk and return, market efficiency and price formation, factors and stock picking, diversification and asset allocation, DCF, multiples and results against expectations, bonds and the yield curve, options and leveraged or structured products (mechanism only), behavioural finance, bubbles and crises with case cards, fraud and Ponzi schemes, decisions under uncertainty, financial mathematics, how to read a backtest, retirement saving and decumulation, and how to read market commentary and forecasts critically (conflicts, dated claims, track records). Use when the user asks why a market, bubble or fraud happened, how an instrument works, how to compare returns, whether a study or commentary is reliable, what the evidence says on index funds or value, or wants both sides of a contested claim. No recommendations, no forecasts."
+description: "Conceptual and historical investing knowledge, not advice: risk and return, market efficiency and price formation, factors and stock picking, diversification and asset allocation, DCF, multiples and results against expectations, bonds and the yield curve, options and leveraged or structured products (mechanism only), ETF and fund mechanics (replication, creation, lending, custody), fees and advice pay models, tax timing and withholding concepts, illiquid and gated private products, behavioural finance, bubbles and crises with case cards, fraud and Ponzi schemes, decisions under uncertainty and gambling expected value, financial mathematics, backtests, retirement saving, decumulation and saving-rate planning, and critical reading of commentary and forecasts. Use when the user asks why a market, bubble or fraud happened, how an instrument or fund works, what fees or tax timing do to returns, whether a study is reliable, or wants both sides of a contested claim. No recommendations, no forecasts."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [concept, historical case, claim to test, or chapter number]
 ---
 
 # Investing and Financial History
-**Chapters**: 15 | **Corpus**: theoretical transcripts, extended with applied-finance material | **Generated**: 2026-11-14
+**Chapters**: 20 | **Corpus**: theoretical transcripts, extended with applied-finance material | **Generated**: 2026-11-20
 
 ## Role and Boundaries
 
@@ -54,6 +54,14 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 | Is this backtest or study reliable? Overlapping windows, survivorship, tests, market timing | [ch13](chapters/ch13-backtesting-and-historical-evidence.md) | ch02, ch03, `scientific-thinking` |
 | FIRE, withdrawal rates, sequence risk, pension fund vs direct investing, annuities | [ch14](chapters/ch14-retirement-saving-and-decumulation.md) | ch04, ch12 |
 | Is this commentary, forecast or promotion reliable? Dated levels, track record, base rates, conflicts, source quality | [ch15](chapters/ch15-reading-market-commentary-and-forecasts-critically.md) | ch11, ch13, `trading-methods-and-technical-analysis` ch08 |
+| Replication, creation and redemption, premium or discount, spreads, securities lending, custody, synthetic swaps, index rulebooks, the passive spectrum | [ch16](chapters/ch16-etf-and-fund-structure-mechanics.md) | ch04 (4.12), ch13 |
+| Fee drag, entry charges, fees as a share of return, advice pay models, retrocessions, unit-linked cost layers, cost disclosures | [ch17](chapters/ch17-fees-advice-models-and-conflicts.md) | ch04 (4.12), ch15 |
+| Deferral, realised versus unrealised gains, loss netting, cost basis, withholding and treaty relief, dividends versus buybacks, exit-tax concepts | [ch18](chapters/ch18-tax-concepts-that-change-returns.md) | ch04 (4.13), ch14 (14.7-14.8) |
+| NAV versus market price, appraisal smoothing, gates and side pockets, private-market fee layers, evergreen vehicles | [ch19](chapters/ch19-illiquid-private-and-gated-products.md) | ch06, ch09, ch16 |
+| Saving rate as the main lever, order of operations, reserves by function, budgeting method errors, dated goals, written plan and review | [ch20](chapters/ch20-cash-flow-saving-rate-and-the-planning-process.md) | ch04 (4.14), ch14 |
+| Expected value of gambling, lotteries and prediction markets | ch11 (11.8) | ch13 |
+| Is "this time is different" testable? | ch09 (9.4) | ch05, ch15 |
+| Sunk cost, break-even anchoring, IKEA effect, defence of past choices | ch08 (8.8) | ch11 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -74,6 +82,7 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 14. **Count independent observations, not windows.** Overlap, survivorship and many tried rules inflate a backtest.
 15. **Saving is a right-tail problem, withdrawing a left-tail one.** The order of returns matters once money leaves.
 16. **Commentary is evidence about its speaker.** A forecast counts only when it was recorded, dated and scored.
+17. **Net every leak.** Fees, spreads, taxes on timing and withholding are paid whether or not the thesis works; compare net, after tax, over the same horizon.
 
 ## Chapter Index
 
@@ -92,6 +101,11 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 13. [Backtesting and historical evidence: how to read a study](chapters/ch13-backtesting-and-historical-evidence.md)
 14. [Retirement saving and decumulation](chapters/ch14-retirement-saving-and-decumulation.md)
 15. [Reading market commentary and forecasts critically](chapters/ch15-reading-market-commentary-and-forecasts-critically.md)
+16. [ETF and fund structure mechanics](chapters/ch16-etf-and-fund-structure-mechanics.md)
+17. [Fees, advice models and conflicts of interest](chapters/ch17-fees-advice-models-and-conflicts.md)
+18. [Tax concepts that change returns](chapters/ch18-tax-concepts-that-change-returns.md)
+19. [Illiquid, private and gated products](chapters/ch19-illiquid-private-and-gated-products.md)
+20. [Cash flow, saving rate and the planning process](chapters/ch20-cash-flow-saving-rate-and-the-planning-process.md)
 
 ## Topic Index
 
@@ -140,6 +154,32 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 - **Commentary, dated claims, conflicts of interest, forecast track record, base rates** -> ch15
 - **Guidance, sell the news, consensus expectations, trailing vs forward multiples** -> ch05, ch15
 - **Source quality, transcription and unit errors in secondary sources** -> ch15, ch13
+- **Active, systematic, passive: definitions and index rulebooks** -> ch16
+- **Authorised participants, premium and discount to NAV** -> ch16
+- **Custody, omnibus versus segregated, master-feeder** -> ch16
+- **Replication: physical, sampled, synthetic; counterparty and collateral** -> ch16
+- **Securities lending income, tracking difference, tracking error** -> ch16
+- **Advice pay models (AUM percentage, flat, hourly, commission, subscription)** -> ch17
+- **Break-even of entry charges, fee drag over a horizon** -> ch17
+- **Retrocession, share classes, distribution channels** -> ch17
+- **Unit-linked and insurance-wrapped cost layers, exit penalties** -> ch17
+- **Cost disclosure, questions to ask an adviser in writing** -> ch17
+- **Deferral and realisation, tax drag on compounding** -> ch18
+- **Loss netting, carry-forward, usable versus unusable losses** -> ch18
+- **Withholding tax, treaty relief, domicile effect** -> ch18
+- **Dividends versus buybacks (Modigliani-Miller)** -> ch18
+- **Estates, basis reset, exit tax concept** -> ch18
+- **NAV lag, appraisal smoothing, un-smoothing** -> ch19
+- **Gates, suspensions, side pockets, market closures** -> ch19
+- **Private equity fees, hurdle, catch-up, J-curve** -> ch19
+- **Saving rate and years to a target** -> ch20
+- **Order of operations (debt, reserve, investing)** -> ch20
+- **Budgeting methods and their error modes; cost per use** -> ch20
+- **Liquidity by function; credit lines in stress** -> ch20
+- **Investment policy statement, review cycle, life events** -> ch20
+- **Lottery return to player, roulette, prediction markets** -> ch11
+- **"This time is different": testable claims of a regime change** -> ch09
+- **Sunk cost, IKEA effect, break-even anchoring** -> ch08
 
 ## Related Skills
 
@@ -151,4 +191,4 @@ Diagnose before explaining: is the question a concept (what is X), a case (why d
 
 ## Scope & Limits
 
-Practical theory and history covering market efficiency, index and factor investing, risk, diversification and allocation, valuation, bonds (pricing, duration, options embedded in bonds, credit, currency), options and leveraged products, financial mathematics, backtest reading, retirement saving and withdrawal, behavioural finance, financial crises and frauds. Not covered: any person's portfolio, product selection or sizing, trading signals, digital-asset technology, and the tax rules or regulation of a specific country (those sit in dated, country-specific skills). Statistics come from US, Canadian and other developed-market datasets and from small simulations, quoted with their dates and samples; where a figure comes from a short sample it is labelled as such. Some mechanisms are general knowledge and are marked. Several chapters present contested positions with both sides; none gives a recommendation. Case summaries of frauds describe public, widely reported events briefly and neutrally. The skill gives no legal, tax or investment guarantee.
+Practical theory and history covering market efficiency, index and factor investing, fund and ETF structure, risk, diversification and allocation, valuation, bonds (pricing, duration, options embedded in bonds, credit, currency), options and leveraged products, fees and advice models, tax-timing concepts, illiquid and private products, financial mathematics, backtest reading, saving-rate planning, retirement saving and withdrawal, behavioural finance, financial crises and frauds. Not covered: any person's portfolio, product selection or sizing, trading signals, digital-asset technology, and the tax rules or regulation of a specific country (those sit in dated, country-specific skills). Statistics come from US, Canadian and other developed-market datasets and from small simulations, quoted with their dates and samples; where a figure comes from a short sample it is labelled as such. Some mechanisms are general knowledge and are marked. Several chapters present contested positions with both sides; none gives a recommendation. Case summaries of frauds describe public, widely reported events briefly and neutrally. The skill gives no legal, tax or investment guarantee.

@@ -25,6 +25,14 @@ Educational concepts and history, not advice or forecasts. Figures are dated sna
 | Is a high yield or promised return real? | Name the risk paid; trace the counterparty; check for new-money dependence [ch06, ch10] |
 | Is this commentary or forecast reliable? | Dated and recorded? Scored record? Base rate? Incentive? [ch15] |
 | Did the results beat the stock? | Against consensus and guidance, not against last year; the price may already discount it [ch05] |
+| What does this fund really cost me? | Expense ratio, spread, tracking difference, lending income, domicile withholding [ch16, ch18] |
+| Why does the ETF price differ from the holdings? | Authorised participants, thin or closed underlying markets, indicative NAV estimates [ch16] |
+| What do fees do over the horizon? | Ending-value factor, entry charge recovery, fee as a share of expected return [ch17] |
+| How is the adviser paid, and what conflicts follow? | Pay model, payments from product providers, share class, exit penalties [ch17] |
+| Does tax timing change the choice? | Deferral, netting, base, withholding, basis, exit rules [ch18] |
+| Is the stable price of this fund real? | NAV lag, appraisal smoothing, gates, side pockets, fee layers [ch19] |
+| How much should be saved? | Saving rate, years to target, order of operations, reserves by function [ch20] |
+| Is a "this time is different" claim testable? | Named mechanism, observable, falsifying test [ch09] |
 
 ## Figures to Keep in Mind (dated, context-bound)
 | Statistic | Value | Where |
@@ -50,6 +58,11 @@ Educational concepts and history, not advice or forecasts. Figures are dated sna
 | Duration 6, yield +1 point | price about -5.8% | ch06 |
 | Initial withdrawal rate calibrated to 30 years / to 50 years (this model) | about 4% / about 2% or somewhat more | ch14 |
 | Calibration check for a stated 70% | about 7 hits in 10 across many judgements | ch15 |
+| Ending-value factor of a 1% fee, 7% gross, 30 years | about 0.75 of the fee-free value (derived) | ch17 |
+| Ending-value factor of a 2% fee, 7% gross, 30 years | about 0.57 of the fee-free value (derived) | ch17 |
+| Entry charge of 3% recovered by a 1-point annual cost gap | about 3 years (derived) | ch17 |
+| Years to a target at 4% real return and 4% withdrawal (this model), saving 50% / 25% / 10% | about 18 / 35 / 59 years (derived; assumptions in ch20) | ch20 |
+| Single-zero / double-zero roulette return to player | about 97.3% / 94.7% of stakes | ch11 |
 
 ## Option Greeks
 | Greek | Measures | Note |
@@ -72,6 +85,10 @@ Educational concepts and history, not advice or forecasts. Figures are dated sna
 | Portfolio variance (2 assets) | `w1^2 V1 + w2^2 V2 + 2 w1 w2 Cov` | ch12 |
 | Required capital | spending / withdrawal rate | ch14 |
 | Forward versus trailing multiple | forward = price / next-year estimate; trailing = price / last twelve months | ch05 |
+| Fee drag on ending value | `((1 + g - f) / (1 + g))^n` | ch17 |
+| Years to recover an entry charge `c` from an annual cost gap `d` | `ln(1 / (1 - c)) / ln(1 + d)` | ch17 |
+| Annual growth when gains are taxed each year | about `g x (1 - t)`; deferral gives `(1 + g)^n` before one tax at sale | ch18 |
+| Withdrawal-rate capital and saving years | capital = spending / rate; years = `ln(1 + C r / S) / ln(1 + r)` for saving `S` a year | ch14, ch20 |
 
 ## Fraud Quick Signs
 Smooth high returns; opaque revenue; non-standard adjusted metrics; critics attacked; authority instead of evidence; urgency and secrecy; one person controls trading and settlement; dependence on new money; a fee to release funds; a famous face in an advertisement; a token that pays referrals.

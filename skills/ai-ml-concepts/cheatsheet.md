@@ -20,6 +20,10 @@ Figures are dated reported values or rules of thumb; they are dated snapshots, s
 | Which adaptation: prompt, retrieval, fine-tune? | Missing knowledge: retrieval; missing behaviour or format: fine-tune [ch08.17] |
 | Agent reads web pages or mail | Treat content as data; least privilege, isolation, approval for irreversible steps [ch15.18] |
 | Token bill keeps growing | Budget, kill switch, stable prompt prefix, cheap model for easy steps [ch15.19] |
+| "Cheaper per token, so the business is sound" | Separate per-request cost, next-model training cost and user acquisition; read cash flow beside profit [ch17] |
+| "Is this a bubble?" | Revenue against capital, margins at scale, cost per useful output, substitutes, falsifiers with dates [ch17.9] |
+| Students or staff can prompt but cannot check | Teach foundations first; oral or supervised defence; classify tasks as throughput or learning [ch18] |
+| Hiring or assessment flooded by AI applications | Work samples the person explains; a human reads the work [ch18.8] |
 
 ## Maths in One Line Each
 | Idea | Plain meaning | Chapter |
@@ -131,6 +135,10 @@ Figures are dated reported values or rules of thumb; they are dated snapshots, s
 | Poisoning | A small, roughly constant document count (one study: about 250) sufficed across sizes | ch11.17 |
 | Detectors of generated text | False positives; style tells are weak evidence | ch10.15 |
 | Steering strength | Too little: nothing; too much: broken fluency | ch11.18 |
+| Capex and cash | Hardware is paid now and depreciated later; profit can rise while cash falls | ch17.1 |
+| Heavy users | A flat plan can lose money on the users who consume most; limits, tiers or ads follow | ch17.3 |
+| Deskilling | A step that is always delegated is a step that stops being practised | ch18.1 |
+| Verification | You can check output only where you already know the domain, or where a checker decides | ch18.2 |
 
 ## Estimation Numbers Seen (as reported at the time; re-check)
 | Item | Value | Chapter |

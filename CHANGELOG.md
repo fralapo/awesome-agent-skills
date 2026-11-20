@@ -2,6 +2,14 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.34.0 (2026-11-20)
+
+- `investing-and-financial-history` grows to 20 chapters: ch16 (ETF and fund structure mechanics), ch17 (fees, advice models and conflicts of interest), ch18 (tax concepts that change returns), ch19 (illiquid, private and gated products), ch20 (cash flow, saving rate and the planning process); new sections in ch08 (sunk cost and ownership errors), ch09 (testing "this time is different") and ch11 (gambling expected value, prediction markets).
+- `economics-finance` gains ch15 (forms of money, payments and central bank digital currency), ch16 (inequality, wealth and the positional-competition trap), ch17 (pensions, pay-as-you-go and demographic funding) and a section on tax incidence in ch10.
+- `trading-methods-and-technical-analysis` gains ch12 (market microstructure, liquidity and flows) and ch13 (return distributions, anomalies and regimes) plus sections on ergodicity and Kelly sizing, seller incentives, compounding of promised returns and premium selling; `crypto-and-digital-assets` gains ch12 (digital money claims and convenience costs) and ch13 (token launches, memecoins and insider advantage) plus valuation-without-cash-flows and compounding-check sections.
+- `software-engineering-practice` gains ch15-ch17 (careers, levels, hiring and offers; independent work, startups and business; large codebases, ownership and team learning); `ai-ml-concepts` gains ch17 (economics of AI: capex, pricing and bubble tests) and ch18 (AI in learning, assessment and professional skill); `behavior-and-decision-science` gains ch13 (decisions under uncertainty and life choices), ch14 (forming opinions and trusting sources) and ch15 (money, status and relative position).
+- SKILL.md, cheatsheets, glossaries and patterns updated for all seven skills. Country-specific tax, pension and product rules are written as dated snapshots to re-check.
+
 ## 1.33.0 (2026-11-19)
 
 - `coding-with-agents` gains ch07 (context engineering and agent harness design: context as a budget, load/retrieve/externalize/compact/isolate, tool design, sub-agents, memory) and ch08 (evals, observability and production agents: eval design, judge pitfalls, tracing, failure taxonomy, retrieval quality, agent security); `ai-ml-concepts` ch15 and `software-engineering-practice` ch09 extended.

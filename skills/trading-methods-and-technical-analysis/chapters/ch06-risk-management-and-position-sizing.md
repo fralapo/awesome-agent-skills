@@ -60,6 +60,14 @@ In this model, risk management is **arithmetic decided before the trade**: where
 ## 6.10 Trading versus investing capital
 One reported allocation keeps most capital invested for the long term and a small share for trading; a recurring warning is never to put the whole of one's wealth into active trading. These are personal frames, not rules.
 
+## 6.11 Ergodicity, ruin and the Kelly fraction
+- **Thesis**: the average outcome across many possible accounts is not the outcome a single account experiences. With repeated, multiplicative bets the path decides, and some sizes lead to ruin even when each bet has a positive expected value.
+- **Mechanism**: betting the whole account on a coin with win probability `p` below 1 survives `n` rounds with probability `p^n`, which goes to zero as `n` grows. For a bet paying `b` per unit staked, with a fraction `f` of capital at risk, expected log growth per bet is `g(f) = p ln(1 + b f) + (1 - p) ln(1 - f)`. The Kelly fraction maximises it: `f* = (b p - (1 - p)) / b`, which at even money (`b = 1`) is `2p - 1`. Example: `p = 0.6` at even money gives `f* = 0.2`, with `g(0.2)` about +0.020 per bet; `g(0.5)` is about -0.034, so staking half the capital on a real edge destroys growth. Half of Kelly (0.1 here) gives about three quarters of the maximum growth, and much smaller drawdowns (general knowledge). Above `2 f*` the expected log growth is negative even with a true edge.
+- **Leverage ruin threshold**: a position with leverage `L` is wiped out by an adverse move of about `1 / L` of the notional, before buffers and fees: 10x at -10%, 25x at -4%, 7x at -14.3%. Whatever the direction the analysis was right about, the position is gone at that move.
+- **Trade-off**: Kelly needs `p` and `b`, which are estimated with error; full Kelly built on overestimated edges is too aggressive, so fractional Kelly is the usual response.
+- **Position**: whether Kelly-style sizing is useful for discretionary trading at all is contested. The rival view is that edges are too uncertain for the formula to be used literally, so a fixed small risk per trade (6.5) is the safer frame.
+- **Does not hold when**: outcomes are correlated (several bets are one bet, 6.8), losses are not bounded by a stop that is honoured, or `p` and `b` are unknown.
+
 ## Common mistakes
 - Choosing the lot before the stop.
 - Small targets and wide stops with a high hit rate.

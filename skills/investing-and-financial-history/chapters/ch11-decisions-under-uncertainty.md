@@ -49,6 +49,13 @@ In this model, a decision is judged by what was known and weighed **when it was 
 6. Check for fraud signs if you cannot verify the structure (ch10).
 7. Decide the rule for review and for what would change your mind.
 
+## 11.8 Gambles, lotteries and prediction markets: expected value and price as probability
+- **Thesis**: a game with a negative expected value loses on average however it is described; a market price can be read as a probability only under conditions that are often missing.
+- **Mechanism**: the return to the player (the share of stakes paid back on average) defines the expected value. A single-zero roulette wheel returns 36/37, about 97.3% of stakes; a double-zero wheel returns 36/38, about 94.7%. Lotteries return a fraction of stakes that varies by game and must be read from official figures; on average they return well under the stakes (check the official data for the game in question). A high return to the player is not a reason to play; it only reduces the average loss. Prediction markets price an outcome as a probability when they are liquid and participants trade on information. Thin markets can be moved by one participant, a large position can create an incentive to influence the event, and the price reflects money, not expertise (position on their informational value).
+- **Trade-off**: a game can be enjoyed for its own sake; the cost is the expected loss, which should be budgeted as entertainment, not as an investment.
+- **Counter-view**: some argue that prediction markets aggregate dispersed information better than polls or experts; others see them as gambling with social costs. Both are positions.
+- **Does not hold when**: the question is about information aggregation in a deep, well-monitored market, where the price is more likely to reflect probabilities.
+
 ## Common mistakes
 - Judging a decision by the last result.
 - Switching strategy right after the worst period.
