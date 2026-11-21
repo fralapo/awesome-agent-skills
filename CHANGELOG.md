@@ -2,6 +2,11 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.35.0 (2026-11-21)
+
+- New skill `pattern-making-and-sewing` (8 chapters): basic drafting, blocks and draping; advanced drafting and manipulation; fit, measurements and alterations; sewing techniques, seams and construction; fabrics, notions, tools and repair; fashion design, illustration and study; commercial patterns, garments and trends; wardrobe, styling and working in fashion. Evidence labelled as practitioner consensus, observational, position or contested; measurements are starting points to confirm on a test garment.
+- README skill count 47 -> 48, plugin and marketplace versions bumped.
+
 ## 1.34.0 (2026-11-20)
 
 - `investing-and-financial-history` grows to 20 chapters: ch16 (ETF and fund structure mechanics), ch17 (fees, advice models and conflicts of interest), ch18 (tax concepts that change returns), ch19 (illiquid, private and gated products), ch20 (cash flow, saving rate and the planning process); new sections in ch08 (sunk cost and ownership errors), ch09 (testing "this time is different") and ch11 (gambling expected value, prediction markets).
