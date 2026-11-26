@@ -58,3 +58,11 @@ In this model, rest and tempo are second-order variables: choose values that let
 - **Regressing inside a session**: if quality or explosiveness drops, switch to an easier variant instead of grinding; in jump-type work, stop the jumps and keep the base movement.
 - **Trade-off**: effort is judged by feel, so the ladder needs honest ratings and a log; comparisons between people are weak.
 - **Does not hold when**: you can add external load in small steps; then double progression on weight is cleaner (7.4).
+
+## 7.9 Eccentric-only reps and isometric holds as rungs (position)
+- **Thesis (position)**: when a full repetition is out of reach, a slow lowering phase (a "negative") or a timed hold is a rung between the easier variant and the full rep.
+- **Mechanism**: the lowering phase can be controlled at loads above what you can lift, and a hold trains a position at a chosen joint angle; both are progressed by time under tension and by moving the angle toward the hard part of the range. Typical rules of thumb from practice: negatives of 3 to 5 seconds, a few sets of about 5 reps; holds measured in seconds and extended before the lever gets longer; moving to the concentric rep when the negative is smooth for the whole range (position, individual).
+- **Cost**: eccentric work causes more muscle soreness, so start with modest volume, increase gradually and avoid stacking with a hard session (see [ch09](ch09-fatigue-recovery-sleep-and-overtraining.md)).
+- **Long holds and "postural" training (contested)**: some coaches propose holds of one to three minutes, accumulated in short sets with a rest of about half the work time, to train endurance of postural muscles. This is a plausible endurance prescription, but the idea that it is the only route to a better posture, or that it prevents pain, is a position without good controlled evidence; see `biomechanics-and-rehab-reasoning` (ch09).
+- **Trade-off**: very high time per session; the hold measures endurance at one angle, so strength outside that angle may not improve (specificity, see [ch06](ch06-exercise-selection-specificity-and-range-of-motion.md) 6.2).
+- **Does not hold when**: the hold produces joint pain or the person holds the breath hard (see blood-pressure caution in a clinician's advice); then shorten the hold and breathe normally.

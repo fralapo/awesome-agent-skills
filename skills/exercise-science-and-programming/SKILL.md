@@ -45,6 +45,7 @@ Diagnose before prescribing: goal (size, strength, both, health), training histo
 | Reps, load, failure, RIR / RPE, effective reps | [ch05](chapters/ch05-intensity-proximity-to-failure-and-effective-reps.md) | ch07 |
 | Exercise choice, variations, range of motion, mind-muscle | [ch06](chapters/ch06-exercise-selection-specificity-and-range-of-motion.md) | ch10 |
 | No equipment or calisthenics: patterns, levers, adjusting difficulty | [ch06](chapters/ch06-exercise-selection-specificity-and-range-of-motion.md) (6.7) | ch07 (7.8), ch05 (5.5) |
+| Skill goals: handstand, L-sit, first pull-up; negatives and holds | [ch06](chapters/ch06-exercise-selection-specificity-and-range-of-motion.md) (6.8) | ch07 (7.9) |
 | Rest times, tempo, adding weight, linear progression, e1RM, stalls | [ch07](chapters/ch07-rest-tempo-and-progression.md) | ch08, ch11 |
 | Periodization, blocks, taper, when and how to deload | [ch08](chapters/ch08-periodization-and-deloads.md) | ch09 |
 | Fatigue, sleep, overtraining, "CNS fatigue", monitoring load, weight versus fat and appetite (concepts) | [ch09](chapters/ch09-fatigue-recovery-sleep-and-overtraining.md) | ch08 |
@@ -87,6 +88,8 @@ Diagnose before prescribing: goal (size, strength, both, health), training histo
 - **Autoregulation, RIR, RPE** -> ch05, ch07
 - **Barbell mechanics, form** -> ch10
 - **Bodyweight and calisthenics: movement patterns, leverage, variant ladders** -> ch06 (6.7), ch07 (7.8)
+- **Bodyweight skill goals (handstand, L-sit, first pull-up), compression and prerequisite drills** -> ch06 (6.8)
+- **Negatives (eccentric-only) and isometric holds as progression rungs; long "postural" holds** -> ch07 (7.9)
 - **Body weight versus body fat, satiety, energy balance (concepts only)** -> ch09 (9.8)
 - **Buffer from failure in skill and impact work** -> ch05 (5.5)
 - **Cardio interference** -> ch11

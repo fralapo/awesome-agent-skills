@@ -2,6 +2,12 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.36.0 (2026-11-26)
+
+- `exercise-science-and-programming` gains ch06 section 6.8 (skill-type bodyweight goals: prerequisites, compression strength, hand position, session order) and ch07 section 7.9 (eccentric-only reps and isometric holds as progression rungs, long "postural" holds as a contested prescription).
+- `biomechanics-and-rehab-reasoning` gains ch09 sections 9.9 (postural endurance, long holds and the shoulder-blade stabiliser model, with counter-arguments) and 9.10 ("deep core" claims, breathing and doming as a regression framework, with counter-arguments) and three entries in ch10 (sweeping percentages attributed to an authority, "stretching or injection alone" fixes, universal bans on flexion). SKILL.md indexes updated.
+- Theory only, source-free; positions are marked as contested and the skills still give no diagnosis or treatment.
+
 ## 1.35.0 (2026-11-21)
 
 - New skill `pattern-making-and-sewing` (8 chapters): basic drafting, blocks and draping; advanced drafting and manipulation; fit, measurements and alterations; sewing techniques, seams and construction; fabrics, notions, tools and repair; fashion design, illustration and study; commercial patterns, garments and trends; wardrobe, styling and working in fashion. Evidence labelled as practitioner consensus, observational, position or contested; measurements are starting points to confirm on a test garment.

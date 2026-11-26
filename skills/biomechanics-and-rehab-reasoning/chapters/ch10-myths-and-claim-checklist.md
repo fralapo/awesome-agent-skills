@@ -29,6 +29,9 @@ For each: claim, why it appeals, what the evidence suggests, and the best object
 - **"Static stretching always before sport"**: see ch05.
 - **"Corrective exercise fixes the movement"**: see ch07 and ch09; hypotheses, not facts.
 - **"Strong evidence for passive treatments because patients feel better"**: feeling better can come from care and expectation (ch08).
+- **"Most shoulder pain heals just by hanging" and similar sweeping percentages**: a round figure ("95%", "100% healed") attributed to an authority or to a small study is a red flag; ask for the design, group size, follow-up and who was excluded (ch01), and note that hanging may suit some shoulders and aggravate others. Treat it as a hypothesis to try gently, not as a cure (ch09, 9.9).
+- **"Injections or stretching alone fix rounded shoulders / neck tightness"**: both sides oversimplify; tightness is rarely the single cause of pain (ch09, 9.5), and a drug that relaxes a muscle does not retrain capacity.
+- **"Crunches shorten the abs and ruin posture" or "only deep-core drills count"**: contested positions (ch09, 9.10); the spine moves through many ranges and most people tolerate flexion; judge by symptoms and by what the person can do, not by a universal ban.
 
 ## 10.4 A checklist for judging a rehab claim
 Use the checklist in order; if a question cannot be answered, the claim is weaker.

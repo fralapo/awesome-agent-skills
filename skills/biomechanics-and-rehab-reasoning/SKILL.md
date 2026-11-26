@@ -87,6 +87,9 @@ Clarify the claim first: what is asserted, in whom, based on what comparison. Th
 - **Chronic back pain as capacity, stiffness and fear (model)** -> ch03 (3.7)
 - **Muscle capacity sharing load with passive structures, joint nutrition by movement** -> ch05 (5.11)
 - **Posture as automatic control, variation** -> ch09 (9.8)
+- **Postural endurance, long holds, shoulder-blade stabiliser model** -> ch09 (9.9)
+- **"Deep core" claims, breathing, doming** -> ch09 (9.10)
+- **Sweeping health claims with round percentages (hanging, stretching alone)** -> ch10 (10.3)
 - **Butt wink** -> ch07
 - **Central sensitisation, nociplastic pain** -> ch02
 - **Disc herniation stages** -> ch06, ch08
