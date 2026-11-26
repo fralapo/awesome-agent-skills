@@ -2,6 +2,13 @@
 
 Versions follow the plugin version in `.claude-plugin/plugin.json`.
 
+## 1.37.0 (2026-11-26)
+
+- New skill `vintage-electronics-repair` (8 chapters): triage and used-unit evaluation; safety reasoning and when to stop; tape transports and VCR mechanics; power supplies and electrolytic capacitors; hi-fi audio; analogue video and CRT; retrocomputers and decommissioned servers; test gear, 3D printing and laser cutting for spares. Contested practices are labelled; mains and high-voltage work is handed to a qualified technician.
+- New skill `ai-adoption-in-organizations` (7 chapters): order of adoption, staff training and key users, shared company knowledge and sensitive data, assistants on messaging channels, case studies and return, risks, comparing tools and models without hype. Evergreen: no product versions or prices.
+- `coding-with-agents` gains ch09 (long sessions and token budgets, agent environment setup, combining several agents) and ch10 (building and testing agents with workflow tools and tool protocols); SKILL.md, cheatsheet, patterns and glossary updated.
+- README skill count 48 -> 50, plugin and marketplace versions bumped. Theory only, source-free.
+
 ## 1.36.0 (2026-11-26)
 
 - `exercise-science-and-programming` gains ch06 section 6.8 (skill-type bodyweight goals: prerequisites, compression strength, hand position, session order) and ch07 section 7.9 (eccentric-only reps and isometric holds as progression rungs, long "postural" holds as a contested prescription).

@@ -54,5 +54,14 @@ Measure the fixed prefix (tool definitions included) · find the quality knee, c
 ## Evals and Production (ch08)
 Start from the failure that matters; test the not-do · deterministic checks first; judges calibrated on labelled cases · several runs per case: pass@k for retries, pass^k for experience · per-step reliability compounds along the path · trace every run; cluster failures by cause · protect verifiers from the agent's write scope · shadow mode, then staged rollout, thresholds fixed in advance · bounded retries, idempotent actions, kill switch.
 
+## Sessions, Tokens, Environment (ch09)
+Measure the fixed prefix at session start · one task per session · fix model and effort at the start · handoff file (goal, decisions and why, problems, files, open questions, next steps) instead of automatic compaction · instructions file = short index, rare procedures = skills · disable unused tool servers; CLI over protocol for local repeated work · pre-extract text from bulky documents in code · reasons instead of bare bans; goal and "done" criterion; interview first; sketch before build · hooks for what must always happen; secrets in env files; read downloaded skills before use · parallel sessions in separate working copies.
+
+## Combining Agents and Tools (ch09)
+Builder is not the judge · plan -> adversarial review by a second tool -> reply -> repeat -> human reads -> implement -> security review -> cross-check · blind-spot pass: read-only parallel explorers, four categories of unknowns, interview one question at a time · split by role, not by difficulty · sub-agents for bulk, teams only for truly parallel work, contract first · no merge without review.
+
+## Building and Testing Agents with Workflow Tools (ch10)
+Trigger -> steps -> output; code for logic and dates, model for judgement · generated workflow = skeleton · tool description = contract; one workflow per operation; publish/activate it · narrow scopes, expiring keys in env files · same embedding model both sides; sources and dates on chunks · availability and totals from tools, not words · test: plumbing (test vs production endpoint), each step, end to end, edge cases, misuse, repeat run, polling limits, scale gradually, human approval, logs and cost per task, kill switch.
+
 ## Hand-offs
-UI/UX decisions → `ux-ui-expert` · spec workshops → `workshop-facilitation` · pricing → `pricing-and-sales-negotiation` · visuals → `art-director` / `graphic-designer`.
+Roll-out in a company (training, company knowledge, customer assistants, return) → `ai-adoption-in-organizations` · UI/UX decisions → `ux-ui-expert` · spec workshops → `workshop-facilitation` · pricing → `pricing-and-sales-negotiation` · visuals → `art-director` / `graphic-designer`.

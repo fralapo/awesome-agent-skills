@@ -71,3 +71,33 @@ Recurring situation → move. Each entry: When / Move / Trade-offs. Chapter in b
 **When**: the demo works on a handful of cases.
 **Move**: repeated runs with pass^k by category; traces with cost per completed task; shadow mode first; staged rollout with thresholds fixed in advance; kill switch and bounded retries. [ch08, ch07]
 **Trade-offs**: a slower launch and fewer surprises.
+
+## Session is expensive and getting worse
+**When**: cost per task climbs, answers drift, the same constraints must be repeated.
+**Move**: check the fixed prefix at session start; split work into one task per session; keep model and effort fixed; write a handoff file (goal, decisions and why, problems, files, open questions, next steps) and start fresh instead of letting automatic compaction choose; turn rarely used instructions into skills and switch off unused tool servers. [ch09, ch07]
+**Trade-offs**: more discipline per task; the handoff file takes minutes and keeps what you chose to keep.
+
+## Two agents on one change
+**When**: a plan or a diff matters and one model wrote it.
+**Move**: let a second model or tool review adversarially (specific objective, such as the plan); the first answers; repeat until no objections; read the critiques yourself; implement; security review; final cross-check. Split roles (plan, build, review), not difficulty. [ch09, ch03]
+**Trade-offs**: two subscriptions or two runs; a different model family catches different errors.
+
+## Unknown codebase, risky change
+**When**: you are about to change code you do not fully know.
+**Move**: in a separate working copy, run several read-only explorers; list known knowns, known unknowns, unknown knowns and unknown unknowns; check for committed secrets and duplicate deploy paths; interview the owner one question at a time; show design options with fake data; then implement. [ch09]
+**Trade-offs**: an extra stage up front; hidden constraints surface before they cost a rewrite.
+
+## Parallel work by several agents
+**When**: backend and frontend, or independent modules, could proceed together.
+**Move**: write the contract first (shapes, endpoints); give each agent its own working copy and file ownership; use sub-agents when they need not talk, teams only when they must share a task list; review before merge. [ch09, ch07]
+**Trade-offs**: team token cost; sequential work does not benefit.
+
+## Building an automation with a workflow tool
+**When**: a recurring task (reply drafts, reports, lead handling) could run without you.
+**Move**: write the trigger, steps and "done"; code for logic, dates and lookups, model for judgement; let an assistant draft the flow but review it as a skeleton; expose it to the assistant as one workflow per operation with a contract-style description; scope keys and actions narrowly; test plumbing, each step, edge cases, misuse and repeat runs; ship as drafts with an approval point. [ch10, ch07]
+**Trade-offs**: slower than "it ran once"; avoids silent failures and unsafe effects.
+
+## Test endpoint works, production does not
+**When**: a flow passes in the editor but never fires from the real source.
+**Move**: check it is saved, published or activated and flagged available to the protocol; use the production endpoint in production; confirm credentials and schedule; inspect run history. [ch10]
+**Trade-offs**: five minutes; the most common cause.

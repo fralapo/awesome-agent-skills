@@ -1,6 +1,6 @@
 ---
 name: coding-with-agents
-description: "Practical theory for building software with AI coding agents, for designer-developers and product builders. Use whenever the user builds, reviews, tests or maintains code with an agent or chat model, decides how much to delegate or read, writes a spec or instructions file for an agent, asks how to verify AI-generated code (differential testing, invariants, agentic QA), worries about software quality, complexity, dependencies, rewrites or technical debt, asks what skills or career moves matter in the AI era (juniors, seniors, learning methods, mentoring, fatigue), or needs to understand how LLMs behave (sampling, reasoning, token cost, caching, model choice, local versus hosted, tool use, agent context and harness design, evals and production agents, unattended-agent safety, basic security of generated code such as authentication). Separates technical facts from positions and forecasts. Works with ux-ui-expert, workshop-facilitation and pricing-and-sales-negotiation."
+description: "Practical theory for building software with AI coding agents, for designer-developers and product builders. Use whenever the user builds, reviews, tests or maintains code with an agent or chat model, decides how much to delegate or read, writes a spec or instructions file, asks how to verify AI-generated code (differential testing, invariants, agentic QA), worries about quality, complexity or technical debt, asks what skills or career moves matter in the AI era, or needs LLM mechanics (sampling, token cost, caching, model choice, local versus hosted, tool use, context and harness design, evals, unattended-agent safety, security of generated code). Also covers long sessions and token use, agent environment setup (instructions, skills, memory, hooks), combining several agents, and building and testing automations with workflow tools and tool protocols. Separates facts from positions. Works with ai-adoption-in-organizations, ux-ui-expert and workshop-facilitation."
 allowed-tools:
   - Read
   - Grep
@@ -8,7 +8,7 @@ argument-hint: [situation, topic, or chapter number]
 ---
 
 # Coding with Agents
-**Chapters**: 8 | **Corpus**: ~60 practitioner notes on programming with coding agents, reviewing and testing AI code, software quality, learning and careers, and how LLMs work | **Generated**: 2026-11-12
+**Chapters**: 10 | **Corpus**: ~60 practitioner notes on programming with coding agents, reviewing and testing AI code, software quality, learning and careers, and how LLMs work, plus ~60 notes on session and token practice, agent environment, multi-agent setups and building agents with workflow tools | **Generated**: 2026-11-12, extended 2026-11-26
 
 ## Role and Boundaries
 
@@ -19,6 +19,8 @@ This skill **decides how to work with a coding agent or chat model**: how much t
 | Delegation level, spec and task shape, steering loop, instrumentation | What the product should look and feel like, flows, hierarchy, microcopy, AI-assisted UI and design-to-code handoff → `ux-ui-expert` |
 | How to verify AI output: differential tests, invariants, fuzzing, agentic QA, review by another model | Running a workshop to agree the spec, priorities or acceptance → `workshop-facilitation` |
 | Complexity, dependencies, rewrites, irreversible decisions, product focus | Pricing and selling AI-assisted work, one-time vs subscription as an offer → `pricing-and-sales-negotiation` |
+| Session hygiene, token trimming, agent environment (instructions, skills, hooks, memory), builder-versus-reviewer setups | Rolling AI out in a company: training, company knowledge, customer assistants, return on investment, tool comparison for the business → `ai-adoption-in-organizations` |
+| Building and testing agents and automations with workflow tools and tool protocols | Market, offer and funnel logic behind a customer assistant → `marketing-mba` |
 | Learning method, career positioning, team and cost governance (as positions) | Visual direction and identity → `art-director`, `creative-director`, `graphic-designer`; operating a freelance practice → `freelance-designer-ops` |
 | Sampling, tool use, tokens, model choice, local vs hosted, security checklist | Language- or framework-specific reviews, deep security audits, legal and licensing advice → specialist skills or professionals (not in this skill) |
 
@@ -50,6 +52,12 @@ Diagnose before prescribing: ask what is being built, how critical it is, whethe
 | Authentication or session code from an agent | ch06 section 7 | ch03 |
 | Context budget, tool design, memory, sub-agents, guardrails in the harness | ch07 | ch02, ch06 section 4 |
 | Measure an agent, trace failures, release it safely, retrieval quality, fine-tune or prompt | ch08 | ch07, ai-ml-concepts ch15 |
+| Session getting expensive or slow, trimming the fixed prefix, handoff files, model and effort settings | ch09 sections 1-4 | ch06 section 4, ch07 section 1 |
+| Set up the agent's environment: instructions file, skills, memory, hooks, permissions | ch09 section 6 | ch02, ch07 section 6 |
+| Use two agents or tools together, blind-spot pass, sub-agents vs teams | ch09 section 7 | ch03, ch07 section 5 |
+| Build an agent or automation in a workflow tool, connect it through a protocol server | ch10 sections 1-3 | ch07 sections 3-4 |
+| Test a built agent or workflow (endpoints, edge cases, misuse, scale) | ch10 section 8 | ch08, ch03 |
+| Roll AI out in an organization (training, company knowledge, customer assistants) | `ai-adoption-in-organizations` | ch10 |
 | Quick lookup | [cheatsheet.md](cheatsheet.md), [patterns.md](patterns.md), [glossary.md](glossary.md) | |
 
 ## The Core Principles (recurrence order)
@@ -77,11 +85,18 @@ Diagnose before prescribing: ask what is being built, how critical it is, whethe
 | [ch06](chapters/ch06-how-llms-work-for-practitioners.md) | How LLMs Work for Practitioners | sampling, reasoning and context, tool-use loop, token economics, model choice, local inference, security checklist, trust calibration |
 | [ch07](chapters/ch07-context-engineering-and-agent-harness-design.md) | Context Engineering and Agent Harness Design | context as a budget, load/retrieve/externalise/compact/isolate, tool design, protocol-style tools, sub-agent contracts, memory write gates, workflow vs agent, guardrails in code |
 | [ch08](chapters/ch08-evals-observability-and-production-agents.md) | Evals, Observability and Production Agents | outcome-first evals, calibrated judges, pass@k vs pass^k, regression gates, traces, failure taxonomy, autonomy ladder, agent security, retrieval quality, fine-tuning vs prompting |
+| [ch09](chapters/ch09-sessions-tokens-environment-and-multi-agent-practice.md) | Sessions, Tokens, Agent Environment and Combining Agents | what a session pays for, one task per session, handoff files, trimming the fixed prefix, prompting habits, environment components and hooks, builder vs reviewer, blind-spot pass, sub-agents vs teams |
+| [ch10](chapters/ch10-building-and-testing-agents-with-workflow-tools-and-protocols.md) | Building and Testing Agents with Workflow Tools and Protocols | workflow anatomy, build by hand vs assistant vs hybrid, protocol servers as a bridge, retrieval for builders, teams in a workflow tool, voice and chat agents, deterministic core, a ten-point test plan |
 
 ## Topic Index
 
 - **Agent says "done" but it is not** → ch02, ch03
+- **Agent environment: instructions file, hooks, skills, memory, permissions** → ch09 section 6, ch02
 - **Authentication, sessions, hashing** → ch06
+- **Builder vs reviewer, second model, blind-spot pass, agent teams** → ch09 section 7, ch03
+- **Testing a workflow or automation** → ch10 section 8, ch08
+- **Token trimming, handoff file, compaction vs rewind, model and effort changes** → ch09 sections 2-4
+- **Workflow tools, protocol servers, no-code agents, retrieval for builders** → ch10, ch07 section 4
 - **Code coverage, test strategy, random testing** → ch03
 - **Complexity, simplicity, technical debt** → ch04
 - **Context budget, compaction, memory, sub-agents** → ch07
@@ -107,6 +122,7 @@ Diagnose before prescribing: ask what is being built, how critical it is, whethe
 ## Related Skills
 
 - `ux-ui-expert`: the interface, flows and AI-assisted UI decisions the agent does not make.
+- `ai-adoption-in-organizations`: the organizational side: training, company knowledge, customer assistants, return and tool comparison.
 - `workshop-facilitation`: facilitating the sessions that produce a spec, priorities or acceptance criteria.
 - `pricing-and-sales-negotiation`: selling and pricing digital products and AI-assisted work.
 - `freelance-designer-ops`: operating a practice around the build work.
